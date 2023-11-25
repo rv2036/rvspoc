@@ -2,3 +2,48 @@ baseURL = 'https://rvspoc.org/'
 languageCode = 'zh-CN'
 title = 'RISC-V 软件移植及优化锦标赛'
 theme = 'ananke'
+
+defaultContentLanguage = 'zh'
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.zh]
+    contentDir = 'content/zh'
+    disabled = false
+    languageCode = 'zh-CN'
+    languageDirection = 'ltr'
+    languageName = '简体中文'
+    title = 'RISC-V 软件移植及优化锦标赛'
+    weight = 1
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'RISC-V Software Porting and Optimization Championship'
+    weight = 2
+  [languages.ru]
+    contentDir = 'content/ru'
+    disabled = false
+    languageCode = 'ru-RU'
+    languageDirection = 'ltr'
+    languageName = 'Русский'
+    title = 'Чемпионат по портированию и оптимизации программного обеспечения RISC-V'
+    weight = 3
+  [languages.ja]
+    contentDir = 'content/ja'
+    disabled = false
+    languageCode = 'ja-JP'
+    languageDirection = 'ltr'
+    languageName = '日本語'
+    title = 'RISC-V ソフトウェアの移植と最適化チャンピオンシップ'
+    weight = 4
+  [languages.ko]
+    contentDir = 'content/ko'
+    disabled = false
+    languageCode = 'ko-KR'
+    languageDirection = 'ltr'
+    languageName = '한국어'
+    title = 'RISC-V 소프트웨어포팅및최적화챔피언십'
+    weight = 5
