@@ -1,8 +1,8 @@
 +++
 title = '首届「RISC-V 软件移植及优化锦标赛」筹备工作正式启动，诚邀赞助'
 date = 2023-11-26T22:53:09+08:00
-toc =  true
 slug ="00"
+toc =  true
 +++
 
 ## <font color=#2f9ad6>活动名称</font>
