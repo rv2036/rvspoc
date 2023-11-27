@@ -91,7 +91,7 @@ Those who are interested in becoming a sponsor, please get in touch with us:
 
 - <font color=Blue>**Subject: “[RVPOC] Sponsor + your_company_name”**</font>
     
-### Template: Project Design
+## Template: Project Design
 
 We are currently calling for competitive project designs. Anyone from the various communities for the RISC-V ecosystem are welcome to contribute project designs. Designs may be in the form of a wish list or a software port or optimization.
 
@@ -101,7 +101,7 @@ Those who are interested in submitting a project design, please submit them here
 
 - <font color=Blue>**Subject:“[RVPOC] WISHLIST + the software you want to run on rv”**</font>
 
-#### Event Class: Porting Capture-the-Flag
+### Event Class: Porting Capture-the-Flag
 
 Winning participants must open source their submissions and contribute their changes to the upstream project.
 
@@ -111,7 +111,7 @@ Winning participants must open source their submissions and contribute their cha
 | Runtime    | RISC-V V-extension port WASM SIMD REVEC in V8 |  100,000             | SG2042 QEMU | TBA      |
 | Runtime    | Contributions and ideas welcome!                       |                     |             |           |
 
-#### Event Class: Optimization Sprint
+### Event Class: Optimization Sprint
 
 Both open-source and closed source tracks will be hosted. Participants must take part in the open-source track to receive prizes. 
 
