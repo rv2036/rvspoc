@@ -148,8 +148,12 @@ body>header {
 	@media screen and (max-width: 60em) {
 		#registration {
 			margin-top: 3em;
-			a {
+			a.disabled-link {
 				font-size: 1.5em;
+				padding: 0.8em 1.5em;
+				span {
+					font-size: 80%;
+				}
 			}
 		}
 	}
