@@ -40,11 +40,11 @@ Note: Organizers are subject to change. Please follow our latest updates on CNRV
 
 The championship will consist of <font color=red>**porting capture-the-flag**</font> and<font color=red> **optimization sprint**</font> events.
 
-The **porting capture-the-flag** event sets a particular software for porting to the RISC-V architecture. In essense, the first team or individual to complete and submit the port wins. The host opens a repository for participant submissions, the first to submit their changes and pass the tests will be made the winner. The code submitted during the event will be copyrighted or attributed to the participating individuals or the open source communities that receives the port. We enourage the participants to contribute their code to the upstream projects.
+The **porting capture-the-flag** event sets a particular software for porting to the RISC-V architecture. In essence, the first team or individual to complete and submit the port wins. The host opens a repository for participant submissions, the first to submit their changes and pass the tests will be made the winner. The code submitted during the event will be copyrighted or attributed to the participating individuals or the open source communities that receive the port. We encourage the participants to contribute their code to the upstream projects.
 
-The **optimization sprint** sets a series of **evaluation criteria**, against which the team or individual’s optimization work will be benchmarked. The teams and individual will optimize a specified project within a set interval and the best benchmarked project wins.
+The **optimization sprint** sets a series of **evaluation criteria**, against which the team or individual’s optimization work will be benchmarked. The teams and individuals will optimize a specified project within a set interval and the best benchmarked project wins.
 
-Based on the number of participants, the championship will run both individual and team events. For individual events, the participant will complete their work individually and wholly receive any prizes awarded. Events with two or more participants will be listed under the team events category. The team events sets no limit on the number of participants and the teams will decide on their own terms regarding how to split the prizes awarded. 
+Based on the number of participants, the championship will run both individual and team events. For individual events, the participant will complete their work individually and wholly receive any prizes awarded. Events with two or more participants will be listed under the team events category. The team events set no limit on the number of participants and the teams will decide on their own terms regarding how to split the prizes awarded. 
 
 ## Championship Schedule (Subject to Change)
 
@@ -65,7 +65,7 @@ This championship is open to manufacturer sponsorship. We welcome donations from
 ### Sponsorship Contributions and Perks
 
 The sponsors may participate in project and prize designs. The sponsors will also be advertised during the events. 
-Sponsorships start at CNY 200,000 and caps at CNY 1,000,000 (subject to change). Sponsors may negotiate and customize their contribution based on the number of projects and amount of prizes proposed. 
+Sponsorships start at CNY 200,000 and cap at CNY 1,000,000 (subject to change). Sponsors may negotiate and customize their contribution based on the number of projects and amount of prizes proposed. 
 
 Sponsorships will be utilized as follows:
 
