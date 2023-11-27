@@ -65,3 +65,9 @@ other = '.'
 
 [toc]
 other = 'Table of Contents'
+
+[registration_desc]
+other = 'Registration'
+
+[registration_desc_suffix]
+other = '(Enabled on Dec 1st)'

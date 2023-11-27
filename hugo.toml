@@ -27,6 +27,11 @@ defaultContentLanguageInSubdir = false
 
 [params]
   author = ''
+
+  # Please uncomment and set the below registration_url on the eve of Dec 1st,
+  # it's the switch to enable the registration link on the homepage.
+  #registration_url = ''
+
   recent_posts_number = 10
   background_color_class = 'bg-orange'
   custom_css = ["cus_page.scss", "cus_site.scss"]
