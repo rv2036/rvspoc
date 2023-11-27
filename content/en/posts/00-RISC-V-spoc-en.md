@@ -1,10 +1,9 @@
 +++
 title = 'Preparation for the Inaugural “RISC-V Software Porting and Optimization Championship” Officially Launched'
-date = 2023-11-27T01:16:43+08:00
+date = 2023-10-19T20:30:09+08:00
 toc = true
-#featured_image = 'images/RVSPOC-main.jpg'
 omit_header_text = true
-slug = '002'
+slug = '00'
 summary = 'To date, billions of RISC-V devices has already been deployed in the MCU/IoT realms and is poised to challenge established players in the desktop computing, HPC, AI, and database markets. Compared to the embedded and IoT software ecosystem, the world of desktops and servers boast a vast software ecosystem demands considerable porting and optimization efforts.'
 +++
 
