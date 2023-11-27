@@ -69,26 +69,27 @@ Sponsorships start at CNY 200,000 and caps at CNY 1,000,000 (subject to change).
 
 Sponsorships will be utilized as follows:
 
-30% of the amount donated will be used for event organization, as well as costs incurred for staffing, organization, and promotion.
+- 30% of the amount donated will be used for event organization, as well as costs incurred for staffing, organization, and promotion.
 
-70% of the amount donated will be used as prizes.
+- 70% of the amount donated will be used as prizes.
 
 Sponsor perks are as follows:
 
-<font style="background:Yellow">Specifying hardware devices or platforms as porting and optimization targets.</font> 
+- <font style="background:Yellow">Specifying hardware devices or platforms as porting and optimization targets.</font> 
 
-Designing competitive projects and rights to derive project designs (more detailed rules to follow).
+- Designing competitive projects and rights to derive project designs (more detailed rules to follow).
 
-Designing prize distribution schemes and assessing submissions with the host.
+- Designing prize distribution schemes and assessing submissions with the host.
 
-Attending the awards ceremony and the RISC-V technical seminar, with a 20 minute keynote segment, as well as promotions and hiring, stands, and invitation to the contributors’ dinner.
+- Attending the awards ceremony and the RISC-V technical seminar, with a 20 minute keynote segment, as well as promotions and hiring, stands, and invitation to the contributors’ dinner.
 
-Participating in other host promotional activities, including both in-person and live online events. 
+- Participating in other host promotional activities, including both in-person and live online events. 
 
 Those who are interested in becoming a sponsor, please get in touch with us:
 
-<font color=Blue>To: “Wei Wu” wuwei2016@iscas.ac.cn </font>
-<font color=Blue>Subject: “[RVPOC] Sponsor + your_company_name” </font>
+- <font color=Blue>**To: “Wei Wu”** wuwei2016@iscas.ac.cn</font>
+
+- <font color=Blue>**Subject: “[RVPOC] Sponsor + your_company_name”**</font>
     
 ### Template: Project Design
 
@@ -96,8 +97,9 @@ We are currently calling for competitive project designs. Anyone from the variou
 
 Those who are interested in submitting a project design, please submit them here: 
 
-<font color=Blue>To:“Wei Wu” wuwei2016@iscas.ac.cn</font> 
-<font color=Blue>Subject:“[RVPOC] WISHLIST + the software you want to run on rv”</font>
+- <font color=Blue>**To:“Wei Wu”** wuwei2016@iscas.ac.cn</font>
+
+- <font color=Blue>**Subject:“[RVPOC] WISHLIST + the software you want to run on rv”**</font>
 
 #### Event Class: Porting Capture-the-Flag
 
