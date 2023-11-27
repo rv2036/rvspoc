@@ -1,0 +1,27 @@
+:root {
+	--sat: env(safe-area-inset-top, 0px);
+	--sar: env(safe-area-inset-right, 0px);
+	--sab: env(safe-area-inset-bottom, 0px);
+	--sal: env(safe-area-inset-left, 0px);
+}
+
+::selection {
+	background-color: var(--highlight);
+}
+
+
+body {
+	--fg:       #232323;
+	--fg-less:  #616161;
+	--fg-lesss: #919191;
+
+	--bg-less:  #EAEAEA;
+	--bg-lesss: #F2F2F2;
+
+	--brand:             #FF6300;
+	--brand-lighten:     color-mix(in srgb, var(--brand) 80%, white);
+
+	--link-color-grey: #999;
+
+	--highlight: #FFDF88FE
+}
