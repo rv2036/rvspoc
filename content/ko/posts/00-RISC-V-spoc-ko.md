@@ -84,15 +84,15 @@ summary = '**RISC-V**는 **MCU** 및 **IoT** 영역에서 수십억 출하 실�
 
 스폰서십에 관심이 있는 기업은 아래 이메일 주소로 주최자에게 연락하십시오:
 
-<font color=Blue>**메일주소: "Wei Wu"**</font>  wuwei2016@iscas.ac.cn
-<font color=Blue>**메일 제목 : "[RVPOC]" Sponsor + 회사명"**</font>
+- <font color=Blue>**메일주소: "Wei Wu"**</font>  wuwei2016@iscas.ac.cn
+- <font color=Blue>**메일 제목 : "[RVPOC]" Sponsor + 회사명"**</font>
 
 ## 예정된 경기 과제(샘플)
 
 현재 경기 과제는 수집 및 선정 과정에 있습니다.RISC-V 생태계 구성원들의 과제 제안을 환영합니다.과제는 「내가 사용하고 싶은 소프트웨어」나 「특정의 소프트웨어/서비스를 더 고속으로 해 주었으면 한다(어느 정도까지)」라고 하는 형태로 제안할 수 있습니다.아래 이메일 주소로 주최자에게 제안을 보내주세요:
 
-<font color=Blue>**메일주소: "Wei Wu"**</font>  wuwei2016@iscas.ac.cn
-<font color=Blue>**메일 제목 : "[RVPOC]" Sponsor + the software you wanna have on rv"**</font>
+- <font color=Blue>**메일주소: "Wei Wu"**</font>  wuwei2016@iscas.ac.cn
+- <font color=Blue>**메일 제목 : "[RVPOC]" Sponsor + the software you wanna have on rv"**</font>
 
 
 ### 이식 챌린지(수상자/수상팀은 오픈소스로서 upstream에 공헌할 것이 요구됩니다)		
