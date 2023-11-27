@@ -110,7 +110,7 @@ RISC-V 已经在 MCU/IoT 等领域有了数十亿的出货，正在朝着桌面�
 | JS 引擎 | Firefox Kraken benchmark 优化     | 5,000    | LicheePi 4A  SG2042       | TBD         |
 | JS 引擎 | 使用 RISC-V B-ext 来优化 V8 引擎的位运算操作 | 30,000         | Unmatched SG2042 TH1520         | TBD         |
 | 游戏    | OpenRA 游戏在 SG2042 平台上的运行速度 (以 fps)     | 100,000         | SG2042 SG2044         | TBD         |
-| rvv0p7 | 提供一套翻译工具或系统，使得使用了 RVV<sub>1.0</sub> 扩展指令的程序在 RVV ~0.7~ 的硬件架构上运行，性能尽可能最优 | 200,000         |          | TBD         |
+| rvv0p7 | 提供一套翻译工具或系统，使得使用了 RVV<sub>1.0</sub> 扩展指令的程序在 RVV<sub>0.7</sub> 的硬件架构上运行，性能尽可能最优 | 200,000         |          | TBD         |
 | rvv0p7    | 欢迎提供赛题建议!                       |                     |             |           |
 
 ## 赛题结果认定委员会的组织
