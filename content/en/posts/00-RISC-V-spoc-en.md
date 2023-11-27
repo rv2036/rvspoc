@@ -28,9 +28,11 @@ The fact that open sources software are not as optimized for RISC-V hardware pla
 
 ## Championship Organizers
 
-- Host: The PLCT Lab (associated with the Intelligent Software Research Center of the Institute of Software, Chinese Academy of Sciences)
-- Event Host: Hangzhou Quancheng Intelligent Software Co., Ltd.
-- Co-host: RISC-V China Community (CNRV)
+Host: The PLCT Lab (associated with the Intelligent Software Research Center of the Institute of Software, Chinese Academy of Sciences)
+
+Event Host: Hangzhou Quancheng Intelligent Software Co., Ltd.
+
+Co-host: RISC-V China Community (CNRV)
 
 Note: Organizers are subject to change. Please follow our latest updates on CNRV’s WeChat Official Account. 
 
@@ -66,14 +68,22 @@ The sponsors may participate in project and prize designs. The sponsors will als
 Sponsorships start at CNY 200,000 and caps at CNY 1,000,000 (subject to change). Sponsors may negotiate and customize their contribution based on the number of projects and amount of prizes proposed. 
 
 Sponsorships will be utilized as follows:
-- 30% of the amount donated will be used for event organization, as well as costs incurred for staffing, organization, and promotion.
-- 70% of the amount donated will be used as prizes.
+
+30% of the amount donated will be used for event organization, as well as costs incurred for staffing, organization, and promotion.
+
+70% of the amount donated will be used as prizes.
+
 Sponsor perks are as follows:
-- <font style="background:Yellow">Specifying hardware devices or platforms as porting and optimization targets.</font> 
-- Designing competitive projects and rights to derive project designs (more detailed rules to follow).
-- Designing prize distribution schemes and assessing submissions with the host.
-- Attending the awards ceremony and the RISC-V technical seminar, with a 20 minute keynote segment, as well as promotions and hiring, stands, and invitation to the contributors’ dinner.
-- Participating in other host promotional activities, including both in-person and live online events. 
+
+<font style="background:Yellow">Specifying hardware devices or platforms as porting and optimization targets.</font> 
+
+Designing competitive projects and rights to derive project designs (more detailed rules to follow).
+
+Designing prize distribution schemes and assessing submissions with the host.
+
+Attending the awards ceremony and the RISC-V technical seminar, with a 20 minute keynote segment, as well as promotions and hiring, stands, and invitation to the contributors’ dinner.
+
+Participating in other host promotional activities, including both in-person and live online events. 
 
 Those who are interested in becoming a sponsor, please get in touch with us:
 
@@ -124,7 +134,11 @@ Agenda: To be announced March, 2024.
 
 ## Note to Participants (Updates Forthcoming)
 
-- 1.This championship accepts both individual and team participants, with no limit on the number of registered participants.
-- 2.The competitions will run both open-source and closed source (commercial) tracks. Only participants of the open-source track are eligible for receiving prizes. Those who participate in the closed source (commercial) track will only be recorded in event ranking. 
-- 3.We welcome participants from all countries and regions. Participants from mainland China needs to provide details on their domestic bank cards to receive prizes; non-mainland China participants must submit their passport or boarder pass information, as well as their bank account details (banks must be SWIFT or CIPS members). 
-- 4.More detailed notes forthcoming.
+1.This championship accepts both individual and team participants, with no limit on the number of registered participants.
+
+2.The competitions will run both open-source and closed source (commercial) tracks. Only participants of the open-source track are eligible for receiving prizes. Those who participate in the closed source (commercial) track will only be recorded in event ranking. 
+
+3.We welcome participants from all countries and regions. Participants from mainland China needs to provide details on their domestic bank cards to receive prizes; 
+non-mainland China participants must submit their passport or boarder pass information, as well as their bank account details (banks must be SWIFT or CIPS members). 
+
+4.More detailed notes forthcoming.
