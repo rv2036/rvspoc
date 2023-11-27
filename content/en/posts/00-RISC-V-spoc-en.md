@@ -1,11 +1,10 @@
 +++
 title = 'Preparation for the Inaugural “RISC-V Software Porting and Optimization Championship” Officially Launched'
-date = 2023-10-19T20:30:09+08:00
+date = 2023-10-28T00:28:09+08:00
 toc = true
 slug = '00'
 summary = 'To date, billions of RISC-V devices has already been deployed in the MCU/IoT realms and is poised to challenge established players in the desktop computing, HPC, AI, and database markets. Compared to the embedded and IoT software ecosystem, the world of desktops and servers boast a vast software ecosystem demands considerable porting and optimization efforts.'
 +++
-
 
 ## Event Name
 
@@ -20,6 +19,7 @@ RISC-V ソフトウェアの移植と最適化チャンピオンシップ
 RISC-V 소프트웨어 포팅 및 최적화 챔피언십
 
 ## Rationale
+
 To date, billions of RISC-V devices has already been deployed in the MCU/IoT realms and is poised to challenge established players in the desktop computing, HPC, AI, and database markets. Compared to the embedded and IoT software ecosystem, the world of desktops and servers boast a vast software ecosystem demands considerable porting and optimization efforts. 
 
 In the past few years, the PLCT Lab dedicated a great amount of financial and human resources along with research and development groups around the globe in an effort to enhance RISC-V’s software ecosystem. Today, almost all mainstream Linux distributions are already providing or are actively working to support the RISC-V architectures. Toolchains and runtimes such as GNU, Clang/LLVM, OpenJDK, V8 and SpiderMonkey are now working reliably on RISC-V.
@@ -35,6 +35,7 @@ The fact that open sources software are not as optimized for RISC-V hardware pla
 Note: Organizers are subject to change. Please follow our latest updates on CNRV’s WeChat Official Account. 
 
 ## Competitive Categories
+
 The championship will consist of <font color=red>**porting capture-the-flag**</font> and<font color=red> **optimization sprint**</font> events.
 
 The **porting capture-the-flag** event sets a particular software for porting to the RISC-V architecture. In essense, the first team or individual to complete and submit the port wins. The host opens a repository for participant submissions, the first to submit their changes and pass the tests will be made the winner. The code submitted during the event will be copyrighted or attributed to the participating individuals or the open source communities that receives the port. We enourage the participants to contribute their code to the upstream projects.
@@ -56,9 +57,11 @@ February 17, 2024 – March 1, 2024: Host Assessment of Submissions and Announce
 Early April, 2024: Awards Ceremony and RISC-V Technical Seminar 
 
 ## Call for Sponsors
+
 This championship is open to manufacturer sponsorship. We welcome donations from RISC-V manufacturers and look forward to collaborations.
 
-## Sponsorship Contributions and Perks
+### Sponsorship Contributions and Perks
+
 The sponsors may participate in project and prize designs. The sponsors will also be advertised during the events. 
 Sponsorships start at CNY 200,000 and caps at CNY 1,000,000 (subject to change). Sponsors may negotiate and customize their contribution based on the number of projects and amount of prizes proposed. 
 
@@ -77,7 +80,8 @@ Those who are interested in becoming a sponsor, please get in touch with us:
 <font color=Blue>To: “Wei Wu” wuwei2016@iscas.ac.cn </font>
 <font color=Blue>Subject: “[RVPOC] Sponsor + your_company_name” </font>
     
-## Template: Project Design
+### Template: Project Design
+
 We are currently calling for competitive project designs. Anyone from the various communities for the RISC-V ecosystem are welcome to contribute project designs. Designs may be in the form of a wish list or a software port or optimization.
 
 Those who are interested in submitting a project design, please submit them here: 
@@ -85,7 +89,7 @@ Those who are interested in submitting a project design, please submit them here
 <font color=Blue>To:“Wei Wu” wuwei2016@iscas.ac.cn</font> 
 <font color=Blue>Subject:“[RVPOC] WISHLIST + the software you want to run on rv”</font>
 
-## Event Class: Porting Capture-the-Flag
+#### Event Class: Porting Capture-the-Flag
 
 Winning participants must open source their submissions and contribute their changes to the upstream project.
 
@@ -95,7 +99,8 @@ Winning participants must open source their submissions and contribute their cha
 | Runtime    | RISC-V V-extension port WASM SIMD REVEC in V8 |  100,000             | SG2042 QEMU | TBA      |
 | Runtime    | Contributions and ideas welcome!                       |                     |             |           |
 
-## Event Class: Optimization Sprint
+#### Event Class: Optimization Sprint
+
 Both open-source and closed source tracks will be hosted. Participants must take part in the open-source track to receive prizes. 
 
 | Type | Project       | Reference Prizes(in CNY)| Assessment Platform | Sponsor    |
@@ -107,15 +112,17 @@ Both open-source and closed source tracks will be hosted. Participants must take
 | rvv0p7 | Contributions and ideas welcome!|         |          |         |
 
 ## Organization of the Accreditation Committees
+
 The host (the PLCT Lab) will assemble an Accreditation Committee for each competitive project with open rosters, consisting of industry-renowned developers, sponsorship representatives, vendor representatives, as well as volunteers. The Accreditation Committees will reproduce and assess the submitted results.
 
 ## Championship Awards Ceremony and RISC-V Technical Seminar
+
 Date: Early April, 2024.
 Location: Hangzhou (venue pending, sponsorships welcome).
 Format: In-person full-day seminar.
 Agenda: To be announced March, 2024.
 
-<font color=#2f9ad6>Note to Participants (Updates Forthcoming)</font>
+## Note to Participants (Updates Forthcoming)
 
 - 1.This championship accepts both individual and team participants, with no limit on the number of registered participants.
 - 2.The competitions will run both open-source and closed source (commercial) tracks. Only participants of the open-source track are eligible for receiving prizes. Those who participate in the closed source (commercial) track will only be recorded in event ranking. 
