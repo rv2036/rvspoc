@@ -32,6 +32,7 @@ defaultContentLanguageInSubdir = false
   # it's the switch to enable the registration link on the homepage.
   #registration_url = ''
 
+  mainSections = ['posts']
   recent_posts_number = 10
   background_color_class = 'bg-orange'
   custom_css = ["cus_page.scss", "cus_site.scss"]
@@ -42,8 +43,10 @@ defaultContentLanguageInSubdir = false
 [permalinks]
   [permalinks.page]
     posts = '/:slug/'
+    challenges = '/:slug/'
   [permalinks.section]
     posts = '/posts/'
+    challenges = '/challenges/'
 
 [languages]
   [languages.zh]
