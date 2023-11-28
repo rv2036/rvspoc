@@ -56,3 +56,7 @@ https://milkv.io/pioneer
 https://community.milkv.io/
 
 https://forum.sophgo.com/
+
+
+<font color=#916dd6>**<center> [关于算能]</center>**</font>
+<table><tr><td bgcolor=#f4eeff>&ensp;&ensp;算能致力于成为全球领先的通用算力提供商，专注于深度学习、RISC-V 处理器等算力产品的研发和推广应用，遵循全面开源开放的生态理念 ，为互联网、城市运营、智算中心、泛安防、智能制造、AIGC 等应用场景提供算力产品及整体解决方案 。公司在北京、上海、深圳、青岛、厦门等国内 10 多个城市及美国、新加坡等国家设有研发中心。</td></tr></table>
