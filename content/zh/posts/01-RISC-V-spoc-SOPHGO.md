@@ -23,11 +23,24 @@ summary = '为推动 RISC-V 软件生态加速发展，**算能作为 RISC-V 生
 
 - SG2042/Pioneer Box
 
-![01_zh_pioneer_box](/images/posts/01_zh_pioneer_box_challenge.png)
+| 赛题分类  | 题目                                 |
+| :-------: | :-----------------------------------------: |
+| 适配类    | OpenHarmony 移植和演示                     |
+| 适配类    | BinaryTranslation：非 RISC-V 架构的程 Demo                     | 
+| 适配类    | ROCm 平台移植并兼容 AMD GPU                 | 
+| 适配类    | 国产 GPU 平台移植和演示                     |
+| 优化类    | OpenGauss 数据库移植和优化                     | 
+| 优化类    | Node.js 性能优化                     | 
 
 - CV1800B/Milk-V Duo
 
-![01_zh_pioneer_box](/images/posts/01_zh_pioneer_duo_challenge.png)
+| 赛题分类  | 题目                                 |
+| :--------: | :-----------------------------------: |
+| 适配类    | Zephyr 移植和演示                      | 
+| 适配类    | Xv6 移植和演示                      | 
+| 适配类    | OpenCV Lite 移植和演示               | 
+| 适配类    | ncnn 移植和演示                      | 
+| 优化类    | 儿童讲故事玩具 Demo: Baby LLaMA 2 on Duo     | 
 
 <font color=#916dd6>**欢迎对 RISC-V 锦标赛感兴趣的同学和社区开发者持续关注 RISC-V 中国社区（CNRV）以及 SOPHGO 算能的公众号，同时也可以添加小助手进群及时获取后续赛题更新。也欢迎邮件至 weilin.pan@sophgo.com 咨询。**</font>
 
@@ -37,7 +50,7 @@ RISC-V 已在 MCU/IoT 领域出货数十亿，正向桌面计算、HPC、AI、�
 
 首届「RISC-V 软件移植及优化锦标赛」筹备工作正式启动，诚邀赞助 https://mp.weixin.qq.com/s/3q8f-KxgS4AY3IKLdXPSfg
 
-“RV Software Porting & Opt Championship” Announced https://mp.weixin.qq.com/s/E20DM8PRXW67CFJ4vC739A
+"RV Software Porting & Opt Championship" Announced https://mp.weixin.qq.com/s/E20DM8PRXW67CFJ4vC739A
 
 Milk-v Duo
 https://milkv.io/duo
