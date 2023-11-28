@@ -15,3 +15,24 @@ other = 'Registration'
 
 [registration_desc_suffix]
 other = '(Enabled on Dec 1st)'
+
+[list_of_challenges]
+other = 'Check the list of challenges'
+
+[details]
+other = 'Details'
+
+[summary]
+other = 'Summary'
+
+[cid]
+other = 'Index'
+
+[award]
+other = 'Award'
+
+[CNY]
+other = 'Chinese Yuan'
+
+[home]
+other = 'Home'
