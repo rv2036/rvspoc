@@ -15,3 +15,24 @@ other = '报名入口'
 
 [registration_desc_suffix]
 other = '（12 月 1 日启动）'
+
+[list_of_challenges]
+other = '查阅赛题列表'
+
+[details]
+other = '详细内容'
+
+[summary]
+other = '概要'
+
+[cid]
+other = '编号'
+
+[award]
+other = '奖金'
+
+[CNY]
+other = '人民币'
+
+[home]
+other = '主页'

@@ -1,0 +1,78 @@
+@import "cus_var.scss";
+
+body>main>article.challenges {
+	position: relative;
+	>section ul {
+		list-style: none;
+		padding: 0;
+		li {
+			display: block;
+			margin-bottom: 1em;
+			box-sizing: border-box;
+			width: 100%;
+			padding: 1em 5em;
+			background-color: #FDFDFD;
+			a {
+				position: relative;
+				color: var(--fg);
+				text-decoration: none;
+				&:hover {
+					color: var(--fg);
+				}
+			}
+			>div {
+				margin-bottom: 0.5em;
+			}
+			.title {
+			}
+			.meta {
+				font-size: 90%;
+				div {
+					margin-right: 1em;
+					display: inline-block;
+					span {
+						font-weight: bold;
+					}
+					>span:first-of-type {
+						font-size: 90%;
+						font-weight: normal;
+						margin-right: 0.3em;
+						color: var(--fg-less);
+					}
+				}
+				a {
+					font-size: 90%;
+					&:before {
+						content: '>> '
+					}
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+			.summary {
+				line-height: 1.5;
+				font-size: 80%;
+				>p>span {
+					font-size: 90%;
+					color: var(--fg-less);
+					margin-right: 0.3em;
+				}
+			}
+		}
+		@media screen and (max-width: 60em) {
+			li {
+			padding: 1em 2em;
+			}
+		}
+	}
+
+	ul.pagination {
+		padding: 0;
+		li.active a {
+			background: none;
+		}
+	}
+}
+
+

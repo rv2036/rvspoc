@@ -1,3 +1,11 @@
+{{ define "title" }}
+  {{ if (eq .Section "challenges") }}
+    {{ i18n "cid" }} {{ .Params.cid | default "N/A" }} | {{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}
+  {{ else }}
+    {{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}
+  {{ end }}
+{{ end }}
+
 {{ define "header" }}
    {{/* We can override any block in the baseof file be defining it in the template */}}
   {{ partial "page-header.html" . }}
@@ -6,6 +14,9 @@
 {{ define "main" }}
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="justify-between mw8 center ph3">
+    {{ if (eq .Section "challenges") }}
+    <nav class="f7"><a href='{{ relLangURL "" }}'>{{ i18n "home" | default "Home" }}</a><span>/</span><a href='{{ relLangURL "challenges/"}}'>{{ .CurrentSection.Title }}</a></nav>
+    {{ end }}
     <header class="mt4 w-100">
       {{ partial "social-share.html" . }}
       <h1 class="f1 athelas mt3 mb1">
@@ -23,7 +34,7 @@
       </p>
       {{ end }}
       {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
-      {{ if not .Date.IsZero }}
+      {{ if (and (not .Date.IsZero) (not (eq .Section "challenges"))) }}
       <time class="f6 mv4 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
         {{- .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) -}}
       </time>
@@ -40,6 +51,19 @@
         <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
       {{ end }}
     </header>
+    {{ if (eq .Section "challenges") }}
+    <div id="challenges-meta" class="sens mid-gray lh-copy">
+      <div><span>{{ i18n "cid" }}:</span><span>{{ .Params.cid | default "N/A" }}</span></div>
+      <div><span>{{ i18n "award" }}:</span><span>
+          {{- with .Params.award -}}
+            {{- $value := . | replaceRE `(([0-9]+)[^0-9].*)` "${2}" -}}
+            {{- $currency := . | replaceRE `([0-9]+([^0-9].*))` "${2}" -}}
+            {{- $currency = replaceRE `(\s*(.*)\s*)` "${2}" $currency -}}
+            {{- printf "%s" $value -}}<span class="currency">{{- i18n $currency -}}</span>
+          {{- end -}}
+        </span></div>
+    </div>
+    {{ end }}
     <div id="article-body">
       <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
         {{- with .Content -}}
