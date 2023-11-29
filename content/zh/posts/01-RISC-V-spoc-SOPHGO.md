@@ -2,7 +2,7 @@
 title = '拥抱开源生态，算能携手软件所 PLCT 实验室联合举办 RISC-V 软件移植优化锦标赛'
 date = 2023-11-14T14:49:09+08:00
 slug = '01'
-toc =  true
+toc = true
 summary = '为推动 RISC-V 软件生态加速发展，**算能作为 RISC-V 生态的领先企业，与 RISC-V 中国社区、中科院软件所 PLCT 实验室联合发起“RISC-V 软件移植及优化锦标赛”活动**，以桌面和服务器软件生态为重点，在编译器、运行时环境、AI 软件栈等多个方面公开提出一系列比赛题目，邀请全球开发者完成挑战并赢取奖金。'
 +++
 
@@ -23,24 +23,24 @@ summary = '为推动 RISC-V 软件生态加速发展，**算能作为 RISC-V 生
 
 - SG2042/Pioneer Box
 
-| 赛题分类  | 题目                                 |
+| 赛题分类 | 题目                                 |
 | :-------: | :-----------------------------------------: |
 | 适配类    | OpenHarmony 移植和演示                     |
-| 适配类    | BinaryTranslation：非 RISC-V 架构的程 Demo                     | 
-| 适配类    | ROCm 平台移植并兼容 AMD GPU                 | 
+| 适配类    | BinaryTranslation：非 RISC-V 架构的程 Demo                     |
+| 适配类    | ROCm 平台移植并兼容 AMD GPU                 |
 | 适配类    | 国产 GPU 平台移植和演示                     |
-| 优化类    | OpenGauss 数据库移植和优化                     | 
-| 优化类    | Node.js 性能优化                     | 
+| 优化类    | OpenGauss 数据库移植和优化                     |
+| 优化类    | Node.js 性能优化                     |
 
 - CV1800B/Milk-V Duo
 
-| 赛题分类  | 题目                                 |
+| 赛题分类 | 题目                                 |
 | :--------: | :-----------------------------------: |
-| 适配类    | Zephyr 移植和演示                      | 
-| 适配类    | Xv6 移植和演示                      | 
-| 适配类    | OpenCV Lite 移植和演示               | 
-| 适配类    | ncnn 移植和演示                      | 
-| 优化类    | 儿童讲故事玩具 Demo: Baby LLaMA 2 on Duo     | 
+| 适配类    | Zephyr 移植和演示                      |
+| 适配类    | Xv6 移植和演示                      |
+| 适配类    | OpenCV Lite 移植和演示               |
+| 适配类    | ncnn 移植和演示                      |
+| 优化类    | 儿童讲故事玩具 Demo: Baby LLaMA 2 on Duo     |
 
 <font color=#916dd6>**欢迎对 RISC-V 锦标赛感兴趣的同学和社区开发者持续关注 RISC-V 中国社区（CNRV）以及 SOPHGO 算能的公众号，同时也可以添加小助手进群及时获取后续赛题更新。也欢迎邮件至 weilin.pan@sophgo.com 咨询。**</font>
 
