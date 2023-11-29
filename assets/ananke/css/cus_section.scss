@@ -1,4 +1,3 @@
-@import "cus_var.scss";
 
 body>main>article.challenges {
 	position: relative;
@@ -7,11 +6,26 @@ body>main>article.challenges {
 		padding: 0;
 		li {
 			display: block;
+			position: relative;
 			margin-bottom: 1em;
 			box-sizing: border-box;
 			width: 100%;
 			padding: 1em 5em;
-			background-color: #FDFDFD;
+			z-index: 10;
+
+			&:after {
+				content: ' ';
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				z-index: -1;
+				background-image: linear-gradient(90deg, #8EC5FC30 0%, #FFFFFF 50%, #8EC5FC30 100%);
+				opacity: 20%;
+			}
+
 			a {
 				position: relative;
 				color: var(--fg);
@@ -20,18 +34,49 @@ body>main>article.challenges {
 					color: var(--fg);
 				}
 			}
-			>div {
-				margin-bottom: 0.5em;
-			}
 			.title {
+				h1 {
+					position: relative;
+					margin: 0;
+					padding: 0.5em 0 0.3em 0;
+					font-size: inherit;
+					font-weight: inherit;
+					a {
+						display: block;
+						&:first-of-type {
+							position: absolute;
+							top: 0;
+							left: -1.5em;
+							height: 100%;
+							width: 1.5em;
+							transition: opacity 0.3s;
+							opacity: 0;
+							&:before {
+								content: '#';
+								position: absolute;
+								top: 0;
+								left: 0;
+								height: 100%;
+								width: 1.5em;
+								padding: 0.5em 0;
+								text-align: center;
+							}
+						}
+					}
+					&:hover a:first-of-type {
+						transition: opacity 0.3s;
+						opacity: 0.6;
+					}
+				}
 			}
 			.meta {
+				font-family: monospace;
 				font-size: 90%;
 				div {
 					margin-right: 1em;
 					display: inline-block;
 					span {
-						font-weight: bold;
+						font-weight: 400;
 					}
 					>span:first-of-type {
 						font-size: 90%;
@@ -39,8 +84,23 @@ body>main>article.challenges {
 						margin-right: 0.3em;
 						color: var(--fg-less);
 					}
+					.currency {
+						margin-left: 0.5em;
+					}
 				}
-				a {
+			}
+			.summary {
+				line-height: 1.5;
+				font-size: 80%;
+				>p {
+					margin-top: 0;
+					>span {
+						font-size: 90%;
+						color: var(--fg-less);
+						margin-right: 0.3em;
+					}
+				}
+				a:last-of-type {
 					font-size: 90%;
 					&:before {
 						content: '>> '
@@ -48,15 +108,6 @@ body>main>article.challenges {
 					&:hover {
 						text-decoration: underline;
 					}
-				}
-			}
-			.summary {
-				line-height: 1.5;
-				font-size: 80%;
-				>p>span {
-					font-size: 90%;
-					color: var(--fg-less);
-					margin-right: 0.3em;
 				}
 			}
 		}
@@ -69,10 +120,20 @@ body>main>article.challenges {
 
 	ul.pagination {
 		padding: 0;
-		li.active a {
-			background: none;
+		li {
+			margin-right: 8px;
+			a {
+				border-radius: 0;
+				border: 1px solid #EAEAEA;
+			}
+			&.active a {
+				background: none;
+				color: var(--fg-lesss);
+			}
 		}
 	}
 }
 
-
+body>main>article.challenges.cjk>section ul li .meta div .currency {
+	margin-left: 0.1em;
+}

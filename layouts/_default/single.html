@@ -13,13 +13,15 @@
 
 {{ define "main" }}
   {{ $section := .Site.GetPage "section" .Section }}
-  <article class="justify-between mw8 center ph3">
     {{ if (eq .Section "challenges") }}
+  <article class='justify-between mw8 center ph3 challenge {{ if or (or (eq .Lang "zh") (eq .Lang "ja")) (eq .Lang "ko") }}cjk{{ end }}'>
     <nav class="f7"><a href='{{ relLangURL "" }}'>{{ i18n "home" | default "Home" }}</a><span>/</span><a href='{{ relLangURL "challenges/"}}'>{{ .CurrentSection.Title }}</a></nav>
+    {{ else }}
+  <article class='justify-between mw8 center ph3 serif {{ if or (or (eq .Lang "zh") (eq .Lang "ja")) (eq .Lang "ko") }}cjk{{ end }}'>
     {{ end }}
     <header class="mt4 w-100">
       {{ partial "social-share.html" . }}
-      <h1 class="f1 athelas mt3 mb1">
+      <h1 class="f1 mt3 mb1">
         {{- .Title -}}
       </h1>
       {{ with .Params.author | default .Site.Params.author }}
@@ -35,7 +37,7 @@
       {{ end }}
       {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
       {{ if (and (not .Date.IsZero) (not (eq .Section "challenges"))) }}
-      <time class="f6 mv4 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
+      <time class="f6 mv4 dib tracked serif" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
         {{- .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) -}}
       </time>
       {{end}}
@@ -52,7 +54,7 @@
       {{ end }}
     </header>
     {{ if (eq .Section "challenges") }}
-    <div id="challenges-meta" class="sens mid-gray lh-copy">
+    <div id="challenges-meta" class="mid-gray lh-copy">
       <div><span>{{ i18n "cid" }}:</span><span>{{ .Params.cid | default "N/A" }}</span></div>
       <div><span>{{ i18n "award" }}:</span><span>
           {{- with .Params.award -}}
@@ -65,10 +67,10 @@
     </div>
     {{ end }}
     <div id="article-body">
-      <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+      <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default ""}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
         {{- with .Content -}}
         <div>
-          {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor">🔗</a>${3}` | safeHTML }}
+          {{ . | replaceRE `(<h[1-9] id=\"([^\"]+)\"[^>]*>)(.+)(</h[1-9]>)` `${1}<span class="hline"><a href="#${2}" class="hanchor"></a>${3}</span>${4}` | safeHTML }}
         </div>
         {{- end -}}
         {{- partial "tags.html" . -}}
@@ -79,7 +81,7 @@
         </div>
       </div>
 
-      {{- if .Params.toc -}}
+      {{- if and .Params.toc (ne .TableOfContents `<nav id="TableOfContents"></nav>`) -}}
       <aside id="toc" class="f6">
         <div class="">
           <p class="f5 b mb3">{{ i18n "toc" . }}</p>
