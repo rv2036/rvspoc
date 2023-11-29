@@ -14,7 +14,7 @@ summary = '为推动 RISC-V 软件生态加速发展，**算能作为 RISC-V 生
 
 <center>官方指定验证平台：Pioneer Box</center>
 
-![01_zh_pioneer_duo](/images/posts/01_zh_duo.png)
+![01_zh_duo](/images/posts/01_zh_duo.png)
 
 <center>官方指定验证平台：Duo</center>
 
