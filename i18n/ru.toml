@@ -1,5 +1,5 @@
 [CC-BY-NC-SA-License-prefix]
-other = 'Except where otherwise noted , content on this site is licensed under a '
+other = 'Если не указано иное, контент на этом сайте лицензируется по лицензии '
 
 [CC-BY-NC-SA-License]
 other = 'Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license'
@@ -8,31 +8,31 @@ other = 'Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 other = '.'
 
 [toc]
-other = 'Table of Contents'
+other = 'Оглавление'
 
 [registration_desc]
-other = 'Registration'
+other = 'Регистрация'
 
 [registration_desc_suffix]
-other = '(Enabled on Dec 1st)'
+other = '(Откроется 1 декабря)'
 
 [list_of_challenges]
-other = 'Check the list of challenges'
+other = 'Просмотр списка задач'
 
 [details]
-other = 'Details'
+other = 'Подробности'
 
 [summary]
-other = 'Summary'
+other = 'Конспект'
 
 [cid]
-other = 'Index'
+other = 'Индекс'
 
 [award]
-other = 'Award'
+other = 'Награда'
 
 [CNY]
-other = 'Chinese Yuan'
+other = 'Китайский юань'
 
 [home]
-other = 'Home'
+other = 'Заглавная страница'
