@@ -36,3 +36,13 @@ other = 'Chinese Yuan'
 
 [home]
 other = 'Home'
+
+
+# The default translates of allTitle and recentTitle in theme contains an
+# additional space character, re-configure them here:
+[allTitle]
+other = "全ての{{.Title }}"
+
+[recentTitle]
+other = "最近の{{.Title }}"
+
