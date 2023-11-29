@@ -1,25 +1,25 @@
 {{ $featured_image := partial "func/GetFeaturedImage.html" . }}
 <article class="summary bb b--black-10">
   <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="datetime-block serif f6">
+      {{- .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) -}}
+    </div>
     <div class="flex flex-column flex-row-ns">
-      <div class="datetime-block">
-        {{- .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) -}}
-      </div>
       {{ if $featured_image }}
           {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-        <div class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3-ns" "pr3-ns" }} mb4 mb0-ns w-100 w-40-ns">
+        <div class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3-ns" "pr3-ns" }} w-100 w-40-ns">
           <a href="{{.RelPermalink}}" class="db grow">
             <img src="{{ $featured_image }}" class="img" alt="image from {{ .Title }}">
           </a>
         </div>
       {{ end }}
-      <div class="blah w-100{{ if $featured_image }} w-60-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr3-ns" "pl3-ns" }}{{ end }}">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="{{.RelPermalink}}" class="color-inherit dim link">
+      <div class="w-100{{ if $featured_image }} w-60-ns {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr3-ns" "pl3-ns" }}{{ end }}">
+        <h1 class="f3 fw3 serif mt0 lh-title">
+          <a href="{{.RelPermalink}}" class="color-inherit">
             {{ .Title }}
             </a>
         </h1>
-        <div class="summary-body f6 f5-l lh-copy nested-copy-line-height nested-links">
+        <div class="summary-body f7 f6-l lh-copy nested-copy-line-height nested-links serif">
           {{ .Summary }}
         </div>
       </div>

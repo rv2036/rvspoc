@@ -1,14 +1,14 @@
 {{ define "main" }}
-  <article class="pa3 pa4-ns mw8 center challenges">
+  <article class='pa3 pa4-ns mw8 center challenges sans-serif fw3 {{ if or (or (eq .Lang "zh") (eq .Lang "ja")) (eq .Lang "ko") }}cjk{{ end }}'>
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
       {{- .Content -}}
     </section>
     <section class="mt3">
       <ul>
       {{ range .Paginator.Pages }}
-        <li class="serif">
-          <div class="title f4">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <li id="{{ .Params.cid }}">
+          <div class="title f5 fw4">
+            <h1><a href="#{{ .Params.cid }}" class="anchor"></a><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
           </div>
           <div class="meta mid-gray lh-copy">
             <div><span>{{ i18n "cid" }}:</span><span>{{ .Params.cid | default "N/A" }}</span></div>
@@ -20,10 +20,9 @@
                   {{- printf "%s" $value -}}<span class="currency">{{- i18n $currency -}}</span>
                 {{- end -}}
               </span></div>
-            <div><a href="{{ .RelPermalink }}" class="link">{{ i18n "details" }}</a></div>
           </div>
           <div class="summary">
-            <p><span>{{ i18n "summary" }}:</span>{{ .Summary }}</p>
+            <p><span>{{ i18n "summary" }}:</span>{{ .Summary }} <a href="{{ .RelPermalink }}" class="link">{{ i18n "details" }}</a></p>
           </div>
         </li>
       {{ end }}

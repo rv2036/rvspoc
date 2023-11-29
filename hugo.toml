@@ -35,7 +35,8 @@ defaultContentLanguageInSubdir = false
   mainSections = ['posts']
   recent_posts_number = 10
   background_color_class = 'bg-orange'
-  custom_css = ["cus_page.scss", "cus_site.scss", "cus_section.scss"]
+  custom_css = ["cus_var.scss", "cus_page.scss", "cus_site.scss", "cus_section.scss"]
+  body_classes = "sans-serif"
   [[params.ananke_socials]]
     name = 'github'
     url = 'https://github.com/plctlab/rvspoc'

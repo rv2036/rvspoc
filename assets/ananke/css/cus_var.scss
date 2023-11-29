@@ -6,7 +6,7 @@
 }
 
 ::selection {
-	background-color: var(--highlight);
+	background-color: #9BEBDE;
 }
 
 
@@ -18,12 +18,7 @@ body {
 	--bg-less:  #EAEAEA;
 	--bg-lesss: #F2F2F2;
 
-	--brand:             #FF6300;
-	--brand-lighten:     color-mix(in srgb, var(--brand) 80%, white);
-
 	--link-color-grey: #999;
 
-	--highlight: #FFDF88FE;
-
-	--silver: #C0C0C0;
+	--font-c: "Noto Sans","Noto Sans CJK SC","Source Han Sans","Source Han Sans SC","Hiragino Sans GB",sans-serif;
 }
