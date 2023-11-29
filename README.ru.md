@@ -1,3 +1,3 @@
 # Чемпионат по портированию и оптимизации программного обеспечения RISC-V
 
-Registration for this championship will officially open on 01 December 2023.
+Регистрация на этот чемпионат официально откроется 1 декабря 2023 года.
