@@ -2,11 +2,13 @@
   <body class="ma0 section-challenges {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 {{ end }}
 {{ define "main" }}
-  <article class='pa3 pa4-ns mw8 center challenges sans-serif fw3 {{ if or (or (eq .Lang "zh") (eq .Lang "ja")) (eq .Lang "ko") }}cjk{{ end }}'>
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+  <article class='in-section sans-serif fw3 {{ if or (or (eq .Lang "zh") (eq .Lang "ja")) (eq .Lang "ko") }}cjk{{ end }}'>
+    <div class="f7 center ph3 measure-wide lh-copy">
       {{- .Content -}}
-    </section>
+    </div>
+  </article>
 
+  <article class='pa3 pa4-ns mw8 center challenges sans-serif fw3 {{ if or (or (eq .Lang "zh") (eq .Lang "ja")) (eq .Lang "ko") }}cjk{{ end }}'>
     <section class="mt3">
       <ul>
       {{ range .Paginator.Pages }}
