@@ -6,6 +6,14 @@
   {{ end }}
 {{ end }}
 
+{{ define "body_tag" }}
+  {{ if (eq .Section "challenges") }}
+  <body class="ma0 section-challenges {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+  {{ else }}
+  {{ partial "default_body_tag.html" .}}
+  {{ end }}
+{{ end }}
+
 {{ define "header" }}
    {{/* We can override any block in the baseof file be defining it in the template */}}
   {{ partial "page-header.html" . }}
@@ -64,6 +72,13 @@
             {{- printf "%s" $value -}}<span class="currency">{{- i18n $currency -}}</span>
           {{- end -}}
         </span></div>
+      {{ if (isset .Site.Params "registration_url") }}
+      <div id="registration">
+        <a href="{{ .Site.Params.registration_url }}" target="_blank">
+          {{- i18n "registration_desc" -}}
+        </a>
+      </div>
+      {{ end }}
     </div>
     {{ end }}
     <div id="article-body">

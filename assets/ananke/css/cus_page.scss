@@ -26,12 +26,21 @@ body>main>article {
 	font-family: monospace;
 	margin: 2em 0;
 	>div {
+		font-weight: bold;
 		margin-bottom: 0.2em;
 		>span:first-of-type {
 			margin-right: 0.5em;
+			opacity: 0.8;
 		}
 		span.currency {
 			margin-left: 0.5em;
+		}
+	}
+	#registration {
+		margin-top: 1em;
+		a {
+			font-size: 1em;
+			text-decoration: none;
 		}
 	}
 }
