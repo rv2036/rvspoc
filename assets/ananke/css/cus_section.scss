@@ -5,6 +5,27 @@ body.section-challenges {
 	}
 }
 
+body>main>article.in-section {
+	position: relative;
+	margin: 0 0 2em 0;
+	padding: 1em 0;
+	background-color: white;
+	border-bottom: 1px dotted #8ec5fc;
+	a {
+		color: var(--fd-less);
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	@media screen and (min-width: 40em) {
+		>div.ph3 {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+
 body>main>article.challenges {
 	position: relative;
 	padding-top: 0;
