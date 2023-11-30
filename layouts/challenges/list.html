@@ -1,33 +1,104 @@
+{{ define "body_tag" }}
+  <body class="ma0 section-challenges {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+{{ end }}
 {{ define "main" }}
   <article class='pa3 pa4-ns mw8 center challenges sans-serif fw3 {{ if or (or (eq .Lang "zh") (eq .Lang "ja")) (eq .Lang "ko") }}cjk{{ end }}'>
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
       {{- .Content -}}
     </section>
+
     <section class="mt3">
       <ul>
       {{ range .Paginator.Pages }}
         <li id="{{ .Params.cid }}">
           <div class="title f5 fw4">
-            <h1><a href="#{{ .Params.cid }}" class="anchor"></a><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+            <h1><a href="#{{ .Params.cid }}" class="anchor"></a><a href="{{ .RelPermalink }}"><span class="cid">{{ .Params.cid | default "N/A" }}</span><span>{{ .Title }}</span></a></h1>
           </div>
-          <div class="meta mid-gray lh-copy">
-            <div><span>{{ i18n "cid" }}:</span><span>{{ .Params.cid | default "N/A" }}</span></div>
-            <div><span>{{ i18n "award" }}:</span><span>
+          <div class="summary">
+            <p><span>{{ i18n "summary" }}:</span>{{ .Summary }}</p>
+          </div>
+          <div class="meta mid-gray lh-copy flex">
+            <div><span>{{ i18n "award" }}:</span><span class="award">
                 {{- with .Params.award -}}
                   {{- $value := . | replaceRE `(([0-9]+)[^0-9].*)` "${2}" -}}
                   {{- $currency := . | replaceRE `([0-9]+([^0-9].*))` "${2}" -}}
                   {{- $currency = replaceRE `(\s*(.*)\s*)` "${2}" $currency -}}
-                  {{- printf "%s" $value -}}<span class="currency">{{- i18n $currency -}}</span>
+                  {{- printf "CN¥%s" $value -}}
                 {{- end -}}
               </span></div>
-          </div>
-          <div class="summary">
-            <p><span>{{ i18n "summary" }}:</span>{{ .Summary }} <a href="{{ .RelPermalink }}" class="link">{{ i18n "details" }}</a></p>
+            <div><a href="{{ .RelPermalink }}" class="details">{{ i18n "details" }}</a></div>
+            {{ if (isset .Site.Params "registration_url") }}
+            <div>
+              <a href="{{ .Site.Params.registration_url }}" target="_blank" class="registration">
+                {{- i18n "registration_desc"}}
+              </a>
+            </div>
+            {{ end }}
           </div>
         </li>
       {{ end }}
       </ul>
     </section>
-    {{- template "_internal/pagination.html" . -}}
+    <section class="pager-info f7">
+      {{ $ps := .Paginator.PageSize }}
+      {{ $pn := .Paginator.PageNumber }}
+      {{ $noe := .Paginator.NumberOfElements }}
+      {{ $tnoe := .Paginator.TotalNumberOfElements }}
+      {{ $currentElement := math.Add (math.Mul (math.Add $pn -1) $ps) 1 }}
+      {{ $currentLastElement := math.Add $currentElement $noe -1 }}
+      {{ printf "<span class='element-start'>%d</span>-<span class='element-end'>%d</span>/<span class='total-elements'>%d</span>" $currentElement $currentLastElement $tnoe | safeHTML }}
+    </section>
+    <ul class="pagination pagination-custom">
+    {{- with .Paginator }}
+      {{- $currentPageNumber := .PageNumber }}
+
+      {{- with .First }}
+        {{- if ne $currentPageNumber .PageNumber }}
+        <li class="page-item first-pi">
+          <a href="{{ .URL }}" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+        </li>
+        {{- end }}
+      {{- end }}
+
+      {{- with .Prev }}
+        <li class="page-item prev-fi">
+          <a href="{{ .URL }}" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&lsaquo;</span></a>
+        </li>
+      {{- end }}
+
+      {{- $slots := 3 }}
+      {{- $start := math.Max 1 (sub .PageNumber (math.Floor (div $slots 2))) }}
+      {{- $end := math.Min .TotalPages (sub (add $start $slots) 1) }}
+      {{- if lt (add (sub $end $start) 1) $slots }}
+        {{- $start = math.Max 1 (add (sub $end $slots) 1) }}
+      {{- end }}
+
+      {{- range $k := seq $start $end }}
+        {{- if eq $.Paginator.PageNumber $k }}
+        <li class="page-item active">
+          <a aria-current="page" aria-label="Page {{ $k }}" class="page-link" role="button"><span>{{ $k }}</span></a>
+        </li>
+        {{- else }}
+        <li class="page-item">
+          <a href="{{ (index $.Paginator.Pagers (sub $k 1)).URL }}" aria-label="Page {{ $k }}" class="page-link" role="button"><span>{{ $k }}</span></a>
+        </li>
+        {{- end }}
+      {{- end }}
+
+      {{- with .Next }}
+        <li class="page-item next-pi">
+          <a href="{{ .URL }}" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&rsaquo;</span></a>
+        </li>
+      {{- end }}
+
+      {{- with .Last }}
+        {{- if ne $currentPageNumber .PageNumber }}
+        <li class="page-item last-pi">
+          <a href="{{ .URL }}" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+        </li>
+        {{- end }}
+      {{- end }}
+    {{- end }}
+    </ul>
   </article>
 {{ end }}
