@@ -1,24 +1,24 @@
 +++
-title = '赛事说明'
+title = 'Introduction to Competition Programs'
 slug = 'introduction'
 type = 'page'
 layout = 'common'
 +++
 
-## 背景介绍
+## Background
 
-RISC-V 软件移植及优化锦标赛是由 PLCT 实验室和算能科技联合发起的。目前，RISC-V 开源软件生态已经初具规模，功能基本可用，但是没有达到像 x86 或 ARM64 的优化水平。为了推动 RISC-V 软件生态更快地发展，吸引更多的开发者加入到 RISC-V 生态中来，PLCT 实验室联合算能科技发起本次锦标赛。本届比赛将以桌面和服务器软件生态为重点，在编译器、运行时环境、AI 软件栈等多个方面公开提出一系列比赛题目，邀请全球开发者完成挑战并赢取奖金。
+The RISC-V Software Porting and Optimization Championship is jointly hosted by the PLCT Lab and SOPHGO. Today, RISC-V enjoys a sizeable open source software ecosystem with adequate functionalities, but it lacks optimisation as compared to x86 and ARM64. To help attract developers to the RISC-V ecosystem and to accelerate the advancement of its software ecosystem, the PLCT Lab and SOPHGO jointly launched the "RISC-V Software Porting and Optimization Championship." This championship sets its focus on desktop and server software ecosystems, designing competitive categories for compilers, runtime environments, AI software stacks, etc. and is open to participation by developers around the globe with prizes available for successful contestants.
 
-## 比赛验证环境
+## Assessment Environments
 
-所有提交结果需要在以下 RISC-V 硬件环境中验证，每个赛题会指定至少一种：
+All results must be verified on at least one of the following RISC-V hardware environments:
 
-- SG2042/Pioneer Box（简称 SG2042）
-- CV1800B/Milk-V Duo（简称 Duo）
+- SG2042/Pioneer Box (SG2042)
+- CV1800B/Milk-V Duo (Duo)
 
-## 赛题公布
+## Notes on Programs
 
-- 本届锦标赛赛题将会自 11 月 27 日开始分批次公布，至 12 月 31 日截止。主办方欢迎全球开发者将比赛过程中的新想法和需求与主办方分享，主办方将会根据需求的相关性设计并发布新的赛题。让我们一起帮助 RISC-V 生态变得更好。
-- 赛题描述中不明确的部分请联系主办方，我们将会根据反馈提供进一步解释或修订。
-- 关于国产 GPU 等型号，主办方会维护一个列表，更新至 12 月 31 日冻结。
-- 赛题结果的评定由主办方邀请各开源社区核心开发者、PLCT 实验室专家、赞助商技术专家组成，12 月 31 日前公布各个赛题的评定小组成员信息。
+- Competition programs will be announced gradually from November 27th to December 31st. We welcome feedback and ideas from developers from around the globe and will design and adjust competition programs accordingly. Let's make RISC-V's software ecosystem better together.
+- Any requests for clarification should be directed to the host staff, who will make adjustments and provided clarifications as needed.
+- The host will maintain a list of parts and models for the Chinese domestic GPUs, which will be updated continually until December 31st.
+- Assessment for all program results will be done in collaboration with core developers from open sources communities, experts from the PLCT Lab, and experts from our sponsors. We will announce assessment committees for each program by December 31st.

@@ -24,7 +24,7 @@ To date, billions of RISC-V devices has already been deployed in the MCU/IoT rea
 
 In the past few years, the PLCT Lab dedicated a great amount of financial and human resources along with research and development groups around the globe in an effort to enhance RISC-V’s software ecosystem. Today, almost all mainstream Linux distributions are already providing or are actively working to support the RISC-V architectures. Toolchains and runtimes such as GNU, Clang/LLVM, OpenJDK, V8 and SpiderMonkey are now working reliably on RISC-V.
 
-The fact that open sources software are not as optimized for RISC-V hardware platforms as their x86 and Arm64 counterpart points to the need for more developer input. To help attract developers to the RISC-V ecosysetm and to accelerate the advancement of its software ecosystem, the PLCT Lab launched the “RISC-V Software Porting and Optimization Championship.” This championship sets its ofcus on desktop and server software ecosystem, designing competitive categories for compilers, runtime environments, AI software stacks, etc. and is open to participation by developers around the globe. 
+The fact that open sources software are not as optimized for RISC-V hardware platforms as their x86 and ARM64 counterpart points to the need for more developer input. To help attract developers to the RISC-V ecosystem and to accelerate the advancement of its software ecosystem, the PLCT Lab launched the “RISC-V Software Porting and Optimization Championship.” This championship sets its focus on desktop and server software ecosystems, designing competitive categories for compilers, runtime environments, AI software stacks, etc. and is open to participation by developers around the globe. 
 
 ## Championship Organizers
 
