@@ -26,7 +26,7 @@ summary = '为推动 RISC-V 软件生态加速发展，**算能作为 RISC-V 生
 | 赛题分类 | 题目                                 |
 | :-------: | :-----------------------------------------: |
 | 适配类    | OpenHarmony 移植和演示                     |
-| 适配类    | BinaryTranslation：非 RISC-V 架构的程 Demo                     |
+| 适配类    | BinaryTranslation：非 RISC-V 架构的程序 Demo                     |
 | 适配类    | ROCm 平台移植并兼容 AMD GPU                 |
 | 适配类    | 国产 GPU 平台移植和演示                     |
 | 优化类    | OpenGauss 数据库移植和优化                     |
