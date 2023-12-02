@@ -1,3 +1,3 @@
 # RISC-V ソフトウェアの移植と最適化チャンピオンシップ
 
-Registration for this championship will officially open on 01 December 2023.
+チャンピオンシップへの登録は、2023 年 12 月 1 日に正式に開始されます。

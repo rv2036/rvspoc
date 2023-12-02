@@ -1,5 +1,5 @@
 [CC-BY-NC-SA-License-prefix]
-other = 'Except where otherwise noted , content on this site is licensed under a '
+other = '特に記載がない限り、このサイトは以下のライセンスで提供されています'
 
 [CC-BY-NC-SA-License]
 other = 'Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license'
@@ -8,34 +8,34 @@ other = 'Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 other = '.'
 
 [toc]
-other = 'Table of Contents'
+other = '目次'
 
 [registration_desc]
-other = 'Registration'
+other = '登録'
 
 [registration_desc_suffix]
-other = '(Enabled on Dec 1st)'
+other = '（12月1日に利用可能）'
 
 [list_of_challenges]
-other = 'Check the list of challenges'
+other = 'チャレンジ一覧を確認する'
 
 [details]
-other = 'Details'
+other = '詳細'
 
 [summary]
-other = 'Summary'
+other = '要約'
 
 [cid]
-other = 'Index'
+other = '索引'
 
 [award]
-other = 'Award'
+other = 'アワード'
 
 [CNY]
-other = 'Chinese Yuan'
+other = '中国元'
 
 [home]
-other = 'Home'
+other = 'ホーム'
 
 
 # The default translates of allTitle and recentTitle in theme contains an
