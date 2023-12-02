@@ -27,6 +27,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   author = ''
+  email = 'rvspoc@cyberlimes.cn'
   mainSections = ['posts']
   recent_posts_number = 10
   background_color_class = 'bg-orange'
