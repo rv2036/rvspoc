@@ -1,3 +1,3 @@
 +++
-title = 'Posts'
+title = '投稿'
 +++
