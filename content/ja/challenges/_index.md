@@ -7,4 +7,4 @@ title = 'チャレンジ'
 - SG2042/Pioneer Box (abbr. SG2042)
 - CV1800B/Milk-V Duo (abbr. Duo)
 
-[Click here for details](../introduction/)
+[詳細はこちら](../introduction/)
