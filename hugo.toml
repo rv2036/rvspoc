@@ -66,8 +66,7 @@ defaultContentLanguageInSubdir = false
     title = 'RISC-V Software Porting and Optimization Championship'
     weight = 2
     [languages.en.params]
-      # TODO: replace it with the English version
-      registration_url = 'https://www.wenjuan.com/s/UZBZJv0BMdV/'
+      registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
   [languages.ru]
     contentDir = 'content/ru'
     disabled = false
@@ -77,8 +76,7 @@ defaultContentLanguageInSubdir = false
     title = 'Чемпионат по портированию и оптимизации программного обеспечения RISC-V'
     weight = 3
     [languages.ru.params]
-      # TODO: replace it with the Russian version
-      registration_url = 'https://www.wenjuan.com/s/UZBZJv0BMdV/'
+      registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
   [languages.ja]
     contentDir = 'content/ja'
     disabled = false
@@ -90,8 +88,7 @@ defaultContentLanguageInSubdir = false
     hasCJKLanguage = true
     summaryLength = 230
     [languages.ja.params]
-      # TODO: replace it with the Japanses version
-      registration_url = 'https://www.wenjuan.com/s/UZBZJv0BMdV/'
+      registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
   [languages.ko]
     contentDir = 'content/ko'
     disabled = false
@@ -103,5 +100,4 @@ defaultContentLanguageInSubdir = false
     hasCJKLanguage = true
     summaryLength = 230
     [languages.ko.params]
-      # TODO: replace it with the Korean version
-      registration_url = 'https://www.wenjuan.com/s/UZBZJv0BMdV/'
+      registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
