@@ -27,11 +27,6 @@ defaultContentLanguageInSubdir = false
 
 [params]
   author = ''
-
-  # Please uncomment and set the below registration_url on the eve of Dec 1st,
-  # it's the switch to enable the registration link on the homepage.
-  #registration_url = ''
-
   mainSections = ['posts']
   recent_posts_number = 10
   background_color_class = 'bg-orange'
@@ -60,6 +55,8 @@ defaultContentLanguageInSubdir = false
     weight = 1
     hasCJKLanguage = true
     summaryLength = 230
+    [languages.zh.params]
+      registration_url = 'https://www.wenjuan.com/s/UZBZJv0BMdV/'
   [languages.en]
     contentDir = 'content/en'
     disabled = false
@@ -68,6 +65,9 @@ defaultContentLanguageInSubdir = false
     languageName = 'English'
     title = 'RISC-V Software Porting and Optimization Championship'
     weight = 2
+    [languages.en.params]
+      # TODO: replace it with the English version
+      registration_url = 'https://www.wenjuan.com/s/UZBZJv0BMdV/'
   [languages.ru]
     contentDir = 'content/ru'
     disabled = false
@@ -76,6 +76,9 @@ defaultContentLanguageInSubdir = false
     languageName = 'Русский'
     title = 'Чемпионат по портированию и оптимизации программного обеспечения RISC-V'
     weight = 3
+    [languages.ru.params]
+      # TODO: replace it with the Russian version
+      registration_url = 'https://www.wenjuan.com/s/UZBZJv0BMdV/'
   [languages.ja]
     contentDir = 'content/ja'
     disabled = false
@@ -86,6 +89,9 @@ defaultContentLanguageInSubdir = false
     weight = 4
     hasCJKLanguage = true
     summaryLength = 230
+    [languages.ja.params]
+      # TODO: replace it with the Japanses version
+      registration_url = 'https://www.wenjuan.com/s/UZBZJv0BMdV/'
   [languages.ko]
     contentDir = 'content/ko'
     disabled = false
@@ -96,3 +102,6 @@ defaultContentLanguageInSubdir = false
     weight = 5
     hasCJKLanguage = true
     summaryLength = 230
+    [languages.ko.params]
+      # TODO: replace it with the Korean version
+      registration_url = 'https://www.wenjuan.com/s/UZBZJv0BMdV/'
