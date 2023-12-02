@@ -8,3 +8,5 @@ title = 'チャレンジ'
 - CV1800B/Milk-V Duo（Duoと略）
 
 [詳細はこちら](../introduction/)
+
+If required, please contact our staff by email: [rvspoc@cyberlimes.cn](mailto:rvspoc@cyberlimes.cn)

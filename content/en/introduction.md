@@ -19,6 +19,6 @@ All results must be verified on at least one of the following RISC-V hardware en
 ## Notes on Programs
 
 - Competition programs will be announced gradually from November 27th to December 31st. We welcome feedback and ideas from developers from around the globe and will design and adjust competition programs accordingly. Let's make RISC-V's software ecosystem better together.
-- Any requests for clarification should be directed to the host staff, who will make adjustments and provided clarifications as needed.
+- Any requests for clarification should be directed to [the host staff](mailto:rvspoc@cyberlimes.cn), who will make adjustments and provided clarifications as needed.
 - The host will maintain a list of parts and models for the Chinese domestic GPUs, which will be updated continually until December 31st.
 - Assessment for all program results will be done in collaboration with core developers from open sources communities, experts from the PLCT Lab, and experts from our sponsors. We will announce assessment committees for each program by December 31st.
