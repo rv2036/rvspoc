@@ -1,3 +1,3 @@
 # RISC-V 소프트웨어포팅및최적화챔피언십
 
-Registration for this championship will officially open on 01 December 2023.
+챔피언십 등록은 2023년 12월 1일에 정식으로 시작됩니다.

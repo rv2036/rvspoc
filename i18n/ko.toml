@@ -1,94 +1,38 @@
-[more]
-other = "More"
-
-[allTitle]
-other = "All {{.Title }}"
-
-[recentTitle]
-other = "Recent {{.Title }}"
-
-[readMore]
-other = "read more"
-
-[by]
-other = "By"
-
-[whatsInThis]
-other = "What's in this {{ .Type }}"
-
-[related]
-other = "Related"
-
-[yourName]
-other = "Your Name"
-
-[emailAddress]
-other = "Email Address"
-
-[message]
-other = "Message"
-
-[emailRequiredNote]
-other = "An email address is required."
-
-[send]
-other = "Send"
-
-[taxonomyPageList]
-other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
-
-[readingTime]
-one = "One minute read"
-other = "{{ .Count }} minutes read"
-
-[wordCount]
-one = "One word"
-other = "{{ .Count }} words"
-
-[pageTitle]
-other = "{{ .Name }} page"
-
-###
-# the above items are copied from theme ananke, path: themes/ananke/i18n/en.toml
-###
-###
-
-
 [CC-BY-NC-SA-License-prefix]
-other = 'Except where otherwise noted , content on this site is licensed under a '
+other = '특별한 언급이 없는 한, 이 사이트는 다음 라이선스로 제공됩니다:'
 
 [CC-BY-NC-SA-License]
-other = 'Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license'
+other = '크리에이티브 커먼즈 저작자표시-비영리-동일조건변경허락 4.0 국제 라이선스'
 
 [CC-BY-NC-SA-License-suffix]
 other = '.'
 
 [toc]
-other = 'Table of Contents'
+other = '목차'
 
 [registration_desc]
-other = 'Registration'
+other = '등록'
 
 [registration_desc_suffix]
-other = '(Enabled on Dec 1st)'
+other = '(12월 1일에 이용 가능)'
 
 [list_of_challenges]
-other = 'Check the list of challenges'
+other = '챌린지 목록 확인하기'
 
 [details]
-other = 'Details'
+other = '상세 정보'
 
 [summary]
-other = 'Summary'
+other = '요약'
 
 [cid]
-other = 'Index'
+other = '색인'
 
 [award]
-other = 'Award'
+other = '어워드'
 
 [CNY]
-other = 'Chinese Yuan'
+other = '중국 위안'
 
 [home]
 other = 'Home'
