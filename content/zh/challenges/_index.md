@@ -8,3 +8,5 @@ title = '赛题'
 - CV1800B/Milk-V Duo（简称 Duo）
 
 [点击查看详细说明](../introduction/)
+
+若有需要，请联系我们的工作人员，邮箱：[rvspoc@cyberlimes.cn](mailto:rvspoc@cyberlimes.cn)

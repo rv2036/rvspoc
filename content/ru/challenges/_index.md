@@ -8,3 +8,5 @@ title = 'Задачи'
 - CV1800B/Milk-V Duo (Далее именуемый Duo)
 
 [Click here for details](../introduction/)
+
+If required, please contact our staff by email: [rvspoc@cyberlimes.cn](mailto:rvspoc@cyberlimes.cn)
