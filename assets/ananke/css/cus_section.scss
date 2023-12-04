@@ -26,6 +26,16 @@ body>main>article.in-section {
 	}
 }
 
+body>main>article.faq {
+	>header {
+		margin: 3em auto;
+	}
+	h2 {
+		position: relative;
+		font-size: 1.5em;
+	}
+}
+
 body>main>article.challenges {
 	position: relative;
 	padding-top: 0;
