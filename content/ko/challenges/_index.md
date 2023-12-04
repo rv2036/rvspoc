@@ -7,6 +7,6 @@ title = '도전'
 - SG2042/Pioneer Box (SG2042로 약칭)
 - CV1800B/Milk-V Duo (Duo로 약칭)
 
-[내용은 여기](/introduction/)
+[내용은 여기](/ko/introduction/)
 
 부담없이 이메일로 당사 직원에게 연락해 주시기 바랍니다: [rvspoc@cyberlimes.cn](mailto:rvspoc@cyberlimes.cn)
