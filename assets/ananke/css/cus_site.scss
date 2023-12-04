@@ -231,11 +231,26 @@ body {
 		}
 
 		nav {
+			ul>li:last-of-type {
+				padding-right: 0;
+			}
 			a.i18n-link {
 				font-size: 0.6em;
 			}
 			a.dib {
 				text-shadow: 0.6px 0.6px 0 #FFFFFFF0;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+			a.nav-link {
+				font-size: 0.6em;
+				font-weight: bold;
+				letter-spacing: 0.1em;
+				display: inline-block;
+				padding: 0.3em 0.9em;
+				background-color: #FFFFFF50;
+				border-radius: 5px;
 				&:hover {
 					text-decoration: none;
 				}
@@ -251,6 +266,9 @@ body {
 				}
 				a.i18n-link {
 					font-size: 1em;
+				}
+				a.nav-link {
+					font-size: 0.9em;
 				}
 			}
 		}
@@ -275,6 +293,9 @@ body {
 		}
 		nav a.dib {
 			text-shadow: 0.6px 0.6px 0 #00000020;
+		}
+		nav a.nav-link {
+			background-color: #0000001A;
 		}
 	}
 
