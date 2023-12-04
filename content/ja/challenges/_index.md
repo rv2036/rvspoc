@@ -9,4 +9,4 @@ title = 'チャレンジ'
 
 [詳細はこちら](../introduction/)
 
-If required, please contact our staff by email: [rvspoc@cyberlimes.cn](mailto:rvspoc@cyberlimes.cn)
+気楽にメールでスタッフまでにご連絡ください。: [rvspoc@cyberlimes.cn](mailto:rvspoc@cyberlimes.cn)
