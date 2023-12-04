@@ -35,10 +35,7 @@ other = '어워드'
 other = '중국 위안'
 
 [home]
-other = '홈'
+other = 'Home'
 
-[allTitle]
-other = "모든 {{.Title}}"
-
-[recentTitle]
-other = "최근의 {{.Title}}"
+[email]
+other = '전자우편: '

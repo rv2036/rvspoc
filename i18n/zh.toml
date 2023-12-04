@@ -37,6 +37,9 @@ other = '人民币'
 [home]
 other = '主页'
 
+[email]
+other = '电子邮件：'
+
 # The default translates of allTitle and recentTitle in theme contains an
 # additional space character, re-configure them here:
 [allTitle]

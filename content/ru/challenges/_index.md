@@ -7,4 +7,6 @@ title = 'Задачи'
 - SG2042/Pioneer Box (Далее именуемый SG2042)
 - CV1800B/Milk-V Duo (Далее именуемый Duo)
 
-[Click here for details](../introduction/)
+[Нажмите здесь для получения подробной информации](../introduction/)
+
+При необходимости, пожалуйста, свяжитесь с нашими сотрудниками по электронной почте: [rvspoc@cyberlimes.cn](mailto:rvspoc@cyberlimes.cn)
