@@ -5,7 +5,7 @@
       <img src="{{ relURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
     </a>
     {{ else }}
-      {{ if (or .IsPage .IsSection) }}
+      {{ if not .IsHome }}
     <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw3 no-underline dib">
         {{ .Site.Title }}
     </a>
