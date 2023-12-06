@@ -7,6 +7,6 @@ title = 'チャレンジ'
 - SG2042/Pioneer Box（SG2042と略）
 - CV1800B/Milk-V Duo（Duoと略）
 
-[詳細はこちら](../introduction/)
+[詳細はこちら](/ja/introduction/)
 
-If required, please contact our staff by email: [rvspoc@cyberlimes.cn](mailto:rvspoc@cyberlimes.cn)
+気楽にメールでスタッフまでにご連絡ください。: [rvspoc@cyberlimes.cn](mailto:rvspoc@cyberlimes.cn)

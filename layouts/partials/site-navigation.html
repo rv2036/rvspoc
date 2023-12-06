@@ -13,18 +13,18 @@
       <span></span>
       {{ end }}
     {{ end }}
-    <div class="flex-l items-center nav-right">
+    <div class="flex items-center nav-right">
       {{ partial "i18nlist.html" . }}
-      {{ if .Site.Menus.main }}
-        <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
-          {{ range .Site.Menus.main }}
-          <li class="list f5 f5-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-            <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
-              {{ .Name }}
-            </a>
-          </li>
-          {{ end }}
-        </ul>
+      {{ if .Site.Menus.nav }}
+      <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
+        {{ range .Site.Menus.nav }}
+        <li class="list f5 f5-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
+          <a class="no-underline nav-link" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
       {{ end }}
       {{ partialCached "social-follow.html" . }}
     </div>
