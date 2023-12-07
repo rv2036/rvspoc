@@ -14,3 +14,10 @@ Answer:
 
 - CV1800B/Milk-V Duo equipment needs to be prepared by yourself;
 - The SG2042/Pioneer Box will be available as an SSH connection before December 31, 2023, please pay attention to the announcement for details.
+
+## How to determine the winner?
+
+Answer:
+
+- For (P)orting class challenges, unless otherwise specified, the first person/team to fully pass the test and submit the porting results will be the winner.
+- For (S)peed optimization class challenges, optimization metrics are set for each challenge and the person/team with the best metrics from all results submitted before the competition deadline will be declared the winner.
