@@ -210,6 +210,9 @@ body>main>article.cjk #challenges-meta>div span.currency {
 				border-left: 1px solid var(--fg-less);
 				border-bottom: 1px solid var(--fg-less);
 				padding: 0.2em;
+				line-break: normal;
+				overflow-wrap: anywhere;
+				word-break: normal;
 			}
 			th {
 				border-bottom-width: 2px;
