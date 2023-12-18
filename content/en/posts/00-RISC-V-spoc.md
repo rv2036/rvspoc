@@ -46,7 +46,7 @@ The **optimization sprint** sets a series of **evaluation criteria**, against wh
 
 Based on the number of participants, the championship will run both individual and team events. For individual events, the participant will complete their work individually and wholly receive any prizes awarded. Events with two or more participants will be listed under the team events category. The team events set no limit on the number of participants and the teams will decide on their own terms regarding how to split the prizes awarded. 
 
-## Championship Schedule (Subject to Change)
+## Championship Schedule
 
 October 31, 2023: Deadline for Sponsorship Registration
 
