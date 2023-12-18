@@ -28,4 +28,4 @@ Answer: Each challenge corresponds to a repo, the URL of that repo will be added
 
 ## What are the start and finish dates for this championship?
 
-Answer: This championship started on December 1, 2023 and will end on February 16, 2024, see the [챔피언십 스케줄](https://rvspoc.org/ko/00/#챔피언십-스케줄) for details.
+Answer: This championship started on December 1, 2023 and will end on February 16, 2024, see the [챔피언십 스케줄](/ko/00/#챔피언십-스케줄) for details.
