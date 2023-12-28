@@ -7,6 +7,8 @@ title = 'Задачи'
 - SG2042/Pioneer Box (Далее именуемый SG2042)
 - CV1800B/Milk-V Duo (Далее именуемый Duo)
 
+(excludes challenge S2312, which should be verified on SG2002)
+
 [Нажмите здесь для получения подробной информации](/ru/introduction/)
 
 При необходимости, пожалуйста, свяжитесь с нашими сотрудниками по электронной почте: [rvspoc@cyberlimes.cn](mailto:rvspoc@cyberlimes.cn)

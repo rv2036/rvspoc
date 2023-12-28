@@ -7,6 +7,8 @@ title = 'チャレンジ'
 - SG2042/Pioneer Box（SG2042と略）
 - CV1800B/Milk-V Duo（Duoと略）
 
+(excludes challenge S2312, which should be verified on SG2002)
+
 [詳細はこちら](/ja/introduction/)
 
 気楽にメールでスタッフまでにご連絡ください。: [rvspoc@cyberlimes.cn](mailto:rvspoc@cyberlimes.cn)
