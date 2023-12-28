@@ -4,28 +4,28 @@ title = 'FAQ'
 layout = 'faq'
 +++
 
-## Once a team/individual has registered, how many competitions can they take part in?
+## После регистрации команды/индивидуала, в скольких соревнованиях они могут принять участие?
 
-Answer: You can enter all competitions with no maximum number of entries once you have registered.
+Ответ: После регистрации вы можете участвовать во всех соревнованиях, максимальное количество заявок не ограничено.
 
-## Will the Organising Committee provide equipment for this championship? In what form?
+## Предоставит ли оргкомитет снаряжение для этого чемпионата? В каком виде?
 
-Answer:
+Ответ:
 
-- CV1800B/Milk-V Duo equipment needs to be prepared by yourself;
-- The SG2042/Pioneer Box will be available as an SSH connection before December 31, 2023, please pay attention to the announcement for details.
+- Оборудование CV1800B/Milk-V Duo необходимо подготовить самостоятельно;
+- SG2042/Pioneer Box будет доступен в виде SSH-соединения до 31 декабря 2023 года, пожалуйста, обратите внимание на объявление для получения подробной информации.
 
-## How to determine the winner?
+## Как определить победителя?
 
-Answer:
+Ответ:
 
-- For (P)orting class challenges, unless otherwise specified, the first person/team to fully pass the test and submit the porting results will be the winner.
-- For (S)peed optimization class challenges, optimization metrics are set for each challenge and the person/team with the best metrics from all results submitted before the competition deadline will be declared the winner.
+- Для задач класса (P)orting, если не указано иное, победителем будет считаться человек/команда, первым полностью прошедший тест и предоставивший результаты портирования.
+- Для задач класса (S)peed optimization для каждой задачи задаются метрики оптимизации, и победителем объявляется человек/команда с лучшими метриками из всех результатов, присланных до окончания конкурса.
 
-## Where is the code for this championship to be submitted?
+## Где должен быть представлен код для этого чемпионата?
 
-Answer: Each challenge corresponds to a repo, the URL of that repo will be added to the challenge content as it progresses.
+Ответ: Каждому заданию соответствует репо, URL этого репо будет добавляться в содержание задания по мере его выполнения.
 
-## What are the start and finish dates for this championship?
+## Каковы даты начала и окончания этого чемпионата?
 
-Answer: This championship started on December 1, 2023 and will end on February 16, 2024, see the [Расписание чемпионата](/ru/00/#расписание-чемпионата) for details.
+Ответ: Чемпионат начнется 1 декабря 2023 г. и завершится 16 февраля 2024 г. Подробности смотрите в [расписании чемпионата](/ru/00/#расписание-чемпионата).
