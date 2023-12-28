@@ -232,5 +232,33 @@ body>main>article.cjk #challenges-meta>div span.currency {
 			margin: 0 auto;
 		}
 	}
+
+	.footnotes {
+		margin-top: 100px;
+		font-size: 0.8em;
+		>ol {
+			padding-left: 3em;
+			>li {
+				position: relative;
+				margin: 0.8em 0 ;
+				p {
+					margin: 0;
+				}
+				.footnote-backref {
+					position: absolute;
+					top: 0;
+					left: -3em;
+					text-decoration: none;
+					opacity: 0;
+					transition: opacity 0.3s;
+				}
+				&:hover {
+					.footnote-backref {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
 }
 
