@@ -3,7 +3,7 @@ title = "List of Permitted Chinese Domestic GPUs"
 layout = 'faq'
 +++
 
-The following is a list of Chinese Domestic GPUs that will be used in this championship. GPUs allowed in [P2304: Chinese Domestic GPU Platform Porting and Demo](../p2304/) are listed as follows.
+다음은 이 챔피언십에서 사용되는 중국산 GPU 목록입니다. [P2304: 중국산 GPU 플랫폼의 이식 및 데모](../p2304/)에서 허용되는 GPU는 다음과 같습니다.
 
 |Vendor|Model|Link|Comment|
 |:-:|:-:|:-:|:-:|
@@ -13,4 +13,4 @@ The following is a list of Chinese Domestic GPUs that will be used in this champ
 |LinJoWing（凌久）|GP101, GP102|GP101: http://www.ljmicro.cn/productInfo.html?id=26<br/>GP102: http://www.ljmicro.cn/productInfo.html?id=25||
 |Glenfly Tech（格兰菲）|Arise 1020|TBA||
 
-The RVSPOC Organizing Committee reserves all rights to the final interpretation of the above list.
+RVSPOC 조직 위원회는 상기 목록의 최종 해석에 대한 모든 권리를 보유합니다.

@@ -4,28 +4,28 @@ title = 'FAQ'
 layout = 'faq'
 +++
 
-## Once a team/individual has registered, how many competitions can they take part in?
+## 팀이나 개인이 등록한 후, 몇 개의 경기에 참가할 수 있나요?
 
-Answer: You can enter all competitions with no maximum number of entries once you have registered.
+Answer: 등록 후에는 제한 없이 모든 경기에 참가할 수 있습니다.
 
-## Will the Organising Committee provide equipment for this championship? In what form?
-
-Answer:
-
-- CV1800B/Milk-V Duo equipment needs to be prepared by yourself;
-- The SG2042/Pioneer Box will be available as an SSH connection before December 31, 2023, please pay attention to the announcement for details.
-
-## How to determine the winner?
+## 대회 조직 위원회는 이 챔피언십을 위한 장비를 제공하나요? 어떤 형식인가요?
 
 Answer:
 
-- For (P)orting class challenges, unless otherwise specified, the first person/team to fully pass the test and submit the porting results will be the winner.
-- For (S)peed optimization class challenges, optimization metrics are set for each challenge and the person/team with the best metrics from all results submitted before the competition deadline will be declared the winner.
+- CV1800B/Milk-V Duo 장비는 본인이 준비해야 합니다;
+- SG2042/Pioneer Box는 2023년 12월 31일까지 SSH 연결로 사용 가능합니다. 자세한 사항은 공지사항을 확인해 주세요.
 
-## Where is the code for this championship to be submitted?
+## 승자의 결정 방법은?
 
-Answer: Each challenge corresponds to a repo, the URL of that repo will be added to the challenge content as it progresses.
+Answer:
 
-## What are the start and finish dates for this championship?
+- (P)orting 클래스의 챌린지에서는 특별한 언급이 없는 한, 처음으로 테스트에 완전히 합격하고 포팅 결과를 제출한 개인/팀이 승자가 됩니다.
+- (S)peed 최적화 클래스의 챌린지에서는 각 챌린지에 최적화 지표가 설정되며, 경기 마감까지 제출된 결과 중 가장 우수한 지표를 달성한 개인/팀이 승자로 선언됩니다.
 
-Answer: This championship started on December 1, 2023 and will end on February 16, 2024, see the [챔피언십 스케줄](/ko/00/#챔피언십-스케줄) for details.
+## 이 챔피언십의 코드는 어디에 제출해야 하나요?
+
+Answer: 각 챌린지마다 해당하는 리포지토리가 있으며, 그 리포지토리의 URL은 챌린지 진행에 따라 컨텐츠에 추가됩니다.
+
+## 이 챔피언십의 시작일과 종료일은 언제인가요?
+
+Answer: 이 챔피언십은 2023년 12월 1일에 시작하여 2024년 2월 16일에 종료됩니다. 자세한 내용은 [챔피언십 스케줄](/ko/00/#챔피언십-스케줄) 을 참조하세요.
