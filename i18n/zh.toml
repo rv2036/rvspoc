@@ -47,3 +47,6 @@ other = "所有{{ .Title }}"
 
 [recentTitle]
 other = "最近{{ .Title }}"
+
+[list_of_teams]
+other = "已报名团队列表"
