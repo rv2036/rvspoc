@@ -39,3 +39,6 @@ other = 'Заглавная страница'
 
 [email]
 other = 'Электронная почта: '
+
+[list_of_teams]
+other = "List of registered teams"
