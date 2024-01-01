@@ -49,3 +49,5 @@ other = "全ての{{.Title }}"
 [recentTitle]
 other = "最近の{{.Title }}"
 
+[list_of_teams]
+other = "List of registered teams"

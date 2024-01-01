@@ -39,3 +39,6 @@ other = 'Home'
 
 [email]
 other = 'Email: '
+
+[list_of_teams]
+other = "List of registered teams"

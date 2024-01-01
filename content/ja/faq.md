@@ -4,28 +4,28 @@ title = 'FAQ'
 layout = 'faq'
 +++
 
-## Once a team/individual has registered, how many competitions can they take part in?
+## チームまたは個人が登録した後、いくつの競技に参加できますか？
 
-Answer: You can enter all competitions with no maximum number of entries once you have registered.
+回答：登録後、制限なく全ての競技に参加できます。
 
-## Will the Organising Committee provide equipment for this championship? In what form?
+## 大会組織委員会はこのチャンピオンシップのための機材を提供しますか？どのような形式ですか？
 
-Answer:
+回答：
 
-- CV1800B/Milk-V Duo equipment needs to be prepared by yourself;
-- The SG2042/Pioneer Box will be available as an SSH connection before December 31, 2023, please pay attention to the announcement for details.
+- CV1800B/Milk-V Duo機材は自分自身で準備する必要があります；
+- SG2042/Pioneer Boxは2023年12月31日までSSH接続として利用可能です。詳細については、アナウンスメントをご確認ください。
 
-## How to determine the winner?
+## 勝者の決定方法は？
 
-Answer:
+回答：
 
-- For (P)orting class challenges, unless otherwise specified, the first person/team to fully pass the test and submit the porting results will be the winner.
-- For (S)peed optimization class challenges, optimization metrics are set for each challenge and the person/team with the best metrics from all results submitted before the competition deadline will be declared the winner.
+- (P)ortingクラスのチャレンジについては、特に記載がない限り、最初にテストに完全に合格し、ポーティング結果を提出した個人/チームが勝者となります。
+- (S)peed最適化クラスのチャレンジでは、各チャレンジに最適化指標が設定され、競技締切までに提出された結果の中で最も優れた指標を達成した個人/チームが勝者と宣言されます。
 
-## Where is the code for this championship to be submitted?
+## このチャンピオンシップのコードはどこに提出すべきですか？
 
-Answer: Each challenge corresponds to a repo, the URL of that repo will be added to the challenge content as it progresses.
+回答：各チャレンジには対応するリポジトリがあり、そのリポジトリのURLはチャレンジの進行に応じてコンテンツに追加されます。
 
-## What are the start and finish dates for this championship?
+## このチャンピオンシップの開始日と終了日はいつですか？
 
-Answer: This championship started on December 1, 2023 and will end on February 16, 2024, see the [チャンピオンシップスケジュール](/ja/00/#チャンピオンシップスケジュール) for details.
+回答：このチャンピオンシップは2023年12月1日に始まり、2024年2月16日に終了します。詳細は[チャンピオンシップスケジュール](/ja/00/#チャンピオンシップスケジュール)をご覧ください。
