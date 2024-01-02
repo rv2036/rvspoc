@@ -41,9 +41,7 @@
             {{- i18n "registration_desc"}}<span>{{ i18n "registration_desc_suffix" -}}</span>
         {{- end -}}
         </a>
-      </div>
-      <div id="teams-link" class="tc-l pv3 ph3 ph4-ns f4">
-        <a href='{{ absURL "/2023/teams/"}}'>{{ i18n "list_of_teams" | default "List of registered teams" }}</a>
+        <a id="teams" href='{{ absURL "/2023/teams/"}}'>{{ i18n "list_of_teams" | default "Teams" }}</a>
       </div>
       <div id="challenges-link" class="tc-l pv3 ph3 ph4-ns f4">
         <a href='{{ relLangURL "challenges/"}}'>{{ i18n "list_of_challenges" }}</a>
