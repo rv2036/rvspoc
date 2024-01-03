@@ -1,0 +1,48 @@
+setopt extended_history
+HISTFILE=/home/worker/.zsh_history
+HISTSIZE=1000000
+SAVEHIST=100000
+bindkey -v
+KEYTIMEOUT=1
+zstyle ':completion:*' completer _complete _ignored _approximate
+zstyle ':completion:*' expand prefix
+zstyle ':completion:*' format 'Completing %d'
+zstyle ':completion:*:descriptions' format '%U%d%b%u'
+zstyle ':completion:*:warnings' format '%BSorry, no matches for: %d%b'
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*' ignore-parents parent pwd
+zstyle ':completion:*' insert-unambiguous true
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' list-prompt '%SAt %p: Hit TAB for more, or the character to insert%s'
+zstyle ':completion:*' list-suffixes true
+zstyle ':completion:*' matcher-list '' 'm:{[:lower:]}={[:upper:]}'
+zstyle ':completion:*' max-errors 0 not-numeric
+zstyle ':completion:*' original true
+zstyle ':completion:*' preserve-prefix '//[^/]##/'
+zstyle ':completion:*' squeeze-slashes true
+zstyle :compinstall filename '~/.zshrc'
+autoload -Uz compinit promptinit vcs_info
+compinit
+promptinit
+bindkey '^R' history-incremental-search-backward
+setopt autocd
+setopt extendedglob
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+precmd() {
+	local _last_ret=$?
+	local _color=209
+	if [[ ${_last_ret} != 0 ]]; then
+		case ${_last_ret} in
+		130)
+			_last_ret='^C'
+			_color=212
+			;;
+		*)
+			;;
+		esac
+		printf '\x1b[48;5;%dm[DOCKER]  ⤒%s   \x1b[0m\n' ${_color} ${_last_ret}
+	fi
+}
+PROMPT='%B[docker:milkv-duo-self] %~ %#%b '
+alias ls="ls -p --color=auto"
