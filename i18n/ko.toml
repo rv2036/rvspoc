@@ -41,4 +41,4 @@ other = 'Home'
 other = '전자우편: '
 
 [list_of_teams]
-other = "List of registered teams"
+other = "팀 목록"
