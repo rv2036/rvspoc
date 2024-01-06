@@ -6,7 +6,9 @@
 
 ## 赛题演示回放地址
 
-TBA
+https://www.bilibili.com/video/BV1Jg4y1D7Hz/
+
+> *视频前面有留白，05:55 正式开始*
 
 ## 赛题演示中一些材料
 
