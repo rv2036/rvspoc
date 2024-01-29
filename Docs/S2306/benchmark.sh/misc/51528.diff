@@ -1,0 +1,37 @@
+#
+# See also: https://github.com/nodejs/node/pull/51528
+#
+diff --git a/benchmark/permission/permission-processhas-fs-read.js b/benchmark/permission/permission-processhas-fs-read.js
+index bd81814e55861..e0b2efdb3b2f7 100644
+--- a/benchmark/permission/permission-processhas-fs-read.js
++++ b/benchmark/permission/permission-processhas-fs-read.js
+@@ -13,6 +13,7 @@ const options = {
+   flags: [
+     '--experimental-permission',
+     `--allow-fs-read=${rootPath}`,
++    '--allow-child-process',
+   ],
+ };
+ 
+diff --git a/benchmark/permission/permission-startup.js b/benchmark/permission/permission-startup.js
+index c800706299bb2..a65b5cafdc543 100644
+--- a/benchmark/permission/permission-startup.js
++++ b/benchmark/permission/permission-startup.js
+@@ -47,12 +47,14 @@ function spawnProcess(script, bench, state) {
+ 
+ function main({ count, script, nFiles, prefixPath }) {
+   script = path.resolve(__dirname, '../../', `${script}.js`);
+-  const files = mockFiles(nFiles, prefixPath).join(',');
+   const optionsWithScript = [
+     '--experimental-permission',
+-    `--allow-fs-read=${files},${script}`,
+-    script,
++    `--allow-fs-read=${script}`,
+   ];
++  for (const file of mockFiles(nFiles, prefixPath)) {
++    optionsWithScript.push('--allow-fs-read=' + file);
++  }
++  optionsWithScript.push(script);
+   const warmup = 3;
+   const state = { count, finished: -warmup };
+   spawnProcess(optionsWithScript, bench, state);
