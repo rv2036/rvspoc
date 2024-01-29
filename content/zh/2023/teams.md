@@ -8,7 +8,6 @@ title = 'List of registered teams'
 | 2 | 大猫狸 | 团体参赛 | TBA | 信息确认中 |
 | 3 | 向日葵 | 个人参赛 | TBA | 信息确认中 |
 | 4 | Rising | 个人参赛 | TBA | 信息确认中 |
-| 5 | oos小队 | 个人参赛 | TBA | 信息确认中 |
 | 6 | 不挂机 | 个人参赛 | TBA | 信息确认中 |
 | 7 | dddd队 | 个人参赛 | TBA | 信息确认中 |
 | 8 | OStar | 团体参赛 | TBA | 信息确认中 |
@@ -17,7 +16,6 @@ title = 'List of registered teams'
 | 11 | 挖掘机 | 个人参赛 | TBA | 信息确认中 |
 | 12 | chamchamgo | 个人参赛 | TBA | 信息确认中 |
 | 13 | 三月琴 | 个人参赛 | TBA | 信息确认中 |
-| 14 | JKQA | 个人参赛 | TBA | 信息确认中 |
 | 15 | JQKA | 个人参赛 | TBA | 信息确认中 |
 | 16 | 233 | 个人参赛 | TBA | 信息确认中 |
 | 17 | 茴香豆 | 个人参赛 | TBA | 信息确认中 |
@@ -63,7 +61,6 @@ title = 'List of registered teams'
 | 57 | 无根生 | 个人参赛 | TBA | 信息确认中 |
 | 58 | 阿杰的室友 | 个人参赛 | TBA | 信息确认中 |
 | 59 | IEEE80211 | 团体参赛 | TBA | 信息确认中 |
-| 60 | IEEE80211 | 团体参赛 | TBA | 信息确认中 |
 | 61 | 晴空万里 | 个人参赛 | TBA | 信息确认中 |
 | 62 | 一之矢 | 团体参赛 | TBA | 信息确认中 |
 | 63 | Wons CV | 个人参赛 | TBA | 信息确认中 |
@@ -83,9 +80,27 @@ title = 'List of registered teams'
 | 77 | 新时代队 | 个人参赛 | TBA | 信息确认中 |
 | 78 | shuffle | 个人参赛 | TBA | 信息确认中 |
 | 79 | songxi.ma team | 个人参赛 | TBA | 信息确认中 |
-| 80 | 无根生 | 个人参赛 | TBA | 信息确认中 |
 | 81 | TIm | 团体参赛 | TBA | 信息确认中 |
 | 82 | OpenGeek | 团体参赛 | TBA | 信息确认中 |
 | 83 | 起风了哟掌灯人 | 个人参赛 | TBA | 信息确认中 |
+| 84 | 精简指令 | 个人参赛 | TBA | 信息确认中 |
+| 85 | PeterXingke | 个人参赛 | TBA | 信息确认中 |
+| 86 | 一道闪电 | 个人参赛 | TBA | 信息确认中 |
+| 87 | 切菜哥 | 个人参赛 | TBA | 信息确认中 |
+| 88 | 没有头发的瓜 | 个人参赛 | TBA | 信息确认中 |
+| 89 | 自崛小队 | 个人参赛 | TBA | 信息确认中 |
+| 90 | IBN5100 | 个人参赛 | TBA | 信息确认中 |
+| 91 | 月光加冕贝拉拉 | 个人参赛 | TBA | 信息确认中 |
+| 92 | little busters | 个人参赛 | TBA | 信息确认中 |
+| 93 | 炮灰一号 | 团体参赛 | TBA | 信息确认中 |
+| 94 | 珊妮泉 | 团体参赛 | TBA | 信息确认中 |
+| 95 | NPC小皮皮 | 个人参赛 | TBA | 信息确认中 |
+| 96 | 微不足道 | 个人参赛 | TBA | 信息确认中 |
+| 97 | a | 个人参赛 | TBA | 信息确认中 |
+| 99 | y_combinator | 个人参赛 | TBA | 信息确认中 |
+| 100 | 新电子爱好者 | 个人参赛 | TBA | 信息确认中 |
+| 101 | auipc | 个人参赛 | TBA | 信息确认中 |
+| 102 | Zhi | 个人参赛 | TBA | 信息确认中 |
+| 103 | 我们爱报名参赛 | 团体参赛 | TBA | 信息确认中 |
 | 501 | solo-lab | Individual (Only me) | TBA | In progress |
 | 502 | BARISC | Individual (Only me) | TBA | In progress |
