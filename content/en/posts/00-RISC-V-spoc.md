@@ -52,9 +52,9 @@ October 31, 2023: Deadline for Sponsorship Registration
 
 November 1, 2023 – November 30, 2023: Event Launch an Announcement of Projects
 
-December 1, 2023 – February 16, 2024: Registration and Competitive Events
+December 1, 2023 – ~~February 16~~February 29, 2024: Registration and Competitive Events
 
-February 17, 2024 – March 1, 2024: Host Assessment of Submissions and Announcement of Winners
+~~February 17~~March 1, 2024 – ~~March 1~~March 31, 2024: Host Assessment of Submissions and Announcement of Winners
 
 Early April, 2024: Awards Ceremony and RISC-V Technical Seminar 
 
