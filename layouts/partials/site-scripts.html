@@ -1,0 +1,62 @@
+<script>
+  function getDismissedBanners() {
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      return JSON.parse(dismissedBannersRaw);
+    } else {
+      return [];
+    }
+  }
+
+  function pushDismissedBanner(dismissedBanner) {
+    let dismissedBanners;
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      dismissedBanners = JSON.parse(dismissedBannersRaw);
+    } else {
+      dismissedBanners = [];
+    }
+    for (const oldDismissedBanner of dismissedBanners) {
+      if (oldDismissedBanner == dismissedBanner) {
+        return;
+      }
+    }
+    dismissedBanners.push(dismissedBanner);
+    dismissedBannersRaw = JSON.stringify(dismissedBanners);
+    localStorage.setItem('dismissedBanners', dismissedBannersRaw);
+  }
+
+  function prepareBanners() {
+    let banners = document.querySelectorAll('body div#banners ul li');
+    let dismissedBanners = getDismissedBanners();
+    for (const banner of banners) {
+      let bannerDismissed = false;
+      for (const dismissedBanner of dismissedBanners) {
+        if (dismissedBanner == banner.id) {
+          bannerDismissed = true;
+          break;
+        }
+      }
+      if (!bannerDismissed) {
+        banner.classList.remove('dismissed');
+      }
+    }
+  }
+
+  function registerCloseEventForBanner() {
+    let closeButtons = document.querySelectorAll('body div#banners ul li a.close');
+    for (const closeButton of closeButtons) {
+      const bannerId = closeButton.getAttribute('data-banner-id');
+      closeButton.addEventListener("click", function(e){
+        pushDismissedBanner(bannerId);
+        const theBanner = document.querySelector('body div#banners ul li#' + bannerId);
+        theBanner.classList.add('dismissed');
+      });
+    }
+  }
+
+  window.addEventListener("DOMContentLoaded", function() {
+    prepareBanners();
+    registerCloseEventForBanner();
+  });
+</script>

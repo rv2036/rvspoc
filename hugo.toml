@@ -58,6 +58,9 @@ defaultContentLanguageInSubdir = false
     summaryLength = 230
     [languages.zh.params]
       registration_url = 'https://www.wenjuan.com/s/UZBZJv0BMdV/'
+      [[languages.zh.params.banners]]
+        text = '本次锦标赛的报名与提交截止日期将延长至 2024 年 2 月 29 日。'
+        link = ''
   [languages.en]
     contentDir = 'content/en'
     disabled = false
@@ -68,6 +71,9 @@ defaultContentLanguageInSubdir = false
     weight = 2
     [languages.en.params]
       registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
+      [[languages.en.params.banners]]
+        text = 'The deadline of registrations and submissions for this championship is extended to February 29, 2024.'
+        link = ''
   [languages.ru]
     contentDir = 'content/ru'
     disabled = false
@@ -78,6 +84,9 @@ defaultContentLanguageInSubdir = false
     weight = 3
     [languages.ru.params]
       registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
+      [[languages.ru.params.banners]]
+        text = 'The deadline of registrations and submissions for this championship is extended to February 29, 2024.'
+        link = ''
   [languages.ja]
     contentDir = 'content/ja'
     disabled = false
@@ -90,6 +99,9 @@ defaultContentLanguageInSubdir = false
     summaryLength = 230
     [languages.ja.params]
       registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
+      [[languages.ja.params.banners]]
+        text = 'The deadline of registrations and submissions for this championship is extended to February 29, 2024.'
+        link = ''
   [languages.ko]
     contentDir = 'content/ko'
     disabled = false
@@ -102,3 +114,6 @@ defaultContentLanguageInSubdir = false
     summaryLength = 230
     [languages.ko.params]
       registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
+      [[languages.ko.params.banners]]
+        text = 'The deadline of registrations and submissions for this championship is extended to February 29, 2024.'
+        link = ''

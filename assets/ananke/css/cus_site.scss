@@ -9,6 +9,7 @@
 
 body {
 	background-color: #FDFDFD !important;
+	padding-top: var(--sat) !important;
 
 	#registration {
 		margin-top: 5em;
@@ -150,6 +151,68 @@ body {
 		}
 	}
 
+	#banners {
+		position: relative;
+		z-index: 999;
+		box-sizing: border-box;
+		padding: 0 3em;
+		width: 100%;
+		text-align: center;
+		color: var(--fg-less);
+		box-shadow: 0 1px 2px #00000030;
+		font-size: 0.9em;
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			li {
+				padding: 0.8em 0;
+				display: inline-flex;
+				text-align: center;
+				span {
+					display: inline-block;
+				}
+				a {
+					display: inline-block;
+					color: var(--fg-less);
+					&.details {
+						margin-left: 0.5em;
+					}
+					&.close {
+						margin-left: 1em;
+						width: 1.2em;
+						height: 1.2em;
+						position: relative;
+						top: 0;
+						cursor: pointer;
+						&:before, &:after {
+							content: "";
+							position: absolute;
+							left: 0.5em;
+							top: 0.1em;
+							width: 0.2em;
+							height: 1em;
+							background-color: var(--fg-less);
+						}
+						&:before {
+							transform: rotate(45deg);
+						}
+						&:after {
+							transform: rotate(-45deg);
+						}
+					}
+				}
+			}
+		}
+		ul li.dismissed {
+			display: none;
+		}
+		/*
+		&.home ul li a.close, &.not-home ul li.dismissed {
+			display: none;
+		}
+		*/
+	}
 
 	>header, >footer {
 		>div {
@@ -219,7 +282,6 @@ body {
 	}
 
 	>header {
-		padding-top: var(--sat) !important;
 		padding-right: var(--sar) !important;
 		padding-left: var(--sal) !important;
 
