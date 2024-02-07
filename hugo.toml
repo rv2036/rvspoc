@@ -72,7 +72,7 @@ defaultContentLanguageInSubdir = false
     [languages.en.params]
       registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
       [[languages.en.params.banners]]
-        text = 'The deadline of registrations and submissions for this championship is extended to February 29, 2024.'
+        text = 'The deadline for registrations and submissions for this championship is extended to February 29, 2024.'
         link = 'https://rvspoc.org/02/'
   [languages.ru]
     contentDir = 'content/ru'
@@ -85,7 +85,7 @@ defaultContentLanguageInSubdir = false
     [languages.ru.params]
       registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
       [[languages.ru.params.banners]]
-        text = 'The deadline of registrations and submissions for this championship is extended to February 29, 2024.'
+        text = 'The deadline for registrations and submissions for this championship is extended to February 29, 2024.'
         link = 'https://rvspoc.org/02/'
   [languages.ja]
     contentDir = 'content/ja'
@@ -100,7 +100,7 @@ defaultContentLanguageInSubdir = false
     [languages.ja.params]
       registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
       [[languages.ja.params.banners]]
-        text = 'The deadline of registrations and submissions for this championship is extended to February 29, 2024.'
+        text = 'The deadline for registrations and submissions for this championship is extended to February 29, 2024.'
         link = 'https://rvspoc.org/02/'
   [languages.ko]
     contentDir = 'content/ko'
@@ -115,5 +115,5 @@ defaultContentLanguageInSubdir = false
     [languages.ko.params]
       registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
       [[languages.ko.params.banners]]
-        text = 'The deadline of registrations and submissions for this championship is extended to February 29, 2024.'
+        text = 'The deadline for registrations and submissions for this championship is extended to February 29, 2024.'
         link = 'https://rvspoc.org/02/'
