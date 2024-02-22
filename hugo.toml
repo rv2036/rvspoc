@@ -85,7 +85,7 @@ defaultContentLanguageInSubdir = false
     [languages.ru.params]
       registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
       [[languages.ru.params.banners]]
-        text = 'The deadline for registrations and submissions for this championship is extended to February 29, 2024.'
+        text = 'Срок регистрации и подачи заявок на этот чемпионат продлен до 29 февраля 2024 года.'
         link = 'https://rvspoc.org/02/'
   [languages.ja]
     contentDir = 'content/ja'
