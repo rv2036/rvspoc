@@ -39,7 +39,7 @@ https://github.com/plctlab/rvspoc-s2309-opencv/pull/2 银河护卫队
 - 测试结果统计
 我们按照模块的包含的用例总数进行降序排序，重点看优化幅度一项，优化幅度大于 10% 且用例总数大于 125 个的模块做了加粗效果。
 
-    ![round1-statistic](./round1-statistic.png)
+    ![round1-statistic](./round1-stastic.png)
 
 
 ### 第二轮测试
