@@ -85,7 +85,7 @@ opencv 的回归测试和性能测试，基于 gtest，按照运算复杂度，�
 - 以 testcase 为单位，逐个测试,能够在预期时间内完成，且不会死机
     
 为了尽可能保证测试的可重复性，考虑到两个 PR 用到的 opencv 版本与赛题直播讲解的可能存在不一致; 以及在 Duo 上测试会出现无响应，死机等等不可预测事件
-- 我们打算在 Duo 上输出用做基准测试的 OpenCV4.8.1 （https://github.com/opencv/opencv/archive/refs/tags/4.8.1.tar.gz） 的所有的用例，保存到一个inputAll.csv(https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2309/round1/inputAll.csv)文件，总计54625个用例
+- 我们打算在 Duo 上输出用做基准测试的 OpenCV4.8.1 （https://github.com/opencv/opencv/archive/refs/tags/4.8.1.tar.gz） 的所有的用例，保存到一个inputAll.csv(https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2309/round1/inputAll.csv) 文件，总计54625个用例
 - Duo 上根据这个 csv 文件逐个测试里面的用例，每个用例耗时最多不超过 15 秒，测试结果保存到 outputAll.csv
 - 最差的情况，跑完整个用例需要 9.5 天左右
 
@@ -244,7 +244,7 @@ https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2309/round1/p
 
 ##### 第一轮结果
 
-注意：在统计第一轮的结果时，pr2 尚未测完，只好强制终止了 pr2 的测试，统计结果时，base，pr1，pr2的数据均截至到这个用例
+注意：在统计第一轮的结果时，pr2 尚未测完，只好强制终止了 pr2 的测试，统计结果时，base，pr1，pr2 的数据均截至到这个用例
 ```
 opencv_test_gapi,FluidTiledParallel8x10/TiledComputation,Test/42,0
 ```
