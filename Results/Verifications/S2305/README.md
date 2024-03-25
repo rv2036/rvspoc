@@ -33,7 +33,7 @@ pr3 的移植思路是：
 
 |  模块名称 |           PR1/PR2  | PR3 | 基准测试 | 备注 |
 | --------            | -------- | -------- |-------- |-------- |
-| openGauss版本    |     5.1.0 轻量版     | 5.0.0轻量版 | 5.1.0 轻量版        | 无|
+| openGauss版本    |     5.1.0 轻量版     | 5.1.0 标准版 | 5.0.0 轻量版        | 无|
 | 验证环境 |  docker（openEuler 22.03 RISC-V）on pioneerbox | Fedora 38 on pioneerbox    |   openEuler20.03 x86_64 virtualbox     | 无|
 | 是否移植成功    |     Y     | Y | NA        | 无|
 | benchmark结果    |     见附件[1]     | 见附件[2] | 见附件[3]        | 无|
