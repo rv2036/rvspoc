@@ -57,10 +57,9 @@ https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/base-my_
 
 - 所有的 benchmark 测试都在空载的情况下进行
 
-- pr1、和 pr2 需要在欧拉系统上测试
-  按照选手的说明，我们在欧拉的 docker 环境中完成 （rvbox12）
+- 按照作者的说明 pr1/pr2 需要用到 openEuler 22.03 操作系统，我们基于 PioneerBox 上的 openEuler docker 环境进行验证
 
-- pr3 直接在 PioneerBox 平台验证(rvbox12)
+- pr3 直接在 PioneerBox 原生系统 Fedora 验证
 
 - 在运行 benchmark 测试时，采用相同的配置文件 props.pg
 ```
