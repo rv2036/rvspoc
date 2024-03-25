@@ -47,7 +47,7 @@ NA 无法测试
 
 ### PR 2 验证:
 
-![](https://md.oss.ac.cn/uploads/b7c66dbb-1581-4bb5-bc98-26f4ccdf19ee.png)
+![](./b7c66dbb-1581-4bb5-bc98-26f4ccdf19ee.png)
 
 ```bash
 $ mkdir P2308
@@ -208,9 +208,9 @@ $ ./pwm 1000000 900000
 $ ./pwm 1000000 600000
 ```
 
-![](https://md.oss.ac.cn/uploads/cb8e34b3-8cbf-4975-988a-c26fa0020898.png)
+![](./cb8e34b3-8cbf-4975-988a-c26fa0020898.png)
 
-![](https://md.oss.ac.cn/uploads/9d3132cb-e550-482d-b878-dc913cd311b7.png)
+![](./9d3132cb-e550-482d-b878-dc913cd311b7.png)
 
 
 不同的参数有明显的明暗变化，第二个参数越小，灯亮度越低。逻辑分析仪也能识别出正确的占空比。
@@ -300,7 +300,7 @@ RX:
 
 此时 GP7 可以测得以下信号
 
-![](https://md.oss.ac.cn/uploads/19b4cbf4-7ce2-42c0-94e7-48410545fbcb.png)
+![](./19b4cbf4-7ce2-42c0-94e7-48410545fbcb.png)
 
 
 ```bash
@@ -392,7 +392,7 @@ pwm test done!
 
 通过逻辑分析仪能看到一个占空比递减的波形
 
-![](https://md.oss.ac.cn/uploads/a4dce456-2cd2-49ef-8591-24563c7db12c.png)
+![](./a4dce456-2cd2-49ef-8591-24563c7db12c.png)
 
 
 #### SPI test
@@ -402,7 +402,7 @@ pwm test done!
 能够看到 PWM5 输出 PWM 信号
 SPI2_SCK 和 SPI2_TX 输出 SPI 信号
 
-![](https://md.oss.ac.cn/uploads/40635134-3481-4eab-a552-77fc1a4e770d.png)
+![](./40635134-3481-4eab-a552-77fc1a4e770d.png)
 
 
 ### PR4 验证
@@ -416,13 +416,13 @@ $ script`
 ```
 
 - 配置 toolchain 注意脚本里面带了一个 dd 命令
-![](https://md.oss.ac.cn/uploads/9d9a0a0a-6204-4d17-a2a2-281812845f86.png)
+![](./9d9a0a0a-6204-4d17-a2a2-281812845f86.png)
 
 - 把镜像(~10MB)拷贝到 windows上，用 rufus 烧录
 ```bash
 scp sunmin@192.168.0.200:/home/sunmin/data/duo/xv6/pr4/rvspoc-p2308-xv6-riscv/port/image/output/milkv-duo.img xv6-pr4.img
 ```
-![](https://md.oss.ac.cn/uploads/8256ce01-7268-40ad-b074-8e464019f0cb.png)
+![](./8256ce01-7268-40ad-b074-8e464019f0cb.png)
 
 - i2c 
 
@@ -507,9 +507,9 @@ duty: 250000
 
 变化的占空比
 
-![](https://md.oss.ac.cn/uploads/aed0918a-8909-452e-8719-1bd0a2aeebf0.png)
+![](./aed0918a-8909-452e-8719-1bd0a2aeebf0.png)
 
-![](https://md.oss.ac.cn/uploads/41008db0-fcc9-467c-9e39-ea170ba5f7cd.png)
+![](./41008db0-fcc9-467c-9e39-ea170ba5f7cd.png)
 
 
 **连接 MG90S，PWM5 连接舵机信号线，运行 pwmtest 程序可以见到舵机以不同角度旋转，最后回到原点。（DF9GS 太贵买不起，仓库里找到了一个吃灰的 MG90S**
@@ -555,5 +555,5 @@ SOC 提供了 4 个 spi controller，开发板从 controller 2 引出引脚。
 tx_buffer: testing spi right now...        rx_buffer: testing spi right now...
 ```
 
-![](https://md.oss.ac.cn/uploads/b7c66dbb-1581-4bb5-bc98-26f4ccdf19ee.png)    
+![](./b7c66dbb-1581-4bb5-bc98-26f4ccdf19ee.png)    
 

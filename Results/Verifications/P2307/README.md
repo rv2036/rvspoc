@@ -89,7 +89,7 @@ file = west.yml
 
 **验证过程中使用 UART1**
 
-![](https://md.oss.ac.cn/uploads/b7c66dbb-1581-4bb5-bc98-26f4ccdf19ee.png)
+![](./b7c66dbb-1581-4bb5-bc98-26f4ccdf19ee.png)
 
 首先重新烧写 DUO 环境，烧写去掉了 PINMUX 的一个新镜像.
 
@@ -147,11 +147,11 @@ Zephyr version 3.5.99
 
 串口可见 PWM 日志，外接 LED 可见周期性闪烁 
 
-![](https://md.oss.ac.cn/uploads/1ff9de15-46c8-4551-afd8-80d8b1099723.png)
+![](./1ff9de15-46c8-4551-afd8-80d8b1099723.png)
 
 通过逻辑分析仪捕获到对应引脚输出 PWM 波形，占空比 50%
 
-![](https://md.oss.ac.cn/uploads/511f4637-06f9-440a-a0a3-98054dd2bade.png)
+![](./511f4637-06f9-440a-a0a3-98054dd2bade.png)
 
 
 ```bash
@@ -247,7 +247,7 @@ file = west.yml
 
 **验证过程中使用 UART1**
 
-![](https://md.oss.ac.cn/uploads/b7c66dbb-1581-4bb5-bc98-26f4ccdf19ee.png)
+![](./b7c66dbb-1581-4bb5-bc98-26f4ccdf19ee.png)
 
 ##### Hello world
 
@@ -267,7 +267,7 @@ cd prebuilt
 这里是 Hello World 的串口输出
 
 Windows 下:
-![](https://md.oss.ac.cn/uploads/69f65091-137c-462d-a8a7-2a571bc920cc.png)
+![](./69f65091-137c-462d-a8a7-2a571bc920cc.png)
 
 ##### samples/synchronization:
 
@@ -295,14 +295,14 @@ UART 终端，可通过 uname -a 命令查看内核信息。
 
 **从源码编译的选手提交，能够登录到 uart,但是没有内置基本命令**
 
-![](https://md.oss.ac.cn/uploads/6d18236a-97e7-447e-aa54-c2e98221e627.png)
+![](./6d18236a-97e7-447e-aa54-c2e98221e627.png)
 
 
 直接用 PR 里面的 binary 可以使用 uname -r 命令
 
 https://github.com/Judehahh/rvspoc-p2307-zephyr/blob/milkv-duo-dev/prebuilt/images/fip-uname.bin
 
-![](https://md.oss.ac.cn/uploads/5b9dadc6-7513-49f0-b1fb-5a781c3463e6.png)
+![](./5b9dadc6-7513-49f0-b1fb-5a781c3463e6.png)
 
 
 ##### basic/button
@@ -357,7 +357,7 @@ GP11---------SCL
 
 
 
-![](https://md.oss.ac.cn/uploads/3f6944ce-8c68-426f-b429-fb0d391b6801.png)
+![](./3f6944ce-8c68-426f-b429-fb0d391b6801.png)
 
 ```bash
 SHT3XD: 18.45 Cel ; 54.96 %RH
