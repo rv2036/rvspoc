@@ -1,0 +1,240 @@
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fe18f9000, weights_ptr=0x3fe18f9100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.270833
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fdd103000, weights_ptr=0x3fdd103100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.248101
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fc52a7000, weights_ptr=0x3fc52a7100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.334204
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fed445000, weights_ptr=0x3fed445100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.344374
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fc46cd000, weights_ptr=0x3fc46cd100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.352007
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fbb02a000, weights_ptr=0x3fbb02a100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.346917
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fc3a52000, weights_ptr=0x3fc3a52100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.344374
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fce345000, weights_ptr=0x3fce345100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.230449
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fe07dd000, weights_ptr=0x3fe07dd100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.344374
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fb8ab9000, weights_ptr=0x3fb8ab9100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.258199
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3ff3589000, weights_ptr=0x3ff3589100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.280950
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fe9bcd000, weights_ptr=0x3fe9bcd100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.354552
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fef0f9000, weights_ptr=0x3fef0f9100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.344374
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3ff1691000, weights_ptr=0x3ff1691100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.334204
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fe4af8000, weights_ptr=0x3fe4af8100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.270833
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fc9994000, weights_ptr=0x3fc9994100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.303745
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fd891c000, weights_ptr=0x3fd891c100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.298676
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3ff2db1000, weights_ptr=0x3ff2db1100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.245578
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fcf870000, weights_ptr=0x3fcf870100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.286012
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fcbcc6000, weights_ptr=0x3fcbcc6100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.334204
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fd52d6000, weights_ptr=0x3fd52d6100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.331662
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fd2c81000, weights_ptr=0x3fd2c81100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.326582
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fbc2ba000, weights_ptr=0x3fbc2ba100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.270833
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fd33e4000, weights_ptr=0x3fd33e4100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.326582
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fcd81c000, weights_ptr=0x3fcd81c100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.240533
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fba1a6000, weights_ptr=0x3fba1a6100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.334204
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3ff24c5000, weights_ptr=0x3ff24c5100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.085177
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fdf441000, weights_ptr=0x3fdf441100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.339288
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3fedc06000, weights_ptr=0x3fedc06100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.362192
+
+BabyLlama on Milk-V Duo V1.0, committed by chamchamgo@github of team 操练TPU
+group_size=32
+checkpoint file size=17101696, use mmap
+*data=0x3ff4a5a000, weights_ptr=0x3ff4a5a100
+Once upon a time, there was a little girl named Lily. One day, Lily went to the park with her mommy. They saw a big, fluffy dog playing with a ball. Lily wanted to pet the dog, but her mommy said they had to stay quiet so the dog wouldn't bite.
+Suddenly, Lily saw a squirrel running across the fence. She ran after it, but it was too fast for her. Then, she saw a bowl of rice on the ground. She picked it up and said, "I'll eat this rice for dinner." 
+As she was eating, a little boy came up to her and said, "Can I have some rice too?" Lily was so kind that she shared her rice with the boy. The boy was happy and said, "Thank you!" They became friends and played together in the park. When it was time to go home, Lily said goodbye to the boy and the dog. She was happy to have made a new friend and the dog was happy to have someone to play with.achieved tok/s: 24.331662
+
