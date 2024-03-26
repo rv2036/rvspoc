@@ -1,0 +1,75 @@
+                                                                                                       confidence improvement accuracy (*)     (**)     (***)
+                                                                                                               NA       NaN %           NA       NA        NA
+error/determine-specific-type.js v="() => -0" n=1000000                                                       ***    814.48 %      ±10.55%  ±24.33%   ±77.46%
+error/determine-specific-type.js v="() => ({ __proto__: null })" n=1000000                                    ***     49.49 %       ±2.46%   ±5.67%   ±18.04%
+error/determine-specific-type.js v="() => \\"'\\' n=1000000                                                    **     49.23 %       ±7.42%  ±17.11%   ±54.48%
+error/determine-specific-type.js v="() => \\"\\' n=1000000                                                    ***    296.91 %       ±3.88%   ±8.94%   ±28.46%
+error/determine-specific-type.js v="() => +0" n=1000000                                                       ***    768.47 %      ±24.72%  ±57.03%  ±181.56%
+error/determine-specific-type.js v="() => 1n" n=1000000                                                        **    121.58 %      ±22.96%  ±52.95%  ±168.59%
+error/determine-specific-type.js v="() => 2" n=1000000                                                        ***    323.57 %      ±28.38%  ±65.46%  ±208.42%
+error/determine-specific-type.js v="() => false" n=1000000                                                    ***    878.69 %       ±2.22%   ±5.11%   ±16.27%
+error/determine-specific-type.js v="() => function foo() {}" n=1000000                                         **    146.39 %      ±31.87%  ±73.52%  ±234.09%
+error/determine-specific-type.js v="() => Infinity" n=1000000                                                 ***    913.26 %      ±16.78%  ±38.72%  ±123.26%
+error/determine-specific-type.js v="() => NaN" n=1000000                                                      ***   1001.40 %      ±13.46%  ±31.05%   ±98.87%
+error/determine-specific-type.js v="() => new Array()" n=1000000                                              ***    160.58 %       ±6.37%  ±14.70%   ±46.81%
+error/determine-specific-type.js v="() => new BigInt64Array()" n=1000000                                      ***    123.66 %       ±1.78%   ±4.12%   ±13.11%
+error/determine-specific-type.js v="() => new BigUint64Array()" n=1000000                                      **    113.92 %      ±25.19%  ±58.11%  ±185.02%
+error/determine-specific-type.js v="() => new Date()" n=1000000                                               ***    155.76 %      ±10.33%  ±23.83%   ±75.89%
+error/determine-specific-type.js v="() => new Float32Array()" n=1000000                                       ***    121.85 %       ±4.11%   ±9.49%   ±30.21%
+error/determine-specific-type.js v="() => new Float64Array()" n=1000000                                        **    112.47 %      ±21.29%  ±49.10%  ±156.34%
+error/determine-specific-type.js v="() => new Int16Array()" n=1000000                                         ***    120.28 %       ±2.57%   ±5.94%   ±18.90%
+error/determine-specific-type.js v="() => new Int32Array()" n=1000000                                         ***    124.77 %       ±3.27%   ±7.54%   ±24.00%
+error/determine-specific-type.js v="() => new Int8Array()" n=1000000                                          ***    119.07 %       ±1.43%   ±3.30%   ±10.51%
+error/determine-specific-type.js v="() => new Map()" n=1000000                                                ***    159.97 %       ±0.54%   ±1.23%    ±3.93%
+error/determine-specific-type.js v="() => new Object()" n=1000000                                             ***    152.87 %       ±4.53%  ±10.45%   ±33.28%
+error/determine-specific-type.js v="() => new Set()" n=1000000                                                ***    159.06 %       ±5.17%  ±11.93%   ±37.98%
+error/determine-specific-type.js v="() => new Uint16Array()" n=1000000                                        ***    119.58 %       ±9.96%  ±22.96%   ±73.11%
+error/determine-specific-type.js v="() => new Uint32Array()" n=1000000                                        ***    119.30 %       ±6.99%  ±16.13%   ±51.37%
+error/determine-specific-type.js v="() => new Uint8Array()" n=1000000                                         ***    115.21 %       ±3.43%   ±7.90%   ±25.16%
+error/determine-specific-type.js v="() => new Uint8ClampedArray()" n=1000000                                  ***    119.72 %       ±7.60%  ±17.54%   ±55.84%
+error/determine-specific-type.js v="() => new WeakMap()" n=1000000                                            ***    160.38 %      ±12.81%  ±29.56%   ±94.11%
+error/determine-specific-type.js v="() => new WeakSet()" n=1000000                                            ***    162.46 %       ±5.95%  ±13.72%   ±43.69%
+error/determine-specific-type.js v="() => null" n=1000000                                                     ***   1581.13 %      ±18.48%  ±42.64%  ±135.75%
+error/determine-specific-type.js v="() => Promise.resolve(\\"foo\\")" n=1000000                               ***    151.66 %       ±2.80%   ±6.46%   ±20.57%
+error/determine-specific-type.js v="() => Symbol(\\"foo\\")" n=1000000                                        ***     69.46 %       ±3.67%   ±8.46%   ±26.93%
+error/determine-specific-type.js v="() => true" n=1000000                                                     ***    859.75 %      ±45.96% ±106.02%  ±337.54%
+error/determine-specific-type.js v="() => undefined" n=1000000                                                ***   1700.51 %      ±12.60%  ±29.07%   ±92.54%
+error/error-class-reg-exp.js n=100000                                                                                  4.64 %       ±7.93%  ±18.30%   ±58.25%
+error/error.js n=10000000                                                                                              3.36 %       ±3.73%   ±8.60%   ±27.37%
+error/format-list.js type="and" input=' n=10000000                                                            ***     91.52 %       ±0.60%   ±1.37%    ±4.37%
+error/format-list.js type="and" input="a,b,c,d" n=10000000                                                      *      8.76 %       ±4.90%  ±11.30%   ±35.97%
+error/format-list.js type="and" input="a,b,c" n=10000000                                                       **      8.96 %       ±3.12%   ±7.19%   ±22.89%
+error/format-list.js type="and" input="a,b" n=10000000                                                         **     10.38 %       ±2.38%   ±5.50%   ±17.51%
+error/format-list.js type="and" input="a" n=10000000                                                          ***     90.84 %       ±0.30%   ±0.69%    ±2.21%
+error/format-list.js type="or" input=' n=10000000                                                             ***     99.20 %       ±0.65%   ±1.49%    ±4.75%
+error/format-list.js type="or" input="a,b,c,d" n=10000000                                                              2.71 %       ±8.22%  ±18.96%   ±60.36%
+error/format-list.js type="or" input="a,b,c" n=10000000                                                         *      6.93 %       ±4.76%  ±10.98%   ±34.97%
+error/format-list.js type="or" input="a,b" n=10000000                                                          **     10.36 %       ±4.34%  ±10.01%   ±31.88%
+error/format-list.js type="or" input="a" n=10000000                                                           ***     90.98 %       ±0.50%   ±1.15%    ±3.65%
+error/format-list.js type="undefined" input=' n=10000000                                                      ***     94.53 %       ±0.85%   ±1.96%    ±6.23%
+error/format-list.js type="undefined" input="a,b,c,d" n=10000000                                               **      7.58 %       ±2.79%   ±6.45%   ±20.52%
+error/format-list.js type="undefined" input="a,b,c" n=10000000                                                  *      7.55 %       ±5.43%  ±12.53%   ±39.89%
+error/format-list.js type="undefined" input="a,b" n=10000000                                                   **     14.02 %       ±5.32%  ±12.26%   ±39.05%
+error/format-list.js type="undefined" input="a" n=10000000                                                    ***    100.64 %       ±0.20%   ±0.47%    ±1.48%
+error/hidestackframes.js n=100000 type="direct-call-noerr"                                                    ***   2395.56 %     ±148.75% ±343.13% ±1092.47%
+error/hidestackframes.js n=100000 type="direct-call-throw"                                                    ***     38.47 %       ±2.84%   ±6.54%   ±20.83%
+error/hidestackframes.js n=100000 type="hide-stackframes-noerr"                                               ***   3107.22 %     ±174.56% ±402.66% ±1281.99%
+error/hidestackframes.js n=100000 type="hide-stackframes-throw"                                               ***    133.18 %       ±2.58%   ±5.94%   ±18.92%
+error/node-error-instantiation.js stackTraceLimit=0 code="built-in" n=1000000                                  **    -17.25 %       ±2.60%   ±5.99%   ±19.07%
+error/node-error-instantiation.js stackTraceLimit=0 code="ERR_HTTP2_STREAM_SELF_DEPENDENCY" n=1000000          **     14.24 %       ±5.99%  ±13.82%   ±43.99%
+error/node-error-instantiation.js stackTraceLimit=0 code="ERR_INVALID_STATE" n=1000000                         **     14.93 %       ±5.70%  ±13.14%   ±41.83%
+error/node-error-instantiation.js stackTraceLimit=0 code="ERR_INVALID_URL" n=1000000                                   5.47 %       ±6.00%  ±13.85%   ±44.08%
+error/node-error-instantiation.js stackTraceLimit=10 code="built-in" n=1000000                                        -0.80 %       ±1.56%   ±3.60%   ±11.46%
+error/node-error-instantiation.js stackTraceLimit=10 code="ERR_HTTP2_STREAM_SELF_DEPENDENCY" n=1000000          *      5.04 %       ±2.91%   ±6.71%   ±21.36%
+error/node-error-instantiation.js stackTraceLimit=10 code="ERR_INVALID_STATE" n=1000000                        **      6.24 %       ±2.20%   ±5.07%   ±16.15%
+error/node-error-instantiation.js stackTraceLimit=10 code="ERR_INVALID_URL" n=1000000                           *      3.97 %       ±2.63%   ±6.07%   ±19.32%
+error/node-error-stack.js stackTraceLimit=0 code="built-in" n=1000000                                          NA     -8.88 %           NA       NA        NA
+error/node-error-stack.js stackTraceLimit=0 code="ERR_HTTP2_STREAM_SELF_DEPENDENCY" n=1000000                  NA     -1.93 %           NA       NA        NA
+error/node-error-stack.js stackTraceLimit=10 code="built-in" n=1000000                                         NA     -6.35 %           NA       NA        NA
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 67 comparisons, you can thus
+expect the following amount of false-positive results:
+  3.35 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.67 false positives, when considering a   1% risk acceptance (**, ***),
+  0.07 false positives, when considering a 0.1% risk acceptance (***)

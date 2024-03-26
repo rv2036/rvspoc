@@ -1,0 +1,22 @@
+                                                       confidence improvement accuracy (*)    (**)   (***)
+                                                               NA       NaN %           NA      NA      NA
+blob/blob.js operation="arrayBuffer" n=1000 bytes=1024         NA       NaN %           NA      NA      NA
+blob/blob.js operation="arrayBuffer" n=1000 bytes=128         ***    145.86 %      ±10.44% ±24.09% ±76.70%
+blob/blob.js operation="text" n=1000 bytes=1024                NA       NaN %           NA      NA      NA
+blob/clone.js n=50000                                          **    -25.69 %       ±5.33% ±12.29% ±39.13%
+blob/creation.js kind="Blob" n=50000                          ***    -13.22 %       ±1.32%  ±3.05%  ±9.70%
+blob/creation.js kind="createBlob" n=50000                    ***    -74.28 %       ±0.30%  ±0.70%  ±2.21%
+blob/file.js operation="arrayBuffer" n=1000 bytes=1024         **     19.72 %       ±5.44% ±12.54% ±39.92%
+blob/file.js operation="arrayBuffer" n=1000 bytes=128         ***    147.70 %       ±5.86% ±13.53% ±43.06%
+blob/file.js operation="text" n=1000 bytes=1024                **     23.90 %       ±5.59% ±12.89% ±41.03%
+blob/file.js operation="text" n=1000 bytes=128                ***    164.86 %       ±5.00% ±11.54% ±36.73%
+blob/resolveObjectURL.js n=50000                              ***    -47.32 %       ±4.76% ±10.97% ±34.92%
+blob/slice.js dataSize=30720 n=50000                          ***    -68.30 %       ±4.07%  ±9.38% ±29.87%
+blob/slice.js dataSize=5 n=50000                              ***    -68.37 %       ±4.00%  ±9.22% ±29.35%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 14 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.70 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.14 false positives, when considering a   1% risk acceptance (**, ***),
+  0.01 false positives, when considering a 0.1% risk acceptance (***)

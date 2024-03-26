@@ -1,0 +1,10 @@
+"filename","configuration","rate","time"
+"perf_hooks/bench-eventlooputil.js","method=""idleTime"" n=1000000",3519519.1458374807,0.284129723
+"perf_hooks/bench-eventlooputil.js","method=""ELU_simple"" n=1000000",1707627.6098330198,0.585607772
+"perf_hooks/bench-eventlooputil.js","method=""ELU_passed"" n=1000000",1427467.3926621175,0.700541396
+"perf_hooks/performance-observer.js","pending=1 n=100000",38375.80649654726,2.605808428
+"perf_hooks/performance-observer.js","pending=10 n=100000",151327.3796874732,0.660818949
+"perf_hooks/resourcetiming.js","observe=""resource"" n=100000",250947.7997258285,0.398489248
+"perf_hooks/timerfied.js","observe=""function"" n=100000",201557.19623023705,0.496137086
+"perf_hooks/usertiming.js","observe=""all"" n=100000",72662.17835442783,1.376231793
+"perf_hooks/usertiming.js","observe=""measure"" n=100000",98621.40539832172,1.013978655

@@ -1,0 +1,451 @@
+"binary","filename","configuration","rate","time"
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=64",0.010522083428400601,5.012188593
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=64",0.010656570219060685,5.011578534
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=64",0.01021603222726426,5.012982192
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=64",0.010321041279958186,5.003559202
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=64",0.010329274522044796,5.013420072
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=64",0.009718886338167712,5.014281751
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=64",0.01026500955961594,5.016935408
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=64",0.008759675882205505,5.013562111
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=256",0.04234480946639942,5.004352201
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=256",0.0427275003076035,5.013098292
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=256",0.0414955260031365,5.010248775
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=256",0.041655855488085744,5.009280096
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=256",0.04136407452647128,5.016948668
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=256",0.038753487844562874,5.015309430
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=256",0.03995027695358165,5.013069472
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=256",0.03489440627542777,5.012430233
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=512",0.08290772783806336,5.010683054
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=512",0.08523679142886897,5.003554942
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=512",0.0810208992029107,5.014373791
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=512",0.08169184851344813,5.010546814
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=512",0.08232797833625191,5.004266201
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=512",0.07728467353358966,5.005055980
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=512",0.08011887810433474,5.013692731
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=512",0.06881066058599904,5.011613674
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=1024",0.16373558081656847,5.004438241
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=1024",0.16709837326054544,5.013305232
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=1024",0.15832211559895792,5.006891919
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=1024",0.15978963550461053,5.013429392
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=1024",0.15615157257023712,5.003200522
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=1024",0.15039378583339225,5.012120713
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=1024",0.1587958471306915,5.006368579
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=1024",0.1357864101221564,5.006293940
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=64",0.010408765677258383,5.011781758
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=64",0.010600719273760623,5.015491742
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=64",0.010391313213568116,5.015610362
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=64",0.010268243588357383,5.015355302
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=64",0.010410716355093323,5.015422943
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=64",0.009812624087618663,5.010116296
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=64",0.010261704137990867,5.013904661
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=64",0.008752300188723071,5.012338979
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=256",0.04141046189942121,5.011328758
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=256",0.04238669725292815,5.012906379
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=256",0.04048083458481333,5.013330480
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=256",0.04107259042766637,5.015402183
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=256",0.04095229561677439,5.011504658
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=256",0.03891333525318227,5.014313762
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=256",0.04084853511076251,5.014895882
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=256",0.03470226747956125,5.012701339
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=512",0.08097673151250391,5.012397959
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=512",0.08376983364781942,5.013761701
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=512",0.08128063322039587,5.012429979
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=512",0.08080208070657896,5.013790001
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=512",0.0795001972839704,5.014323141
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=512",0.07763725798429326,5.011806778
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=512",0.07977242688501447,5.011557298
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=512",0.07020299554012009,5.015460802
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=1024",0.15658789735098994,5.013620720
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=1024",0.16895641950664736,5.012360139
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=1024",0.15762243584834418,5.014596422
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=1024",0.15968657922498586,5.011887158
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=1024",0.15779085903112292,5.014079061
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=1024",0.15051417210337212,5.013180739
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=1024",0.15560951643148513,5.005920132
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=1024",0.13784052702780655,5.014713661
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=64",0.010522083428400601,5.012188593
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=64",0.010656570219060685,5.011578534
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=64",0.01021603222726426,5.012982192
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=64",0.010321041279958186,5.003559202
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=64",0.010329274522044796,5.013420072
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=64",0.009718886338167712,5.014281751
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=64",0.01026500955961594,5.016935408
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=64",0.008759675882205505,5.013562111
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=256",0.04234480946639942,5.004352201
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=256",0.0427275003076035,5.013098292
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=256",0.0414955260031365,5.010248775
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=256",0.041655855488085744,5.009280096
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=256",0.04136407452647128,5.016948668
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=256",0.038753487844562874,5.015309430
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=256",0.03995027695358165,5.013069472
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=256",0.03489440627542777,5.012430233
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=512",0.08290772783806336,5.010683054
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=512",0.08523679142886897,5.003554942
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=512",0.0810208992029107,5.014373791
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=512",0.08169184851344813,5.010546814
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=512",0.08232797833625191,5.004266201
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=512",0.07728467353358966,5.005055980
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=512",0.08011887810433474,5.013692731
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=512",0.06881066058599904,5.011613674
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=1024",0.16373558081656847,5.004438241
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=1024",0.16709837326054544,5.013305232
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=1024",0.15832211559895792,5.006891919
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=1024",0.15978963550461053,5.013429392
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=1024",0.15615157257023712,5.003200522
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=1024",0.15039378583339225,5.012120713
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=1024",0.1587958471306915,5.006368579
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=1024",0.1357864101221564,5.006293940
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=64",0.010542482509174332,5.011536317
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=64",0.010619390982661351,5.015653675
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=64",0.010484119371901244,5.003049124
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=64",0.01040115845706556,5.006278361
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=64",0.010404736556142526,5.013722516
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=64",0.009918900923928239,5.004508603
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=64",0.010324690477864593,5.006409141
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=64",0.008661050321364534,5.015597455
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=256",0.041529961841082784,5.010687079
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=256",0.04222144729469281,5.014456376
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=256",0.04117081606141892,5.012701937
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=256",0.041746131880133534,5.003016405
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=256",0.04088964976546735,5.014518015
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=256",0.038948191594807155,5.004929103
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=256",0.040600498211859626,5.017345853
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=256",0.035215308895856154,5.015500255
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=512",0.0817986338886767,5.013332757
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=512",0.08578301441273944,5.011717057
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=512",0.08118252786884352,5.013788356
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=512",0.08327204765856447,5.007085061
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=512",0.08113473754141504,5.012039917
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=512",0.07889308681978029,5.004557403
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=512",0.07933708952412057,5.010207359
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=512",0.06841764538259283,5.012524137
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=1024",0.16363259028208343,5.007588040
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=1024",0.17055301865769434,5.005697842
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=1024",0.1569482365876091,5.006970981
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=1024",0.1607748963283758,5.015923815
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=1024",0.15765949258372194,5.013417777
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=1024",0.15220283438050944,5.007686921
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=1024",0.15711614919625408,5.011331738
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=1024",0.13359984738000596,5.013991276
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=64",0.010522083428400601,5.012188593
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=64",0.010656570219060685,5.011578534
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=64",0.01021603222726426,5.012982192
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=64",0.010321041279958186,5.003559202
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=64",0.010329274522044796,5.013420072
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=64",0.009718886338167712,5.014281751
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=64",0.01026500955961594,5.016935408
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=64",0.008759675882205505,5.013562111
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=256",0.04234480946639942,5.004352201
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=256",0.0427275003076035,5.013098292
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=256",0.0414955260031365,5.010248775
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=256",0.041655855488085744,5.009280096
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=256",0.04136407452647128,5.016948668
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=256",0.038753487844562874,5.015309430
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=256",0.03995027695358165,5.013069472
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=256",0.03489440627542777,5.012430233
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=512",0.08290772783806336,5.010683054
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=512",0.08523679142886897,5.003554942
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=512",0.0810208992029107,5.014373791
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=512",0.08169184851344813,5.010546814
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=512",0.08232797833625191,5.004266201
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=512",0.07728467353358966,5.005055980
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=512",0.08011887810433474,5.013692731
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=512",0.06881066058599904,5.011613674
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=1024",0.16373558081656847,5.004438241
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=1024",0.16709837326054544,5.013305232
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=1024",0.15832211559895792,5.006891919
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=1024",0.15978963550461053,5.013429392
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=1024",0.15615157257023712,5.003200522
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=1024",0.15039378583339225,5.012120713
+"old","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=1024",0.1587958471306915,5.006368579
+"old","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=1024",0.1357864101221564,5.006293940
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=64",0.010487391774620996,5.015128310
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=64",0.01073162184069917,5.012076374
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=64",0.010317552504137703,5.009872716
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=64",0.010472906221509412,5.003852743
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=64",0.01027626791902154,5.016079188
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=64",0.009724810063226792,5.011227375
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=64",0.010307854390119633,5.005334321
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=64",0.008898696409972569,5.010256455
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=256",0.041225357720301954,5.015323349
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=256",0.043401176602790546,5.005599701
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=256",0.040909184142766994,5.012123553
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=256",0.041465383387692276,5.004691182
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=256",0.040899294468759374,5.013335512
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=256",0.03782556669909121,5.012280793
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=256",0.0411808816335186,5.006845079
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=256",0.03453456510574108,5.014951330
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=512",0.08104074410642233,5.008438758
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=512",0.08412789628236293,5.015094290
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=512",0.08144479219076556,5.007010779
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=512",0.08260373032760476,5.006032980
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=512",0.08141495665142455,5.004160162
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=512",0.07707568851720753,5.013677531
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=512",0.08029378783081817,5.012272893
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=512",0.06905330688163086,5.016100489
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=1024",0.15981762172236175,5.012551473
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=1024",0.16529933265419466,5.012481673
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=1024",0.15789788866921298,5.005848460
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=1024",0.16070862781619638,5.003750103
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=1024",0.15833400526263106,5.006515940
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=1024",0.1497769321231815,5.012387693
+"new","dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=1024",0.15519640861531275,5.004497202
+"new","dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=1024",0.1334640466035581,5.013376612
+"old","dgram/bind-params.js","address=""true"" port=""true"" n=10000",36162.398010194425,0.276530334
+"old","dgram/bind-params.js","address=""false"" port=""true"" n=10000",38480.30042001518,0.259873231
+"old","dgram/bind-params.js","address=""false"" port=""false"" n=10000",37023.801576474216,0.270096521
+"new","dgram/bind-params.js","address=""true"" port=""true"" n=10000",36460.22094733469,0.274271514
+"new","dgram/bind-params.js","address=""false"" port=""true"" n=10000",37413.891087848766,0.267280406
+"new","dgram/bind-params.js","address=""false"" port=""false"" n=10000",36498.40266748138,0.273984593
+"old","dgram/bind-params.js","address=""true"" port=""true"" n=10000",36162.398010194425,0.276530334
+"old","dgram/bind-params.js","address=""false"" port=""true"" n=10000",38480.30042001518,0.259873231
+"old","dgram/bind-params.js","address=""false"" port=""false"" n=10000",37023.801576474216,0.270096521
+"new","dgram/bind-params.js","address=""true"" port=""true"" n=10000",37689.33558088409,0.265327044
+"new","dgram/bind-params.js","address=""false"" port=""true"" n=10000",38000.13122205314,0.263156986
+"new","dgram/bind-params.js","address=""false"" port=""false"" n=10000",37650.562150754326,0.265600284
+"old","dgram/bind-params.js","address=""true"" port=""true"" n=10000",36162.398010194425,0.276530334
+"old","dgram/bind-params.js","address=""false"" port=""true"" n=10000",38480.30042001518,0.259873231
+"old","dgram/bind-params.js","address=""false"" port=""false"" n=10000",37023.801576474216,0.270096521
+"new","dgram/bind-params.js","address=""true"" port=""true"" n=10000",38120.61509762463,0.262325253
+"new","dgram/bind-params.js","address=""false"" port=""true"" n=10000",38075.21676830109,0.262638032
+"new","dgram/bind-params.js","address=""false"" port=""false"" n=10000",37234.16491099512,0.268570546
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=64",0.010680215704743506,5.013877171
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=64",0.003385758346447645,5.011513434
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=64",0.010301110888959141,5.013239992
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=64",0.0033066059354557174,5.006882119
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=64",0.009591093727868682,5.011489174
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=64",0.003102465945049675,5.011724973
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=64",0.008687064239530008,5.011556054
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=64",0.002801667463310141,5.005171860
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=256",0.04274574715682752,5.010958354
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=256",0.013504378346814817,5.013853091
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=256",0.041093243308897416,5.012881513
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=256",0.01316697901733226,5.010944714
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=256",0.038404059948311545,5.011277054
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=256",0.012618453701860237,5.006270040
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=256",0.03450477895634334,5.013752691
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=256",0.011113952453227747,5.013976611
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=1024",0.16800476577305584,5.013505312
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=1024",0.05432784969277545,5.006136959
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=1024",0.15449272693705995,5.012476572
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=1024",0.05139091734058719,5.011943213
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=1024",0.14785955823311356,5.015467290
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=1024",0.04909739953661463,5.007385558
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=1024",0.13627125018791372,5.010876755
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=1024",0.043834843476192,5.007031039
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=64",0.010493892069107216,5.012021759
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=64",0.003384750356782895,5.013005879
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=64",0.010258225695512279,5.010956477
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=64",0.003272722710310659,5.012095339
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=64",0.009825302563603484,5.013357600
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=64",0.0030952162433384896,5.013603980
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=64",0.008827204831446955,5.007619314
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=64",0.00280347973607975,5.012821939
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=256",0.0425632432611681,5.014519642
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=256",0.013618863071292796,5.014981022
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=256",0.04001984685408017,5.013886841
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=256",0.013159407069788284,5.013828021
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=256",0.039280976760399884,5.015939963
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=256",0.012268108852665214,5.014908022
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=256",0.03469024037705806,5.014439242
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=256",0.011100110586551016,5.003733229
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=1024",0.1685589172395128,5.006075492
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=1024",0.0537169670612297,5.003983710
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=1024",0.16380420245135519,5.011657019
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=1024",0.05074972378438779,5.003106048
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=1024",0.1477735934120792,5.013222060
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=1024",0.04793941174231032,5.011208237
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=1024",0.1377497726923928,5.012478939
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=1024",0.042431208658430544,5.011558499
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=64",0.010680215704743506,5.013877171
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=64",0.003385758346447645,5.011513434
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=64",0.010301110888959141,5.013239992
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=64",0.0033066059354557174,5.006882119
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=64",0.009591093727868682,5.011489174
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=64",0.003102465945049675,5.011724973
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=64",0.008687064239530008,5.011556054
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=64",0.002801667463310141,5.005171860
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=256",0.04274574715682752,5.010958354
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=256",0.013504378346814817,5.013853091
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=256",0.041093243308897416,5.012881513
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=256",0.01316697901733226,5.010944714
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=256",0.038404059948311545,5.011277054
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=256",0.012618453701860237,5.006270040
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=256",0.03450477895634334,5.013752691
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=256",0.011113952453227747,5.013976611
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=1024",0.16800476577305584,5.013505312
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=1024",0.05432784969277545,5.006136959
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=1024",0.15449272693705995,5.012476572
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=1024",0.05139091734058719,5.011943213
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=1024",0.14785955823311356,5.015467290
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=1024",0.04909739953661463,5.007385558
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=1024",0.13627125018791372,5.010876755
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=1024",0.043834843476192,5.007031039
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=64",0.01074880232229614,5.012937637
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=64",0.003388460642177153,5.012019917
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=64",0.010260086038042474,5.014695395
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=64",0.0032810730423720826,5.003990103
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=64",0.009788390407019051,5.007905760
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=64",0.003149004433379727,5.005496002
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=64",0.00889911298598031,5.015380175
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=64",0.0028289192899798674,5.005500263
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=256",0.043586508297550244,5.010571719
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=256",0.013669665368817686,5.009738239
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=256",0.041392281893727234,5.013529796
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=256",0.013186668231414646,5.012719897
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=256",0.038486282049856095,5.015438715
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=256",0.012368347474398808,5.013743257
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=256",0.033852359671013084,5.008962520
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=256",0.011093583414305249,5.012179137
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=1024",0.1672029450021704,5.014732775
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=1024",0.05432520902473632,5.005958982
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=1024",0.15681345274901642,5.011274558
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=1024",0.051105681224093,5.011253338
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=1024",0.14956821139898974,5.014281476
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=1024",0.048784771054823775,5.014452276
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=1024",0.13455122921488172,5.006889721
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=1024",0.042972227273219414,5.005276763
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=64",0.010680215704743506,5.013877171
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=64",0.003385758346447645,5.011513434
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=64",0.010301110888959141,5.013239992
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=64",0.0033066059354557174,5.006882119
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=64",0.009591093727868682,5.011489174
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=64",0.003102465945049675,5.011724973
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=64",0.008687064239530008,5.011556054
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=64",0.002801667463310141,5.005171860
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=256",0.04274574715682752,5.010958354
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=256",0.013504378346814817,5.013853091
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=256",0.041093243308897416,5.012881513
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=256",0.01316697901733226,5.010944714
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=256",0.038404059948311545,5.011277054
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=256",0.012618453701860237,5.006270040
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=256",0.03450477895634334,5.013752691
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=256",0.011113952453227747,5.013976611
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=1024",0.16800476577305584,5.013505312
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=1024",0.05432784969277545,5.006136959
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=1024",0.15449272693705995,5.012476572
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=1024",0.05139091734058719,5.011943213
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=1024",0.14785955823311356,5.015467290
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=1024",0.04909739953661463,5.007385558
+"old","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=1024",0.13627125018791372,5.010876755
+"old","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=1024",0.043834843476192,5.007031039
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=64",0.010627069699926049,5.012029554
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=64",0.003393529248757434,5.013526791
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=64",0.010289718333427945,5.014156431
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=64",0.003282988803070487,5.005717901
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=64",0.009771886909252509,5.016363488
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=64",0.0031470439689692273,5.008614197
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=64",0.008716210719215483,5.016680488
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=64",0.002775713997709634,5.013490452
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=256",0.04285471328984915,5.007118519
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=256",0.013675222992052004,5.003239084
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=256",0.041496711954843564,5.014701970
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=256",0.013147989846188791,5.004255343
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=256",0.03978665333392885,5.004922202
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=256",0.012344085926864852,5.013708492
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=256",0.035265990289601826,5.002883924
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=256",0.01120809507538578,5.004535402
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=1024",0.1681193554088226,5.005550040
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=1024",0.053491412471053844,5.011391434
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=1024",0.1588377078148464,5.014655710
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=1024",0.05193811143383487,5.015106470
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=1024",0.1508528641281352,5.012040254
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=1024",0.048298479174370426,5.004282182
+"new","dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=1024",0.13791146093597953,5.012134374
+"new","dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=1024",0.04373479148586115,5.007321018
+"old","dgram/offset-length.js","dur=5 type=""send"" num=100 len=1",0.00016921564947052146,5.006265479
+"old","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1",0.000054515706701043295,5.003160942
+"old","dgram/offset-length.js","dur=5 type=""send"" num=100 len=64",0.010751161610741874,5.011837573
+"old","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=64",0.0034545772802775055,5.004435161
+"old","dgram/offset-length.js","dur=5 type=""send"" num=100 len=256",0.04333407495001337,5.004547741
+"old","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=256",0.013830936416486903,5.013105072
+"old","dgram/offset-length.js","dur=5 type=""send"" num=100 len=1024",0.16910313379051214,5.003499722
+"old","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1024",0.0536738488587492,5.012552192
+"new","dgram/offset-length.js","dur=5 type=""send"" num=100 len=1",0.00016663169954895385,5.012356819
+"new","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1",0.000053491748488923226,5.014248161
+"new","dgram/offset-length.js","dur=5 type=""send"" num=100 len=64",0.010779177190971346,5.012082639
+"new","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=64",0.003404744145941726,5.010457597
+"new","dgram/offset-length.js","dur=5 type=""send"" num=100 len=256",0.04252839579703581,5.014143621
+"new","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=256",0.013699479704991132,5.012201358
+"new","dgram/offset-length.js","dur=5 type=""send"" num=100 len=1024",0.16526662713751988,5.004240789
+"new","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1024",0.05337161407096963,5.013491341
+"old","dgram/offset-length.js","dur=5 type=""send"" num=100 len=1",0.00016921564947052146,5.006265479
+"old","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1",0.000054515706701043295,5.003160942
+"old","dgram/offset-length.js","dur=5 type=""send"" num=100 len=64",0.010751161610741874,5.011837573
+"old","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=64",0.0034545772802775055,5.004435161
+"old","dgram/offset-length.js","dur=5 type=""send"" num=100 len=256",0.04333407495001337,5.004547741
+"old","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=256",0.013830936416486903,5.013105072
+"old","dgram/offset-length.js","dur=5 type=""send"" num=100 len=1024",0.16910313379051214,5.003499722
+"old","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1024",0.0536738488587492,5.012552192
+"new","dgram/offset-length.js","dur=5 type=""send"" num=100 len=1",0.0001695672303396014,5.004673243
+"new","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1",0.00005316677661730333,5.013506336
+"new","dgram/offset-length.js","dur=5 type=""send"" num=100 len=64",0.010705822317353482,5.015246775
+"new","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=64",0.0033927097081902203,5.014737855
+"new","dgram/offset-length.js","dur=5 type=""send"" num=100 len=256",0.04237759491827445,5.004981423
+"new","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=256",0.013613660785306509,5.012414057
+"new","dgram/offset-length.js","dur=5 type=""send"" num=100 len=1024",0.16470599719342527,5.012010077
+"new","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1024",0.05273133952450027,5.013598776
+"old","dgram/offset-length.js","dur=5 type=""send"" num=100 len=1",0.00016921564947052146,5.006265479
+"old","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1",0.000054515706701043295,5.003160942
+"old","dgram/offset-length.js","dur=5 type=""send"" num=100 len=64",0.010751161610741874,5.011837573
+"old","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=64",0.0034545772802775055,5.004435161
+"old","dgram/offset-length.js","dur=5 type=""send"" num=100 len=256",0.04333407495001337,5.004547741
+"old","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=256",0.013830936416486903,5.013105072
+"old","dgram/offset-length.js","dur=5 type=""send"" num=100 len=1024",0.16910313379051214,5.003499722
+"old","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1024",0.0536738488587492,5.012552192
+"new","dgram/offset-length.js","dur=5 type=""send"" num=100 len=1",0.00016822751909857035,5.013526792
+"new","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1",0.00005369002905271613,5.013492832
+"new","dgram/offset-length.js","dur=5 type=""send"" num=100 len=64",0.01089170024697002,5.004082263
+"new","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=64",0.003328447562524569,5.010701275
+"new","dgram/offset-length.js","dur=5 type=""send"" num=100 len=256",0.04235835557513248,5.011757593
+"new","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=256",0.013521828549282555,5.014858630
+"new","dgram/offset-length.js","dur=5 type=""send"" num=100 len=1024",0.1636370911311244,5.012112693
+"new","dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1024",0.05326409003340199,5.009861296
+"old","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1",0.00017230979764593207,5.015819249
+"old","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1",0.000055070778704869046,5.013343212
+"old","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=64",0.010997158488908271,5.003791202
+"old","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=64",0.0035123850011107216,5.013300812
+"old","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=256",0.044233054455386465,5.014949930
+"old","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=256",0.014168881676574796,5.005536300
+"old","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1024",0.17571974302815815,5.006135359
+"old","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1024",0.05440166778758448,5.012807313
+"new","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1",0.00017031049621225506,5.013454872
+"new","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1",0.00005573014823160827,5.013921254
+"new","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=64",0.011104423582292525,5.006985646
+"new","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=64",0.0035421710018392854,5.014221634
+"new","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=256",0.044577126345633336,5.010471750
+"new","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=256",0.01409934112564766,5.004927304
+"new","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1024",0.16946736885864971,5.015255656
+"new","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1024",0.05531251885453341,5.005294904
+"old","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1",0.00017230979764593207,5.015819249
+"old","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1",0.000055070778704869046,5.013343212
+"old","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=64",0.010997158488908271,5.003791202
+"old","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=64",0.0035123850011107216,5.013300812
+"old","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=256",0.044233054455386465,5.014949930
+"old","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=256",0.014168881676574796,5.005536300
+"old","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1024",0.17571974302815815,5.006135359
+"old","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1024",0.05440166778758448,5.012807313
+"new","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1",0.00017181565167062433,5.004226583
+"new","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1",0.0000554266197617203,5.015569494
+"new","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=64",0.010939620612406819,5.012673837
+"new","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=64",0.0035117003664000535,5.014278196
+"new","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=256",0.043951364770962516,5.012373918
+"new","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=256",0.014198244827682272,5.008080780
+"new","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1024",0.17050288541536743,5.011644318
+"new","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1024",0.05497754069563799,5.013588497
+"old","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1",0.00017230979764593207,5.015819249
+"old","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1",0.000055070778704869046,5.013343212
+"old","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=64",0.010997158488908271,5.003791202
+"old","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=64",0.0035123850011107216,5.013300812
+"old","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=256",0.044233054455386465,5.014949930
+"old","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=256",0.014168881676574796,5.005536300
+"old","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1024",0.17571974302815815,5.006135359
+"old","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1024",0.05440166778758448,5.012807313
+"new","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1",0.00017096246427439625,5.016126089
+"new","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1",0.00005473767167490973,5.013362391
+"new","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=64",0.011029523359245948,5.015047830
+"new","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=64",0.0034960128242790783,5.014955469
+"new","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=256",0.04375765651703999,5.012768452
+"new","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=256",0.014047417805985332,5.014058191
+"new","dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1024",0.17244644617996063,5.012675233
+"new","dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1024",0.05452623245153409,5.014788070

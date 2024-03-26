@@ -1,0 +1,249 @@
+"filename","configuration","rate","time"
+"util/format.js","type=""string"" n=100000",1270214.704899655,0.078726848
+"util/format.js","type=""string-2"" n=100000",983851.6299794625,0.101641342
+"util/format.js","type=""number"" n=100000",1142556.6308765372,0.087523014
+"util/format.js","type=""replace-object"" n=100000",404990.8627783999,0.246919151
+"util/format.js","type=""unknown"" n=100000",1471926.7795322458,0.067938162
+"util/format.js","type=""no-replace"" n=100000",738417.2806834035,0.135424783
+"util/format.js","type=""no-replace-2"" n=100000",1560368.6583165408,0.064087419
+"util/format.js","type=""only-objects"" n=100000",55865.0107823102,1.790029190
+"util/format.js","type=""many-%"" n=100000",568025.5240224327,0.176048427
+"util/format.js","type=""object-to-string"" n=100000",759945.9830395256,0.131588300
+"util/format.js","type=""object-%s"" n=100000",71842.05591825274,1.391942348
+"util/inspect-array.js","type=""denseArray"" len=100 n=500",2825.0466466052194,0.176988228
+"util/inspect-array.js","type=""sparseArray"" len=100 n=500",13511.299851359488,0.037006062
+"util/inspect-array.js","type=""mixedArray"" len=100 n=500",2747.2939566620976,0.181997270
+"util/inspect-array.js","type=""denseArray_showHidden"" len=100 n=500",2716.2966368031944,0.184074152
+"util/inspect-array.js","type=""denseArray"" len=100000 n=500",2658.3918513611875,0.188083634
+"util/inspect-array.js","type=""sparseArray"" len=100000 n=500",1450.8290951472002,0.344630530
+"util/inspect-array.js","type=""mixedArray"" len=100000 n=500",957.5238256153166,0.522180218
+"util/inspect-array.js","type=""denseArray_showHidden"" len=100000 n=500",2590.6040851950825,0.193005177
+"util/inspect-proxy.js","isProxy=0 showProxy=0 n=100000",52656.1384077382,1.899113817
+"util/inspect-proxy.js","isProxy=1 showProxy=0 n=100000",37746.20928003064,2.649272653
+"util/inspect-proxy.js","isProxy=0 showProxy=1 n=100000",51878.468126824264,1.927581974
+"util/inspect-proxy.js","isProxy=1 showProxy=1 n=100000",26306.183881402794,3.801387554
+"util/inspect.js","option=""showHidden"" method=""Object"" n=20000",51711.02526322489,0.386764716
+"util/inspect.js","option=""colors"" method=""Object"" n=20000",27713.576237628142,0.721667959
+"util/inspect.js","option=""none"" method=""Object"" n=20000",53705.93119200929,0.372398347
+"util/inspect.js","option=""showHidden"" method=""Object_empty"" n=20000",141324.01352340792,0.141518766
+"util/inspect.js","option=""colors"" method=""Object_empty"" n=20000",158005.81867487676,0.126577617
+"util/inspect.js","option=""none"" method=""Object_empty"" n=20000",169888.55786292156,0.117724232
+"util/inspect.js","option=""showHidden"" method=""Object_deep_ln"" n=20000",24075.96952611122,0.830703826
+"util/inspect.js","option=""colors"" method=""Object_deep_ln"" n=20000",12563.06619972681,1.591968050
+"util/inspect.js","option=""none"" method=""Object_deep_ln"" n=20000",26341.225288672602,0.759266123
+"util/inspect.js","option=""showHidden"" method=""String"" n=20000",311554.6312837395,0.064194199
+"util/inspect.js","option=""colors"" method=""String"" n=20000",248744.74385255037,0.080403709
+"util/inspect.js","option=""none"" method=""String"" n=20000",348793.7621723573,0.057340475
+"util/inspect.js","option=""showHidden"" method=""String_complex"" n=20000",224631.88842390338,0.089034554
+"util/inspect.js","option=""colors"" method=""String_complex"" n=20000",190114.92865690152,0.105199524
+"util/inspect.js","option=""none"" method=""String_complex"" n=20000",241578.0136757555,0.082788991
+"util/inspect.js","option=""showHidden"" method=""String_boxed"" n=20000",33533.960142403506,0.596410323
+"util/inspect.js","option=""colors"" method=""String_boxed"" n=20000",50881.01753894115,0.393073900
+"util/inspect.js","option=""none"" method=""String_boxed"" n=20000",60186.67945882377,0.332299442
+"util/inspect.js","option=""showHidden"" method=""Date"" n=20000",73396.02905317221,0.272494306
+"util/inspect.js","option=""colors"" method=""Date"" n=20000",72482.7375836998,0.275927768
+"util/inspect.js","option=""none"" method=""Date"" n=20000",85203.44130053544,0.234732303
+"util/inspect.js","option=""showHidden"" method=""Set"" n=20000",75244.23875461967,0.265801081
+"util/inspect.js","option=""colors"" method=""Set"" n=20000",54850.84680739357,0.364625182
+"util/inspect.js","option=""none"" method=""Set"" n=20000",81858.5730334146,0.244323829
+"util/inspect.js","option=""showHidden"" method=""Error"" n=20000",15792.984660034735,1.266385071
+"util/inspect.js","option=""colors"" method=""Error"" n=20000",32049.93847060825,0.624026159
+"util/inspect.js","option=""none"" method=""Error"" n=20000",54003.50006404545,0.370346366
+"util/inspect.js","option=""showHidden"" method=""Array"" n=20000",11813.511033536668,1.692976791
+"util/inspect.js","option=""colors"" method=""Array"" n=20000",5678.059814342916,3.522329925
+"util/inspect.js","option=""none"" method=""Array"" n=20000",13625.786365762104,1.467805194
+"util/inspect.js","option=""showHidden"" method=""TypedArray"" n=20000",21619.72088587935,0.925081323
+"util/inspect.js","option=""colors"" method=""TypedArray"" n=20000",8302.02243904082,2.409051547
+"util/inspect.js","option=""none"" method=""TypedArray"" n=20000",32670.972278268364,0.612164212
+"util/inspect.js","option=""showHidden"" method=""TypedArray_extra"" n=20000",16038.837853395946,1.246973140
+"util/inspect.js","option=""colors"" method=""TypedArray_extra"" n=20000",6275.151944403474,3.187173821
+"util/inspect.js","option=""none"" method=""TypedArray_extra"" n=20000",18299.770768378963,1.092909865
+"util/inspect.js","option=""showHidden"" method=""Number"" n=20000",408154.52746736095,0.049001049
+"util/inspect.js","option=""colors"" method=""Number"" n=20000",297626.1295265046,0.067198401
+"util/inspect.js","option=""none"" method=""Number"" n=20000",463555.2191380812,0.043144806
+"util/normalize-encoding.js","n=100000 input=""""",7242289.116671757,0.013807789
+"util/normalize-encoding.js","n=100000 input=""utf8""",8291497.202283014,0.012060548
+"util/normalize-encoding.js","n=100000 input=""utf-8""",7888794.5038453145,0.012676208
+"util/normalize-encoding.js","n=100000 input=""UTF-8""",3784232.7369735735,0.026425436
+"util/normalize-encoding.js","n=100000 input=""UTF8""",5333153.854928935,0.018750631
+"util/normalize-encoding.js","n=100000 input=""Utf8""",2274438.9431073433,0.043966887
+"util/normalize-encoding.js","n=100000 input=""ucs2""",4667764.182499683,0.021423533
+"util/normalize-encoding.js","n=100000 input=""UCS2""",3905115.685928103,0.025607436
+"util/normalize-encoding.js","n=100000 input=""utf16le""",6060661.157525674,0.016499850
+"util/normalize-encoding.js","n=100000 input=""UTF16LE""",4952006.882497245,0.020193833
+"util/normalize-encoding.js","n=100000 input=""binary""",4380881.936370844,0.022826454
+"util/normalize-encoding.js","n=100000 input=""BINARY""",3106649.506777451,0.032189019
+"util/normalize-encoding.js","n=100000 input=""latin1""",5171221.202503367,0.019337792
+"util/normalize-encoding.js","n=100000 input=""base64""",6078521.120125558,0.016451370
+"util/normalize-encoding.js","n=100000 input=""BASE64""",3867072.32770994,0.025859356
+"util/normalize-encoding.js","n=100000 input=""hex""",5887842.488437749,0.016984150
+"util/normalize-encoding.js","n=100000 input=""HEX""",5189313.418547395,0.019270372
+"util/normalize-encoding.js","n=100000 input=""foo""",3016303.724893796,0.033153160
+"util/normalize-encoding.js","n=100000 input=""undefined""",10644044.524038244,0.009394925
+"util/normalize-encoding.js","n=100000 input=""group_common""",2627660.7594312723,0.038056663
+"util/normalize-encoding.js","n=100000 input=""group_upper""",3849124.1856792876,0.025979936
+"util/normalize-encoding.js","n=100000 input=""group_uncommon""",3865341.4008677537,0.025870936
+"util/normalize-encoding.js","n=100000 input=""group_misc""",4150560.072425613,0.024093134
+"util/priority-queue.js","n=100000",944798.414220108,0.105842684
+"util/splice-one.js","size=10 pos=""start"" n=100000",4628632.545035553,0.021604653
+"util/splice-one.js","size=100 pos=""start"" n=100000",1160243.6525593298,0.086188793
+"util/splice-one.js","size=500 pos=""start"" n=100000",260079.65084951872,0.384497594
+"util/splice-one.js","size=10 pos=""middle"" n=100000",5382707.546033857,0.018578011
+"util/splice-one.js","size=100 pos=""middle"" n=100000",2004019.6224783747,0.049899711
+"util/splice-one.js","size=500 pos=""middle"" n=100000",505178.5320886953,0.197949821
+"util/splice-one.js","size=10 pos=""end"" n=100000",8199041.909156747,0.012196547
+"util/splice-one.js","size=100 pos=""end"" n=100000",8299067.176550288,0.012049547
+"util/splice-one.js","size=500 pos=""end"" n=100000",8355945.217420441,0.011967527
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=256 fatal=0 ignoreBOM=0 encoding=""utf-8""",52575.65505323022,0.001902021
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=256 fatal=0 ignoreBOM=0 encoding=""utf-8""",53869.41300116735,0.001856341
+"util/text-decoder.js","type=""Buffer"" n=100 len=256 fatal=0 ignoreBOM=0 encoding=""utf-8""",52634.87555273199,0.001899881
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=16384 fatal=0 ignoreBOM=0 encoding=""utf-8""",10124.89462515919,0.009876646
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=16384 fatal=0 ignoreBOM=0 encoding=""utf-8""",10852.665729430455,0.009214326
+"util/text-decoder.js","type=""Buffer"" n=100 len=16384 fatal=0 ignoreBOM=0 encoding=""utf-8""",4437.479967551371,0.022535313
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=524288 fatal=0 ignoreBOM=0 encoding=""utf-8""",456.3392973578644,0.219135193
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=524288 fatal=0 ignoreBOM=0 encoding=""utf-8""",501.2684070709102,0.199493921
+"util/text-decoder.js","type=""Buffer"" n=100 len=524288 fatal=0 ignoreBOM=0 encoding=""utf-8""",493.4180888768741,0.202667884
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=256 fatal=1 ignoreBOM=0 encoding=""utf-8""",51689.71080123704,0.001934621
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=256 fatal=1 ignoreBOM=0 encoding=""utf-8""",52847.949578828266,0.001892221
+"util/text-decoder.js","type=""Buffer"" n=100 len=256 fatal=1 ignoreBOM=0 encoding=""utf-8""",50655.96947673904,0.001974101
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=16384 fatal=1 ignoreBOM=0 encoding=""utf-8""",8745.029653083799,0.011435067
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=16384 fatal=1 ignoreBOM=0 encoding=""utf-8""",8515.212597609881,0.011743688
+"util/text-decoder.js","type=""Buffer"" n=100 len=16384 fatal=1 ignoreBOM=0 encoding=""utf-8""",25020.12869353395,0.003996782
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=524288 fatal=1 ignoreBOM=0 encoding=""utf-8""",372.3592875104618,0.268557824
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=524288 fatal=1 ignoreBOM=0 encoding=""utf-8""",347.0160428813277,0.288171115
+"util/text-decoder.js","type=""Buffer"" n=100 len=524288 fatal=1 ignoreBOM=0 encoding=""utf-8""",378.2664427949682,0.264363921
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=256 fatal=0 ignoreBOM=1 encoding=""utf-8""",52041.02289752966,0.001921561
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=256 fatal=0 ignoreBOM=1 encoding=""utf-8""",53800.43589113159,0.001858721
+"util/text-decoder.js","type=""Buffer"" n=100 len=256 fatal=0 ignoreBOM=1 encoding=""utf-8""",48076.437689811784,0.002080021
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=16384 fatal=0 ignoreBOM=1 encoding=""utf-8""",10500.753639088678,0.009523126
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=16384 fatal=0 ignoreBOM=1 encoding=""utf-8""",10748.058416987264,0.009304006
+"util/text-decoder.js","type=""Buffer"" n=100 len=16384 fatal=0 ignoreBOM=1 encoding=""utf-8""",4298.938927296087,0.023261554
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=524288 fatal=0 ignoreBOM=1 encoding=""utf-8""",476.7673465171964,0.209745908
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=524288 fatal=0 ignoreBOM=1 encoding=""utf-8""",486.6760128577077,0.205475506
+"util/text-decoder.js","type=""Buffer"" n=100 len=524288 fatal=0 ignoreBOM=1 encoding=""utf-8""",457.07141191868465,0.218784193
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=256 fatal=1 ignoreBOM=1 encoding=""utf-8""",50186.669316522806,0.001992561
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=256 fatal=1 ignoreBOM=1 encoding=""utf-8""",51363.65364050168,0.001946902
+"util/text-decoder.js","type=""Buffer"" n=100 len=256 fatal=1 ignoreBOM=1 encoding=""utf-8""",50813.989294508734,0.001967962
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=16384 fatal=1 ignoreBOM=1 encoding=""utf-8""",8659.532885745171,0.011547967
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=16384 fatal=1 ignoreBOM=1 encoding=""utf-8""",8583.037497488389,0.011650887
+"util/text-decoder.js","type=""Buffer"" n=100 len=16384 fatal=1 ignoreBOM=1 encoding=""utf-8""",25284.814471409576,0.003954943
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=524288 fatal=1 ignoreBOM=1 encoding=""utf-8""",355.4689399398293,0.281318531
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=524288 fatal=1 ignoreBOM=1 encoding=""utf-8""",373.1752620641004,0.267970603
+"util/text-decoder.js","type=""Buffer"" n=100 len=524288 fatal=1 ignoreBOM=1 encoding=""utf-8""",368.1799925947958,0.271606285
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=256 fatal=0 ignoreBOM=0 encoding=""latin1""",39945.00371887985,0.002503442
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=256 fatal=0 ignoreBOM=0 encoding=""latin1""",39507.23416964881,0.002531182
+"util/text-decoder.js","type=""Buffer"" n=100 len=256 fatal=0 ignoreBOM=0 encoding=""latin1""",39393.00112427625,0.002538522
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=16384 fatal=0 ignoreBOM=0 encoding=""latin1""",6609.7396231879975,0.015129189
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=16384 fatal=0 ignoreBOM=0 encoding=""latin1""",6676.419134643946,0.014978089
+"util/text-decoder.js","type=""Buffer"" n=100 len=16384 fatal=0 ignoreBOM=0 encoding=""latin1""",7443.750554559416,0.013434088
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=524288 fatal=0 ignoreBOM=0 encoding=""latin1""",262.4253054916599,0.381060812
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=524288 fatal=0 ignoreBOM=0 encoding=""latin1""",265.6412559996738,0.376447550
+"util/text-decoder.js","type=""Buffer"" n=100 len=524288 fatal=0 ignoreBOM=0 encoding=""latin1""",259.14072589178517,0.385890715
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=256 fatal=1 ignoreBOM=0 encoding=""latin1""",39700.79889917625,0.002518841
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=256 fatal=1 ignoreBOM=0 encoding=""latin1""",40615.04169946331,0.002462142
+"util/text-decoder.js","type=""Buffer"" n=100 len=256 fatal=1 ignoreBOM=0 encoding=""latin1""",40527.81809169905,0.002467441
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=16384 fatal=1 ignoreBOM=0 encoding=""latin1""",6644.9730446668445,0.015048970
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=16384 fatal=1 ignoreBOM=0 encoding=""latin1""",6562.020377829322,0.015239209
+"util/text-decoder.js","type=""Buffer"" n=100 len=16384 fatal=1 ignoreBOM=0 encoding=""latin1""",7352.125414908008,0.013601509
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=524288 fatal=1 ignoreBOM=0 encoding=""latin1""",257.5032872161512,0.388344557
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=524288 fatal=1 ignoreBOM=0 encoding=""latin1""",264.3843668572094,0.378237190
+"util/text-decoder.js","type=""Buffer"" n=100 len=524288 fatal=1 ignoreBOM=0 encoding=""latin1""",258.41694015039116,0.386971535
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=256 fatal=0 ignoreBOM=1 encoding=""latin1""",39611.7729358107,0.002524502
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=256 fatal=0 ignoreBOM=1 encoding=""latin1""",40950.67818418141,0.002441962
+"util/text-decoder.js","type=""Buffer"" n=100 len=256 fatal=0 ignoreBOM=1 encoding=""latin1""",40865.34826880082,0.002447061
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=16384 fatal=0 ignoreBOM=1 encoding=""latin1""",6626.146016801654,0.015091729
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=16384 fatal=0 ignoreBOM=1 encoding=""latin1""",6633.081605675371,0.015075949
+"util/text-decoder.js","type=""Buffer"" n=100 len=16384 fatal=0 ignoreBOM=1 encoding=""latin1""",7596.805330647913,0.013163428
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=524288 fatal=0 ignoreBOM=1 encoding=""latin1""",250.7803387602508,0.398755343
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=524288 fatal=0 ignoreBOM=1 encoding=""latin1""",259.27242789792587,0.385694695
+"util/text-decoder.js","type=""Buffer"" n=100 len=524288 fatal=0 ignoreBOM=1 encoding=""latin1""",251.8460688318325,0.397067941
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=256 fatal=1 ignoreBOM=1 encoding=""latin1""",39364.174114040376,0.002540381
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=256 fatal=1 ignoreBOM=1 encoding=""latin1""",40132.88801880788,0.002491722
+"util/text-decoder.js","type=""Buffer"" n=100 len=256 fatal=1 ignoreBOM=1 encoding=""latin1""",39474.811320270586,0.002533261
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=16384 fatal=1 ignoreBOM=1 encoding=""latin1""",6645.485289886036,0.015047810
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=16384 fatal=1 ignoreBOM=1 encoding=""latin1""",6567.019155797867,0.015227609
+"util/text-decoder.js","type=""Buffer"" n=100 len=16384 fatal=1 ignoreBOM=1 encoding=""latin1""",7366.771206061262,0.013574468
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=524288 fatal=1 ignoreBOM=1 encoding=""latin1""",262.0589622025362,0.381593513
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=524288 fatal=1 ignoreBOM=1 encoding=""latin1""",262.3472610311068,0.381174172
+"util/text-decoder.js","type=""Buffer"" n=100 len=524288 fatal=1 ignoreBOM=1 encoding=""latin1""",252.91060909928873,0.395396620
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=256 fatal=0 ignoreBOM=0 encoding=""iso-8859-3""",40317.36214788327,0.002480321
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=256 fatal=0 ignoreBOM=0 encoding=""iso-8859-3""",39772.48547409399,0.002514301
+"util/text-decoder.js","type=""Buffer"" n=100 len=256 fatal=0 ignoreBOM=0 encoding=""iso-8859-3""",40534.044138331345,0.002467062
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=16384 fatal=0 ignoreBOM=0 encoding=""iso-8859-3""",6215.121901225678,0.016089789
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=16384 fatal=0 ignoreBOM=0 encoding=""iso-8859-3""",6697.479986087995,0.014930989
+"util/text-decoder.js","type=""Buffer"" n=100 len=16384 fatal=0 ignoreBOM=0 encoding=""iso-8859-3""",6804.568968661421,0.014696008
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=524288 fatal=0 ignoreBOM=0 encoding=""iso-8859-3""",264.6971294416873,0.377790270
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=524288 fatal=0 ignoreBOM=0 encoding=""iso-8859-3""",260.03270197263276,0.384567015
+"util/text-decoder.js","type=""Buffer"" n=100 len=524288 fatal=0 ignoreBOM=0 encoding=""iso-8859-3""",256.9933301261765,0.389115157
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=256 fatal=1 ignoreBOM=0 encoding=""iso-8859-3""",40006.048914595885,0.002499622
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=256 fatal=1 ignoreBOM=0 encoding=""iso-8859-3""",39508.79505286672,0.002531082
+"util/text-decoder.js","type=""Buffer"" n=100 len=256 fatal=1 ignoreBOM=0 encoding=""iso-8859-3""",39589.50434732348,0.002525922
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=16384 fatal=1 ignoreBOM=0 encoding=""iso-8859-3""",6702.41781009356,0.014919989
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=16384 fatal=1 ignoreBOM=0 encoding=""iso-8859-3""",6691.3761343639035,0.014944609
+"util/text-decoder.js","type=""Buffer"" n=100 len=16384 fatal=1 ignoreBOM=0 encoding=""iso-8859-3""",15351.635348307114,0.006513964
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=524288 fatal=1 ignoreBOM=0 encoding=""iso-8859-3""",267.1488118555257,0.374323207
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=524288 fatal=1 ignoreBOM=0 encoding=""iso-8859-3""",262.01768204317784,0.381653632
+"util/text-decoder.js","type=""Buffer"" n=100 len=524288 fatal=1 ignoreBOM=0 encoding=""iso-8859-3""",262.0949527921517,0.381541113
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=256 fatal=0 ignoreBOM=1 encoding=""iso-8859-3""",39311.869314766605,0.002543761
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=256 fatal=0 ignoreBOM=1 encoding=""iso-8859-3""",40135.80350473864,0.002491541
+"util/text-decoder.js","type=""Buffer"" n=100 len=256 fatal=0 ignoreBOM=1 encoding=""iso-8859-3""",40187.078889647084,0.002488362
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=16384 fatal=0 ignoreBOM=1 encoding=""iso-8859-3""",6634.92958680976,0.015071750
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=16384 fatal=0 ignoreBOM=1 encoding=""iso-8859-3""",6765.859123040464,0.014780089
+"util/text-decoder.js","type=""Buffer"" n=100 len=16384 fatal=0 ignoreBOM=1 encoding=""iso-8859-3""",6615.2047835868825,0.015116690
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=524288 fatal=0 ignoreBOM=1 encoding=""iso-8859-3""",252.85149416559972,0.395489061
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=524288 fatal=0 ignoreBOM=1 encoding=""iso-8859-3""",258.718854502609,0.386519955
+"util/text-decoder.js","type=""Buffer"" n=100 len=524288 fatal=0 ignoreBOM=1 encoding=""iso-8859-3""",256.26347788932316,0.390223378
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=256 fatal=1 ignoreBOM=1 encoding=""iso-8859-3""",39176.64789713466,0.002552541
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=256 fatal=1 ignoreBOM=1 encoding=""iso-8859-3""",39835.209704494446,0.002510342
+"util/text-decoder.js","type=""Buffer"" n=100 len=256 fatal=1 ignoreBOM=1 encoding=""iso-8859-3""",37272.79436375713,0.002682922
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=16384 fatal=1 ignoreBOM=1 encoding=""iso-8859-3""",6695.3724063215295,0.014935689
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=16384 fatal=1 ignoreBOM=1 encoding=""iso-8859-3""",6650.152564475057,0.015037249
+"util/text-decoder.js","type=""Buffer"" n=100 len=16384 fatal=1 ignoreBOM=1 encoding=""iso-8859-3""",14992.53971223919,0.006669984
+"util/text-decoder.js","type=""SharedArrayBuffer"" n=100 len=524288 fatal=1 ignoreBOM=1 encoding=""iso-8859-3""",250.81622937413053,0.398698283
+"util/text-decoder.js","type=""ArrayBuffer"" n=100 len=524288 fatal=1 ignoreBOM=1 encoding=""iso-8859-3""",258.5034082187979,0.386842095
+"util/text-decoder.js","type=""Buffer"" n=100 len=524288 fatal=1 ignoreBOM=1 encoding=""iso-8859-3""",254.22930792070733,0.393345680
+"util/text-encoder.js","op=""encode"" type=""one-byte-string"" n=1000000 len=32",209243.10272745142,4.779130050
+"util/text-encoder.js","op=""encodeInto"" type=""one-byte-string"" n=1000000 len=32",1850154.4071337557,0.540495429
+"util/text-encoder.js","op=""encode"" type=""two-byte-string"" n=1000000 len=32",213315.58483957214,4.687890014
+"util/text-encoder.js","op=""encodeInto"" type=""two-byte-string"" n=1000000 len=32",1521860.1954058448,0.657090581
+"util/text-encoder.js","op=""encode"" type=""ascii"" n=1000000 len=32",208559.94153080438,4.794784620
+"util/text-encoder.js","op=""encodeInto"" type=""ascii"" n=1000000 len=32",1381749.846098284,0.723720001
+"util/text-encoder.js","op=""encode"" type=""one-byte-string"" n=1000000 len=256",120091.84494602279,8.326960090
+"util/text-encoder.js","op=""encodeInto"" type=""one-byte-string"" n=1000000 len=256",1033926.8967033249,0.967186368
+"util/text-encoder.js","op=""encode"" type=""two-byte-string"" n=1000000 len=256",118652.24783541613,8.427990352
+"util/text-encoder.js","op=""encodeInto"" type=""two-byte-string"" n=1000000 len=256",897174.3144172273,1.114610599
+"util/text-encoder.js","op=""encode"" type=""ascii"" n=1000000 len=256",133892.1920592534,7.468695408
+"util/text-encoder.js","op=""encodeInto"" type=""ascii"" n=1000000 len=256",962634.502373102,1.038815872
+"util/text-encoder.js","op=""encode"" type=""one-byte-string"" n=1000000 len=1024",70329.84464628641,14.218714758
+"util/text-encoder.js","op=""encodeInto"" type=""one-byte-string"" n=1000000 len=1024",429417.9356083322,2.328733658
+"util/text-encoder.js","op=""encode"" type=""two-byte-string"" n=1000000 len=1024",70303.2342863733,14.224096660
+"util/text-encoder.js","op=""encodeInto"" type=""two-byte-string"" n=1000000 len=1024",376569.9932150786,2.655548817
+"util/text-encoder.js","op=""encode"" type=""ascii"" n=1000000 len=1024",98987.49991305308,10.102285651
+"util/text-encoder.js","op=""encodeInto"" type=""ascii"" n=1000000 len=1024",698010.4382323681,1.432643332
+"util/text-encoder.js","op=""encode"" type=""one-byte-string"" n=1000000 len=8192",22181.721981464485,45.082162730
+"util/text-encoder.js","op=""encodeInto"" type=""one-byte-string"" n=1000000 len=8192",64936.519610087315,15.399655017
+"util/text-encoder.js","op=""encode"" type=""two-byte-string"" n=1000000 len=8192",17788.91563511888,56.214781188
+"util/text-encoder.js","op=""encodeInto"" type=""two-byte-string"" n=1000000 len=8192",58420.19240675998,17.117369163
+"util/text-encoder.js","op=""encode"" type=""ascii"" n=1000000 len=8192",52766.935415357824,18.951261659
+"util/text-encoder.js","op=""encodeInto"" type=""ascii"" n=1000000 len=8192",313137.55147975474,3.193484765
+"util/to-usv-string.js","size=10 n=100000",534022.5955854253,0.187257994
+"util/to-usv-string.js","size=100 n=100000",235640.39370061783,0.424375458
+"util/to-usv-string.js","size=500 n=100000",64358.06123260981,1.553806906
+"util/type-check.js","n=100000 argument=""true"" version=""native"" type=""ArrayBufferView""",13711919.428761438,0.007292925
+"util/type-check.js","n=100000 argument=""false-primitive"" version=""native"" type=""ArrayBufferView""",14292321.421731532,0.006996764
+"util/type-check.js","n=100000 argument=""false-object"" version=""native"" type=""ArrayBufferView""",14595974.66372334,0.006851204
+"util/type-check.js","n=100000 argument=""true"" version=""js"" type=""ArrayBufferView""",14457042.63266216,0.006917044
+"util/type-check.js","n=100000 argument=""false-primitive"" version=""js"" type=""ArrayBufferView""",14652864.84021637,0.006824604
+"util/type-check.js","n=100000 argument=""false-object"" version=""js"" type=""ArrayBufferView""",13645980.95157519,0.007328165
+"util/type-check.js","n=100000 argument=""true"" version=""native"" type=""TypedArray""",7910061.336988626,0.012642127
+"util/type-check.js","n=100000 argument=""false-primitive"" version=""native"" type=""TypedArray""",8175099.513442602,0.012232267
+"util/type-check.js","n=100000 argument=""false-object"" version=""native"" type=""TypedArray""",8052290.284742673,0.012418827
+"util/type-check.js","n=100000 argument=""true"" version=""js"" type=""TypedArray""",7836297.857054642,0.012761128
+"util/type-check.js","n=100000 argument=""false-primitive"" version=""js"" type=""TypedArray""",8167847.301767979,0.012243128
+"util/type-check.js","n=100000 argument=""false-object"" version=""js"" type=""TypedArray""",8018534.361063536,0.012471107
+"util/type-check.js","n=100000 argument=""true"" version=""native"" type=""Uint8Array""",7545434.076749741,0.013253048
+"util/type-check.js","n=100000 argument=""false-primitive"" version=""native"" type=""Uint8Array""",7946656.952673208,0.012583908
+"util/type-check.js","n=100000 argument=""false-object"" version=""native"" type=""Uint8Array""",7456216.351959658,0.013411628
+"util/type-check.js","n=100000 argument=""true"" version=""js"" type=""Uint8Array""",7894935.462060573,0.012666348
+"util/type-check.js","n=100000 argument=""false-primitive"" version=""js"" type=""Uint8Array""",8084239.0645306595,0.012369748
+"util/type-check.js","n=100000 argument=""false-object"" version=""js"" type=""Uint8Array""",7604812.568747506,0.013149568

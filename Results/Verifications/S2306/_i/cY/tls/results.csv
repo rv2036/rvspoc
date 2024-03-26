@@ -1,0 +1,331 @@
+"binary","filename","configuration","rate","time"
+"old","tls/convertprotocols.js","n=1",624.883224947338,0.001600299
+"old","tls/convertprotocols.js","n=50000",17741.60607776016,2.818234143
+"new","tls/convertprotocols.js","n=1",653.7738112594234,0.001529581
+"new","tls/convertprotocols.js","n=50000",226996.49214602806,0.220267721
+"old","tls/convertprotocols.js","n=1",624.883224947338,0.001600299
+"old","tls/convertprotocols.js","n=50000",17741.60607776016,2.818234143
+"new","tls/convertprotocols.js","n=1",618.9352086244908,0.001615678
+"new","tls/convertprotocols.js","n=50000",221367.18507481873,0.225869069
+"old","tls/convertprotocols.js","n=1",624.883224947338,0.001600299
+"old","tls/convertprotocols.js","n=50000",17741.60607776016,2.818234143
+"new","tls/convertprotocols.js","n=1",553.5823420518861,0.001806416
+"new","tls/convertprotocols.js","n=50000",225520.71933495888,0.221709119
+"old","tls/secure-pair.js","size=100 securing=""SecurePair"" dur=5",3.0606081485088854,5.227719206
+"old","tls/secure-pair.js","size=1024 securing=""SecurePair"" dur=5",3.091387553848539,5.175669411
+"old","tls/secure-pair.js","size=1048576 securing=""SecurePair"" dur=5",31.679235625155595,5.050626912
+"old","tls/secure-pair.js","size=100 securing=""TLSSocket"" dur=5",9.608366185727917,5.052693172
+"old","tls/secure-pair.js","size=1024 securing=""TLSSocket"" dur=5",14.998629306847793,5.034314200
+"old","tls/secure-pair.js","size=1048576 securing=""TLSSocket"" dur=5",36.17504259898119,5.006904954
+"old","tls/secure-pair.js","size=100 securing=""clear"" dur=5",0.10722733545847225,8.837524522
+"old","tls/secure-pair.js","size=1024 securing=""clear"" dur=5",3.2147836201642424,6.216196442
+"old","tls/secure-pair.js","size=1048576 securing=""clear"" dur=5",87.9268655426984,5.137607530
+"new","tls/secure-pair.js","size=100 securing=""SecurePair"" dur=5",68.98635519888498,5.102241086
+"new","tls/secure-pair.js","size=1024 securing=""SecurePair"" dur=5",79.34532653359065,5.039777766
+"new","tls/secure-pair.js","size=1048576 securing=""SecurePair"" dur=5",86.44006967676214,5.188563541
+"new","tls/secure-pair.js","size=100 securing=""TLSSocket"" dur=5",76.47136973582109,5.010038967
+"new","tls/secure-pair.js","size=1024 securing=""TLSSocket"" dur=5",79.23709163838399,5.013533489
+"new","tls/secure-pair.js","size=1048576 securing=""TLSSocket"" dur=5",83.2403416138692,5.003583502
+"new","tls/secure-pair.js","size=100 securing=""clear"" dur=5",102.37966624552949,5.020638774
+"new","tls/secure-pair.js","size=1024 securing=""clear"" dur=5",642.3155434670131,5.010202847
+"new","tls/secure-pair.js","size=1048576 securing=""clear"" dur=5",1447.7387129059969,5.017117012
+"old","tls/secure-pair.js","size=100 securing=""SecurePair"" dur=5",3.0606081485088854,5.227719206
+"old","tls/secure-pair.js","size=1024 securing=""SecurePair"" dur=5",3.091387553848539,5.175669411
+"old","tls/secure-pair.js","size=1048576 securing=""SecurePair"" dur=5",31.679235625155595,5.050626912
+"old","tls/secure-pair.js","size=100 securing=""TLSSocket"" dur=5",9.608366185727917,5.052693172
+"old","tls/secure-pair.js","size=1024 securing=""TLSSocket"" dur=5",14.998629306847793,5.034314200
+"old","tls/secure-pair.js","size=1048576 securing=""TLSSocket"" dur=5",36.17504259898119,5.006904954
+"old","tls/secure-pair.js","size=100 securing=""clear"" dur=5",0.10722733545847225,8.837524522
+"old","tls/secure-pair.js","size=1024 securing=""clear"" dur=5",3.2147836201642424,6.216196442
+"old","tls/secure-pair.js","size=1048576 securing=""clear"" dur=5",87.9268655426984,5.137607530
+"new","tls/secure-pair.js","size=100 securing=""SecurePair"" dur=5",72.89129351999874,5.048408364
+"new","tls/secure-pair.js","size=1024 securing=""SecurePair"" dur=5",77.70634627679578,5.146076629
+"new","tls/secure-pair.js","size=1048576 securing=""SecurePair"" dur=5",84.87370464436258,5.095804358
+"new","tls/secure-pair.js","size=100 securing=""TLSSocket"" dur=5",77.80626273889527,5.009314138
+"new","tls/secure-pair.js","size=1024 securing=""TLSSocket"" dur=5",82.3433853432176,5.006568661
+"new","tls/secure-pair.js","size=1048576 securing=""TLSSocket"" dur=5",81.46582840381859,5.008234839
+"new","tls/secure-pair.js","size=100 securing=""clear"" dur=5",99.01709423676276,5.191137207
+"new","tls/secure-pair.js","size=1024 securing=""clear"" dur=5",641.833762747084,5.038892237
+"new","tls/secure-pair.js","size=1048576 securing=""clear"" dur=5",1465.3960289586742,5.000337370
+"old","tls/secure-pair.js","size=100 securing=""SecurePair"" dur=5",3.0606081485088854,5.227719206
+"old","tls/secure-pair.js","size=1024 securing=""SecurePair"" dur=5",3.091387553848539,5.175669411
+"old","tls/secure-pair.js","size=1048576 securing=""SecurePair"" dur=5",31.679235625155595,5.050626912
+"old","tls/secure-pair.js","size=100 securing=""TLSSocket"" dur=5",9.608366185727917,5.052693172
+"old","tls/secure-pair.js","size=1024 securing=""TLSSocket"" dur=5",14.998629306847793,5.034314200
+"old","tls/secure-pair.js","size=1048576 securing=""TLSSocket"" dur=5",36.17504259898119,5.006904954
+"old","tls/secure-pair.js","size=100 securing=""clear"" dur=5",0.10722733545847225,8.837524522
+"old","tls/secure-pair.js","size=1024 securing=""clear"" dur=5",3.2147836201642424,6.216196442
+"old","tls/secure-pair.js","size=1048576 securing=""clear"" dur=5",87.9268655426984,5.137607530
+"new","tls/secure-pair.js","size=100 securing=""SecurePair"" dur=5",69.24816943659958,5.082950477
+"new","tls/secure-pair.js","size=1024 securing=""SecurePair"" dur=5",75.98774953828516,5.051903956
+"new","tls/secure-pair.js","size=1048576 securing=""SecurePair"" dur=5",86.94769331929595,5.158271334
+"new","tls/secure-pair.js","size=100 securing=""TLSSocket"" dur=5",78.2368107469126,5.029725398
+"new","tls/secure-pair.js","size=1024 securing=""TLSSocket"" dur=5",80.37046376773397,5.045483048
+"new","tls/secure-pair.js","size=1048576 securing=""TLSSocket"" dur=5",92.0065261925461,5.010514135
+"new","tls/secure-pair.js","size=100 securing=""clear"" dur=5",99.37590853031843,5.172393688
+"new","tls/secure-pair.js","size=1024 securing=""clear"" dur=5",611.3138801068917,5.028727900
+"new","tls/secure-pair.js","size=1048576 securing=""clear"" dur=5",1467.3930239993185,5.015339725
+"old","tls/throughput-c2s.js","size=100 type=""buf"" dur=5",1.8398148147298357,5.373044295
+"old","tls/throughput-c2s.js","size=1024 type=""buf"" dur=5",5.55979918164385,5.374800694
+"old","tls/throughput-c2s.js","size=1048576 type=""buf"" dur=5",19.737590013083857,5.053808491
+"old","tls/throughput-c2s.js","size=4194304 type=""buf"" dur=5",33.767872373321346,5.896877298
+"old","tls/throughput-c2s.js","size=16777216 type=""buf"" dur=5",40.39959463371417,5.420846471
+"old","tls/throughput-c2s.js","size=100 type=""asc"" dur=5",1.7231276257306518,5.736897457
+"old","tls/throughput-c2s.js","size=1024 type=""asc"" dur=5",3.4047342345639278,5.839754627
+"old","tls/throughput-c2s.js","size=1048576 type=""asc"" dur=5",21.716111094630943,5.053851471
+"old","tls/throughput-c2s.js","size=4194304 type=""asc"" dur=5",33.798395067574944,5.340490270
+"old","tls/throughput-c2s.js","size=16777216 type=""asc"" dur=5",37.729075440459425,5.314203904
+"old","tls/throughput-c2s.js","size=100 type=""utf"" dur=5",1.794297516571907,5.509278329
+"old","tls/throughput-c2s.js","size=1024 type=""utf"" dur=5",5.657560456903678,5.281925439
+"old","tls/throughput-c2s.js","size=1048576 type=""utf"" dur=5",19.813829925406793,5.034362381
+"old","tls/throughput-c2s.js","size=4194304 type=""utf"" dur=5",33.43983266679574,5.397754283
+"old","tls/throughput-c2s.js","size=16777216 type=""utf"" dur=5",36.744519479872785,5.456596054
+"new","tls/throughput-c2s.js","size=100 type=""buf"" dur=5",85.22734091868034,5.150095977
+"new","tls/throughput-c2s.js","size=1024 type=""buf"" dur=5",90.5375169711751,5.177497994
+"new","tls/throughput-c2s.js","size=1048576 type=""buf"" dur=5",102.14664446279245,5.178828955
+"new","tls/throughput-c2s.js","size=4194304 type=""buf"" dur=5",95.34774153845132,5.019783293
+"new","tls/throughput-c2s.js","size=16777216 type=""buf"" dur=5",93.15088576739863,5.138169069
+"new","tls/throughput-c2s.js","size=100 type=""asc"" dur=5",68.13732194752242,5.272091954
+"new","tls/throughput-c2s.js","size=1024 type=""asc"" dur=5",86.42328469364067,5.194003145
+"new","tls/throughput-c2s.js","size=1048576 type=""asc"" dur=5",101.6420554421005,5.007769646
+"new","tls/throughput-c2s.js","size=4194304 type=""asc"" dur=5",94.83684665289638,5.046825331
+"new","tls/throughput-c2s.js","size=16777216 type=""asc"" dur=5",80.62764796135272,5.564158342
+"new","tls/throughput-c2s.js","size=100 type=""utf"" dur=5",69.91559364671426,5.141576151
+"new","tls/throughput-c2s.js","size=1024 type=""utf"" dur=5",91.12503090276506,5.039864546
+"new","tls/throughput-c2s.js","size=1048576 type=""utf"" dur=5",93.33330562331403,5.026340778
+"new","tls/throughput-c2s.js","size=4194304 type=""utf"" dur=5",93.21730948602546,5.027231558
+"new","tls/throughput-c2s.js","size=16777216 type=""utf"" dur=5",84.43856231144143,5.668322469
+"old","tls/throughput-c2s.js","size=100 type=""buf"" dur=5",1.8398148147298357,5.373044295
+"old","tls/throughput-c2s.js","size=1024 type=""buf"" dur=5",5.55979918164385,5.374800694
+"old","tls/throughput-c2s.js","size=1048576 type=""buf"" dur=5",19.737590013083857,5.053808491
+"old","tls/throughput-c2s.js","size=4194304 type=""buf"" dur=5",33.767872373321346,5.896877298
+"old","tls/throughput-c2s.js","size=16777216 type=""buf"" dur=5",40.39959463371417,5.420846471
+"old","tls/throughput-c2s.js","size=100 type=""asc"" dur=5",1.7231276257306518,5.736897457
+"old","tls/throughput-c2s.js","size=1024 type=""asc"" dur=5",3.4047342345639278,5.839754627
+"old","tls/throughput-c2s.js","size=1048576 type=""asc"" dur=5",21.716111094630943,5.053851471
+"old","tls/throughput-c2s.js","size=4194304 type=""asc"" dur=5",33.798395067574944,5.340490270
+"old","tls/throughput-c2s.js","size=16777216 type=""asc"" dur=5",37.729075440459425,5.314203904
+"old","tls/throughput-c2s.js","size=100 type=""utf"" dur=5",1.794297516571907,5.509278329
+"old","tls/throughput-c2s.js","size=1024 type=""utf"" dur=5",5.657560456903678,5.281925439
+"old","tls/throughput-c2s.js","size=1048576 type=""utf"" dur=5",19.813829925406793,5.034362381
+"old","tls/throughput-c2s.js","size=4194304 type=""utf"" dur=5",33.43983266679574,5.397754283
+"old","tls/throughput-c2s.js","size=16777216 type=""utf"" dur=5",36.744519479872785,5.456596054
+"new","tls/throughput-c2s.js","size=100 type=""buf"" dur=5",84.66075666772868,5.184562516
+"new","tls/throughput-c2s.js","size=1024 type=""buf"" dur=5",90.81409192313589,5.052991257
+"new","tls/throughput-c2s.js","size=1048576 type=""buf"" dur=5",97.95063981063484,5.094402660
+"new","tls/throughput-c2s.js","size=4194304 type=""buf"" dur=5",98.76577130990911,5.047295165
+"new","tls/throughput-c2s.js","size=16777216 type=""buf"" dur=5",85.28692517463074,5.611938747
+"new","tls/throughput-c2s.js","size=100 type=""asc"" dur=5",69.08052963258233,5.200108174
+"new","tls/throughput-c2s.js","size=1024 type=""asc"" dur=5",84.95179570734557,5.048543223
+"new","tls/throughput-c2s.js","size=1048576 type=""asc"" dur=5",103.02242428698194,5.134804424
+"new","tls/throughput-c2s.js","size=4194304 type=""asc"" dur=5",102.21618150441748,5.170414236
+"new","tls/throughput-c2s.js","size=16777216 type=""asc"" dur=5",86.94201158094036,5.045029348
+"new","tls/throughput-c2s.js","size=100 type=""utf"" dur=5",70.5707829111601,5.093841021
+"new","tls/throughput-c2s.js","size=1024 type=""utf"" dur=5",89.60049240470971,5.014010531
+"new","tls/throughput-c2s.js","size=1048576 type=""utf"" dur=5",95.30920082526642,5.027059254
+"new","tls/throughput-c2s.js","size=4194304 type=""utf"" dur=5",93.25256469601015,5.025330955
+"new","tls/throughput-c2s.js","size=16777216 type=""utf"" dur=5",85.32569187842549,5.609389030
+"old","tls/throughput-c2s.js","size=100 type=""buf"" dur=5",1.8398148147298357,5.373044295
+"old","tls/throughput-c2s.js","size=1024 type=""buf"" dur=5",5.55979918164385,5.374800694
+"old","tls/throughput-c2s.js","size=1048576 type=""buf"" dur=5",19.737590013083857,5.053808491
+"old","tls/throughput-c2s.js","size=4194304 type=""buf"" dur=5",33.767872373321346,5.896877298
+"old","tls/throughput-c2s.js","size=16777216 type=""buf"" dur=5",40.39959463371417,5.420846471
+"old","tls/throughput-c2s.js","size=100 type=""asc"" dur=5",1.7231276257306518,5.736897457
+"old","tls/throughput-c2s.js","size=1024 type=""asc"" dur=5",3.4047342345639278,5.839754627
+"old","tls/throughput-c2s.js","size=1048576 type=""asc"" dur=5",21.716111094630943,5.053851471
+"old","tls/throughput-c2s.js","size=4194304 type=""asc"" dur=5",33.798395067574944,5.340490270
+"old","tls/throughput-c2s.js","size=16777216 type=""asc"" dur=5",37.729075440459425,5.314203904
+"old","tls/throughput-c2s.js","size=100 type=""utf"" dur=5",1.794297516571907,5.509278329
+"old","tls/throughput-c2s.js","size=1024 type=""utf"" dur=5",5.657560456903678,5.281925439
+"old","tls/throughput-c2s.js","size=1048576 type=""utf"" dur=5",19.813829925406793,5.034362381
+"old","tls/throughput-c2s.js","size=4194304 type=""utf"" dur=5",33.43983266679574,5.397754283
+"old","tls/throughput-c2s.js","size=16777216 type=""utf"" dur=5",36.744519479872785,5.456596054
+"new","tls/throughput-c2s.js","size=100 type=""buf"" dur=5",84.781048609707,5.177206378
+"new","tls/throughput-c2s.js","size=1024 type=""buf"" dur=5",89.66628353564911,5.117674051
+"new","tls/throughput-c2s.js","size=1048576 type=""buf"" dur=5",93.52683319668701,5.122861361
+"new","tls/throughput-c2s.js","size=4194304 type=""buf"" dur=5",92.39200156138882,5.180372672
+"new","tls/throughput-c2s.js","size=16777216 type=""buf"" dur=5",93.3168884705496,5.129028709
+"new","tls/throughput-c2s.js","size=100 type=""asc"" dur=5",68.06677784104345,5.130497906
+"new","tls/throughput-c2s.js","size=1024 type=""asc"" dur=5",87.11178538796842,5.152951584
+"new","tls/throughput-c2s.js","size=1048576 type=""asc"" dur=5",98.43272062877722,5.069452483
+"new","tls/throughput-c2s.js","size=4194304 type=""asc"" dur=5",103.38060467076811,5.015447546
+"new","tls/throughput-c2s.js","size=16777216 type=""asc"" dur=5",89.7463710023866,5.110234485
+"new","tls/throughput-c2s.js","size=100 type=""utf"" dur=5",69.59475123231633,5.165279601
+"new","tls/throughput-c2s.js","size=1024 type=""utf"" dur=5",88.54083594561112,5.074018194
+"new","tls/throughput-c2s.js","size=1048576 type=""utf"" dur=5",93.25774460927887,5.137643013
+"new","tls/throughput-c2s.js","size=4194304 type=""utf"" dur=5",87.01990696734033,5.040513318
+"new","tls/throughput-c2s.js","size=16777216 type=""utf"" dur=5",85.10268347826589,5.036562685
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=256 type=""buf"" dur=5",1.880614258310261,5.251982474
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=256 type=""buf"" dur=5",1.9010732676997155,5.195461581
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=256 type=""buf"" dur=5",17.72326336744637,5.057023149
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=256 type=""buf"" dur=5",19.472594539943454,5.116264960
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=256 type=""buf"" dur=5",17.885668943801186,5.011104332
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=256 type=""buf"" dur=5",17.790963319501547,5.037779659
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=32768 type=""buf"" dur=5",17.681297603224557,5.075984920
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=32768 type=""buf"" dur=5",17.869330672170356,5.022572006
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=32768 type=""buf"" dur=5",48.56391586961694,5.137559349
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=32768 type=""buf"" dur=5",45.76149707231431,5.015133129
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=32768 type=""buf"" dur=5",48.6531936617184,5.128132014
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=32768 type=""buf"" dur=5",49.31974191258569,5.058826148
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=131072 type=""buf"" dur=5",19.86925782549679,5.020318367
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=131072 type=""buf"" dur=5",19.8980199646898,5.013061610
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=131072 type=""buf"" dur=5",52.17483514204569,5.165325377
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=131072 type=""buf"" dur=5",52.64598076150833,5.119099238
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=131072 type=""buf"" dur=5",52.28698943936024,5.154245882
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=131072 type=""buf"" dur=5",52.64588017167212,5.119109019
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=16777216 type=""buf"" dur=5",36.820257574527595,5.136438810
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=16777216 type=""buf"" dur=5",38.33733060499097,5.194023602
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=16777216 type=""buf"" dur=5",73.73491684439824,5.001022796
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=16777216 type=""buf"" dur=5",79.360292316865,5.024553065
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=16777216 type=""buf"" dur=5",77.34728232494315,5.026033085
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=16777216 type=""buf"" dur=5",79.37766153610171,5.023453605
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=256 type=""asc"" dur=5",1.7616796086492132,5.606554720
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=256 type=""asc"" dur=5",1.7330489381908198,5.699177275
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=256 type=""asc"" dur=5",7.6979174432729325,5.163987977
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=256 type=""asc"" dur=5",5.959255689930774,5.013537710
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=256 type=""asc"" dur=5",7.693480484752587,5.166966135
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=256 type=""buf"" dur=5",89.12621552062394,5.036418864
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=256 type=""buf"" dur=5",88.62370393276053,5.064976222
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=256 type=""buf"" dur=5",96.79433359084416,5.151406437
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=256 type=""buf"" dur=5",95.71080508366954,5.106549388
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=256 type=""buf"" dur=5",97.29846697595976,5.023223575
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=256 type=""buf"" dur=5",99.10179889794978,5.031462180
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=32768 type=""buf"" dur=5",92.57829561469785,5.175349112
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=32768 type=""buf"" dur=5",100.87698303178765,5.144880273
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=32768 type=""buf"" dur=5",109.27324578356104,5.024102616
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=32768 type=""buf"" dur=5",108.81801903599353,5.045120329
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=32768 type=""buf"" dur=5",109.02785851322696,5.035410284
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=32768 type=""buf"" dur=5",110.9370071542214,5.038895625
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=131072 type=""buf"" dur=5",99.58345126413745,5.010872727
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=131072 type=""buf"" dur=5",101.0104148197186,5.039084345
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=131072 type=""buf"" dur=5",111.1784379219281,5.116774535
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=131072 type=""buf"" dur=5",110.87212247363324,5.130911065
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=131072 type=""buf"" dur=5",111.20805095110212,5.115412015
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=131072 type=""buf"" dur=5",112.8758466725738,5.039829306
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=16777216 type=""buf"" dur=5",91.15007706886337,5.031537161
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=16777216 type=""buf"" dur=5",93.22088387032973,5.027038798
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=16777216 type=""buf"" dur=5",105.48029747224977,5.010414387
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=16777216 type=""buf"" dur=5",110.79091650179257,5.041026987
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=16777216 type=""buf"" dur=5",110.89412916957379,5.036335144
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=16777216 type=""buf"" dur=5",109.36348874199516,5.015384991
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=256 type=""asc"" dur=5",83.13933241683328,5.039756045
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=256 type=""asc"" dur=5",82.96605357489561,5.050281833
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=256 type=""asc"" dur=5",85.4544865875157,5.018776313
+"new","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=256 type=""asc"" dur=5",87.9465166558476,5.103976487
+"new","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=256 type=""asc"" dur=5",88.14925304822866,5.092237740
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=256 type=""buf"" dur=5",1.880614258310261,5.251982474
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=256 type=""buf"" dur=5",1.9010732676997155,5.195461581
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=256 type=""buf"" dur=5",17.72326336744637,5.057023149
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=256 type=""buf"" dur=5",19.472594539943454,5.116264960
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=256 type=""buf"" dur=5",17.885668943801186,5.011104332
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=256 type=""buf"" dur=5",17.790963319501547,5.037779659
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=32768 type=""buf"" dur=5",17.681297603224557,5.075984920
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=32768 type=""buf"" dur=5",17.869330672170356,5.022572006
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=32768 type=""buf"" dur=5",48.56391586961694,5.137559349
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=32768 type=""buf"" dur=5",45.76149707231431,5.015133129
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=32768 type=""buf"" dur=5",48.6531936617184,5.128132014
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=32768 type=""buf"" dur=5",49.31974191258569,5.058826148
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=131072 type=""buf"" dur=5",19.86925782549679,5.020318367
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=131072 type=""buf"" dur=5",19.8980199646898,5.013061610
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=131072 type=""buf"" dur=5",52.17483514204569,5.165325377
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=131072 type=""buf"" dur=5",52.64598076150833,5.119099238
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=131072 type=""buf"" dur=5",52.28698943936024,5.154245882
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=131072 type=""buf"" dur=5",52.64588017167212,5.119109019
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=16777216 type=""buf"" dur=5",36.820257574527595,5.136438810
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=16777216 type=""buf"" dur=5",38.33733060499097,5.194023602
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=16777216 type=""buf"" dur=5",73.73491684439824,5.001022796
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=16777216 type=""buf"" dur=5",79.360292316865,5.024553065
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=16777216 type=""buf"" dur=5",77.34728232494315,5.026033085
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=16777216 type=""buf"" dur=5",79.37766153610171,5.023453605
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=256 type=""asc"" dur=5",1.7616796086492132,5.606554720
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=256 type=""asc"" dur=5",1.7330489381908198,5.699177275
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=256 type=""asc"" dur=5",7.6979174432729325,5.163987977
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=256 type=""asc"" dur=5",5.959255689930774,5.013537710
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=256 type=""asc"" dur=5",7.693480484752587,5.166966135
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=256 type=""buf"" dur=5",1.880614258310261,5.251982474
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=256 type=""buf"" dur=5",1.9010732676997155,5.195461581
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=256 type=""buf"" dur=5",17.72326336744637,5.057023149
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=256 type=""buf"" dur=5",19.472594539943454,5.116264960
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=256 type=""buf"" dur=5",17.885668943801186,5.011104332
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=256 type=""buf"" dur=5",17.790963319501547,5.037779659
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=32768 type=""buf"" dur=5",17.681297603224557,5.075984920
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=32768 type=""buf"" dur=5",17.869330672170356,5.022572006
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=32768 type=""buf"" dur=5",48.56391586961694,5.137559349
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=32768 type=""buf"" dur=5",45.76149707231431,5.015133129
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=32768 type=""buf"" dur=5",48.6531936617184,5.128132014
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=32768 type=""buf"" dur=5",49.31974191258569,5.058826148
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=131072 type=""buf"" dur=5",19.86925782549679,5.020318367
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=131072 type=""buf"" dur=5",19.8980199646898,5.013061610
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=131072 type=""buf"" dur=5",52.17483514204569,5.165325377
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=131072 type=""buf"" dur=5",52.64598076150833,5.119099238
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=131072 type=""buf"" dur=5",52.28698943936024,5.154245882
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=131072 type=""buf"" dur=5",52.64588017167212,5.119109019
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=16777216 type=""buf"" dur=5",36.820257574527595,5.136438810
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=16777216 type=""buf"" dur=5",38.33733060499097,5.194023602
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=16777216 type=""buf"" dur=5",73.73491684439824,5.001022796
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=16777216 type=""buf"" dur=5",79.360292316865,5.024553065
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=16777216 type=""buf"" dur=5",77.34728232494315,5.026033085
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=1048576 sendchunklen=16777216 type=""buf"" dur=5",79.37766153610171,5.023453605
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=0 sendchunklen=256 type=""asc"" dur=5",1.7616796086492132,5.606554720
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=0 sendchunklen=256 type=""asc"" dur=5",1.7330489381908198,5.699177275
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=65536 sendchunklen=256 type=""asc"" dur=5",7.6979174432729325,5.163987977
+"old","tls/throughput-s2c.js","recvbufgenfn=""false"" recvbuflen=65536 sendchunklen=256 type=""asc"" dur=5",5.959255689930774,5.013537710
+"old","tls/throughput-s2c.js","recvbufgenfn=""true"" recvbuflen=1048576 sendchunklen=256 type=""asc"" dur=5",7.693480484752587,5.166966135
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

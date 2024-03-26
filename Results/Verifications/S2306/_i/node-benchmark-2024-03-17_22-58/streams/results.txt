@@ -1,0 +1,36 @@
+"filename","configuration","rate","time"
+"streams/creation.js","kind=""duplex"" n=50000000",820491.4752932875,60.939085299
+"streams/creation.js","kind=""readable"" n=50000000",1252604.6426388815,39.916824749
+"streams/creation.js","kind=""transform"" n=50000000",669353.1573670954,74.698982816
+"streams/creation.js","kind=""writable"" n=50000000",1256443.2576044018,39.794873105
+"streams/destroy.js","kind=""duplex"" n=1000000",89417.7736311859,11.183458941
+"streams/destroy.js","kind=""readable"" n=1000000",204492.75101448328,4.890148893
+"streams/destroy.js","kind=""transform"" n=1000000",146946.67678623184,6.805189623
+"streams/destroy.js","kind=""writable"" n=1000000",147938.45774537412,6.759567561
+"streams/pipe-object-mode.js","n=5000000",1880125.2279518351,2.659397324
+"streams/pipe.js","n=5000000",1629733.979637242,3.067985366
+"streams/readable-async-iterator.js","sync=""yes"" n=100000",308137.17433798604,0.324530788
+"streams/readable-async-iterator.js","sync=""no"" n=100000",146443.20343722583,0.682858594
+"streams/readable-bigread.js","n=1000",180.88245049294406,5.528452303
+"streams/readable-bigunevenread.js","n=1000",72.7856980876835,13.738962822
+"streams/readable-boundaryread.js","type=""string"" n=2000",44.70195628914049,44.740771233
+"streams/readable-boundaryread.js","type=""buffer"" n=2000",282.47805353780956,7.080196054
+"streams/readable-from.js","n=10000000",1313046.7170858416,7.615875254
+"streams/readable-readall.js","n=5000",291.2164201240646,17.169361528
+"streams/readable-unevenread.js","n=1000",20.62105884372914,48.494115049
+"streams/writable-manywrites.js","len=1024 callback=""yes"" writev=""yes"" sync=""yes"" n=100000",1855702.3655306106,0.053887952
+"streams/writable-manywrites.js","len=32768 callback=""yes"" writev=""yes"" sync=""yes"" n=100000",1855880.1083633548,0.053882791
+"streams/writable-manywrites.js","len=1024 callback=""no"" writev=""yes"" sync=""yes"" n=100000",2027697.6195113827,0.049317018
+"streams/writable-manywrites.js","len=32768 callback=""no"" writev=""yes"" sync=""yes"" n=100000",2017367.2320694737,0.049569557
+"streams/writable-manywrites.js","len=1024 callback=""yes"" writev=""no"" sync=""yes"" n=100000",2129009.4570600083,0.046970200
+"streams/writable-manywrites.js","len=32768 callback=""yes"" writev=""no"" sync=""yes"" n=100000",2140953.483482255,0.046708161
+"streams/writable-manywrites.js","len=1024 callback=""no"" writev=""no"" sync=""yes"" n=100000",2339839.94465249,0.042737966
+"streams/writable-manywrites.js","len=32768 callback=""no"" writev=""no"" sync=""yes"" n=100000",2369150.2895599175,0.042209226
+"streams/writable-manywrites.js","len=1024 callback=""yes"" writev=""yes"" sync=""no"" n=100000",610718.9779554389,0.163741432
+"streams/writable-manywrites.js","len=32768 callback=""yes"" writev=""yes"" sync=""no"" n=100000",442090.0242682224,0.226198273
+"streams/writable-manywrites.js","len=1024 callback=""no"" writev=""yes"" sync=""no"" n=100000",666654.0046849378,0.150002849
+"streams/writable-manywrites.js","len=32768 callback=""no"" writev=""yes"" sync=""no"" n=100000",499306.0021050242,0.200277985
+"streams/writable-manywrites.js","len=1024 callback=""yes"" writev=""no"" sync=""no"" n=100000",452135.5739912429,0.221172599
+"streams/writable-manywrites.js","len=32768 callback=""yes"" writev=""no"" sync=""no"" n=100000",486069.2102574466,0.205732019
+"streams/writable-manywrites.js","len=1024 callback=""no"" writev=""no"" sync=""no"" n=100000",440115.95101194346,0.227212851
+"streams/writable-manywrites.js","len=32768 callback=""no"" writev=""no"" sync=""no"" n=100000",456791.78629168036,0.218918122

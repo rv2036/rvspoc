@@ -1,0 +1,197 @@
+"filename","configuration","rate","time"
+"fs/bench-accessSync.js","n=100000 type=""existing""",85931.21735387121,1.163721440
+"fs/bench-accessSync.js","n=100000 type=""non-existing""",16211.28564131698,6.168542225
+"fs/bench-accessSync.js","n=100000 type=""non-flat-existing""",87363.20116297613,1.144646701
+"fs/bench-chmodSync.js","n=1000 type=""existing""",24133.128957908564,0.041436815
+"fs/bench-chmodSync.js","n=1000 type=""non-existing""",9165.408783051758,0.109105881
+"fs/bench-chownSync.js","n=10000 method=""chownSync"" type=""existing""",51774.077331449735,0.193146851
+"fs/bench-chownSync.js","n=10000 method=""lchownSync"" type=""existing""",52621.07854962037,0.190037914
+"fs/bench-chownSync.js","n=10000 method=""chownSync"" type=""non-existing""",17939.958929370303,0.557414877
+"fs/bench-chownSync.js","n=10000 method=""lchownSync"" type=""non-existing""",18317.259696772162,0.545933189
+"fs/bench-copyFileSync.js","n=10000 type=""invalid""",15682.533579793757,0.637652070
+"fs/bench-copyFileSync.js","n=10000 type=""valid""",3420.2358767314104,2.923774956
+"fs/bench-existsSync.js","n=1000000 type=""existing""",85517.03018267806,11.693577266
+"fs/bench-existsSync.js","n=1000000 type=""non-existing""",93848.01636399332,10.655526230
+"fs/bench-existsSync.js","n=1000000 type=""non-flat-existing""",88891.56205964756,11.249661687
+"fs/bench-fchmodSync.js","n=1000 type=""existing""",76181.27059084518,0.013126586
+"fs/bench-fchmodSync.js","n=1000 type=""non-existing""",24075.248634120864,0.041536435
+"fs/bench-fsyncSync.js","n=10000 type=""existing""",7751.850707070023,1.290014524
+"fs/bench-fsyncSync.js","n=10000 type=""non-existing""",27917.603716382473,0.358196932
+"fs/bench-ftruncateSync.js","n=10000 type=""invalid""",25876.966379677484,0.386444062
+"fs/bench-ftruncateSync.js","n=10000 type=""valid""",32447.026894662453,0.308194647
+"fs/bench-linkSync.js","n=1000 type=""valid""",9350.867893790411,0.106941945
+"fs/bench-linkSync.js","n=1000 type=""invalid""",8349.907133585346,0.119761811
+"fs/bench-mkdirSync.js","n=1000 recursive=""true"" type=""existing""",34260.48134331784,0.029188148
+"fs/bench-mkdirSync.js","n=1000 recursive=""false"" type=""existing""",14322.928322695576,0.069818125
+"fs/bench-mkdirSync.js","n=1000 recursive=""true"" type=""non-existing""",1975.0651500915606,0.506312412
+"fs/bench-mkdirSync.js","n=1000 recursive=""false"" type=""non-existing""",6542.915104485709,0.152837074
+"fs/bench-mkdirp.js","n=10000",961.8024921368055,10.397145029
+"fs/bench-openSync.js","n=100000 type=""existing""",55598.58351555496,1.798606973
+"fs/bench-openSync.js","n=100000 type=""non-existing""",15848.526699372334,6.309734772
+"fs/bench-opendir.js","bufferSize=4 mode=""async"" dir=""lib"" n=100",18216.16296908039,0.378784490
+"fs/bench-opendir.js","bufferSize=32 mode=""async"" dir=""lib"" n=100",33248.664084337695,0.207527135
+"fs/bench-opendir.js","bufferSize=1024 mode=""async"" dir=""lib"" n=100",37829.258049498676,0.182398502
+"fs/bench-opendir.js","bufferSize=4 mode=""sync"" dir=""lib"" n=100",93888.48423859317,0.073491441
+"fs/bench-opendir.js","bufferSize=32 mode=""sync"" dir=""lib"" n=100",98570.887839701,0.070000384
+"fs/bench-opendir.js","bufferSize=1024 mode=""sync"" dir=""lib"" n=100",97103.38765151417,0.071058283
+"fs/bench-opendir.js","bufferSize=4 mode=""callback"" dir=""lib"" n=100",21035.1113047764,0.328022985
+"fs/bench-opendir.js","bufferSize=32 mode=""callback"" dir=""lib"" n=100",34039.39574626247,0.202706301
+"fs/bench-opendir.js","bufferSize=1024 mode=""callback"" dir=""lib"" n=100",35639.92334627269,0.193603110
+"fs/bench-opendir.js","bufferSize=4 mode=""async"" dir=""test/parallel"" n=100",29399.645845574356,11.411702092
+"fs/bench-opendir.js","bufferSize=32 mode=""async"" dir=""test/parallel"" n=100",83628.30655197553,4.011799519
+"fs/bench-opendir.js","bufferSize=1024 mode=""async"" dir=""test/parallel"" n=100",121931.62597612782,2.751542082
+"fs/bench-opendir.js","bufferSize=4 mode=""sync"" dir=""test/parallel"" n=100",262161.2839582912,1.279746555
+"fs/bench-opendir.js","bufferSize=32 mode=""sync"" dir=""test/parallel"" n=100",320301.87861099734,1.047449367
+"fs/bench-opendir.js","bufferSize=1024 mode=""sync"" dir=""test/parallel"" n=100",267257.3357022524,1.255344401
+"fs/bench-opendir.js","bufferSize=4 mode=""callback"" dir=""test/parallel"" n=100",38973.672874488344,8.608375225
+"fs/bench-opendir.js","bufferSize=32 mode=""callback"" dir=""test/parallel"" n=100",125783.371998642,2.667284194
+"fs/bench-opendir.js","bufferSize=1024 mode=""callback"" dir=""test/parallel"" n=100",199814.2883718285,1.679059104
+"fs/bench-opendirSync.js","n=1000 type=""existing""",276.6148361424662,3.615135088
+"fs/bench-opendirSync.js","n=1000 type=""non-existing""",13746.860526360142,0.072743882
+"fs/bench-readSync.js","n=10000 type=""existing""",131708.12878073123,0.075925458
+"fs/bench-readSync.js","n=10000 type=""non-existing""",17823.80238445153,0.561047513
+"fs/bench-readdir.js","withFileTypes=""true"" dir=""lib"" n=10",1010.3450237324995,0.009897609
+"fs/bench-readdir.js","withFileTypes=""false"" dir=""lib"" n=10",1172.884184372233,0.008525991
+"fs/bench-readdir.js","withFileTypes=""true"" dir=""test/parallel"" n=10",68.67593073381339,0.145611423
+"fs/bench-readdir.js","withFileTypes=""false"" dir=""test/parallel"" n=10",82.2612444704814,0.121563928
+"fs/bench-readdirSync.js","withFileTypes=""true"" dir=""lib"" n=10",1575.5244172410898,0.006347093
+"fs/bench-readdirSync.js","withFileTypes=""false"" dir=""lib"" n=10",3131.266446977013,0.003193596
+"fs/bench-readdirSync.js","withFileTypes=""true"" dir=""test/parallel"" n=10",72.97410511690703,0.137034911
+"fs/bench-readdirSync.js","withFileTypes=""false"" dir=""test/parallel"" n=10",84.24945417516747,0.118695131
+"fs/bench-readlinkSync.js","n=1000 type=""valid""",27953.18322604389,0.035774101
+"fs/bench-readlinkSync.js","n=1000 type=""invalid""",10619.264647993306,0.094168479
+"fs/bench-realpath.js","pathType=""relative"" n=10000",4101.648998169648,2.438043822
+"fs/bench-realpath.js","pathType=""resolved"" n=10000",1628.277883867364,6.141457855
+"fs/bench-realpathSync.js","pathType=""relative"" n=10000",10852.099200171748,0.921480703
+"fs/bench-realpathSync.js","pathType=""resolved"" n=10000",11648.794728564399,0.858457912
+"fs/bench-renameSync.js","n=2000 type=""invalid""",10341.663162092473,0.193392491
+"fs/bench-renameSync.js","n=2000 type=""valid""",9617.91324800946,0.207945315
+"fs/bench-stat-promise.js","statType=""fstat"" n=200000",9388.220503261204,21.303291708
+"fs/bench-stat-promise.js","statType=""lstat"" n=200000",9199.647808999762,21.739962676
+"fs/bench-stat-promise.js","statType=""stat"" n=200000",8947.62385449839,22.352303053
+"fs/bench-stat.js","statType=""fstat"" n=200000",12093.269891866144,16.538124245
+"fs/bench-stat.js","statType=""lstat"" n=200000",12122.8450405198,16.497777488
+"fs/bench-stat.js","statType=""stat"" n=200000",11209.745377957068,17.841618454
+"fs/bench-statSync-failure.js","statSyncType=""throw"" n=1000000",16996.704540706447,58.834934596
+"fs/bench-statSync-failure.js","statSyncType=""noThrow"" n=1000000",139107.05858412434,7.188707821
+"fs/bench-statSync.js","statSyncType=""fstatSync"" n=1000000",88445.06677954819,11.306453106
+"fs/bench-statSync.js","statSyncType=""lstatSync"" n=1000000",63537.90102882863,15.738637629
+"fs/bench-statSync.js","statSyncType=""statSync"" n=1000000",65174.103754175296,15.343517477
+"fs/bench-symlinkSync.js","n=1000 type=""valid""",5515.3485421201985,0.181312204
+"fs/bench-symlinkSync.js","n=1000 type=""invalid""",9555.794405821995,0.104648547
+"fs/bench-timesSync.js","n=1000 func=""utimes"" type=""existing""",35762.47565022439,0.027962270
+"fs/bench-timesSync.js","n=1000 func=""futimes"" type=""existing""",76507.42971300686,0.013070626
+"fs/bench-timesSync.js","n=1000 func=""lutimes"" type=""existing""",35466.16317009902,0.028195889
+"fs/bench-timesSync.js","n=1000 func=""utimes"" type=""non-existing""",9574.87671843544,0.104439987
+"fs/bench-timesSync.js","n=1000 func=""futimes"" type=""non-existing""",21708.37532999444,0.046065170
+"fs/bench-timesSync.js","n=1000 func=""lutimes"" type=""non-existing""",9534.427607217356,0.104883066
+"fs/bench-unlinkSync.js","n=1000 type=""existing""",11586.974507242474,0.086303806
+"fs/bench-unlinkSync.js","n=1000 type=""non-existing""",15492.824420905336,0.064546010
+"fs/bench-writevSync.js","n=100000 type=""valid""",78288.45295627056,1.277327578
+"fs/bench-writevSync.js","n=100000 type=""invalid""",22401.0365049195,4.464079150
+"fs/bench_fdatasyncSync.js","n=10000 type=""existing""",7753.277654710175,1.289777104
+"fs/bench_fdatasyncSync.js","n=10000 type=""non-existing""",28539.881320499557,0.350386881
+"fs/read-stream-throughput.js","n=1024 highWaterMark=1024 filesize=1024000 encodingType=""buf""",29.70103476469801,33.668860628
+"fs/read-stream-throughput.js","n=1024 highWaterMark=4096 filesize=1024000 encodingType=""buf""",118.17003263434317,8.462382363
+"fs/read-stream-throughput.js","n=1024 highWaterMark=65535 filesize=1024000 encodingType=""buf""",524.158316599732,1.907820535
+"fs/read-stream-throughput.js","n=1024 highWaterMark=1048576 filesize=1024000 encodingType=""buf""",897.3204194304636,1.114429114
+"fs/read-stream-throughput.js","n=1024 highWaterMark=1024 filesize=1024000 encodingType=""asc""",24.915583033499225,40.135524770
+"fs/read-stream-throughput.js","n=1024 highWaterMark=4096 filesize=1024000 encodingType=""asc""",77.47153647485148,12.907966532
+"fs/read-stream-throughput.js","n=1024 highWaterMark=65535 filesize=1024000 encodingType=""asc""",192.1964161268822,5.203010650
+"fs/read-stream-throughput.js","n=1024 highWaterMark=1048576 filesize=1024000 encodingType=""asc""",165.93015142499058,6.026632239
+"fs/read-stream-throughput.js","n=1024 highWaterMark=1024 filesize=1024000 encodingType=""utf""",9.735862394879272,51.356518788
+"fs/read-stream-throughput.js","n=1024 highWaterMark=4096 filesize=1024000 encodingType=""utf""",20.479815031186472,24.414283002
+"fs/read-stream-throughput.js","n=1024 highWaterMark=65535 filesize=1024000 encodingType=""utf""",29.898438251035685,16.723281524
+"fs/read-stream-throughput.js","n=1024 highWaterMark=1048576 filesize=1024000 encodingType=""utf""",28.414539883066702,17.596624899
+"fs/readFileSync.js","n=10000 hasFileDescriptor=""true"" path=""existing"" encoding=""undefined""",41853.89623486619,0.238926382
+"fs/readFileSync.js","n=10000 hasFileDescriptor=""false"" path=""existing"" encoding=""undefined""",19429.24256790136,0.514688103
+"fs/readFileSync.js","n=10000 hasFileDescriptor=""true"" path=""non-existing"" encoding=""undefined""",9634.28915652364,1.037959297
+"fs/readFileSync.js","n=10000 hasFileDescriptor=""false"" path=""non-existing"" encoding=""undefined""",13025.034432687962,0.767752289
+"fs/readFileSync.js","n=10000 hasFileDescriptor=""true"" path=""existing"" encoding=""utf8""",56798.2220838769,0.176061849
+"fs/readFileSync.js","n=10000 hasFileDescriptor=""false"" path=""existing"" encoding=""utf8""",19048.144740131695,0.524985511
+"fs/readFileSync.js","n=10000 hasFileDescriptor=""true"" path=""non-existing"" encoding=""utf8""",17263.345637800197,0.579261993
+"fs/readFileSync.js","n=10000 hasFileDescriptor=""false"" path=""non-existing"" encoding=""utf8""",10779.236887740382,0.927709457
+"fs/readfile-partitioned.js","concurrent=1 len=1024 encoding="""" duration=5",5045.724631970687,5.004434812
+"fs/readfile-partitioned.js","concurrent=10 len=1024 encoding="""" duration=5",7480.123564920728,5.005532285
+"fs/readfile-partitioned.js","concurrent=1 len=16777216 encoding="""" duration=5",2867.3747540619574,5.001439027
+"fs/readfile-partitioned.js","concurrent=10 len=16777216 encoding="""" duration=5",2124.6687486463893,5.019135339
+"fs/readfile-partitioned.js","concurrent=1 len=1024 encoding=""utf-8"" duration=5",4795.156040087205,5.003799626
+"fs/readfile-partitioned.js","concurrent=10 len=1024 encoding=""utf-8"" duration=5",7350.230921214463,5.001067367
+"fs/readfile-partitioned.js","concurrent=1 len=16777216 encoding=""utf-8"" duration=5",850.0427253022718,5.035041031
+"fs/readfile-partitioned.js","concurrent=10 len=16777216 encoding=""utf-8"" duration=5",247.7731304877224,5.351669882
+"fs/readfile-permission-enabled.js","concurrent=1 len=1024 encoding="""" duration=5",5138.937193688244,5.021855498
+"fs/readfile-permission-enabled.js","concurrent=10 len=1024 encoding="""" duration=5",10845.84490016478,5.000532508
+"fs/readfile-permission-enabled.js","concurrent=1 len=16777216 encoding="""" duration=5",33.968416811448634,5.004648905
+"fs/readfile-permission-enabled.js","concurrent=10 len=16777216 encoding="""" duration=5",54.27901991738259,5.158530873
+"fs/readfile-permission-enabled.js","concurrent=1 len=1024 encoding=""utf-8"" duration=5",4835.6496215598745,5.003671046
+"fs/readfile-permission-enabled.js","concurrent=10 len=1024 encoding=""utf-8"" duration=5",9922.779813011894,5.001421067
+"fs/readfile-permission-enabled.js","concurrent=1 len=16777216 encoding=""utf-8"" duration=5",23.897735862347503,5.021396198
+"fs/readfile-permission-enabled.js","concurrent=10 len=16777216 encoding=""utf-8"" duration=5",10.60758666539935,5.562056843
+"fs/readfile-promises.js","concurrent=1 len=1024 encoding="""" duration=5",3055.179684260375,5.001015187
+"fs/readfile-promises.js","concurrent=10 len=1024 encoding="""" duration=5",4774.145553028102,5.005712485
+"fs/readfile-promises.js","concurrent=1 len=524288 encoding="""" duration=5",1499.4787424529225,5.003071926
+"fs/readfile-promises.js","concurrent=10 len=524288 encoding="""" duration=5",2134.211855387904,5.006532024
+"fs/readfile-promises.js","concurrent=1 len=4194304 encoding="""" duration=5",223.80265144860007,5.004408986
+"fs/readfile-promises.js","concurrent=10 len=4194304 encoding="""" duration=5",189.04097075920743,5.078264231
+"fs/readfile-promises.js","concurrent=1 len=8388608 encoding="""" duration=5",166.47688148956837,5.003697766
+"fs/readfile-promises.js","concurrent=10 len=8388608 encoding="""" duration=5",181.66692227269175,5.009167264
+"fs/readfile-promises.js","concurrent=1 len=16777216 encoding="""" duration=5",80.71684219977527,5.005151205
+"fs/readfile-promises.js","concurrent=10 len=16777216 encoding="""" duration=5",69.60820444380707,5.028142915
+"fs/readfile-promises.js","concurrent=1 len=33554432 encoding="""" duration=5",17.160849026237017,5.011407062
+"fs/readfile-promises.js","concurrent=10 len=33554432 encoding="""" duration=5",18.97878714030429,5.269040601
+"fs/readfile-promises.js","concurrent=1 len=1024 encoding=""utf-8"" duration=5",2976.322366464622,5.004498225
+"fs/readfile-promises.js","concurrent=10 len=1024 encoding=""utf-8"" duration=5",4640.873840820607,5.005091885
+"fs/readfile-promises.js","concurrent=1 len=524288 encoding=""utf-8"" duration=5",457.26049633605174,5.003712366
+"fs/readfile-promises.js","concurrent=10 len=524288 encoding=""utf-8"" duration=5",586.6846877790698,5.011209703
+"fs/readfile-promises.js","concurrent=1 len=4194304 encoding=""utf-8"" duration=5",75.0023131946849,5.026511636
+"fs/readfile-promises.js","concurrent=10 len=4194304 encoding=""utf-8"" duration=5",83.61134375541714,5.023241837
+"fs/readfile-promises.js","concurrent=1 len=8388608 encoding=""utf-8"" duration=5",38.10455053198769,5.012524681
+"fs/readfile-promises.js","concurrent=10 len=8388608 encoding=""utf-8"" duration=5",45.62676397762915,5.260070605
+"fs/readfile-promises.js","concurrent=1 len=16777216 encoding=""utf-8"" duration=5",19.63845614535237,5.041129469
+"fs/readfile-promises.js","concurrent=10 len=16777216 encoding=""utf-8"" duration=5",23.129309473846504,5.620574196
+"fs/readfile-promises.js","concurrent=1 len=33554432 encoding=""utf-8"" duration=5",9.732822325917578,5.034510891
+"fs/readfile-promises.js","concurrent=10 len=33554432 encoding=""utf-8"" duration=5",12.276475508771506,5.701962257
+"fs/readfile.js","concurrent=1 len=1024 encoding="""" duration=5",5464.753912451403,5.000042168
+"fs/readfile.js","concurrent=10 len=1024 encoding="""" duration=5",11981.45417053526,5.008240164
+"fs/readfile.js","concurrent=1 len=16777216 encoding="""" duration=5",31.884536788381435,5.018106459
+"fs/readfile.js","concurrent=10 len=16777216 encoding="""" duration=5",19.94114141880697,5.516233885
+"fs/readfile.js","concurrent=1 len=1024 encoding=""utf-8"" duration=5",5176.459230319655,5.006510985
+"fs/readfile.js","concurrent=10 len=1024 encoding=""utf-8"" duration=5",11062.017714299605,5.007675944
+"fs/readfile.js","concurrent=1 len=16777216 encoding=""utf-8"" duration=5",23.974911477858907,5.005232245
+"fs/readfile.js","concurrent=10 len=16777216 encoding=""utf-8"" duration=5",23.29528708410671,5.280037956
+"fs/write-stream-throughput.js","size=2 encodingType=""buf"" dur=5",2.153291874805099,5.006868844
+"fs/write-stream-throughput.js","size=1024 encodingType=""buf"" dur=5",59.49182782768705,5.004101166
+"fs/write-stream-throughput.js","size=65535 encodingType=""buf"" dur=5",170.93097816799923,5.004502146
+"fs/write-stream-throughput.js","size=1048576 encodingType=""buf"" dur=5",231.7026204797291,5.015049021
+"fs/write-stream-throughput.js","size=2 encodingType=""asc"" dur=5",0.8298980560140701,5.026972855
+"fs/write-stream-throughput.js","size=1024 encodingType=""asc"" dur=5",55.876220993765884,5.022261617
+"fs/write-stream-throughput.js","size=65535 encodingType=""asc"" dur=5",148.73977510418186,5.022537517
+"fs/write-stream-throughput.js","size=1048576 encodingType=""asc"" dur=5",199.87171149506287,5.018218899
+"fs/write-stream-throughput.js","size=2 encodingType=""utf"" dur=5",0.8420186416543084,5.028837594
+"fs/write-stream-throughput.js","size=1024 encodingType=""utf"" dur=5",53.79322278377778,5.023576596
+"fs/write-stream-throughput.js","size=65535 encodingType=""utf"" dur=5",97.98989621941739,5.019650178
+"fs/write-stream-throughput.js","size=1048576 encodingType=""utf"" dur=5",126.95100881250458,5.017683640
+"fs/writefile-promises.js","concurrent=1 size=2 encodingType=""buf"" duration=5",2266.715623009291,5.005480125
+"fs/writefile-promises.js","concurrent=10 size=2 encodingType=""buf"" duration=5",6175.593463472281,5.011502163
+"fs/writefile-promises.js","concurrent=1 size=1024 encodingType=""buf"" duration=5",2069.319566382136,5.005510105
+"fs/writefile-promises.js","concurrent=10 size=1024 encodingType=""buf"" duration=5",6317.8316111978165,5.011687862
+"fs/writefile-promises.js","concurrent=1 size=65535 encodingType=""buf"" duration=5",1382.317021270923,5.005364105
+"fs/writefile-promises.js","concurrent=10 size=65535 encodingType=""buf"" duration=5",3332.2860635847574,5.008273504
+"fs/writefile-promises.js","concurrent=1 size=1048576 encodingType=""buf"" duration=5",198.79262092939481,5.005215965
+"fs/writefile-promises.js","concurrent=10 size=1048576 encodingType=""buf"" duration=5",360.76839889827056,5.039244029
+"fs/writefile-promises.js","concurrent=1 size=2 encodingType=""asc"" duration=5",2270.614215166055,5.000409107
+"fs/writefile-promises.js","concurrent=10 size=2 encodingType=""asc"" duration=5",6266.819960853693,5.000781927
+"fs/writefile-promises.js","concurrent=1 size=1024 encodingType=""asc"" duration=5",2143.0325126910275,5.005523685
+"fs/writefile-promises.js","concurrent=10 size=1024 encodingType=""asc"" duration=5",5966.044961637677,5.010354463
+"fs/writefile-promises.js","concurrent=1 size=65535 encodingType=""asc"" duration=5",1182.5766847310567,5.005172245
+"fs/writefile-promises.js","concurrent=10 size=65535 encodingType=""asc"" duration=5",2619.392848540921,5.002686026
+"fs/writefile-promises.js","concurrent=1 size=1048576 encodingType=""asc"" duration=5",176.25439677159017,5.004130485
+"fs/writefile-promises.js","concurrent=10 size=1048576 encodingType=""asc"" duration=5",680.8083682226228,5.013158121
+"fs/writefile-promises.js","concurrent=1 size=2 encodingType=""utf"" duration=5",2230.211892278036,5.004905605
+"fs/writefile-promises.js","concurrent=10 size=2 encodingType=""utf"" duration=5",6040.692509987766,5.001578867
+"fs/writefile-promises.js","concurrent=1 size=1024 encodingType=""utf"" duration=5",2132.434302441614,5.004609046
+"fs/writefile-promises.js","concurrent=10 size=1024 encodingType=""utf"" duration=5",5867.567700116347,5.007355944
+"fs/writefile-promises.js","concurrent=1 size=65535 encodingType=""utf"" duration=5",982.0689738646382,5.004740126
+"fs/writefile-promises.js","concurrent=10 size=65535 encodingType=""utf"" duration=5",2466.8802820532237,5.006323205
+"fs/writefile-promises.js","concurrent=1 size=1048576 encodingType=""utf"" duration=5",115.33140510584205,5.011644482
+"fs/writefile-promises.js","concurrent=10 size=1048576 encodingType=""utf"" duration=5",229.75065148314772,5.044599406

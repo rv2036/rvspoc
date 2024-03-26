@@ -1,0 +1,25 @@
+"filename","configuration","rate","time"
+"zlib/createInflate.js","n=100 chunkLen=1024 inputLen=16777216",3.46859538469858,28.830113896
+"zlib/creation.js","n=500000 options=""true"" type=""Deflate""",27772.332566077966,18.003529189
+"zlib/creation.js","n=500000 options=""false"" type=""Deflate""",31223.65788976577,16.013498539
+"zlib/creation.js","n=500000 options=""true"" type=""DeflateRaw""",27817.656974547463,17.974195327
+"zlib/creation.js","n=500000 options=""false"" type=""DeflateRaw""",31124.67431624784,16.064425122
+"zlib/creation.js","n=500000 options=""true"" type=""Inflate""",28064.46221363344,17.816126181
+"zlib/creation.js","n=500000 options=""false"" type=""Inflate""",31325.549831405744,15.961411777
+"zlib/creation.js","n=500000 options=""true"" type=""InflateRaw""",27562.516582798613,18.140578655
+"zlib/creation.js","n=500000 options=""false"" type=""InflateRaw""",31005.332108813705,16.126258485
+"zlib/creation.js","n=500000 options=""true"" type=""Gzip""",27539.89190176576,18.155481575
+"zlib/creation.js","n=500000 options=""false"" type=""Gzip""",31214.21953033013,16.018340600
+"zlib/creation.js","n=500000 options=""true"" type=""Gunzip""",28351.42640650085,17.635796973
+"zlib/creation.js","n=500000 options=""false"" type=""Gunzip""",31056.59107472295,16.099642063
+"zlib/creation.js","n=500000 options=""true"" type=""Unzip""",28035.10392728895,17.834783181
+"zlib/creation.js","n=500000 options=""false"" type=""Unzip""",30735.047512290468,16.268073111
+"zlib/creation.js","n=500000 options=""true"" type=""BrotliCompress""",27023.647886382932,18.502313311
+"zlib/creation.js","n=500000 options=""false"" type=""BrotliCompress""",28594.115852079685,17.486115066
+"zlib/creation.js","n=500000 options=""true"" type=""BrotliDecompress""",26435.996551864144,18.913605130
+"zlib/creation.js","n=500000 options=""false"" type=""BrotliDecompress""",27283.02211485331,18.326415523
+"zlib/deflate.js","n=400000 inputLen=1024 method=""createDeflate""",8407.068911734475,47.579008118
+"zlib/deflate.js","n=400000 inputLen=1024 method=""deflate""",2927.6454144314025,136.628567800
+"zlib/deflate.js","n=400000 inputLen=1024 method=""deflateSync""",11028.097550983346,36.270988550
+"zlib/inflate.js","n=400000 inputLen=1024 method=""inflate""",3769.104408822545,106.126006768
+"zlib/inflate.js","n=400000 inputLen=1024 method=""inflateSync""",19174.62281192485,20.860905788

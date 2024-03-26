@@ -1,0 +1,1333 @@
+"binary","filename","configuration","rate","time"
+"old","http/bench-parser.js","n=100000 len=4",67394.05201797774,1.483810470
+"old","http/bench-parser.js","n=100000 len=8",57336.84479154866,1.744079228
+"old","http/bench-parser.js","n=100000 len=16",44728.676156824135,2.235702207
+"old","http/bench-parser.js","n=100000 len=32",26616.275420970098,3.757099685
+"new","http/bench-parser.js","n=100000 len=4",65765.31393080496,1.520558392
+"new","http/bench-parser.js","n=100000 len=8",57073.09353714665,1.752139122
+"new","http/bench-parser.js","n=100000 len=16",43531.35515496728,2.297194738
+"new","http/bench-parser.js","n=100000 len=32",26125.77313680403,3.827637922
+"old","http/bench-parser.js","n=100000 len=4",67394.05201797774,1.483810470
+"old","http/bench-parser.js","n=100000 len=8",57336.84479154866,1.744079228
+"old","http/bench-parser.js","n=100000 len=16",44728.676156824135,2.235702207
+"old","http/bench-parser.js","n=100000 len=32",26616.275420970098,3.757099685
+"new","http/bench-parser.js","n=100000 len=4",66632.43198922952,1.500770676
+"new","http/bench-parser.js","n=100000 len=8",57672.36179470771,1.733932804
+"new","http/bench-parser.js","n=100000 len=16",44374.81517251593,2.253530513
+"new","http/bench-parser.js","n=100000 len=32",26283.94505629884,3.804603905
+"old","http/bench-parser.js","n=100000 len=4",67394.05201797774,1.483810470
+"old","http/bench-parser.js","n=100000 len=8",57336.84479154866,1.744079228
+"old","http/bench-parser.js","n=100000 len=16",44728.676156824135,2.235702207
+"old","http/bench-parser.js","n=100000 len=32",26616.275420970098,3.757099685
+"new","http/bench-parser.js","n=100000 len=4",67134.2901169141,1.489551760
+"new","http/bench-parser.js","n=100000 len=8",57271.59652471347,1.746066219
+"new","http/bench-parser.js","n=100000 len=16",43141.65821029049,2.317945210
+"new","http/bench-parser.js","n=100000 len=32",26293.98600920301,3.803151031
+"old","http/check_invalid_header_char.js","n=1000000 input='",8649662.968909798,0.115611441
+"old","http/check_invalid_header_char.js","n=1000000 input=""1""",8449018.84839231,0.118356938
+"old","http/check_invalid_header_char.js","n=1000000 input=""\t\t\t\t\t\t\t\t\t\tFoo bar baz""",4757547.301676169,0.210192340
+"old","http/check_invalid_header_char.js","n=1000000 input=""keep-alive""",5968706.180930095,0.167540497
+"old","http/check_invalid_header_char.js","n=1000000 input=""close""",6895296.494853254,0.145026396
+"old","http/check_invalid_header_char.js","n=1000000 input=""gzip""",7244750.312650822,0.138030982
+"old","http/check_invalid_header_char.js","n=1000000 input=""20091""",7460945.772615068,0.134031265
+"old","http/check_invalid_header_char.js","n=1000000 input=""private""",6209648.038204835,0.161039723
+"old","http/check_invalid_header_char.js","n=1000000 input=""text/html; charset=utf-8""",4485111.649454079,0.222959890
+"old","http/check_invalid_header_char.js","n=1000000 input=""text/plain""",5949626.523201815,0.168077777
+"old","http/check_invalid_header_char.js","n=1000000 input=""Sat, 07 May 2016 16:54:48 GMT""",4116222.480227962,0.242941193
+"old","http/check_invalid_header_char.js","n=1000000 input=""SAMEORIGIN""",5897086.812577696,0.169575255
+"old","http/check_invalid_header_char.js","n=1000000 input=""en-US""",6798926.917205945,0.147082034
+"old","http/check_invalid_header_char.js","n=1000000 input=""中文呢""",3382479.7836709344,0.295641087
+"old","http/check_invalid_header_char.js","n=1000000 input=""foo\nbar""",3493123.289035465,0.286276755
+"old","http/check_invalid_header_char.js","n=1000000 input=""""",3780541.472891548,0.264512374
+"old","http/check_invalid_header_char.js","n=1000000 input=""group_acmeair""",5564994.218583156,0.179694706
+"old","http/check_invalid_header_char.js","n=1000000 input=""LONG_AND_INVALID""",2072785.4120214854,0.482442608
+"new","http/check_invalid_header_char.js","n=1000000 input='",8759482.676515643,0.114161993
+"new","http/check_invalid_header_char.js","n=1000000 input=""1""",8459935.063061245,0.118204217
+"new","http/check_invalid_header_char.js","n=1000000 input=""\t\t\t\t\t\t\t\t\t\tFoo bar baz""",4765638.6397790285,0.209835465
+"new","http/check_invalid_header_char.js","n=1000000 input=""keep-alive""",5501998.1276480295,0.181752152
+"new","http/check_invalid_header_char.js","n=1000000 input=""close""",6987275.179704682,0.143117306
+"new","http/check_invalid_header_char.js","n=1000000 input=""gzip""",6968134.79622634,0.143510427
+"new","http/check_invalid_header_char.js","n=1000000 input=""20091""",7429131.453481264,0.134605237
+"new","http/check_invalid_header_char.js","n=1000000 input=""private""",6271150.78865428,0.159460366
+"new","http/check_invalid_header_char.js","n=1000000 input=""text/html; charset=utf-8""",4471803.534710273,0.223623420
+"new","http/check_invalid_header_char.js","n=1000000 input=""text/plain""",5941010.424239475,0.168321536
+"new","http/check_invalid_header_char.js","n=1000000 input=""Sat, 07 May 2016 16:54:48 GMT""",4097042.818407541,0.244078484
+"new","http/check_invalid_header_char.js","n=1000000 input=""SAMEORIGIN""",5931763.2379175015,0.168583937
+"new","http/check_invalid_header_char.js","n=1000000 input=""en-US""",6899887.986528438,0.144929889
+"new","http/check_invalid_header_char.js","n=1000000 input=""中文呢""",3289322.689150898,0.304013955
+"new","http/check_invalid_header_char.js","n=1000000 input=""foo\nbar""",3533729.857872325,0.282987110
+"new","http/check_invalid_header_char.js","n=1000000 input=""""",3806737.6256264336,0.262692126
+"new","http/check_invalid_header_char.js","n=1000000 input=""group_acmeair""",5575777.382270541,0.179347189
+"new","http/check_invalid_header_char.js","n=1000000 input=""LONG_AND_INVALID""",1959272.1589983057,0.510393615
+"old","http/check_invalid_header_char.js","n=1000000 input='",8649662.968909798,0.115611441
+"old","http/check_invalid_header_char.js","n=1000000 input=""1""",8449018.84839231,0.118356938
+"old","http/check_invalid_header_char.js","n=1000000 input=""\t\t\t\t\t\t\t\t\t\tFoo bar baz""",4757547.301676169,0.210192340
+"old","http/check_invalid_header_char.js","n=1000000 input=""keep-alive""",5968706.180930095,0.167540497
+"old","http/check_invalid_header_char.js","n=1000000 input=""close""",6895296.494853254,0.145026396
+"old","http/check_invalid_header_char.js","n=1000000 input=""gzip""",7244750.312650822,0.138030982
+"old","http/check_invalid_header_char.js","n=1000000 input=""20091""",7460945.772615068,0.134031265
+"old","http/check_invalid_header_char.js","n=1000000 input=""private""",6209648.038204835,0.161039723
+"old","http/check_invalid_header_char.js","n=1000000 input=""text/html; charset=utf-8""",4485111.649454079,0.222959890
+"old","http/check_invalid_header_char.js","n=1000000 input=""text/plain""",5949626.523201815,0.168077777
+"old","http/check_invalid_header_char.js","n=1000000 input=""Sat, 07 May 2016 16:54:48 GMT""",4116222.480227962,0.242941193
+"old","http/check_invalid_header_char.js","n=1000000 input=""SAMEORIGIN""",5897086.812577696,0.169575255
+"old","http/check_invalid_header_char.js","n=1000000 input=""en-US""",6798926.917205945,0.147082034
+"old","http/check_invalid_header_char.js","n=1000000 input=""中文呢""",3382479.7836709344,0.295641087
+"old","http/check_invalid_header_char.js","n=1000000 input=""foo\nbar""",3493123.289035465,0.286276755
+"old","http/check_invalid_header_char.js","n=1000000 input=""""",3780541.472891548,0.264512374
+"old","http/check_invalid_header_char.js","n=1000000 input=""group_acmeair""",5564994.218583156,0.179694706
+"old","http/check_invalid_header_char.js","n=1000000 input=""LONG_AND_INVALID""",2072785.4120214854,0.482442608
+"new","http/check_invalid_header_char.js","n=1000000 input='",8592396.670673128,0.116381964
+"new","http/check_invalid_header_char.js","n=1000000 input=""1""",8459038.665952757,0.118216743
+"new","http/check_invalid_header_char.js","n=1000000 input=""\t\t\t\t\t\t\t\t\t\tFoo bar baz""",4761162.519340199,0.210032738
+"new","http/check_invalid_header_char.js","n=1000000 input=""keep-alive""",5943396.553301904,0.168253959
+"new","http/check_invalid_header_char.js","n=1000000 input=""close""",6873826.852563357,0.145479370
+"new","http/check_invalid_header_char.js","n=1000000 input=""gzip""",7131567.209747157,0.140221633
+"new","http/check_invalid_header_char.js","n=1000000 input=""20091""",7434178.434630396,0.134513855
+"new","http/check_invalid_header_char.js","n=1000000 input=""private""",6118897.234473224,0.163428141
+"new","http/check_invalid_header_char.js","n=1000000 input=""text/html; charset=utf-8""",4460427.603709492,0.224193752
+"new","http/check_invalid_header_char.js","n=1000000 input=""text/plain""",5965009.054078468,0.167644339
+"new","http/check_invalid_header_char.js","n=1000000 input=""Sat, 07 May 2016 16:54:48 GMT""",4081228.827962255,0.245024242
+"new","http/check_invalid_header_char.js","n=1000000 input=""SAMEORIGIN""",5957828.854919772,0.167846379
+"new","http/check_invalid_header_char.js","n=1000000 input=""en-US""",6895095.194718523,0.145030630
+"new","http/check_invalid_header_char.js","n=1000000 input=""中文呢""",3262239.6491354257,0.306537872
+"new","http/check_invalid_header_char.js","n=1000000 input=""foo\nbar""",3543790.7498726435,0.282183704
+"new","http/check_invalid_header_char.js","n=1000000 input=""""",3679212.832708779,0.271797269
+"new","http/check_invalid_header_char.js","n=1000000 input=""group_acmeair""",5575033.701218099,0.179371113
+"new","http/check_invalid_header_char.js","n=1000000 input=""LONG_AND_INVALID""",2048931.0762431533,0.488059365
+"old","http/check_invalid_header_char.js","n=1000000 input='",8649662.968909798,0.115611441
+"old","http/check_invalid_header_char.js","n=1000000 input=""1""",8449018.84839231,0.118356938
+"old","http/check_invalid_header_char.js","n=1000000 input=""\t\t\t\t\t\t\t\t\t\tFoo bar baz""",4757547.301676169,0.210192340
+"old","http/check_invalid_header_char.js","n=1000000 input=""keep-alive""",5968706.180930095,0.167540497
+"old","http/check_invalid_header_char.js","n=1000000 input=""close""",6895296.494853254,0.145026396
+"old","http/check_invalid_header_char.js","n=1000000 input=""gzip""",7244750.312650822,0.138030982
+"old","http/check_invalid_header_char.js","n=1000000 input=""20091""",7460945.772615068,0.134031265
+"old","http/check_invalid_header_char.js","n=1000000 input=""private""",6209648.038204835,0.161039723
+"old","http/check_invalid_header_char.js","n=1000000 input=""text/html; charset=utf-8""",4485111.649454079,0.222959890
+"old","http/check_invalid_header_char.js","n=1000000 input=""text/plain""",5949626.523201815,0.168077777
+"old","http/check_invalid_header_char.js","n=1000000 input=""Sat, 07 May 2016 16:54:48 GMT""",4116222.480227962,0.242941193
+"old","http/check_invalid_header_char.js","n=1000000 input=""SAMEORIGIN""",5897086.812577696,0.169575255
+"old","http/check_invalid_header_char.js","n=1000000 input=""en-US""",6798926.917205945,0.147082034
+"old","http/check_invalid_header_char.js","n=1000000 input=""中文呢""",3382479.7836709344,0.295641087
+"old","http/check_invalid_header_char.js","n=1000000 input=""foo\nbar""",3493123.289035465,0.286276755
+"old","http/check_invalid_header_char.js","n=1000000 input=""""",3780541.472891548,0.264512374
+"old","http/check_invalid_header_char.js","n=1000000 input=""group_acmeair""",5564994.218583156,0.179694706
+"old","http/check_invalid_header_char.js","n=1000000 input=""LONG_AND_INVALID""",2072785.4120214854,0.482442608
+"new","http/check_invalid_header_char.js","n=1000000 input='",8725127.475421185,0.114611506
+"new","http/check_invalid_header_char.js","n=1000000 input=""1""",8194162.180595041,0.122038102
+"new","http/check_invalid_header_char.js","n=1000000 input=""\t\t\t\t\t\t\t\t\t\tFoo bar baz""",4754521.646364757,0.210326101
+"new","http/check_invalid_header_char.js","n=1000000 input=""keep-alive""",5922788.129294536,0.168839401
+"new","http/check_invalid_header_char.js","n=1000000 input=""close""",6945758.736347555,0.143972752
+"new","http/check_invalid_header_char.js","n=1000000 input=""gzip""",7199177.646576446,0.138904754
+"new","http/check_invalid_header_char.js","n=1000000 input=""20091""",7482396.707739462,0.133647017
+"new","http/check_invalid_header_char.js","n=1000000 input=""private""",6114643.088619223,0.163541843
+"new","http/check_invalid_header_char.js","n=1000000 input=""text/html; charset=utf-8""",4500749.115934729,0.222185235
+"new","http/check_invalid_header_char.js","n=1000000 input=""text/plain""",5913298.973912535,0.169110340
+"new","http/check_invalid_header_char.js","n=1000000 input=""Sat, 07 May 2016 16:54:48 GMT""",4131737.5428092424,0.242028926
+"new","http/check_invalid_header_char.js","n=1000000 input=""SAMEORIGIN""",5854051.015010489,0.170821880
+"new","http/check_invalid_header_char.js","n=1000000 input=""en-US""",6969135.899348729,0.143489812
+"new","http/check_invalid_header_char.js","n=1000000 input=""中文呢""",3332534.6469713915,0.300071899
+"new","http/check_invalid_header_char.js","n=1000000 input=""foo\nbar""",3518425.9226700785,0.284218006
+"new","http/check_invalid_header_char.js","n=1000000 input=""""",3773059.311379323,0.265036915
+"new","http/check_invalid_header_char.js","n=1000000 input=""group_acmeair""",5565642.509598298,0.179673775
+"new","http/check_invalid_header_char.js","n=1000000 input=""LONG_AND_INVALID""",1993814.5333463927,0.501551164
+"old","http/check_is_http_token.js","n=1000000 key=""TCN""",3673237.5045174854,0.272239407
+"old","http/check_is_http_token.js","n=1000000 key=""ETag""",3507230.274456622,0.285125276
+"old","http/check_is_http_token.js","n=1000000 key=""date""",3615241.9076036504,0.276606663
+"old","http/check_is_http_token.js","n=1000000 key=""Vary""",3589936.7209752053,0.278556442
+"old","http/check_is_http_token.js","n=1000000 key=""server""",3490416.563939344,0.286498755
+"old","http/check_is_http_token.js","n=1000000 key=""Server""",3490299.854627266,0.286508335
+"old","http/check_is_http_token.js","n=1000000 key=""status""",3371701.657298585,0.296586146
+"old","http/check_is_http_token.js","n=1000000 key=""version""",3426995.284899997,0.291800810
+"old","http/check_is_http_token.js","n=1000000 key=""Expires""",3470092.778100861,0.288176733
+"old","http/check_is_http_token.js","n=1000000 key=""alt-svc""",3240585.44468493,0.308586216
+"old","http/check_is_http_token.js","n=1000000 key=""location""",3407487.4268228873,0.293471369
+"old","http/check_is_http_token.js","n=1000000 key=""Connection""",3216086.0493925083,0.310936954
+"old","http/check_is_http_token.js","n=1000000 key=""Keep-Alive""",3185033.999170955,0.313968391
+"old","http/check_is_http_token.js","n=1000000 key=""content-type""",3174115.3684920995,0.315048410
+"old","http/check_is_http_token.js","n=1000000 key=""Content-Type""",3178992.4953238056,0.314565071
+"old","http/check_is_http_token.js","n=1000000 key=""Cache-Control""",3053947.0586061603,0.327445100
+"old","http/check_is_http_token.js","n=1000000 key=""Last-Modified""",3120727.0809761835,0.320438146
+"old","http/check_is_http_token.js","n=1000000 key=""Accept-Ranges""",3137943.950151853,0.318680007
+"old","http/check_is_http_token.js","n=1000000 key=""content-length""",3040727.9449183326,0.328868619
+"old","http/check_is_http_token.js","n=1000000 key=""x-frame-options""",3040156.6478410745,0.328930419
+"old","http/check_is_http_token.js","n=1000000 key=""x-xss-protection""",2820806.0635550683,0.354508597
+"old","http/check_is_http_token.js","n=1000000 key=""Content-Encoding""",3009540.8916779105,0.332276595
+"old","http/check_is_http_token.js","n=1000000 key=""Content-Location""",3015375.314297092,0.331633676
+"old","http/check_is_http_token.js","n=1000000 key=""Transfer-Encoding""",2900208.424928562,0.344802805
+"old","http/check_is_http_token.js","n=1000000 key=""alternate-protocol""",2877998.9590968485,0.347463642
+"old","http/check_is_http_token.js","n=1000000 key="":""",9146611.372108143,0.109330107
+"old","http/check_is_http_token.js","n=1000000 key=""@@""",9245573.413606606,0.108159868
+"old","http/check_is_http_token.js","n=1000000 key=""中文呢""",9122360.834873354,0.109620746
+"old","http/check_is_http_token.js","n=1000000 key=""((((())))""",9269855.47655692,0.107876547
+"old","http/check_is_http_token.js","n=1000000 key="":alternate-protocol""",8595723.52439793,0.116336920
+"old","http/check_is_http_token.js","n=1000000 key=""alternate-protocol:""",3532602.519357443,0.283077418
+"new","http/check_is_http_token.js","n=1000000 key=""TCN""",3626020.353969061,0.275784442
+"new","http/check_is_http_token.js","n=1000000 key=""ETag""",3626614.2291130438,0.275739281
+"new","http/check_is_http_token.js","n=1000000 key=""date""",3555444.714171542,0.281258768
+"new","http/check_is_http_token.js","n=1000000 key=""Vary""",3500287.809414985,0.285690793
+"new","http/check_is_http_token.js","n=1000000 key=""server""",3463128.899489634,0.288756217
+"new","http/check_is_http_token.js","n=1000000 key=""Server""",3344099.0135817504,0.299034208
+"new","http/check_is_http_token.js","n=1000000 key=""status""",3277199.977380766,0.305138535
+"new","http/check_is_http_token.js","n=1000000 key=""version""",3338680.9096752964,0.299519489
+"new","http/check_is_http_token.js","n=1000000 key=""Expires""",3469002.843042094,0.288267276
+"new","http/check_is_http_token.js","n=1000000 key=""alt-svc""",3312684.5753309974,0.301869972
+"new","http/check_is_http_token.js","n=1000000 key=""location""",3371058.568855852,0.296642725
+"new","http/check_is_http_token.js","n=1000000 key=""Connection""",3166011.4437129963,0.315854828
+"new","http/check_is_http_token.js","n=1000000 key=""Keep-Alive""",3160317.2564117843,0.316423928
+"new","http/check_is_http_token.js","n=1000000 key=""content-type""",3209275.1337663583,0.311596843
+"new","http/check_is_http_token.js","n=1000000 key=""Content-Type""",3186001.5147653045,0.313873046
+"new","http/check_is_http_token.js","n=1000000 key=""Cache-Control""",3052858.2687774394,0.327561882
+"new","http/check_is_http_token.js","n=1000000 key=""Last-Modified""",3126373.914326406,0.319859373
+"new","http/check_is_http_token.js","n=1000000 key=""Accept-Ranges""",3143443.061783201,0.318122511
+"new","http/check_is_http_token.js","n=1000000 key=""content-length""",2982484.1301795747,0.335290971
+"new","http/check_is_http_token.js","n=1000000 key=""x-frame-options""",2986874.8653852833,0.334798090
+"new","http/check_is_http_token.js","n=1000000 key=""x-xss-protection""",3022772.2420977224,0.330822146
+"new","http/check_is_http_token.js","n=1000000 key=""Content-Encoding""",2889270.0208441187,0.346108184
+"new","http/check_is_http_token.js","n=1000000 key=""Content-Location""",2978835.513680569,0.335701651
+"new","http/check_is_http_token.js","n=1000000 key=""Transfer-Encoding""",2901844.3516213438,0.344608421
+"new","http/check_is_http_token.js","n=1000000 key=""alternate-protocol""",2950674.561825934,0.338905555
+"new","http/check_is_http_token.js","n=1000000 key="":""",9231451.562859824,0.108325326
+"new","http/check_is_http_token.js","n=1000000 key=""@@""",9154728.618277634,0.109233167
+"new","http/check_is_http_token.js","n=1000000 key=""中文呢""",9031389.850789608,0.110724929
+"new","http/check_is_http_token.js","n=1000000 key=""((((())))""",9236325.20720518,0.108268167
+"new","http/check_is_http_token.js","n=1000000 key="":alternate-protocol""",8393402.18491506,0.119141199
+"new","http/check_is_http_token.js","n=1000000 key=""alternate-protocol:""",3537033.084795568,0.282722829
+"old","http/check_is_http_token.js","n=1000000 key=""TCN""",3673237.5045174854,0.272239407
+"old","http/check_is_http_token.js","n=1000000 key=""ETag""",3507230.274456622,0.285125276
+"old","http/check_is_http_token.js","n=1000000 key=""date""",3615241.9076036504,0.276606663
+"old","http/check_is_http_token.js","n=1000000 key=""Vary""",3589936.7209752053,0.278556442
+"old","http/check_is_http_token.js","n=1000000 key=""server""",3490416.563939344,0.286498755
+"old","http/check_is_http_token.js","n=1000000 key=""Server""",3490299.854627266,0.286508335
+"old","http/check_is_http_token.js","n=1000000 key=""status""",3371701.657298585,0.296586146
+"old","http/check_is_http_token.js","n=1000000 key=""version""",3426995.284899997,0.291800810
+"old","http/check_is_http_token.js","n=1000000 key=""Expires""",3470092.778100861,0.288176733
+"old","http/check_is_http_token.js","n=1000000 key=""alt-svc""",3240585.44468493,0.308586216
+"old","http/check_is_http_token.js","n=1000000 key=""location""",3407487.4268228873,0.293471369
+"old","http/check_is_http_token.js","n=1000000 key=""Connection""",3216086.0493925083,0.310936954
+"old","http/check_is_http_token.js","n=1000000 key=""Keep-Alive""",3185033.999170955,0.313968391
+"old","http/check_is_http_token.js","n=1000000 key=""content-type""",3174115.3684920995,0.315048410
+"old","http/check_is_http_token.js","n=1000000 key=""Content-Type""",3178992.4953238056,0.314565071
+"old","http/check_is_http_token.js","n=1000000 key=""Cache-Control""",3053947.0586061603,0.327445100
+"old","http/check_is_http_token.js","n=1000000 key=""Last-Modified""",3120727.0809761835,0.320438146
+"old","http/check_is_http_token.js","n=1000000 key=""Accept-Ranges""",3137943.950151853,0.318680007
+"old","http/check_is_http_token.js","n=1000000 key=""content-length""",3040727.9449183326,0.328868619
+"old","http/check_is_http_token.js","n=1000000 key=""x-frame-options""",3040156.6478410745,0.328930419
+"old","http/check_is_http_token.js","n=1000000 key=""x-xss-protection""",2820806.0635550683,0.354508597
+"old","http/check_is_http_token.js","n=1000000 key=""Content-Encoding""",3009540.8916779105,0.332276595
+"old","http/check_is_http_token.js","n=1000000 key=""Content-Location""",3015375.314297092,0.331633676
+"old","http/check_is_http_token.js","n=1000000 key=""Transfer-Encoding""",2900208.424928562,0.344802805
+"old","http/check_is_http_token.js","n=1000000 key=""alternate-protocol""",2877998.9590968485,0.347463642
+"old","http/check_is_http_token.js","n=1000000 key="":""",9146611.372108143,0.109330107
+"old","http/check_is_http_token.js","n=1000000 key=""@@""",9245573.413606606,0.108159868
+"old","http/check_is_http_token.js","n=1000000 key=""中文呢""",9122360.834873354,0.109620746
+"old","http/check_is_http_token.js","n=1000000 key=""((((())))""",9269855.47655692,0.107876547
+"old","http/check_is_http_token.js","n=1000000 key="":alternate-protocol""",8595723.52439793,0.116336920
+"old","http/check_is_http_token.js","n=1000000 key=""alternate-protocol:""",3532602.519357443,0.283077418
+"new","http/check_is_http_token.js","n=1000000 key=""TCN""",3631297.1581355873,0.275383687
+"new","http/check_is_http_token.js","n=1000000 key=""ETag""",3486731.115730038,0.286801582
+"new","http/check_is_http_token.js","n=1000000 key=""date""",3497158.3944380744,0.285946442
+"new","http/check_is_http_token.js","n=1000000 key=""Vary""",3628402.1567686857,0.275603408
+"new","http/check_is_http_token.js","n=1000000 key=""server""",3486218.3964802413,0.286843762
+"new","http/check_is_http_token.js","n=1000000 key=""Server""",3438423.9593177503,0.290830919
+"new","http/check_is_http_token.js","n=1000000 key=""status""",3446644.2919710283,0.290137280
+"new","http/check_is_http_token.js","n=1000000 key=""version""",3402060.188309883,0.293939538
+"new","http/check_is_http_token.js","n=1000000 key=""Expires""",3311219.091731676,0.302003574
+"new","http/check_is_http_token.js","n=1000000 key=""alt-svc""",3456983.4072401817,0.289269540
+"new","http/check_is_http_token.js","n=1000000 key=""location""",3224671.460878168,0.310109111
+"new","http/check_is_http_token.js","n=1000000 key=""Connection""",3206880.5906371097,0.311829509
+"new","http/check_is_http_token.js","n=1000000 key=""Keep-Alive""",3212413.0828234074,0.311292469
+"new","http/check_is_http_token.js","n=1000000 key=""content-type""",3190699.605845539,0.313410889
+"new","http/check_is_http_token.js","n=1000000 key=""Content-Type""",2968426.2921852036,0.336878838
+"new","http/check_is_http_token.js","n=1000000 key=""Cache-Control""",3137130.046645422,0.318762686
+"new","http/check_is_http_token.js","n=1000000 key=""Last-Modified""",3089068.1141496175,0.323722224
+"new","http/check_is_http_token.js","n=1000000 key=""Accept-Ranges""",2942373.3588382965,0.339861696
+"new","http/check_is_http_token.js","n=1000000 key=""content-length""",3067421.6016577478,0.326006702
+"new","http/check_is_http_token.js","n=1000000 key=""x-frame-options""",2935963.106805038,0.340603735
+"new","http/check_is_http_token.js","n=1000000 key=""x-xss-protection""",3006415.5103140795,0.332622020
+"new","http/check_is_http_token.js","n=1000000 key=""Content-Encoding""",2967826.170432439,0.336946958
+"new","http/check_is_http_token.js","n=1000000 key=""Content-Location""",3009184.3918661023,0.332315960
+"new","http/check_is_http_token.js","n=1000000 key=""Transfer-Encoding""",2858058.815998091,0.349887831
+"new","http/check_is_http_token.js","n=1000000 key=""alternate-protocol""",2880774.484005541,0.347128873
+"new","http/check_is_http_token.js","n=1000000 key="":""",9255189.718061747,0.108047488
+"new","http/check_is_http_token.js","n=1000000 key=""@@""",9229016.54113866,0.108353907
+"new","http/check_is_http_token.js","n=1000000 key=""中文呢""",9122244.248691827,0.109622147
+"new","http/check_is_http_token.js","n=1000000 key=""((((())))""",9224783.510013152,0.108403628
+"new","http/check_is_http_token.js","n=1000000 key="":alternate-protocol""",8462181.112118967,0.118172843
+"new","http/check_is_http_token.js","n=1000000 key=""alternate-protocol:""",3514141.019428835,0.284564562
+"old","http/check_is_http_token.js","n=1000000 key=""TCN""",3673237.5045174854,0.272239407
+"old","http/check_is_http_token.js","n=1000000 key=""ETag""",3507230.274456622,0.285125276
+"old","http/check_is_http_token.js","n=1000000 key=""date""",3615241.9076036504,0.276606663
+"old","http/check_is_http_token.js","n=1000000 key=""Vary""",3589936.7209752053,0.278556442
+"old","http/check_is_http_token.js","n=1000000 key=""server""",3490416.563939344,0.286498755
+"old","http/check_is_http_token.js","n=1000000 key=""Server""",3490299.854627266,0.286508335
+"old","http/check_is_http_token.js","n=1000000 key=""status""",3371701.657298585,0.296586146
+"old","http/check_is_http_token.js","n=1000000 key=""version""",3426995.284899997,0.291800810
+"old","http/check_is_http_token.js","n=1000000 key=""Expires""",3470092.778100861,0.288176733
+"old","http/check_is_http_token.js","n=1000000 key=""alt-svc""",3240585.44468493,0.308586216
+"old","http/check_is_http_token.js","n=1000000 key=""location""",3407487.4268228873,0.293471369
+"old","http/check_is_http_token.js","n=1000000 key=""Connection""",3216086.0493925083,0.310936954
+"old","http/check_is_http_token.js","n=1000000 key=""Keep-Alive""",3185033.999170955,0.313968391
+"old","http/check_is_http_token.js","n=1000000 key=""content-type""",3174115.3684920995,0.315048410
+"old","http/check_is_http_token.js","n=1000000 key=""Content-Type""",3178992.4953238056,0.314565071
+"old","http/check_is_http_token.js","n=1000000 key=""Cache-Control""",3053947.0586061603,0.327445100
+"old","http/check_is_http_token.js","n=1000000 key=""Last-Modified""",3120727.0809761835,0.320438146
+"old","http/check_is_http_token.js","n=1000000 key=""Accept-Ranges""",3137943.950151853,0.318680007
+"old","http/check_is_http_token.js","n=1000000 key=""content-length""",3040727.9449183326,0.328868619
+"old","http/check_is_http_token.js","n=1000000 key=""x-frame-options""",3040156.6478410745,0.328930419
+"old","http/check_is_http_token.js","n=1000000 key=""x-xss-protection""",2820806.0635550683,0.354508597
+"old","http/check_is_http_token.js","n=1000000 key=""Content-Encoding""",3009540.8916779105,0.332276595
+"old","http/check_is_http_token.js","n=1000000 key=""Content-Location""",3015375.314297092,0.331633676
+"old","http/check_is_http_token.js","n=1000000 key=""Transfer-Encoding""",2900208.424928562,0.344802805
+"old","http/check_is_http_token.js","n=1000000 key=""alternate-protocol""",2877998.9590968485,0.347463642
+"old","http/check_is_http_token.js","n=1000000 key="":""",9146611.372108143,0.109330107
+"old","http/check_is_http_token.js","n=1000000 key=""@@""",9245573.413606606,0.108159868
+"old","http/check_is_http_token.js","n=1000000 key=""中文呢""",9122360.834873354,0.109620746
+"old","http/check_is_http_token.js","n=1000000 key=""((((())))""",9269855.47655692,0.107876547
+"old","http/check_is_http_token.js","n=1000000 key="":alternate-protocol""",8595723.52439793,0.116336920
+"old","http/check_is_http_token.js","n=1000000 key=""alternate-protocol:""",3532602.519357443,0.283077418
+"new","http/check_is_http_token.js","n=1000000 key=""TCN""",3606431.6958606713,0.277282390
+"new","http/check_is_http_token.js","n=1000000 key=""ETag""",3614958.219939625,0.276628370
+"new","http/check_is_http_token.js","n=1000000 key=""date""",3583093.7297654855,0.279088429
+"new","http/check_is_http_token.js","n=1000000 key=""Vary""",3450052.7105953232,0.289850644
+"new","http/check_is_http_token.js","n=1000000 key=""server""",3525955.2583216014,0.283611086
+"new","http/check_is_http_token.js","n=1000000 key=""Server""",3346160.728949068,0.298849960
+"new","http/check_is_http_token.js","n=1000000 key=""status""",3519678.8960338486,0.284116827
+"new","http/check_is_http_token.js","n=1000000 key=""version""",3390032.749784283,0.294982401
+"new","http/check_is_http_token.js","n=1000000 key=""Expires""",3314584.73831675,0.301696918
+"new","http/check_is_http_token.js","n=1000000 key=""alt-svc""",3403391.6744776205,0.293824542
+"new","http/check_is_http_token.js","n=1000000 key=""location""",3355356.551595385,0.298030920
+"new","http/check_is_http_token.js","n=1000000 key=""Connection""",3218635.187058419,0.310690694
+"new","http/check_is_http_token.js","n=1000000 key=""Keep-Alive""",3216629.5734594143,0.310884414
+"new","http/check_is_http_token.js","n=1000000 key=""content-type""",3082326.0815694197,0.324430308
+"new","http/check_is_http_token.js","n=1000000 key=""Content-Type""",3067879.6567878355,0.325958027
+"new","http/check_is_http_token.js","n=1000000 key=""Cache-Control""",2934387.6783887628,0.340786600
+"new","http/check_is_http_token.js","n=1000000 key=""Last-Modified""",3140507.3246507705,0.318419891
+"new","http/check_is_http_token.js","n=1000000 key=""Accept-Ranges""",3082875.141272368,0.324372527
+"new","http/check_is_http_token.js","n=1000000 key=""content-length""",3110302.179573178,0.321512169
+"new","http/check_is_http_token.js","n=1000000 key=""x-frame-options""",2929899.4599140533,0.341308640
+"new","http/check_is_http_token.js","n=1000000 key=""x-xss-protection""",2952806.873399743,0.338660821
+"new","http/check_is_http_token.js","n=1000000 key=""Content-Encoding""",2977697.5633697365,0.335829942
+"new","http/check_is_http_token.js","n=1000000 key=""Content-Location""",2932315.1865835087,0.341027460
+"new","http/check_is_http_token.js","n=1000000 key=""Transfer-Encoding""",2867429.4243036713,0.348744416
+"new","http/check_is_http_token.js","n=1000000 key=""alternate-protocol""",2932544.6117747882,0.341000780
+"new","http/check_is_http_token.js","n=1000000 key="":""",9259289.266215215,0.107999650
+"new","http/check_is_http_token.js","n=1000000 key=""@@""",9169847.472791871,0.109053068
+"new","http/check_is_http_token.js","n=1000000 key=""中文呢""",9098590.948532473,0.109907128
+"new","http/check_is_http_token.js","n=1000000 key=""((((())))""",9232965.057132803,0.108307569
+"new","http/check_is_http_token.js","n=1000000 key="":alternate-protocol""",8614302.743777746,0.116086006
+"new","http/check_is_http_token.js","n=1000000 key=""alternate-protocol:""",3536469.4718675744,0.282767887
+"old","http/chunked.js","duration=5 c=100 len=1 n=1 benchmarker=""test-double-http""",1765,5.188397221
+"old","http/chunked.js","duration=5 c=100 len=64 n=1 benchmarker=""test-double-http""",1689,5.197004774
+"old","http/chunked.js","duration=5 c=100 len=256 n=1 benchmarker=""test-double-http""",1661,5.201650110
+"old","http/chunked.js","duration=5 c=100 len=1 n=4 benchmarker=""test-double-http""",794,5.185819483
+"old","http/chunked.js","duration=5 c=100 len=64 n=4 benchmarker=""test-double-http""",782,5.204948246
+"old","http/chunked.js","duration=5 c=100 len=256 n=4 benchmarker=""test-double-http""",780,5.199796552
+"old","http/chunked.js","duration=5 c=100 len=1 n=8 benchmarker=""test-double-http""",452,5.183574205
+"old","http/chunked.js","duration=5 c=100 len=64 n=8 benchmarker=""test-double-http""",440,5.191632058
+"old","http/chunked.js","duration=5 c=100 len=256 n=8 benchmarker=""test-double-http""",450,5.183918465
+"old","http/chunked.js","duration=5 c=100 len=1 n=16 benchmarker=""test-double-http""",248,5.184282204
+"old","http/chunked.js","duration=5 c=100 len=64 n=16 benchmarker=""test-double-http""",246,5.191895118
+"old","http/chunked.js","duration=5 c=100 len=256 n=16 benchmarker=""test-double-http""",247,5.211635321
+"new","http/chunked.js","duration=5 c=100 len=1 n=1 benchmarker=""test-double-http""",1785,5.182495802
+"new","http/chunked.js","duration=5 c=100 len=64 n=1 benchmarker=""test-double-http""",1760,5.201506304
+"new","http/chunked.js","duration=5 c=100 len=256 n=1 benchmarker=""test-double-http""",1709,5.203491667
+"new","http/chunked.js","duration=5 c=100 len=1 n=4 benchmarker=""test-double-http""",782,5.200677223
+"new","http/chunked.js","duration=5 c=100 len=64 n=4 benchmarker=""test-double-http""",789,5.208220012
+"new","http/chunked.js","duration=5 c=100 len=256 n=4 benchmarker=""test-double-http""",762,5.189594710
+"new","http/chunked.js","duration=5 c=100 len=1 n=8 benchmarker=""test-double-http""",445,5.181583021
+"new","http/chunked.js","duration=5 c=100 len=64 n=8 benchmarker=""test-double-http""",449,5.184058724
+"new","http/chunked.js","duration=5 c=100 len=256 n=8 benchmarker=""test-double-http""",447,5.180079319
+"new","http/chunked.js","duration=5 c=100 len=1 n=16 benchmarker=""test-double-http""",243,5.195546277
+"new","http/chunked.js","duration=5 c=100 len=64 n=16 benchmarker=""test-double-http""",244,5.183694523
+"new","http/chunked.js","duration=5 c=100 len=256 n=16 benchmarker=""test-double-http""",245,5.195567617
+"old","http/chunked.js","duration=5 c=100 len=1 n=1 benchmarker=""test-double-http""",1765,5.188397221
+"old","http/chunked.js","duration=5 c=100 len=64 n=1 benchmarker=""test-double-http""",1689,5.197004774
+"old","http/chunked.js","duration=5 c=100 len=256 n=1 benchmarker=""test-double-http""",1661,5.201650110
+"old","http/chunked.js","duration=5 c=100 len=1 n=4 benchmarker=""test-double-http""",794,5.185819483
+"old","http/chunked.js","duration=5 c=100 len=64 n=4 benchmarker=""test-double-http""",782,5.204948246
+"old","http/chunked.js","duration=5 c=100 len=256 n=4 benchmarker=""test-double-http""",780,5.199796552
+"old","http/chunked.js","duration=5 c=100 len=1 n=8 benchmarker=""test-double-http""",452,5.183574205
+"old","http/chunked.js","duration=5 c=100 len=64 n=8 benchmarker=""test-double-http""",440,5.191632058
+"old","http/chunked.js","duration=5 c=100 len=256 n=8 benchmarker=""test-double-http""",450,5.183918465
+"old","http/chunked.js","duration=5 c=100 len=1 n=16 benchmarker=""test-double-http""",248,5.184282204
+"old","http/chunked.js","duration=5 c=100 len=64 n=16 benchmarker=""test-double-http""",246,5.191895118
+"old","http/chunked.js","duration=5 c=100 len=256 n=16 benchmarker=""test-double-http""",247,5.211635321
+"new","http/chunked.js","duration=5 c=100 len=1 n=1 benchmarker=""test-double-http""",1761,5.198067974
+"new","http/chunked.js","duration=5 c=100 len=64 n=1 benchmarker=""test-double-http""",1736,5.179589942
+"new","http/chunked.js","duration=5 c=100 len=256 n=1 benchmarker=""test-double-http""",1717,5.206237829
+"new","http/chunked.js","duration=5 c=100 len=1 n=4 benchmarker=""test-double-http""",769,5.190051897
+"new","http/chunked.js","duration=5 c=100 len=64 n=4 benchmarker=""test-double-http""",784,5.191064716
+"new","http/chunked.js","duration=5 c=100 len=256 n=4 benchmarker=""test-double-http""",787,5.184696519
+"new","http/chunked.js","duration=5 c=100 len=1 n=8 benchmarker=""test-double-http""",450,5.186302879
+"new","http/chunked.js","duration=5 c=100 len=64 n=8 benchmarker=""test-double-http""",447,5.185774499
+"new","http/chunked.js","duration=5 c=100 len=256 n=8 benchmarker=""test-double-http""",449,5.187136518
+"new","http/chunked.js","duration=5 c=100 len=1 n=16 benchmarker=""test-double-http""",245,5.191986936
+"new","http/chunked.js","duration=5 c=100 len=64 n=16 benchmarker=""test-double-http""",246,5.193558595
+"new","http/chunked.js","duration=5 c=100 len=256 n=16 benchmarker=""test-double-http""",243,5.203425031
+"old","http/chunked.js","duration=5 c=100 len=1 n=1 benchmarker=""test-double-http""",1765,5.188397221
+"old","http/chunked.js","duration=5 c=100 len=64 n=1 benchmarker=""test-double-http""",1689,5.197004774
+"old","http/chunked.js","duration=5 c=100 len=256 n=1 benchmarker=""test-double-http""",1661,5.201650110
+"old","http/chunked.js","duration=5 c=100 len=1 n=4 benchmarker=""test-double-http""",794,5.185819483
+"old","http/chunked.js","duration=5 c=100 len=64 n=4 benchmarker=""test-double-http""",782,5.204948246
+"old","http/chunked.js","duration=5 c=100 len=256 n=4 benchmarker=""test-double-http""",780,5.199796552
+"old","http/chunked.js","duration=5 c=100 len=1 n=8 benchmarker=""test-double-http""",452,5.183574205
+"old","http/chunked.js","duration=5 c=100 len=64 n=8 benchmarker=""test-double-http""",440,5.191632058
+"old","http/chunked.js","duration=5 c=100 len=256 n=8 benchmarker=""test-double-http""",450,5.183918465
+"old","http/chunked.js","duration=5 c=100 len=1 n=16 benchmarker=""test-double-http""",248,5.184282204
+"old","http/chunked.js","duration=5 c=100 len=64 n=16 benchmarker=""test-double-http""",246,5.191895118
+"old","http/chunked.js","duration=5 c=100 len=256 n=16 benchmarker=""test-double-http""",247,5.211635321
+"new","http/chunked.js","duration=5 c=100 len=1 n=1 benchmarker=""test-double-http""",1742,5.183151522
+"new","http/chunked.js","duration=5 c=100 len=64 n=1 benchmarker=""test-double-http""",1763,5.180342443
+"new","http/chunked.js","duration=5 c=100 len=256 n=1 benchmarker=""test-double-http""",1689,5.205013851
+"new","http/chunked.js","duration=5 c=100 len=1 n=4 benchmarker=""test-double-http""",763,5.198533634
+"new","http/chunked.js","duration=5 c=100 len=64 n=4 benchmarker=""test-double-http""",786,5.177068945
+"new","http/chunked.js","duration=5 c=100 len=256 n=4 benchmarker=""test-double-http""",783,5.204132172
+"new","http/chunked.js","duration=5 c=100 len=1 n=8 benchmarker=""test-double-http""",452,5.193389777
+"new","http/chunked.js","duration=5 c=100 len=64 n=8 benchmarker=""test-double-http""",453,5.181864022
+"new","http/chunked.js","duration=5 c=100 len=256 n=8 benchmarker=""test-double-http""",446,5.202440973
+"new","http/chunked.js","duration=5 c=100 len=1 n=16 benchmarker=""test-double-http""",245,5.182840681
+"new","http/chunked.js","duration=5 c=100 len=64 n=16 benchmarker=""test-double-http""",244,5.203180312
+"new","http/chunked.js","duration=5 c=100 len=256 n=16 benchmarker=""test-double-http""",246,5.194095437
+"old","http/client-request-body.js","method=""write"" len=32 type=""asc"" dur=5",754.6822817781004,5.002104980
+"old","http/client-request-body.js","method=""end"" len=32 type=""asc"" dur=5",747.7067905724045,5.000623302
+"old","http/client-request-body.js","method=""write"" len=256 type=""asc"" dur=5",730.4027693951405,4.999981042
+"old","http/client-request-body.js","method=""end"" len=256 type=""asc"" dur=5",698.8350503514844,4.999749223
+"old","http/client-request-body.js","method=""write"" len=1024 type=""asc"" dur=5",782.4074100255382,5.002508859
+"old","http/client-request-body.js","method=""end"" len=1024 type=""asc"" dur=5",752.9739421630838,5.001501100
+"old","http/client-request-body.js","method=""write"" len=32 type=""utf"" dur=5",739.4866452753245,5.000766442
+"old","http/client-request-body.js","method=""end"" len=32 type=""utf"" dur=5",674.3297878271942,5.002003561
+"old","http/client-request-body.js","method=""write"" len=256 type=""utf"" dur=5",736.7853465183143,5.000099442
+"old","http/client-request-body.js","method=""end"" len=256 type=""utf"" dur=5",762.5233386486163,5.000502682
+"old","http/client-request-body.js","method=""write"" len=1024 type=""utf"" dur=5",784.8459810930004,5.002255340
+"old","http/client-request-body.js","method=""end"" len=1024 type=""utf"" dur=5",743.6697808705022,5.002220200
+"old","http/client-request-body.js","method=""write"" len=32 type=""buf"" dur=5",770.5483852787411,5.000334922
+"old","http/client-request-body.js","method=""end"" len=32 type=""buf"" dur=5",751.6670389704772,5.000884441
+"old","http/client-request-body.js","method=""write"" len=256 type=""buf"" dur=5",741.6836599037758,5.002132581
+"old","http/client-request-body.js","method=""end"" len=256 type=""buf"" dur=5",743.4001305410629,4.999999122
+"old","http/client-request-body.js","method=""write"" len=1024 type=""buf"" dur=5",759.3988047287954,5.001324701
+"old","http/client-request-body.js","method=""end"" len=1024 type=""buf"" dur=5",756.5519506737262,5.001639341
+"new","http/client-request-body.js","method=""write"" len=32 type=""asc"" dur=5",752.908902540246,5.000604970
+"new","http/client-request-body.js","method=""end"" len=32 type=""asc"" dur=5",720.3695530045467,5.000211329
+"new","http/client-request-body.js","method=""write"" len=256 type=""asc"" dur=5",745.7878035354184,5.000081769
+"new","http/client-request-body.js","method=""end"" len=256 type=""asc"" dur=5",742.2052712902778,4.999964489
+"new","http/client-request-body.js","method=""write"" len=1024 type=""asc"" dur=5",690.6609611645096,5.002454452
+"new","http/client-request-body.js","method=""end"" len=1024 type=""asc"" dur=5",750.7642170758857,5.000238310
+"new","http/client-request-body.js","method=""write"" len=32 type=""utf"" dur=5",739.341974963121,5.000392410
+"new","http/client-request-body.js","method=""end"" len=32 type=""utf"" dur=5",743.2492055508095,5.002359871
+"new","http/client-request-body.js","method=""write"" len=256 type=""utf"" dur=5",771.2667164220106,4.999567488
+"new","http/client-request-body.js","method=""end"" len=256 type=""utf"" dur=5",747.5083659394529,5.000612930
+"new","http/client-request-body.js","method=""write"" len=1024 type=""utf"" dur=5",744.7293207190878,5.000474530
+"new","http/client-request-body.js","method=""end"" len=1024 type=""utf"" dur=5",709.3196354558012,5.001976292
+"new","http/client-request-body.js","method=""write"" len=32 type=""buf"" dur=5",769.8320280916967,4.999791980
+"new","http/client-request-body.js","method=""end"" len=32 type=""buf"" dur=5",768.8558402987999,5.000937495
+"new","http/client-request-body.js","method=""write"" len=256 type=""buf"" dur=5",734.642069571971,4.999713673
+"new","http/client-request-body.js","method=""end"" len=256 type=""buf"" dur=5",761.4153997787436,4.999898874
+"new","http/client-request-body.js","method=""write"" len=1024 type=""buf"" dur=5",753.6237432476254,5.002496317
+"new","http/client-request-body.js","method=""end"" len=1024 type=""buf"" dur=5",772.2360734024456,5.002356317
+"old","http/client-request-body.js","method=""write"" len=32 type=""asc"" dur=5",754.6822817781004,5.002104980
+"old","http/client-request-body.js","method=""end"" len=32 type=""asc"" dur=5",747.7067905724045,5.000623302
+"old","http/client-request-body.js","method=""write"" len=256 type=""asc"" dur=5",730.4027693951405,4.999981042
+"old","http/client-request-body.js","method=""end"" len=256 type=""asc"" dur=5",698.8350503514844,4.999749223
+"old","http/client-request-body.js","method=""write"" len=1024 type=""asc"" dur=5",782.4074100255382,5.002508859
+"old","http/client-request-body.js","method=""end"" len=1024 type=""asc"" dur=5",752.9739421630838,5.001501100
+"old","http/client-request-body.js","method=""write"" len=32 type=""utf"" dur=5",739.4866452753245,5.000766442
+"old","http/client-request-body.js","method=""end"" len=32 type=""utf"" dur=5",674.3297878271942,5.002003561
+"old","http/client-request-body.js","method=""write"" len=256 type=""utf"" dur=5",736.7853465183143,5.000099442
+"old","http/client-request-body.js","method=""end"" len=256 type=""utf"" dur=5",762.5233386486163,5.000502682
+"old","http/client-request-body.js","method=""write"" len=1024 type=""utf"" dur=5",784.8459810930004,5.002255340
+"old","http/client-request-body.js","method=""end"" len=1024 type=""utf"" dur=5",743.6697808705022,5.002220200
+"old","http/client-request-body.js","method=""write"" len=32 type=""buf"" dur=5",770.5483852787411,5.000334922
+"old","http/client-request-body.js","method=""end"" len=32 type=""buf"" dur=5",751.6670389704772,5.000884441
+"old","http/client-request-body.js","method=""write"" len=256 type=""buf"" dur=5",741.6836599037758,5.002132581
+"old","http/client-request-body.js","method=""end"" len=256 type=""buf"" dur=5",743.4001305410629,4.999999122
+"old","http/client-request-body.js","method=""write"" len=1024 type=""buf"" dur=5",759.3988047287954,5.001324701
+"old","http/client-request-body.js","method=""end"" len=1024 type=""buf"" dur=5",756.5519506737262,5.001639341
+"new","http/client-request-body.js","method=""write"" len=32 type=""asc"" dur=5",721.8794969443269,5.000834648
+"new","http/client-request-body.js","method=""end"" len=32 type=""asc"" dur=5",710.6700178596893,5.002321627
+"new","http/client-request-body.js","method=""write"" len=256 type=""asc"" dur=5",722.7486345436424,5.000355348
+"new","http/client-request-body.js","method=""end"" len=256 type=""asc"" dur=5",751.6169340798482,4.999887349
+"new","http/client-request-body.js","method=""write"" len=1024 type=""asc"" dur=5",755.8951523227972,5.002016468
+"new","http/client-request-body.js","method=""end"" len=1024 type=""asc"" dur=5",680.1556805479074,5.003266307
+"new","http/client-request-body.js","method=""write"" len=32 type=""utf"" dur=5",740.7138745312384,5.000581368
+"new","http/client-request-body.js","method=""end"" len=32 type=""utf"" dur=5",743.1031159991835,5.000651888
+"new","http/client-request-body.js","method=""write"" len=256 type=""utf"" dur=5",739.8981055911197,5.002040108
+"new","http/client-request-body.js","method=""end"" len=256 type=""utf"" dur=5",741.9582866100881,5.001628888
+"new","http/client-request-body.js","method=""write"" len=1024 type=""utf"" dur=5",704.9677704244654,5.000228589
+"new","http/client-request-body.js","method=""end"" len=1024 type=""utf"" dur=5",735.1453562346934,5.001731928
+"new","http/client-request-body.js","method=""write"" len=32 type=""buf"" dur=5",754.3650262795247,5.000231809
+"new","http/client-request-body.js","method=""end"" len=32 type=""buf"" dur=5",728.2434583883205,5.001074789
+"new","http/client-request-body.js","method=""write"" len=256 type=""buf"" dur=5",768.0699560386984,5.002148528
+"new","http/client-request-body.js","method=""end"" len=256 type=""buf"" dur=5",742.7254052651928,5.000502169
+"new","http/client-request-body.js","method=""write"" len=1024 type=""buf"" dur=5",765.6868818441872,5.002044688
+"new","http/client-request-body.js","method=""end"" len=1024 type=""buf"" dur=5",717.5624598454426,5.001655188
+"old","http/client-request-body.js","method=""write"" len=32 type=""asc"" dur=5",754.6822817781004,5.002104980
+"old","http/client-request-body.js","method=""end"" len=32 type=""asc"" dur=5",747.7067905724045,5.000623302
+"old","http/client-request-body.js","method=""write"" len=256 type=""asc"" dur=5",730.4027693951405,4.999981042
+"old","http/client-request-body.js","method=""end"" len=256 type=""asc"" dur=5",698.8350503514844,4.999749223
+"old","http/client-request-body.js","method=""write"" len=1024 type=""asc"" dur=5",782.4074100255382,5.002508859
+"old","http/client-request-body.js","method=""end"" len=1024 type=""asc"" dur=5",752.9739421630838,5.001501100
+"old","http/client-request-body.js","method=""write"" len=32 type=""utf"" dur=5",739.4866452753245,5.000766442
+"old","http/client-request-body.js","method=""end"" len=32 type=""utf"" dur=5",674.3297878271942,5.002003561
+"old","http/client-request-body.js","method=""write"" len=256 type=""utf"" dur=5",736.7853465183143,5.000099442
+"old","http/client-request-body.js","method=""end"" len=256 type=""utf"" dur=5",762.5233386486163,5.000502682
+"old","http/client-request-body.js","method=""write"" len=1024 type=""utf"" dur=5",784.8459810930004,5.002255340
+"old","http/client-request-body.js","method=""end"" len=1024 type=""utf"" dur=5",743.6697808705022,5.002220200
+"old","http/client-request-body.js","method=""write"" len=32 type=""buf"" dur=5",770.5483852787411,5.000334922
+"old","http/client-request-body.js","method=""end"" len=32 type=""buf"" dur=5",751.6670389704772,5.000884441
+"old","http/client-request-body.js","method=""write"" len=256 type=""buf"" dur=5",741.6836599037758,5.002132581
+"old","http/client-request-body.js","method=""end"" len=256 type=""buf"" dur=5",743.4001305410629,4.999999122
+"old","http/client-request-body.js","method=""write"" len=1024 type=""buf"" dur=5",759.3988047287954,5.001324701
+"old","http/client-request-body.js","method=""end"" len=1024 type=""buf"" dur=5",756.5519506737262,5.001639341
+"new","http/client-request-body.js","method=""write"" len=32 type=""asc"" dur=5",737.3907991325648,5.000062388
+"new","http/client-request-body.js","method=""end"" len=32 type=""asc"" dur=5",747.1193563022056,5.003216646
+"new","http/client-request-body.js","method=""write"" len=256 type=""asc"" dur=5",766.7258810691126,5.000483347
+"new","http/client-request-body.js","method=""end"" len=256 type=""asc"" dur=5",785.0149647610631,5.002452407
+"new","http/client-request-body.js","method=""write"" len=1024 type=""asc"" dur=5",749.6804219244289,5.000797527
+"new","http/client-request-body.js","method=""end"" len=1024 type=""asc"" dur=5",765.0197811906454,5.002485026
+"new","http/client-request-body.js","method=""write"" len=32 type=""utf"" dur=5",733.3580536793888,5.000285988
+"new","http/client-request-body.js","method=""end"" len=32 type=""utf"" dur=5",729.6958100918778,5.000713927
+"new","http/client-request-body.js","method=""write"" len=256 type=""utf"" dur=5",758.4061509772469,4.999959448
+"new","http/client-request-body.js","method=""end"" len=256 type=""utf"" dur=5",766.575520483959,5.000159668
+"new","http/client-request-body.js","method=""write"" len=1024 type=""utf"" dur=5",751.4996496966771,5.000667667
+"new","http/client-request-body.js","method=""end"" len=1024 type=""utf"" dur=5",739.4793134077594,5.002168327
+"new","http/client-request-body.js","method=""write"" len=32 type=""buf"" dur=5",762.8178060049116,5.002505146
+"new","http/client-request-body.js","method=""end"" len=32 type=""buf"" dur=5",780.8848556437993,5.002017867
+"new","http/client-request-body.js","method=""write"" len=256 type=""buf"" dur=5",774.4529558539965,4.999658108
+"new","http/client-request-body.js","method=""end"" len=256 type=""buf"" dur=5",782.2661808929225,5.002133667
+"new","http/client-request-body.js","method=""write"" len=1024 type=""buf"" dur=5",746.4075022120878,5.002629246
+"new","http/client-request-body.js","method=""end"" len=1024 type=""buf"" dur=5",705.4362249384076,5.001160807
+"old","http/cluster.js","duration=5 c=50 len=4 type=""bytes"" benchmarker=""test-double-http""",2616,5.187365222
+"old","http/cluster.js","duration=5 c=500 len=4 type=""bytes"" benchmarker=""test-double-http""",2699,5.181249367
+"old","http/cluster.js","duration=5 c=50 len=1024 type=""bytes"" benchmarker=""test-double-http""",2660,5.183002066
+"old","http/cluster.js","duration=5 c=500 len=1024 type=""bytes"" benchmarker=""test-double-http""",2680,5.185751483
+"old","http/cluster.js","duration=5 c=50 len=102400 type=""bytes"" benchmarker=""test-double-http""",1634,5.190263520
+"old","http/cluster.js","duration=5 c=500 len=102400 type=""bytes"" benchmarker=""test-double-http""",1695,5.185861043
+"old","http/cluster.js","duration=5 c=50 len=4 type=""buffer"" benchmarker=""test-double-http""",2654,5.185556563
+"old","http/cluster.js","duration=5 c=500 len=4 type=""buffer"" benchmarker=""test-double-http""",2737,5.184491024
+"old","http/cluster.js","duration=5 c=50 len=1024 type=""buffer"" benchmarker=""test-double-http""",2619,5.185590083
+"old","http/cluster.js","duration=5 c=500 len=1024 type=""buffer"" benchmarker=""test-double-http""",2537,5.188357901
+"old","http/cluster.js","duration=5 c=50 len=102400 type=""buffer"" benchmarker=""test-double-http""",1972,5.183638525
+"old","http/cluster.js","duration=5 c=500 len=102400 type=""buffer"" benchmarker=""test-double-http""",1961,5.186323219
+"new","http/cluster.js","duration=5 c=50 len=4 type=""bytes"" benchmarker=""test-double-http""",2660,5.183363327
+"new","http/cluster.js","duration=5 c=500 len=4 type=""bytes"" benchmarker=""test-double-http""",2574,5.192200718
+"new","http/cluster.js","duration=5 c=50 len=1024 type=""bytes"" benchmarker=""test-double-http""",2542,5.184065028
+"new","http/cluster.js","duration=5 c=500 len=1024 type=""bytes"" benchmarker=""test-double-http""",2626,5.183786467
+"new","http/cluster.js","duration=5 c=50 len=102400 type=""bytes"" benchmarker=""test-double-http""",1692,5.182278186
+"new","http/cluster.js","duration=5 c=500 len=102400 type=""bytes"" benchmarker=""test-double-http""",1702,5.186391311
+"new","http/cluster.js","duration=5 c=50 len=4 type=""buffer"" benchmarker=""test-double-http""",2676,5.185107410
+"new","http/cluster.js","duration=5 c=500 len=4 type=""buffer"" benchmarker=""test-double-http""",2698,5.185978930
+"new","http/cluster.js","duration=5 c=50 len=1024 type=""buffer"" benchmarker=""test-double-http""",2529,5.189861595
+"new","http/cluster.js","duration=5 c=500 len=1024 type=""buffer"" benchmarker=""test-double-http""",2636,5.186604131
+"new","http/cluster.js","duration=5 c=50 len=102400 type=""buffer"" benchmarker=""test-double-http""",1967,5.187487432
+"new","http/cluster.js","duration=5 c=500 len=102400 type=""buffer"" benchmarker=""test-double-http""",1892,5.186988391
+"old","http/cluster.js","duration=5 c=50 len=4 type=""bytes"" benchmarker=""test-double-http""",2616,5.187365222
+"old","http/cluster.js","duration=5 c=500 len=4 type=""bytes"" benchmarker=""test-double-http""",2699,5.181249367
+"old","http/cluster.js","duration=5 c=50 len=1024 type=""bytes"" benchmarker=""test-double-http""",2660,5.183002066
+"old","http/cluster.js","duration=5 c=500 len=1024 type=""bytes"" benchmarker=""test-double-http""",2680,5.185751483
+"old","http/cluster.js","duration=5 c=50 len=102400 type=""bytes"" benchmarker=""test-double-http""",1634,5.190263520
+"old","http/cluster.js","duration=5 c=500 len=102400 type=""bytes"" benchmarker=""test-double-http""",1695,5.185861043
+"old","http/cluster.js","duration=5 c=50 len=4 type=""buffer"" benchmarker=""test-double-http""",2654,5.185556563
+"old","http/cluster.js","duration=5 c=500 len=4 type=""buffer"" benchmarker=""test-double-http""",2737,5.184491024
+"old","http/cluster.js","duration=5 c=50 len=1024 type=""buffer"" benchmarker=""test-double-http""",2619,5.185590083
+"old","http/cluster.js","duration=5 c=500 len=1024 type=""buffer"" benchmarker=""test-double-http""",2537,5.188357901
+"old","http/cluster.js","duration=5 c=50 len=102400 type=""buffer"" benchmarker=""test-double-http""",1972,5.183638525
+"old","http/cluster.js","duration=5 c=500 len=102400 type=""buffer"" benchmarker=""test-double-http""",1961,5.186323219
+"new","http/cluster.js","duration=5 c=50 len=4 type=""bytes"" benchmarker=""test-double-http""",2599,5.184802420
+"new","http/cluster.js","duration=5 c=500 len=4 type=""bytes"" benchmarker=""test-double-http""",2615,5.187058979
+"new","http/cluster.js","duration=5 c=50 len=1024 type=""bytes"" benchmarker=""test-double-http""",2565,5.183453441
+"new","http/cluster.js","duration=5 c=500 len=1024 type=""bytes"" benchmarker=""test-double-http""",2487,5.190189017
+"new","http/cluster.js","duration=5 c=50 len=102400 type=""bytes"" benchmarker=""test-double-http""",1607,5.185544800
+"new","http/cluster.js","duration=5 c=500 len=102400 type=""bytes"" benchmarker=""test-double-http""",1653,5.183947160
+"new","http/cluster.js","duration=5 c=50 len=4 type=""buffer"" benchmarker=""test-double-http""",2489,5.180886922
+"new","http/cluster.js","duration=5 c=500 len=4 type=""buffer"" benchmarker=""test-double-http""",2563,5.188735198
+"new","http/cluster.js","duration=5 c=50 len=1024 type=""buffer"" benchmarker=""test-double-http""",2585,5.183579580
+"new","http/cluster.js","duration=5 c=500 len=1024 type=""buffer"" benchmarker=""test-double-http""",2519,5.182630661
+"new","http/cluster.js","duration=5 c=50 len=102400 type=""buffer"" benchmarker=""test-double-http""",1915,5.188261198
+"new","http/cluster.js","duration=5 c=500 len=102400 type=""buffer"" benchmarker=""test-double-http""",1772,5.186061519
+"old","http/cluster.js","duration=5 c=50 len=4 type=""bytes"" benchmarker=""test-double-http""",2616,5.187365222
+"old","http/cluster.js","duration=5 c=500 len=4 type=""bytes"" benchmarker=""test-double-http""",2699,5.181249367
+"old","http/cluster.js","duration=5 c=50 len=1024 type=""bytes"" benchmarker=""test-double-http""",2660,5.183002066
+"old","http/cluster.js","duration=5 c=500 len=1024 type=""bytes"" benchmarker=""test-double-http""",2680,5.185751483
+"old","http/cluster.js","duration=5 c=50 len=102400 type=""bytes"" benchmarker=""test-double-http""",1634,5.190263520
+"old","http/cluster.js","duration=5 c=500 len=102400 type=""bytes"" benchmarker=""test-double-http""",1695,5.185861043
+"old","http/cluster.js","duration=5 c=50 len=4 type=""buffer"" benchmarker=""test-double-http""",2654,5.185556563
+"old","http/cluster.js","duration=5 c=500 len=4 type=""buffer"" benchmarker=""test-double-http""",2737,5.184491024
+"old","http/cluster.js","duration=5 c=50 len=1024 type=""buffer"" benchmarker=""test-double-http""",2619,5.185590083
+"old","http/cluster.js","duration=5 c=500 len=1024 type=""buffer"" benchmarker=""test-double-http""",2537,5.188357901
+"old","http/cluster.js","duration=5 c=50 len=102400 type=""buffer"" benchmarker=""test-double-http""",1972,5.183638525
+"old","http/cluster.js","duration=5 c=500 len=102400 type=""buffer"" benchmarker=""test-double-http""",1961,5.186323219
+"new","http/cluster.js","duration=5 c=50 len=4 type=""bytes"" benchmarker=""test-double-http""",2637,5.190275438
+"new","http/cluster.js","duration=5 c=500 len=4 type=""bytes"" benchmarker=""test-double-http""",2676,5.181092483
+"new","http/cluster.js","duration=5 c=50 len=1024 type=""bytes"" benchmarker=""test-double-http""",2694,5.186204980
+"new","http/cluster.js","duration=5 c=500 len=1024 type=""bytes"" benchmarker=""test-double-http""",2518,5.193761537
+"new","http/cluster.js","duration=5 c=50 len=102400 type=""bytes"" benchmarker=""test-double-http""",1678,5.190321958
+"new","http/cluster.js","duration=5 c=500 len=102400 type=""bytes"" benchmarker=""test-double-http""",1695,5.187175459
+"new","http/cluster.js","duration=5 c=50 len=4 type=""buffer"" benchmarker=""test-double-http""",2600,5.180682742
+"new","http/cluster.js","duration=5 c=500 len=4 type=""buffer"" benchmarker=""test-double-http""",2620,5.183540702
+"new","http/cluster.js","duration=5 c=50 len=1024 type=""buffer"" benchmarker=""test-double-http""",2631,5.180860963
+"new","http/cluster.js","duration=5 c=500 len=1024 type=""buffer"" benchmarker=""test-double-http""",2523,5.180874523
+"new","http/cluster.js","duration=5 c=50 len=102400 type=""buffer"" benchmarker=""test-double-http""",1971,5.191014217
+"new","http/cluster.js","duration=5 c=500 len=102400 type=""buffer"" benchmarker=""test-double-http""",1961,5.187725039
+"old","http/create-clientrequest.js","e=1 arg=""URL"" url=""long""",8715.348672448676,0.045896041
+"old","http/create-clientrequest.js","e=1 arg=""string"" url=""long""",6641.871674124271,0.060223988
+"old","http/create-clientrequest.js","e=1 arg=""options"" url=""long""",14826.249147629671,0.026979177
+"old","http/create-clientrequest.js","e=1 arg=""URL"" url=""idn""",8983.454318752993,0.044526302
+"old","http/create-clientrequest.js","e=1 arg=""string"" url=""idn""",6613.843223608352,0.060479208
+"old","http/create-clientrequest.js","e=1 arg=""options"" url=""idn""",15016.380806707757,0.026637577
+"old","http/create-clientrequest.js","e=1 arg=""URL"" url=""wpt""",7578.4023334792355,0.035891470
+"old","http/create-clientrequest.js","e=1 arg=""string"" url=""wpt""",6380.183450446839,0.042632003
+"old","http/create-clientrequest.js","e=1 arg=""options"" url=""wpt""",12087.609751163667,0.022502381
+"new","http/create-clientrequest.js","e=1 arg=""URL"" url=""long""",8385.611506568397,0.047700755
+"new","http/create-clientrequest.js","e=1 arg=""string"" url=""long""",6760.060393703551,0.059171069
+"new","http/create-clientrequest.js","e=1 arg=""options"" url=""long""",15282.568969278598,0.026173610
+"new","http/create-clientrequest.js","e=1 arg=""URL"" url=""idn""",8779.270334211238,0.045561873
+"new","http/create-clientrequest.js","e=1 arg=""string"" url=""idn""",6507.521857423742,0.061467331
+"new","http/create-clientrequest.js","e=1 arg=""options"" url=""idn""",15077.355692649762,0.026529851
+"new","http/create-clientrequest.js","e=1 arg=""URL"" url=""wpt""",7596.169318837533,0.035807522
+"new","http/create-clientrequest.js","e=1 arg=""string"" url=""wpt""",6509.390226169721,0.041785788
+"new","http/create-clientrequest.js","e=1 arg=""options"" url=""wpt""",11830.105591956084,0.022992187
+"old","http/create-clientrequest.js","e=1 arg=""URL"" url=""long""",8715.348672448676,0.045896041
+"old","http/create-clientrequest.js","e=1 arg=""string"" url=""long""",6641.871674124271,0.060223988
+"old","http/create-clientrequest.js","e=1 arg=""options"" url=""long""",14826.249147629671,0.026979177
+"old","http/create-clientrequest.js","e=1 arg=""URL"" url=""idn""",8983.454318752993,0.044526302
+"old","http/create-clientrequest.js","e=1 arg=""string"" url=""idn""",6613.843223608352,0.060479208
+"old","http/create-clientrequest.js","e=1 arg=""options"" url=""idn""",15016.380806707757,0.026637577
+"old","http/create-clientrequest.js","e=1 arg=""URL"" url=""wpt""",7578.4023334792355,0.035891470
+"old","http/create-clientrequest.js","e=1 arg=""string"" url=""wpt""",6380.183450446839,0.042632003
+"old","http/create-clientrequest.js","e=1 arg=""options"" url=""wpt""",12087.609751163667,0.022502381
+"new","http/create-clientrequest.js","e=1 arg=""URL"" url=""long""",8923.84278785846,0.044823739
+"new","http/create-clientrequest.js","e=1 arg=""string"" url=""long""",6844.136143487725,0.058444191
+"new","http/create-clientrequest.js","e=1 arg=""options"" url=""long""",15327.35709461976,0.026097128
+"new","http/create-clientrequest.js","e=1 arg=""URL"" url=""idn""",9059.653697455311,0.044151798
+"new","http/create-clientrequest.js","e=1 arg=""string"" url=""idn""",6639.370995287026,0.060246671
+"new","http/create-clientrequest.js","e=1 arg=""options"" url=""idn""",14847.55256840945,0.026940467
+"new","http/create-clientrequest.js","e=1 arg=""URL"" url=""wpt""",7547.370222899648,0.036039043
+"new","http/create-clientrequest.js","e=1 arg=""string"" url=""wpt""",6507.989909457351,0.041794779
+"new","http/create-clientrequest.js","e=1 arg=""options"" url=""wpt""",11809.928407085106,0.023031469
+"old","http/create-clientrequest.js","e=1 arg=""URL"" url=""long""",8715.348672448676,0.045896041
+"old","http/create-clientrequest.js","e=1 arg=""string"" url=""long""",6641.871674124271,0.060223988
+"old","http/create-clientrequest.js","e=1 arg=""options"" url=""long""",14826.249147629671,0.026979177
+"old","http/create-clientrequest.js","e=1 arg=""URL"" url=""idn""",8983.454318752993,0.044526302
+"old","http/create-clientrequest.js","e=1 arg=""string"" url=""idn""",6613.843223608352,0.060479208
+"old","http/create-clientrequest.js","e=1 arg=""options"" url=""idn""",15016.380806707757,0.026637577
+"old","http/create-clientrequest.js","e=1 arg=""URL"" url=""wpt""",7578.4023334792355,0.035891470
+"old","http/create-clientrequest.js","e=1 arg=""string"" url=""wpt""",6380.183450446839,0.042632003
+"old","http/create-clientrequest.js","e=1 arg=""options"" url=""wpt""",12087.609751163667,0.022502381
+"new","http/create-clientrequest.js","e=1 arg=""URL"" url=""long""",8883.775979686712,0.045025899
+"new","http/create-clientrequest.js","e=1 arg=""string"" url=""long""",6537.9549286790025,0.061181211
+"new","http/create-clientrequest.js","e=1 arg=""options"" url=""long""",15063.95704241498,0.026553448
+"new","http/create-clientrequest.js","e=1 arg=""URL"" url=""idn""",9028.11057963878,0.044306059
+"new","http/create-clientrequest.js","e=1 arg=""string"" url=""idn""",6648.932633546471,0.060160032
+"new","http/create-clientrequest.js","e=1 arg=""options"" url=""idn""",15203.271348709188,0.026310127
+"new","http/create-clientrequest.js","e=1 arg=""URL"" url=""wpt""",7709.579461430886,0.035280783
+"new","http/create-clientrequest.js","e=1 arg=""string"" url=""wpt""",6264.414631102326,0.043419859
+"new","http/create-clientrequest.js","e=1 arg=""options"" url=""wpt""",11988.99709791339,0.022687469
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""",2078,5.189340540
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""",2015,5.187422461
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""",1630,5.194062676
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""",1322,5.186860302
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""",1237,5.190781918
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""",1038,5.184625144
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""",551,5.213649199
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""",442,5.194849736
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""",2114,5.186993482
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""",2040,5.190133139
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""",1580,5.186405463
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""",1566,5.187128002
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""",1224,5.191771958
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""",1068,5.205584266
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""",558,5.196795433
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""",473,5.198039332
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""",2394,5.190352780
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""",2335,5.187023262
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""",1841,5.210550942
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""",1949,5.188838561
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""",1621,5.192313978
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""",1644,5.192285958
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""",888,5.222599572
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""",972,5.196795054
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""",2036,5.184890609
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""",2052,5.187103491
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""",1581,5.189648115
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""",1274,5.187907172
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""",1240,5.193421719
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""",1030,5.209533018
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""",570,5.190005074
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""",450,5.194910321
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""",2100,5.186154970
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""",2073,5.187744992
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""",1621,5.188852453
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""",1549,5.188932613
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""",1212,5.186303530
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""",1075,5.203132570
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""",549,5.193271959
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""",484,5.197962124
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""",2342,5.187164571
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""",2335,5.185990490
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""",1862,5.183670448
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""",1859,5.189307594
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""",1724,5.193361279
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""",1668,5.187542512
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""",990,5.190452955
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""",934,5.191077696
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""",2078,5.189340540
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""",2015,5.187422461
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""",1630,5.194062676
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""",1322,5.186860302
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""",1237,5.190781918
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""",1038,5.184625144
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""",551,5.213649199
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""",442,5.194849736
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""",2114,5.186993482
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""",2040,5.190133139
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""",1580,5.186405463
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""",1566,5.187128002
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""",1224,5.191771958
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""",1068,5.205584266
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""",558,5.196795433
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""",473,5.198039332
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""",2394,5.190352780
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""",2335,5.187023262
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""",1841,5.210550942
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""",1949,5.188838561
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""",1621,5.192313978
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""",1644,5.192285958
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""",888,5.222599572
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""",972,5.196795054
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""",2150,5.182869360
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""",1963,5.185651160
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""",1582,5.184905960
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""",1296,5.201138632
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""",1211,5.192661956
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""",1021,5.203798710
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""",519,5.191527037
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""",445,5.189742957
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""",2108,5.198444673
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""",2026,5.192174316
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""",1565,5.182415901
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""",1556,5.185088659
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""",1235,5.194711075
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""",1078,5.187652218
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""",527,5.191681037
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""",462,5.208710149
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""",2377,5.184319280
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""",2416,5.192334036
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""",1970,5.187381998
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""",1985,5.191543877
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""",1660,5.189880737
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""",1712,5.190325777
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""",966,5.189401538
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""",1006,5.192401856
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""",2078,5.189340540
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""",2015,5.187422461
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""",1630,5.194062676
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""",1322,5.186860302
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""",1237,5.190781918
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""",1038,5.184625144
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""",551,5.213649199
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""",442,5.194849736
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""",2114,5.186993482
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""",2040,5.190133139
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""",1580,5.186405463
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""",1566,5.187128002
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""",1224,5.191771958
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""",1068,5.205584266
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""",558,5.196795433
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""",473,5.198039332
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""",2394,5.190352780
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""",2335,5.187023262
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""",1841,5.210550942
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""",1949,5.188838561
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""",1621,5.192313978
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""",1644,5.192285958
+"old","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""",888,5.222599572
+"old","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""",972,5.196795054
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""",2011,5.183722802
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""",2030,5.185319800
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""",1638,5.186829840
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""",1304,5.192071278
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""",1227,5.198866055
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""",1048,5.204937732
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""",559,5.192453657
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""",432,5.194820097
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""",2086,5.189449719
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""",2076,5.186563700
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""",1498,5.193264817
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""",1467,5.194382956
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""",1142,5.192526857
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""",1092,5.185245941
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""",512,5.190906238
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""",477,5.194999236
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""",2217,5.188090600
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""",2441,5.185754801
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""",1874,5.190985078
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""",1884,5.185006000
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""",1619,5.193661516
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""",1566,5.189775758
+"new","http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""",896,5.214990207
+"new","http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""",921,5.211413748
+"old","http/headers.js","duration=5 len=1 n=10 benchmarker=""test-double-http""",3011,5.190015180
+"old","http/headers.js","duration=5 len=100 n=10 benchmarker=""test-double-http""",2424,5.187143969
+"old","http/headers.js","duration=5 len=1 n=600 benchmarker=""test-double-http""",847,5.184826806
+"old","http/headers.js","duration=5 len=100 n=600 benchmarker=""test-double-http""",1091,5.191727842
+"new","http/headers.js","duration=5 len=1 n=10 benchmarker=""test-double-http""",3156,5.182964706
+"new","http/headers.js","duration=5 len=100 n=10 benchmarker=""test-double-http""",2425,5.184073448
+"new","http/headers.js","duration=5 len=1 n=600 benchmarker=""test-double-http""",840,5.194134499
+"new","http/headers.js","duration=5 len=100 n=600 benchmarker=""test-double-http""",1099,5.194782861
+"old","http/headers.js","duration=5 len=1 n=10 benchmarker=""test-double-http""",3011,5.190015180
+"old","http/headers.js","duration=5 len=100 n=10 benchmarker=""test-double-http""",2424,5.187143969
+"old","http/headers.js","duration=5 len=1 n=600 benchmarker=""test-double-http""",847,5.184826806
+"old","http/headers.js","duration=5 len=100 n=600 benchmarker=""test-double-http""",1091,5.191727842
+"new","http/headers.js","duration=5 len=1 n=10 benchmarker=""test-double-http""",3094,5.188514558
+"new","http/headers.js","duration=5 len=100 n=10 benchmarker=""test-double-http""",2452,5.184496380
+"new","http/headers.js","duration=5 len=1 n=600 benchmarker=""test-double-http""",832,5.185979900
+"new","http/headers.js","duration=5 len=100 n=600 benchmarker=""test-double-http""",1120,5.192325236
+"old","http/headers.js","duration=5 len=1 n=10 benchmarker=""test-double-http""",3011,5.190015180
+"old","http/headers.js","duration=5 len=100 n=10 benchmarker=""test-double-http""",2424,5.187143969
+"old","http/headers.js","duration=5 len=1 n=600 benchmarker=""test-double-http""",847,5.184826806
+"old","http/headers.js","duration=5 len=100 n=600 benchmarker=""test-double-http""",1091,5.191727842
+"new","http/headers.js","duration=5 len=1 n=10 benchmarker=""test-double-http""",3180,5.188815939
+"new","http/headers.js","duration=5 len=100 n=10 benchmarker=""test-double-http""",2386,5.184864361
+"new","http/headers.js","duration=5 len=1 n=600 benchmarker=""test-double-http""",831,5.208219890
+"new","http/headers.js","duration=5 len=100 n=600 benchmarker=""test-double-http""",1162,5.195175556
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=1",47.69143504176644,0.104840628
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=1",109.44643257415822,0.456844493
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=1",128.08144940775756,3.903765942
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=1",134.74820411922337,14.842498370
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=4",62.32654522463983,0.080222640
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=4",117.49537423061561,0.425548668
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=4",130.28666024846436,3.837691434
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=4",136.34958693938438,14.668177916
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=8",62.6836002651767,0.079765680
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=8",121.12362168737342,0.412801395
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=8",134.11176997434174,3.728233548
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=8",139.80344773388484,14.305798837
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=16",61.807004414750715,0.080896980
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=16",121.2477060176517,0.412378936
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=16",135.52362760556534,3.689393568
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=16",137.56509216387505,14.538572021
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=32",61.33733622425195,0.081516419
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=32",117.65248218771421,0.424980409
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=32",135.01775722894044,3.703216601
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=32",136.31559990800946,14.671835075
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=64",55.20867637474434,0.090565475
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=64",119.55984416397744,0.418200612
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=64",135.28434191774966,3.695919224
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=64",138.94372020094744,14.394317333
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=128",54.2528752993104,0.092161014
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=128",116.43491736277419,0.429424447
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=128",132.99159271064707,3.759636153
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=128",141.93992520510983,14.090468183
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=1",49.29458560693929,0.101431018
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=1",111.01204297718455,0.450401584
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=1",127.12821230805451,3.933037293
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=1",132.02518855366264,15.148624455
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=4",60.12675417249911,0.083157657
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=4",117.72123317210877,0.424732214
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=4",129.76360035815378,3.853160660
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=4",133.67704056743858,14.961432356
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=8",60.87087102990288,0.082141095
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=8",120.99358187125092,0.413245060
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=8",130.6370442751499,3.827398291
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=8",141.03213017612555,14.181165650
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=16",60.4451987145579,0.082719556
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=16",120.13493055638783,0.416198684
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=16",133.91052763061325,3.733836382
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=16",135.7983959257863,14.727714465
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=32",57.5564737501442,0.086871201
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=32",107.05856771485348,0.467034083
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=32",129.10036698708078,3.872955683
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=32",132.2647235749946,15.121189883
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=64",55.224622008171586,0.090539325
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=64",121.1602499390564,0.412676600
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=64",130.66005815966642,3.826724150
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=64",141.2712545387263,14.157161742
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=128",51.41246863209611,0.097252673
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=128",120.27572497919188,0.415711483
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=128",137.11492794462453,3.646575960
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=128",136.09007747084095,14.696148589
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=1",47.69143504176644,0.104840628
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=1",109.44643257415822,0.456844493
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=1",128.08144940775756,3.903765942
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=1",134.74820411922337,14.842498370
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=4",62.32654522463983,0.080222640
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=4",117.49537423061561,0.425548668
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=4",130.28666024846436,3.837691434
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=4",136.34958693938438,14.668177916
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=8",62.6836002651767,0.079765680
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=8",121.12362168737342,0.412801395
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=8",134.11176997434174,3.728233548
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=8",139.80344773388484,14.305798837
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=16",61.807004414750715,0.080896980
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=16",121.2477060176517,0.412378936
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=16",135.52362760556534,3.689393568
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=16",137.56509216387505,14.538572021
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=32",61.33733622425195,0.081516419
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=32",117.65248218771421,0.424980409
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=32",135.01775722894044,3.703216601
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=32",136.31559990800946,14.671835075
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=64",55.20867637474434,0.090565475
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=64",119.55984416397744,0.418200612
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=64",135.28434191774966,3.695919224
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=64",138.94372020094744,14.394317333
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=128",54.2528752993104,0.092161014
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=128",116.43491736277419,0.429424447
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=128",132.99159271064707,3.759636153
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=128",141.93992520510983,14.090468183
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=1",49.21986949824113,0.101584991
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=1",110.52964608261425,0.452367322
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=1",126.59509775700667,3.949600015
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=1",131.61475652257286,15.195864452
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=4",62.69120661288914,0.079756002
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=4",119.37904996709938,0.418833958
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=4",134.51243537293885,3.717128447
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=4",138.8456233102718,14.404487173
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=8",61.177989529754164,0.081728740
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=8",112.46122915993895,0.444597666
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=8",135.40368528968514,3.692661680
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=8",139.10041903134638,14.378101906
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=16",60.4021137840523,0.082778560
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=16",120.09835988419435,0.416325419
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=16",138.06719982118508,3.621424934
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=16",137.9942066031616,14.493362071
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=32",61.304485142802854,0.081560101
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=32",119.37404510015409,0.418851518
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=32",137.64016648636314,3.632660529
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=32",135.85768172197447,14.721287561
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=64",56.947064673801854,0.087800838
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=64",122.6855846006016,0.407545843
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=64",137.28864391303406,3.641961824
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=64",138.82082473003302,14.407060352
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=128",54.065021947425336,0.092481235
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=128",118.05368125660947,0.423536136
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=128",136.35811964881256,3.666815011
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=128",143.8094164247727,13.907295153
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=1",47.69143504176644,0.104840628
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=1",109.44643257415822,0.456844493
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=1",128.08144940775756,3.903765942
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=1",134.74820411922337,14.842498370
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=4",62.32654522463983,0.080222640
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=4",117.49537423061561,0.425548668
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=4",130.28666024846436,3.837691434
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=4",136.34958693938438,14.668177916
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=8",62.6836002651767,0.079765680
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=8",121.12362168737342,0.412801395
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=8",134.11176997434174,3.728233548
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=8",139.80344773388484,14.305798837
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=16",61.807004414750715,0.080896980
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=16",121.2477060176517,0.412378936
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=16",135.52362760556534,3.689393568
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=16",137.56509216387505,14.538572021
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=32",61.33733622425195,0.081516419
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=32",117.65248218771421,0.424980409
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=32",135.01775722894044,3.703216601
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=32",136.31559990800946,14.671835075
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=64",55.20867637474434,0.090565475
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=64",119.55984416397744,0.418200612
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=64",135.28434191774966,3.695919224
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=64",138.94372020094744,14.394317333
+"old","http/_chunky_http_client.js","type=""send"" n=5 len=128",54.2528752993104,0.092161014
+"old","http/_chunky_http_client.js","type=""send"" n=50 len=128",116.43491736277419,0.429424447
+"old","http/_chunky_http_client.js","type=""send"" n=500 len=128",132.99159271064707,3.759636153
+"old","http/_chunky_http_client.js","type=""send"" n=2000 len=128",141.93992520510983,14.090468183
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=1",50.17405731701675,0.099653093
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=1",108.4533619406695,0.461027663
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=1",127.07670695604263,3.934631389
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=1",132.57408980249593,15.085904063
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=4",61.80876018524926,0.080894682
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=4",115.32362799203001,0.433562496
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=4",131.67877048005118,3.797119294
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=4",135.6991522860251,14.738485586
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=8",61.36018697283469,0.081486062
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=8",121.97219664756638,0.409929487
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=8",134.87929186567627,3.707018276
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=8",140.02969427687927,14.282684900
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=16",57.447704865955025,0.087035679
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=16",120.6534052728458,0.414410185
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=16",137.0425900931342,3.648500803
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=16",140.33509312894574,14.251602756
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=32",57.327314164080796,0.087218459
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=32",120.40185786423903,0.415275984
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=32",137.15300261536183,3.645563644
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=32",138.12674228203747,14.479455368
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=64",55.45366991167494,0.090165358
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=64",119.48741695218264,0.418454104
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=64",135.71893317067457,3.684084367
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=64",139.36679399140547,14.350620709
+"new","http/_chunky_http_client.js","type=""send"" n=5 len=128",52.893106966068736,0.094530276
+"new","http/_chunky_http_client.js","type=""send"" n=50 len=128",117.71610416575632,0.424750720
+"new","http/_chunky_http_client.js","type=""send"" n=500 len=128",137.7680623899379,3.629288177
+"new","http/_chunky_http_client.js","type=""send"" n=2000 len=128",143.11858482397486,13.974425491
+"old","http/incoming_headers.js","duration=5 w=0 headers=20 connections=50 benchmarker=""test-double-http""",3454,5.179845868
+"old","http/incoming_headers.js","duration=5 w=6 headers=20 connections=50 benchmarker=""test-double-http""",3402,5.184128166
+"new","http/incoming_headers.js","duration=5 w=0 headers=20 connections=50 benchmarker=""test-double-http""",3301,5.181935625
+"new","http/incoming_headers.js","duration=5 w=6 headers=20 connections=50 benchmarker=""test-double-http""",3510,5.204663852
+"old","http/incoming_headers.js","duration=5 w=0 headers=20 connections=50 benchmarker=""test-double-http""",3454,5.179845868
+"old","http/incoming_headers.js","duration=5 w=6 headers=20 connections=50 benchmarker=""test-double-http""",3402,5.184128166
+"new","http/incoming_headers.js","duration=5 w=0 headers=20 connections=50 benchmarker=""test-double-http""",3230,5.183076220
+"new","http/incoming_headers.js","duration=5 w=6 headers=20 connections=50 benchmarker=""test-double-http""",3255,5.183049781
+"old","http/incoming_headers.js","duration=5 w=0 headers=20 connections=50 benchmarker=""test-double-http""",3454,5.179845868
+"old","http/incoming_headers.js","duration=5 w=6 headers=20 connections=50 benchmarker=""test-double-http""",3402,5.184128166
+"new","http/incoming_headers.js","duration=5 w=0 headers=20 connections=50 benchmarker=""test-double-http""",3478,5.194596413
+"new","http/incoming_headers.js","duration=5 w=6 headers=20 connections=50 benchmarker=""test-double-http""",3650,5.180169489
+"old","http/set-header.js","duration=5 res=""normal"" benchmarker=""test-double-http""",2982,5.191582762
+"old","http/set-header.js","duration=5 res=""setHeader"" benchmarker=""test-double-http""",3022,5.201491137
+"old","http/set-header.js","duration=5 res=""setHeaderWH"" benchmarker=""test-double-http""",3028,5.200365598
+"new","http/set-header.js","duration=5 res=""normal"" benchmarker=""test-double-http""",3179,5.180478043
+"new","http/set-header.js","duration=5 res=""setHeader"" benchmarker=""test-double-http""",2873,5.185653249
+"new","http/set-header.js","duration=5 res=""setHeaderWH"" benchmarker=""test-double-http""",3093,5.181630165
+"old","http/set-header.js","duration=5 res=""normal"" benchmarker=""test-double-http""",2982,5.191582762
+"old","http/set-header.js","duration=5 res=""setHeader"" benchmarker=""test-double-http""",3022,5.201491137
+"old","http/set-header.js","duration=5 res=""setHeaderWH"" benchmarker=""test-double-http""",3028,5.200365598
+"new","http/set-header.js","duration=5 res=""normal"" benchmarker=""test-double-http""",3091,5.179492283
+"new","http/set-header.js","duration=5 res=""setHeader"" benchmarker=""test-double-http""",2856,5.185158019
+"new","http/set-header.js","duration=5 res=""setHeaderWH"" benchmarker=""test-double-http""",2865,5.192066796
+"old","http/set-header.js","duration=5 res=""normal"" benchmarker=""test-double-http""",2982,5.191582762
+"old","http/set-header.js","duration=5 res=""setHeader"" benchmarker=""test-double-http""",3022,5.201491137
+"old","http/set-header.js","duration=5 res=""setHeaderWH"" benchmarker=""test-double-http""",3028,5.200365598
+"new","http/set-header.js","duration=5 res=""normal"" benchmarker=""test-double-http""",3190,5.183901264
+"new","http/set-header.js","duration=5 res=""setHeader"" benchmarker=""test-double-http""",2929,5.178493291
+"new","http/set-header.js","duration=5 res=""setHeaderWH"" benchmarker=""test-double-http""",2959,5.184371384
+"old","http/set_header.js","n=1000000 value=""X-Powered-By""",680444.8626848692,1.469626791
+"old","http/set_header.js","n=1000000 value=""Vary""",832160.6774714609,1.201691004
+"old","http/set_header.js","n=1000000 value=""Set-Cookie""",691213.7392676608,1.446730502
+"old","http/set_header.js","n=1000000 value=""Content-Type""",705514.269048668,1.417405776
+"old","http/set_header.js","n=1000000 value=""Content-Length""",503042.4426974783,1.987903833
+"old","http/set_header.js","n=1000000 value=""Connection""",663596.7570268033,1.506939251
+"old","http/set_header.js","n=1000000 value=""Transfer-Encoding""",492670.92072011327,2.029752433
+"new","http/set_header.js","n=1000000 value=""X-Powered-By""",686514.0472757175,1.456634433
+"new","http/set_header.js","n=1000000 value=""Vary""",832076.8300603984,1.201812097
+"new","http/set_header.js","n=1000000 value=""Set-Cookie""",636252.7227067325,1.571702508
+"new","http/set_header.js","n=1000000 value=""Content-Type""",665564.6039411033,1.502483747
+"new","http/set_header.js","n=1000000 value=""Content-Length""",513910.86221131275,1.945862743
+"new","http/set_header.js","n=1000000 value=""Connection""",732000.8838852113,1.366118569
+"new","http/set_header.js","n=1000000 value=""Transfer-Encoding""",459104.90191340155,2.178151433
+"old","http/set_header.js","n=1000000 value=""X-Powered-By""",680444.8626848692,1.469626791
+"old","http/set_header.js","n=1000000 value=""Vary""",832160.6774714609,1.201691004
+"old","http/set_header.js","n=1000000 value=""Set-Cookie""",691213.7392676608,1.446730502
+"old","http/set_header.js","n=1000000 value=""Content-Type""",705514.269048668,1.417405776
+"old","http/set_header.js","n=1000000 value=""Content-Length""",503042.4426974783,1.987903833
+"old","http/set_header.js","n=1000000 value=""Connection""",663596.7570268033,1.506939251
+"old","http/set_header.js","n=1000000 value=""Transfer-Encoding""",492670.92072011327,2.029752433
+"new","http/set_header.js","n=1000000 value=""X-Powered-By""",691855.1941571462,1.445389163
+"new","http/set_header.js","n=1000000 value=""Vary""",857864.0428549483,1.165685878
+"new","http/set_header.js","n=1000000 value=""Set-Cookie""",707946.2182234774,1.412536679
+"new","http/set_header.js","n=1000000 value=""Content-Type""",677951.9042329696,1.475030889
+"new","http/set_header.js","n=1000000 value=""Content-Length""",503665.93680217507,1.985442983
+"new","http/set_header.js","n=1000000 value=""Connection""",678447.8829454111,1.473952569
+"new","http/set_header.js","n=1000000 value=""Transfer-Encoding""",496767.6992465657,2.013013329
+"old","http/set_header.js","n=1000000 value=""X-Powered-By""",680444.8626848692,1.469626791
+"old","http/set_header.js","n=1000000 value=""Vary""",832160.6774714609,1.201691004
+"old","http/set_header.js","n=1000000 value=""Set-Cookie""",691213.7392676608,1.446730502
+"old","http/set_header.js","n=1000000 value=""Content-Type""",705514.269048668,1.417405776
+"old","http/set_header.js","n=1000000 value=""Content-Length""",503042.4426974783,1.987903833
+"old","http/set_header.js","n=1000000 value=""Connection""",663596.7570268033,1.506939251
+"old","http/set_header.js","n=1000000 value=""Transfer-Encoding""",492670.92072011327,2.029752433
+"new","http/set_header.js","n=1000000 value=""X-Powered-By""",716779.8218658643,1.395128559
+"new","http/set_header.js","n=1000000 value=""Vary""",847736.0214728346,1.179612491
+"new","http/set_header.js","n=1000000 value=""Set-Cookie""",715865.7542592059,1.396909957
+"new","http/set_header.js","n=1000000 value=""Content-Type""",682076.919636737,1.466110304
+"new","http/set_header.js","n=1000000 value=""Content-Length""",508343.026401216,1.967175604
+"new","http/set_header.js","n=1000000 value=""Connection""",694479.3656641586,1.439927591
+"new","http/set_header.js","n=1000000 value=""Transfer-Encoding""",480680.66027345305,2.080383262
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",3110,5.182813607
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2833,5.190700182
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2913,5.186353085
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2920,5.187737684
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2745,5.212750891
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",3152,5.184401186
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2807,5.191491422
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2986,5.188797723
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2985,5.185071686
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2873,5.206214975
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2934,5.182658647
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2901,5.189255763
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2608,5.182363327
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2819,5.192734402
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2756,5.185053426
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",3025,5.187675224
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1770,5.185334306
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1823,5.188349644
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1798,5.186272845
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1686,5.190922823
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1752,5.186071365
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",2091,5.188023844
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1845,5.187239004
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1762,5.193244421
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2995,5.185784505
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2800,5.190340803
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",3003,5.181556347
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2969,5.188400943
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2791,5.187307644
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2802,5.185077826
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2820,5.184311365
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2730,5.197663119
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",3113,5.179802608
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2868,5.202859357
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2996,5.187752764
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2754,5.185521665
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2737,5.180942047
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2661,5.181110968
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2732,5.180207387
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2888,5.181643587
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2119,5.191296602
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2035,5.190604403
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2165,5.187442545
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2188,5.183891166
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1911,5.205811795
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",2015,5.188760844
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1982,5.188136884
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1852,5.184762846
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",3203,5.181496025
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2902,5.185674890
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",3016,5.187413712
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",3132,5.186772931
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2872,5.183405427
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2909,5.188749474
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2807,5.188323093
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2858,5.191106837
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",3098,5.188556393
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2834,5.214192683
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",3221,5.178843542
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2923,5.184995409
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2553,5.184570668
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2895,5.205970233
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2892,5.182052405
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2779,5.205545893
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1832,5.184700729
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1719,5.191218996
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1739,5.185806790
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1709,5.210699979
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1874,5.186082070
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",2047,5.212274901
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1871,5.191557757
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",2091,5.190845735
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2947,5.185777530
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2843,5.182724946
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2872,5.188871894
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2993,5.186397731
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2738,5.186683231
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",3058,5.185005269
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2654,5.192068837
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2870,5.185249649
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2764,5.186626151
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",3122,5.183319927
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2980,5.189454794
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2814,5.187396212
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2893,5.181419045
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2994,5.183100427
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2731,5.184617409
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",3042,5.182667646
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",1996,5.191350036
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",1937,5.195751482
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2110,5.194433220
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",1938,5.186937411
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1907,5.194697860
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1905,5.208885097
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1880,5.211442860
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",2120,5.188753434
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",3110,5.182813607
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2833,5.190700182
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2913,5.186353085
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2920,5.187737684
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2745,5.212750891
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",3152,5.184401186
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2807,5.191491422
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2986,5.188797723
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2985,5.185071686
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2873,5.206214975
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2934,5.182658647
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2901,5.189255763
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2608,5.182363327
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2819,5.192734402
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2756,5.185053426
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",3025,5.187675224
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1770,5.185334306
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1823,5.188349644
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1798,5.186272845
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1686,5.190922823
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1752,5.186071365
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",2091,5.188023844
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1845,5.187239004
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1762,5.193244421
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2995,5.185784505
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2800,5.190340803
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",3003,5.181556347
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2969,5.188400943
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2791,5.187307644
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2802,5.185077826
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2820,5.184311365
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2730,5.197663119
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",3113,5.179802608
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2868,5.202859357
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2996,5.187752764
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2754,5.185521665
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2737,5.180942047
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2661,5.181110968
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2732,5.180207387
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2888,5.181643587
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2119,5.191296602
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2035,5.190604403
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2165,5.187442545
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2188,5.183891166
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1911,5.205811795
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",2015,5.188760844
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1982,5.188136884
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1852,5.184762846
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2828,5.183825120
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",3111,5.194289615
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",3047,5.187408798
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2957,5.188715018
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2847,5.179312742
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",3027,5.182259841
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2880,5.180162282
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",3185,5.180668762
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2896,5.200938592
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2891,5.199806932
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2973,5.182179541
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2997,5.181553101
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2699,5.191994116
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2885,5.191983377
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2780,5.192594056
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2959,5.182461001
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1658,5.202448331
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1804,5.185743199
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1789,5.189924858
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1859,5.181430821
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1813,5.191965177
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",2050,5.184796780
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1737,5.203108551
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1993,5.183386981
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2896,5.182903621
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2905,5.183629160
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2759,5.186981859
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",3038,5.198527934
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2672,5.190179043
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2855,5.187209551
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2799,5.183202854
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",3017,5.184246393
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2918,5.192478606
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",3050,5.181699815
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2981,5.183693494
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2891,5.183205554
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2671,5.209771291
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2746,5.202389018
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2712,5.187627790
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2799,5.182998954
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2083,5.196033002
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2055,5.188235470
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2048,5.190943568
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2009,5.211201290
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",2005,5.192250606
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",2108,5.192793606
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1852,5.194436465
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",2031,5.187911830
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",3110,5.182813607
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2833,5.190700182
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2913,5.186353085
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2920,5.187737684
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2745,5.212750891
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",3152,5.184401186
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2807,5.191491422
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2986,5.188797723
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2985,5.185071686
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2873,5.206214975
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2934,5.182658647
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2901,5.189255763
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2608,5.182363327
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2819,5.192734402
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2756,5.185053426
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",3025,5.187675224
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1770,5.185334306
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1823,5.188349644
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1798,5.186272845
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1686,5.190922823
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1752,5.186071365
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",2091,5.188023844
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1845,5.187239004
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1762,5.193244421
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2995,5.185784505
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2800,5.190340803
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",3003,5.181556347
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2969,5.188400943
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2791,5.187307644
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2802,5.185077826
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2820,5.184311365
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2730,5.197663119
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",3113,5.179802608
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2868,5.202859357
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2996,5.187752764
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2754,5.185521665
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2737,5.180942047
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2661,5.181110968
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2732,5.180207387
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2888,5.181643587
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2119,5.191296602
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2035,5.190604403
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2165,5.187442545
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2188,5.183891166
+"old","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1911,5.205811795
+"old","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",2015,5.188760844
+"old","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1982,5.188136884
+"old","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1852,5.184762846
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2970,5.185970243
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",2904,5.179810109
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",3007,5.182128866
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""",3113,5.192949815
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2777,5.198503189
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",3030,5.185899923
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2672,5.183432505
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""",2977,5.181871747
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2812,5.215979330
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2900,5.179846569
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",2828,5.180323608
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""",3017,5.178072391
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2718,5.187241141
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2768,5.188728420
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2753,5.179056210
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""",2897,5.178622510
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1609,5.186866502
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1753,5.194926493
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1791,5.196154032
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""",1774,5.192830235
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1843,5.186684481
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1882,5.191615376
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1924,5.188494980
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""",1980,5.202165525
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2963,5.187215101
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",2822,5.193386454
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",3025,5.181215408
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""",3060,5.183231486
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2727,5.192435255
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2789,5.198537969
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2767,5.187387461
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""",2806,5.184463684
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2849,5.186363802
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2912,5.186578402
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",3093,5.183603905
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""",2799,5.182652086
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2825,5.187934241
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2738,5.181360528
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2859,5.184936583
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""",2947,5.179863569
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",1938,5.192699415
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2030,5.187968161
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2081,5.183150785
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""",2076,5.205231201
+"new","http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1878,5.196831191
+"new","http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1868,5.184503585
+"new","http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",1929,5.188965239
+"new","http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""",2016,5.189053899
+"old","http/upgrade.js","n=5",44.195057040969104,0.113134824
+"old","http/upgrade.js","n=1000",278.8775345112281,3.585803359
+"new","http/upgrade.js","n=5",42.82499865786454,0.116754236
+"new","http/upgrade.js","n=1000",293.1819683616162,3.410850966
+"old","http/upgrade.js","n=5",44.195057040969104,0.113134824
+"old","http/upgrade.js","n=1000",278.8775345112281,3.585803359
+"new","http/upgrade.js","n=5",41.85601070228058,0.119457156
+"new","http/upgrade.js","n=1000",294.91089674084554,3.390854699
+"old","http/upgrade.js","n=5",44.195057040969104,0.113134824
+"old","http/upgrade.js","n=1000",278.8775345112281,3.585803359
+"new","http/upgrade.js","n=5",44.811516488039,0.111578460
+"new","http/upgrade.js","n=1000",289.7045783248944,3.451792187

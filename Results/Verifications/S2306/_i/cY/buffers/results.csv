@@ -1,0 +1,1393 @@
+"binary","filename","configuration","rate","time"
+"old","buffers/buffer-base64-decode-wrapped.js","n=32 linesCount=524288 charsPerLine=76",3.498436746334402,9.146942569
+"new","buffers/buffer-base64-decode-wrapped.js","n=32 linesCount=524288 charsPerLine=76",3.4466054717836934,9.284497533
+"old","buffers/buffer-base64-decode-wrapped.js","n=32 linesCount=524288 charsPerLine=76",3.498436746334402,9.146942569
+"new","buffers/buffer-base64-decode-wrapped.js","n=32 linesCount=524288 charsPerLine=76",3.3150484261124182,9.652950994
+"old","buffers/buffer-base64-decode-wrapped.js","n=32 linesCount=524288 charsPerLine=76",3.498436746334402,9.146942569
+"new","buffers/buffer-base64-decode-wrapped.js","n=32 linesCount=524288 charsPerLine=76",3.2980825961843117,9.702607217
+"old","buffers/buffer-base64-decode.js","size=8388608 n=32",4.430532864771863,7.222607523
+"new","buffers/buffer-base64-decode.js","size=8388608 n=32",4.048511081097634,7.904140401
+"old","buffers/buffer-base64-decode.js","size=8388608 n=32",4.430532864771863,7.222607523
+"new","buffers/buffer-base64-decode.js","size=8388608 n=32",4.47061144174503,7.157857581
+"old","buffers/buffer-base64-decode.js","size=8388608 n=32",4.430532864771863,7.222607523
+"new","buffers/buffer-base64-decode.js","size=8388608 n=32",4.3595219860924335,7.340254299
+"old","buffers/buffer-base64-encode.js","n=32 len=67108864",1.6521017679411243,19.369266846
+"new","buffers/buffer-base64-encode.js","n=32 len=67108864",1.4656301692064722,21.833611693
+"old","buffers/buffer-base64-encode.js","n=32 len=67108864",1.6521017679411243,19.369266846
+"new","buffers/buffer-base64-encode.js","n=32 len=67108864",1.4982010888607429,21.358948567
+"old","buffers/buffer-base64-encode.js","n=32 len=67108864",1.6521017679411243,19.369266846
+"new","buffers/buffer-base64-encode.js","n=32 len=67108864",1.4667934884002465,21.816295377
+"old","buffers/buffer-bytelength-buffer.js","n=4000000 len=2",3941368.109469332,1.014876025
+"old","buffers/buffer-bytelength-buffer.js","n=4000000 len=16",3906841.1157435807,1.023845066
+"old","buffers/buffer-bytelength-buffer.js","n=4000000 len=256",3873117.8745875256,1.032759686
+"new","buffers/buffer-bytelength-buffer.js","n=4000000 len=2",4995140.8518578345,0.800778220
+"new","buffers/buffer-bytelength-buffer.js","n=4000000 len=16",4969428.911924967,0.804921465
+"new","buffers/buffer-bytelength-buffer.js","n=4000000 len=256",5098333.716434875,0.784570062
+"old","buffers/buffer-bytelength-buffer.js","n=4000000 len=2",3941368.109469332,1.014876025
+"old","buffers/buffer-bytelength-buffer.js","n=4000000 len=16",3906841.1157435807,1.023845066
+"old","buffers/buffer-bytelength-buffer.js","n=4000000 len=256",3873117.8745875256,1.032759686
+"new","buffers/buffer-bytelength-buffer.js","n=4000000 len=2",5126880.473749185,0.780201532
+"new","buffers/buffer-bytelength-buffer.js","n=4000000 len=16",5011263.962081409,0.798201817
+"new","buffers/buffer-bytelength-buffer.js","n=4000000 len=256",5255291.629014528,0.761137589
+"old","buffers/buffer-bytelength-buffer.js","n=4000000 len=2",3941368.109469332,1.014876025
+"old","buffers/buffer-bytelength-buffer.js","n=4000000 len=16",3906841.1157435807,1.023845066
+"old","buffers/buffer-bytelength-buffer.js","n=4000000 len=256",3873117.8745875256,1.032759686
+"new","buffers/buffer-bytelength-buffer.js","n=4000000 len=2",4938047.600467862,0.810036744
+"new","buffers/buffer-bytelength-buffer.js","n=4000000 len=16",4904184.615675849,0.815629980
+"new","buffers/buffer-bytelength-buffer.js","n=4000000 len=256",5117422.1751359105,0.781643543
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""one_byte""",2264074.3164417623,1.766726459
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""one_byte""",1541784.1806217805,2.594396836
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""one_byte""",1209686.40371527,3.306642108
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""one_byte""",214600.339989795,18.639299454
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""one_byte""",2058920.4275057754,1.942765707
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""one_byte""",1982026.98917232,2.018135990
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""one_byte""",1940462.5608288683,2.061364172
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""one_byte""",1940771.4853500293,2.061036052
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""two_bytes""",1754211.8655397552,2.280226282
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""two_bytes""",1558802.9128449045,2.566071674
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""two_bytes""",936995.8045340556,4.268962551
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""two_bytes""",114000.0980881924,35.087689108
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""two_bytes""",2069632.0597310383,1.932710687
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""two_bytes""",1944348.9682685516,2.057243872
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""two_bytes""",1800751.6399471073,2.221294659
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""two_bytes""",1948975.7837717314,2.052360031
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""three_bytes""",1735211.1488194328,2.305194963
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""three_bytes""",1544522.4846864804,2.589797196
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""three_bytes""",822051.8166852226,4.865873317
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""three_bytes""",92491.0389241283,43.247432903
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""three_bytes""",2061277.857794065,1.940543816
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""three_bytes""",1920217.6350088732,2.083097211
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""three_bytes""",1826333.2181811978,2.190180828
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""three_bytes""",1945053.6229474933,2.056498573
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""four_bytes""",1543756.8894058825,2.591081554
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""four_bytes""",1348434.0680003744,2.966403842
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""four_bytes""",512679.2169165842,7.802149703
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""four_bytes""",43116.9812178371,92.770873262
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""four_bytes""",2084651.4225978956,1.918786017
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""four_bytes""",1938443.2497564543,2.063511532
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""four_bytes""",1960460.5753747998,2.040336873
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""four_bytes""",1940839.4182498427,2.060963912
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""one_byte""",4658853.013100083,0.858580425
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""one_byte""",2514381.1791608934,1.590848688
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""one_byte""",1490351.0823956972,2.683931355
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""one_byte""",220050.3469967733,18.177658225
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""one_byte""",4008333.2406322765,0.997921021
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""one_byte""",3812208.337589743,1.049260598
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""one_byte""",3668580.6951442226,1.090339925
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""one_byte""",3701797.843366818,1.080556035
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""two_bytes""",2707616.5529133435,1.477314059
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""two_bytes""",2236704.0746494974,1.788345649
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""two_bytes""",1081526.7940573571,3.698475176
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""two_bytes""",116444.76261506038,34.351051178
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""two_bytes""",3861387.748544932,1.035897004
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""two_bytes""",3710946.8155999384,1.077892031
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""two_bytes""",3909018.1116242986,1.023274870
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""two_bytes""",3492714.795500584,1.145240947
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""three_bytes""",2591022.297531437,1.543792195
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""three_bytes""",2062008.7062245004,1.939856019
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""three_bytes""",967240.3045370996,4.135476966
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""three_bytes""",93701.63831878734,42.688687965
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""three_bytes""",3884422.817454278,1.029754017
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""three_bytes""",3907091.131093603,1.023779550
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""three_bytes""",3841002.876632682,1.041394690
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""three_bytes""",3709819.4372264757,1.078219592
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""four_bytes""",2267453.8681493783,1.764093222
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""four_bytes""",1899653.1530638223,2.105647546
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""four_bytes""",548479.1014983852,7.292894094
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""four_bytes""",43390.47190048792,92.186137297
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""four_bytes""",3713691.432671047,1.077095411
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""four_bytes""",3863343.559291448,1.035372583
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""four_bytes""",3875015.1077151513,1.032254040
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""four_bytes""",3776647.5173957343,1.059140410
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""one_byte""",2264074.3164417623,1.766726459
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""one_byte""",1541784.1806217805,2.594396836
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""one_byte""",1209686.40371527,3.306642108
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""one_byte""",214600.339989795,18.639299454
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""one_byte""",2058920.4275057754,1.942765707
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""one_byte""",1982026.98917232,2.018135990
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""one_byte""",1940462.5608288683,2.061364172
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""one_byte""",1940771.4853500293,2.061036052
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""two_bytes""",1754211.8655397552,2.280226282
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""two_bytes""",1558802.9128449045,2.566071674
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""two_bytes""",936995.8045340556,4.268962551
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""two_bytes""",114000.0980881924,35.087689108
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""two_bytes""",2069632.0597310383,1.932710687
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""two_bytes""",1944348.9682685516,2.057243872
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""two_bytes""",1800751.6399471073,2.221294659
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""two_bytes""",1948975.7837717314,2.052360031
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""three_bytes""",1735211.1488194328,2.305194963
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""three_bytes""",1544522.4846864804,2.589797196
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""three_bytes""",822051.8166852226,4.865873317
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""three_bytes""",92491.0389241283,43.247432903
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""three_bytes""",2061277.857794065,1.940543816
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""three_bytes""",1920217.6350088732,2.083097211
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""three_bytes""",1826333.2181811978,2.190180828
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""three_bytes""",1945053.6229474933,2.056498573
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""four_bytes""",1543756.8894058825,2.591081554
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""four_bytes""",1348434.0680003744,2.966403842
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""four_bytes""",512679.2169165842,7.802149703
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""four_bytes""",43116.9812178371,92.770873262
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""four_bytes""",2084651.4225978956,1.918786017
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""four_bytes""",1938443.2497564543,2.063511532
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""four_bytes""",1960460.5753747998,2.040336873
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""four_bytes""",1940839.4182498427,2.060963912
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""one_byte""",4181023.5786671494,0.956703526
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""one_byte""",2313241.150862386,1.729175533
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""one_byte""",1537811.8212475865,2.601098486
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""one_byte""",217209.92493532726,18.415364773
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""one_byte""",3947914.1578494674,1.013193256
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""one_byte""",3922753.8259861087,1.019691823
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""one_byte""",3560366.4524616995,1.123479859
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""one_byte""",3813113.0565285576,1.049011645
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""two_bytes""",2735160.155234425,1.462437215
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""two_bytes""",2416668.352745968,1.655171259
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""two_bytes""",1074996.718196269,3.720941592
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""two_bytes""",116342.47478605279,34.381252482
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""two_bytes""",3943124.4012384075,1.014423993
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""two_bytes""",3753204.7454173397,1.065755873
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""two_bytes""",3698458.6660564607,1.081531622
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""two_bytes""",3534312.346571304,1.131761884
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""three_bytes""",2702807.3049978483,1.479942722
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""three_bytes""",2251339.900560489,1.776719721
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""three_bytes""",961916.0792688453,4.158366916
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""three_bytes""",93613.91929711908,42.728688533
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""three_bytes""",3996141.0105450773,1.000965679
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""three_bytes""",3628116.3309533284,1.102500481
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""three_bytes""",3775460.436867494,1.059473425
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""three_bytes""",3883804.9337494583,1.029917843
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""four_bytes""",2283223.36860578,1.751909189
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""four_bytes""",1724063.2493705568,2.320100496
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""four_bytes""",550769.1334254468,7.262571116
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""four_bytes""",43299.537290452776,92.379740069
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""four_bytes""",3978321.287876569,1.005449211
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""four_bytes""",3726357.969315896,1.073434177
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""four_bytes""",3801285.883593494,1.052275499
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""four_bytes""",3569880.626565385,1.120485646
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""one_byte""",2264074.3164417623,1.766726459
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""one_byte""",1541784.1806217805,2.594396836
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""one_byte""",1209686.40371527,3.306642108
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""one_byte""",214600.339989795,18.639299454
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""one_byte""",2058920.4275057754,1.942765707
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""one_byte""",1982026.98917232,2.018135990
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""one_byte""",1940462.5608288683,2.061364172
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""one_byte""",1940771.4853500293,2.061036052
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""two_bytes""",1754211.8655397552,2.280226282
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""two_bytes""",1558802.9128449045,2.566071674
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""two_bytes""",936995.8045340556,4.268962551
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""two_bytes""",114000.0980881924,35.087689108
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""two_bytes""",2069632.0597310383,1.932710687
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""two_bytes""",1944348.9682685516,2.057243872
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""two_bytes""",1800751.6399471073,2.221294659
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""two_bytes""",1948975.7837717314,2.052360031
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""three_bytes""",1735211.1488194328,2.305194963
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""three_bytes""",1544522.4846864804,2.589797196
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""three_bytes""",822051.8166852226,4.865873317
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""three_bytes""",92491.0389241283,43.247432903
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""three_bytes""",2061277.857794065,1.940543816
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""three_bytes""",1920217.6350088732,2.083097211
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""three_bytes""",1826333.2181811978,2.190180828
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""three_bytes""",1945053.6229474933,2.056498573
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""four_bytes""",1543756.8894058825,2.591081554
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""four_bytes""",1348434.0680003744,2.966403842
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""four_bytes""",512679.2169165842,7.802149703
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""four_bytes""",43116.9812178371,92.770873262
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""four_bytes""",2084651.4225978956,1.918786017
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""four_bytes""",1938443.2497564543,2.063511532
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""four_bytes""",1960460.5753747998,2.040336873
+"old","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""four_bytes""",1940839.4182498427,2.060963912
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""one_byte""",4618287.3244252,0.866121945
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""one_byte""",2319155.7765078396,1.724765555
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""one_byte""",1450769.3356704556,2.757157807
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""one_byte""",219942.38558512877,18.186580951
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""one_byte""",4107377.3970103846,0.973857431
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""one_byte""",3718876.9247174202,1.075593541
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""one_byte""",3660012.139345263,1.092892550
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""one_byte""",3644991.9087831737,1.097396126
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""two_bytes""",2587339.8647977016,1.545989398
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""two_bytes""",2254497.607465704,1.774231202
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""two_bytes""",1115672.6512427093,3.585281037
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""two_bytes""",116306.83889752993,34.391786742
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""two_bytes""",3955161.0315386266,1.011336825
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""two_bytes""",3798623.8681628634,1.053012917
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""two_bytes""",3829717.4977388363,1.044463463
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""two_bytes""",3686791.248658083,1.084954295
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""three_bytes""",2554675.639045166,1.565756505
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""three_bytes""",2269916.4583919006,1.762179390
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""three_bytes""",936098.8227825977,4.273053125
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""three_bytes""",93230.76695573772,42.904291476
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""three_bytes""",4005440.5338008944,0.998641714
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""three_bytes""",3912262.6663264483,1.022426238
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""three_bytes""",3761626.093030975,1.063369910
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""three_bytes""",3729369.139245119,1.072567464
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""utf8"" type=""four_bytes""",2270145.485281367,1.762001610
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""utf8"" type=""four_bytes""",1793883.3992715764,2.229799329
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""utf8"" type=""four_bytes""",547909.5067732907,7.300475627
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""utf8"" type=""four_bytes""",43462.805213523054,92.032715798
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=1 encoding=""base64"" type=""four_bytes""",4011904.62086721,0.997032676
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=2 encoding=""base64"" type=""four_bytes""",3745764.8731866106,1.067872687
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=16 encoding=""base64"" type=""four_bytes""",3898743.1110122995,1.025971675
+"new","buffers/buffer-bytelength-string.js","n=4000000 repeat=256 encoding=""base64"" type=""four_bytes""",3726147.1054018205,1.073494923
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=16",1125891.83031845,0.888184791
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=16",766988.1330990127,1.303801137
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=16",697524.9407942051,1.433640493
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=512",1023993.2597978379,0.976568928
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=512",724976.9314877819,1.379354234
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=512",680801.6465530946,1.468856612
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=4096",581536.3501016496,1.719582963
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=4096",467276.7518228906,2.140059389
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=4096",440502.5370115903,2.270134485
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=16386",232373.2991127896,4.303420418
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=16386",214945.04719437275,4.652351906
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=16386",204097.5081486435,4.899618859
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=16",2003981.7514215345,0.499006540
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=16",1519508.082962467,0.658107720
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=16",1297368.1333168643,0.770791246
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=512",1468762.207479391,0.680845405
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=512",1318622.617659681,0.758367092
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=512",1307978.672518319,0.764538460
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=4096",674188.7582911927,1.483264127
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=4096",649791.4151038461,1.538955389
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=4096",667906.8887196499,1.497214682
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=16386",242716.80472879906,4.120027870
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=16386",240303.96238522846,4.161396217
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=16386",238315.7927794002,4.196113016
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=16",1125891.83031845,0.888184791
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=16",766988.1330990127,1.303801137
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=16",697524.9407942051,1.433640493
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=512",1023993.2597978379,0.976568928
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=512",724976.9314877819,1.379354234
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=512",680801.6465530946,1.468856612
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=4096",581536.3501016496,1.719582963
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=4096",467276.7518228906,2.140059389
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=4096",440502.5370115903,2.270134485
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=16386",232373.2991127896,4.303420418
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=16386",214945.04719437275,4.652351906
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=16386",204097.5081486435,4.899618859
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=16",1937517.5018377837,0.516124370
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=16",1515870.9842690367,0.659686748
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=16",1302175.5097257954,0.767945636
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=512",1435094.1446729545,0.696818396
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=512",1356690.2648828665,0.737087916
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=512",1330248.844543193,0.751739048
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=4096",688543.6843607347,1.452340676
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=4096",664469.7643940984,1.504959373
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=4096",649132.9440711995,1.540516483
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=16386",255345.4625577309,3.916263050
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=16386",245489.7324039712,4.073490122
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=16386",239095.2283844651,4.182433948
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=16",1125891.83031845,0.888184791
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=16",766988.1330990127,1.303801137
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=16",697524.9407942051,1.433640493
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=512",1023993.2597978379,0.976568928
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=512",724976.9314877819,1.379354234
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=512",680801.6465530946,1.468856612
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=4096",581536.3501016496,1.719582963
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=4096",467276.7518228906,2.140059389
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=4096",440502.5370115903,2.270134485
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=16386",232373.2991127896,4.303420418
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=16386",214945.04719437275,4.652351906
+"old","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=16386",204097.5081486435,4.899618859
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=16",1953226.4456985234,0.511973408
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=16",1548573.8304005906,0.645755456
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=16",1266361.424428556,0.789663978
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=512",1644744.8981090568,0.607997022
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=512",1356852.0405251433,0.737000034
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=512",1299522.306516112,0.769513532
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=4096",666315.1858503408,1.500791249
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=4096",635351.705925684,1.573931400
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=4096",664269.5631501498,1.505412946
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=1 size=16386",246434.88850793883,4.057866993
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=2 size=16386",242195.97315989554,4.128887805
+"new","buffers/buffer-compare-instance-method.js","n=1000000 args=5 size=16386",237578.34291077245,4.209137869
+"old","buffers/buffer-compare-offset.js","n=1000000 size=16 method=""offset""",717549.8722311324,1.393631354
+"old","buffers/buffer-compare-offset.js","n=1000000 size=512 method=""offset""",738805.4999326338,1.353536215
+"old","buffers/buffer-compare-offset.js","n=1000000 size=4096 method=""offset""",689961.4810512236,1.449356272
+"old","buffers/buffer-compare-offset.js","n=1000000 size=16386 method=""offset""",706365.0247940869,1.415698633
+"old","buffers/buffer-compare-offset.js","n=1000000 size=16 method=""slice""",363306.93421503867,2.752493569
+"old","buffers/buffer-compare-offset.js","n=1000000 size=512 method=""slice""",369194.2964694219,2.708600890
+"old","buffers/buffer-compare-offset.js","n=1000000 size=4096 method=""slice""",371066.2610272715,2.694936471
+"old","buffers/buffer-compare-offset.js","n=1000000 size=16386 method=""slice""",373064.2240223924,2.680503612
+"new","buffers/buffer-compare-offset.js","n=1000000 size=16 method=""offset""",1458027.81666585,0.685857971
+"new","buffers/buffer-compare-offset.js","n=1000000 size=512 method=""offset""",1493378.5714738423,0.669622572
+"new","buffers/buffer-compare-offset.js","n=1000000 size=4096 method=""offset""",1456978.4878233576,0.686351932
+"new","buffers/buffer-compare-offset.js","n=1000000 size=16386 method=""offset""",1285113.3545928951,0.778141474
+"new","buffers/buffer-compare-offset.js","n=1000000 size=16 method=""slice""",465826.3082118256,2.146722893
+"new","buffers/buffer-compare-offset.js","n=1000000 size=512 method=""slice""",470024.16405037936,2.127550191
+"new","buffers/buffer-compare-offset.js","n=1000000 size=4096 method=""slice""",469772.00102613994,2.128692212
+"new","buffers/buffer-compare-offset.js","n=1000000 size=16386 method=""slice""",465995.9163696738,2.145941552
+"old","buffers/buffer-compare-offset.js","n=1000000 size=16 method=""offset""",717549.8722311324,1.393631354
+"old","buffers/buffer-compare-offset.js","n=1000000 size=512 method=""offset""",738805.4999326338,1.353536215
+"old","buffers/buffer-compare-offset.js","n=1000000 size=4096 method=""offset""",689961.4810512236,1.449356272
+"old","buffers/buffer-compare-offset.js","n=1000000 size=16386 method=""offset""",706365.0247940869,1.415698633
+"old","buffers/buffer-compare-offset.js","n=1000000 size=16 method=""slice""",363306.93421503867,2.752493569
+"old","buffers/buffer-compare-offset.js","n=1000000 size=512 method=""slice""",369194.2964694219,2.708600890
+"old","buffers/buffer-compare-offset.js","n=1000000 size=4096 method=""slice""",371066.2610272715,2.694936471
+"old","buffers/buffer-compare-offset.js","n=1000000 size=16386 method=""slice""",373064.2240223924,2.680503612
+"new","buffers/buffer-compare-offset.js","n=1000000 size=16 method=""offset""",1445339.8798750564,0.691878785
+"new","buffers/buffer-compare-offset.js","n=1000000 size=512 method=""offset""",1482437.669151512,0.674564618
+"new","buffers/buffer-compare-offset.js","n=1000000 size=4096 method=""offset""",1465198.9255233277,0.682501183
+"new","buffers/buffer-compare-offset.js","n=1000000 size=16386 method=""offset""",1491089.7412569528,0.670650446
+"new","buffers/buffer-compare-offset.js","n=1000000 size=16 method=""slice""",464702.58461838483,2.151914005
+"new","buffers/buffer-compare-offset.js","n=1000000 size=512 method=""slice""",473343.790690496,2.112629382
+"new","buffers/buffer-compare-offset.js","n=1000000 size=4096 method=""slice""",482540.84677747265,2.072363421
+"new","buffers/buffer-compare-offset.js","n=1000000 size=16386 method=""slice""",501191.77590485575,1.995244232
+"old","buffers/buffer-compare-offset.js","n=1000000 size=16 method=""offset""",717549.8722311324,1.393631354
+"old","buffers/buffer-compare-offset.js","n=1000000 size=512 method=""offset""",738805.4999326338,1.353536215
+"old","buffers/buffer-compare-offset.js","n=1000000 size=4096 method=""offset""",689961.4810512236,1.449356272
+"old","buffers/buffer-compare-offset.js","n=1000000 size=16386 method=""offset""",706365.0247940869,1.415698633
+"old","buffers/buffer-compare-offset.js","n=1000000 size=16 method=""slice""",363306.93421503867,2.752493569
+"old","buffers/buffer-compare-offset.js","n=1000000 size=512 method=""slice""",369194.2964694219,2.708600890
+"old","buffers/buffer-compare-offset.js","n=1000000 size=4096 method=""slice""",371066.2610272715,2.694936471
+"old","buffers/buffer-compare-offset.js","n=1000000 size=16386 method=""slice""",373064.2240223924,2.680503612
+"new","buffers/buffer-compare-offset.js","n=1000000 size=16 method=""offset""",1452698.0304626622,0.688374307
+"new","buffers/buffer-compare-offset.js","n=1000000 size=512 method=""offset""",1496363.6246566316,0.668286761
+"new","buffers/buffer-compare-offset.js","n=1000000 size=4096 method=""offset""",1373606.5242573693,0.728010520
+"new","buffers/buffer-compare-offset.js","n=1000000 size=16386 method=""offset""",1473632.2089929248,0.678595374
+"new","buffers/buffer-compare-offset.js","n=1000000 size=16 method=""slice""",468355.0055611935,2.135132513
+"new","buffers/buffer-compare-offset.js","n=1000000 size=512 method=""slice""",474108.8019327421,2.109220491
+"new","buffers/buffer-compare-offset.js","n=1000000 size=4096 method=""slice""",500665.6577722957,1.997340909
+"new","buffers/buffer-compare-offset.js","n=1000000 size=16386 method=""slice""",467427.2762655825,2.139370231
+"old","buffers/buffer-compare.js","n=1000000 size=16",1041344.6655403371,0.960296848
+"old","buffers/buffer-compare.js","n=1000000 size=512",1019197.0160911885,0.981164568
+"old","buffers/buffer-compare.js","n=1000000 size=4096",570319.3160019916,1.753403702
+"old","buffers/buffer-compare.js","n=1000000 size=16386",234519.48164461972,4.264038079
+"new","buffers/buffer-compare.js","n=1000000 size=16",1576717.4260936924,0.634229053
+"new","buffers/buffer-compare.js","n=1000000 size=512",1362163.4222737735,0.734126305
+"new","buffers/buffer-compare.js","n=1000000 size=4096",632251.2748553482,1.581649638
+"new","buffers/buffer-compare.js","n=1000000 size=16386",244565.7433737978,4.088880095
+"old","buffers/buffer-compare.js","n=1000000 size=16",1041344.6655403371,0.960296848
+"old","buffers/buffer-compare.js","n=1000000 size=512",1019197.0160911885,0.981164568
+"old","buffers/buffer-compare.js","n=1000000 size=4096",570319.3160019916,1.753403702
+"old","buffers/buffer-compare.js","n=1000000 size=16386",234519.48164461972,4.264038079
+"new","buffers/buffer-compare.js","n=1000000 size=16",1571310.7469166867,0.636411354
+"new","buffers/buffer-compare.js","n=1000000 size=512",1299601.411077581,0.769466693
+"new","buffers/buffer-compare.js","n=1000000 size=4096",663378.8425990592,1.507434268
+"new","buffers/buffer-compare.js","n=1000000 size=16386",244782.4714730465,4.085259839
+"old","buffers/buffer-compare.js","n=1000000 size=16",1041344.6655403371,0.960296848
+"old","buffers/buffer-compare.js","n=1000000 size=512",1019197.0160911885,0.981164568
+"old","buffers/buffer-compare.js","n=1000000 size=4096",570319.3160019916,1.753403702
+"old","buffers/buffer-compare.js","n=1000000 size=16386",234519.48164461972,4.264038079
+"new","buffers/buffer-compare.js","n=1000000 size=16",1516802.2395378782,0.659281727
+"new","buffers/buffer-compare.js","n=1000000 size=512",1302687.1950003002,0.767643993
+"new","buffers/buffer-compare.js","n=1000000 size=4096",686303.2959882562,1.457081739
+"new","buffers/buffer-compare.js","n=1000000 size=16386",242797.25128221785,4.118662772
+"old","buffers/buffer-concat-fill.js","n=800000 extraSize=1",169945.3116666838,4.707396704
+"old","buffers/buffer-concat-fill.js","n=800000 extraSize=256",157168.19217270453,5.090088452
+"old","buffers/buffer-concat-fill.js","n=800000 extraSize=1024",152982.63199442314,5.229351787
+"new","buffers/buffer-concat-fill.js","n=800000 extraSize=1",305606.90704493225,2.617741882
+"new","buffers/buffer-concat-fill.js","n=800000 extraSize=256",274496.81315805006,2.914423635
+"new","buffers/buffer-concat-fill.js","n=800000 extraSize=1024",208866.1942911917,3.830203364
+"old","buffers/buffer-concat-fill.js","n=800000 extraSize=1",169945.3116666838,4.707396704
+"old","buffers/buffer-concat-fill.js","n=800000 extraSize=256",157168.19217270453,5.090088452
+"old","buffers/buffer-concat-fill.js","n=800000 extraSize=1024",152982.63199442314,5.229351787
+"new","buffers/buffer-concat-fill.js","n=800000 extraSize=1",327704.32621885237,2.441225019
+"new","buffers/buffer-concat-fill.js","n=800000 extraSize=256",266319.2553286445,3.003913476
+"new","buffers/buffer-concat-fill.js","n=800000 extraSize=1024",211521.54285057102,3.782120673
+"old","buffers/buffer-concat-fill.js","n=800000 extraSize=1",169945.3116666838,4.707396704
+"old","buffers/buffer-concat-fill.js","n=800000 extraSize=256",157168.19217270453,5.090088452
+"old","buffers/buffer-concat-fill.js","n=800000 extraSize=1024",152982.63199442314,5.229351787
+"new","buffers/buffer-concat-fill.js","n=800000 extraSize=1",314879.0694240314,2.540657915
+"new","buffers/buffer-concat-fill.js","n=800000 extraSize=256",267934.497879146,2.985804390
+"new","buffers/buffer-concat-fill.js","n=800000 extraSize=1024",225847.0492956535,3.542220288
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=1 pieces=4",367353.6944849219,2.177737728
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=1 pieces=4",293343.4522157175,2.727178650
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=16 pieces=4",322559.79596260766,2.480160299
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=16 pieces=4",267287.85602841404,2.993027861
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=256 pieces=4",186311.54204954227,4.293883198
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=256 pieces=4",184826.03324821603,4.328394577
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=1 pieces=16",216858.14339863896,3.689047538
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=1 pieces=16",274570.72271246725,2.913639124
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=16 pieces=16",215383.7986989547,3.714299798
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=16 pieces=16",218854.7827714054,3.655391899
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=256 pieces=16",64082.85129323441,12.483839028
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=256 pieces=16",65011.45627209729,12.305523455
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=1 pieces=4",948075.9336958735,0.843814268
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=1 pieces=4",966770.0470131814,0.827497710
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=16 pieces=4",726669.1835943843,1.100913618
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=16 pieces=4",894481.0002368307,0.894373385
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=256 pieces=4",346802.4178953599,2.306788992
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=256 pieces=4",355191.17802862386,2.252308192
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=1 pieces=16",409124.3991308852,1.955395478
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=1 pieces=16",413754.350431108,1.933514413
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=16 pieces=16",316272.13538319094,2.529467223
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=16 pieces=16",328268.12888572755,2.437032199
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=256 pieces=16",71069.78823026936,11.256541210
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=256 pieces=16",69621.64886765876,11.490678733
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=1 pieces=4",367353.6944849219,2.177737728
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=1 pieces=4",293343.4522157175,2.727178650
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=16 pieces=4",322559.79596260766,2.480160299
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=16 pieces=4",267287.85602841404,2.993027861
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=256 pieces=4",186311.54204954227,4.293883198
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=256 pieces=4",184826.03324821603,4.328394577
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=1 pieces=16",216858.14339863896,3.689047538
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=1 pieces=16",274570.72271246725,2.913639124
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=16 pieces=16",215383.7986989547,3.714299798
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=16 pieces=16",218854.7827714054,3.655391899
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=256 pieces=16",64082.85129323441,12.483839028
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=256 pieces=16",65011.45627209729,12.305523455
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=1 pieces=4",963988.3196716467,0.829885574
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=1 pieces=4",975217.061162102,0.820330193
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=16 pieces=4",726539.3564648407,1.101110343
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=16 pieces=4",872281.1938342227,0.917135444
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=256 pieces=4",341843.77978896134,2.340250276
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=256 pieces=4",361668.50115554465,2.211970347
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=1 pieces=16",407908.9634119065,1.961221919
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=1 pieces=16",415016.78365483996,1.927632885
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=16 pieces=16",314931.81180064654,2.540232425
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=16 pieces=16",325304.4345387067,2.459234843
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=256 pieces=16",63330.67602540144,12.632108959
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=256 pieces=16",65481.80456065334,12.217134292
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=1 pieces=4",367353.6944849219,2.177737728
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=1 pieces=4",293343.4522157175,2.727178650
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=16 pieces=4",322559.79596260766,2.480160299
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=16 pieces=4",267287.85602841404,2.993027861
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=256 pieces=4",186311.54204954227,4.293883198
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=256 pieces=4",184826.03324821603,4.328394577
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=1 pieces=16",216858.14339863896,3.689047538
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=1 pieces=16",274570.72271246725,2.913639124
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=16 pieces=16",215383.7986989547,3.714299798
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=16 pieces=16",218854.7827714054,3.655391899
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=256 pieces=16",64082.85129323441,12.483839028
+"old","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=256 pieces=16",65011.45627209729,12.305523455
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=1 pieces=4",944971.6334221768,0.846586259
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=1 pieces=4",1022571.3686494768,0.782341482
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=16 pieces=4",722088.5261776844,1.107897399
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=16 pieces=4",880485.828571234,0.908589297
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=256 pieces=4",344389.2106571095,2.322953145
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=256 pieces=4",373517.1191199445,2.141802769
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=1 pieces=16",403782.90882441605,1.981262660
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=1 pieces=16",416880.6519395579,1.919014462
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=0 pieceSize=16 pieces=16",315414.13845429034,2.536347939
+"new","buffers/buffer-concat.js","n=800000 withTotalLength=1 pieceSize=16 pieces=16",322625.9406725408,2.479651817
+"old","buffers/buffer-copy.js","n=6000000 partial=""false"" bytes=0",5962770.209901049,1.006243707
+"old","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=8",1116328.9145284651,5.374760003
+"old","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=128",1125377.9306062348,5.331542264
+"old","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=32768",403977.1188892281,14.852326331
+"new","buffers/buffer-copy.js","n=6000000 partial=""false"" bytes=0",14887533.13583383,0.403021773
+"new","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=8",1046708.7057516947,5.732253842
+"new","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=128",1032430.6975861145,5.811528090
+"new","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=32768",413041.3077362801,14.526392125
+"old","buffers/buffer-copy.js","n=6000000 partial=""false"" bytes=0",5962770.209901049,1.006243707
+"old","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=8",1116328.9145284651,5.374760003
+"old","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=128",1125377.9306062348,5.331542264
+"old","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=32768",403977.1188892281,14.852326331
+"new","buffers/buffer-copy.js","n=6000000 partial=""false"" bytes=0",15070974.455876345,0.398116261
+"new","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=8",1056149.2651024822,5.681015173
+"new","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=128",1034343.1474410237,5.800782859
+"new","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=32768",428595.5700741041,13.999211422
+"old","buffers/buffer-copy.js","n=6000000 partial=""false"" bytes=0",5962770.209901049,1.006243707
+"old","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=8",1116328.9145284651,5.374760003
+"old","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=128",1125377.9306062348,5.331542264
+"old","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=32768",403977.1188892281,14.852326331
+"new","buffers/buffer-copy.js","n=6000000 partial=""false"" bytes=0",14862560.625685265,0.403698942
+"new","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=8",1058040.182724767,5.670862126
+"new","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=128",1040664.3224591606,5.765547901
+"new","buffers/buffer-copy.js","n=6000000 partial=""true"" bytes=32768",437131.75748452847,13.725838714
+"old","buffers/buffer-creation.js","n=600000 len=10 type=""fast-alloc""",914596.5879306673,0.656026939
+"old","buffers/buffer-creation.js","n=600000 len=1024 type=""fast-alloc""",109118.77725286814,5.498595339
+"old","buffers/buffer-creation.js","n=600000 len=4096 type=""fast-alloc""",96903.4049236222,6.191732896
+"old","buffers/buffer-creation.js","n=600000 len=8192 type=""fast-alloc""",86270.0026744319,6.954908791
+"old","buffers/buffer-creation.js","n=600000 len=10 type=""fast-alloc-fill""",749476.4775645828,0.800558814
+"old","buffers/buffer-creation.js","n=600000 len=1024 type=""fast-alloc-fill""",107166.57626377094,5.598760555
+"old","buffers/buffer-creation.js","n=600000 len=4096 type=""fast-alloc-fill""",93154.04686871484,6.440944008
+"old","buffers/buffer-creation.js","n=600000 len=8192 type=""fast-alloc-fill""",81590.55191460784,7.353792638
+"old","buffers/buffer-creation.js","n=600000 len=10 type=""fast-allocUnsafe""",423746.31613756495,1.415941513
+"old","buffers/buffer-creation.js","n=600000 len=1024 type=""fast-allocUnsafe""",243679.33385367505,2.462252299
+"old","buffers/buffer-creation.js","n=600000 len=4096 type=""fast-allocUnsafe""",88044.693217823,6.814720775
+"old","buffers/buffer-creation.js","n=600000 len=8192 type=""fast-allocUnsafe""",91009.66951451966,6.592706063
+"old","buffers/buffer-creation.js","n=600000 len=10 type=""slow-allocUnsafe""",538397.658200621,1.114417923
+"old","buffers/buffer-creation.js","n=600000 len=1024 type=""slow-allocUnsafe""",100635.33699733412,5.962120443
+"old","buffers/buffer-creation.js","n=600000 len=4096 type=""slow-allocUnsafe""",98005.3743824584,6.122113239
+"old","buffers/buffer-creation.js","n=600000 len=8192 type=""slow-allocUnsafe""",99035.55641246769,6.058430141
+"new","buffers/buffer-creation.js","n=600000 len=10 type=""fast-alloc""",3075639.5100342226,0.195081380
+"new","buffers/buffer-creation.js","n=600000 len=1024 type=""fast-alloc""",107392.2015261685,5.586997859
+"new","buffers/buffer-creation.js","n=600000 len=4096 type=""fast-alloc""",96394.39628431799,6.224428215
+"new","buffers/buffer-creation.js","n=600000 len=8192 type=""fast-alloc""",90958.10115988084,6.596443773
+"new","buffers/buffer-creation.js","n=600000 len=10 type=""fast-alloc-fill""",2345958.6100645657,0.255758988
+"old","buffers/buffer-creation.js","n=600000 len=10 type=""fast-alloc""",914596.5879306673,0.656026939
+"old","buffers/buffer-creation.js","n=600000 len=1024 type=""fast-alloc""",109118.77725286814,5.498595339
+"old","buffers/buffer-creation.js","n=600000 len=4096 type=""fast-alloc""",96903.4049236222,6.191732896
+"old","buffers/buffer-creation.js","n=600000 len=8192 type=""fast-alloc""",86270.0026744319,6.954908791
+"old","buffers/buffer-creation.js","n=600000 len=10 type=""fast-alloc-fill""",749476.4775645828,0.800558814
+"old","buffers/buffer-creation.js","n=600000 len=1024 type=""fast-alloc-fill""",107166.57626377094,5.598760555
+"old","buffers/buffer-creation.js","n=600000 len=4096 type=""fast-alloc-fill""",93154.04686871484,6.440944008
+"old","buffers/buffer-creation.js","n=600000 len=8192 type=""fast-alloc-fill""",81590.55191460784,7.353792638
+"old","buffers/buffer-creation.js","n=600000 len=10 type=""fast-allocUnsafe""",423746.31613756495,1.415941513
+"old","buffers/buffer-creation.js","n=600000 len=1024 type=""fast-allocUnsafe""",243679.33385367505,2.462252299
+"old","buffers/buffer-creation.js","n=600000 len=4096 type=""fast-allocUnsafe""",88044.693217823,6.814720775
+"old","buffers/buffer-creation.js","n=600000 len=8192 type=""fast-allocUnsafe""",91009.66951451966,6.592706063
+"old","buffers/buffer-creation.js","n=600000 len=10 type=""slow-allocUnsafe""",538397.658200621,1.114417923
+"old","buffers/buffer-creation.js","n=600000 len=1024 type=""slow-allocUnsafe""",100635.33699733412,5.962120443
+"old","buffers/buffer-creation.js","n=600000 len=4096 type=""slow-allocUnsafe""",98005.3743824584,6.122113239
+"old","buffers/buffer-creation.js","n=600000 len=8192 type=""slow-allocUnsafe""",99035.55641246769,6.058430141
+"old","buffers/buffer-creation.js","n=600000 len=10 type=""fast-alloc""",914596.5879306673,0.656026939
+"old","buffers/buffer-creation.js","n=600000 len=1024 type=""fast-alloc""",109118.77725286814,5.498595339
+"old","buffers/buffer-creation.js","n=600000 len=4096 type=""fast-alloc""",96903.4049236222,6.191732896
+"old","buffers/buffer-creation.js","n=600000 len=8192 type=""fast-alloc""",86270.0026744319,6.954908791
+"old","buffers/buffer-creation.js","n=600000 len=10 type=""fast-alloc-fill""",749476.4775645828,0.800558814
+"old","buffers/buffer-creation.js","n=600000 len=1024 type=""fast-alloc-fill""",107166.57626377094,5.598760555
+"old","buffers/buffer-creation.js","n=600000 len=4096 type=""fast-alloc-fill""",93154.04686871484,6.440944008
+"old","buffers/buffer-creation.js","n=600000 len=8192 type=""fast-alloc-fill""",81590.55191460784,7.353792638
+"old","buffers/buffer-creation.js","n=600000 len=10 type=""fast-allocUnsafe""",423746.31613756495,1.415941513
+"old","buffers/buffer-creation.js","n=600000 len=1024 type=""fast-allocUnsafe""",243679.33385367505,2.462252299
+"old","buffers/buffer-creation.js","n=600000 len=4096 type=""fast-allocUnsafe""",88044.693217823,6.814720775
+"old","buffers/buffer-creation.js","n=600000 len=8192 type=""fast-allocUnsafe""",91009.66951451966,6.592706063
+"old","buffers/buffer-creation.js","n=600000 len=10 type=""slow-allocUnsafe""",538397.658200621,1.114417923
+"old","buffers/buffer-creation.js","n=600000 len=1024 type=""slow-allocUnsafe""",100635.33699733412,5.962120443
+"old","buffers/buffer-creation.js","n=600000 len=4096 type=""slow-allocUnsafe""",98005.3743824584,6.122113239
+"old","buffers/buffer-creation.js","n=600000 len=8192 type=""slow-allocUnsafe""",99035.55641246769,6.058430141
+"old","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=0",2513842.808509228,0.397797347
+"old","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=0",2472488.576342487,0.404450807
+"old","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=512",2466322.2099126987,0.405462026
+"old","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=512",1127933.3713425072,0.886577191
+"old","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=16386",2534731.994054117,0.394519027
+"old","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=16386",237181.3748133053,4.216182661
+"new","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=0",9389616.787109941,0.106500619
+"new","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=0",9356639.349646198,0.106875980
+"new","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=512",9392779.445450112,0.106464759
+"new","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=512",1454754.0250105269,0.687401432
+"new","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=16386",9527524.532470556,0.104959058
+"new","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=16386",248157.1288296428,4.029704908
+"old","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=0",2513842.808509228,0.397797347
+"old","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=0",2472488.576342487,0.404450807
+"old","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=512",2466322.2099126987,0.405462026
+"old","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=512",1127933.3713425072,0.886577191
+"old","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=16386",2534731.994054117,0.394519027
+"old","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=16386",237181.3748133053,4.216182661
+"new","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=0",9455653.801584622,0.105756833
+"new","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=0",9335646.457574947,0.107116310
+"new","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=512",9528786.817540903,0.104945154
+"new","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=512",1552878.0304575877,0.643965579
+"new","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=16386",9528238.430522287,0.104951194
+"new","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=16386",246902.04303263215,4.050189248
+"old","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=0",2513842.808509228,0.397797347
+"old","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=0",2472488.576342487,0.404450807
+"old","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=512",2466322.2099126987,0.405462026
+"old","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=512",1127933.3713425072,0.886577191
+"old","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=16386",2534731.994054117,0.394519027
+"old","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=16386",237181.3748133053,4.216182661
+"new","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=0",9500141.775365785,0.105261587
+"new","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=0",9324493.936869036,0.107244426
+"new","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=512",9492377.279319124,0.105347688
+"new","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=512",1521232.230722104,0.657361828
+"new","buffers/buffer-equals.js","n=1000000 difflen=""true"" size=16386",9518514.691370538,0.105058408
+"new","buffers/buffer-equals.js","n=1000000 difflen=""false"" size=16386",238975.52915100384,4.184528866
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(0)""",84732.71818170772,0.236036332
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(0)""",64315.57046935017,0.310966689
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""\"")""",32015.460701382963,0.624698179
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""\"")""",30522.230883651337,0.655260098
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(100)""",83519.2081149668,0.239465872
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(100)""",64710.1320957046,0.309070610
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(400)""",84551.70508405851,0.236541652
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(400)""",64505.610456101436,0.310050550
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"")""",22079.84670933943,0.905803390
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"")""",29770.05710598038,0.671815977
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""test\"")""",29320.391242270056,0.682119138
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""test\"")""",26423.552543719765,0.756900495
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", \""utf8\"")""",30213.69216910861,0.661951538
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", \""utf8\"")""",27748.804326220627,0.720751776
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", 0, \""utf8\"")""",31133.441357449923,0.642396058
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", 0, \""utf8\"")""",26751.903402943102,0.747610355
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", 0)""",31330.836544505182,0.638348739
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", 0)""",24431.849166539167,0.818603613
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(Buffer.alloc(1), 0)""",15054.148840020323,1.328537416
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(Buffer.alloc(1), 0)""",14425.614565531487,1.386422735
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(0)""",854833.6096298032,0.023396366
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(0)""",200002.7740384759,0.099998613
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""\"")""",655587.8010057635,0.030506974
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""\"")""",200448.77875729636,0.099776113
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(100)""",857334.1896387219,0.023328126
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(100)""",210164.59597269783,0.095163507
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(400)""",856744.3363951806,0.023344187
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(400)""",210791.2759856766,0.094880587
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"")""",609933.1827347312,0.032790477
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"")""",195561.85090882724,0.102269435
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""test\"")""",361166.49699666584,0.055376122
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""test\"")""",121765.84956809501,0.164249665
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", \""utf8\"")""",607879.5105001611,0.032901257
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", \""utf8\"")""",187448.38315881623,0.106696039
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", 0, \""utf8\"")""",630062.6320059971,0.031742876
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", 0, \""utf8\"")""",197787.87317849483,0.101118434
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", 0)""",632911.8730976251,0.031599976
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", 0)""",197222.7992632624,0.101408154
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(Buffer.alloc(1), 0)""",158666.06016036283,0.126050902
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(Buffer.alloc(1), 0)""",83028.86303305517,0.240880090
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(0)""",84732.71818170772,0.236036332
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(0)""",64315.57046935017,0.310966689
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""\"")""",32015.460701382963,0.624698179
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""\"")""",30522.230883651337,0.655260098
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(100)""",83519.2081149668,0.239465872
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(100)""",64710.1320957046,0.309070610
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(400)""",84551.70508405851,0.236541652
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(400)""",64505.610456101436,0.310050550
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"")""",22079.84670933943,0.905803390
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"")""",29770.05710598038,0.671815977
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""test\"")""",29320.391242270056,0.682119138
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""test\"")""",26423.552543719765,0.756900495
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", \""utf8\"")""",30213.69216910861,0.661951538
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", \""utf8\"")""",27748.804326220627,0.720751776
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", 0, \""utf8\"")""",31133.441357449923,0.642396058
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", 0, \""utf8\"")""",26751.903402943102,0.747610355
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", 0)""",31330.836544505182,0.638348739
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", 0)""",24431.849166539167,0.818603613
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(Buffer.alloc(1), 0)""",15054.148840020323,1.328537416
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(Buffer.alloc(1), 0)""",14425.614565531487,1.386422735
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(0)""",858614.743600036,0.023293334
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(0)""",205814.61481141375,0.097174829
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""\"")""",667673.9195416872,0.029954742
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""\"")""",198172.3711607596,0.100922242
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(100)""",863017.764271358,0.023174494
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(100)""",207650.87359605037,0.096315511
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(400)""",854586.3985567061,0.023403134
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(400)""",211075.9709489387,0.094752614
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"")""",621514.9133901877,0.032179437
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"")""",196669.63378865336,0.101693381
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""test\"")""",360014.41569723334,0.055553331
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""test\"")""",122056.18857861779,0.163858959
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", \""utf8\"")""",622624.744969013,0.032122077
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", \""utf8\"")""",189351.02520751618,0.105623933
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", 0, \""utf8\"")""",608920.0206691811,0.032845036
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", 0, \""utf8\"")""",196378.07929297138,0.101844361
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", 0)""",642562.8697166193,0.031125359
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", 0)""",177288.49462646106,0.112810479
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(Buffer.alloc(1), 0)""",167563.76676846223,0.119357546
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(Buffer.alloc(1), 0)""",85094.43354762948,0.235033000
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(0)""",84732.71818170772,0.236036332
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(0)""",64315.57046935017,0.310966689
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""\"")""",32015.460701382963,0.624698179
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""\"")""",30522.230883651337,0.655260098
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(100)""",83519.2081149668,0.239465872
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(100)""",64710.1320957046,0.309070610
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(400)""",84551.70508405851,0.236541652
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(400)""",64505.610456101436,0.310050550
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"")""",22079.84670933943,0.905803390
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"")""",29770.05710598038,0.671815977
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""test\"")""",29320.391242270056,0.682119138
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""test\"")""",26423.552543719765,0.756900495
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", \""utf8\"")""",30213.69216910861,0.661951538
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", \""utf8\"")""",27748.804326220627,0.720751776
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", 0, \""utf8\"")""",31133.441357449923,0.642396058
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", 0, \""utf8\"")""",26751.903402943102,0.747610355
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", 0)""",31330.836544505182,0.638348739
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", 0)""",24431.849166539167,0.818603613
+"old","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(Buffer.alloc(1), 0)""",15054.148840020323,1.328537416
+"old","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(Buffer.alloc(1), 0)""",14425.614565531487,1.386422735
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(0)""",849560.5053593675,0.023541584
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(0)""",187521.65816551293,0.106654347
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""\"")""",647403.8345534899,0.030892619
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""\"")""",195684.62565580034,0.102205270
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(100)""",842578.4197214241,0.023736663
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(100)""",207744.73623139042,0.096271994
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(400)""",848866.745916866,0.023560824
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(400)""",208060.5269711254,0.096125874
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"")""",608134.9543900305,0.032887437
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"")""",186886.70732505346,0.107016707
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""test\"")""",354583.5176355038,0.056404201
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""test\"")""",118273.09711108913,0.169100163
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", \""utf8\"")""",610710.5748841551,0.032748737
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", \""utf8\"")""",194574.39041059575,0.102788450
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", 0, \""utf8\"")""",627642.8077249523,0.031865258
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", 0, \""utf8\"")""",197811.12104013044,0.101106550
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(\""t\"", 0)""",615763.2055499477,0.032480018
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(\""t\"", 0)""",194704.41188223005,0.102719809
+"new","buffers/buffer-fill.js","n=20000 size=8192 type=""fill(Buffer.alloc(1), 0)""",161845.825747316,0.123574395
+"new","buffers/buffer-fill.js","n=20000 size=65536 type=""fill(Buffer.alloc(1), 0)""",85003.41020931248,0.235284678
+"old","buffers/buffer-from.js","n=800000 len=100 source=""array""",281213.94997541147,2.844809086
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""array""",94788.76330141064,8.439818942
+"old","buffers/buffer-from.js","n=800000 len=100 source=""arraybuffer""",559191.8273963444,1.430636073
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""arraybuffer""",561694.7883164512,1.424261034
+"old","buffers/buffer-from.js","n=800000 len=100 source=""arraybuffer-middle""",575362.7647488071,1.390427134
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""arraybuffer-middle""",582883.8737034181,1.372486075
+"old","buffers/buffer-from.js","n=800000 len=100 source=""buffer""",287389.2737445584,2.783680788
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""buffer""",143402.25230761006,5.578712936
+"old","buffers/buffer-from.js","n=800000 len=100 source=""string""",216565.9223021059,3.694025318
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""string""",90326.2443125956,8.856783608
+"old","buffers/buffer-from.js","n=800000 len=100 source=""string-utf8""",183487.42463522384,4.359971816
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""string-utf8""",83950.94463977672,9.529374606
+"old","buffers/buffer-from.js","n=800000 len=100 source=""string-base64""",190290.91323014296,4.204089341
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""string-base64""",62845.989166457555,12.729531520
+"old","buffers/buffer-from.js","n=800000 len=100 source=""object""",581725.708584179,1.375218575
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""object""",568635.5255212317,1.406876574
+"old","buffers/buffer-from.js","n=800000 len=100 source=""uint8array""",285162.88183180214,2.805414207
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""uint8array""",144716.64951981194,5.528043958
+"old","buffers/buffer-from.js","n=800000 len=100 source=""uint16array""",208051.70755275287,3.845197953
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""uint16array""",43493.29192906191,18.393641054
+"new","buffers/buffer-from.js","n=800000 len=100 source=""array""",801999.2711009574,0.997507141
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""array""",136662.25599542054,5.853847459
+"new","buffers/buffer-from.js","n=800000 len=100 source=""arraybuffer""",1976171.350557124,0.404823195
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""arraybuffer""",2007248.037172989,0.398555627
+"new","buffers/buffer-from.js","n=800000 len=100 source=""arraybuffer-middle""",1959635.7222377937,0.408239139
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""arraybuffer-middle""",1977393.278323653,0.404573035
+"new","buffers/buffer-from.js","n=800000 len=100 source=""buffer""",1019172.3868470642,0.784950623
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""buffer""",252933.3331529919,3.162888774
+"new","buffers/buffer-from.js","n=800000 len=100 source=""string""",522623.8846127574,1.530737541
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""string""",129592.21351975699,6.173210398
+"new","buffers/buffer-from.js","n=800000 len=100 source=""string-utf8""",470767.9883581901,1.699350890
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""string-utf8""",123727.33471936343,6.465830706
+"new","buffers/buffer-from.js","n=800000 len=100 source=""string-base64""",423625.5409222903,1.888460262
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""string-base64""",76897.40582584518,10.403471891
+"new","buffers/buffer-from.js","n=800000 len=100 source=""object""",1635776.158509327,0.489064470
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""object""",1659402.0740393593,0.482101362
+"new","buffers/buffer-from.js","n=800000 len=100 source=""uint8array""",993341.7728892036,0.805362285
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""uint8array""",260051.7986710688,3.076310197
+"new","buffers/buffer-from.js","n=800000 len=100 source=""uint16array""",487929.5553558587,1.639580942
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""uint16array""",54022.174247677314,14.808733842
+"old","buffers/buffer-from.js","n=800000 len=100 source=""array""",281213.94997541147,2.844809086
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""array""",94788.76330141064,8.439818942
+"old","buffers/buffer-from.js","n=800000 len=100 source=""arraybuffer""",559191.8273963444,1.430636073
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""arraybuffer""",561694.7883164512,1.424261034
+"old","buffers/buffer-from.js","n=800000 len=100 source=""arraybuffer-middle""",575362.7647488071,1.390427134
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""arraybuffer-middle""",582883.8737034181,1.372486075
+"old","buffers/buffer-from.js","n=800000 len=100 source=""buffer""",287389.2737445584,2.783680788
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""buffer""",143402.25230761006,5.578712936
+"old","buffers/buffer-from.js","n=800000 len=100 source=""string""",216565.9223021059,3.694025318
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""string""",90326.2443125956,8.856783608
+"old","buffers/buffer-from.js","n=800000 len=100 source=""string-utf8""",183487.42463522384,4.359971816
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""string-utf8""",83950.94463977672,9.529374606
+"old","buffers/buffer-from.js","n=800000 len=100 source=""string-base64""",190290.91323014296,4.204089341
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""string-base64""",62845.989166457555,12.729531520
+"old","buffers/buffer-from.js","n=800000 len=100 source=""object""",581725.708584179,1.375218575
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""object""",568635.5255212317,1.406876574
+"old","buffers/buffer-from.js","n=800000 len=100 source=""uint8array""",285162.88183180214,2.805414207
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""uint8array""",144716.64951981194,5.528043958
+"old","buffers/buffer-from.js","n=800000 len=100 source=""uint16array""",208051.70755275287,3.845197953
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""uint16array""",43493.29192906191,18.393641054
+"new","buffers/buffer-from.js","n=800000 len=100 source=""array""",784330.9015679886,1.019977663
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""array""",132254.03259622687,6.048964892
+"new","buffers/buffer-from.js","n=800000 len=100 source=""arraybuffer""",1892466.4958677806,0.422728752
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""arraybuffer""",1899523.2232325745,0.421158315
+"new","buffers/buffer-from.js","n=800000 len=100 source=""arraybuffer-middle""",1908624.69302426,0.419149979
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""arraybuffer-middle""",1928461.5632552495,0.414838447
+"new","buffers/buffer-from.js","n=800000 len=100 source=""buffer""",1009314.9321830951,0.792616828
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""buffer""",278577.7510302898,2.871729695
+"new","buffers/buffer-from.js","n=800000 len=100 source=""string""",519519.6507801376,1.539884004
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""string""",129251.28234684658,6.189493717
+"new","buffers/buffer-from.js","n=800000 len=100 source=""string-utf8""",464025.4515454435,1.724043363
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""string-utf8""",124012.45154770544,6.450965125
+"new","buffers/buffer-from.js","n=800000 len=100 source=""string-base64""",418118.80372497364,1.913331792
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""string-base64""",76328.57353857126,10.481002892
+"new","buffers/buffer-from.js","n=800000 len=100 source=""object""",1839656.8475204722,0.434863709
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""object""",1625933.122765103,0.492025157
+"new","buffers/buffer-from.js","n=800000 len=100 source=""uint8array""",996852.6272315156,0.802525848
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""uint8array""",257130.99905094042,3.111254586
+"new","buffers/buffer-from.js","n=800000 len=100 source=""uint16array""",484928.11621698004,1.649729049
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""uint16array""",53975.70033442678,14.821484391
+"old","buffers/buffer-from.js","n=800000 len=100 source=""array""",281213.94997541147,2.844809086
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""array""",94788.76330141064,8.439818942
+"old","buffers/buffer-from.js","n=800000 len=100 source=""arraybuffer""",559191.8273963444,1.430636073
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""arraybuffer""",561694.7883164512,1.424261034
+"old","buffers/buffer-from.js","n=800000 len=100 source=""arraybuffer-middle""",575362.7647488071,1.390427134
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""arraybuffer-middle""",582883.8737034181,1.372486075
+"old","buffers/buffer-from.js","n=800000 len=100 source=""buffer""",287389.2737445584,2.783680788
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""buffer""",143402.25230761006,5.578712936
+"old","buffers/buffer-from.js","n=800000 len=100 source=""string""",216565.9223021059,3.694025318
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""string""",90326.2443125956,8.856783608
+"old","buffers/buffer-from.js","n=800000 len=100 source=""string-utf8""",183487.42463522384,4.359971816
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""string-utf8""",83950.94463977672,9.529374606
+"old","buffers/buffer-from.js","n=800000 len=100 source=""string-base64""",190290.91323014296,4.204089341
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""string-base64""",62845.989166457555,12.729531520
+"old","buffers/buffer-from.js","n=800000 len=100 source=""object""",581725.708584179,1.375218575
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""object""",568635.5255212317,1.406876574
+"old","buffers/buffer-from.js","n=800000 len=100 source=""uint8array""",285162.88183180214,2.805414207
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""uint8array""",144716.64951981194,5.528043958
+"old","buffers/buffer-from.js","n=800000 len=100 source=""uint16array""",208051.70755275287,3.845197953
+"old","buffers/buffer-from.js","n=800000 len=2048 source=""uint16array""",43493.29192906191,18.393641054
+"new","buffers/buffer-from.js","n=800000 len=100 source=""array""",782887.7353921031,1.021857878
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""array""",133647.12946499957,5.985912329
+"new","buffers/buffer-from.js","n=800000 len=100 source=""arraybuffer""",1881735.519400684,0.425139448
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""arraybuffer""",1815710.48352899,0.440598877
+"new","buffers/buffer-from.js","n=800000 len=100 source=""arraybuffer-middle""",1909427.5819659263,0.418973732
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""arraybuffer-middle""",1995384.351744458,0.400925265
+"new","buffers/buffer-from.js","n=800000 len=100 source=""buffer""",1001409.1930305245,0.798874232
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""buffer""",277380.2265169381,2.884127719
+"new","buffers/buffer-from.js","n=800000 len=100 source=""string""",506588.21295432246,1.579191895
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""string""",130437.38920142717,6.133210768
+"new","buffers/buffer-from.js","n=800000 len=100 source=""string-utf8""",466202.88388080633,1.715991101
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""string-utf8""",127551.0852208719,6.271996813
+"new","buffers/buffer-from.js","n=800000 len=100 source=""string-base64""",432515.5899838926,1.849644310
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""string-base64""",77937.4531773884,10.264641291
+"new","buffers/buffer-from.js","n=800000 len=100 source=""object""",1647682.728771525,0.485530367
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""object""",1721924.7381996391,0.464596380
+"new","buffers/buffer-from.js","n=800000 len=100 source=""uint8array""",985922.7691719297,0.811422583
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""uint8array""",277072.800862495,2.887327798
+"new","buffers/buffer-from.js","n=800000 len=100 source=""uint16array""",487775.3935133627,1.640099133
+"new","buffers/buffer-from.js","n=800000 len=2048 source=""uint16array""",53151.45824550635,15.051327403
+"old","buffers/buffer-hex.js","n=1000000 len=64",258245.47102980057,3.872284753
+"old","buffers/buffer-hex.js","n=1000000 len=1024",92830.50734115511,10.772320745
+"new","buffers/buffer-hex.js","n=1000000 len=64",442965.81333772256,2.257510557
+"new","buffers/buffer-hex.js","n=1000000 len=1024",106528.03399215479,9.387200369
+"old","buffers/buffer-hex.js","n=1000000 len=64",258245.47102980057,3.872284753
+"old","buffers/buffer-hex.js","n=1000000 len=1024",92830.50734115511,10.772320745
+"new","buffers/buffer-hex.js","n=1000000 len=64",448540.16375725024,2.229454753
+"new","buffers/buffer-hex.js","n=1000000 len=1024",108370.94658510732,9.227565427
+"old","buffers/buffer-hex.js","n=1000000 len=64",258245.47102980057,3.872284753
+"old","buffers/buffer-hex.js","n=1000000 len=1024",92830.50734115511,10.772320745
+"new","buffers/buffer-hex.js","n=1000000 len=64",460447.5363664319,2.171800088
+"new","buffers/buffer-hex.js","n=1000000 len=1024",107573.03222847007,9.296010155
+"old","buffers/buffer-indexof-number.js","n=1000000 value=64",569955.1227937478,1.754524102
+"new","buffers/buffer-indexof-number.js","n=1000000 value=64",726218.5078185415,1.376996027
+"old","buffers/buffer-indexof-number.js","n=1000000 value=64",569955.1227937478,1.754524102
+"new","buffers/buffer-indexof-number.js","n=1000000 value=64",739962.5123003876,1.351419813
+"old","buffers/buffer-indexof-number.js","n=1000000 value=64",569955.1227937478,1.754524102
+"new","buffers/buffer-indexof-number.js","n=1000000 value=64",750106.0897545923,1.333144756
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""@""",74682.37083577542,0.669502045
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""@""",40150.33944494199,1.245319484
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""@""",38816.38356762807,1.288115878
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""SQ""",46789.293025283194,1.068620549
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""SQ""",30127.58031231703,1.659608886
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""SQ""",25115.37981627988,1.990812019
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""--l""",16918.789434777565,2.955294183
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""--l""",14167.317443101781,3.529249641
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""--l""",9942.515892758696,5.028908230
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Alice""",78237.0317621225,0.639083550
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Alice""",41323.086927917575,1.209977369
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Alice""",40578.36025225736,1.232183846
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Gryphon""",21917.030225852654,2.281330978
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Gryphon""",17383.37672386988,2.876311133
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Gryphon""",11569.680356728435,4.321640569
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Ou est ma chatte?""",35092.220509648556,1.424817218
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Ou est ma chatte?""",24855.695351636245,2.011611395
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Ou est ma chatte?""",21001.785830993387,2.380749923
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""found it very""",10951.935354116324,4.565403135
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""found it very""",9852.434525428129,5.074887823
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""found it very""",7780.047026624957,6.426696372
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""neighbouring pool""",10044.111170997026,4.978041277
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""neighbouring pool""",9114.761518613297,5.485607045
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""neighbouring pool""",7118.385731298989,7.024064428
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""aaaaaaaaaaaaaaaaa""",12955.368590671955,3.859403895
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""aaaaaaaaaaaaaaaaa""",11382.637972923425,4.392654859
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""aaaaaaaaaaaaaaaaa""",9468.425557403476,5.280708994
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""venture to go near the house till she had brought herself down to""",22477.972335627564,2.224399926
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""venture to go near the house till she had brought herself down to""",17444.060191532117,2.866305175
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""venture to go near the house till she had brought herself down to""",14313.517491885294,3.493201446
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""</i> to the Caterpillar""",13467.124819150822,3.712744975
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""</i> to the Caterpillar""",11591.008830433664,4.313688371
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""</i> to the Caterpillar""",8697.785766476753,5.748589508
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""@""",555128.2240167988,0.090069281
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""@""",349613.3321995606,0.143015141
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""@""",244911.79939936753,0.204155129
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""SQ""",89777.93367057588,0.556929726
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""SQ""",81588.3132430162,0.612832868
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""SQ""",50157.56396829873,0.996858620
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""--l""",19155.24940948063,2.610250534
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""--l""",18768.467275604882,2.664042794
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""--l""",11437.882275200018,4.371438593
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Alice""",1078801.4395181192,0.046347732
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Alice""",489928.46701431664,0.102055715
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Alice""",503078.78177500924,0.099388012
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Gryphon""",26722.38686232159,1.871090343
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Gryphon""",25949.449823008534,1.926823125
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Gryphon""",14122.914531104865,3.540345719
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Ou est ma chatte?""",55434.473484379756,0.901965814
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Ou est ma chatte?""",50936.04959312268,0.981623043
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Ou est ma chatte?""",36359.53537825188,1.375155086
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""found it very""",11936.819920022415,4.188720307
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""found it very""",11668.648864779148,4.284986255
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""found it very""",8797.81121478874,5.683231747
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""neighbouring pool""",11006.728519909488,4.542675865
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""neighbouring pool""",10822.089576187735,4.620179832
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""neighbouring pool""",7934.244759938572,6.301797022
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""aaaaaaaaaaaaaaaaa""",14717.515692016861,3.397312498
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""aaaaaaaaaaaaaaaaa""",14243.621190455737,3.510343285
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""aaaaaaaaaaaaaaaaa""",10935.734785814595,4.572166478
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""venture to go near the house till she had brought herself down to""",30737.315637488595,1.626687268
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""venture to go near the house till she had brought herself down to""",27574.660408764405,1.813258958
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""venture to go near the house till she had brought herself down to""",18596.993830686453,2.688606581
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""</i> to the Caterpillar""",14954.897865993113,3.343386257
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""</i> to the Caterpillar""",14494.93938862387,3.449479757
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""</i> to the Caterpillar""",9923.356830470238,5.038617562
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""@""",74682.37083577542,0.669502045
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""@""",40150.33944494199,1.245319484
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""@""",38816.38356762807,1.288115878
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""SQ""",46789.293025283194,1.068620549
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""SQ""",30127.58031231703,1.659608886
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""SQ""",25115.37981627988,1.990812019
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""--l""",16918.789434777565,2.955294183
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""--l""",14167.317443101781,3.529249641
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""--l""",9942.515892758696,5.028908230
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Alice""",78237.0317621225,0.639083550
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Alice""",41323.086927917575,1.209977369
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Alice""",40578.36025225736,1.232183846
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Gryphon""",21917.030225852654,2.281330978
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Gryphon""",17383.37672386988,2.876311133
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Gryphon""",11569.680356728435,4.321640569
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Ou est ma chatte?""",35092.220509648556,1.424817218
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Ou est ma chatte?""",24855.695351636245,2.011611395
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Ou est ma chatte?""",21001.785830993387,2.380749923
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""found it very""",10951.935354116324,4.565403135
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""found it very""",9852.434525428129,5.074887823
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""found it very""",7780.047026624957,6.426696372
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""neighbouring pool""",10044.111170997026,4.978041277
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""neighbouring pool""",9114.761518613297,5.485607045
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""neighbouring pool""",7118.385731298989,7.024064428
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""aaaaaaaaaaaaaaaaa""",12955.368590671955,3.859403895
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""aaaaaaaaaaaaaaaaa""",11382.637972923425,4.392654859
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""aaaaaaaaaaaaaaaaa""",9468.425557403476,5.280708994
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""venture to go near the house till she had brought herself down to""",22477.972335627564,2.224399926
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""venture to go near the house till she had brought herself down to""",17444.060191532117,2.866305175
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""venture to go near the house till she had brought herself down to""",14313.517491885294,3.493201446
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""</i> to the Caterpillar""",13467.124819150822,3.712744975
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""</i> to the Caterpillar""",11591.008830433664,4.313688371
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""</i> to the Caterpillar""",8697.785766476753,5.748589508
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""@""",553088.394155745,0.090401463
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""@""",328155.81772813504,0.152366642
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""@""",240991.43413298758,0.207476254
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""SQ""",92837.94867756659,0.538572865
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""SQ""",80896.12062815319,0.618076610
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""SQ""",50366.7517483327,0.992718376
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""--l""",18883.28800705327,2.647843955
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""--l""",18475.639023762902,2.706266340
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""--l""",11444.852724331015,4.368776183
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Alice""",1056977.7155485672,0.047304687
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Alice""",501405.0120545286,0.099719785
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Alice""",490875.70065143134,0.101858780
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Gryphon""",26667.210990666154,1.874961728
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Gryphon""",25960.302373722614,1.926017628
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Gryphon""",14070.482611736845,3.553538381
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Ou est ma chatte?""",56156.095328143514,0.890375296
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Ou est ma chatte?""",48863.38126569128,1.023261156
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Ou est ma chatte?""",37040.40480551663,1.349877256
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""found it very""",11952.878253167033,4.183092887
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""found it very""",11682.159804396177,4.280030477
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""found it very""",8759.345687528505,5.708188920
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""neighbouring pool""",11020.85740598093,4.536852094
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""neighbouring pool""",10771.790747612607,4.641753741
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""neighbouring pool""",7964.295539364953,6.278019161
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""aaaaaaaaaaaaaaaaa""",14699.989343389727,3.401363010
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""aaaaaaaaaaaaaaaaa""",14306.10159636503,3.495012227
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""aaaaaaaaaaaaaaaaa""",10953.45835739077,4.564768347
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""venture to go near the house till she had brought herself down to""",29071.72694386515,1.719884068
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""venture to go near the house till she had brought herself down to""",26572.232693045942,1.881663486
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""venture to go near the house till she had brought herself down to""",19294.5145816214,2.591410102
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""</i> to the Caterpillar""",15013.583395446629,3.330317532
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""</i> to the Caterpillar""",14507.980147848679,3.446379130
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""</i> to the Caterpillar""",9897.270218817508,5.051898038
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""@""",74682.37083577542,0.669502045
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""@""",40150.33944494199,1.245319484
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""@""",38816.38356762807,1.288115878
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""SQ""",46789.293025283194,1.068620549
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""SQ""",30127.58031231703,1.659608886
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""SQ""",25115.37981627988,1.990812019
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""--l""",16918.789434777565,2.955294183
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""--l""",14167.317443101781,3.529249641
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""--l""",9942.515892758696,5.028908230
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Alice""",78237.0317621225,0.639083550
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Alice""",41323.086927917575,1.209977369
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Alice""",40578.36025225736,1.232183846
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Gryphon""",21917.030225852654,2.281330978
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Gryphon""",17383.37672386988,2.876311133
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Gryphon""",11569.680356728435,4.321640569
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Ou est ma chatte?""",35092.220509648556,1.424817218
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Ou est ma chatte?""",24855.695351636245,2.011611395
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Ou est ma chatte?""",21001.785830993387,2.380749923
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""found it very""",10951.935354116324,4.565403135
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""found it very""",9852.434525428129,5.074887823
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""found it very""",7780.047026624957,6.426696372
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""neighbouring pool""",10044.111170997026,4.978041277
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""neighbouring pool""",9114.761518613297,5.485607045
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""neighbouring pool""",7118.385731298989,7.024064428
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""aaaaaaaaaaaaaaaaa""",12955.368590671955,3.859403895
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""aaaaaaaaaaaaaaaaa""",11382.637972923425,4.392654859
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""aaaaaaaaaaaaaaaaa""",9468.425557403476,5.280708994
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""venture to go near the house till she had brought herself down to""",22477.972335627564,2.224399926
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""venture to go near the house till she had brought herself down to""",17444.060191532117,2.866305175
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""venture to go near the house till she had brought herself down to""",14313.517491885294,3.493201446
+"old","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""</i> to the Caterpillar""",13467.124819150822,3.712744975
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""</i> to the Caterpillar""",11591.008830433664,4.313688371
+"old","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""</i> to the Caterpillar""",8697.785766476753,5.748589508
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""@""",551619.9129625417,0.090642123
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""@""",360080.8805031845,0.138857692
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""@""",250442.1719332894,0.199646887
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""SQ""",88621.71026618192,0.564195837
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""SQ""",80742.41696408257,0.619253199
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""SQ""",49830.11871082,1.003409209
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""--l""",18954.55512083439,2.637888343
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""--l""",18322.240324701525,2.728923926
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""--l""",11462.209011381396,4.362160902
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Alice""",1067824.5871736754,0.046824170
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Alice""",495673.9952926039,0.100872752
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Alice""",538257.1605614974,0.092892401
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Gryphon""",26676.47964171465,1.874310279
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Gryphon""",25584.135537078928,1.954336113
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Gryphon""",14135.815501188437,3.537114643
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""Ou est ma chatte?""",56274.699253910374,0.888498751
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""Ou est ma chatte?""",50454.108062378575,0.990999582
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""Ou est ma chatte?""",34914.24448112161,1.432080251
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""found it very""",11936.783155467083,4.188733208
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""found it very""",11692.245559211126,4.276338514
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""found it very""",8803.25570805851,5.679716875
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""neighbouring pool""",11008.646712938194,4.541884330
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""neighbouring pool""",10786.710221590374,4.635333570
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""neighbouring pool""",7946.785524317693,6.291852202
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""aaaaaaaaaaaaaaaaa""",14727.469292663198,3.395016415
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""aaaaaaaaaaaaaaaaa""",14337.47430483735,3.487364576
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""aaaaaaaaaaaaaaaaa""",10986.991217816652,4.550836440
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""venture to go near the house till she had brought herself down to""",29301.362377743862,1.706405298
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""venture to go near the house till she had brought herself down to""",26756.769996874336,1.868685944
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""venture to go near the house till she had brought herself down to""",18760.290342868073,2.665203954
+"new","buffers/buffer-indexof.js","n=50000 type=""buffer"" encoding=""undefined"" search=""</i> to the Caterpillar""",15051.875054627206,3.321845273
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""utf8"" search=""</i> to the Caterpillar""",14662.671636443149,3.410019759
+"new","buffers/buffer-indexof.js","n=50000 type=""string"" encoding=""ucs2"" search=""</i> to the Caterpillar""",9905.207657973575,5.047849750
+"old","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=512",3650.9845416511293,0.273898722
+"old","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=512",3114.226198219862,0.321107054
+"old","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=512",2928.1608644436856,0.341511292
+"old","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=4096",3431.9035637569555,0.291383479
+"old","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=4096",2826.151681539054,0.353838050
+"old","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=4096",1872.7270536182075,0.533980645
+"old","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=16386",2370.001388891914,0.421940681
+"old","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=16386",1597.5451686406382,0.625960392
+"old","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=16386",972.7383700361058,1.028025655
+"new","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=512",63240.71477691395,0.015812598
+"new","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=512",43362.79141205119,0.023061246
+"new","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=512",25072.984323241915,0.039883565
+"new","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=4096",24923.556337269056,0.040122685
+"new","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=4096",17320.694653387352,0.057734405
+"new","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=4096",5379.564652059872,0.185888648
+"new","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=16386",9860.399034177859,0.101415774
+"new","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=16386",6426.322422283993,0.155609995
+"new","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=16386",1592.8271146755849,0.627814526
+"old","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=512",3650.9845416511293,0.273898722
+"old","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=512",3114.226198219862,0.321107054
+"old","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=512",2928.1608644436856,0.341511292
+"old","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=4096",3431.9035637569555,0.291383479
+"old","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=4096",2826.151681539054,0.353838050
+"old","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=4096",1872.7270536182075,0.533980645
+"old","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=16386",2370.001388891914,0.421940681
+"old","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=16386",1597.5451686406382,0.625960392
+"old","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=16386",972.7383700361058,1.028025655
+"new","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=512",64655.676839547756,0.015466546
+"new","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=512",44965.72712278701,0.022239160
+"new","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=512",24870.44673415594,0.040208365
+"new","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=4096",25598.84268656168,0.039064266
+"new","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=4096",17430.296983152,0.057371369
+"new","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=4096",5528.636593268284,0.180876421
+"new","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=16386",9888.637037389659,0.101126171
+"new","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=16386",6458.282684251382,0.154839924
+"new","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=16386",1543.3724784554076,0.647931730
+"old","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=512",3650.9845416511293,0.273898722
+"old","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=512",3114.226198219862,0.321107054
+"old","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=512",2928.1608644436856,0.341511292
+"old","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=4096",3431.9035637569555,0.291383479
+"old","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=4096",2826.151681539054,0.353838050
+"old","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=4096",1872.7270536182075,0.533980645
+"old","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=16386",2370.001388891914,0.421940681
+"old","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=16386",1597.5451686406382,0.625960392
+"old","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=16386",972.7383700361058,1.028025655
+"new","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=512",62272.53787929503,0.016058443
+"new","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=512",44564.876566878775,0.022439196
+"new","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=512",25071.618959930463,0.039885737
+"new","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=4096",27292.56077664366,0.036640021
+"new","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=4096",17216.896290134177,0.058082478
+"new","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=4096",5453.23695529552,0.183377324
+"new","buffers/buffer-iterate.js","n=1000 method=""for"" type=""fast"" size=16386",9842.001236312828,0.101605352
+"new","buffers/buffer-iterate.js","n=1000 method=""forOf"" type=""fast"" size=16386",6405.626579399314,0.156112753
+"new","buffers/buffer-iterate.js","n=1000 method=""iterator"" type=""fast"" size=16386",1538.4255487709315,0.650015206
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""ascii""",1601678.1691931838,0.624345152
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""base64""",1609755.6031696936,0.621212312
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""BASE64""",1241499.7214335338,0.805477426
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""binary""",1375387.0996045629,0.727068038
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""hex""",1596896.5758642585,0.626214631
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""HEX""",1482704.8447744066,0.674443065
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""latin1""",1479879.1669780887,0.675730845
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""LATIN1""",1151349.6332825345,0.868545897
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UCS-2""",1178321.0791083295,0.848665120
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UCS2""",1369835.9228476463,0.730014437
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf-16le""",1622464.2690494335,0.616346393
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF-16LE""",1498505.422160551,0.667331586
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf-8""",3490008.4321744726,0.286532259
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf16le""",1653728.9552199866,0.604694014
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF16LE""",1500256.680415709,0.666552606
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf8""",3860828.200774062,0.259011784
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF8""",1598953.614055053,0.625409012
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""ascii""",14138991.946430188,0.070726400
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""base64""",20809777.5322409,0.048054334
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""BASE64""",6980855.374121806,0.143248921
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""binary""",8818606.009966418,0.113396607
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""hex""",20980567.085426196,0.047663154
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""HEX""",12568398.955269434,0.079564629
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""latin1""",12610991.06638654,0.079295909
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""LATIN1""",6166892.566108257,0.162156222
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UCS-2""",5196673.9457517965,0.192430776
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UCS2""",7526259.30687818,0.132868130
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf-16le""",20911492.651053227,0.047820594
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF-16LE""",13447008.425882034,0.074365983
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf-8""",24539283.540280472,0.040750986
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf16le""",20907322.1686421,0.047830133
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF16LE""",12591402.723689133,0.079419269
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf8""",26788219.462595098,0.037329842
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF8""",14065884.603482712,0.071094000
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""ascii""",1601678.1691931838,0.624345152
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""base64""",1609755.6031696936,0.621212312
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""BASE64""",1241499.7214335338,0.805477426
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""binary""",1375387.0996045629,0.727068038
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""hex""",1596896.5758642585,0.626214631
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""HEX""",1482704.8447744066,0.674443065
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""latin1""",1479879.1669780887,0.675730845
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""LATIN1""",1151349.6332825345,0.868545897
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UCS-2""",1178321.0791083295,0.848665120
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UCS2""",1369835.9228476463,0.730014437
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf-16le""",1622464.2690494335,0.616346393
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF-16LE""",1498505.422160551,0.667331586
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf-8""",3490008.4321744726,0.286532259
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf16le""",1653728.9552199866,0.604694014
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF16LE""",1500256.680415709,0.666552606
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf8""",3860828.200774062,0.259011784
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF8""",1598953.614055053,0.625409012
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""ascii""",14003986.682936871,0.071408237
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""base64""",21037936.91219215,0.047533178
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""BASE64""",7001931.566845893,0.142817734
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""binary""",8795849.90691352,0.113689980
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""hex""",20977282.065023787,0.047670618
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""HEX""",12670653.107547363,0.078922530
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""latin1""",12563042.919751678,0.079598550
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""LATIN1""",6120849.464220011,0.163376016
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UCS-2""",5040286.353586995,0.198401426
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UCS2""",7691641.122854693,0.130011266
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf-16le""",21063354.378362592,0.047475819
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF-16LE""",13548880.66938516,0.073806835
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf-8""",24775322.510283247,0.040362744
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf16le""",20818570.7980364,0.048034037
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF16LE""",12070806.336019358,0.082844507
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf8""",26964449.82666847,0.037085867
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF8""",14066371.922722673,0.071091537
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""ascii""",1601678.1691931838,0.624345152
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""base64""",1609755.6031696936,0.621212312
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""BASE64""",1241499.7214335338,0.805477426
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""binary""",1375387.0996045629,0.727068038
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""hex""",1596896.5758642585,0.626214631
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""HEX""",1482704.8447744066,0.674443065
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""latin1""",1479879.1669780887,0.675730845
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""LATIN1""",1151349.6332825345,0.868545897
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UCS-2""",1178321.0791083295,0.848665120
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UCS2""",1369835.9228476463,0.730014437
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf-16le""",1622464.2690494335,0.616346393
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF-16LE""",1498505.422160551,0.667331586
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf-8""",3490008.4321744726,0.286532259
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf16le""",1653728.9552199866,0.604694014
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF16LE""",1500256.680415709,0.666552606
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf8""",3860828.200774062,0.259011784
+"old","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF8""",1598953.614055053,0.625409012
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""ascii""",14232313.628386749,0.070262645
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""base64""",20910489.11746005,0.047822889
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""BASE64""",6911490.744553195,0.144686586
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""binary""",8817308.100701666,0.113413299
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""hex""",20950214.14156634,0.047732209
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""HEX""",12545242.06326829,0.079711495
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""latin1""",12596397.871082798,0.079387775
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""LATIN1""",6112647.063105978,0.163595246
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UCS-2""",5489342.948429846,0.182171165
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UCS2""",7577267.346276321,0.131973699
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf-16le""",20792472.22681909,0.048094329
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF-16LE""",13520481.860238751,0.073961861
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf-8""",24755014.474752065,0.040395856
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf16le""",20748675.28007807,0.048195848
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF16LE""",12527605.361389156,0.079823715
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""utf8""",27078827.360046398,0.036929221
+"new","buffers/buffer-normalize-encoding.js","n=1000000 encoding=""UTF8""",13998559.240285872,0.071435923
+"old","buffers/buffer-read-float.js","n=1000000 value=""zero"" endian=""LE"" type=""Double""",1875632.1407835982,0.533153585
+"old","buffers/buffer-read-float.js","n=1000000 value=""big"" endian=""LE"" type=""Double""",1733481.6992584022,0.576873699
+"old","buffers/buffer-read-float.js","n=1000000 value=""small"" endian=""LE"" type=""Double""",1732072.018397501,0.577343199
+"old","buffers/buffer-read-float.js","n=1000000 value=""inf"" endian=""LE"" type=""Double""",1735003.8473189813,0.576367598
+"old","buffers/buffer-read-float.js","n=1000000 value=""nan"" endian=""LE"" type=""Double""",1721346.980589909,0.580940398
+"old","buffers/buffer-read-float.js","n=1000000 value=""zero"" endian=""LE"" type=""Float""",1862284.5631001452,0.536974864
+"old","buffers/buffer-read-float.js","n=1000000 value=""big"" endian=""LE"" type=""Float""",1727911.3378557772,0.578733398
+"old","buffers/buffer-read-float.js","n=1000000 value=""small"" endian=""LE"" type=""Float""",1849736.4931982306,0.540617544
+"old","buffers/buffer-read-float.js","n=1000000 value=""inf"" endian=""LE"" type=""Float""",1744865.3093886375,0.573110139
+"old","buffers/buffer-read-float.js","n=1000000 value=""nan"" endian=""LE"" type=""Float""",1740598.7766664498,0.574514939
+"new","buffers/buffer-read-float.js","n=1000000 value=""zero"" endian=""LE"" type=""Double""",8591101.383578837,0.116399511
+"new","buffers/buffer-read-float.js","n=1000000 value=""big"" endian=""LE"" type=""Double""",10930062.758343646,0.091490783
+"new","buffers/buffer-read-float.js","n=1000000 value=""small"" endian=""LE"" type=""Double""",10936859.834833948,0.091433923
+"new","buffers/buffer-read-float.js","n=1000000 value=""inf"" endian=""LE"" type=""Double""",11000339.767494397,0.090906283
+"new","buffers/buffer-read-float.js","n=1000000 value=""nan"" endian=""LE"" type=""Double""",11036275.110588443,0.090610282
+"new","buffers/buffer-read-float.js","n=1000000 value=""zero"" endian=""LE"" type=""Float""",9079608.774911633,0.110136904
+"new","buffers/buffer-read-float.js","n=1000000 value=""big"" endian=""LE"" type=""Float""",11833451.973550577,0.084506195
+"new","buffers/buffer-read-float.js","n=1000000 value=""small"" endian=""LE"" type=""Float""",11779365.649355495,0.084894215
+"new","buffers/buffer-read-float.js","n=1000000 value=""inf"" endian=""LE"" type=""Float""",11818261.37656863,0.084614815
+"new","buffers/buffer-read-float.js","n=1000000 value=""nan"" endian=""LE"" type=""Float""",11905258.807587849,0.083996494
+"old","buffers/buffer-read-float.js","n=1000000 value=""zero"" endian=""LE"" type=""Double""",1875632.1407835982,0.533153585
+"old","buffers/buffer-read-float.js","n=1000000 value=""big"" endian=""LE"" type=""Double""",1733481.6992584022,0.576873699
+"old","buffers/buffer-read-float.js","n=1000000 value=""small"" endian=""LE"" type=""Double""",1732072.018397501,0.577343199
+"old","buffers/buffer-read-float.js","n=1000000 value=""inf"" endian=""LE"" type=""Double""",1735003.8473189813,0.576367598
+"old","buffers/buffer-read-float.js","n=1000000 value=""nan"" endian=""LE"" type=""Double""",1721346.980589909,0.580940398
+"old","buffers/buffer-read-float.js","n=1000000 value=""zero"" endian=""LE"" type=""Float""",1862284.5631001452,0.536974864
+"old","buffers/buffer-read-float.js","n=1000000 value=""big"" endian=""LE"" type=""Float""",1727911.3378557772,0.578733398
+"old","buffers/buffer-read-float.js","n=1000000 value=""small"" endian=""LE"" type=""Float""",1849736.4931982306,0.540617544
+"old","buffers/buffer-read-float.js","n=1000000 value=""inf"" endian=""LE"" type=""Float""",1744865.3093886375,0.573110139
+"old","buffers/buffer-read-float.js","n=1000000 value=""nan"" endian=""LE"" type=""Float""",1740598.7766664498,0.574514939
+"new","buffers/buffer-read-float.js","n=1000000 value=""zero"" endian=""LE"" type=""Double""",8581719.91706832,0.116526758
+"new","buffers/buffer-read-float.js","n=1000000 value=""big"" endian=""LE"" type=""Double""",11040088.991949346,0.090578980
+"new","buffers/buffer-read-float.js","n=1000000 value=""small"" endian=""LE"" type=""Double""",11003274.134251388,0.090882040
+"new","buffers/buffer-read-float.js","n=1000000 value=""inf"" endian=""LE"" type=""Double""",10925482.310879355,0.091529140
+"new","buffers/buffer-read-float.js","n=1000000 value=""nan"" endian=""LE"" type=""Double""",10717934.635132244,0.093301558
+"new","buffers/buffer-read-float.js","n=1000000 value=""zero"" endian=""LE"" type=""Float""",9153870.74536784,0.109243404
+"new","buffers/buffer-read-float.js","n=1000000 value=""big"" endian=""LE"" type=""Float""",11188430.500507388,0.089378041
+"new","buffers/buffer-read-float.js","n=1000000 value=""small"" endian=""LE"" type=""Float""",11791592.794794388,0.084806185
+"new","buffers/buffer-read-float.js","n=1000000 value=""inf"" endian=""LE"" type=""Float""",11957699.494545652,0.083628126
+"new","buffers/buffer-read-float.js","n=1000000 value=""nan"" endian=""LE"" type=""Float""",11962474.149242895,0.083594747
+"old","buffers/buffer-read-float.js","n=1000000 value=""zero"" endian=""LE"" type=""Double""",1875632.1407835982,0.533153585
+"old","buffers/buffer-read-float.js","n=1000000 value=""big"" endian=""LE"" type=""Double""",1733481.6992584022,0.576873699
+"old","buffers/buffer-read-float.js","n=1000000 value=""small"" endian=""LE"" type=""Double""",1732072.018397501,0.577343199
+"old","buffers/buffer-read-float.js","n=1000000 value=""inf"" endian=""LE"" type=""Double""",1735003.8473189813,0.576367598
+"old","buffers/buffer-read-float.js","n=1000000 value=""nan"" endian=""LE"" type=""Double""",1721346.980589909,0.580940398
+"old","buffers/buffer-read-float.js","n=1000000 value=""zero"" endian=""LE"" type=""Float""",1862284.5631001452,0.536974864
+"old","buffers/buffer-read-float.js","n=1000000 value=""big"" endian=""LE"" type=""Float""",1727911.3378557772,0.578733398
+"old","buffers/buffer-read-float.js","n=1000000 value=""small"" endian=""LE"" type=""Float""",1849736.4931982306,0.540617544
+"old","buffers/buffer-read-float.js","n=1000000 value=""inf"" endian=""LE"" type=""Float""",1744865.3093886375,0.573110139
+"old","buffers/buffer-read-float.js","n=1000000 value=""nan"" endian=""LE"" type=""Float""",1740598.7766664498,0.574514939
+"new","buffers/buffer-read-float.js","n=1000000 value=""zero"" endian=""LE"" type=""Double""",8551944.188301839,0.116932475
+"new","buffers/buffer-read-float.js","n=1000000 value=""big"" endian=""LE"" type=""Double""",10915986.398768276,0.091608762
+"new","buffers/buffer-read-float.js","n=1000000 value=""small"" endian=""LE"" type=""Double""",10912672.408492932,0.091636582
+"new","buffers/buffer-read-float.js","n=1000000 value=""inf"" endian=""LE"" type=""Double""",10960820.841842994,0.091234043
+"new","buffers/buffer-read-float.js","n=1000000 value=""nan"" endian=""LE"" type=""Double""",10888899.997986643,0.091836641
+"new","buffers/buffer-read-float.js","n=1000000 value=""zero"" endian=""LE"" type=""Float""",9126938.677002596,0.109565763
+"new","buffers/buffer-read-float.js","n=1000000 value=""big"" endian=""LE"" type=""Float""",11870418.241129266,0.084243030
+"new","buffers/buffer-read-float.js","n=1000000 value=""small"" endian=""LE"" type=""Float""",11895244.293226812,0.084067210
+"new","buffers/buffer-read-float.js","n=1000000 value=""inf"" endian=""LE"" type=""Float""",11876390.05722876,0.084200670
+"new","buffers/buffer-read-float.js","n=1000000 value=""nan"" endian=""LE"" type=""Float""",8675921.092393555,0.115261537
+"old","buffers/buffer-read-with-byteLength.js","byteLength=1 n=1000000 type=""IntBE"" buffer=""fast""",2245551.824004822,0.445324837
+"old","buffers/buffer-read-with-byteLength.js","byteLength=2 n=1000000 type=""IntBE"" buffer=""fast""",2193760.971876125,0.455838176
+"old","buffers/buffer-read-with-byteLength.js","byteLength=3 n=1000000 type=""IntBE"" buffer=""fast""",2489259.449122453,0.401725903
+"old","buffers/buffer-read-with-byteLength.js","byteLength=4 n=1000000 type=""IntBE"" buffer=""fast""",1879386.376213516,0.532088565
+"old","buffers/buffer-read-with-byteLength.js","byteLength=5 n=1000000 type=""IntBE"" buffer=""fast""",2294713.6649175305,0.435784218
+"old","buffers/buffer-read-with-byteLength.js","byteLength=6 n=1000000 type=""IntBE"" buffer=""fast""",2358882.452075293,0.423929560
+"old","buffers/buffer-read-with-byteLength.js","byteLength=1 n=1000000 type=""IntLE"" buffer=""fast""",2187366.990998143,0.457170655
+"old","buffers/buffer-read-with-byteLength.js","byteLength=2 n=1000000 type=""IntLE"" buffer=""fast""",2255300.478791045,0.443399897
+"old","buffers/buffer-read-with-byteLength.js","byteLength=3 n=1000000 type=""IntLE"" buffer=""fast""",2247230.113039922,0.444992257
+"old","buffers/buffer-read-with-byteLength.js","byteLength=4 n=1000000 type=""IntLE"" buffer=""fast""",1892583.5263114013,0.528378265
+"old","buffers/buffer-read-with-byteLength.js","byteLength=5 n=1000000 type=""IntLE"" buffer=""fast""",2313731.329781751,0.432202299
+"old","buffers/buffer-read-with-byteLength.js","byteLength=6 n=1000000 type=""IntLE"" buffer=""fast""",2338666.725164517,0.427594060
+"old","buffers/buffer-read-with-byteLength.js","byteLength=1 n=1000000 type=""UIntBE"" buffer=""fast""",1847460.359888271,0.541283603
+"old","buffers/buffer-read-with-byteLength.js","byteLength=2 n=1000000 type=""UIntBE"" buffer=""fast""",1851322.9083266885,0.540154284
+"old","buffers/buffer-read-with-byteLength.js","byteLength=3 n=1000000 type=""UIntBE"" buffer=""fast""",2113633.087072745,0.473119013
+"old","buffers/buffer-read-with-byteLength.js","byteLength=4 n=1000000 type=""UIntBE"" buffer=""fast""",1755015.8000562447,0.569795440
+"old","buffers/buffer-read-with-byteLength.js","byteLength=5 n=1000000 type=""UIntBE"" buffer=""fast""",2306628.4250124986,0.433533199
+"new","buffers/buffer-read-with-byteLength.js","byteLength=1 n=1000000 type=""IntBE"" buffer=""fast""",7197900.723616476,0.138929396
+"new","buffers/buffer-read-with-byteLength.js","byteLength=2 n=1000000 type=""IntBE"" buffer=""fast""",7003934.109789468,0.142776900
+"new","buffers/buffer-read-with-byteLength.js","byteLength=3 n=1000000 type=""IntBE"" buffer=""fast""",9440027.125351543,0.105931899
+"new","buffers/buffer-read-with-byteLength.js","byteLength=4 n=1000000 type=""IntBE"" buffer=""fast""",7028280.161781733,0.142282319
+"new","buffers/buffer-read-with-byteLength.js","byteLength=5 n=1000000 type=""IntBE"" buffer=""fast""",12204803.634961547,0.081934952
+"new","buffers/buffer-read-with-byteLength.js","byteLength=6 n=1000000 type=""IntBE"" buffer=""fast""",12186993.523782894,0.082054692
+"new","buffers/buffer-read-with-byteLength.js","byteLength=1 n=1000000 type=""IntLE"" buffer=""fast""",7066843.1992365215,0.141505899
+"new","buffers/buffer-read-with-byteLength.js","byteLength=2 n=1000000 type=""IntLE"" buffer=""fast""",7137967.787878899,0.140095897
+"new","buffers/buffer-read-with-byteLength.js","byteLength=3 n=1000000 type=""IntLE"" buffer=""fast""",9708417.76906074,0.103003396
+"new","buffers/buffer-read-with-byteLength.js","byteLength=4 n=1000000 type=""IntLE"" buffer=""fast""",7052562.231474134,0.141792439
+"new","buffers/buffer-read-with-byteLength.js","byteLength=5 n=1000000 type=""IntLE"" buffer=""fast""",12333702.98674555,0.081078651
+"new","buffers/buffer-read-with-byteLength.js","byteLength=6 n=1000000 type=""IntLE"" buffer=""fast""",12184184.119982436,0.082073612
+"new","buffers/buffer-read-with-byteLength.js","byteLength=1 n=1000000 type=""UIntBE"" buffer=""fast""",7049024.555981942,0.141863600
+"new","buffers/buffer-read-with-byteLength.js","byteLength=2 n=1000000 type=""UIntBE"" buffer=""fast""",6507432.7376134405,0.153670432
+"new","buffers/buffer-read-with-byteLength.js","byteLength=3 n=1000000 type=""UIntBE"" buffer=""fast""",9557090.224608632,0.104634358
+"new","buffers/buffer-read-with-byteLength.js","byteLength=4 n=1000000 type=""UIntBE"" buffer=""fast""",6859842.389358837,0.145775944
+"new","buffers/buffer-read-with-byteLength.js","byteLength=5 n=1000000 type=""UIntBE"" buffer=""fast""",12317647.847587733,0.081184331
+"old","buffers/buffer-read-with-byteLength.js","byteLength=1 n=1000000 type=""IntBE"" buffer=""fast""",2245551.824004822,0.445324837
+"old","buffers/buffer-read-with-byteLength.js","byteLength=2 n=1000000 type=""IntBE"" buffer=""fast""",2193760.971876125,0.455838176
+"old","buffers/buffer-read-with-byteLength.js","byteLength=3 n=1000000 type=""IntBE"" buffer=""fast""",2489259.449122453,0.401725903
+"old","buffers/buffer-read-with-byteLength.js","byteLength=4 n=1000000 type=""IntBE"" buffer=""fast""",1879386.376213516,0.532088565
+"old","buffers/buffer-read-with-byteLength.js","byteLength=5 n=1000000 type=""IntBE"" buffer=""fast""",2294713.6649175305,0.435784218
+"old","buffers/buffer-read-with-byteLength.js","byteLength=6 n=1000000 type=""IntBE"" buffer=""fast""",2358882.452075293,0.423929560
+"old","buffers/buffer-read-with-byteLength.js","byteLength=1 n=1000000 type=""IntLE"" buffer=""fast""",2187366.990998143,0.457170655
+"old","buffers/buffer-read-with-byteLength.js","byteLength=2 n=1000000 type=""IntLE"" buffer=""fast""",2255300.478791045,0.443399897
+"old","buffers/buffer-read-with-byteLength.js","byteLength=3 n=1000000 type=""IntLE"" buffer=""fast""",2247230.113039922,0.444992257
+"old","buffers/buffer-read-with-byteLength.js","byteLength=4 n=1000000 type=""IntLE"" buffer=""fast""",1892583.5263114013,0.528378265
+"old","buffers/buffer-read-with-byteLength.js","byteLength=5 n=1000000 type=""IntLE"" buffer=""fast""",2313731.329781751,0.432202299
+"old","buffers/buffer-read-with-byteLength.js","byteLength=6 n=1000000 type=""IntLE"" buffer=""fast""",2338666.725164517,0.427594060
+"old","buffers/buffer-read-with-byteLength.js","byteLength=1 n=1000000 type=""UIntBE"" buffer=""fast""",1847460.359888271,0.541283603
+"old","buffers/buffer-read-with-byteLength.js","byteLength=2 n=1000000 type=""UIntBE"" buffer=""fast""",1851322.9083266885,0.540154284
+"old","buffers/buffer-read-with-byteLength.js","byteLength=3 n=1000000 type=""UIntBE"" buffer=""fast""",2113633.087072745,0.473119013
+"old","buffers/buffer-read-with-byteLength.js","byteLength=4 n=1000000 type=""UIntBE"" buffer=""fast""",1755015.8000562447,0.569795440
+"old","buffers/buffer-read-with-byteLength.js","byteLength=5 n=1000000 type=""UIntBE"" buffer=""fast""",2306628.4250124986,0.433533199
+"old","buffers/buffer-read-with-byteLength.js","byteLength=1 n=1000000 type=""IntBE"" buffer=""fast""",2245551.824004822,0.445324837
+"old","buffers/buffer-read-with-byteLength.js","byteLength=2 n=1000000 type=""IntBE"" buffer=""fast""",2193760.971876125,0.455838176
+"old","buffers/buffer-read-with-byteLength.js","byteLength=3 n=1000000 type=""IntBE"" buffer=""fast""",2489259.449122453,0.401725903
+"old","buffers/buffer-read-with-byteLength.js","byteLength=4 n=1000000 type=""IntBE"" buffer=""fast""",1879386.376213516,0.532088565
+"old","buffers/buffer-read-with-byteLength.js","byteLength=5 n=1000000 type=""IntBE"" buffer=""fast""",2294713.6649175305,0.435784218
+"old","buffers/buffer-read-with-byteLength.js","byteLength=6 n=1000000 type=""IntBE"" buffer=""fast""",2358882.452075293,0.423929560
+"old","buffers/buffer-read-with-byteLength.js","byteLength=1 n=1000000 type=""IntLE"" buffer=""fast""",2187366.990998143,0.457170655
+"old","buffers/buffer-read-with-byteLength.js","byteLength=2 n=1000000 type=""IntLE"" buffer=""fast""",2255300.478791045,0.443399897
+"old","buffers/buffer-read-with-byteLength.js","byteLength=3 n=1000000 type=""IntLE"" buffer=""fast""",2247230.113039922,0.444992257
+"old","buffers/buffer-read-with-byteLength.js","byteLength=4 n=1000000 type=""IntLE"" buffer=""fast""",1892583.5263114013,0.528378265
+"old","buffers/buffer-read-with-byteLength.js","byteLength=5 n=1000000 type=""IntLE"" buffer=""fast""",2313731.329781751,0.432202299
+"old","buffers/buffer-read-with-byteLength.js","byteLength=6 n=1000000 type=""IntLE"" buffer=""fast""",2338666.725164517,0.427594060
+"old","buffers/buffer-read-with-byteLength.js","byteLength=1 n=1000000 type=""UIntBE"" buffer=""fast""",1847460.359888271,0.541283603
+"old","buffers/buffer-read-with-byteLength.js","byteLength=2 n=1000000 type=""UIntBE"" buffer=""fast""",1851322.9083266885,0.540154284
+"old","buffers/buffer-read-with-byteLength.js","byteLength=3 n=1000000 type=""UIntBE"" buffer=""fast""",2113633.087072745,0.473119013
+"old","buffers/buffer-read-with-byteLength.js","byteLength=4 n=1000000 type=""UIntBE"" buffer=""fast""",1755015.8000562447,0.569795440
+"old","buffers/buffer-read-with-byteLength.js","byteLength=5 n=1000000 type=""UIntBE"" buffer=""fast""",2306628.4250124986,0.433533199
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

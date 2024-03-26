@@ -1,0 +1,23 @@
+"filename","configuration","rate","time"
+"timers/immediate.js","type=""depth"" n=5000000",118956.6456952819,42.032119944
+"timers/immediate.js","type=""depth1"" n=5000000",118883.17099436451,42.058097527
+"timers/immediate.js","type=""breadth"" n=5000000",335208.82701097406,14.916074987
+"timers/immediate.js","type=""breadth1"" n=5000000",205628.64734237333,24.315678115
+"timers/immediate.js","type=""breadth4"" n=5000000",189054.2410190822,13.223718159
+"timers/immediate.js","type=""clear"" n=5000000",1963965.636144464,10.183477568
+"timers/set-immediate-breadth-args.js","n=5000000",221513.53899757093,22.571983738
+"timers/set-immediate-breadth.js","n=10000000",293847.50468175823,34.031257168
+"timers/set-immediate-depth-args.js","n=5000000",109408.87328017817,45.700132449
+"timers/timers-breadth-args.js","n=1000000",231682.84750215194,4.316245293
+"timers/timers-breadth.js","n=5000000",162282.97189073605,30.810379806
+"timers/timers-cancel-pooled.js","n=5000000",1213902.4012782432,4.118947285
+"timers/timers-cancel-unpooled.js","direction=""start"" n=1000000",288678.21530583577,3.464064647
+"timers/timers-cancel-unpooled.js","direction=""end"" n=1000000",350957.00257512665,2.849351894
+"timers/timers-depth.js","n=1000",909.1783356796681,1.099894224
+"timers/timers-insert-pooled.js","n=5000000",185765.0323498071,26.915722172
+"timers/timers-insert-unpooled.js","direction=""start"" n=1000000",242187.55912782208,4.129031250
+"timers/timers-insert-unpooled.js","direction=""end"" n=1000000",171248.01708966983,5.839483674
+"timers/timers-timeout-nexttick.js","n=50000",291304.15781978366,0.171641903
+"timers/timers-timeout-nexttick.js","n=5000000",432104.60262114846,11.571272256
+"timers/timers-timeout-pooled.js","n=10000000",563020.5357697372,17.761341487
+"timers/timers-timeout-unpooled.js","n=1000000",1173389.7278830134,0.852231766

@@ -1,0 +1,194 @@
+                                                                                                          confidence improvement accuracy (*)       (**)       (***)
+url/legacy-url-get-prop.js e=1 type="auth"                                                                       *** 150815.61 %   ±16961.32% ±39124.34% ±124565.40%
+url/legacy-url-get-prop.js e=1 type="dot"                                                                         **  37473.68 %   ±10415.98% ±24026.33%  ±76495.84%
+url/legacy-url-get-prop.js e=1 type="file"                                                                        **  33729.60 %    ±4860.86% ±11212.45%  ±35698.57%
+url/legacy-url-get-prop.js e=1 type="idn"                                                                         **  75771.27 %   ±16729.40% ±38589.38% ±122862.20%
+url/legacy-url-get-prop.js e=1 type="javascript"                                                                         -7.00 %      ±34.28%    ±79.08%    ±251.76%
+url/legacy-url-get-prop.js e=1 type="long"                                                                        **  79351.75 %   ±15769.47% ±36375.13% ±115812.38%
+url/legacy-url-get-prop.js e=1 type="percent"                                                                    ***  30322.93 %    ±1733.56%  ±3998.76%  ±12731.39%
+url/legacy-url-get-prop.js e=1 type="short"                                                                       **  76086.81 %   ±11136.16% ±25687.56%  ±81784.92%
+url/legacy-url-get-prop.js e=1 type="wpt"                                                                          *     13.86 %       ±7.64%    ±17.63%     ±56.14%
+url/legacy-url-get-prop.js e=1 type="ws"                                                                          **  89417.63 %   ±12951.91% ±29875.91%  ±95119.95%
+url/legacy-url-parse.js e=1 type="auth"                                                                          ***   1894.58 %      ±79.44%   ±183.24%    ±583.40%
+url/legacy-url-parse.js e=1 type="dot"                                                                           ***   5250.52 %     ±262.05%   ±604.46%   ±1924.49%
+url/legacy-url-parse.js e=1 type="file"                                                                          ***   7862.10 %     ±423.93%   ±977.86%   ±3113.35%
+url/legacy-url-parse.js e=1 type="idn"                                                                           ***   6387.22 %     ±128.39%   ±296.15%    ±942.91%
+url/legacy-url-parse.js e=1 type="javascript"                                                                    ***   7358.34 %      ±56.17%   ±129.56%    ±412.49%
+url/legacy-url-parse.js e=1 type="long"                                                                          ***    784.27 %      ±38.19%    ±88.09%    ±280.46%
+url/legacy-url-parse.js e=1 type="percent"                                                                       ***   8291.02 %      ±59.54%   ±137.33%    ±437.24%
+url/legacy-url-parse.js e=1 type="short"                                                                         ***   5510.16 %     ±293.91%   ±677.95%   ±2158.48%
+url/legacy-url-parse.js e=1 type="wpt"                                                                           ***   7263.41 %      ±41.65%    ±96.08%    ±305.90%
+url/legacy-url-parse.js e=1 type="ws"                                                                            ***   1940.81 %      ±83.86%   ±193.45%    ±615.91%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="legacy" searchParam="altspaces"                          4.00 %      ±12.48%    ±28.79%     ±91.65%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="legacy" searchParam="encodefake"                        -1.40 %       ±9.02%    ±20.81%     ±66.25%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="legacy" searchParam="encodelast"                         0.80 %      ±11.20%    ±25.84%     ±82.26%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="legacy" searchParam="encodemany"                         2.25 %       ±2.60%     ±5.99%     ±19.07%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="legacy" searchParam="manyblankpairs"            ***     18.64 %       ±2.16%     ±4.97%     ±15.83%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="legacy" searchParam="manypairs"                         -0.29 %       ±0.60%     ±1.40%      ±4.44%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="legacy" searchParam="multicharsep"                      -3.58 %       ±6.63%    ±15.30%     ±48.70%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="legacy" searchParam="multivalue"                  *     11.42 %       ±8.48%    ±19.57%     ±62.30%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="legacy" searchParam="multivaluemany"                    -2.74 %      ±15.50%    ±35.76%    ±113.86%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="legacy" searchParam="noencode"                          -3.93 %      ±10.96%    ±25.27%     ±80.46%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="whatwg" searchParam="altspaces"                  **     25.14 %       ±5.85%    ±13.49%     ±42.96%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="whatwg" searchParam="encodefake"                ***     60.55 %       ±4.86%    ±11.21%     ±35.70%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="whatwg" searchParam="encodelast"                  *     30.02 %      ±13.69%    ±31.58%    ±100.55%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="whatwg" searchParam="encodemany"                  *     15.91 %      ±13.60%    ±31.37%     ±99.88%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="whatwg" searchParam="manyblankpairs"            ***    173.12 %       ±1.33%     ±3.07%      ±9.79%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="whatwg" searchParam="manypairs"                  **     25.33 %       ±4.26%     ±9.82%     ±31.27%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="whatwg" searchParam="multicharsep"              ***     53.17 %       ±3.07%     ±7.07%     ±22.52%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="whatwg" searchParam="multivalue"                ***     48.41 %       ±2.35%     ±5.42%     ±17.26%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="whatwg" searchParam="multivaluemany"            ***     19.07 %       ±1.58%     ±3.65%     ±11.63%
+url/legacy-vs-whatwg-url-searchparams-parse.js n=1000000 method="whatwg" searchParam="noencode"                  ***     59.41 %       ±1.16%     ±2.67%      ±8.49%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="legacy" searchParam="altspaces"             ***     15.13 %       ±1.18%     ±2.73%      ±8.70%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="legacy" searchParam="encodefake"            ***     24.77 %       ±3.32%     ±7.67%     ±24.42%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="legacy" searchParam="encodelast"            ***     33.47 %       ±3.73%     ±8.61%     ±27.42%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="legacy" searchParam="encodemany"             **     37.61 %      ±10.49%    ±24.20%     ±77.04%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="legacy" searchParam="manyblankpairs"         **     85.51 %      ±12.33%    ±28.44%     ±90.54%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="legacy" searchParam="manypairs"               *      6.23 %       ±4.72%    ±10.88%     ±34.65%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="legacy" searchParam="multicharsep"           **     35.10 %       ±9.73%    ±22.44%     ±71.44%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="legacy" searchParam="multivalue"            ***     37.89 %       ±4.70%    ±10.84%     ±34.52%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="legacy" searchParam="multivaluemany"         **     11.83 %       ±2.21%     ±5.09%     ±16.20%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="legacy" searchParam="noencode"              ***     33.02 %       ±1.55%     ±3.58%     ±11.39%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="whatwg" searchParam="altspaces"              **     33.33 %       ±6.61%    ±15.24%     ±48.53%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="whatwg" searchParam="encodefake"             **     44.62 %       ±8.99%    ±20.74%     ±66.03%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="whatwg" searchParam="encodelast"             **     82.74 %      ±14.39%    ±33.19%    ±105.68%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="whatwg" searchParam="encodemany"            ***     83.13 %       ±6.17%    ±14.24%     ±45.33%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="whatwg" searchParam="manyblankpairs"        ***   2480.75 %      ±41.54%    ±95.81%    ±305.06%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="whatwg" searchParam="manypairs"             ***     15.80 %       ±1.91%     ±4.40%     ±14.00%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="whatwg" searchParam="multicharsep"           **     86.47 %      ±11.77%    ±27.16%     ±86.47%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="whatwg" searchParam="multivalue"            ***     63.48 %       ±7.90%    ±18.22%     ±58.02%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="whatwg" searchParam="multivaluemany"         **     17.78 %       ±4.97%    ±11.46%     ±36.49%
+url/legacy-vs-whatwg-url-searchparams-serialize.js n=1000000 method="whatwg" searchParam="noencode"              ***     83.01 %       ±4.38%    ±10.09%     ±32.13%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="legacy" type="auth"                                                     4.06 %       ±7.61%    ±17.56%     ±55.90%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="legacy" type="dot"                                                      0.39 %       ±9.54%    ±22.00%     ±70.04%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="legacy" type="file"                                                     3.15 %      ±22.26%    ±51.35%    ±163.49%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="legacy" type="idn"                                                      0.56 %       ±6.19%    ±14.27%     ±45.44%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="legacy" type="javascript"                                        *      5.96 %       ±5.49%    ±12.67%     ±40.35%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="legacy" type="long"                                             **      7.58 %       ±1.29%     ±2.97%      ±9.46%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="legacy" type="percent"                                                 -2.55 %       ±2.70%     ±6.23%     ±19.83%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="legacy" type="short"                                                    1.94 %       ±2.86%     ±6.60%     ±21.01%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="legacy" type="wpt"                                                     -2.03 %      ±36.29%    ±83.72%    ±266.54%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="legacy" type="ws"                                               **     23.33 %       ±4.27%     ±9.84%     ±31.33%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="whatwg" type="auth"                                                    -2.01 %       ±3.99%     ±9.20%     ±29.29%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="whatwg" type="dot"                                               *      6.31 %       ±4.50%    ±10.39%     ±33.08%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="whatwg" type="file"                                                    -4.12 %      ±20.89%    ±48.18%    ±153.41%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="whatwg" type="idn"                                                     -4.47 %      ±43.94%   ±101.36%    ±322.72%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="whatwg" type="javascript"                                              -1.77 %       ±7.25%    ±16.73%     ±53.25%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="whatwg" type="long"                                                     0.29 %       ±7.19%    ±16.59%     ±52.83%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="whatwg" type="percent"                                                 24.90 %      ±30.65%    ±70.69%    ±225.08%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="whatwg" type="short"                                            **      8.15 %       ±3.28%     ±7.57%     ±24.10%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="whatwg" type="wpt"                                              **     28.39 %      ±10.97%    ±25.31%     ±80.59%
+url/legacy-vs-whatwg-url-serialize.js e=1 method="whatwg" type="ws"                                                       1.33 %       ±1.74%     ±4.02%     ±12.81%
+url/url-format.js n=25000000 type="file"                                                                           *     26.08 %      ±11.96%    ±27.59%     ±87.84%
+url/url-format.js n=25000000 type="slashes"                                                                        *     10.71 %       ±5.77%    ±13.31%     ±42.37%
+url/url-parse.js n=10000000 type="escaped"                                                                        **     11.69 %       ±2.65%     ±6.11%     ±19.44%
+url/url-parse.js n=10000000 type="normal"                                                                          *      4.67 %       ±4.65%    ±10.72%     ±34.14%
+url/url-resolve.js n=100000 path="down" href="auth"                                                              ***    160.02 %       ±7.77%    ±17.92%     ±57.06%
+url/url-resolve.js n=100000 path="down" href="dot"                                                               ***    171.61 %       ±2.91%     ±6.71%     ±21.35%
+url/url-resolve.js n=100000 path="down" href="file"                                                              ***    199.36 %       ±6.02%    ±13.89%     ±44.22%
+url/url-resolve.js n=100000 path="down" href="idn"                                                               ***    162.05 %       ±3.75%     ±8.65%     ±27.53%
+url/url-resolve.js n=100000 path="down" href="javascript"                                                        ***    244.32 %       ±9.17%    ±21.16%     ±67.37%
+url/url-resolve.js n=100000 path="down" href="long"                                                              ***    113.56 %       ±3.51%     ±8.10%     ±25.78%
+url/url-resolve.js n=100000 path="down" href="noscheme"                                                          ***    225.87 %       ±7.50%    ±17.31%     ±55.11%
+url/url-resolve.js n=100000 path="down" href="percent"                                                           ***    223.98 %      ±12.56%    ±28.98%     ±92.25%
+url/url-resolve.js n=100000 path="down" href="short"                                                             ***    174.37 %       ±5.25%    ±12.11%     ±38.55%
+url/url-resolve.js n=100000 path="down" href="ws"                                                                ***    161.19 %       ±4.34%    ±10.00%     ±31.84%
+url/url-resolve.js n=100000 path="foo/bar" href="auth"                                                           ***    177.47 %      ±11.32%    ±26.12%     ±83.16%
+url/url-resolve.js n=100000 path="foo/bar" href="dot"                                                            ***    181.65 %       ±3.62%     ±8.36%     ±26.62%
+url/url-resolve.js n=100000 path="foo/bar" href="file"                                                           ***    204.09 %       ±8.80%    ±20.30%     ±64.62%
+url/url-resolve.js n=100000 path="foo/bar" href="idn"                                                            ***    178.91 %       ±2.97%     ±6.85%     ±21.80%
+url/url-resolve.js n=100000 path="foo/bar" href="javascript"                                                     ***    267.54 %       ±7.83%    ±18.05%     ±57.47%
+url/url-resolve.js n=100000 path="foo/bar" href="long"                                                           ***    116.32 %       ±2.46%     ±5.67%     ±18.05%
+url/url-resolve.js n=100000 path="foo/bar" href="noscheme"                                                       ***    277.41 %       ±9.03%    ±20.84%     ±66.35%
+url/url-resolve.js n=100000 path="foo/bar" href="percent"                                                        ***    241.98 %       ±3.86%     ±8.90%     ±28.32%
+url/url-resolve.js n=100000 path="foo/bar" href="short"                                                          ***    190.55 %       ±4.91%    ±11.32%     ±36.05%
+url/url-resolve.js n=100000 path="foo/bar" href="ws"                                                             ***    171.53 %      ±10.49%    ±24.21%     ±77.07%
+url/url-resolve.js n=100000 path="sibling" href="auth"                                                           ***    144.55 %       ±7.23%    ±16.67%     ±53.08%
+url/url-resolve.js n=100000 path="sibling" href="dot"                                                            ***    169.20 %       ±4.23%     ±9.76%     ±31.08%
+url/url-resolve.js n=100000 path="sibling" href="file"                                                           ***    196.39 %       ±3.84%     ±8.85%     ±28.17%
+url/url-resolve.js n=100000 path="sibling" href="idn"                                                            ***    149.51 %       ±3.46%     ±7.97%     ±25.38%
+url/url-resolve.js n=100000 path="sibling" href="javascript"                                                     ***    233.88 %       ±2.11%     ±4.87%     ±15.51%
+url/url-resolve.js n=100000 path="sibling" href="long"                                                           ***    113.21 %       ±3.88%     ±8.95%     ±28.49%
+url/url-resolve.js n=100000 path="sibling" href="noscheme"                                                       ***    229.30 %       ±9.30%    ±21.45%     ±68.29%
+url/url-resolve.js n=100000 path="sibling" href="percent"                                                        ***    219.58 %       ±8.28%    ±19.10%     ±60.82%
+url/url-resolve.js n=100000 path="sibling" href="short"                                                          ***    178.74 %       ±5.95%    ±13.72%     ±43.67%
+url/url-resolve.js n=100000 path="sibling" href="ws"                                                             ***    153.23 %       ±2.68%     ±6.18%     ±19.67%
+url/url-resolve.js n=100000 path="up" href="auth"                                                                ***    157.37 %       ±2.88%     ±6.65%     ±21.17%
+url/url-resolve.js n=100000 path="up" href="dot"                                                                 ***    167.71 %       ±4.72%    ±10.89%     ±34.68%
+url/url-resolve.js n=100000 path="up" href="file"                                                                ***    194.92 %       ±2.24%     ±5.17%     ±16.46%
+url/url-resolve.js n=100000 path="up" href="idn"                                                                 ***    166.32 %       ±3.35%     ±7.72%     ±24.57%
+url/url-resolve.js n=100000 path="up" href="javascript"                                                          ***    225.27 %      ±10.16%    ±23.44%     ±74.64%
+url/url-resolve.js n=100000 path="up" href="long"                                                                ***    115.97 %       ±2.23%     ±5.16%     ±16.41%
+url/url-resolve.js n=100000 path="up" href="noscheme"                                                            ***    217.01 %       ±5.77%    ±13.32%     ±42.40%
+url/url-resolve.js n=100000 path="up" href="percent"                                                             ***    196.93 %       ±7.16%    ±16.51%     ±52.56%
+url/url-resolve.js n=100000 path="up" href="short"                                                               ***    171.29 %       ±2.83%     ±6.52%     ±20.76%
+url/url-resolve.js n=100000 path="up" href="ws"                                                                  ***    167.41 %       ±7.93%    ±18.29%     ±58.22%
+url/url-resolve.js n=100000 path="withscheme" href="auth"                                                        ***    214.56 %       ±9.70%    ±22.36%     ±71.20%
+url/url-resolve.js n=100000 path="withscheme" href="dot"                                                         ***    269.16 %      ±11.80%    ±27.21%     ±86.65%
+url/url-resolve.js n=100000 path="withscheme" href="file"                                                        ***    333.35 %      ±13.75%    ±31.71%    ±100.96%
+url/url-resolve.js n=100000 path="withscheme" href="idn"                                                         ***    179.56 %       ±2.64%     ±6.08%     ±19.36%
+url/url-resolve.js n=100000 path="withscheme" href="javascript"                                                  ***    339.67 %      ±14.54%    ±33.53%    ±106.77%
+url/url-resolve.js n=100000 path="withscheme" href="long"                                                        ***    124.74 %       ±2.71%     ±6.25%     ±19.90%
+url/url-resolve.js n=100000 path="withscheme" href="noscheme"                                                    ***    312.08 %      ±19.64%    ±45.30%    ±144.22%
+url/url-resolve.js n=100000 path="withscheme" href="percent"                                                     ***    347.92 %      ±22.22%    ±51.26%    ±163.20%
+url/url-resolve.js n=100000 path="withscheme" href="short"                                                       ***    287.50 %       ±6.41%    ±14.79%     ±47.09%
+url/url-resolve.js n=100000 path="withscheme" href="ws"                                                          ***    233.57 %       ±4.42%    ±10.20%     ±32.46%
+url/url-searchparams-creation.js n=1000000 inputType="iterable" type="array"                                      **    -10.55 %       ±2.96%     ±6.82%     ±21.71%
+url/url-searchparams-creation.js n=1000000 inputType="iterable" type="encodelast"                                         0.19 %       ±4.27%     ±9.84%     ±31.33%
+url/url-searchparams-creation.js n=1000000 inputType="iterable" type="encodemany"                                        -1.70 %       ±2.80%     ±6.47%     ±20.60%
+url/url-searchparams-creation.js n=1000000 inputType="iterable" type="multiprimitives"                             *      2.16 %       ±1.13%     ±2.61%      ±8.31%
+url/url-searchparams-creation.js n=1000000 inputType="iterable" type="noencode"                                          -1.35 %       ±9.38%    ±21.64%     ±68.89%
+url/url-searchparams-creation.js n=1000000 inputType="object" type="array"                                        **     -5.71 %       ±1.83%     ±4.22%     ±13.42%
+url/url-searchparams-creation.js n=1000000 inputType="object" type="encodelast"                                    *      3.27 %       ±3.26%     ±7.51%     ±23.92%
+url/url-searchparams-creation.js n=1000000 inputType="object" type="encodemany"                                    *      6.40 %       ±2.80%     ±6.45%     ±20.54%
+url/url-searchparams-creation.js n=1000000 inputType="object" type="multiprimitives"                                      2.60 %       ±4.62%    ±10.67%     ±33.96%
+url/url-searchparams-creation.js n=1000000 inputType="object" type="noencode"                                             3.19 %       ±4.52%    ±10.44%     ±33.22%
+url/url-searchparams-creation.js n=1000000 inputType="string" type="array"                                       ***     65.22 %       ±2.61%     ±6.02%     ±19.15%
+url/url-searchparams-creation.js n=1000000 inputType="string" type="encodelast"                                  ***     72.21 %       ±2.98%     ±6.87%     ±21.88%
+url/url-searchparams-creation.js n=1000000 inputType="string" type="encodemany"                                  ***     68.63 %       ±3.26%     ±7.52%     ±23.93%
+url/url-searchparams-creation.js n=1000000 inputType="string" type="multiprimitives"                             ***     71.98 %       ±8.26%    ±19.05%     ±60.65%
+url/url-searchparams-creation.js n=1000000 inputType="string" type="noencode"                                    ***     68.32 %       ±6.97%    ±16.08%     ±51.19%
+url/url-searchparams-iteration.js n=1000000 loopMethod="forEach"                                                 ***    201.58 %       ±0.18%     ±0.40%      ±1.29%
+url/url-searchparams-iteration.js n=1000000 loopMethod="iterator"                                                 **     84.61 %      ±13.51%    ±31.16%     ±99.21%
+url/url-searchparams-read.js n=20000000 param="nonexistent" accessMethod="get"                                   ***    -25.68 %       ±0.40%     ±0.91%      ±2.90%
+url/url-searchparams-read.js n=20000000 param="nonexistent" accessMethod="getAll"                                ***    -21.28 %       ±0.80%     ±1.84%      ±5.86%
+url/url-searchparams-read.js n=20000000 param="nonexistent" accessMethod="has"                                   ***    -34.81 %       ±0.63%     ±1.46%      ±4.64%
+url/url-searchparams-read.js n=20000000 param="one" accessMethod="get"                                            **    -38.22 %       ±7.46%    ±17.21%     ±54.78%
+url/url-searchparams-read.js n=20000000 param="one" accessMethod="getAll"                                        ***    -16.79 %       ±0.57%     ±1.32%      ±4.20%
+url/url-searchparams-read.js n=20000000 param="one" accessMethod="has"                                           ***    -35.43 %       ±0.39%     ±0.90%      ±2.88%
+url/url-searchparams-read.js n=20000000 param="three" accessMethod="get"                                         ***    -33.00 %       ±0.57%     ±1.31%      ±4.17%
+url/url-searchparams-read.js n=20000000 param="three" accessMethod="getAll"                                       **    -19.58 %       ±4.55%    ±10.50%     ±33.43%
+url/url-searchparams-read.js n=20000000 param="three" accessMethod="has"                                          **    -35.14 %      ±13.00%    ±30.00%     ±95.51%
+url/url-searchparams-read.js n=20000000 param="two" accessMethod="get"                                           ***    -30.86 %       ±2.72%     ±6.28%     ±20.01%
+url/url-searchparams-read.js n=20000000 param="two" accessMethod="getAll"                                        ***    -19.47 %       ±1.48%     ±3.41%     ±10.84%
+url/url-searchparams-read.js n=20000000 param="two" accessMethod="has"                                           ***    -29.27 %       ±0.75%     ±1.72%      ±5.49%
+url/url-searchparams-sort.js n=1000000 type="almostsorted"                                                        **     48.74 %       ±9.62%    ±22.19%     ±70.66%
+url/url-searchparams-sort.js n=1000000 type="empty"                                                               **    102.11 %      ±16.21%    ±37.38%    ±119.01%
+url/url-searchparams-sort.js n=1000000 type="long"                                                                **     36.55 %      ±13.05%    ±30.09%     ±95.81%
+url/url-searchparams-sort.js n=1000000 type="random"                                                              **     45.44 %      ±11.50%    ±26.54%     ±84.49%
+url/url-searchparams-sort.js n=1000000 type="reversed"                                                            **     51.78 %       ±9.89%    ±22.81%     ±72.63%
+url/url-searchparams-sort.js n=1000000 type="short"                                                                *     61.16 %      ±33.81%    ±77.98%    ±248.27%
+url/url-searchparams-sort.js n=1000000 type="sorted"                                                              **     46.70 %       ±7.01%    ±16.17%     ±51.48%
+url/url-searchparams-sort.js n=1000000 type="wpt"                                                                 **     96.04 %      ±39.55%    ±91.22%    ±290.43%
+url/url-searchparams-toString.js n=1000000 inputType="iterable" type="array"                                     ***     74.82 %       ±2.90%     ±6.68%     ±21.28%
+url/url-searchparams-toString.js n=1000000 inputType="iterable" type="encodelast"                                ***     87.42 %       ±8.53%    ±19.68%     ±62.65%
+url/url-searchparams-toString.js n=1000000 inputType="iterable" type="encodemany"                                ***     43.37 %       ±1.96%     ±4.52%     ±14.38%
+url/url-searchparams-toString.js n=1000000 inputType="iterable" type="multiprimitives"                           ***     94.98 %       ±7.71%    ±17.78%     ±56.61%
+url/url-searchparams-toString.js n=1000000 inputType="iterable" type="noencode"                                  ***     87.97 %       ±4.74%    ±10.93%     ±34.80%
+url/url-searchparams-toString.js n=1000000 inputType="object" type="array"                                        **     69.97 %       ±9.57%    ±22.08%     ±70.31%
+url/url-searchparams-toString.js n=1000000 inputType="object" type="encodelast"                                  ***     75.60 %       ±4.68%    ±10.81%     ±34.41%
+url/url-searchparams-toString.js n=1000000 inputType="object" type="encodemany"                                  ***     41.76 %       ±4.64%    ±10.70%     ±34.07%
+url/url-searchparams-toString.js n=1000000 inputType="object" type="multiprimitives"                             ***     92.63 %       ±5.29%    ±12.20%     ±38.86%
+url/url-searchparams-toString.js n=1000000 inputType="object" type="noencode"                                    ***     93.87 %       ±7.21%    ±16.63%     ±52.95%
+url/url-searchparams-toString.js n=1000000 inputType="string" type="array"                                       ***     81.99 %       ±9.07%    ±20.93%     ±66.63%
+url/url-searchparams-toString.js n=1000000 inputType="string" type="encodelast"                                   **     99.27 %      ±13.71%    ±31.63%    ±100.71%
+url/url-searchparams-toString.js n=1000000 inputType="string" type="encodemany"                                  ***     58.77 %       ±6.21%    ±14.31%     ±45.57%
+url/url-searchparams-toString.js n=1000000 inputType="string" type="multiprimitives"                              **    116.54 %      ±17.70%    ±40.83%    ±129.99%
+url/url-searchparams-toString.js n=1000000 inputType="string" type="noencode"                                    ***    115.11 %       ±9.83%    ±22.66%     ±72.16%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 186 comparisons, you can thus
+expect the following amount of false-positive results:
+  9.30 false positives, when considering a   5% risk acceptance (*, **, ***),
+  1.86 false positives, when considering a   1% risk acceptance (**, ***),
+  0.19 false positives, when considering a 0.1% risk acceptance (***)

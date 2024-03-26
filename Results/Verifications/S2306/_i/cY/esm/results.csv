@@ -1,0 +1,121 @@
+"binary","filename","configuration","rate","time"
+"old","esm/cjs-parse.js","n=100",8.234860837925172,12.143496043
+"new","esm/cjs-parse.js","n=100",64.38321408207892,1.553199874
+"old","esm/cjs-parse.js","n=100",8.234860837925172,12.143496043
+"new","esm/cjs-parse.js","n=100",64.72668162862317,1.544957929
+"old","esm/cjs-parse.js","n=100",8.234860837925172,12.143496043
+"new","esm/cjs-parse.js","n=100",66.67843332089022,1.499735297
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.js"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",9829.633306669732,1.017331948
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.json"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",7232.461273095413,1.382655174
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.node"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",7052.723328641781,1.417892002
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/non-exist"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",7013.584265594325,1.425804499
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.js"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",6992.966903256873,1.430008198
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.json"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",6999.543303597887,1.428664638
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.node"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",7056.176938412351,1.417198022
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/non-exist"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",7196.258148409457,1.389611072
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.js"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",9183.421391967217,1.088918778
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.json"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",9086.141584159754,1.100577171
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.node"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",9118.107186134643,1.096718847
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/non-exist"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",9288.35102830461,1.076617364
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.js"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",9122.986956137534,1.096132226
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.json"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",9405.614735140034,1.063194728
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.node"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",9178.608711227715,1.089489738
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/non-exist"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",8732.053279405476,1.145206022
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.js"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",9829.633306669732,1.017331948
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.json"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",7232.461273095413,1.382655174
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.node"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",7052.723328641781,1.417892002
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/non-exist"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",7013.584265594325,1.425804499
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.js"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",6992.966903256873,1.430008198
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.json"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",6999.543303597887,1.428664638
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.node"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",7056.176938412351,1.417198022
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/non-exist"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",7196.258148409457,1.389611072
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.js"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",8809.662777129779,1.135117229
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.json"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",8768.278490345325,1.140474725
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.node"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",9322.218806095141,1.072705995
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/non-exist"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",8961.979102093273,1.115824963
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.js"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",9149.007283305122,1.093014760
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.json"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",8874.461499340181,1.126828935
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.node"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",9072.937638733665,1.102178853
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/non-exist"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",9295.820297173188,1.075752293
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.js"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",9829.633306669732,1.017331948
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.json"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",7232.461273095413,1.382655174
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.node"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",7052.723328641781,1.417892002
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/non-exist"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",7013.584265594325,1.425804499
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.js"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",6992.966903256873,1.430008198
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.json"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",6999.543303597887,1.428664638
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.node"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",7056.176938412351,1.417198022
+"old","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/non-exist"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",7196.258148409457,1.389611072
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.js"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",9031.790324993386,1.107200194
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.json"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",9169.43277048045,1.090580001
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.node"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",9134.39211899263,1.094763600
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/non-exist"" packageConfigMain=' packageJsonUrl=""node_modules/test/package.json"" n=10000",8977.642646141065,1.113878152
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.js"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",9047.229273595021,1.105310775
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.json"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",9256.147779471668,1.080363045
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/test/index.node"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",9410.053342656463,1.062693232
+"new","esm/esm-legacyMainResolve.js","resolvedFile=""node_modules/non-exist"" packageConfigMain=""./index.js"" packageJsonUrl=""node_modules/test/package.json"" n=10000",8878.401752306714,1.126328846
+"old","esm/esm-loader-defaultResolve.js","specifier=""./relative-existing.js"" n=1000",234.77411430688275,4.259413364
+"old","esm/esm-loader-defaultResolve.js","specifier=""./relative-nonexistent.js"" n=1000",183.05123681567449,5.462951343
+"old","esm/esm-loader-defaultResolve.js","specifier=""unprefixed-existing"" n=1000",172.3872823171835,5.800891960
+"old","esm/esm-loader-defaultResolve.js","specifier=""unprefixed-nonexistent"" n=1000",116.20169111537544,8.605726736
+"old","esm/esm-loader-defaultResolve.js","specifier=""node:prefixed-nonexistent"" n=1000",946.4035809322143,1.056631674
+"old","esm/esm-loader-defaultResolve.js","specifier=""node:os"" n=1000",950.005653246141,1.052625315
+"new","esm/esm-loader-defaultResolve.js","specifier=""./relative-existing.js"" n=1000",2481.541765024125,0.402975285
+"new","esm/esm-loader-defaultResolve.js","specifier=""./relative-nonexistent.js"" n=1000",2048.6327216255336,0.488130444
+"new","esm/esm-loader-defaultResolve.js","specifier=""unprefixed-existing"" n=1000",1155.389781256754,0.865508780
+"new","esm/esm-loader-defaultResolve.js","specifier=""unprefixed-nonexistent"" n=1000",716.1247159064325,1.396404813
+"new","esm/esm-loader-defaultResolve.js","specifier=""node:prefixed-nonexistent"" n=1000",22733.921882743387,0.043987131
+"new","esm/esm-loader-defaultResolve.js","specifier=""node:os"" n=1000",23136.167683539796,0.043222370
+"old","esm/esm-loader-defaultResolve.js","specifier=""./relative-existing.js"" n=1000",234.77411430688275,4.259413364
+"old","esm/esm-loader-defaultResolve.js","specifier=""./relative-nonexistent.js"" n=1000",183.05123681567449,5.462951343
+"old","esm/esm-loader-defaultResolve.js","specifier=""unprefixed-existing"" n=1000",172.3872823171835,5.800891960
+"old","esm/esm-loader-defaultResolve.js","specifier=""unprefixed-nonexistent"" n=1000",116.20169111537544,8.605726736
+"old","esm/esm-loader-defaultResolve.js","specifier=""node:prefixed-nonexistent"" n=1000",946.4035809322143,1.056631674
+"old","esm/esm-loader-defaultResolve.js","specifier=""node:os"" n=1000",950.005653246141,1.052625315
+"new","esm/esm-loader-defaultResolve.js","specifier=""./relative-existing.js"" n=1000",2502.0702942787707,0.399669027
+"new","esm/esm-loader-defaultResolve.js","specifier=""./relative-nonexistent.js"" n=1000",2110.572055296152,0.473805193
+"new","esm/esm-loader-defaultResolve.js","specifier=""unprefixed-existing"" n=1000",1160.1665493332227,0.861945210
+"new","esm/esm-loader-defaultResolve.js","specifier=""unprefixed-nonexistent"" n=1000",711.9867335341064,1.404520552
+"new","esm/esm-loader-defaultResolve.js","specifier=""node:prefixed-nonexistent"" n=1000",22732.15600769511,0.043990548
+"new","esm/esm-loader-defaultResolve.js","specifier=""node:os"" n=1000",23165.110156585026,0.043168368
+"old","esm/esm-loader-defaultResolve.js","specifier=""./relative-existing.js"" n=1000",234.77411430688275,4.259413364
+"old","esm/esm-loader-defaultResolve.js","specifier=""./relative-nonexistent.js"" n=1000",183.05123681567449,5.462951343
+"old","esm/esm-loader-defaultResolve.js","specifier=""unprefixed-existing"" n=1000",172.3872823171835,5.800891960
+"old","esm/esm-loader-defaultResolve.js","specifier=""unprefixed-nonexistent"" n=1000",116.20169111537544,8.605726736
+"old","esm/esm-loader-defaultResolve.js","specifier=""node:prefixed-nonexistent"" n=1000",946.4035809322143,1.056631674
+"old","esm/esm-loader-defaultResolve.js","specifier=""node:os"" n=1000",950.005653246141,1.052625315
+"new","esm/esm-loader-defaultResolve.js","specifier=""./relative-existing.js"" n=1000",2344.4013278042066,0.426548129
+"new","esm/esm-loader-defaultResolve.js","specifier=""./relative-nonexistent.js"" n=1000",2081.0532533494666,0.480525906
+"new","esm/esm-loader-defaultResolve.js","specifier=""unprefixed-existing"" n=1000",1240.1729378499883,0.806339156
+"new","esm/esm-loader-defaultResolve.js","specifier=""unprefixed-nonexistent"" n=1000",720.8150209886809,1.387318481
+"new","esm/esm-loader-defaultResolve.js","specifier=""node:prefixed-nonexistent"" n=1000",22115.262003268545,0.045217642
+"new","esm/esm-loader-defaultResolve.js","specifier=""node:os"" n=1000",23601.012794982274,0.042371063
+"old","esm/esm-loader-import.js","specifier=""data:text/javascript,{i}"" n=1000",139.3597526273417,7.175672898
+"old","esm/esm-loader-import.js","specifier=""./relative-existing.js"" n=1000",416.2026835681893,2.402675522
+"old","esm/esm-loader-import.js","specifier=""./relative-nonexistent.js"" n=1000",134.5821856023234,7.430403924
+"old","esm/esm-loader-import.js","specifier=""node:prefixed-nonexistent"" n=1000",490.0097416582694,2.040775754
+"old","esm/esm-loader-import.js","specifier=""node:os"" n=1000",506.1223704955057,1.975806758
+"new","esm/esm-loader-import.js","specifier=""data:text/javascript,{i}"" n=1000",1257.6027446445462,0.795163659
+"new","esm/esm-loader-import.js","specifier=""./relative-existing.js"" n=1000",5924.621455939583,0.168787155
+"new","esm/esm-loader-import.js","specifier=""./relative-nonexistent.js"" n=1000",1281.2729875589084,0.780473802
+"new","esm/esm-loader-import.js","specifier=""node:prefixed-nonexistent"" n=1000",6763.745762673919,0.147847071
+"new","esm/esm-loader-import.js","specifier=""node:os"" n=1000",6941.04877733877,0.144070447
+"old","esm/esm-loader-import.js","specifier=""data:text/javascript,{i}"" n=1000",139.3597526273417,7.175672898
+"old","esm/esm-loader-import.js","specifier=""./relative-existing.js"" n=1000",416.2026835681893,2.402675522
+"old","esm/esm-loader-import.js","specifier=""./relative-nonexistent.js"" n=1000",134.5821856023234,7.430403924
+"old","esm/esm-loader-import.js","specifier=""node:prefixed-nonexistent"" n=1000",490.0097416582694,2.040775754
+"old","esm/esm-loader-import.js","specifier=""node:os"" n=1000",506.1223704955057,1.975806758
+"new","esm/esm-loader-import.js","specifier=""data:text/javascript,{i}"" n=1000",1116.9618004593203,0.895285765
+"new","esm/esm-loader-import.js","specifier=""./relative-existing.js"" n=1000",5798.05085069176,0.172471754
+"new","esm/esm-loader-import.js","specifier=""./relative-nonexistent.js"" n=1000",1390.376992003718,0.719229393
+"new","esm/esm-loader-import.js","specifier=""node:prefixed-nonexistent"" n=1000",6497.278796699809,0.153910588
+"new","esm/esm-loader-import.js","specifier=""node:os"" n=1000",6778.699958145595,0.147520912
+"old","esm/esm-loader-import.js","specifier=""data:text/javascript,{i}"" n=1000",139.3597526273417,7.175672898
+"old","esm/esm-loader-import.js","specifier=""./relative-existing.js"" n=1000",416.2026835681893,2.402675522
+"old","esm/esm-loader-import.js","specifier=""./relative-nonexistent.js"" n=1000",134.5821856023234,7.430403924
+"old","esm/esm-loader-import.js","specifier=""node:prefixed-nonexistent"" n=1000",490.0097416582694,2.040775754
+"old","esm/esm-loader-import.js","specifier=""node:os"" n=1000",506.1223704955057,1.975806758
+"new","esm/esm-loader-import.js","specifier=""data:text/javascript,{i}"" n=1000",1179.0782946649636,0.848120099
+"new","esm/esm-loader-import.js","specifier=""./relative-existing.js"" n=1000",5730.147745556456,0.174515570
+"new","esm/esm-loader-import.js","specifier=""./relative-nonexistent.js"" n=1000",1334.8315500448791,0.749158199
+"new","esm/esm-loader-import.js","specifier=""node:prefixed-nonexistent"" n=1000",6664.26402177311,0.150054079
+"new","esm/esm-loader-import.js","specifier=""node:os"" n=1000",6836.417604784388,0.146275441

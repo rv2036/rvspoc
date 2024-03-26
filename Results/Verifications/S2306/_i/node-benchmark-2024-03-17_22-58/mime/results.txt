@@ -1,0 +1,11 @@
+"filename","configuration","rate","time"
+"mime/mimetype-instantiation.js","value=""application/ecmascript; "" n=100000",211615.89618997683,0.472554292
+"mime/mimetype-instantiation.js","value=""text/html;charset=gbk"" n=100000",293712.0014136711,0.340469574
+"mime/mimetype-instantiation.js","value=""text/html;012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789=x;charset=gbk"" n=100000",306444.25077780685,0.326323629
+"mime/mimetype-instantiation.js","value=""text/html;test=ÿ;charset=gbk"" n=100000",292988.50984324055,0.341310313
+"mime/mimetype-instantiation.js","value=""x/x;\n\r\t x=x\n\r\t ;x=y"" n=100000",399470.73164035217,0.250331231
+"mime/mimetype-to-string.js","value=""application/ecmascript; "" n=100000",1295423.0875769353,0.077194857
+"mime/mimetype-to-string.js","value=""text/html;charset=gbk"" n=100000",681407.7745615256,0.146755003
+"mime/mimetype-to-string.js","value=""text/html;012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789=x;charset=gbk"" n=100000",475099.93180700636,0.210482034
+"mime/mimetype-to-string.js","value=""text/html;test=ÿ;charset=gbk"" n=100000",390852.1767206536,0.255851204
+"mime/mimetype-to-string.js","value=""x/x;\n\r\t x=x\n\r\t ;x=y"" n=100000",674256.9115716106,0.148311420

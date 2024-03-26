@@ -1,0 +1,13 @@
+"filename","configuration","rate","time"
+"vm/compile-script-in-isolate-cache.js","n=100 type=""with-dynamic-import-callback""",214.19127689275098,0.466872421
+"vm/compile-script-in-isolate-cache.js","n=100 type=""without-dynamic-import-callback""",215.75977629284182,0.463478419
+"vm/context-global-proxy.js","n=100000",49519.14655573216,2.019420910
+"vm/create-context.js","n=100",322.87363423685895,0.309718693
+"vm/run-in-context.js","withSigintListener=0 breakOnSigint=0 n=1",586.6475497785112,0.001704601
+"vm/run-in-context.js","withSigintListener=1 breakOnSigint=0 n=1",579.4007952855316,0.001725921
+"vm/run-in-context.js","withSigintListener=0 breakOnSigint=1 n=1",477.1397570976925,0.002095822
+"vm/run-in-context.js","withSigintListener=1 breakOnSigint=1 n=1",318.6659876956689,0.003138082
+"vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=0 n=1",604.6091776045505,0.001653961
+"vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=0 n=1",626.0404008912311,0.001597341
+"vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=1 n=1",425.9595057336279,0.002347641
+"vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=1 n=1",314.6353910697666,0.003178282

@@ -1,0 +1,44 @@
+                                                                                                    confidence improvement accuracy (*)      (**)     (***)
+test_runner/global-concurrent-tests.js type="async" n=100                                                  ***   4409.78 %     ±278.00%  ±641.26% ±2041.68%
+test_runner/global-concurrent-tests.js type="async" n=1000                                                 ***   1592.05 %     ±212.50%  ±490.16% ±1560.59%
+test_runner/global-concurrent-tests.js type="async" n=10000                                                ***    425.68 %      ±33.47%   ±77.20%  ±245.78%
+test_runner/global-concurrent-tests.js type="sync" n=100                                                   ***   4483.99 %     ±362.47%  ±836.10% ±2662.02%
+test_runner/global-concurrent-tests.js type="sync" n=1000                                                  ***   1588.65 %      ±16.85%   ±38.88%  ±123.78%
+test_runner/global-concurrent-tests.js type="sync" n=10000                                                 ***    440.73 %      ±55.95%  ±129.06%  ±410.89%
+test_runner/global-sequential-tests.js type="async" n=100                                                   **     26.37 %       ±5.38%   ±12.42%   ±39.54%
+test_runner/global-sequential-tests.js type="async" n=1000                                                 ***    -69.54 %       ±2.31%    ±5.33%   ±16.99%
+test_runner/global-sequential-tests.js type="async" n=10000                                                  *     -4.96 %       ±3.88%    ±8.96%   ±28.53%
+test_runner/global-sequential-tests.js type="sync" n=100                                                           -1.70 %      ±22.84%   ±52.69%  ±167.75%
+test_runner/global-sequential-tests.js type="sync" n=1000                                                  ***    -68.53 %       ±3.74%    ±8.62%   ±27.45%
+test_runner/global-sequential-tests.js type="sync" n=10000                                                         -0.94 %       ±2.16%    ±4.98%   ±15.86%
+test_runner/suite-tests.js concurrency="no" testType="async" testsPerSuite=10 numberOfSuites=10            ***   4957.60 %     ±205.93%  ±475.01% ±1512.36%
+test_runner/suite-tests.js concurrency="no" testType="async" testsPerSuite=10 numberOfSuites=100           ***   1787.25 %      ±94.64%  ±218.32%  ±695.08%
+test_runner/suite-tests.js concurrency="no" testType="async" testsPerSuite=100 numberOfSuites=10           ***   1761.05 %     ±169.74%  ±391.54% ±1246.60%
+test_runner/suite-tests.js concurrency="no" testType="async" testsPerSuite=100 numberOfSuites=100          ***    342.66 %       ±2.74%    ±6.31%   ±20.11%
+test_runner/suite-tests.js concurrency="no" testType="async" testsPerSuite=1000 numberOfSuites=10          ***    339.30 %      ±25.29%   ±58.34%  ±185.74%
+test_runner/suite-tests.js concurrency="no" testType="async" testsPerSuite=1000 numberOfSuites=100                  8.91 %      ±12.59%   ±29.05%   ±92.49%
+test_runner/suite-tests.js concurrency="no" testType="sync" testsPerSuite=10 numberOfSuites=10             ***   4958.43 %     ±176.50%  ±407.12% ±1296.21%
+test_runner/suite-tests.js concurrency="no" testType="sync" testsPerSuite=10 numberOfSuites=100            ***   1781.15 %     ±169.87%  ±391.82% ±1247.50%
+test_runner/suite-tests.js concurrency="no" testType="sync" testsPerSuite=100 numberOfSuites=10            ***   1793.93 %      ±36.32%   ±83.78%  ±266.73%
+test_runner/suite-tests.js concurrency="no" testType="sync" testsPerSuite=100 numberOfSuites=100           ***    334.90 %      ±10.93%   ±25.20%   ±80.24%
+test_runner/suite-tests.js concurrency="no" testType="sync" testsPerSuite=1000 numberOfSuites=10           ***    363.99 %      ±14.19%   ±32.74%  ±104.23%
+test_runner/suite-tests.js concurrency="no" testType="sync" testsPerSuite=1000 numberOfSuites=100                  -3.07 %       ±3.94%    ±9.09%   ±28.94%
+test_runner/suite-tests.js concurrency="yes" testType="async" testsPerSuite=10 numberOfSuites=10           ***   5081.04 %     ±179.75%  ±414.61% ±1320.06%
+test_runner/suite-tests.js concurrency="yes" testType="async" testsPerSuite=10 numberOfSuites=100          ***   2037.03 %      ±92.13%  ±212.51%  ±676.59%
+test_runner/suite-tests.js concurrency="yes" testType="async" testsPerSuite=100 numberOfSuites=10          ***   2031.69 %     ±124.97%  ±288.27%  ±917.79%
+test_runner/suite-tests.js concurrency="yes" testType="async" testsPerSuite=100 numberOfSuites=100          **    346.41 %      ±56.40%  ±130.09%  ±414.19%
+test_runner/suite-tests.js concurrency="yes" testType="async" testsPerSuite=1000 numberOfSuites=10          **    376.78 %      ±62.44%  ±144.04%  ±458.58%
+test_runner/suite-tests.js concurrency="yes" testType="async" testsPerSuite=1000 numberOfSuites=100                 3.82 %       ±5.33%   ±12.29%   ±39.12%
+test_runner/suite-tests.js concurrency="yes" testType="sync" testsPerSuite=10 numberOfSuites=10            ***   5040.94 %     ±503.25% ±1160.83% ±3695.89%
+test_runner/suite-tests.js concurrency="yes" testType="sync" testsPerSuite=10 numberOfSuites=100           ***   2019.20 %     ±229.36%  ±529.06% ±1684.43%
+test_runner/suite-tests.js concurrency="yes" testType="sync" testsPerSuite=100 numberOfSuites=10           ***   2154.71 %      ±78.61%  ±181.33%  ±577.33%
+test_runner/suite-tests.js concurrency="yes" testType="sync" testsPerSuite=100 numberOfSuites=100          ***    342.01 %      ±17.40%   ±40.13%  ±127.75%
+test_runner/suite-tests.js concurrency="yes" testType="sync" testsPerSuite=1000 numberOfSuites=10          ***    367.36 %      ±45.68%  ±105.37%  ±335.47%
+test_runner/suite-tests.js concurrency="yes" testType="sync" testsPerSuite=1000 numberOfSuites=100                  0.12 %       ±4.58%   ±10.56%   ±33.61%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 36 comparisons, you can thus
+expect the following amount of false-positive results:
+  1.80 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.36 false positives, when considering a   1% risk acceptance (**, ***),
+  0.04 false positives, when considering a 0.1% risk acceptance (***)

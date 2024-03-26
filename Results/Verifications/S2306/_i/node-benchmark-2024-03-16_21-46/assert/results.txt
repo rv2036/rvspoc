@@ -1,0 +1,119 @@
+"filename","configuration","rate","time"
+"assert/deepequal-buffer.js","method=""deepEqual"" arrayBuffer=0 strict=0 len=100 n=20000",90964.91607808803,0.219864986
+"assert/deepequal-buffer.js","method=""deepEqual"" arrayBuffer=1 strict=0 len=100 n=20000",150324.3797176394,0.133045618
+"assert/deepequal-buffer.js","method=""deepEqual"" arrayBuffer=0 strict=1 len=100 n=20000",96840.6737337375,0.206524792
+"assert/deepequal-buffer.js","method=""notDeepEqual"" arrayBuffer=0 strict=1 len=100 n=20000",130512.13346181209,0.153242457
+"assert/deepequal-buffer.js","method=""unequal_length"" arrayBuffer=0 strict=1 len=100 n=20000",204218.52783417358,0.097934307
+"assert/deepequal-buffer.js","method=""deepEqual"" arrayBuffer=1 strict=1 len=100 n=20000",120118.75516705839,0.166501892
+"assert/deepequal-buffer.js","method=""notDeepEqual"" arrayBuffer=1 strict=1 len=100 n=20000",160058.5263605149,0.124954293
+"assert/deepequal-buffer.js","method=""unequal_length"" arrayBuffer=1 strict=1 len=100 n=20000",220249.4212368302,0.090806141
+"assert/deepequal-buffer.js","method=""deepEqual"" arrayBuffer=0 strict=0 len=1000 n=20000",92643.42895861458,0.215881474
+"assert/deepequal-buffer.js","method=""deepEqual"" arrayBuffer=1 strict=0 len=1000 n=20000",149889.89537955105,0.133431276
+"assert/deepequal-buffer.js","method=""deepEqual"" arrayBuffer=0 strict=1 len=1000 n=20000",95931.47514961328,0.208482148
+"assert/deepequal-buffer.js","method=""notDeepEqual"" arrayBuffer=0 strict=1 len=1000 n=20000",129922.16960460969,0.153938316
+"assert/deepequal-buffer.js","method=""unequal_length"" arrayBuffer=0 strict=1 len=1000 n=20000",200196.02794664478,0.099902082
+"assert/deepequal-buffer.js","method=""deepEqual"" arrayBuffer=1 strict=1 len=1000 n=20000",119326.56691637878,0.167607269
+"assert/deepequal-buffer.js","method=""notDeepEqual"" arrayBuffer=1 strict=1 len=1000 n=20000",155179.3774676673,0.128883105
+"assert/deepequal-buffer.js","method=""unequal_length"" arrayBuffer=1 strict=1 len=1000 n=20000",211206.23757915915,0.094694173
+"assert/deepequal-map.js","method=""deepEqual_primitiveOnly"" strict=0 len=500 n=500",5177.875022873263,0.096564710
+"assert/deepequal-map.js","method=""deepEqual_objectOnly"" strict=0 len=500 n=500",430.995295254495,1.160105471
+"assert/deepequal-map.js","method=""deepEqual_mixed"" strict=0 len=500 n=500",734.9207152393033,0.680345498
+"assert/deepequal-map.js","method=""notDeepEqual_primitiveOnly"" strict=0 len=500 n=500",6935.478604478504,0.072093078
+"assert/deepequal-map.js","method=""notDeepEqual_objectOnly"" strict=0 len=500 n=500",773.6155687162519,0.646315845
+"assert/deepequal-map.js","method=""notDeepEqual_mixed"" strict=0 len=500 n=500",29621.507631655604,0.016879627
+"assert/deepequal-map.js","method=""deepEqual_primitiveOnly"" strict=1 len=500 n=500",5077.006717874981,0.098483226
+"assert/deepequal-map.js","method=""deepEqual_objectOnly"" strict=1 len=500 n=500",454.54817811549265,1.099993409
+"assert/deepequal-map.js","method=""deepEqual_mixed"" strict=1 len=500 n=500",823.5732464023001,0.607110542
+"assert/deepequal-map.js","method=""notDeepEqual_primitiveOnly"" strict=1 len=500 n=500",6862.383961719317,0.072860977
+"assert/deepequal-map.js","method=""notDeepEqual_objectOnly"" strict=1 len=500 n=500",769.6353866824737,0.649658278
+"assert/deepequal-map.js","method=""notDeepEqual_mixed"" strict=1 len=500 n=500",29556.12551588,0.016916967
+"assert/deepequal-object.js","method=""deepEqual"" strict=1 size=10000 n=25",6.053993996967556,4.129505251
+"assert/deepequal-object.js","method=""notDeepEqual"" strict=1 size=10000 n=25",3407.2548633452293,0.007337285
+"assert/deepequal-object.js","method=""deepEqual"" strict=1 size=1000 n=200",63.2907574129749,3.160019064
+"assert/deepequal-object.js","method=""notDeepEqual"" strict=1 size=1000 n=200",11003.918275219441,0.018175344
+"assert/deepequal-object.js","method=""deepEqual"" strict=1 size=100 n=2000",649.9784041912799,3.077025309
+"assert/deepequal-object.js","method=""notDeepEqual"" strict=1 size=100 n=2000",27753.05520202018,0.072064138
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=0 n=100000 primitive=""string""",3724379.943811769,0.026850107
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=1 n=100000 primitive=""string""",3720173.462760152,0.026880467
+"assert/deepequal-prims-and-objs-big-loop.js","method=""notDeepEqual"" strict=1 n=100000 primitive=""string""",3979325.018931639,0.025129890
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=0 n=100000 primitive=""number""",4030728.5005677887,0.024809411
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=1 n=100000 primitive=""number""",3945873.661806271,0.025342930
+"assert/deepequal-prims-and-objs-big-loop.js","method=""notDeepEqual"" strict=1 n=100000 primitive=""number""",3875513.9948879643,0.025803029
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=0 n=100000 primitive=""boolean""",3830612.168598419,0.026105488
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=1 n=100000 primitive=""boolean""",3769924.806587778,0.026525728
+"assert/deepequal-prims-and-objs-big-loop.js","method=""notDeepEqual"" strict=1 n=100000 primitive=""boolean""",3964674.7479953617,0.025222750
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=0 n=100000 primitive=""object""",821447.2652213357,0.121736360
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=1 n=100000 primitive=""object""",408766.04005094565,0.244638718
+"assert/deepequal-prims-and-objs-big-loop.js","method=""notDeepEqual"" strict=1 n=100000 primitive=""object""",1070048.1901552677,0.093453735
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=0 n=100000 primitive=""object_other_property""",3807193.3720722874,0.026266068
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=1 n=100000 primitive=""object_other_property""",3868108.4860536703,0.025852429
+"assert/deepequal-prims-and-objs-big-loop.js","method=""notDeepEqual"" strict=1 n=100000 primitive=""object_other_property""",4115715.4809180615,0.024297112
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=0 n=100000 primitive=""array""",372182.388575013,0.268685470
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=1 n=100000 primitive=""array""",384923.7870340324,0.259791687
+"assert/deepequal-prims-and-objs-big-loop.js","method=""notDeepEqual"" strict=1 n=100000 primitive=""array""",394136.2940410309,0.253719339
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=0 n=100000 primitive=""set_object""",244803.9660514281,0.408490114
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=1 n=100000 primitive=""set_object""",182379.08105520552,0.548308498
+"assert/deepequal-prims-and-objs-big-loop.js","method=""notDeepEqual"" strict=1 n=100000 primitive=""set_object""",179386.9730041262,0.557454080
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=0 n=100000 primitive=""set_simple""",580275.6866576283,0.172331880
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=1 n=100000 primitive=""set_simple""",325638.8413725737,0.307088674
+"assert/deepequal-prims-and-objs-big-loop.js","method=""notDeepEqual"" strict=1 n=100000 primitive=""set_simple""",335539.08676031476,0.298027872
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=0 n=100000 primitive=""circular""",579938.3548726304,0.172432120
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=1 n=100000 primitive=""circular""",245397.7878017648,0.407501636
+"assert/deepequal-prims-and-objs-big-loop.js","method=""notDeepEqual"" strict=1 n=100000 primitive=""circular""",354512.396683433,0.282077583
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=0 n=100000 primitive=""empty_object""",1655241.6371399146,0.060414140
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=1 n=100000 primitive=""empty_object""",573433.7677346434,0.174388056
+"assert/deepequal-prims-and-objs-big-loop.js","method=""notDeepEqual"" strict=1 n=100000 primitive=""empty_object""",2585886.068342279,0.038671464
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=0 n=100000 primitive=""regexp""",877061.1540098775,0.114017135
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=1 n=100000 primitive=""regexp""",386085.0187241003,0.259010309
+"assert/deepequal-prims-and-objs-big-loop.js","method=""notDeepEqual"" strict=1 n=100000 primitive=""regexp""",964702.7328822544,0.103658875
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=0 n=100000 primitive=""date""",1199965.114614188,0.083335756
+"assert/deepequal-prims-and-objs-big-loop.js","method=""deepEqual"" strict=1 n=100000 primitive=""date""",492650.49216276815,0.202983660
+"assert/deepequal-prims-and-objs-big-loop.js","method=""notDeepEqual"" strict=1 n=100000 primitive=""date""",1404934.4303754468,0.071177699
+"assert/deepequal-set.js","method=""deepEqual_primitiveOnly"" strict=0 len=500 n=500",9619.632423071125,0.051977038
+"assert/deepequal-set.js","method=""deepEqual_objectOnly"" strict=0 len=500 n=500",493.65976912040077,1.012843321
+"assert/deepequal-set.js","method=""deepEqual_mixed"" strict=0 len=500 n=500",909.679759685022,0.549643976
+"assert/deepequal-set.js","method=""notDeepEqual_primitiveOnly"" strict=0 len=500 n=500",11965.91399312649,0.041785358
+"assert/deepequal-set.js","method=""notDeepEqual_objectOnly"" strict=0 len=500 n=500",878.4803769542432,0.569164677
+"assert/deepequal-set.js","method=""notDeepEqual_mixed"" strict=0 len=500 n=500",32217.013804990413,0.015519750
+"assert/deepequal-set.js","method=""deepEqual_primitiveOnly"" strict=1 len=500 n=500",9340.138807538873,0.053532395
+"assert/deepequal-set.js","method=""deepEqual_objectOnly"" strict=1 len=500 n=500",534.2807039203412,0.935837653
+"assert/deepequal-set.js","method=""deepEqual_mixed"" strict=1 len=500 n=500",933.1511737636441,0.535818862
+"assert/deepequal-set.js","method=""notDeepEqual_primitiveOnly"" strict=1 len=500 n=500",11805.205793541685,0.042354196
+"assert/deepequal-set.js","method=""notDeepEqual_objectOnly"" strict=1 len=500 n=500",874.4589160846332,0.571782151
+"assert/deepequal-set.js","method=""notDeepEqual_mixed"" strict=1 len=500 n=500",31696.667456758933,0.015774529
+"assert/deepequal-simple-array-and-set.js","method=""deepEqual_Array"" strict=1 len=10000 n=500",806.9634398773995,0.619606757
+"assert/deepequal-simple-array-and-set.js","method=""notDeepEqual_Array"" strict=1 len=10000 n=500",835.1895727824601,0.598666478
+"assert/deepequal-simple-array-and-set.js","method=""deepEqual_Set"" strict=1 len=10000 n=500",1366.2158648882678,0.365974377
+"assert/deepequal-simple-array-and-set.js","method=""notDeepEqual_Set"" strict=1 len=10000 n=500",1362.23889476698,0.367042816
+"assert/deepequal-typedarrays.js","len=100 method=""deepEqual"" strict=0 n=500 type=""Int8Array""",27777.584877882793,0.018000125
+"assert/deepequal-typedarrays.js","len=5000 method=""deepEqual"" strict=0 n=500 type=""Int8Array""",26486.413555788837,0.018877603
+"assert/deepequal-typedarrays.js","len=100 method=""notDeepEqual"" strict=0 n=500 type=""Int8Array""",46133.4665175756,0.010838119
+"assert/deepequal-typedarrays.js","len=5000 method=""notDeepEqual"" strict=0 n=500 type=""Int8Array""",43387.26833585009,0.011524118
+"assert/deepequal-typedarrays.js","len=100 method=""deepEqual"" strict=1 n=500 type=""Int8Array""",28935.24211795324,0.017279966
+"assert/deepequal-typedarrays.js","len=5000 method=""deepEqual"" strict=1 n=500 type=""Int8Array""",27568.344130567206,0.018136744
+"assert/deepequal-typedarrays.js","len=100 method=""notDeepEqual"" strict=1 n=500 type=""Int8Array""",49463.322946035514,0.010108500
+"assert/deepequal-typedarrays.js","len=5000 method=""notDeepEqual"" strict=1 n=500 type=""Int8Array""",48417.99057592232,0.010326740
+"assert/deepequal-typedarrays.js","len=100 method=""deepEqual"" strict=0 n=500 type=""Uint8Array""",27421.20462010005,0.018234064
+"assert/deepequal-typedarrays.js","len=5000 method=""deepEqual"" strict=0 n=500 type=""Uint8Array""",26425.40902437231,0.018921183
+"assert/deepequal-typedarrays.js","len=100 method=""notDeepEqual"" strict=0 n=500 type=""Uint8Array""",47566.502489297774,0.010511599
+"assert/deepequal-typedarrays.js","len=5000 method=""notDeepEqual"" strict=0 n=500 type=""Uint8Array""",45422.18008658921,0.011007838
+"assert/deepequal-typedarrays.js","len=100 method=""deepEqual"" strict=1 n=500 type=""Uint8Array""",28545.941123996432,0.017515625
+"assert/deepequal-typedarrays.js","len=5000 method=""deepEqual"" strict=1 n=500 type=""Uint8Array""",26888.190943153848,0.018595524
+"assert/deepequal-typedarrays.js","len=100 method=""notDeepEqual"" strict=1 n=500 type=""Uint8Array""",49916.83854698073,0.010016660
+"assert/deepequal-typedarrays.js","len=5000 method=""notDeepEqual"" strict=1 n=500 type=""Uint8Array""",48186.83075117775,0.010376279
+"assert/deepequal-typedarrays.js","len=100 method=""deepEqual"" strict=0 n=500 type=""Float32Array""",18283.0424123436,0.027347746
+"assert/deepequal-typedarrays.js","len=5000 method=""deepEqual"" strict=0 n=500 type=""Float32Array""",1501.5119489585159,0.332997683
+"assert/deepequal-typedarrays.js","len=100 method=""notDeepEqual"" strict=0 n=500 type=""Float32Array""",34303.64156481687,0.014575712
+"assert/deepequal-typedarrays.js","len=5000 method=""notDeepEqual"" strict=0 n=500 type=""Float32Array""",19476.96632537698,0.025671349
+"assert/deepequal-typedarrays.js","len=100 method=""deepEqual"" strict=1 n=500 type=""Float32Array""",28350.86531944111,0.017636146
+"assert/deepequal-typedarrays.js","len=5000 method=""deepEqual"" strict=1 n=500 type=""Float32Array""",24118.936457166532,0.020730599
+"assert/deepequal-typedarrays.js","len=100 method=""notDeepEqual"" strict=1 n=500 type=""Float32Array""",49029.509881407415,0.010197940
+"assert/deepequal-typedarrays.js","len=5000 method=""notDeepEqual"" strict=1 n=500 type=""Float32Array""",43967.492897930875,0.011372038
+"assert/deepequal-typedarrays.js","len=100 method=""deepEqual"" strict=0 n=500 type=""Uint32Array""",27193.681667716704,0.018386624
+"assert/deepequal-typedarrays.js","len=5000 method=""deepEqual"" strict=0 n=500 type=""Uint32Array""",23481.41244265017,0.021293438
+"assert/deepequal-typedarrays.js","len=100 method=""notDeepEqual"" strict=0 n=500 type=""Uint32Array""",46629.87693722658,0.010722739
+"assert/deepequal-typedarrays.js","len=5000 method=""notDeepEqual"" strict=0 n=500 type=""Uint32Array""",41134.26586359417,0.012155316
+"assert/deepequal-typedarrays.js","len=100 method=""deepEqual"" strict=1 n=500 type=""Uint32Array""",29271.423725753455,0.017081506
+"assert/deepequal-typedarrays.js","len=5000 method=""deepEqual"" strict=1 n=500 type=""Uint32Array""",24275.192515628005,0.020597159
+"assert/deepequal-typedarrays.js","len=100 method=""notDeepEqual"" strict=1 n=500 type=""Uint32Array""",48248.39043369513,0.010363040
+"assert/deepequal-typedarrays.js","len=5000 method=""notDeepEqual"" strict=1 n=500 type=""Uint32Array""",42802.806528660716,0.011681477

@@ -1,0 +1,589 @@
+"binary","filename","configuration","rate","time"
+"old","es/defaultparams-bench.js","n=100000000 method=""withoutdefaults""",193435237.4666104,0.516968890
+"old","es/defaultparams-bench.js","n=100000000 method=""withdefaults""",193485703.97016215,0.516834050
+"new","es/defaultparams-bench.js","n=100000000 method=""withoutdefaults""",193262395.9070859,0.517431234
+"new","es/defaultparams-bench.js","n=100000000 method=""withdefaults""",193552190.8343774,0.516656513
+"old","es/defaultparams-bench.js","n=100000000 method=""withoutdefaults""",193435237.4666104,0.516968890
+"old","es/defaultparams-bench.js","n=100000000 method=""withdefaults""",193485703.97016215,0.516834050
+"new","es/defaultparams-bench.js","n=100000000 method=""withoutdefaults""",193458045.55941227,0.516907941
+"new","es/defaultparams-bench.js","n=100000000 method=""withdefaults""",193479155.7611334,0.516851542
+"old","es/defaultparams-bench.js","n=100000000 method=""withoutdefaults""",193435237.4666104,0.516968890
+"old","es/defaultparams-bench.js","n=100000000 method=""withdefaults""",193485703.97016215,0.516834050
+"new","es/defaultparams-bench.js","n=100000000 method=""withoutdefaults""",193308916.5098635,0.517306712
+"new","es/defaultparams-bench.js","n=100000000 method=""withdefaults""",193623088.25832358,0.516467333
+"old","es/destructuring-bench.js","n=100000000 method=""swap""",150228661.9948217,0.665651938
+"old","es/destructuring-bench.js","n=100000000 method=""destructure""",135191809.1857705,0.739689783
+"new","es/destructuring-bench.js","n=100000000 method=""swap""",150018889.2533931,0.666582725
+"new","es/destructuring-bench.js","n=100000000 method=""destructure""",134042238.76832469,0.746033496
+"old","es/destructuring-bench.js","n=100000000 method=""swap""",150228661.9948217,0.665651938
+"old","es/destructuring-bench.js","n=100000000 method=""destructure""",135191809.1857705,0.739689783
+"new","es/destructuring-bench.js","n=100000000 method=""swap""",149686685.33536053,0.668062091
+"new","es/destructuring-bench.js","n=100000000 method=""destructure""",135317488.43396434,0.739002779
+"old","es/destructuring-bench.js","n=100000000 method=""swap""",150228661.9948217,0.665651938
+"old","es/destructuring-bench.js","n=100000000 method=""destructure""",135191809.1857705,0.739689783
+"new","es/destructuring-bench.js","n=100000000 method=""swap""",150243397.38375133,0.665586653
+"new","es/destructuring-bench.js","n=100000000 method=""destructure""",134011481.6400672,0.746204719
+"old","es/destructuring-object-bench.js","n=100000000 method=""normal""",324490845.30851656,0.308175104
+"old","es/destructuring-object-bench.js","n=100000000 method=""destructureObject""",325767846.3786731,0.306967066
+"new","es/destructuring-object-bench.js","n=100000000 method=""normal""",326456301.7297963,0.306319711
+"new","es/destructuring-object-bench.js","n=100000000 method=""destructureObject""",326293622.39015347,0.306472432
+"old","es/destructuring-object-bench.js","n=100000000 method=""normal""",324490845.30851656,0.308175104
+"old","es/destructuring-object-bench.js","n=100000000 method=""destructureObject""",325767846.3786731,0.306967066
+"new","es/destructuring-object-bench.js","n=100000000 method=""normal""",326363647.2671491,0.306406675
+"new","es/destructuring-object-bench.js","n=100000000 method=""destructureObject""",325880855.3001145,0.306860616
+"old","es/destructuring-object-bench.js","n=100000000 method=""normal""",324490845.30851656,0.308175104
+"old","es/destructuring-object-bench.js","n=100000000 method=""destructureObject""",325767846.3786731,0.306967066
+"new","es/destructuring-object-bench.js","n=100000000 method=""normal""",325991656.7586121,0.306756317
+"new","es/destructuring-object-bench.js","n=100000000 method=""destructureObject""",325516449.6694262,0.307204137
+"old","es/error-stack.js","n=100000 method=""without-sourcemap""",7120.508665533156,14.043940496
+"old","es/error-stack.js","n=100000 method=""sourcemap""",3341.789550107923,29.924086631
+"new","es/error-stack.js","n=100000 method=""without-sourcemap""",7104.785988296143,14.075019313
+"new","es/error-stack.js","n=100000 method=""sourcemap""",3357.6699581000153,29.782557919
+"old","es/error-stack.js","n=100000 method=""without-sourcemap""",7120.508665533156,14.043940496
+"old","es/error-stack.js","n=100000 method=""sourcemap""",3341.789550107923,29.924086631
+"new","es/error-stack.js","n=100000 method=""without-sourcemap""",6933.2583341147565,14.423232942
+"new","es/error-stack.js","n=100000 method=""sourcemap""",3320.1388191223277,30.119222553
+"old","es/error-stack.js","n=100000 method=""without-sourcemap""",7120.508665533156,14.043940496
+"old","es/error-stack.js","n=100000 method=""sourcemap""",3341.789550107923,29.924086631
+"new","es/error-stack.js","n=100000 method=""without-sourcemap""",6980.49344024198,14.325634836
+"new","es/error-stack.js","n=100000 method=""sourcemap""",3336.6651068891756,29.970043980
+"old","es/eval.js","n=1000000 method=""without-sourcemap""",231392.44927295676,4.321662194
+"old","es/eval.js","n=1000000 method=""sourcemap""",113802.75153567255,8.787133760
+"new","es/eval.js","n=1000000 method=""without-sourcemap""",233655.67725205416,4.279801851
+"new","es/eval.js","n=1000000 method=""sourcemap""",119175.36837437075,8.390995670
+"old","es/eval.js","n=1000000 method=""without-sourcemap""",231392.44927295676,4.321662194
+"old","es/eval.js","n=1000000 method=""sourcemap""",113802.75153567255,8.787133760
+"new","es/eval.js","n=1000000 method=""without-sourcemap""",235379.0007976926,4.248467351
+"new","es/eval.js","n=1000000 method=""sourcemap""",113582.99414966651,8.804134875
+"old","es/eval.js","n=1000000 method=""without-sourcemap""",231392.44927295676,4.321662194
+"old","es/eval.js","n=1000000 method=""sourcemap""",113802.75153567255,8.787133760
+"new","es/eval.js","n=1000000 method=""without-sourcemap""",231443.7474715031,4.320704322
+"new","es/eval.js","n=1000000 method=""sourcemap""",118088.97678286069,8.468190912
+"old","es/foreach-bench.js","n=5000000 count=5 method=""for""",51751562.154542156,0.096615441
+"old","es/foreach-bench.js","n=5000000 count=10 method=""for""",22307863.597764947,0.224136210
+"old","es/foreach-bench.js","n=5000000 count=20 method=""for""",16280810.057305,0.307110026
+"old","es/foreach-bench.js","n=5000000 count=100 method=""for""",3788044.11878619,1.319942388
+"old","es/foreach-bench.js","n=5000000 count=5 method=""for-of""",35532421.64340634,0.140716556
+"old","es/foreach-bench.js","n=5000000 count=10 method=""for-of""",18454093.02427053,0.270942603
+"old","es/foreach-bench.js","n=5000000 count=20 method=""for-of""",12564385.818193758,0.397950212
+"old","es/foreach-bench.js","n=5000000 count=100 method=""for-of""",3120021.6194035662,1.602552998
+"old","es/foreach-bench.js","n=5000000 count=5 method=""for-in""",750521.5017042368,6.662034317
+"old","es/foreach-bench.js","n=5000000 count=10 method=""for-in""",485015.8362646803,10.308941742
+"old","es/foreach-bench.js","n=5000000 count=20 method=""for-in""",286619.16940706223,17.444750853
+"old","es/foreach-bench.js","n=5000000 count=100 method=""for-in""",68317.68065184767,73.187496301
+"old","es/foreach-bench.js","n=5000000 count=5 method=""forEach""",41673008.95135399,0.119981737
+"old","es/foreach-bench.js","n=5000000 count=10 method=""forEach""",37444246.26619456,0.133531864
+"old","es/foreach-bench.js","n=5000000 count=20 method=""forEach""",29617833.921396412,0.168817207
+"old","es/foreach-bench.js","n=5000000 count=100 method=""forEach""",12498611.091842419,0.400044450
+"new","es/foreach-bench.js","n=5000000 count=5 method=""for""",51573991.28158181,0.096948091
+"new","es/foreach-bench.js","n=5000000 count=10 method=""for""",21508434.05707909,0.232466947
+"new","es/foreach-bench.js","n=5000000 count=20 method=""for""",16191871.658406535,0.308796914
+"new","es/foreach-bench.js","n=5000000 count=100 method=""for""",3784625.1112649506,1.321134816
+"new","es/foreach-bench.js","n=5000000 count=5 method=""for-of""",35383174.516426295,0.141310102
+"new","es/foreach-bench.js","n=5000000 count=10 method=""for-of""",17745587.502881527,0.281760184
+"new","es/foreach-bench.js","n=5000000 count=20 method=""for-of""",12601314.092756484,0.396784015
+"new","es/foreach-bench.js","n=5000000 count=100 method=""for-of""",3104214.7831340176,1.610713288
+"new","es/foreach-bench.js","n=5000000 count=5 method=""for-in""",726812.8430272617,6.879350094
+"new","es/foreach-bench.js","n=5000000 count=10 method=""for-in""",471103.7056623645,10.613374380
+"new","es/foreach-bench.js","n=5000000 count=20 method=""for-in""",288423.44890034734,17.335622395
+"new","es/foreach-bench.js","n=5000000 count=100 method=""for-in""",67977.81046519829,73.553413471
+"new","es/foreach-bench.js","n=5000000 count=5 method=""forEach""",40954347.697169796,0.122087160
+"new","es/foreach-bench.js","n=5000000 count=10 method=""forEach""",36104977.93845039,0.138485059
+"new","es/foreach-bench.js","n=5000000 count=20 method=""forEach""",29098355.391797513,0.171831017
+"new","es/foreach-bench.js","n=5000000 count=100 method=""forEach""",12474779.115323594,0.400808700
+"old","es/foreach-bench.js","n=5000000 count=5 method=""for""",51751562.154542156,0.096615441
+"old","es/foreach-bench.js","n=5000000 count=10 method=""for""",22307863.597764947,0.224136210
+"old","es/foreach-bench.js","n=5000000 count=20 method=""for""",16280810.057305,0.307110026
+"old","es/foreach-bench.js","n=5000000 count=100 method=""for""",3788044.11878619,1.319942388
+"old","es/foreach-bench.js","n=5000000 count=5 method=""for-of""",35532421.64340634,0.140716556
+"old","es/foreach-bench.js","n=5000000 count=10 method=""for-of""",18454093.02427053,0.270942603
+"old","es/foreach-bench.js","n=5000000 count=20 method=""for-of""",12564385.818193758,0.397950212
+"old","es/foreach-bench.js","n=5000000 count=100 method=""for-of""",3120021.6194035662,1.602552998
+"old","es/foreach-bench.js","n=5000000 count=5 method=""for-in""",750521.5017042368,6.662034317
+"old","es/foreach-bench.js","n=5000000 count=10 method=""for-in""",485015.8362646803,10.308941742
+"old","es/foreach-bench.js","n=5000000 count=20 method=""for-in""",286619.16940706223,17.444750853
+"old","es/foreach-bench.js","n=5000000 count=100 method=""for-in""",68317.68065184767,73.187496301
+"old","es/foreach-bench.js","n=5000000 count=5 method=""forEach""",41673008.95135399,0.119981737
+"old","es/foreach-bench.js","n=5000000 count=10 method=""forEach""",37444246.26619456,0.133531864
+"old","es/foreach-bench.js","n=5000000 count=20 method=""forEach""",29617833.921396412,0.168817207
+"old","es/foreach-bench.js","n=5000000 count=100 method=""forEach""",12498611.091842419,0.400044450
+"new","es/foreach-bench.js","n=5000000 count=5 method=""for""",51485719.282476895,0.097114308
+"new","es/foreach-bench.js","n=5000000 count=10 method=""for""",22639073.162140343,0.220857098
+"new","es/foreach-bench.js","n=5000000 count=20 method=""for""",16170686.224382896,0.309201473
+"new","es/foreach-bench.js","n=5000000 count=100 method=""for""",3817466.9883263335,1.309769021
+"new","es/foreach-bench.js","n=5000000 count=5 method=""for-of""",35284491.37363344,0.141705316
+"new","es/foreach-bench.js","n=5000000 count=10 method=""for-of""",18105033.22168587,0.276166298
+"new","es/foreach-bench.js","n=5000000 count=20 method=""for-of""",12601513.095433181,0.396777749
+"new","es/foreach-bench.js","n=5000000 count=100 method=""for-of""",3119203.648194136,1.602973247
+"new","es/foreach-bench.js","n=5000000 count=5 method=""for-in""",746779.6346626149,6.695415579
+"new","es/foreach-bench.js","n=5000000 count=10 method=""for-in""",492238.0108404285,10.157687724
+"new","es/foreach-bench.js","n=5000000 count=20 method=""for-in""",294409.6770570974,16.983137409
+"new","es/foreach-bench.js","n=5000000 count=100 method=""for-in""",68289.19289976252,73.218027446
+"new","es/foreach-bench.js","n=5000000 count=5 method=""forEach""",41249942.219143435,0.121212291
+"new","es/foreach-bench.js","n=5000000 count=10 method=""forEach""",36155219.53489072,0.138292619
+"new","es/foreach-bench.js","n=5000000 count=20 method=""forEach""",30073733.938806616,0.166258038
+"new","es/foreach-bench.js","n=5000000 count=100 method=""forEach""",12095224.92204065,0.413386277
+"old","es/foreach-bench.js","n=5000000 count=5 method=""for""",51751562.154542156,0.096615441
+"old","es/foreach-bench.js","n=5000000 count=10 method=""for""",22307863.597764947,0.224136210
+"old","es/foreach-bench.js","n=5000000 count=20 method=""for""",16280810.057305,0.307110026
+"old","es/foreach-bench.js","n=5000000 count=100 method=""for""",3788044.11878619,1.319942388
+"old","es/foreach-bench.js","n=5000000 count=5 method=""for-of""",35532421.64340634,0.140716556
+"old","es/foreach-bench.js","n=5000000 count=10 method=""for-of""",18454093.02427053,0.270942603
+"old","es/foreach-bench.js","n=5000000 count=20 method=""for-of""",12564385.818193758,0.397950212
+"old","es/foreach-bench.js","n=5000000 count=100 method=""for-of""",3120021.6194035662,1.602552998
+"old","es/foreach-bench.js","n=5000000 count=5 method=""for-in""",750521.5017042368,6.662034317
+"old","es/foreach-bench.js","n=5000000 count=10 method=""for-in""",485015.8362646803,10.308941742
+"old","es/foreach-bench.js","n=5000000 count=20 method=""for-in""",286619.16940706223,17.444750853
+"old","es/foreach-bench.js","n=5000000 count=100 method=""for-in""",68317.68065184767,73.187496301
+"old","es/foreach-bench.js","n=5000000 count=5 method=""forEach""",41673008.95135399,0.119981737
+"old","es/foreach-bench.js","n=5000000 count=10 method=""forEach""",37444246.26619456,0.133531864
+"old","es/foreach-bench.js","n=5000000 count=20 method=""forEach""",29617833.921396412,0.168817207
+"old","es/foreach-bench.js","n=5000000 count=100 method=""forEach""",12498611.091842419,0.400044450
+"new","es/foreach-bench.js","n=5000000 count=5 method=""for""",51753447.693064705,0.096611921
+"new","es/foreach-bench.js","n=5000000 count=10 method=""for""",22672001.376498822,0.220536331
+"new","es/foreach-bench.js","n=5000000 count=20 method=""for""",16258617.795004498,0.307529217
+"new","es/foreach-bench.js","n=5000000 count=100 method=""for""",3817679.3237067815,1.309696173
+"new","es/foreach-bench.js","n=5000000 count=5 method=""for-of""",34861376.49043453,0.143425203
+"new","es/foreach-bench.js","n=5000000 count=10 method=""for-of""",17741444.12026844,0.281825987
+"new","es/foreach-bench.js","n=5000000 count=20 method=""for-of""",12573017.800878603,0.397677000
+"new","es/foreach-bench.js","n=5000000 count=100 method=""for-of""",3120557.075657961,1.602278016
+"new","es/foreach-bench.js","n=5000000 count=5 method=""for-in""",745801.3394894256,6.704198203
+"new","es/foreach-bench.js","n=5000000 count=10 method=""for-in""",489097.68940522394,10.222906606
+"new","es/foreach-bench.js","n=5000000 count=20 method=""for-in""",290690.5799121945,17.200419778
+"new","es/foreach-bench.js","n=5000000 count=100 method=""for-in""",68104.65776194372,73.416417677
+"new","es/foreach-bench.js","n=5000000 count=5 method=""forEach""",43438315.37247317,0.115105753
+"new","es/foreach-bench.js","n=5000000 count=10 method=""forEach""",31659673.002687477,0.157929616
+"new","es/foreach-bench.js","n=5000000 count=20 method=""forEach""",29956738.934083987,0.166907353
+"new","es/foreach-bench.js","n=5000000 count=100 method=""forEach""",11635252.690589935,0.429728527
+"old","es/map-bench.js","n=1000000 method=""object""",66663.61260213828,15.000687196
+"old","es/map-bench.js","n=1000000 method=""nullProtoObject""",68475.70559842787,14.603719542
+"old","es/map-bench.js","n=1000000 method=""nullProtoLiteralObject""",66793.61636838208,14.971490606
+"old","es/map-bench.js","n=1000000 method=""storageObject""",66797.32442865451,14.970659507
+"old","es/map-bench.js","n=1000000 method=""fakeMap""",56900.63031422868,17.574497760
+"old","es/map-bench.js","n=1000000 method=""map""",122825.14617557904,8.141655281
+"new","es/map-bench.js","n=1000000 method=""object""",66761.10488720103,14.978781458
+"new","es/map-bench.js","n=1000000 method=""nullProtoObject""",64248.95890972527,15.564454537
+"new","es/map-bench.js","n=1000000 method=""nullProtoLiteralObject""",67996.54071624501,14.706630506
+"new","es/map-bench.js","n=1000000 method=""storageObject""",68272.61956952316,14.647160257
+"new","es/map-bench.js","n=1000000 method=""fakeMap""",58872.42865014264,16.985879858
+"new","es/map-bench.js","n=1000000 method=""map""",131228.39590116972,7.620301941
+"old","es/map-bench.js","n=1000000 method=""object""",66663.61260213828,15.000687196
+"old","es/map-bench.js","n=1000000 method=""nullProtoObject""",68475.70559842787,14.603719542
+"old","es/map-bench.js","n=1000000 method=""nullProtoLiteralObject""",66793.61636838208,14.971490606
+"old","es/map-bench.js","n=1000000 method=""storageObject""",66797.32442865451,14.970659507
+"old","es/map-bench.js","n=1000000 method=""fakeMap""",56900.63031422868,17.574497760
+"old","es/map-bench.js","n=1000000 method=""map""",122825.14617557904,8.141655281
+"new","es/map-bench.js","n=1000000 method=""object""",61809.032812329955,16.178865038
+"new","es/map-bench.js","n=1000000 method=""nullProtoObject""",68882.55028079312,14.517464814
+"new","es/map-bench.js","n=1000000 method=""nullProtoLiteralObject""",67543.02835020752,14.805377023
+"new","es/map-bench.js","n=1000000 method=""storageObject""",65320.66130741498,15.309091794
+"new","es/map-bench.js","n=1000000 method=""fakeMap""",59692.53660054911,16.752513077
+"new","es/map-bench.js","n=1000000 method=""map""",131027.06562638236,7.632010953
+"old","es/map-bench.js","n=1000000 method=""object""",66663.61260213828,15.000687196
+"old","es/map-bench.js","n=1000000 method=""nullProtoObject""",68475.70559842787,14.603719542
+"old","es/map-bench.js","n=1000000 method=""nullProtoLiteralObject""",66793.61636838208,14.971490606
+"old","es/map-bench.js","n=1000000 method=""storageObject""",66797.32442865451,14.970659507
+"old","es/map-bench.js","n=1000000 method=""fakeMap""",56900.63031422868,17.574497760
+"old","es/map-bench.js","n=1000000 method=""map""",122825.14617557904,8.141655281
+"new","es/map-bench.js","n=1000000 method=""object""",65591.6281674118,15.245848105
+"new","es/map-bench.js","n=1000000 method=""nullProtoObject""",63130.96588708751,15.840087126
+"new","es/map-bench.js","n=1000000 method=""nullProtoLiteralObject""",68749.59445602506,14.545540347
+"new","es/map-bench.js","n=1000000 method=""storageObject""",65494.874567077044,15.268370336
+"new","es/map-bench.js","n=1000000 method=""fakeMap""",58153.06804933386,17.195997280
+"new","es/map-bench.js","n=1000000 method=""map""",130586.53780908417,7.657757199
+"old","es/restparams-bench.js","n=100000000 method=""copy""",3847059.5805497225,25.993878677
+"old","es/restparams-bench.js","n=100000000 method=""rest""",26317036.291757282,3.799819968
+"old","es/restparams-bench.js","n=100000000 method=""arguments""",26373357.119618844,3.791705377
+"new","es/restparams-bench.js","n=100000000 method=""copy""",3926013.148540203,25.471132219
+"new","es/restparams-bench.js","n=100000000 method=""rest""",26335952.382786177,3.797090705
+"new","es/restparams-bench.js","n=100000000 method=""arguments""",26411015.550947785,3.786298933
+"old","es/restparams-bench.js","n=100000000 method=""copy""",3847059.5805497225,25.993878677
+"old","es/restparams-bench.js","n=100000000 method=""rest""",26317036.291757282,3.799819968
+"old","es/restparams-bench.js","n=100000000 method=""arguments""",26373357.119618844,3.791705377
+"new","es/restparams-bench.js","n=100000000 method=""copy""",3909179.8608261254,25.580813255
+"new","es/restparams-bench.js","n=100000000 method=""rest""",26346447.85746406,3.795578081
+"new","es/restparams-bench.js","n=100000000 method=""arguments""",26344956.80037102,3.795792901
+"old","es/restparams-bench.js","n=100000000 method=""copy""",3847059.5805497225,25.993878677
+"old","es/restparams-bench.js","n=100000000 method=""rest""",26317036.291757282,3.799819968
+"old","es/restparams-bench.js","n=100000000 method=""arguments""",26373357.119618844,3.791705377
+"new","es/restparams-bench.js","n=100000000 method=""copy""",3977827.8953542872,25.139348064
+"new","es/restparams-bench.js","n=100000000 method=""rest""",26363391.53257121,3.793138674
+"new","es/restparams-bench.js","n=100000000 method=""arguments""",26425801.078016613,3.784180457
+"old","es/spread-assign.js","n=1000000 count=5 method=""spread""",5791366.385043523,0.172670823
+"old","es/spread-assign.js","n=1000000 count=10 method=""spread""",5198102.736165362,0.192377883
+"old","es/spread-assign.js","n=1000000 count=20 method=""spread""",28407.016805460615,35.202570085
+"old","es/spread-assign.js","n=1000000 count=5 method=""assign""",1725977.6833812583,0.579381767
+"old","es/spread-assign.js","n=1000000 count=10 method=""assign""",885586.9452950379,1.129194604
+"old","es/spread-assign.js","n=1000000 count=20 method=""assign""",23623.828946763148,42.330140565
+"old","es/spread-assign.js","n=1000000 count=5 method=""_extend""",909927.2198898837,1.098988994
+"old","es/spread-assign.js","n=1000000 count=10 method=""_extend""",453874.9238708215,2.203250163
+"old","es/spread-assign.js","n=1000000 count=20 method=""_extend""",64172.14110111347,15.583086100
+"new","es/spread-assign.js","n=1000000 count=5 method=""spread""",5695818.795681428,0.175567383
+"new","es/spread-assign.js","n=1000000 count=10 method=""spread""",5178390.289403818,0.193110203
+"new","es/spread-assign.js","n=1000000 count=20 method=""spread""",28350.97641878964,35.272153778
+"new","es/spread-assign.js","n=1000000 count=5 method=""assign""",1672816.8614988104,0.597794070
+"new","es/spread-assign.js","n=1000000 count=10 method=""assign""",877846.7349407165,1.139151016
+"new","es/spread-assign.js","n=1000000 count=20 method=""assign""",23211.31445269892,43.082437319
+"new","es/spread-assign.js","n=1000000 count=5 method=""_extend""",928428.4497943645,1.077088924
+"new","es/spread-assign.js","n=1000000 count=10 method=""_extend""",452172.2420979706,2.211546634
+"new","es/spread-assign.js","n=1000000 count=20 method=""_extend""",61072.094985744945,16.374090331
+"old","es/spread-assign.js","n=1000000 count=5 method=""spread""",5791366.385043523,0.172670823
+"old","es/spread-assign.js","n=1000000 count=10 method=""spread""",5198102.736165362,0.192377883
+"old","es/spread-assign.js","n=1000000 count=20 method=""spread""",28407.016805460615,35.202570085
+"old","es/spread-assign.js","n=1000000 count=5 method=""assign""",1725977.6833812583,0.579381767
+"old","es/spread-assign.js","n=1000000 count=10 method=""assign""",885586.9452950379,1.129194604
+"old","es/spread-assign.js","n=1000000 count=20 method=""assign""",23623.828946763148,42.330140565
+"old","es/spread-assign.js","n=1000000 count=5 method=""_extend""",909927.2198898837,1.098988994
+"old","es/spread-assign.js","n=1000000 count=10 method=""_extend""",453874.9238708215,2.203250163
+"old","es/spread-assign.js","n=1000000 count=20 method=""_extend""",64172.14110111347,15.583086100
+"new","es/spread-assign.js","n=1000000 count=5 method=""spread""",5536950.5404362725,0.180604828
+"new","es/spread-assign.js","n=1000000 count=10 method=""spread""",5242205.076949804,0.190759420
+"new","es/spread-assign.js","n=1000000 count=20 method=""spread""",27826.270221595652,35.937263314
+"new","es/spread-assign.js","n=1000000 count=5 method=""assign""",1704105.201871276,0.586818231
+"new","es/spread-assign.js","n=1000000 count=10 method=""assign""",896639.9997681647,1.115274804
+"new","es/spread-assign.js","n=1000000 count=20 method=""assign""",22640.411425782037,44.168808649
+"new","es/spread-assign.js","n=1000000 count=5 method=""_extend""",901418.5685309434,1.109362548
+"new","es/spread-assign.js","n=1000000 count=10 method=""_extend""",452505.34612214926,2.209918642
+"new","es/spread-assign.js","n=1000000 count=20 method=""_extend""",61988.77888150253,16.131951912
+"old","es/spread-assign.js","n=1000000 count=5 method=""spread""",5791366.385043523,0.172670823
+"old","es/spread-assign.js","n=1000000 count=10 method=""spread""",5198102.736165362,0.192377883
+"old","es/spread-assign.js","n=1000000 count=20 method=""spread""",28407.016805460615,35.202570085
+"old","es/spread-assign.js","n=1000000 count=5 method=""assign""",1725977.6833812583,0.579381767
+"old","es/spread-assign.js","n=1000000 count=10 method=""assign""",885586.9452950379,1.129194604
+"old","es/spread-assign.js","n=1000000 count=20 method=""assign""",23623.828946763148,42.330140565
+"old","es/spread-assign.js","n=1000000 count=5 method=""_extend""",909927.2198898837,1.098988994
+"old","es/spread-assign.js","n=1000000 count=10 method=""_extend""",453874.9238708215,2.203250163
+"old","es/spread-assign.js","n=1000000 count=20 method=""_extend""",64172.14110111347,15.583086100
+"new","es/spread-assign.js","n=1000000 count=5 method=""spread""",5787157.234417328,0.172796411
+"new","es/spread-assign.js","n=1000000 count=10 method=""spread""",5284443.521991984,0.189234684
+"new","es/spread-assign.js","n=1000000 count=20 method=""spread""",28154.657471879138,35.518102147
+"new","es/spread-assign.js","n=1000000 count=5 method=""assign""",1711775.2979954726,0.584188825
+"new","es/spread-assign.js","n=1000000 count=10 method=""assign""",845775.4485603077,1.182346924
+"new","es/spread-assign.js","n=1000000 count=20 method=""assign""",22914.992796667775,43.639551139
+"new","es/spread-assign.js","n=1000000 count=5 method=""_extend""",899262.8547239788,1.112021913
+"new","es/spread-assign.js","n=1000000 count=10 method=""_extend""",459112.77437017846,2.178114084
+"new","es/spread-assign.js","n=1000000 count=20 method=""_extend""",64095.455497463765,15.601730142
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""apply""",10859527.99174523,0.460425168
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""apply""",9144463.39136617,0.546778940
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""apply""",10835011.235949991,0.461466988
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""apply""",10625136.312530037,0.470582198
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""apply""",9369635.421095673,0.533638693
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""apply""",9147694.318158492,0.546585820
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""apply""",9343129.557335677,0.535152592
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""apply""",9156529.425630815,0.546058421
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""apply""",7514621.823395392,0.665369478
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""apply""",7382171.252654035,0.677307506
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""apply""",7444382.807601688,0.671647352
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""apply""",7334498.988632733,0.681709822
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""spread""",9561865.310631996,0.522910524
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""spread""",9375835.375212139,0.533285814
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""spread""",12431534.319259424,0.402202968
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""spread""",12308838.082513055,0.406212184
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""spread""",8154442.705023895,0.613162687
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""spread""",8423652.834095372,0.593566722
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""spread""",10466065.821410306,0.477734431
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""spread""",10529726.223706553,0.474846154
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""spread""",6671791.474299681,0.749423902
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""spread""",6522042.138841212,0.766631048
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""spread""",8110251.880027756,0.616503664
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""spread""",8320977.278411598,0.600890957
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""call-spread""",7931467.375684012,0.630400374
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""call-spread""",7712071.239301776,0.648334260
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""call-spread""",7972914.084598577,0.627123276
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""call-spread""",8295695.279932721,0.602722235
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""call-spread""",6965215.034917591,0.717852927
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""call-spread""",6905122.056857101,0.724100162
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""call-spread""",7497017.019395171,0.666931926
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""call-spread""",6747674.851449163,0.740995989
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""call-spread""",5813834.122245236,0.860017657
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""call-spread""",5680573.355174563,0.880192841
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""call-spread""",5669860.446137278,0.881855920
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""call-spread""",5929412.174323627,0.843253910
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""apply""",10914739.21122179,0.458096149
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""apply""",10685055.675978508,0.467943280
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""apply""",10903441.02349467,0.458570830
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""apply""",10686823.760368358,0.467865861
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""apply""",9460918.921268295,0.528489890
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""apply""",8334605.291337853,0.599908433
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""apply""",9238826.994547956,0.541194245
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""apply""",9043861.296549408,0.552861199
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""apply""",7483114.890034908,0.668170952
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""apply""",7449135.644387442,0.671218815
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""apply""",7517693.553334807,0.665097608
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""apply""",7401452.692001603,0.675543060
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""spread""",9366032.77875074,0.533843957
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""spread""",9373665.96329427,0.533409236
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""spread""",12508431.871382339,0.399730362
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""spread""",12597365.732602399,0.396908378
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""spread""",8797679.304516565,0.568331696
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""spread""",8055070.947719711,0.620726997
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""spread""",10587153.249689106,0.472270485
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""spread""",10565672.89877811,0.473230626
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""spread""",6633621.766303423,0.753736070
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""spread""",6455828.642630459,0.774493915
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""spread""",8282416.652409591,0.603688538
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""spread""",8346150.070869164,0.599078612
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""call-spread""",8533709.424603257,0.585911677
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""call-spread""",8342665.550253388,0.599328832
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""call-spread""",7999625.207959457,0.625029282
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""call-spread""",8408815.811241675,0.594614047
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""call-spread""",7417582.143294902,0.674074099
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""call-spread""",6956130.260217008,0.718790450
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""call-spread""",7043566.600669387,0.709867640
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""call-spread""",7185298.1947036,0.695865344
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""call-spread""",5693120.099144457,0.878253034
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""call-spread""",5665071.971566958,0.882601320
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""call-spread""",5669826.511632049,0.881861198
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""call-spread""",5920732.830985519,0.844490056
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""apply""",10859527.99174523,0.460425168
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""apply""",9144463.39136617,0.546778940
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""apply""",10835011.235949991,0.461466988
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""apply""",10625136.312530037,0.470582198
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""apply""",9369635.421095673,0.533638693
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""apply""",9147694.318158492,0.546585820
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""apply""",9343129.557335677,0.535152592
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""apply""",9156529.425630815,0.546058421
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""apply""",7514621.823395392,0.665369478
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""apply""",7382171.252654035,0.677307506
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""apply""",7444382.807601688,0.671647352
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""apply""",7334498.988632733,0.681709822
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""spread""",9561865.310631996,0.522910524
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""spread""",9375835.375212139,0.533285814
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""spread""",12431534.319259424,0.402202968
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""spread""",12308838.082513055,0.406212184
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""spread""",8154442.705023895,0.613162687
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""spread""",8423652.834095372,0.593566722
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""spread""",10466065.821410306,0.477734431
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""spread""",10529726.223706553,0.474846154
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""spread""",6671791.474299681,0.749423902
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""spread""",6522042.138841212,0.766631048
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""spread""",8110251.880027756,0.616503664
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""spread""",8320977.278411598,0.600890957
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""call-spread""",7931467.375684012,0.630400374
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""call-spread""",7712071.239301776,0.648334260
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""call-spread""",7972914.084598577,0.627123276
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""call-spread""",8295695.279932721,0.602722235
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""call-spread""",6965215.034917591,0.717852927
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""call-spread""",6905122.056857101,0.724100162
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""call-spread""",7497017.019395171,0.666931926
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""call-spread""",6747674.851449163,0.740995989
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""call-spread""",5813834.122245236,0.860017657
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""call-spread""",5680573.355174563,0.880192841
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""call-spread""",5669860.446137278,0.881855920
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""call-spread""",5929412.174323627,0.843253910
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""apply""",10993536.774404008,0.454812687
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""apply""",10683535.667497704,0.468009857
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""apply""",10909768.092281556,0.458304884
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""apply""",10661330.97471713,0.468984596
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""apply""",9369237.977201758,0.533661330
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""apply""",9123829.876345517,0.548015479
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""apply""",9331979.086482413,0.535792028
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""apply""",9187765.141215527,0.544201982
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""apply""",7525457.486332181,0.664411434
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""apply""",7138970.208144972,0.700381127
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""apply""",7516438.831304223,0.665208633
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""apply""",7373704.617804932,0.678085204
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""spread""",9610570.47733199,0.520260479
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""spread""",9218605.839153808,0.542381363
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""spread""",12503819.072718928,0.399877827
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""spread""",12669689.875968322,0.394642651
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""spread""",8525986.670233712,0.586442390
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""spread""",8032557.3816500185,0.622466764
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""spread""",10475705.758301236,0.477294811
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""spread""",10520335.521357624,0.475270013
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""spread""",6700344.61775267,0.746230274
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""spread""",6595780.964382485,0.758060346
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""spread""",8160668.934341381,0.612694871
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""spread""",8064204.395505248,0.620023967
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""call-spread""",7896376.096535005,0.633201856
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""call-spread""",8262525.732458984,0.605141837
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""call-spread""",8494906.035542222,0.588588029
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""call-spread""",8360839.631768423,0.598026062
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""call-spread""",7509638.700122814,0.665810993
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""call-spread""",7199824.71709934,0.694461351
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""call-spread""",7433744.138686024,0.672608568
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""call-spread""",6818024.231948104,0.733350283
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""call-spread""",5683224.934986635,0.879782176
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""call-spread""",5661351.790360723,0.883181294
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""call-spread""",6014382.852892482,0.831340492
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""call-spread""",5482440.071751851,0.912002673
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""apply""",10859527.99174523,0.460425168
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""apply""",9144463.39136617,0.546778940
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""apply""",10835011.235949991,0.461466988
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""apply""",10625136.312530037,0.470582198
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""apply""",9369635.421095673,0.533638693
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""apply""",9147694.318158492,0.546585820
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""apply""",9343129.557335677,0.535152592
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""apply""",9156529.425630815,0.546058421
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""apply""",7514621.823395392,0.665369478
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""apply""",7382171.252654035,0.677307506
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""apply""",7444382.807601688,0.671647352
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""apply""",7334498.988632733,0.681709822
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""spread""",9561865.310631996,0.522910524
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""spread""",9375835.375212139,0.533285814
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""spread""",12431534.319259424,0.402202968
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""spread""",12308838.082513055,0.406212184
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""spread""",8154442.705023895,0.613162687
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""spread""",8423652.834095372,0.593566722
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""spread""",10466065.821410306,0.477734431
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""spread""",10529726.223706553,0.474846154
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""spread""",6671791.474299681,0.749423902
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""spread""",6522042.138841212,0.766631048
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""spread""",8110251.880027756,0.616503664
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""spread""",8320977.278411598,0.600890957
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""call-spread""",7931467.375684012,0.630400374
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""call-spread""",7712071.239301776,0.648334260
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""call-spread""",7972914.084598577,0.627123276
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""call-spread""",8295695.279932721,0.602722235
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""call-spread""",6965215.034917591,0.717852927
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""call-spread""",6905122.056857101,0.724100162
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""call-spread""",7497017.019395171,0.666931926
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""call-spread""",6747674.851449163,0.740995989
+"old","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""call-spread""",5813834.122245236,0.860017657
+"old","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""call-spread""",5680573.355174563,0.880192841
+"old","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""call-spread""",5669860.446137278,0.881855920
+"old","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""call-spread""",5929412.174323627,0.843253910
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""apply""",10805799.419816313,0.462714493
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""apply""",10622214.709247783,0.470711630
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""apply""",10921014.210301375,0.457832936
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""apply""",10698863.638600672,0.467339352
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""apply""",9283871.43856,0.538568423
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""apply""",9174426.379678817,0.544993201
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""apply""",9303350.87124132,0.537440764
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""apply""",9159906.503002344,0.545857100
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""apply""",7298895.815450187,0.685035124
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""apply""",7396852.285487112,0.675963208
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""apply""",7496802.253992164,0.666951032
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""apply""",7369349.607748018,0.678485927
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""spread""",9266836.734496249,0.539558443
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""spread""",9592316.385750245,0.521250530
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""spread""",12777032.839851785,0.391327162
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""spread""",12543351.107119694,0.398617559
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""spread""",8243344.641729372,0.606549916
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""spread""",8420466.34021226,0.593791341
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""spread""",10548368.564107275,0.474006949
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""spread""",10471133.840005532,0.477503208
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""spread""",6563184.042524246,0.761825353
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""spread""",6641281.589785525,0.752866737
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""spread""",8349582.190831475,0.598832359
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""spread""",8293479.336299454,0.602883277
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=5 method=""call-spread""",8503995.425367502,0.587958924
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=5 method=""call-spread""",8379806.904444694,0.596672460
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=5 method=""call-spread""",8449203.442135861,0.591771761
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=5 method=""call-spread""",8244768.905195736,0.606445136
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=10 method=""call-spread""",7469319.657467159,0.669405010
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=10 method=""call-spread""",6835239.101434764,0.731503306
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=10 method=""call-spread""",7031071.60193857,0.711129154
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=10 method=""call-spread""",6801745.671835654,0.735105404
+"new","es/spread-bench.js","n=5000000 rest=0 context=""context"" count=20 method=""call-spread""",6071042.889782223,0.823581729
+"new","es/spread-bench.js","n=5000000 rest=1 context=""context"" count=20 method=""call-spread""",5821876.290266056,0.858829654
+"new","es/spread-bench.js","n=5000000 rest=0 context=""null"" count=20 method=""call-spread""",5321716.256643224,0.939546522
+"new","es/spread-bench.js","n=5000000 rest=1 context=""null"" count=20 method=""call-spread""",5593192.7711786805,0.893943800
+"old","es/string-concatenations.js","mode=""multi-concat"" n=1000",394739.23131640005,0.002533318
+"old","es/string-concatenations.js","mode=""multi-join"" n=1000",226540.74323940126,0.004414217
+"old","es/string-concatenations.js","mode=""multi-template"" n=1000",394269.2180616306,0.002536338
+"old","es/string-concatenations.js","mode=""to-string-string"" n=1000",532640.4746039684,0.001877439
+"old","es/string-concatenations.js","mode=""to-string-concat"" n=1000",560513.2956556296,0.001784079
+"old","es/string-concatenations.js","mode=""to-string-template"" n=1000",624501.1796827284,0.001601278
+"new","es/string-concatenations.js","mode=""multi-concat"" n=1000",413663.64099290856,0.002417423
+"new","es/string-concatenations.js","mode=""multi-join"" n=1000",232853.53861701296,0.004294545
+"new","es/string-concatenations.js","mode=""multi-template"" n=1000",423936.6502984726,0.002358843
+"new","es/string-concatenations.js","mode=""to-string-string"" n=1000",620346.6248801181,0.001612002
+"new","es/string-concatenations.js","mode=""to-string-concat"" n=1000",671924.7014302589,0.001488262
+"new","es/string-concatenations.js","mode=""to-string-template"" n=1000",710539.1428908427,0.001407382
+"old","es/string-concatenations.js","mode=""multi-concat"" n=1000",394739.23131640005,0.002533318
+"old","es/string-concatenations.js","mode=""multi-join"" n=1000",226540.74323940126,0.004414217
+"old","es/string-concatenations.js","mode=""multi-template"" n=1000",394269.2180616306,0.002536338
+"old","es/string-concatenations.js","mode=""to-string-string"" n=1000",532640.4746039684,0.001877439
+"old","es/string-concatenations.js","mode=""to-string-concat"" n=1000",560513.2956556296,0.001784079
+"old","es/string-concatenations.js","mode=""to-string-template"" n=1000",624501.1796827284,0.001601278
+"new","es/string-concatenations.js","mode=""multi-concat"" n=1000",402589.77953378495,0.002483918
+"new","es/string-concatenations.js","mode=""multi-join"" n=1000",240962.86834487668,0.004150017
+"new","es/string-concatenations.js","mode=""multi-template"" n=1000",412589.2533702353,0.002423718
+"new","es/string-concatenations.js","mode=""to-string-string"" n=1000",653091.5066102657,0.001531179
+"new","es/string-concatenations.js","mode=""to-string-concat"" n=1000",696621.8715582526,0.001435499
+"new","es/string-concatenations.js","mode=""to-string-template"" n=1000",694223.1608119357,0.001440459
+"old","es/string-concatenations.js","mode=""multi-concat"" n=1000",394739.23131640005,0.002533318
+"old","es/string-concatenations.js","mode=""multi-join"" n=1000",226540.74323940126,0.004414217
+"old","es/string-concatenations.js","mode=""multi-template"" n=1000",394269.2180616306,0.002536338
+"old","es/string-concatenations.js","mode=""to-string-string"" n=1000",532640.4746039684,0.001877439
+"old","es/string-concatenations.js","mode=""to-string-concat"" n=1000",560513.2956556296,0.001784079
+"old","es/string-concatenations.js","mode=""to-string-template"" n=1000",624501.1796827284,0.001601278
+"new","es/string-concatenations.js","mode=""multi-concat"" n=1000",432051.47979792085,0.002314539
+"new","es/string-concatenations.js","mode=""multi-join"" n=1000",236422.38087740127,0.004229718
+"new","es/string-concatenations.js","mode=""multi-template"" n=1000",429070.5602245584,0.002330619
+"new","es/string-concatenations.js","mode=""to-string-string"" n=1000",643120.3168782425,0.001554919
+"new","es/string-concatenations.js","mode=""to-string-concat"" n=1000",690674.9897607433,0.001447859
+"new","es/string-concatenations.js","mode=""to-string-template"" n=1000",619295.1306681761,0.001614739
+"old","es/string-repeat.js","size=10 encoding=""ascii"" mode=""Array"" n=1000",186230.28193774843,0.005369696
+"old","es/string-repeat.js","size=1000 encoding=""ascii"" mode=""Array"" n=1000",28537.938892453436,0.035041073
+"old","es/string-repeat.js","size=1000000 encoding=""ascii"" mode=""Array"" n=1000",32.81028068216261,30.478251914
+"old","es/string-repeat.js","size=10 encoding=""utf8"" mode=""Array"" n=1000",186371.89094411526,0.005365616
+"old","es/string-repeat.js","size=1000 encoding=""utf8"" mode=""Array"" n=1000",28405.933169985958,0.035203913
+"old","es/string-repeat.js","size=1000000 encoding=""utf8"" mode=""Array"" n=1000",32.85412520410016,30.437578045
+"old","es/string-repeat.js","size=10 encoding=""ascii"" mode=""repeat"" n=1000",1075616.94699037,0.000929699
+"old","es/string-repeat.js","size=1000 encoding=""ascii"" mode=""repeat"" n=1000",197368.83656597172,0.005066656
+"old","es/string-repeat.js","size=1000000 encoding=""ascii"" mode=""repeat"" n=1000",156020.96609742419,0.006409395
+"old","es/string-repeat.js","size=10 encoding=""utf8"" mode=""repeat"" n=1000",1054453.007774482,0.000948359
+"old","es/string-repeat.js","size=1000 encoding=""utf8"" mode=""repeat"" n=1000",175478.74110147305,0.005698696
+"old","es/string-repeat.js","size=1000000 encoding=""utf8"" mode=""repeat"" n=1000",165244.59918683133,0.006051635
+"new","es/string-repeat.js","size=10 encoding=""ascii"" mode=""Array"" n=1000",189054.28618206002,0.005289486
+"new","es/string-repeat.js","size=1000 encoding=""ascii"" mode=""Array"" n=1000",28595.251684110197,0.034970841
+"new","es/string-repeat.js","size=1000000 encoding=""ascii"" mode=""Array"" n=1000",32.220917409177765,31.035739526
+"new","es/string-repeat.js","size=10 encoding=""utf8"" mode=""Array"" n=1000",188750.25811597798,0.005298006
+"new","es/string-repeat.js","size=1000 encoding=""utf8"" mode=""Array"" n=1000",27938.00143998047,0.035793541
+"new","es/string-repeat.js","size=1000000 encoding=""utf8"" mode=""Array"" n=1000",32.23361561918236,31.023513211
+"new","es/string-repeat.js","size=10 encoding=""ascii"" mode=""repeat"" n=1000",1052630.4709152938,0.000950001
+"new","es/string-repeat.js","size=1000 encoding=""ascii"" mode=""repeat"" n=1000",203192.31380370728,0.004921446
+"new","es/string-repeat.js","size=1000000 encoding=""ascii"" mode=""repeat"" n=1000",168160.2944284963,0.005946707
+"new","es/string-repeat.js","size=10 encoding=""utf8"" mode=""repeat"" n=1000",1039867.4792884394,0.000961661
+"new","es/string-repeat.js","size=1000 encoding=""utf8"" mode=""repeat"" n=1000",202494.53011650522,0.004938405
+"new","es/string-repeat.js","size=1000000 encoding=""utf8"" mode=""repeat"" n=1000",168556.55080707406,0.005932727
+"old","es/string-repeat.js","size=10 encoding=""ascii"" mode=""Array"" n=1000",186230.28193774843,0.005369696
+"old","es/string-repeat.js","size=1000 encoding=""ascii"" mode=""Array"" n=1000",28537.938892453436,0.035041073
+"old","es/string-repeat.js","size=1000000 encoding=""ascii"" mode=""Array"" n=1000",32.81028068216261,30.478251914
+"old","es/string-repeat.js","size=10 encoding=""utf8"" mode=""Array"" n=1000",186371.89094411526,0.005365616
+"old","es/string-repeat.js","size=1000 encoding=""utf8"" mode=""Array"" n=1000",28405.933169985958,0.035203913
+"old","es/string-repeat.js","size=1000000 encoding=""utf8"" mode=""Array"" n=1000",32.85412520410016,30.437578045
+"old","es/string-repeat.js","size=10 encoding=""ascii"" mode=""repeat"" n=1000",1075616.94699037,0.000929699
+"old","es/string-repeat.js","size=1000 encoding=""ascii"" mode=""repeat"" n=1000",197368.83656597172,0.005066656
+"old","es/string-repeat.js","size=1000000 encoding=""ascii"" mode=""repeat"" n=1000",156020.96609742419,0.006409395
+"old","es/string-repeat.js","size=10 encoding=""utf8"" mode=""repeat"" n=1000",1054453.007774482,0.000948359
+"old","es/string-repeat.js","size=1000 encoding=""utf8"" mode=""repeat"" n=1000",175478.74110147305,0.005698696
+"old","es/string-repeat.js","size=1000000 encoding=""utf8"" mode=""repeat"" n=1000",165244.59918683133,0.006051635
+"new","es/string-repeat.js","size=10 encoding=""ascii"" mode=""Array"" n=1000",183648.79298667295,0.005445176
+"new","es/string-repeat.js","size=1000 encoding=""ascii"" mode=""Array"" n=1000",28610.277240739033,0.034952475
+"new","es/string-repeat.js","size=1000000 encoding=""ascii"" mode=""Array"" n=1000",32.22007770762173,31.036548362
+"new","es/string-repeat.js","size=10 encoding=""utf8"" mode=""Array"" n=1000",183890.59539361412,0.005438016
+"new","es/string-repeat.js","size=1000 encoding=""utf8"" mode=""Array"" n=1000",28507.10513939205,0.035078974
+"new","es/string-repeat.js","size=1000000 encoding=""utf8"" mode=""Array"" n=1000",31.710579602927545,31.535216717
+"new","es/string-repeat.js","size=10 encoding=""ascii"" mode=""repeat"" n=1000",1079448.4881784199,0.000926399
+"new","es/string-repeat.js","size=1000 encoding=""ascii"" mode=""repeat"" n=1000",202237.71992340853,0.004944676
+"new","es/string-repeat.js","size=1000000 encoding=""ascii"" mode=""repeat"" n=1000",162116.17374703652,0.006168416
+"new","es/string-repeat.js","size=10 encoding=""utf8"" mode=""repeat"" n=1000",1086910.4461876072,0.000920039
+"new","es/string-repeat.js","size=1000 encoding=""utf8"" mode=""repeat"" n=1000",196232.49311812647,0.005095996
+"new","es/string-repeat.js","size=1000000 encoding=""utf8"" mode=""repeat"" n=1000",166787.97712202676,0.005995636
+"old","es/string-repeat.js","size=10 encoding=""ascii"" mode=""Array"" n=1000",186230.28193774843,0.005369696
+"old","es/string-repeat.js","size=1000 encoding=""ascii"" mode=""Array"" n=1000",28537.938892453436,0.035041073
+"old","es/string-repeat.js","size=1000000 encoding=""ascii"" mode=""Array"" n=1000",32.81028068216261,30.478251914
+"old","es/string-repeat.js","size=10 encoding=""utf8"" mode=""Array"" n=1000",186371.89094411526,0.005365616
+"old","es/string-repeat.js","size=1000 encoding=""utf8"" mode=""Array"" n=1000",28405.933169985958,0.035203913
+"old","es/string-repeat.js","size=1000000 encoding=""utf8"" mode=""Array"" n=1000",32.85412520410016,30.437578045
+"old","es/string-repeat.js","size=10 encoding=""ascii"" mode=""repeat"" n=1000",1075616.94699037,0.000929699
+"old","es/string-repeat.js","size=1000 encoding=""ascii"" mode=""repeat"" n=1000",197368.83656597172,0.005066656
+"old","es/string-repeat.js","size=1000000 encoding=""ascii"" mode=""repeat"" n=1000",156020.96609742419,0.006409395
+"old","es/string-repeat.js","size=10 encoding=""utf8"" mode=""repeat"" n=1000",1054453.007774482,0.000948359
+"old","es/string-repeat.js","size=1000 encoding=""utf8"" mode=""repeat"" n=1000",175478.74110147305,0.005698696
+"old","es/string-repeat.js","size=1000000 encoding=""utf8"" mode=""repeat"" n=1000",165244.59918683133,0.006051635
+"new","es/string-repeat.js","size=10 encoding=""ascii"" mode=""Array"" n=1000",189984.11352842674,0.005263598
+"new","es/string-repeat.js","size=1000 encoding=""ascii"" mode=""Array"" n=1000",28799.101099417203,0.034723306
+"new","es/string-repeat.js","size=1000000 encoding=""ascii"" mode=""Array"" n=1000",32.973861184061164,30.327051916
+"new","es/string-repeat.js","size=10 encoding=""utf8"" mode=""Array"" n=1000",193197.25420334435,0.005176057
+"new","es/string-repeat.js","size=1000 encoding=""utf8"" mode=""Array"" n=1000",28233.52490532876,0.035418886
+"new","es/string-repeat.js","size=1000000 encoding=""utf8"" mode=""Array"" n=1000",32.032002094967766,31.218779177
+"new","es/string-repeat.js","size=10 encoding=""ascii"" mode=""repeat"" n=1000",1061390.8465653392,0.000942160
+"new","es/string-repeat.js","size=1000 encoding=""ascii"" mode=""repeat"" n=1000",202204.1056330424,0.004945498
+"new","es/string-repeat.js","size=1000000 encoding=""ascii"" mode=""repeat"" n=1000",168101.2144136033,0.005948797
+"new","es/string-repeat.js","size=10 encoding=""utf8"" mode=""repeat"" n=1000",1023939.7104298498,0.000976620
+"new","es/string-repeat.js","size=1000 encoding=""utf8"" mode=""repeat"" n=1000",192533.6231092717,0.005193898
+"new","es/string-repeat.js","size=1000000 encoding=""utf8"" mode=""repeat"" n=1000",160407.10038821725,0.006234138

@@ -1,0 +1,38 @@
+"filename","configuration","rate","time"
+"validators/parse-file-mode.js","value=""'777'"" n=10000000",2007341.7250940662,4.981712817
+"validators/parse-file-mode.js","value=""0o777"" n=10000000",47684387.94637094,0.209712244
+"validators/validate-array.js","value=""[]"" n=10000000",64868175.73655445,0.154158798
+"validators/validate-array.js","value=""[1,2,3]"" n=10000000",65123610.47380422,0.153554140
+"validators/validate-boolean.js","value=""true"" code=""validateBoolean"" n=100000000",82467942.23681429,1.212592400
+"validators/validate-boolean.js","value=""false"" code=""validateBoolean"" n=100000000",82302204.946192,1.215034276
+"validators/validate-encoding.js","value=""test"" encoding=""ascii"" n=100000000",13670643.944895519,7.314944373
+"validators/validate-encoding.js","value=""test"" encoding=""utf8"" n=100000000",25462913.93565467,3.927280289
+"validators/validate-encoding.js","value=""test"" encoding=""utf-8"" n=100000000",24492149.499970824,4.082940944
+"validators/validate-encoding.js","value=""test"" encoding=""utf16le"" n=100000000",21555149.739002734,4.639262599
+"validators/validate-encoding.js","value=""test"" encoding=""ucs2"" n=100000000",10059673.446705261,9.940680533
+"validators/validate-encoding.js","value=""test"" encoding=""ucs-2"" n=100000000",9352404.186701186,10.692437795
+"validators/validate-encoding.js","value=""test"" encoding=""base64"" n=100000000",21497174.607961193,4.651774097
+"validators/validate-encoding.js","value=""test"" encoding=""latin1"" n=100000000",13388045.614936633,7.469350111
+"validators/validate-encoding.js","value=""test"" encoding=""binary"" n=100000000",9173721.978852684,10.900700962
+"validators/validate-encoding.js","value=""test"" encoding=""hex"" n=100000000",21107051.36959359,4.737753192
+"validators/validate-object.js","objectToTest=""object"" n=100000",8974693.339215945,0.011142442
+"validators/validate-object.js","objectToTest=""null"" n=100000",7177588.468084422,0.013932256
+"validators/validate-object.js","objectToTest=""array"" n=100000",7990067.38742934,0.012515539
+"validators/validate-object.js","objectToTest=""function"" n=100000",7064204.292267042,0.014155876
+"validators/validate-one-of.js","validLength=1 value=""fifo"" code=""validateOneOf"" n=10000000",4275438.478217598,2.338941386
+"validators/validate-one-of.js","validLength=2 value=""fifo"" code=""validateOneOf"" n=10000000",3766324.3575357115,2.655108549
+"validators/validate-one-of.js","validLength=3 value=""fifo"" code=""validateOneOf"" n=10000000",3639836.579155965,2.747376093
+"validators/validate-one-of.js","validLength=1 value=""lifo"" code=""validateOneOf"" n=10000000",4196942.125342815,2.382687133
+"validators/validate-one-of.js","validLength=2 value=""lifo"" code=""validateOneOf"" n=10000000",3829987.5497254226,2.610974545
+"validators/validate-one-of.js","validLength=3 value=""lifo"" code=""validateOneOf"" n=10000000",3509310.5671311566,2.849562559
+"validators/validate-one-of.js","validLength=1 value=""lilo"" code=""validateOneOf"" n=10000000",3966375.233240365,2.521193637
+"validators/validate-one-of.js","validLength=2 value=""lilo"" code=""validateOneOf"" n=10000000",4058284.573321501,2.464095314
+"validators/validate-one-of.js","validLength=3 value=""lilo"" code=""validateOneOf"" n=10000000",3926544.60192071,2.546768473
+"validators/validate-x-array.js","arrayLength=0 type=""validateStringArray"" n=100000000",63731688.40893823,1.569078154
+"validators/validate-x-array.js","arrayLength=1 type=""validateStringArray"" n=100000000",49193546.89264443,2.032786947
+"validators/validate-x-array.js","arrayLength=10 type=""validateStringArray"" n=100000000",15277212.164459407,6.545696880
+"validators/validate-x-array.js","arrayLength=100 type=""validateStringArray"" n=100000000",2342925.238771597,42.681686272
+"validators/validate-x-array.js","arrayLength=0 type=""validateBooleanArray"" n=100000000",63698557.918091826,1.569894253
+"validators/validate-x-array.js","arrayLength=1 type=""validateBooleanArray"" n=100000000",49416408.47392138,2.023619342
+"validators/validate-x-array.js","arrayLength=10 type=""validateBooleanArray"" n=100000000",16514892.83622947,6.055140714
+"validators/validate-x-array.js","arrayLength=100 type=""validateBooleanArray"" n=100000000",2674671.3900368437,37.387770465

@@ -1,0 +1,41 @@
+"filename","configuration","rate","time"
+"async_hooks/async-local-storage-getstore-nested-resources.js","n=10000 resourceCount=10",2449043.3669252284,0.004083227
+"async_hooks/async-local-storage-getstore-nested-resources.js","n=10000 resourceCount=100",2574306.057187694,0.003884542
+"async_hooks/async-local-storage-getstore-nested-resources.js","n=10000 resourceCount=1000",3277291.646183594,0.003051300
+"async_hooks/async-local-storage-getstore-nested-run.js","n=10000 sotrageCount=1",24330.55541244458,0.411005825
+"async_hooks/async-local-storage-getstore-nested-run.js","n=10000 sotrageCount=10",24239.71967733782,0.412546025
+"async_hooks/async-local-storage-getstore-nested-run.js","n=10000 sotrageCount=100",650206.7267266954,0.015379724
+"async_hooks/async-local-storage-propagate-asyncresource.js","n=1000 storageCount=0",204506.9654049882,0.004889809
+"async_hooks/async-local-storage-propagate-asyncresource.js","n=1000 storageCount=1",2784.441402392711,0.359138461
+"async_hooks/async-local-storage-propagate-asyncresource.js","n=1000 storageCount=10",2330.002531804051,0.429184083
+"async_hooks/async-local-storage-propagate-asyncresource.js","n=1000 storageCount=100",1367.3292832338068,0.731352727
+"async_hooks/async-local-storage-propagate-promise.js","n=100000 storageCount=0",532535.5921760637,0.187780876
+"async_hooks/async-local-storage-propagate-promise.js","n=100000 storageCount=1",37923.48242662231,2.636888640
+"async_hooks/async-local-storage-propagate-promise.js","n=100000 storageCount=10",30220.937333807226,3.308964209
+"async_hooks/async-local-storage-propagate-promise.js","n=100000 storageCount=100",5911.8266729888055,16.915245580
+"async_hooks/async-local-storage-run.js","n=10000000",396397.6420692014,25.227193451
+"async_hooks/async-resource-vs-destroy.js","n=1000000 duration=5 connections=500 path=""/"" asyncMethod=""callbacks"" type=""async-resource"" benchmarker=""test-double-http""", 2, 9.569605913
+"async_hooks/async-resource-vs-destroy.js","n=1000000 duration=5 connections=500 path=""/"" asyncMethod=""async"" type=""async-resource"" benchmarker=""test-double-http""", 2, 9.378160360
+"async_hooks/async-resource-vs-destroy.js","n=1000000 duration=5 connections=500 path=""/"" asyncMethod=""callbacks"" type=""destroy"" benchmarker=""test-double-http""", 2, 9.437649624
+"async_hooks/async-resource-vs-destroy.js","n=1000000 duration=5 connections=500 path=""/"" asyncMethod=""async"" type=""destroy"" benchmarker=""test-double-http""", 2, 9.654119396
+"async_hooks/async-resource-vs-destroy.js","n=1000000 duration=5 connections=500 path=""/"" asyncMethod=""callbacks"" type=""async-local-storage"" benchmarker=""test-double-http""", 2, 9.360711613
+"async_hooks/async-resource-vs-destroy.js","n=1000000 duration=5 connections=500 path=""/"" asyncMethod=""async"" type=""async-local-storage"" benchmarker=""test-double-http""", 2, 9.293592510
+"async_hooks/gc-tracking.js","method=""trackingEnabled"" n=1000000",772515.8059360449,1.294471896
+"async_hooks/gc-tracking.js","method=""trackingEnabledWithDestroyHook"" n=1000000",184789.3286640352,5.411567904
+"async_hooks/gc-tracking.js","method=""trackingDisabled"" n=1000000",1066393.045567234,0.937740549
+"async_hooks/http-server.js","duration=5 connections=50 asyncHooks=""init"" benchmarker=""test-double-http""", 2, 11.154124583
+"async_hooks/http-server.js","duration=5 connections=500 asyncHooks=""init"" benchmarker=""test-double-http""", 2, 11.037275663
+"async_hooks/http-server.js","duration=5 connections=50 asyncHooks=""before"" benchmarker=""test-double-http""", 2, 10.962190737
+"async_hooks/http-server.js","duration=5 connections=500 asyncHooks=""before"" benchmarker=""test-double-http""", 2, 11.151720983
+"async_hooks/http-server.js","duration=5 connections=50 asyncHooks=""after"" benchmarker=""test-double-http""", 2, 11.101515266
+"async_hooks/http-server.js","duration=5 connections=500 asyncHooks=""after"" benchmarker=""test-double-http""", 2, 11.319243382
+"async_hooks/http-server.js","duration=5 connections=50 asyncHooks=""all"" benchmarker=""test-double-http""", 2, 10.937649168
+"async_hooks/http-server.js","duration=5 connections=500 asyncHooks=""all"" benchmarker=""test-double-http""", 2, 11.003312331
+"async_hooks/http-server.js","duration=5 connections=50 asyncHooks=""disabled"" benchmarker=""test-double-http""", 2, 11.053041829
+"async_hooks/http-server.js","duration=5 connections=500 asyncHooks=""disabled"" benchmarker=""test-double-http""", 2, 11.079968297
+"async_hooks/http-server.js","duration=5 connections=50 asyncHooks=""none"" benchmarker=""test-double-http""", 2, 10.868407404
+"async_hooks/http-server.js","duration=5 connections=500 asyncHooks=""none"" benchmarker=""test-double-http""", 2, 10.686293319
+"async_hooks/promises.js","asyncHooks=""enabled"" n=1000000",98452.15556034088,10.157217933
+"async_hooks/promises.js","asyncHooks=""enabledWithDestroy"" n=1000000",42966.369577864,23.274016628
+"async_hooks/promises.js","asyncHooks=""enabledWithInitOnly"" n=1000000",85846.18540051735,11.648741238
+"async_hooks/promises.js","asyncHooks=""disabled"" n=1000000",187310.98034547793,5.338715318

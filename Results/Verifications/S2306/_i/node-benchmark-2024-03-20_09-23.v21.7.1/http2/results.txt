@@ -1,0 +1,59 @@
+"filename","configuration","rate","time"
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=1 requests=100", 1, 8.924088119
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=10 requests=100", 1, 8.896294492
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=20 requests=100", 1, 8.870815404
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=40 requests=100", 1, 8.911749765
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=100 requests=100", 1, 8.866071566
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=200 requests=100", 1, 8.882039338
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=1 requests=1000", 1, 8.887852776
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=10 requests=1000", 1, 8.835432621
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=20 requests=1000", 1, 8.852987052
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=40 requests=1000", 1, 8.865792106
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=100 requests=1000", 1, 8.893402113
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=200 requests=1000", 1, 8.886020637
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=1 requests=5000", 1, 8.902692689
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=10 requests=5000", 1, 8.917745762
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=20 requests=5000", 1, 9.065598794
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=40 requests=5000", 1, 8.981129733
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=100 requests=5000", 1, 8.911851805
+"http2/compat.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=200 requests=5000", 1, 8.870717764
+"http2/headers.js","nheaders=0 n=1000",49.35178419351683,20.262691944
+"http2/headers.js","nheaders=10 n=1000",48.182601058502094,20.754379756
+"http2/headers.js","nheaders=100 n=1000",44.302090688532104,22.572298157
+"http2/headers.js","nheaders=1000 n=1000",28.030421678788493,35.675524666
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=1 requests=100", 2, 10.073585148
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=10 requests=100", 2, 10.094268559
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=20 requests=100", 2, 10.062132634
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=40 requests=100", 2, 10.086490462
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=100 requests=100", 2, 10.114997230
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=200 requests=100", 2, 10.164748027
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=1 requests=1000", 2, 10.098224097
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=10 requests=1000", 2, 10.087945321
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=20 requests=1000", 2, 10.074776048
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=40 requests=1000", 2, 10.075550308
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=100 requests=1000", 2, 10.078609126
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=200 requests=1000", 2, 10.080234545
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=1 requests=5000", 2, 10.145828175
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=10 requests=5000", 2, 10.107137653
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=20 requests=5000", 2, 10.124102385
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=40 requests=5000", 2, 10.183149078
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=100 requests=5000", 2, 10.165670186
+"http2/respond-with-fd.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=200 requests=5000", 2, 10.144731456
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=1 requests=100", 1, 9.264565322
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=10 requests=100", 1, 9.215379404
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=20 requests=100", 1, 9.251056849
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=40 requests=100", 1, 9.219262563
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=100 requests=100", 1, 9.221194162
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=200 requests=100", 1, 9.263991610
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=1 requests=1000", 1, 9.205534056
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=10 requests=1000", 1, 9.199326164
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=20 requests=1000", 1, 9.291925119
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=40 requests=1000", 1, 9.263127311
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=100 requests=1000", 1, 9.236718582
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=200 requests=1000", 1, 9.263136072
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=1 requests=5000", 1, 9.316756991
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=10 requests=5000", 1, 9.234964923
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=20 requests=5000", 1, 9.188818715
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=40 requests=5000", 1, 9.228835650
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=100 requests=5000", 1, 9.244978132
+"http2/simple.js","duration=5 benchmarker=""test-double-http2"" clients=2 streams=200 requests=5000", 1, 9.347570335

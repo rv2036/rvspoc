@@ -1,0 +1,20 @@
+                                                                                   confidence improvement accuracy (*)    (**)    (***)
+vm/compile-script-in-isolate-cache.js n=100 type="with-dynamic-import-callback"           ***    106.87 %       ±6.96% ±16.05%  ±51.09%
+vm/compile-script-in-isolate-cache.js n=100 type="without-dynamic-import-callback"        ***     93.44 %       ±2.15%  ±4.97%  ±15.82%
+vm/context-global-proxy.js n=100000                                                        **     33.54 %       ±9.87% ±22.77%  ±72.51%
+vm/create-context.js n=100                                                                ***    144.86 %       ±5.34% ±12.32%  ±39.24%
+vm/run-in-context.js withSigintListener=0 breakOnSigint=0 n=1                                     -4.88 %      ±26.35% ±60.78% ±193.51%
+vm/run-in-context.js withSigintListener=0 breakOnSigint=1 n=1                                      5.57 %       ±9.84% ±22.70%  ±72.27%
+vm/run-in-context.js withSigintListener=1 breakOnSigint=0 n=1                                      2.03 %      ±17.91% ±41.32% ±131.54%
+vm/run-in-context.js withSigintListener=1 breakOnSigint=1 n=1                               *     11.95 %       ±6.75% ±15.57%  ±49.56%
+vm/run-in-this-context.js withSigintListener=0 breakOnSigint=0 n=1                        ***     39.45 %       ±4.17%  ±9.63%  ±30.66%
+vm/run-in-this-context.js withSigintListener=0 breakOnSigint=1 n=1                          *     16.64 %      ±15.18% ±35.02% ±111.50%
+vm/run-in-this-context.js withSigintListener=1 breakOnSigint=0 n=1                                11.38 %      ±25.12% ±57.94% ±184.48%
+vm/run-in-this-context.js withSigintListener=1 breakOnSigint=1 n=1                                 9.83 %      ±13.35% ±30.80%  ±98.07%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 12 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.60 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.12 false positives, when considering a   1% risk acceptance (**, ***),
+  0.01 false positives, when considering a 0.1% risk acceptance (***)

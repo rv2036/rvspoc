@@ -1,0 +1,109 @@
+"binary","filename","configuration","rate","time"
+"old","napi/define_properties/index.js","implem=""runFastPath"" n=5000000",614720.6519390466,8.133775861
+"old","napi/define_properties/index.js","implem=""runSlowPath"" n=5000000",396130.80936895875,12.622093212
+"new","napi/define_properties/index.js","implem=""runFastPath"" n=5000000",485864.4163419075,10.290936796
+"new","napi/define_properties/index.js","implem=""runSlowPath"" n=5000000",388029.8419869316,12.885606876
+"old","napi/define_properties/index.js","implem=""runFastPath"" n=5000000",614720.6519390466,8.133775861
+"old","napi/define_properties/index.js","implem=""runSlowPath"" n=5000000",396130.80936895875,12.622093212
+"new","napi/define_properties/index.js","implem=""runFastPath"" n=5000000",569593.7783087502,8.778185771
+"new","napi/define_properties/index.js","implem=""runSlowPath"" n=5000000",417706.4881767946,11.970127689
+"old","napi/define_properties/index.js","implem=""runFastPath"" n=5000000",614720.6519390466,8.133775861
+"old","napi/define_properties/index.js","implem=""runSlowPath"" n=5000000",396130.80936895875,12.622093212
+"new","napi/define_properties/index.js","implem=""runFastPath"" n=5000000",584854.2168674895,8.549139009
+"new","napi/define_properties/index.js","implem=""runSlowPath"" n=5000000",393003.48265294544,12.722533567
+"old","napi/ref/index.js","n=10000000",85184.46141253776,117.392301767
+"new","napi/ref/index.js","n=10000000",81404.62327909675,122.843145723
+"old","napi/ref/index.js","n=10000000",85184.46141253776,117.392301767
+"new","napi/ref/index.js","n=10000000",80620.80172418397,124.037466586
+"old","napi/ref/index.js","n=10000000",85184.46141253776,117.392301767
+"new","napi/ref/index.js","n=10000000",80083.32604085891,124.869938530
+"old","napi/string/index.js","stringType=""Latin1"" n=100000",1431746.9000209852,0.069844747
+"old","napi/string/index.js","stringType=""Utf8"" n=100000",1315920.3038660001,0.075992444
+"old","napi/string/index.js","stringType=""Utf16"" n=100000",1278662.7765141819,0.078206703
+"old","napi/string/index.js","stringType=""Latin1"" n=1000000",1126490.1308610805,0.887713059
+"old","napi/string/index.js","stringType=""Utf8"" n=1000000",1054213.7985010957,0.948574190
+"old","napi/string/index.js","stringType=""Utf16"" n=1000000",1068710.3417889995,0.935707236
+"old","napi/string/index.js","stringType=""Latin1"" n=10000000",488314.4223575038,20.478608745
+"old","napi/string/index.js","stringType=""Utf8"" n=10000000",473527.89151998365,21.118080221
+"old","napi/string/index.js","stringType=""Utf16"" n=10000000",466607.2952713413,21.431298013
+"new","napi/string/index.js","stringType=""Latin1"" n=100000",1337307.3292853308,0.074777127
+"new","napi/string/index.js","stringType=""Utf8"" n=100000",1251164.0047923084,0.079925573
+"new","napi/string/index.js","stringType=""Utf16"" n=100000",1240879.6278016302,0.080587994
+"new","napi/string/index.js","stringType=""Latin1"" n=1000000",956567.934956847,1.045404057
+"new","napi/string/index.js","stringType=""Utf8"" n=1000000",941513.2212897952,1.062119976
+"new","napi/string/index.js","stringType=""Utf16"" n=1000000",972762.8389529369,1.027999796
+"new","napi/string/index.js","stringType=""Latin1"" n=10000000",449215.7589416152,22.261017787
+"new","napi/string/index.js","stringType=""Utf8"" n=10000000",430722.297483844,23.216815239
+"new","napi/string/index.js","stringType=""Utf16"" n=10000000",410216.30498602684,24.377383050
+"old","napi/string/index.js","stringType=""Latin1"" n=100000",1431746.9000209852,0.069844747
+"old","napi/string/index.js","stringType=""Utf8"" n=100000",1315920.3038660001,0.075992444
+"old","napi/string/index.js","stringType=""Utf16"" n=100000",1278662.7765141819,0.078206703
+"old","napi/string/index.js","stringType=""Latin1"" n=1000000",1126490.1308610805,0.887713059
+"old","napi/string/index.js","stringType=""Utf8"" n=1000000",1054213.7985010957,0.948574190
+"old","napi/string/index.js","stringType=""Utf16"" n=1000000",1068710.3417889995,0.935707236
+"old","napi/string/index.js","stringType=""Latin1"" n=10000000",488314.4223575038,20.478608745
+"old","napi/string/index.js","stringType=""Utf8"" n=10000000",473527.89151998365,21.118080221
+"old","napi/string/index.js","stringType=""Utf16"" n=10000000",466607.2952713413,21.431298013
+"new","napi/string/index.js","stringType=""Latin1"" n=100000",1303227.8830401455,0.076732551
+"new","napi/string/index.js","stringType=""Utf8"" n=100000",1235233.2954861969,0.080956367
+"new","napi/string/index.js","stringType=""Utf16"" n=100000",1260355.8874481523,0.079342669
+"new","napi/string/index.js","stringType=""Latin1"" n=1000000",935152.9222188746,1.069343822
+"new","napi/string/index.js","stringType=""Utf8"" n=1000000",978559.6944664202,1.021910064
+"new","napi/string/index.js","stringType=""Utf16"" n=1000000",913614.6479339497,1.094553379
+"new","napi/string/index.js","stringType=""Latin1"" n=10000000",440421.2754473595,22.705533446
+"new","napi/string/index.js","stringType=""Utf8"" n=10000000",440114.7506048712,22.721347072
+"new","napi/string/index.js","stringType=""Utf16"" n=10000000",402878.85777111555,24.821357108
+"old","napi/string/index.js","stringType=""Latin1"" n=100000",1431746.9000209852,0.069844747
+"old","napi/string/index.js","stringType=""Utf8"" n=100000",1315920.3038660001,0.075992444
+"old","napi/string/index.js","stringType=""Utf16"" n=100000",1278662.7765141819,0.078206703
+"old","napi/string/index.js","stringType=""Latin1"" n=1000000",1126490.1308610805,0.887713059
+"old","napi/string/index.js","stringType=""Utf8"" n=1000000",1054213.7985010957,0.948574190
+"old","napi/string/index.js","stringType=""Utf16"" n=1000000",1068710.3417889995,0.935707236
+"old","napi/string/index.js","stringType=""Latin1"" n=10000000",488314.4223575038,20.478608745
+"old","napi/string/index.js","stringType=""Utf8"" n=10000000",473527.89151998365,21.118080221
+"old","napi/string/index.js","stringType=""Utf16"" n=10000000",466607.2952713413,21.431298013
+"new","napi/string/index.js","stringType=""Latin1"" n=100000",1319780.8382498247,0.075770156
+"new","napi/string/index.js","stringType=""Utf8"" n=100000",1244993.7091090376,0.080321691
+"new","napi/string/index.js","stringType=""Utf16"" n=100000",1244059.1510316425,0.080382030
+"new","napi/string/index.js","stringType=""Latin1"" n=1000000",998806.1809074951,1.001195246
+"new","napi/string/index.js","stringType=""Utf8"" n=1000000",962051.4902964542,1.039445404
+"new","napi/string/index.js","stringType=""Utf16"" n=1000000",942194.6979596989,1.061351759
+"new","napi/string/index.js","stringType=""Latin1"" n=10000000",458554.1028304788,21.807677520
+"new","napi/string/index.js","stringType=""Utf8"" n=10000000",354028.7605115514,28.246292718
+"new","napi/string/index.js","stringType=""Utf16"" n=10000000",417486.54668202344,23.952867654
+"old","napi/type-tag/index.js","n=1000",491005.03329259634,0.002036639
+"old","napi/type-tag/index.js","n=10000",407932.6917585521,0.024513848
+"old","napi/type-tag/index.js","n=100000",402788.9396187237,0.248268982
+"new","napi/type-tag/index.js","n=1000",511686.4058225819,0.001954322
+"new","napi/type-tag/index.js","n=10000",431862.7098080815,0.023155507
+"new","napi/type-tag/index.js","n=100000",442908.0005275743,0.225780523
+"old","napi/type-tag/index.js","n=1000",491005.03329259634,0.002036639
+"old","napi/type-tag/index.js","n=10000",407932.6917585521,0.024513848
+"old","napi/type-tag/index.js","n=100000",402788.9396187237,0.248268982
+"new","napi/type-tag/index.js","n=1000",526560.2242725308,0.001899118
+"new","napi/type-tag/index.js","n=10000",441291.85542925785,0.022660740
+"new","napi/type-tag/index.js","n=100000",436160.12753740844,0.229273594
+"old","napi/type-tag/index.js","n=1000",491005.03329259634,0.002036639
+"old","napi/type-tag/index.js","n=10000",407932.6917585521,0.024513848
+"old","napi/type-tag/index.js","n=100000",402788.9396187237,0.248268982
+"new","napi/type-tag/index.js","n=1000",523473.3292956091,0.001910317
+"new","napi/type-tag/index.js","n=10000",410606.9127398309,0.024354193
+"new","napi/type-tag/index.js","n=100000",434840.567271436,0.229969344
+"old","napi/type-tag-check/index.js","n=100000",1604346.6242220725,0.062330670
+"old","napi/type-tag-check/index.js","n=1000000",1644997.3604454605,0.607903711
+"old","napi/type-tag-check/index.js","n=10000000",1661782.420861748,6.017634965
+"new","napi/type-tag-check/index.js","n=100000",1538294.0774016662,0.065007076
+"new","napi/type-tag-check/index.js","n=1000000",1585996.7550442952,0.630518314
+"new","napi/type-tag-check/index.js","n=10000000",1544626.2191711965,6.474058174
+"old","napi/type-tag-check/index.js","n=100000",1604346.6242220725,0.062330670
+"old","napi/type-tag-check/index.js","n=1000000",1644997.3604454605,0.607903711
+"old","napi/type-tag-check/index.js","n=10000000",1661782.420861748,6.017634965
+"new","napi/type-tag-check/index.js","n=100000",1595722.3407382932,0.062667544
+"new","napi/type-tag-check/index.js","n=1000000",1534142.158853069,0.651830076
+"new","napi/type-tag-check/index.js","n=10000000",1549839.8388071344,6.452279616
+"old","napi/type-tag-check/index.js","n=100000",1604346.6242220725,0.062330670
+"old","napi/type-tag-check/index.js","n=1000000",1644997.3604454605,0.607903711
+"old","napi/type-tag-check/index.js","n=10000000",1661782.420861748,6.017634965
+"new","napi/type-tag-check/index.js","n=100000",1544018.389382539,0.064766068
+"new","napi/type-tag-check/index.js","n=1000000",1571778.8688451943,0.636221812
+"new","napi/type-tag-check/index.js","n=10000000",1481229.2577634696,6.751149390

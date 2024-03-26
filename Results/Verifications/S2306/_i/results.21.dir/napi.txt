@@ -1,0 +1,26 @@
+                                                               confidence improvement accuracy (*)    (**)    (***)
+napi/define_properties/index.js implem="runFastPath" n=5000000               -11.05 %      ±21.54% ±49.68% ±158.17%
+napi/define_properties/index.js implem="runSlowPath" n=5000000                 0.87 %       ±9.97% ±22.99%  ±73.20%
+napi/ref/index.js n=10000000                                           **     -5.26 %       ±1.94%  ±4.47%  ±14.23%
+napi/string/index.js stringType="Latin1" n=100000                      **     -7.80 %       ±2.96%  ±6.82%  ±21.72%
+napi/string/index.js stringType="Latin1" n=1000000                      *    -14.47 %       ±7.14% ±16.48%  ±52.46%
+napi/string/index.js stringType="Latin1" n=10000000                     *     -7.97 %       ±4.61% ±10.64%  ±33.88%
+napi/string/index.js stringType="Utf16" n=100000                        *     -2.36 %       ±2.03%  ±4.68%  ±14.91%
+napi/string/index.js stringType="Utf16" n=1000000                       *    -11.78 %       ±6.88% ±15.86%  ±50.49%
+napi/string/index.js stringType="Utf16" n=10000000                     **    -12.09 %       ±3.89%  ±8.97%  ±28.56%
+napi/string/index.js stringType="Utf8" n=100000                        **     -5.48 %       ±1.52%  ±3.50%  ±11.14%
+napi/string/index.js stringType="Utf8" n=1000000                        *     -8.87 %       ±4.37% ±10.09%  ±32.12%
+napi/string/index.js stringType="Utf8" n=10000000                            -13.78 %      ±24.77% ±57.15% ±181.94%
+napi/type-tag-check/index.js n=100000                                         -2.80 %       ±4.90% ±11.30%  ±35.97%
+napi/type-tag-check/index.js n=1000000                                  *     -4.93 %       ±4.05%  ±9.33%  ±29.72%
+napi/type-tag-check/index.js n=10000000                                 *     -8.22 %       ±5.71% ±13.17%  ±41.93%
+napi/type-tag/index.js n=1000                                           *      6.02 %       ±3.97%  ±9.16%  ±29.17%
+napi/type-tag/index.js n=10000                                                 4.90 %       ±9.57% ±22.08%  ±70.29%
+napi/type-tag/index.js n=100000                                        **      8.73 %       ±2.67%  ±6.16%  ±19.60%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 18 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.90 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.18 false positives, when considering a   1% risk acceptance (**, ***),
+  0.02 false positives, when considering a 0.1% risk acceptance (***)

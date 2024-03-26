@@ -1,0 +1,48 @@
+                                                                                         confidence improvement accuracy (*)      (**)     (***)
+                                                                                                 NA       NaN %           NA        NA        NA
+net/net-c2s-cork.js dur=5 type="buf" len=1024                                                   ***   3545.10 %     ±449.03% ±1035.77% ±3297.71%
+net/net-c2s-cork.js dur=5 type="buf" len=128                                                    ***   1877.16 %      ±36.81%   ±84.91%  ±270.34%
+net/net-c2s-cork.js dur=5 type="buf" len=16                                                     ***    962.58 %      ±37.53%   ±86.57%  ±275.63%
+net/net-c2s-cork.js dur=5 type="buf" len=32                                                     ***    834.05 %      ±16.41%   ±37.85%  ±120.50%
+net/net-c2s-cork.js dur=5 type="buf" len=4                                                      ***   4771.86 %      ±99.52%  ±229.55%  ±730.85%
+net/net-c2s-cork.js dur=5 type="buf" len=512                                                    ***   2873.56 %     ±206.38%  ±476.06% ±1515.70%
+net/net-c2s-cork.js dur=5 type="buf" len=64                                                     ***   1148.60 %      ±53.23%  ±122.80%  ±390.96%
+net/net-c2s-cork.js dur=5 type="buf" len=8                                                      ***    753.51 %      ±68.69%  ±158.44%  ±504.46%
+net/net-c2s.js dur=5 type="asc" len=102400                                                      ***   3006.57 %      ±72.28%  ±166.72%  ±530.81%
+net/net-c2s.js dur=5 type="asc" len=16777216                                                    ***   1278.89 %      ±68.11%  ±157.12%  ±500.23%
+net/net-c2s.js dur=5 type="asc" len=64                                                          ***       Inf %        ±Inf%     ±Inf%     ±Inf%
+net/net-c2s.js dur=5 type="buf" len=102400                                                      ***   1698.91 %      ±49.81%  ±114.89%  ±365.79%
+net/net-c2s.js dur=5 type="buf" len=16777216                                                    ***   1099.14 %      ±46.84%  ±108.04%  ±343.99%
+net/net-c2s.js dur=5 type="buf" len=64                                                          ***       Inf %        ±Inf%     ±Inf%     ±Inf%
+net/net-c2s.js dur=5 type="utf" len=102400                                                       **   1014.30 %     ±234.72%  ±541.42% ±1723.79%
+net/net-c2s.js dur=5 type="utf" len=16777216                                                     **    649.03 %     ±137.22%  ±316.52% ±1007.76%
+net/net-c2s.js dur=5 type="utf" len=64                                                          ***       Inf %        ±Inf%     ±Inf%     ±Inf%
+net/net-is-ip-v4.js n=10000000                                                                  ***     21.63 %       ±1.38%    ±3.19%   ±10.16%
+net/net-is-ip-v6.js n=10000000                                                                  ***     29.18 %       ±2.04%    ±4.71%   ±15.00%
+net/net-s2c.js dur=5 recvbufgenfn="false" recvbuflen=0 type="asc" sendchunklen=256               NA   6621.08 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="false" recvbuflen=0 type="buf" sendchunklen=256               NA   8813.72 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="false" recvbuflen=0 type="utf" sendchunklen=256               NA   7766.95 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="false" recvbuflen=0 type="utf" sendchunklen=32768             NA    571.46 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="false" recvbuflen=1048576 type="asc" sendchunklen=256         NA    272.61 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="false" recvbuflen=1048576 type="buf" sendchunklen=256         NA    497.56 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="false" recvbuflen=1048576 type="utf" sendchunklen=256         NA    414.16 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="false" recvbuflen=65536 type="asc" sendchunklen=256           NA    472.28 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="false" recvbuflen=65536 type="buf" sendchunklen=256           NA   2198.96 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="false" recvbuflen=65536 type="utf" sendchunklen=256           NA    702.74 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="true" recvbuflen=0 type="asc" sendchunklen=256                NA   6613.82 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="true" recvbuflen=0 type="buf" sendchunklen=256                NA   8787.40 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="true" recvbuflen=0 type="utf" sendchunklen=256                NA   7433.29 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="true" recvbuflen=0 type="utf" sendchunklen=32768              NA    480.96 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="true" recvbuflen=1048576 type="asc" sendchunklen=256          NA    220.49 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="true" recvbuflen=1048576 type="buf" sendchunklen=256          NA    479.87 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="true" recvbuflen=1048576 type="utf" sendchunklen=256          NA    620.21 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="true" recvbuflen=65536 type="asc" sendchunklen=256            NA    513.57 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="true" recvbuflen=65536 type="buf" sendchunklen=256            NA   7370.55 %           NA        NA        NA
+net/net-s2c.js dur=5 recvbufgenfn="true" recvbuflen=65536 type="utf" sendchunklen=256            NA    797.65 %           NA        NA        NA
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 40 comparisons, you can thus
+expect the following amount of false-positive results:
+  2.00 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.40 false positives, when considering a   1% risk acceptance (**, ***),
+  0.04 false positives, when considering a 0.1% risk acceptance (***)

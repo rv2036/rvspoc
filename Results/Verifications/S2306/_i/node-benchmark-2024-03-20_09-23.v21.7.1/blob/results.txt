@@ -1,0 +1,14 @@
+"filename","configuration","rate","time"
+"blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=128",189.09420144786932,5.288369460
+"blob/blob.js","operation=""text"" n=1000 bytes=1024",47.94577745747092,20.856894038
+"blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=1024",48.5225260322224,20.608984770
+"blob/clone.js","n=50000",5675.892270363235,8.809187634
+"blob/creation.js","kind=""Blob"" n=50000",13760.763558481298,3.633519302
+"blob/creation.js","kind=""createBlob"" n=50000",56290.3320228944,0.888252000
+"blob/file.js","operation=""text"" n=1000 bytes=128",169.4388728970636,5.901833404
+"blob/file.js","operation=""arrayBuffer"" n=1000 bytes=128",187.7803394517139,5.325371138
+"blob/file.js","operation=""text"" n=1000 bytes=1024",47.1816138726825,21.194696788
+"blob/file.js","operation=""arrayBuffer"" n=1000 bytes=1024",48.07268835842796,20.801832270
+"blob/resolveObjectURL.js","n=50000",20515.382608465734,2.437195589
+"blob/slice.js","dataSize=5 n=50000",35372.77313633817,1.413516543
+"blob/slice.js","dataSize=30720 n=50000",35872.97489218489,1.393806902

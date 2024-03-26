@@ -1,0 +1,56 @@
+                                                                                                                confidence improvement accuracy (*)       (**)       (***)
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=50 chunks=1 len=1024 type="buffer"           ***  97600.00 %    ±5216.69% ±12033.23%  ±38311.82%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=50 chunks=1 len=1024 type="bytes"            *** 102633.33 %   ±11662.45% ±26901.53%  ±85650.02%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=50 chunks=1 len=102400 type="buffer"         ***  45566.67 %    ±1368.16%  ±3155.90%  ±10047.86%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=50 chunks=1 len=102400 type="bytes"          ***  45200.00 %     ±430.27%   ±992.48%   ±3159.91%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=50 chunks=1 len=4 type="buffer"              *** 104550.00 %    ±8338.53% ±19234.32%  ±61238.88%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=50 chunks=1 len=4 type="bytes"               *** 104633.33 %    ±2159.68%  ±4981.68%  ±15860.85%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=50 chunks=4 len=1024 type="buffer"           *** 100466.67 %    ±5589.77% ±12893.81%  ±41051.75%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=50 chunks=4 len=1024 type="bytes"            ***  99450.00 %    ±5733.73% ±13225.89%  ±42109.03%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=50 chunks=4 len=102400 type="buffer"         ***  45433.33 %     ±379.46%   ±875.29%   ±2786.77%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=50 chunks=4 len=102400 type="bytes"          ***  44866.67 %    ±1762.40%  ±4065.28%  ±12943.19%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=50 chunks=4 len=4 type="buffer"              *** 103766.67 %   ±10481.57% ±24177.63%  ±76977.56%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=50 chunks=4 len=4 type="bytes"               *** 108316.67 %   ±12124.87% ±27968.19%  ±89046.06%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=500 chunks=1 len=1024 type="buffer"          *** 101150.00 %    ±5873.29% ±13547.80%  ±43133.96%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=500 chunks=1 len=1024 type="bytes"           ***  99650.00 %    ±6184.21% ±14264.98%  ±45417.34%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=500 chunks=1 len=102400 type="buffer"        ***  45400.00 %     ±657.24%  ±1516.04%   ±4826.84%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=500 chunks=1 len=102400 type="bytes"         ***  44333.33 %    ±2226.50%  ±5135.83%  ±16351.64%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=500 chunks=1 len=4 type="buffer"             *** 107033.33 %    ±2516.02%  ±5803.65%  ±18477.87%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=500 chunks=1 len=4 type="bytes"              *** 109266.67 %    ±6287.29% ±14502.77%  ±46174.40%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=500 chunks=4 len=1024 type="buffer"          ***  97916.67 %    ±3145.48%  ±7255.63%  ±23100.71%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=500 chunks=4 len=1024 type="bytes"           *** 102100.00 %   ±12859.46% ±29662.66%  ±94441.01%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=500 chunks=4 len=102400 type="buffer"        ***  45100.00 %     ±430.27%   ±992.48%   ±3159.91%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=500 chunks=4 len=102400 type="bytes"         ***  45700.00 %    ±1138.37%  ±2625.87%   ±8360.32%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=500 chunks=4 len=4 type="buffer"             *** 102783.33 %    ±2833.26%  ±6535.43%  ±20807.71%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=0 c=500 chunks=4 len=4 type="bytes"              *** 105116.67 %    ±9124.21% ±21046.62%  ±67008.96%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=50 chunks=1 len=1024 type="buffer"           *** 102850.00 %   ±10063.06% ±23212.25%  ±73903.97%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=50 chunks=1 len=1024 type="bytes"            ***  99266.67 %    ±7303.25% ±16846.27%  ±53635.72%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=50 chunks=1 len=102400 type="buffer"         ***  45333.33 %    ±1797.07%  ±4145.26%  ±13197.83%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=50 chunks=1 len=102400 type="bytes"          ***  44066.67 %     ±143.42%   ±330.83%   ±1053.30%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=50 chunks=1 len=4 type="buffer"              *** 108950.00 %    ±1223.30%  ±2821.75%   ±8983.99%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=50 chunks=1 len=4 type="bytes"               *** 102816.67 %    ±9648.51% ±22256.03%  ±70859.51%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=50 chunks=4 len=1024 type="buffer"           *** 188366.67 %   ±13661.25% ±31512.14% ±100329.42%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=50 chunks=4 len=1024 type="bytes"            *** 187566.67 %   ±17096.09% ±39435.21% ±125555.17%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=50 chunks=4 len=102400 type="buffer"         ***  44800.00 %     ±248.41%   ±573.01%   ±1824.37%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=50 chunks=4 len=102400 type="bytes"          ***  44333.33 %     ±517.11%  ±1192.82%   ±3797.73%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=50 chunks=4 len=4 type="buffer"              *** 199500.00 %   ±10433.38% ±24066.47%  ±76623.64%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=50 chunks=4 len=4 type="bytes"               *** 199000.00 %   ±19891.72% ±45883.84% ±146086.55%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=500 chunks=1 len=1024 type="buffer"          *** 102100.00 %    ±5340.90% ±12319.74%  ±39224.00%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=500 chunks=1 len=1024 type="bytes"           *** 100600.00 %    ±6269.68% ±14462.15%  ±46045.07%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=500 chunks=1 len=102400 type="buffer"        ***  45066.67 %    ±2007.90%  ±4631.59%  ±14746.23%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=500 chunks=1 len=102400 type="bytes"         ***  44266.67 %     ±517.11%  ±1192.82%   ±3797.73%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=500 chunks=1 len=4 type="buffer"             *** 104316.67 %   ±11045.57% ±25478.60%  ±81119.63%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=500 chunks=1 len=4 type="bytes"              *** 105650.00 %    ±3789.84%  ±8741.94%  ±27832.89%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=500 chunks=4 len=1024 type="buffer"          *** 192466.67 %   ±16801.17% ±38754.93% ±123389.26%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=500 chunks=4 len=1024 type="bytes"           *** 196300.00 %   ±15539.27% ±35844.12% ±114121.74%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=500 chunks=4 len=102400 type="buffer"        ***  45333.33 %     ±379.46%   ±875.29%   ±2786.77%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=500 chunks=4 len=102400 type="bytes"         ***  43966.67 %    ±1744.80%  ±4024.70%  ±12813.97%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=500 chunks=4 len=4 type="buffer"             *** 210800.00 %   ±13757.28% ±31733.64% ±101034.65%
+https/simple.js duration=5 benchmarker="test-double-https" chunkedEnc=1 c=500 chunks=4 len=4 type="bytes"               ** 202066.67 %   ±33704.11% ±77744.61% ±247525.93%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 48 comparisons, you can thus
+expect the following amount of false-positive results:
+  2.40 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.48 false positives, when considering a   1% risk acceptance (**, ***),
+  0.05 false positives, when considering a 0.1% risk acceptance (***)

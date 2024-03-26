@@ -1,0 +1,124 @@
+"filename","configuration","rate","time"
+"napi/define_properties/index.js","implem=""runFastPath"" n=5000000",569593.7783087502,8.778185771
+"napi/define_properties/index.js","implem=""runSlowPath"" n=5000000",417706.4881767946,11.970127689
+"napi/function_args/index.js","n=1 engine=""v8"" type=""String""",2466.69955599408,0.000405400
+"napi/function_args/index.js","n=10 engine=""v8"" type=""String""",32158.476974530487,0.000310960
+"napi/function_args/index.js","n=100 engine=""v8"" type=""String""",73334.26712300137,0.001363619
+"napi/function_args/index.js","n=1000 engine=""v8"" type=""String""",393970.9832491418,0.002538258
+"napi/function_args/index.js","n=10000 engine=""v8"" type=""String""",658168.9594750234,0.015193667
+"napi/function_args/index.js","n=100000 engine=""v8"" type=""String""",858115.5973699649,0.116534416
+"napi/function_args/index.js","n=1 engine=""napi"" type=""String""",3838.476892369108,0.000260520
+"napi/function_args/index.js","n=10 engine=""napi"" type=""String""",36218.761318362915,0.000276100
+"napi/function_args/index.js","n=100 engine=""napi"" type=""String""",73069.6104951343,0.001368558
+"napi/function_args/index.js","n=1000 engine=""napi"" type=""String""",372182.0699799059,0.002686857
+"napi/function_args/index.js","n=10000 engine=""napi"" type=""String""",621503.8466426828,0.016090005
+"napi/function_args/index.js","n=100000 engine=""napi"" type=""String""",808669.5260304615,0.123659909
+"napi/function_args/index.js","n=1 engine=""v8"" type=""Number""",4132.572939912389,0.000241980
+"napi/function_args/index.js","n=10 engine=""v8"" type=""Number""",40060.892556686165,0.000249620
+"napi/function_args/index.js","n=100 engine=""v8"" type=""Number""",82259.91005701435,0.001215659
+"napi/function_args/index.js","n=1000 engine=""v8"" type=""Number""",603879.6854269942,0.001655959
+"napi/function_args/index.js","n=10000 engine=""v8"" type=""Number""",1347379.495093787,0.007421814
+"napi/function_args/index.js","n=100000 engine=""v8"" type=""Number""",2717215.054556108,0.036802387
+"napi/function_args/index.js","n=1 engine=""napi"" type=""Number""",3725.2272388615706,0.000268440
+"napi/function_args/index.js","n=10 engine=""napi"" type=""Number""",34884.53219842322,0.000286660
+"napi/function_args/index.js","n=100 engine=""napi"" type=""Number""",77989.79737470744,0.001282219
+"napi/function_args/index.js","n=1000 engine=""napi"" type=""Number""",535624.9511242232,0.001866978
+"napi/function_args/index.js","n=10000 engine=""napi"" type=""Number""",1181470.0133458853,0.008464032
+"napi/function_args/index.js","n=100000 engine=""napi"" type=""Number""",2095279.174682943,0.047726337
+"napi/function_args/index.js","n=1 engine=""v8"" type=""Object""",3252.6777669716594,0.000307439
+"napi/function_args/index.js","n=10 engine=""v8"" type=""Object""",26060.73715401114,0.000383719
+"napi/function_args/index.js","n=100 engine=""v8"" type=""Object""",54576.8709770024,0.001832278
+"napi/function_args/index.js","n=1000 engine=""v8"" type=""Object""",126666.08653599033,0.007894773
+"napi/function_args/index.js","n=10000 engine=""v8"" type=""Object""",133048.196855664,0.075160733
+"napi/function_args/index.js","n=100000 engine=""v8"" type=""Object""",176666.2496400955,0.566039072
+"napi/function_args/index.js","n=1 engine=""napi"" type=""Object""",3948.8232506713,0.000253240
+"napi/function_args/index.js","n=10 engine=""napi"" type=""Object""",32808.50658958855,0.000304799
+"napi/function_args/index.js","n=100 engine=""napi"" type=""Object""",57492.47710937024,0.001739358
+"napi/function_args/index.js","n=1000 engine=""napi"" type=""Object""",166642.92005055945,0.006000855
+"napi/function_args/index.js","n=10000 engine=""napi"" type=""Object""",184164.66737503762,0.054299232
+"napi/function_args/index.js","n=100000 engine=""napi"" type=""Object""",232174.73050445854,0.430710094
+"napi/function_args/index.js","n=1 engine=""v8"" type=""Array""",3389.1526779389883,0.000295059
+"napi/function_args/index.js","n=10 engine=""v8"" type=""Array""",22493.190186670985,0.000444579
+"napi/function_args/index.js","n=100 engine=""v8"" type=""Array""",32197.025188054777,0.003105877
+"napi/function_args/index.js","n=1000 engine=""v8"" type=""Array""",47305.34336086772,0.021139261
+"napi/function_args/index.js","n=10000 engine=""v8"" type=""Array""",60386.04642475626,0.165601171
+"napi/function_args/index.js","n=100000 engine=""v8"" type=""Array""",66041.66930957172,1.514195523
+"napi/function_args/index.js","n=1 engine=""napi"" type=""Array""",3201.434242540658,0.000312360
+"napi/function_args/index.js","n=10 engine=""napi"" type=""Array""",16177.564952923287,0.000618140
+"napi/function_args/index.js","n=100 engine=""napi"" type=""Array""",22316.56674795848,0.004480976
+"napi/function_args/index.js","n=1000 engine=""napi"" type=""Array""",29478.72476215828,0.033922770
+"napi/function_args/index.js","n=10000 engine=""napi"" type=""Array""",31717.96718520648,0.315278717
+"napi/function_args/index.js","n=100000 engine=""napi"" type=""Array""",37075.558239951206,2.697194722
+"napi/function_args/index.js","n=1 engine=""v8"" type=""Typedarray""",3450.417500517563,0.000289820
+"napi/function_args/index.js","n=10 engine=""v8"" type=""Typedarray""",30534.35114503817,0.000327500
+"napi/function_args/index.js","n=100 engine=""v8"" type=""Typedarray""",224054.49005198065,0.000446320
+"napi/function_args/index.js","n=1000 engine=""v8"" type=""Typedarray""",701056.2814993351,0.001426419
+"napi/function_args/index.js","n=10000 engine=""v8"" type=""Typedarray""",816119.402838904,0.012253109
+"napi/function_args/index.js","n=100000 engine=""v8"" type=""Typedarray""",1086479.9231493636,0.092040357
+"napi/function_args/index.js","n=1 engine=""napi"" type=""Typedarray""",3071.4417347502917,0.000325580
+"napi/function_args/index.js","n=10 engine=""napi"" type=""Typedarray""",29344.445096543226,0.000340780
+"napi/function_args/index.js","n=100 engine=""napi"" type=""Typedarray""",201939.0184552069,0.000495199
+"napi/function_args/index.js","n=1000 engine=""napi"" type=""Typedarray""",687852.9975601854,0.001453799
+"napi/function_args/index.js","n=10000 engine=""napi"" type=""Typedarray""",851135.6149271824,0.011749009
+"napi/function_args/index.js","n=100000 engine=""napi"" type=""Typedarray""",1219946.2133034233,0.081970827
+"napi/function_args/index.js","n=1 engine=""v8"" type=""10Numbers""",1095.9636753799432,0.000912439
+"napi/function_args/index.js","n=10 engine=""v8"" type=""10Numbers""",33656.435110393104,0.000297120
+"napi/function_args/index.js","n=100 engine=""v8"" type=""10Numbers""",79139.0306576691,0.001263599
+"napi/function_args/index.js","n=1000 engine=""v8"" type=""10Numbers""",496697.4585977833,0.002013298
+"napi/function_args/index.js","n=10000 engine=""v8"" type=""10Numbers""",989647.201658728,0.010104611
+"napi/function_args/index.js","n=100000 engine=""v8"" type=""10Numbers""",1586789.2055109886,0.063020343
+"napi/function_args/index.js","n=1 engine=""napi"" type=""10Numbers""",1923.450516350291,0.000519899
+"napi/function_args/index.js","n=10 engine=""napi"" type=""10Numbers""",35837.15596330276,0.000279040
+"napi/function_args/index.js","n=100 engine=""napi"" type=""10Numbers""",75185.76522944063,0.001330039
+"napi/function_args/index.js","n=1000 engine=""napi"" type=""10Numbers""",383265.4059278894,0.002609158
+"napi/function_args/index.js","n=10000 engine=""napi"" type=""10Numbers""",636421.9441850318,0.015712846
+"napi/function_args/index.js","n=100000 engine=""napi"" type=""10Numbers""",827033.7415128041,0.120914051
+"napi/function_args/index.js","n=1 engine=""v8"" type=""100Numbers""",3233.1070158422244,0.000309300
+"napi/function_args/index.js","n=10 engine=""v8"" type=""100Numbers""",24928.95248541656,0.000401140
+"napi/function_args/index.js","n=100 engine=""v8"" type=""100Numbers""",139985.6374735952,0.000714359
+"napi/function_args/index.js","n=1000 engine=""v8"" type=""100Numbers""",265129.90304729703,0.003771736
+"napi/function_args/index.js","n=10000 engine=""v8"" type=""100Numbers""",282746.6735702095,0.035367348
+"napi/function_args/index.js","n=100000 engine=""v8"" type=""100Numbers""",309798.52683427284,0.322790431
+"napi/function_args/index.js","n=1 engine=""napi"" type=""100Numbers""",3173.4043329662763,0.000315119
+"napi/function_args/index.js","n=10 engine=""napi"" type=""100Numbers""",28202.380280895708,0.000354580
+"napi/function_args/index.js","n=100 engine=""napi"" type=""100Numbers""",90509.2867053624,0.001104859
+"napi/function_args/index.js","n=1000 engine=""napi"" type=""100Numbers""",124986.36086337078,0.008000873
+"napi/function_args/index.js","n=10000 engine=""napi"" type=""100Numbers""",127485.50521677062,0.078440290
+"napi/function_args/index.js","n=100000 engine=""napi"" type=""100Numbers""",130640.43098152766,0.765459814
+"napi/function_args/index.js","n=1 engine=""v8"" type=""1000Numbers""",2894.1884695531376,0.000345520
+"napi/function_args/index.js","n=10 engine=""v8"" type=""1000Numbers""",14550.13175144301,0.000687279
+"napi/function_args/index.js","n=100 engine=""v8"" type=""1000Numbers""",28965.55040194046,0.003452377
+"napi/function_args/index.js","n=1000 engine=""v8"" type=""1000Numbers""",31547.48190996406,0.031698251
+"napi/function_args/index.js","n=10000 engine=""v8"" type=""1000Numbers""",33475.09679759415,0.298729532
+"napi/function_args/index.js","n=100000 engine=""v8"" type=""1000Numbers""",33785.54101999399,2.959846046
+"napi/function_args/index.js","n=1 engine=""napi"" type=""1000Numbers""",2676.3729793384005,0.000373640
+"napi/function_args/index.js","n=10 engine=""napi"" type=""1000Numbers""",10072.32939740275,0.000992819
+"napi/function_args/index.js","n=100 engine=""napi"" type=""1000Numbers""",13198.265800666855,0.007576753
+"napi/function_args/index.js","n=1000 engine=""napi"" type=""1000Numbers""",14043.248374114833,0.071208596
+"napi/function_args/index.js","n=10000 engine=""napi"" type=""1000Numbers""",14216.550564126233,0.703405510
+"napi/function_args/index.js","n=100000 engine=""napi"" type=""1000Numbers""",14305.896893818317,6.990124474
+"napi/function_call/index.js","n=1000000 type=""js""",70236818.18223321,0.014237547
+"napi/function_call/index.js","n=10000000 type=""js""",124034256.87256452,0.080622888
+"napi/function_call/index.js","n=50000000 type=""js""",134980860.03800067,0.370422888
+"napi/function_call/index.js","n=1000000 type=""cxx""",19436144.23904716,0.051450534
+"napi/function_call/index.js","n=10000000 type=""cxx""",23238030.15921718,0.430329074
+"napi/function_call/index.js","n=50000000 type=""cxx""",23381330.776994456,2.138458263
+"napi/function_call/index.js","n=1000000 type=""napi""",8563714.744203338,0.116771755
+"napi/function_call/index.js","n=10000000 type=""napi""",9396357.103387477,1.064242226
+"napi/function_call/index.js","n=50000000 type=""napi""",9414630.086872377,5.310883119
+"napi/ref/index.js","n=10000000",80620.80172418397,124.037466586
+"napi/string/index.js","stringType=""Latin1"" n=100000",1303227.8830401455,0.076732551
+"napi/string/index.js","stringType=""Utf8"" n=100000",1235233.2954861969,0.080956367
+"napi/string/index.js","stringType=""Utf16"" n=100000",1260355.8874481523,0.079342669
+"napi/string/index.js","stringType=""Latin1"" n=1000000",935152.9222188746,1.069343822
+"napi/string/index.js","stringType=""Utf8"" n=1000000",978559.6944664202,1.021910064
+"napi/string/index.js","stringType=""Utf16"" n=1000000",913614.6479339497,1.094553379
+"napi/string/index.js","stringType=""Latin1"" n=10000000",440421.2754473595,22.705533446
+"napi/string/index.js","stringType=""Utf8"" n=10000000",440114.7506048712,22.721347072
+"napi/string/index.js","stringType=""Utf16"" n=10000000",402878.85777111555,24.821357108
+"napi/type-tag/index.js","n=1000",526560.2242725308,0.001899118
+"napi/type-tag/index.js","n=10000",441291.85542925785,0.022660740
+"napi/type-tag/index.js","n=100000",436160.12753740844,0.229273594
+"napi/type-tag-check/index.js","n=100000",1595722.3407382932,0.062667544
+"napi/type-tag-check/index.js","n=1000000",1534142.158853069,0.651830076
+"napi/type-tag-check/index.js","n=10000000",1549839.8388071344,6.452279616

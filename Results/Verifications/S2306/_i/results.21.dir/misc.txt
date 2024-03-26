@@ -1,0 +1,77 @@
+                                                                                     confidence improvement accuracy (*)      (**)     (***)
+misc/arguments.js n=1000000 method="argumentsAndApply"                                      ***    104.04 %       ±6.56%   ±15.12%   ±48.15%
+misc/arguments.js n=1000000 method="predefined"                                              **    101.85 %      ±17.70%   ±40.83%  ±129.99%
+misc/arguments.js n=1000000 method="restAndApply"                                            **    105.23 %      ±19.13%   ±44.13%  ±140.51%
+misc/arguments.js n=1000000 method="restAndSpread"                                           **     95.80 %      ±13.84%   ±31.93%  ±101.67%
+misc/freelist.js n=100000                                                                   ***     26.98 %       ±0.58%    ±1.33%    ±4.23%
+misc/getstringwidth.js n=100000 type="ascii"                                                ***     54.47 %       ±2.93%    ±6.77%   ±21.55%
+misc/getstringwidth.js n=100000 type="emojiseq"                                             ***     31.16 %       ±1.14%    ±2.63%    ±8.37%
+misc/getstringwidth.js n=100000 type="fullwidth"                                            ***     50.39 %       ±2.11%    ±4.87%   ±15.51%
+misc/getstringwidth.js n=100000 type="mixed"                                                 **      4.59 %       ±0.79%    ±1.82%    ±5.80%
+misc/object-property-bench.js n=1000000000 method="property"                                ***      5.11 %       ±0.60%    ±1.37%    ±4.37%
+misc/object-property-bench.js n=1000000000 method="string"                                   **      3.80 %       ±0.61%    ±1.42%    ±4.52%
+misc/object-property-bench.js n=1000000000 method="symbol"                                  ***    -12.05 %       ±0.52%    ±1.20%    ±3.83%
+misc/object-property-bench.js n=1000000000 method="variable"                                ***    -11.50 %       ±0.15%    ±0.34%    ±1.09%
+misc/print.js code="\\"string\\' dur=1                                                      ***   1428.98 %      ±12.16%   ±28.05%   ±89.31%
+misc/print.js code="1" dur=1                                                                ***   1385.38 %      ±41.56%   ±95.88%  ±305.25%
+misc/print.js code="process.versions" dur=1                                                 ***   1878.69 %      ±29.82%   ±68.78%  ±219.00%
+misc/print.js code="process" dur=1                                                          ***   3459.93 %     ±119.52%  ±275.70%  ±877.78%
+misc/punycode.js val="belgië.icom.museum" n=1024 method="icu"                                **    -15.13 %       ±3.98%    ±9.19%   ±29.26%
+misc/punycode.js val="belgië.icom.museum" n=1024 method="punycode"                          ***   4702.01 %     ±173.96%  ±401.27% ±1277.59%
+misc/punycode.js val="českárepublika.icom.museum" n=1024 method="icu"                        **     -9.44 %       ±2.05%    ±4.72%   ±15.03%
+misc/punycode.js val="českárepublika.icom.museum" n=1024 method="punycode"                  ***    904.37 %      ±50.42%  ±116.30%  ±370.29%
+misc/punycode.js val="éire.icom.museum" n=1024 method="icu"                                 ***    -15.99 %       ±1.22%    ±2.80%    ±8.93%
+misc/punycode.js val="éire.icom.museum" n=1024 method="punycode"                            ***   4812.21 %     ±304.49%  ±702.37% ±2236.22%
+misc/punycode.js val="ísland.icom.museum" n=1024 method="icu"                                **    -16.67 %       ±6.23%   ±14.37%   ±45.77%
+misc/punycode.js val="ísland.icom.museum" n=1024 method="punycode"                          ***   4708.89 %     ±468.59% ±1080.88% ±3441.34%
+misc/punycode.js val="magyarország.icom.museum" n=1024 method="icu"                          **    -12.63 %       ±2.21%    ±5.09%   ±16.22%
+misc/punycode.js val="magyarország.icom.museum" n=1024 method="punycode"                    ***   2378.52 %      ±46.48%  ±107.20%  ±341.32%
+misc/punycode.js val="österreich.icom.museum" n=1024 method="icu"                             *    -15.46 %      ±10.28%   ±23.71%   ±75.48%
+misc/punycode.js val="österreich.icom.museum" n=1024 method="punycode"                      ***   2921.90 %      ±68.42%  ±157.82%  ±502.47%
+misc/punycode.js val="ελλάδα.icom.museum" n=1024 method="icu"                                **    -11.08 %       ±3.37%    ±7.77%   ±24.74%
+misc/punycode.js val="ελλάδα.icom.museum" n=1024 method="punycode"                          ***   1433.46 %     ±169.51%  ±391.00% ±1244.89%
+misc/punycode.js val="κυπρος.icom.museum" n=1024 method="icu"                                **    -10.18 %       ±3.28%    ±7.57%   ±24.09%
+misc/punycode.js val="κυπρος.icom.museum" n=1024 method="punycode"                          ***   1523.86 %      ±29.50%   ±68.05%  ±216.67%
+misc/punycode.js val="беларусь.icom.museum" n=1024 method="icu"                              **     -7.71 %       ±2.92%    ±6.73%   ±21.42%
+misc/punycode.js val="беларусь.icom.museum" n=1024 method="punycode"                        ***   1457.03 %      ±12.52%   ±28.87%   ±91.93%
+misc/punycode.js val="българия.icom.museum" n=1024 method="icu"                             ***     -9.03 %       ±0.85%    ±1.96%    ±6.24%
+misc/punycode.js val="българия.icom.museum" n=1024 method="punycode"                        ***   1419.61 %      ±19.28%   ±44.48%  ±141.61%
+misc/punycode.js val="איקו״ם.ישראל.museum" n=1024 method="icu"                               **     -7.06 %       ±1.96%    ±4.53%   ±14.42%
+misc/punycode.js val="איקו״ם.ישראל.museum" n=1024 method="punycode"                         ***   1211.85 %      ±55.01%  ±126.89%  ±403.99%
+misc/punycode.js val="افغانستا.icom.museum" n=1024 method="icu"                               *    -11.11 %       ±7.53%   ±17.38%   ±55.33%
+misc/punycode.js val="افغانستا.icom.museum" n=1024 method="punycode"                        ***   1407.16 %      ±54.20%  ±125.02%  ±398.04%
+misc/punycode.js val="الأردن.icom.museum" n=1024 method="icu"                                **    -10.88 %       ±2.04%    ±4.71%   ±14.99%
+misc/punycode.js val="الأردن.icom.museum" n=1024 method="punycode"                          ***   1676.36 %      ±63.97%  ±147.56%  ±469.80%
+misc/punycode.js val="الجزائر.icom.museum" n=1024 method="icu"                              ***     -8.46 %       ±0.98%    ±2.25%    ±7.16%
+misc/punycode.js val="الجزائر.icom.museum" n=1024 method="punycode"                         ***   1793.57 %      ±70.80%  ±163.31%  ±519.94%
+misc/punycode.js val="القمر.icom.museum" n=1024 method="icu"                                 **    -13.77 %       ±3.59%    ±8.27%   ±26.34%
+misc/punycode.js val="القمر.icom.museum" n=1024 method="punycode"                           ***   1519.96 %      ±58.55%  ±135.07%  ±430.03%
+misc/punycode.js val="ايران.icom.museum" n=1024 method="icu"                                 **    -11.58 %       ±2.67%    ±6.17%   ±19.63%
+misc/punycode.js val="ايران.icom.museum" n=1024 method="punycode"                           ***    925.43 %      ±70.89%  ±163.51%  ±520.60%
+misc/punycode.js val="تشادر.icom.museum" n=1024 method="icu"                                 **    -12.06 %       ±3.08%    ±7.11%   ±22.65%
+misc/punycode.js val="تشادر.icom.museum" n=1024 method="punycode"                           ***   1490.52 %      ±40.07%   ±92.43%  ±294.28%
+misc/punycode.js val="مصر.icom.museum" n=1024 method="icu"                                    *    -11.76 %       ±6.14%   ±14.17%   ±45.11%
+misc/punycode.js val="مصر.icom.museum" n=1024 method="punycode"                             ***    998.77 %      ±34.99%   ±80.70%  ±256.95%
+misc/punycode.js val="भारत.icom.museum" n=1024 method="icu"                                   *    -19.79 %       ±8.62%   ±19.89%   ±63.34%
+misc/punycode.js val="भारत.icom.museum" n=1024 method="punycode"                            ***   1914.88 %      ±56.10%  ±129.40%  ±411.97%
+misc/punycode.js val="বাংলাদেশ.icom.museum" n=1024 method="icu"                             ***    -12.33 %       ±1.07%    ±2.46%    ±7.84%
+misc/punycode.js val="বাংলাদেশ.icom.museum" n=1024 method="punycode"                        ***   1404.53 %      ±59.66%  ±137.62%  ±438.17%
+misc/punycode.js val="中国.icom.museum" n=1024 method="icu"                                  **    -11.41 %       ±4.49%   ±10.36%   ±32.98%
+misc/punycode.js val="中国.icom.museum" n=1024 method="punycode"                            ***   1922.69 %     ±218.68%  ±504.41% ±1605.97%
+misc/punycode.js val="日本.icom.museum" n=1024 method="icu"                                  **    -14.01 %       ±4.29%    ±9.90%   ±31.53%
+misc/punycode.js val="日本.icom.museum" n=1024 method="punycode"                            ***   2035.25 %     ±150.63%  ±347.45% ±1106.22%
+misc/startup.js count=30 mode="process" script="benchmark/fixtures/require-builtins"        ***    860.34 %      ±39.20%   ±90.43%  ±287.90%
+misc/startup.js count=30 mode="process" script="test/fixtures/semicolon"                    ***    574.99 %      ±27.06%   ±62.42%  ±198.72%
+misc/startup.js count=30 mode="worker" script="benchmark/fixtures/require-builtins"         ***   1231.73 %      ±30.94%   ±71.37%  ±227.23%
+misc/startup.js count=30 mode="worker" script="test/fixtures/semicolon"                     ***   1210.89 %      ±39.75%   ±91.70%  ±291.96%
+misc/trace.js method="isTraceCategoryEnabled" n=100000                                      ***    155.26 %       ±2.83%    ±6.52%   ±20.76%
+misc/trace.js method="trace" n=100000                                                        **     24.72 %       ±4.78%   ±11.02%   ±35.10%
+misc/util-extend-vs-object-assign.js n=100000 type="assign"                                         -0.73 %       ±3.80%    ±8.77%   ±27.93%
+misc/util-extend-vs-object-assign.js n=100000 type="extend"                                  **      5.13 %       ±0.81%    ±1.88%    ±5.98%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 69 comparisons, you can thus
+expect the following amount of false-positive results:
+  3.45 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.69 false positives, when considering a   1% risk acceptance (**, ***),
+  0.07 false positives, when considering a 0.1% risk acceptance (***)

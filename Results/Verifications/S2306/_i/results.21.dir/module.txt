@@ -1,0 +1,40 @@
+                                                                                  confidence improvement accuracy (*)     (**)     (***)
+module/module-loader-circular.js n=10000                                                 ***     35.52 %       ±2.38%   ±5.50%   ±17.51%
+module/module-loader-deep.js cache="false" files=1000 ext='                               **    335.93 %      ±46.51% ±107.29%  ±341.58%
+module/module-loader-deep.js cache="false" files=1000 ext=".js"                          ***    314.30 %      ±16.10%  ±37.14%  ±118.26%
+module/module-loader-deep.js cache="true" files=1000 ext='                                        5.72 %       ±8.52%  ±19.64%   ±62.54%
+module/module-loader-deep.js cache="true" files=1000 ext=".js"                             *      9.76 %       ±9.25%  ±21.33%   ±67.92%
+module/module-loader.js cache="false" n=1 files=500 dir="abs" name='                     ***    511.34 %      ±66.67% ±153.78%  ±489.62%
+module/module-loader.js cache="false" n=1 files=500 dir="abs" name="/"                   ***    546.58 %      ±38.56%  ±88.95%  ±283.19%
+module/module-loader.js cache="false" n=1 files=500 dir="abs" name="/index.js"            **    526.19 %      ±75.32% ±173.75%  ±553.19%
+module/module-loader.js cache="false" n=1 files=500 dir="rel" name='                     ***    553.84 %      ±58.91% ±135.89%  ±432.65%
+module/module-loader.js cache="false" n=1 files=500 dir="rel" name="/"                   ***    628.52 %      ±30.20%  ±69.67%  ±221.82%
+module/module-loader.js cache="false" n=1 files=500 dir="rel" name="/index.js"           ***    640.36 %      ±20.51%  ±47.31%  ±150.62%
+module/module-loader.js cache="false" n=1000 files=500 dir="abs" name='                  ***    269.44 %       ±6.16%  ±14.20%   ±45.22%
+module/module-loader.js cache="false" n=1000 files=500 dir="abs" name="/"                ***    291.29 %      ±22.08%  ±50.93%  ±162.14%
+module/module-loader.js cache="false" n=1000 files=500 dir="abs" name="/index.js"        ***    264.28 %       ±4.62%  ±10.66%   ±33.93%
+module/module-loader.js cache="false" n=1000 files=500 dir="rel" name='                  ***    299.78 %      ±14.44%  ±33.31%  ±106.04%
+module/module-loader.js cache="false" n=1000 files=500 dir="rel" name="/"                ***    328.14 %       ±9.16%  ±21.12%   ±67.24%
+module/module-loader.js cache="false" n=1000 files=500 dir="rel" name="/index.js"        ***    300.84 %       ±3.49%   ±8.06%   ±25.66%
+module/module-loader.js cache="true" n=1 files=500 dir="abs" name='                      ***    543.05 %      ±61.31% ±141.41%  ±450.23%
+module/module-loader.js cache="true" n=1 files=500 dir="abs" name="/"                     **    466.19 %      ±69.53% ±160.39%  ±510.64%
+module/module-loader.js cache="true" n=1 files=500 dir="abs" name="/index.js"              *    519.75 %     ±273.43% ±630.72% ±2008.12%
+module/module-loader.js cache="true" n=1 files=500 dir="rel" name='                      ***    468.04 %      ±28.20%  ±65.05%  ±207.10%
+module/module-loader.js cache="true" n=1 files=500 dir="rel" name="/"                     **    440.60 %     ±121.61% ±280.51%  ±893.10%
+module/module-loader.js cache="true" n=1 files=500 dir="rel" name="/index.js"             **    752.71 %     ±222.73% ±513.76% ±1635.72%
+module/module-loader.js cache="true" n=1000 files=500 dir="abs" name='                   ***    171.26 %       ±4.68%  ±10.80%   ±34.40%
+module/module-loader.js cache="true" n=1000 files=500 dir="abs" name="/"                 ***    191.46 %       ±9.61%  ±22.16%   ±70.56%
+module/module-loader.js cache="true" n=1000 files=500 dir="abs" name="/index.js"         ***    146.40 %      ±12.54%  ±28.92%   ±92.06%
+module/module-loader.js cache="true" n=1000 files=500 dir="rel" name='                    **    126.70 %      ±18.79%  ±43.35%  ±138.02%
+module/module-loader.js cache="true" n=1000 files=500 dir="rel" name="/"                 ***    137.57 %       ±8.33%  ±19.21%   ±61.16%
+module/module-loader.js cache="true" n=1000 files=500 dir="rel" name="/index.js"         ***    172.67 %       ±2.94%   ±6.78%   ±21.59%
+module/module-require.js n=10000 type=".js"                                               **     86.54 %      ±12.25%  ±28.27%   ±89.99%
+module/module-require.js n=10000 type=".json"                                            ***    160.57 %       ±0.46%   ±1.07%    ±3.40%
+module/module-require.js n=10000 type="dir"                                               **     97.23 %      ±14.34%  ±33.09%  ±105.35%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 32 comparisons, you can thus
+expect the following amount of false-positive results:
+  1.60 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.32 false positives, when considering a   1% risk acceptance (**, ***),
+  0.03 false positives, when considering a 0.1% risk acceptance (***)

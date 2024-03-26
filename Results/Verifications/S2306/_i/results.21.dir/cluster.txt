@@ -1,0 +1,16 @@
+                                                                                                  confidence improvement accuracy (*)    (**)    (***)
+cluster/echo.js n=100000 serialization="advanced" sendsPerBroadcast=1 payload="object" workers=1                 17.00 %      ±17.08% ±39.39% ±125.41%
+cluster/echo.js n=100000 serialization="advanced" sendsPerBroadcast=1 payload="string" workers=1           *     50.29 %      ±35.51% ±81.91% ±260.78%
+cluster/echo.js n=100000 serialization="advanced" sendsPerBroadcast=10 payload="object" workers=1         **     13.42 %       ±2.88%  ±6.65%  ±21.17%
+cluster/echo.js n=100000 serialization="advanced" sendsPerBroadcast=10 payload="string" workers=1         **     15.26 %       ±2.13%  ±4.92%  ±15.66%
+cluster/echo.js n=100000 serialization="json" sendsPerBroadcast=1 payload="object" workers=1              **     41.12 %      ±10.54% ±24.32%  ±77.43%
+cluster/echo.js n=100000 serialization="json" sendsPerBroadcast=1 payload="string" workers=1              **     53.79 %      ±10.00% ±23.06%  ±73.42%
+cluster/echo.js n=100000 serialization="json" sendsPerBroadcast=10 payload="object" workers=1             **     15.64 %       ±3.67%  ±8.47%  ±26.98%
+cluster/echo.js n=100000 serialization="json" sendsPerBroadcast=10 payload="string" workers=1            ***     19.38 %       ±1.55%  ±3.57%  ±11.37%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 8 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.40 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.08 false positives, when considering a   1% risk acceptance (**, ***),
+  0.01 false positives, when considering a 0.1% risk acceptance (***)

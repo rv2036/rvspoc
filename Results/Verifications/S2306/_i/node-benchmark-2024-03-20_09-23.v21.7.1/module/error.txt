@@ -1,0 +1,72 @@
+(node:1711713) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1711713) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1711765) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1711765) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1711808) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1711808) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1711865) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1711865) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1711918) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1711918) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1711962) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1711962) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712006) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712006) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712054) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712054) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712106) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712106) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712150) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712150) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712196) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712196) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712284) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712284) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712334) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712334) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712415) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712415) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712459) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712459) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712505) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712505) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712589) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712589) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712631) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712631) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712704) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712704) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712752) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712752) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712801) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712801) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712863) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712863) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712907) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712907) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(node:1712954) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1712954) ExperimentalWarning: WASI is an experimental feature and might change at any time

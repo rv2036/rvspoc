@@ -1,0 +1,1633 @@
+"binary","filename","configuration","rate","time"
+"old","url/legacy-url-get-prop.js","e=1 type=""long""",258668.63254827404,0.001546380
+"old","url/legacy-url-get-prop.js","e=1 type=""short""",608143.035241889,0.000657740
+"old","url/legacy-url-get-prop.js","e=1 type=""idn""",554200.8423852804,0.000721760
+"old","url/legacy-url-get-prop.js","e=1 type=""auth""",503575.38523516967,0.000794320
+"old","url/legacy-url-get-prop.js","e=1 type=""file""",213709.3478071551,0.001871701
+"old","url/legacy-url-get-prop.js","e=1 type=""ws""",244645.32543944416,0.001635020
+"old","url/legacy-url-get-prop.js","e=1 type=""javascript""",600672.753483902,0.000665920
+"old","url/legacy-url-get-prop.js","e=1 type=""percent""",234469.19983282345,0.001705981
+"old","url/legacy-url-get-prop.js","e=1 type=""dot""",241120.58380115748,0.001658921
+"old","url/legacy-url-get-prop.js","e=1 type=""wpt""",674698.7951807228,0.000747000
+"new","url/legacy-url-get-prop.js","e=1 type=""long""",274043.9292418575,0.001459620
+"new","url/legacy-url-get-prop.js","e=1 type=""short""",607219.8439445001,0.000658740
+"new","url/legacy-url-get-prop.js","e=1 type=""idn""",465506.0050274648,0.000859280
+"new","url/legacy-url-get-prop.js","e=1 type=""auth""",494644.85117991344,0.000808661
+"new","url/legacy-url-get-prop.js","e=1 type=""file""",207729.5112488127,0.001925581
+"new","url/legacy-url-get-prop.js","e=1 type=""ws""",237211.20277347337,0.001686261
+"new","url/legacy-url-get-prop.js","e=1 type=""javascript""",605655.9177882657,0.000660441
+"new","url/legacy-url-get-prop.js","e=1 type=""percent""",202132.39570852712,0.001978901
+"new","url/legacy-url-get-prop.js","e=1 type=""dot""",221128.74059995546,0.001808901
+"new","url/legacy-url-get-prop.js","e=1 type=""wpt""",699922.2308632374,0.000720080
+"old","url/legacy-url-get-prop.js","e=1 type=""long""",258668.63254827404,0.001546380
+"old","url/legacy-url-get-prop.js","e=1 type=""short""",608143.035241889,0.000657740
+"old","url/legacy-url-get-prop.js","e=1 type=""idn""",554200.8423852804,0.000721760
+"old","url/legacy-url-get-prop.js","e=1 type=""auth""",503575.38523516967,0.000794320
+"old","url/legacy-url-get-prop.js","e=1 type=""file""",213709.3478071551,0.001871701
+"old","url/legacy-url-get-prop.js","e=1 type=""ws""",244645.32543944416,0.001635020
+"old","url/legacy-url-get-prop.js","e=1 type=""javascript""",600672.753483902,0.000665920
+"old","url/legacy-url-get-prop.js","e=1 type=""percent""",234469.19983282345,0.001705981
+"old","url/legacy-url-get-prop.js","e=1 type=""dot""",241120.58380115748,0.001658921
+"old","url/legacy-url-get-prop.js","e=1 type=""wpt""",674698.7951807228,0.000747000
+"new","url/legacy-url-get-prop.js","e=1 type=""long""",264023.2657301762,0.001515018
+"new","url/legacy-url-get-prop.js","e=1 type=""short""",542006.1544798841,0.000737999
+"new","url/legacy-url-get-prop.js","e=1 type=""idn""",551603.1656505677,0.000725159
+"new","url/legacy-url-get-prop.js","e=1 type=""auth""",528304.5781553981,0.000757139
+"new","url/legacy-url-get-prop.js","e=1 type=""file""",231975.90698230083,0.001724317
+"new","url/legacy-url-get-prop.js","e=1 type=""ws""",264229.0654614298,0.001513838
+"new","url/legacy-url-get-prop.js","e=1 type=""javascript""",533590.1680675632,0.000749639
+"new","url/legacy-url-get-prop.js","e=1 type=""percent""",194823.72836117202,0.002053138
+"new","url/legacy-url-get-prop.js","e=1 type=""dot""",276755.7035891064,0.001445318
+"new","url/legacy-url-get-prop.js","e=1 type=""wpt""",694751.729642327,0.000725439
+"old","url/legacy-url-get-prop.js","e=1 type=""long""",258668.63254827404,0.001546380
+"old","url/legacy-url-get-prop.js","e=1 type=""short""",608143.035241889,0.000657740
+"old","url/legacy-url-get-prop.js","e=1 type=""idn""",554200.8423852804,0.000721760
+"old","url/legacy-url-get-prop.js","e=1 type=""auth""",503575.38523516967,0.000794320
+"old","url/legacy-url-get-prop.js","e=1 type=""file""",213709.3478071551,0.001871701
+"old","url/legacy-url-get-prop.js","e=1 type=""ws""",244645.32543944416,0.001635020
+"old","url/legacy-url-get-prop.js","e=1 type=""javascript""",600672.753483902,0.000665920
+"old","url/legacy-url-get-prop.js","e=1 type=""percent""",234469.19983282345,0.001705981
+"old","url/legacy-url-get-prop.js","e=1 type=""dot""",241120.58380115748,0.001658921
+"old","url/legacy-url-get-prop.js","e=1 type=""wpt""",674698.7951807228,0.000747000
+"new","url/legacy-url-get-prop.js","e=1 type=""long""",234469.7495921692,0.001705977
+"new","url/legacy-url-get-prop.js","e=1 type=""short""",560979.9197237735,0.000713038
+"new","url/legacy-url-get-prop.js","e=1 type=""idn""",536467.7354892184,0.000745618
+"new","url/legacy-url-get-prop.js","e=1 type=""auth""",540060.3247382733,0.000740658
+"new","url/legacy-url-get-prop.js","e=1 type=""file""",227283.4457534077,0.001759917
+"new","url/legacy-url-get-prop.js","e=1 type=""ws""",261219.8837963347,0.001531277
+"new","url/legacy-url-get-prop.js","e=1 type=""javascript""",448743.40627657407,0.000891378
+"new","url/legacy-url-get-prop.js","e=1 type=""percent""",193877.72907138383,0.002063156
+"new","url/legacy-url-get-prop.js","e=1 type=""dot""",254094.5752713889,0.001574217
+"new","url/legacy-url-get-prop.js","e=1 type=""wpt""",665505.5531420709,0.000757319
+"old","url/legacy-url-parse.js","e=1 type=""long""",5537.5827922272765,0.072233683
+"old","url/legacy-url-parse.js","e=1 type=""short""",11208.597577188779,0.035686891
+"old","url/legacy-url-parse.js","e=1 type=""idn""",15187.845744189064,0.026336849
+"old","url/legacy-url-parse.js","e=1 type=""auth""",8837.584745533348,0.045261235
+"old","url/legacy-url-parse.js","e=1 type=""file""",15445.978097062449,0.025896709
+"old","url/legacy-url-parse.js","e=1 type=""ws""",8289.15301123688,0.048255835
+"old","url/legacy-url-parse.js","e=1 type=""javascript""",18463.41292402901,0.021664467
+"old","url/legacy-url-parse.js","e=1 type=""percent""",16084.974992689378,0.024867928
+"old","url/legacy-url-parse.js","e=1 type=""dot""",11105.924952656134,0.036016811
+"old","url/legacy-url-parse.js","e=1 type=""wpt""",15424.263180040538,0.032675791
+"new","url/legacy-url-parse.js","e=1 type=""long""",5280.2217650899565,0.075754394
+"new","url/legacy-url-parse.js","e=1 type=""short""",11389.821628274663,0.035119075
+"new","url/legacy-url-parse.js","e=1 type=""idn""",13364.627499598811,0.029929753
+"new","url/legacy-url-parse.js","e=1 type=""auth""",8597.258235480236,0.046526461
+"new","url/legacy-url-parse.js","e=1 type=""file""",14598.92802991262,0.027399272
+"new","url/legacy-url-parse.js","e=1 type=""ws""",8301.768969988316,0.048182502
+"new","url/legacy-url-parse.js","e=1 type=""javascript""",18653.66344659356,0.021443509
+"new","url/legacy-url-parse.js","e=1 type=""percent""",15631.843816620965,0.025588792
+"new","url/legacy-url-parse.js","e=1 type=""dot""",10534.866774494541,0.037969156
+"new","url/legacy-url-parse.js","e=1 type=""wpt""",15341.4406556396,0.032852195
+"old","url/legacy-url-parse.js","e=1 type=""long""",5537.5827922272765,0.072233683
+"old","url/legacy-url-parse.js","e=1 type=""short""",11208.597577188779,0.035686891
+"old","url/legacy-url-parse.js","e=1 type=""idn""",15187.845744189064,0.026336849
+"old","url/legacy-url-parse.js","e=1 type=""auth""",8837.584745533348,0.045261235
+"old","url/legacy-url-parse.js","e=1 type=""file""",15445.978097062449,0.025896709
+"old","url/legacy-url-parse.js","e=1 type=""ws""",8289.15301123688,0.048255835
+"old","url/legacy-url-parse.js","e=1 type=""javascript""",18463.41292402901,0.021664467
+"old","url/legacy-url-parse.js","e=1 type=""percent""",16084.974992689378,0.024867928
+"old","url/legacy-url-parse.js","e=1 type=""dot""",11105.924952656134,0.036016811
+"old","url/legacy-url-parse.js","e=1 type=""wpt""",15424.263180040538,0.032675791
+"new","url/legacy-url-parse.js","e=1 type=""long""",5448.802466280562,0.073410626
+"new","url/legacy-url-parse.js","e=1 type=""short""",11589.06474393266,0.034515296
+"new","url/legacy-url-parse.js","e=1 type=""idn""",13280.185147029246,0.030120062
+"new","url/legacy-url-parse.js","e=1 type=""auth""",8874.700609201604,0.045071943
+"new","url/legacy-url-parse.js","e=1 type=""file""",15195.0016346023,0.026324446
+"new","url/legacy-url-parse.js","e=1 type=""ws""",8257.877323369268,0.048438598
+"new","url/legacy-url-parse.js","e=1 type=""javascript""",18766.820055706492,0.021314213
+"new","url/legacy-url-parse.js","e=1 type=""percent""",15671.52054142596,0.025524007
+"new","url/legacy-url-parse.js","e=1 type=""dot""",10901.537233941512,0.036692073
+"new","url/legacy-url-parse.js","e=1 type=""wpt""",15272.00671168333,0.033001557
+"old","url/legacy-url-parse.js","e=1 type=""long""",5537.5827922272765,0.072233683
+"old","url/legacy-url-parse.js","e=1 type=""short""",11208.597577188779,0.035686891
+"old","url/legacy-url-parse.js","e=1 type=""idn""",15187.845744189064,0.026336849
+"old","url/legacy-url-parse.js","e=1 type=""auth""",8837.584745533348,0.045261235
+"old","url/legacy-url-parse.js","e=1 type=""file""",15445.978097062449,0.025896709
+"old","url/legacy-url-parse.js","e=1 type=""ws""",8289.15301123688,0.048255835
+"old","url/legacy-url-parse.js","e=1 type=""javascript""",18463.41292402901,0.021664467
+"old","url/legacy-url-parse.js","e=1 type=""percent""",16084.974992689378,0.024867928
+"old","url/legacy-url-parse.js","e=1 type=""dot""",11105.924952656134,0.036016811
+"old","url/legacy-url-parse.js","e=1 type=""wpt""",15424.263180040538,0.032675791
+"new","url/legacy-url-parse.js","e=1 type=""long""",5296.983525467506,0.075514677
+"new","url/legacy-url-parse.js","e=1 type=""short""",11111.922281437655,0.035997372
+"new","url/legacy-url-parse.js","e=1 type=""idn""",13491.924610903014,0.029647364
+"new","url/legacy-url-parse.js","e=1 type=""auth""",8704.68006253094,0.045952292
+"new","url/legacy-url-parse.js","e=1 type=""file""",14705.28332889969,0.027201108
+"new","url/legacy-url-parse.js","e=1 type=""ws""",8047.897059348714,0.049702425
+"new","url/legacy-url-parse.js","e=1 type=""javascript""",18703.475105674635,0.021386400
+"new","url/legacy-url-parse.js","e=1 type=""percent""",15721.198999251357,0.025443352
+"new","url/legacy-url-parse.js","e=1 type=""dot""",10904.432436422865,0.036682331
+"new","url/legacy-url-parse.js","e=1 type=""wpt""",15301.421146812976,0.032938117
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""noencode""",257824.06155806468,3.878613943
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""noencode""",740078.9237926228,1.351207240
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multicharsep""",236542.31319743244,4.227573437
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multicharsep""",623060.1322629681,1.604981523
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodefake""",269676.1788959152,3.708151028
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodefake""",688152.3932853303,1.453166493
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodemany""",104338.86186172628,9.584156681
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodemany""",208297.76549178216,4.800819623
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodelast""",211755.36093392322,4.722430618
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodelast""",363683.2596008257,2.749645395
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multivalue""",173425.5644846648,5.766162578
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multivalue""",620637.5603108894,1.611246344
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multivaluemany""",78849.76193999217,12.682346470
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multivaluemany""",281559.4864568502,3.551647336
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""manypairs""",48321.40849560911,20.694761000
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""manypairs""",339991.68077076256,2.941248438
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""manyblankpairs""",1858741.673708587,0.537998375
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""manyblankpairs""",1876812.7207393341,0.532818213
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""altspaces""",174923.7675486458,5.716776022
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""altspaces""",338810.6477958587,2.951501101
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""noencode""",270067.14124074625,3.702782928
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""noencode""",723520.2638809214,1.382131296
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multicharsep""",245127.12787518153,4.079515836
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multicharsep""",627516.2424751099,1.593584249
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodefake""",243238.63899876768,4.111188930
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodefake""",713822.9714062705,1.400907564
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodemany""",106176.3812516467,9.418290473
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodemany""",212706.8967520317,4.701305013
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodelast""",211105.1693637791,4.736975428
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodelast""",360188.4127721866,2.776324736
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multivalue""",205204.8498762667,4.873179170
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multivalue""",629188.7426529182,1.589348207
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multivaluemany""",72417.23926831111,13.808866647
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multivaluemany""",279499.310848751,3.577826353
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""manypairs""",48413.268215501994,20.655494596
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""manypairs""",334916.47794262687,2.985819050
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""manyblankpairs""",1814621.909416488,0.551078985
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""manyblankpairs""",1871079.2073145995,0.534450918
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""altspaces""",191176.98233246847,5.230755229
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""altspaces""",332522.09038433305,3.007318999
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""noencode""",257824.06155806468,3.878613943
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""noencode""",740078.9237926228,1.351207240
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multicharsep""",236542.31319743244,4.227573437
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multicharsep""",623060.1322629681,1.604981523
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodefake""",269676.1788959152,3.708151028
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodefake""",688152.3932853303,1.453166493
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodemany""",104338.86186172628,9.584156681
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodemany""",208297.76549178216,4.800819623
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodelast""",211755.36093392322,4.722430618
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodelast""",363683.2596008257,2.749645395
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multivalue""",173425.5644846648,5.766162578
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multivalue""",620637.5603108894,1.611246344
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multivaluemany""",78849.76193999217,12.682346470
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multivaluemany""",281559.4864568502,3.551647336
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""manypairs""",48321.40849560911,20.694761000
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""manypairs""",339991.68077076256,2.941248438
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""manyblankpairs""",1858741.673708587,0.537998375
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""manyblankpairs""",1876812.7207393341,0.532818213
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""altspaces""",174923.7675486458,5.716776022
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""altspaces""",338810.6477958587,2.951501101
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""noencode""",277473.65716917044,3.603945723
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""noencode""",719310.6339224987,1.390219959
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multicharsep""",232152.90309128704,4.307505901
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multicharsep""",623833.4369314808,1.602991986
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodefake""",249392.7683249272,4.009739363
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodefake""",697149.8982612204,1.434411742
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodemany""",104717.88673285388,9.549466965
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodemany""",197244.93077687576,5.069838784
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodelast""",193280.80275646705,5.173819571
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodelast""",389505.265174425,2.567359390
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multivalue""",195448.02698299952,5.116449705
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multivalue""",633628.990069309,1.578210618
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multivaluemany""",82255.0127246103,12.157313784
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multivaluemany""",279082.81639379094,3.583165789
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""manypairs""",48196.63365082184,20.748337057
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""manypairs""",338988.27471422666,2.949954540
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""manyblankpairs""",1837452.5427121217,0.544231743
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""manyblankpairs""",1864039.4492037068,0.536469333
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""altspaces""",173587.66592698183,5.760777960
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""altspaces""",344724.93389720994,2.900863563
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""noencode""",257824.06155806468,3.878613943
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""noencode""",740078.9237926228,1.351207240
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multicharsep""",236542.31319743244,4.227573437
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multicharsep""",623060.1322629681,1.604981523
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodefake""",269676.1788959152,3.708151028
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodefake""",688152.3932853303,1.453166493
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodemany""",104338.86186172628,9.584156681
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodemany""",208297.76549178216,4.800819623
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodelast""",211755.36093392322,4.722430618
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodelast""",363683.2596008257,2.749645395
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multivalue""",173425.5644846648,5.766162578
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multivalue""",620637.5603108894,1.611246344
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multivaluemany""",78849.76193999217,12.682346470
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multivaluemany""",281559.4864568502,3.551647336
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""manypairs""",48321.40849560911,20.694761000
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""manypairs""",339991.68077076256,2.941248438
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""manyblankpairs""",1858741.673708587,0.537998375
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""manyblankpairs""",1876812.7207393341,0.532818213
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""altspaces""",174923.7675486458,5.716776022
+"old","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""altspaces""",338810.6477958587,2.951501101
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""noencode""",253529.29498881433,3.944317362
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""noencode""",721418.2815046781,1.386158385
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multicharsep""",240996.15633977077,4.149443772
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multicharsep""",633845.1100378279,1.577672501
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodefake""",261436.2087171047,3.825024869
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodefake""",701938.223832028,1.424626792
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodemany""",106832.68471569229,9.360431245
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodemany""",195323.299738065,5.119716907
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""encodelast""",199894.83253007827,5.002630570
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""encodelast""",386165.66792839486,2.589562157
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multivalue""",206977.14422762016,4.831451336
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multivalue""",637249.5465343378,1.569243957
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""multivaluemany""",76473.45137747197,13.076433481
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""multivaluemany""",281864.1251683536,3.547808716
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""manypairs""",48224.22369229298,20.736466519
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""manypairs""",344176.64657676837,2.905484756
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""manyblankpairs""",1838137.8930828932,0.544028826
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""manyblankpairs""",1865774.5343833242,0.535970441
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""legacy"" searchParam=""altspaces""",181811.7706723543,5.500193944
+"new","url/legacy-vs-whatwg-url-searchparams-parse.js","n=1000000 method=""whatwg"" searchParam=""altspaces""",341925.60698582465,2.924612780
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""noencode""",427645.5647438812,2.338385061
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""noencode""",896583.9027196998,1.115344584
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multicharsep""",415797.91184983065,2.405014483
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multicharsep""",895589.6476442601,1.116582804
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodefake""",290106.36823388207,3.447011543
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodefake""",445361.4591279862,2.245367172
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodemany""",434930.6119900073,2.299217329
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodemany""",852427.2912296411,1.173120582
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodelast""",422200.48519271315,2.368542991
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodelast""",883513.288542137,1.131844889
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multivalue""",431167.90041732375,2.319282115
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multivalue""",641022.0874621716,1.560008648
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multivaluemany""",251998.5251443598,3.968277193
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multivaluemany""",219519.87678099942,4.555396143
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""manypairs""",71312.05818664715,14.022873907
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""manypairs""",148294.12631566176,6.743355417
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""manyblankpairs""",4097173.1471927483,0.244070720
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""manyblankpairs""",53945911.45555455,0.018537086
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""altspaces""",241400.00129665597,4.142502049
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""altspaces""",353161.4658791909,2.831566002
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""noencode""",420726.22632668295,2.376842558
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""noencode""",852633.2540396344,1.172837202
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multicharsep""",415344.09132235,2.407642292
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multicharsep""",846462.4698864416,1.181387286
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodefake""",289357.86347915384,3.455928199
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodefake""",453619.06112121337,2.204492901
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodemany""",420607.6768275115,2.377512478
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodemany""",842985.838711243,1.186259548
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodelast""",422476.3798251146,2.366996234
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodelast""",900588.9125613488,1.110384534
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multivalue""",436833.51183522795,2.289201659
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multivalue""",668408.0273221353,1.496092146
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multivaluemany""",254137.07637289705,3.934884332
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multivaluemany""",224187.47423214393,4.460552506
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""manypairs""",73495.98926363591,13.606184637
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""manypairs""",145713.93756413794,6.862761495
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""manyblankpairs""",4147750.72849331,0.241094527
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""manyblankpairs""",55057929.7513672,0.018162688
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""altspaces""",240712.80014956562,4.154328309
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""altspaces""",340664.9186318469,2.935435806
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""noencode""",427645.5647438812,2.338385061
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""noencode""",896583.9027196998,1.115344584
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multicharsep""",415797.91184983065,2.405014483
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multicharsep""",895589.6476442601,1.116582804
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodefake""",290106.36823388207,3.447011543
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodefake""",445361.4591279862,2.245367172
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodemany""",434930.6119900073,2.299217329
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodemany""",852427.2912296411,1.173120582
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodelast""",422200.48519271315,2.368542991
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodelast""",883513.288542137,1.131844889
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multivalue""",431167.90041732375,2.319282115
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multivalue""",641022.0874621716,1.560008648
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multivaluemany""",251998.5251443598,3.968277193
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multivaluemany""",219519.87678099942,4.555396143
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""manypairs""",71312.05818664715,14.022873907
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""manypairs""",148294.12631566176,6.743355417
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""manyblankpairs""",4097173.1471927483,0.244070720
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""manyblankpairs""",53945911.45555455,0.018537086
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""altspaces""",241400.00129665597,4.142502049
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""altspaces""",353161.4658791909,2.831566002
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""noencode""",424552.03038013494,2.355423902
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""noencode""",857405.6206090254,1.166309126
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multicharsep""",439579.5366345069,2.274901165
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multicharsep""",860755.2667305795,1.161770411
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodefake""",284580.59322371637,3.513943058
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodefake""",431467.51787982305,2.317671571
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodemany""",441647.04831097875,2.264251519
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodemany""",862311.6066226476,1.159673594
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodelast""",424715.25739611435,2.354518663
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodelast""",849202.3406747543,1.177575652
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multivalue""",435211.27742301946,2.297734576
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multivalue""",654205.5846100104,1.528571482
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multivaluemany""",250403.61782906653,3.993552524
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multivaluemany""",219261.73199627272,4.560759376
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""manypairs""",71617.10544859729,13.963144611
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""manypairs""",147076.40329072162,6.799187209
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""manyblankpairs""",4127688.7300022254,0.242266330
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""manyblankpairs""",55273730.15928728,0.018091777
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""altspaces""",239441.9698198008,4.176377269
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""altspaces""",346898.58186531113,2.882686907
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""noencode""",427645.5647438812,2.338385061
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""noencode""",896583.9027196998,1.115344584
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multicharsep""",415797.91184983065,2.405014483
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multicharsep""",895589.6476442601,1.116582804
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodefake""",290106.36823388207,3.447011543
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodefake""",445361.4591279862,2.245367172
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodemany""",434930.6119900073,2.299217329
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodemany""",852427.2912296411,1.173120582
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodelast""",422200.48519271315,2.368542991
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodelast""",883513.288542137,1.131844889
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multivalue""",431167.90041732375,2.319282115
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multivalue""",641022.0874621716,1.560008648
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multivaluemany""",251998.5251443598,3.968277193
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multivaluemany""",219519.87678099942,4.555396143
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""manypairs""",71312.05818664715,14.022873907
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""manypairs""",148294.12631566176,6.743355417
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""manyblankpairs""",4097173.1471927483,0.244070720
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""manyblankpairs""",53945911.45555455,0.018537086
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""altspaces""",241400.00129665597,4.142502049
+"old","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""altspaces""",353161.4658791909,2.831566002
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""noencode""",423561.63378246804,2.360931492
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""noencode""",868739.4684397425,1.151093091
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multicharsep""",423327.1318970577,2.362239329
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multicharsep""",889653.6723533972,1.124032903
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodefake""",283638.7778396825,3.525611017
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodefake""",443022.95331736584,2.257219389
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodemany""",417629.75080214854,2.394465428
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodemany""",863822.5110658882,1.157645219
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""encodelast""",415618.5552913985,2.406052346
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""encodelast""",857672.2396496313,1.165946563
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multivalue""",446372.10117303464,2.240283381
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multivalue""",642973.7513366645,1.555273443
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""multivaluemany""",253543.35188512914,3.944098682
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""multivaluemany""",216854.09297613552,4.611395553
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""manypairs""",71030.4121983125,14.078476656
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""manypairs""",147598.63992051018,6.775130181
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""manyblankpairs""",4331675.322516294,0.230857561
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""manyblankpairs""",54577928.4128602,0.018322425
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""legacy"" searchParam=""altspaces""",241407.0388984002,4.142381285
+"new","url/legacy-vs-whatwg-url-searchparams-serialize.js","n=1000000 method=""whatwg"" searchParam=""altspaces""",354502.7011877479,2.820852977
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""long""",1032631.1441553077,0.000387360
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""long""",979575.8436596954,0.000408340
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""short""",735240.0558782442,0.000544040
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""short""",953925.4030334828,0.000419320
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""idn""",956020.6596064541,0.000418401
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""idn""",997854.6125829467,0.000400860
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""auth""",1066038.4146942734,0.000375221
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""auth""",1007759.7500755821,0.000396920
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""file""",993591.3358835512,0.000402580
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""file""",970541.6350229655,0.000412141
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""ws""",985996.3863232441,0.000405681
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""ws""",1006188.0565477688,0.000397540
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""javascript""",1028489.1494394734,0.000388920
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""javascript""",1000950.9033581903,0.000399620
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""percent""",990540.3397553365,0.000403820
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""percent""",974801.3842179656,0.000410340
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""dot""",945090.2561194594,0.000423240
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""dot""",999050.9016434387,0.000400380
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""wpt""",1129335.8429685398,0.000446280
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""wpt""",1008726.2829237051,0.000499640
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""long""",1022806.0171677991,0.000391081
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""long""",944599.2537665894,0.000423460
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""short""",979096.2941205268,0.000408540
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""short""",982800.9828009828,0.000407000
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""idn""",940291.4903620123,0.000425400
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""idn""",1010152.027880196,0.000395980
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""auth""",981544.5093627077,0.000407521
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""auth""",969039.1976355443,0.000412780
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""file""",959232.6139088729,0.000417000
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""file""",976419.4698042279,0.000409660
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""ws""",1062470.616047025,0.000376481
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""ws""",990000.99000099,0.000404040
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""javascript""",1070259.885856783,0.000373741
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""javascript""",945313.6077893841,0.000423140
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""percent""",980824.8737187976,0.000407820
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""percent""",980055.8631842015,0.000408140
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""dot""",984833.5631278314,0.000406160
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""dot""",956660.8708962238,0.000418121
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""wpt""",1086532.3879351788,0.000463861
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""wpt""",1147593.2419509084,0.000439180
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""long""",1032631.1441553077,0.000387360
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""long""",979575.8436596954,0.000408340
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""short""",735240.0558782442,0.000544040
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""short""",953925.4030334828,0.000419320
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""idn""",956020.6596064541,0.000418401
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""idn""",997854.6125829467,0.000400860
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""auth""",1066038.4146942734,0.000375221
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""auth""",1007759.7500755821,0.000396920
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""file""",993591.3358835512,0.000402580
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""file""",970541.6350229655,0.000412141
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""ws""",985996.3863232441,0.000405681
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""ws""",1006188.0565477688,0.000397540
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""javascript""",1028489.1494394734,0.000388920
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""javascript""",1000950.9033581903,0.000399620
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""percent""",990540.3397553365,0.000403820
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""percent""",974801.3842179656,0.000410340
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""dot""",945090.2561194594,0.000423240
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""dot""",999050.9016434387,0.000400380
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""wpt""",1129335.8429685398,0.000446280
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""wpt""",1008726.2829237051,0.000499640
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""long""",1019058.9500126109,0.000392519
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""long""",1000753.0666826788,0.000399699
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""short""",1001103.7168478247,0.000399559
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""short""",997707.7664066806,0.000400919
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""idn""",986098.4767243781,0.000405639
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""idn""",1000502.7526331982,0.000399799
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""auth""",1030452.445907687,0.000388179
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""auth""",997359.490748244,0.000401059
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""file""",820649.1745295116,0.000487419
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""file""",979336.0101850946,0.000408440
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""ws""",1092481.270774214,0.000366139
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""ws""",996760.52828308,0.000401300
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""javascript""",1064735.9454855197,0.000375680
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""javascript""",962975.9809715946,0.000415379
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""percent""",975231.5565427066,0.000410159
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""percent""",972526.1366399222,0.000411300
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""dot""",928981.6735140358,0.000430579
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""dot""",985367.2956594571,0.000405940
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""wpt""",1115093.5882118677,0.000451980
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""wpt""",1071246.3866689338,0.000470480
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""long""",1032631.1441553077,0.000387360
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""long""",979575.8436596954,0.000408340
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""short""",735240.0558782442,0.000544040
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""short""",953925.4030334828,0.000419320
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""idn""",956020.6596064541,0.000418401
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""idn""",997854.6125829467,0.000400860
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""auth""",1066038.4146942734,0.000375221
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""auth""",1007759.7500755821,0.000396920
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""file""",993591.3358835512,0.000402580
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""file""",970541.6350229655,0.000412141
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""ws""",985996.3863232441,0.000405681
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""ws""",1006188.0565477688,0.000397540
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""javascript""",1028489.1494394734,0.000388920
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""javascript""",1000950.9033581903,0.000399620
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""percent""",990540.3397553365,0.000403820
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""percent""",974801.3842179656,0.000410340
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""dot""",945090.2561194594,0.000423240
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""dot""",999050.9016434387,0.000400380
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""wpt""",1129335.8429685398,0.000446280
+"old","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""wpt""",1008726.2829237051,0.000499640
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""long""",1013071.1505195788,0.000394839
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""long""",974946.3170184192,0.000410279
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""short""",993692.5366237806,0.000402539
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""short""",973901.8647785956,0.000410719
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""idn""",952201.8477476855,0.000420079
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""idn""",714133.9608190403,0.000560119
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""auth""",1035842.7487123179,0.000386159
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""auth""",996763.0121181464,0.000401299
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""file""",956528.18529864,0.000418179
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""file""",836506.8311239097,0.000478179
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""ws""",1077589.1098844556,0.000371199
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""ws""",983042.5165888424,0.000406900
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""javascript""",1029656.6867192306,0.000388479
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""javascript""",908308.52515674,0.000440379
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""percent""",996415.3956142776,0.000401439
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""percent""",818399.2519830838,0.000488759
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""dot""",999300.48965724,0.000400280
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""dot""",985612.5212214695,0.000405839
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""legacy"" type=""wpt""",840085.4086832162,0.000599939
+"new","url/legacy-vs-whatwg-url-serialize.js","e=1 method=""whatwg"" type=""wpt""",1109694.6358153943,0.000454179
+"old","url/url-format.js","n=25000000 type=""slashes""",2307444.535931,10.834496609
+"old","url/url-format.js","n=25000000 type=""file""",1433861.0255502323,17.435441479
+"new","url/url-format.js","n=25000000 type=""slashes""",2334845.5832740404,10.707346207
+"new","url/url-format.js","n=25000000 type=""file""",1448290.4320504998,17.261731105
+"old","url/url-format.js","n=25000000 type=""slashes""",2307444.535931,10.834496609
+"old","url/url-format.js","n=25000000 type=""file""",1433861.0255502323,17.435441479
+"new","url/url-format.js","n=25000000 type=""slashes""",2278826.6384060467,10.970558084
+"new","url/url-format.js","n=25000000 type=""file""",1476325.911337562,16.933930244
+"old","url/url-format.js","n=25000000 type=""slashes""",2307444.535931,10.834496609
+"old","url/url-format.js","n=25000000 type=""file""",1433861.0255502323,17.435441479
+"new","url/url-format.js","n=25000000 type=""slashes""",2239484.6480442025,11.163282598
+"new","url/url-format.js","n=25000000 type=""file""",1370767.0763469327,18.237963569
+"old","url/url-parse.js","n=10000000 type=""normal""",132686.03265050962,75.365882906
+"old","url/url-parse.js","n=10000000 type=""escaped""",102605.84501072747,97.460334730
+"new","url/url-parse.js","n=10000000 type=""normal""",137911.48791473988,72.510275621
+"new","url/url-parse.js","n=10000000 type=""escaped""",104260.7626348534,95.913359420
+"old","url/url-parse.js","n=10000000 type=""normal""",132686.03265050962,75.365882906
+"old","url/url-parse.js","n=10000000 type=""escaped""",102605.84501072747,97.460334730
+"new","url/url-parse.js","n=10000000 type=""normal""",134654.52668796782,74.264120531
+"new","url/url-parse.js","n=10000000 type=""escaped""",105317.86158067864,94.950655567
+"old","url/url-parse.js","n=10000000 type=""normal""",132686.03265050962,75.365882906
+"old","url/url-parse.js","n=10000000 type=""escaped""",102605.84501072747,97.460334730
+"new","url/url-parse.js","n=10000000 type=""normal""",133186.85023561885,75.082487365
+"new","url/url-parse.js","n=10000000 type=""escaped""",103329.22552957044,96.778040760
+"old","url/url-resolve.js","n=100000 path=""up"" href=""long""",17872.561231671356,5.595168969
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""long""",16960.065556921818,5.896203624
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""long""",18106.300194523046,5.522939470
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""long""",19319.256343803736,5.176182676
+"old","url/url-resolve.js","n=100000 path=""down"" href=""long""",17179.506591668876,5.820888945
+"old","url/url-resolve.js","n=100000 path=""up"" href=""short""",27283.633724244424,3.665200941
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""short""",27450.63046659061,3.642903580
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""short""",30233.11369901364,3.307631526
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""short""",48153.720714292685,2.076682726
+"old","url/url-resolve.js","n=100000 path=""down"" href=""short""",27826.640887669553,3.593678461
+"old","url/url-resolve.js","n=100000 path=""up"" href=""idn""",25882.36262544307,3.863634918
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""idn""",23260.80512722482,4.299077330
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""idn""",28899.67067591249,3.460247043
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""idn""",28356.21797755166,3.526563383
+"old","url/url-resolve.js","n=100000 path=""down"" href=""idn""",25300.889724130295,3.952430175
+"old","url/url-resolve.js","n=100000 path=""up"" href=""auth""",24034.308040273594,4.160718912
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""auth""",22981.516571325014,4.351322929
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""auth""",26742.25669313016,3.739400199
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""auth""",35370.0170347732,2.827253374
+"old","url/url-resolve.js","n=100000 path=""down"" href=""auth""",24964.858130076194,4.005630614
+"old","url/url-resolve.js","n=100000 path=""up"" href=""file""",31179.00999314957,3.207285928
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""file""",29875.183758744963,3.347259746
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""file""",33684.11757800717,2.968758192
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""file""",49046.7084095289,2.038872806
+"old","url/url-resolve.js","n=100000 path=""down"" href=""file""",31331.976513369933,3.191627568
+"old","url/url-resolve.js","n=100000 path=""up"" href=""ws""",25261.207740135604,3.958638915
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""ws""",24167.33341983257,4.137816873
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""ws""",28121.700535361982,3.555972722
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""ws""",38052.806867179395,2.627927037
+"old","url/url-resolve.js","n=100000 path=""down"" href=""ws""",25960.80297052272,3.851960978
+"old","url/url-resolve.js","n=100000 path=""up"" href=""javascript""",38324.81149787208,2.609275717
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""javascript""",38905.74453036646,2.570314518
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""javascript""",45867.10791460505,2.180211584
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""javascript""",57252.13176766829,1.746659852
+"old","url/url-resolve.js","n=100000 path=""down"" href=""javascript""",41506.29324997003,2.409273201
+"old","url/url-resolve.js","n=100000 path=""up"" href=""percent""",30435.96402430825,3.285586746
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""percent""",30988.963036621477,3.226955348
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""percent""",35680.28375462116,2.802668294
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""percent""",51270.32617913371,1.950445949
+"old","url/url-resolve.js","n=100000 path=""down"" href=""percent""",32056.611154649865,3.119481330
+"old","url/url-resolve.js","n=100000 path=""up"" href=""dot""",26703.333555158817,3.744850799
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""dot""",26245.6139648784,3.810160438
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""dot""",29239.816832617755,3.419994064
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""dot""",45488.34983225197,2.198365084
+"old","url/url-resolve.js","n=100000 path=""down"" href=""dot""",26667.071017686703,3.749943139
+"old","url/url-resolve.js","n=100000 path=""up"" href=""noscheme""",37990.4779123747,2.632238537
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""noscheme""",38723.73033104452,2.582395837
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""noscheme""",45169.919852174535,2.213862684
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""noscheme""",50632.62251727062,1.975011268
+"old","url/url-resolve.js","n=100000 path=""down"" href=""noscheme""",39649.48367199351,2.522100939
+"new","url/url-resolve.js","n=100000 path=""up"" href=""long""",17793.58815744694,5.620001942
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""long""",16802.496228709544,5.951496649
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""long""",18176.72490156267,5.501541149
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""long""",19352.6491596914,5.167251221
+"new","url/url-resolve.js","n=100000 path=""down"" href=""long""",17165.394637055648,5.825674394
+"new","url/url-resolve.js","n=100000 path=""up"" href=""short""",27588.96356295869,3.624637793
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""short""",27413.34774828039,3.647858004
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""short""",30839.55858915439,3.242588564
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""short""",47480.78139047864,2.106115297
+"new","url/url-resolve.js","n=100000 path=""down"" href=""short""",28096.380864019706,3.559177265
+"new","url/url-resolve.js","n=100000 path=""up"" href=""idn""",26100.083779024324,3.831405326
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""idn""",23219.304906623616,4.306761137
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""idn""",28730.16461893041,3.480662270
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""idn""",28644.586074952258,3.491061094
+"new","url/url-resolve.js","n=100000 path=""down"" href=""idn""",25279.518147468618,3.955771602
+"new","url/url-resolve.js","n=100000 path=""up"" href=""auth""",24229.25387787718,4.127242238
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""auth""",23113.224248218725,4.326527486
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""auth""",26652.312583982937,3.752019630
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""auth""",35312.47588455846,2.831860341
+"new","url/url-resolve.js","n=100000 path=""down"" href=""auth""",25326.60315561163,3.948417377
+"new","url/url-resolve.js","n=100000 path=""up"" href=""file""",31098.831582657625,3.215554891
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""file""",30035.094668554982,3.329438482
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""file""",33642.356963841376,2.972443343
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""file""",50496.42729646953,1.980338122
+"new","url/url-resolve.js","n=100000 path=""down"" href=""file""",31169.128695570704,3.208302708
+"new","url/url-resolve.js","n=100000 path=""up"" href=""ws""",25419.94466057203,3.933918871
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""ws""",24018.584814256046,4.163442633
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""ws""",28295.239114314038,3.534163454
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""ws""",38391.68361192399,2.604730780
+"new","url/url-resolve.js","n=100000 path=""down"" href=""ws""",26001.42234228565,3.845943452
+"new","url/url-resolve.js","n=100000 path=""up"" href=""javascript""",39102.96761536135,2.557350659
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""javascript""",38422.8431413272,2.602618438
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""javascript""",46024.528127001395,2.172754487
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""javascript""",56441.86759574556,1.771734428
+"new","url/url-resolve.js","n=100000 path=""down"" href=""javascript""",41224.450950707156,2.425744860
+"new","url/url-resolve.js","n=100000 path=""up"" href=""percent""",30800.937491214514,3.246654425
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""percent""",30532.453583347346,3.275203538
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""percent""",36198.5904175499,2.762538509
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""percent""",50578.72992034538,1.977115680
+"new","url/url-resolve.js","n=100000 path=""down"" href=""percent""",31462.564873626055,3.178380415
+"new","url/url-resolve.js","n=100000 path=""up"" href=""dot""",26428.5099549134,3.783792585
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""dot""",26110.50997725329,3.829875406
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""dot""",28848.317991492033,3.466406604
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""dot""",45495.96375983338,2.197997179
+"new","url/url-resolve.js","n=100000 path=""down"" href=""dot""",26455.72044876409,3.779900842
+"new","url/url-resolve.js","n=100000 path=""up"" href=""noscheme""",37873.53958173242,2.640365836
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""noscheme""",38812.74050004149,2.576473568
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""noscheme""",45621.52115514075,2.191947955
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""noscheme""",51042.207039878806,1.959162932
+"new","url/url-resolve.js","n=100000 path=""down"" href=""noscheme""",39448.36311597173,2.534959428
+"old","url/url-resolve.js","n=100000 path=""up"" href=""long""",17872.561231671356,5.595168969
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""long""",16960.065556921818,5.896203624
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""long""",18106.300194523046,5.522939470
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""long""",19319.256343803736,5.176182676
+"old","url/url-resolve.js","n=100000 path=""down"" href=""long""",17179.506591668876,5.820888945
+"old","url/url-resolve.js","n=100000 path=""up"" href=""short""",27283.633724244424,3.665200941
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""short""",27450.63046659061,3.642903580
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""short""",30233.11369901364,3.307631526
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""short""",48153.720714292685,2.076682726
+"old","url/url-resolve.js","n=100000 path=""down"" href=""short""",27826.640887669553,3.593678461
+"old","url/url-resolve.js","n=100000 path=""up"" href=""idn""",25882.36262544307,3.863634918
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""idn""",23260.80512722482,4.299077330
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""idn""",28899.67067591249,3.460247043
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""idn""",28356.21797755166,3.526563383
+"old","url/url-resolve.js","n=100000 path=""down"" href=""idn""",25300.889724130295,3.952430175
+"old","url/url-resolve.js","n=100000 path=""up"" href=""auth""",24034.308040273594,4.160718912
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""auth""",22981.516571325014,4.351322929
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""auth""",26742.25669313016,3.739400199
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""auth""",35370.0170347732,2.827253374
+"old","url/url-resolve.js","n=100000 path=""down"" href=""auth""",24964.858130076194,4.005630614
+"old","url/url-resolve.js","n=100000 path=""up"" href=""file""",31179.00999314957,3.207285928
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""file""",29875.183758744963,3.347259746
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""file""",33684.11757800717,2.968758192
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""file""",49046.7084095289,2.038872806
+"old","url/url-resolve.js","n=100000 path=""down"" href=""file""",31331.976513369933,3.191627568
+"old","url/url-resolve.js","n=100000 path=""up"" href=""ws""",25261.207740135604,3.958638915
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""ws""",24167.33341983257,4.137816873
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""ws""",28121.700535361982,3.555972722
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""ws""",38052.806867179395,2.627927037
+"old","url/url-resolve.js","n=100000 path=""down"" href=""ws""",25960.80297052272,3.851960978
+"old","url/url-resolve.js","n=100000 path=""up"" href=""javascript""",38324.81149787208,2.609275717
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""javascript""",38905.74453036646,2.570314518
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""javascript""",45867.10791460505,2.180211584
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""javascript""",57252.13176766829,1.746659852
+"old","url/url-resolve.js","n=100000 path=""down"" href=""javascript""",41506.29324997003,2.409273201
+"old","url/url-resolve.js","n=100000 path=""up"" href=""percent""",30435.96402430825,3.285586746
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""percent""",30988.963036621477,3.226955348
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""percent""",35680.28375462116,2.802668294
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""percent""",51270.32617913371,1.950445949
+"old","url/url-resolve.js","n=100000 path=""down"" href=""percent""",32056.611154649865,3.119481330
+"old","url/url-resolve.js","n=100000 path=""up"" href=""dot""",26703.333555158817,3.744850799
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""dot""",26245.6139648784,3.810160438
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""dot""",29239.816832617755,3.419994064
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""dot""",45488.34983225197,2.198365084
+"old","url/url-resolve.js","n=100000 path=""down"" href=""dot""",26667.071017686703,3.749943139
+"old","url/url-resolve.js","n=100000 path=""up"" href=""noscheme""",37990.4779123747,2.632238537
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""noscheme""",38723.73033104452,2.582395837
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""noscheme""",45169.919852174535,2.213862684
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""noscheme""",50632.62251727062,1.975011268
+"old","url/url-resolve.js","n=100000 path=""down"" href=""noscheme""",39649.48367199351,2.522100939
+"new","url/url-resolve.js","n=100000 path=""up"" href=""long""",17932.413474224322,5.576494215
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""long""",17002.49164969167,5.881490905
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""long""",18272.42599949231,5.472727048
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""long""",19309.2832085221,5.178856145
+"new","url/url-resolve.js","n=100000 path=""down"" href=""long""",17374.806180692405,5.755459886
+"new","url/url-resolve.js","n=100000 path=""up"" href=""short""",27600.536348857826,3.623117998
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""short""",27843.47478136495,3.591505758
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""short""",30981.842615563863,3.227696985
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""short""",47405.74124238496,2.109449138
+"new","url/url-resolve.js","n=100000 path=""down"" href=""short""",27667.151372379423,3.614394509
+"new","url/url-resolve.js","n=100000 path=""up"" href=""idn""",25914.577025636205,3.858832035
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""idn""",23470.895778597234,4.260595801
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""idn""",28628.34216552759,3.493041945
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""idn""",28646.975171177044,3.490769947
+"new","url/url-resolve.js","n=100000 path=""down"" href=""idn""",25545.763230122997,3.914543445
+"new","url/url-resolve.js","n=100000 path=""up"" href=""auth""",24021.212540912205,4.162987186
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""auth""",22840.716492537,4.378146370
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""auth""",26739.40220453344,3.739799388
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""auth""",35197.092100723654,2.841143800
+"new","url/url-resolve.js","n=100000 path=""down"" href=""auth""",24816.401702470972,4.029593057
+"new","url/url-resolve.js","n=100000 path=""up"" href=""file""",31287.939119439972,3.196119745
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""file""",30041.231755811626,3.328758315
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""file""",33497.95215210466,2.985257115
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""file""",49748.90870097389,2.010094344
+"new","url/url-resolve.js","n=100000 path=""down"" href=""file""",30674.471719738896,3.260039844
+"new","url/url-resolve.js","n=100000 path=""up"" href=""ws""",26032.192860204716,3.841397478
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""ws""",23909.144436318347,4.182500142
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""ws""",28990.823062515516,3.449367401
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""ws""",38793.97180953097,2.577720077
+"new","url/url-resolve.js","n=100000 path=""down"" href=""ws""",25906.58961396833,3.860021774
+"new","url/url-resolve.js","n=100000 path=""up"" href=""javascript""",39331.193785089905,2.542511182
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""javascript""",38227.70124505127,2.615904089
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""javascript""",45758.68890008147,2.185377300
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""javascript""",55936.987730639594,1.787725869
+"new","url/url-resolve.js","n=100000 path=""down"" href=""javascript""",41850.827413813146,2.389439019
+"new","url/url-resolve.js","n=100000 path=""up"" href=""percent""",30659.595630636148,3.261621621
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""percent""",30570.51855146407,3.271125409
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""percent""",36484.23215388441,2.740910089
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""percent""",51964.914630336396,1.924375335
+"new","url/url-resolve.js","n=100000 path=""down"" href=""percent""",32445.234890686363,3.082116691
+"new","url/url-resolve.js","n=100000 path=""up"" href=""dot""",26749.170023408868,3.738433750
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""dot""",26352.510184824863,3.794704918
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""dot""",28864.466057362537,3.464467342
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""dot""",45520.89120167144,2.196793546
+"new","url/url-resolve.js","n=100000 path=""down"" href=""dot""",26659.719250468872,3.750977235
+"new","url/url-resolve.js","n=100000 path=""up"" href=""noscheme""",37500.4877454063,2.666631983
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""noscheme""",39590.264140240455,2.525873524
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""noscheme""",46492.82439232865,2.150869544
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""noscheme""",50844.23599844311,1.966791280
+"new","url/url-resolve.js","n=100000 path=""down"" href=""noscheme""",39710.00491834619,2.518257054
+"old","url/url-resolve.js","n=100000 path=""up"" href=""long""",17872.561231671356,5.595168969
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""long""",16960.065556921818,5.896203624
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""long""",18106.300194523046,5.522939470
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""long""",19319.256343803736,5.176182676
+"old","url/url-resolve.js","n=100000 path=""down"" href=""long""",17179.506591668876,5.820888945
+"old","url/url-resolve.js","n=100000 path=""up"" href=""short""",27283.633724244424,3.665200941
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""short""",27450.63046659061,3.642903580
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""short""",30233.11369901364,3.307631526
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""short""",48153.720714292685,2.076682726
+"old","url/url-resolve.js","n=100000 path=""down"" href=""short""",27826.640887669553,3.593678461
+"old","url/url-resolve.js","n=100000 path=""up"" href=""idn""",25882.36262544307,3.863634918
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""idn""",23260.80512722482,4.299077330
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""idn""",28899.67067591249,3.460247043
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""idn""",28356.21797755166,3.526563383
+"old","url/url-resolve.js","n=100000 path=""down"" href=""idn""",25300.889724130295,3.952430175
+"old","url/url-resolve.js","n=100000 path=""up"" href=""auth""",24034.308040273594,4.160718912
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""auth""",22981.516571325014,4.351322929
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""auth""",26742.25669313016,3.739400199
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""auth""",35370.0170347732,2.827253374
+"old","url/url-resolve.js","n=100000 path=""down"" href=""auth""",24964.858130076194,4.005630614
+"old","url/url-resolve.js","n=100000 path=""up"" href=""file""",31179.00999314957,3.207285928
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""file""",29875.183758744963,3.347259746
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""file""",33684.11757800717,2.968758192
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""file""",49046.7084095289,2.038872806
+"old","url/url-resolve.js","n=100000 path=""down"" href=""file""",31331.976513369933,3.191627568
+"old","url/url-resolve.js","n=100000 path=""up"" href=""ws""",25261.207740135604,3.958638915
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""ws""",24167.33341983257,4.137816873
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""ws""",28121.700535361982,3.555972722
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""ws""",38052.806867179395,2.627927037
+"old","url/url-resolve.js","n=100000 path=""down"" href=""ws""",25960.80297052272,3.851960978
+"old","url/url-resolve.js","n=100000 path=""up"" href=""javascript""",38324.81149787208,2.609275717
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""javascript""",38905.74453036646,2.570314518
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""javascript""",45867.10791460505,2.180211584
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""javascript""",57252.13176766829,1.746659852
+"old","url/url-resolve.js","n=100000 path=""down"" href=""javascript""",41506.29324997003,2.409273201
+"old","url/url-resolve.js","n=100000 path=""up"" href=""percent""",30435.96402430825,3.285586746
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""percent""",30988.963036621477,3.226955348
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""percent""",35680.28375462116,2.802668294
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""percent""",51270.32617913371,1.950445949
+"old","url/url-resolve.js","n=100000 path=""down"" href=""percent""",32056.611154649865,3.119481330
+"old","url/url-resolve.js","n=100000 path=""up"" href=""dot""",26703.333555158817,3.744850799
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""dot""",26245.6139648784,3.810160438
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""dot""",29239.816832617755,3.419994064
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""dot""",45488.34983225197,2.198365084
+"old","url/url-resolve.js","n=100000 path=""down"" href=""dot""",26667.071017686703,3.749943139
+"old","url/url-resolve.js","n=100000 path=""up"" href=""noscheme""",37990.4779123747,2.632238537
+"old","url/url-resolve.js","n=100000 path=""sibling"" href=""noscheme""",38723.73033104452,2.582395837
+"old","url/url-resolve.js","n=100000 path=""foo/bar"" href=""noscheme""",45169.919852174535,2.213862684
+"old","url/url-resolve.js","n=100000 path=""withscheme"" href=""noscheme""",50632.62251727062,1.975011268
+"old","url/url-resolve.js","n=100000 path=""down"" href=""noscheme""",39649.48367199351,2.522100939
+"new","url/url-resolve.js","n=100000 path=""up"" href=""long""",17909.751136029172,5.583550505
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""long""",16776.92920593667,5.960566369
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""long""",18343.21171047306,5.451608016
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""long""",19489.50238200016,5.130967330
+"new","url/url-resolve.js","n=100000 path=""down"" href=""long""",17350.129686901597,5.763645679
+"new","url/url-resolve.js","n=100000 path=""up"" href=""short""",27394.985266802963,3.650303113
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""short""",27803.945623390915,3.596611839
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""short""",30569.509917800453,3.271233339
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""short""",47988.89775698658,2.083815313
+"new","url/url-resolve.js","n=100000 path=""down"" href=""short""",27871.292677045585,3.587921133
+"new","url/url-resolve.js","n=100000 path=""up"" href=""idn""",25846.54848747983,3.868988544
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""idn""",23403.704909323023,4.272827759
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""idn""",28873.491731767128,3.463384371
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""idn""",28457.82824656877,3.513971591
+"new","url/url-resolve.js","n=100000 path=""down"" href=""idn""",25308.24869887155,3.951280912
+"new","url/url-resolve.js","n=100000 path=""up"" href=""auth""",24180.794940528856,4.135513338
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""auth""",22569.70139775201,4.430718787
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""auth""",27459.02708344443,3.641789627
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""auth""",36011.269535221094,2.776908487
+"new","url/url-resolve.js","n=100000 path=""down"" href=""auth""",24796.43476603051,4.032837823
+"new","url/url-resolve.js","n=100000 path=""up"" href=""file""",31171.6607556901,3.208042099
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""file""",29767.939175010324,3.359318877
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""file""",34240.411153816945,2.920525678
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""file""",49230.792570709295,2.031249037
+"new","url/url-resolve.js","n=100000 path=""down"" href=""file""",30856.433261797516,3.240815267
+"new","url/url-resolve.js","n=100000 path=""up"" href=""ws""",25770.141676141957,3.880459846
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""ws""",23815.163824355957,4.199005337
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""ws""",28167.25094948303,3.550222213
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""ws""",38517.90415509407,2.596195255
+"new","url/url-resolve.js","n=100000 path=""down"" href=""ws""",25666.202731487076,3.896174321
+"new","url/url-resolve.js","n=100000 path=""up"" href=""javascript""",38392.06769019709,2.604704722
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""javascript""",38328.60812630823,2.609017256
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""javascript""",46536.205733475545,2.148864490
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""javascript""",57418.88118850653,1.741587400
+"new","url/url-resolve.js","n=100000 path=""down"" href=""javascript""",40993.62234095617,2.439403846
+"new","url/url-resolve.js","n=100000 path=""up"" href=""percent""",31234.850609409896,3.201552050
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""percent""",31105.87628798329,3.214826648
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""percent""",36199.11297476372,2.762498630
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""percent""",52597.977006589215,1.901213805
+"new","url/url-resolve.js","n=100000 path=""down"" href=""percent""",32110.171818228475,3.114277948
+"new","url/url-resolve.js","n=100000 path=""up"" href=""dot""",26417.51932932971,3.785366777
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""dot""",26429.41425504076,3.783663120
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""dot""",28598.655316565422,3.496667899
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""dot""",44502.02426869564,2.247088793
+"new","url/url-resolve.js","n=100000 path=""down"" href=""dot""",26648.079027521846,3.752615710
+"new","url/url-resolve.js","n=100000 path=""up"" href=""noscheme""",37335.96808779813,2.678382405
+"new","url/url-resolve.js","n=100000 path=""sibling"" href=""noscheme""",38829.19555207573,2.575381709
+"new","url/url-resolve.js","n=100000 path=""foo/bar"" href=""noscheme""",45914.73374158624,2.177950123
+"new","url/url-resolve.js","n=100000 path=""withscheme"" href=""noscheme""",49277.74787604036,2.029313520
+"new","url/url-resolve.js","n=100000 path=""down"" href=""noscheme""",38988.84875492031,2.564835926
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""noencode""",770981.0747822969,1.297048699
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""noencode""",717637.4414940065,1.393461297
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""noencode""",166825.38202737638,5.994291683
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""encodemany""",767760.3316108582,1.302489799
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""encodemany""",728573.3509850726,1.372545398
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""encodemany""",162480.08140434054,6.154600560
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""encodelast""",793618.0417900357,1.260051999
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""encodelast""",760157.5185639322,1.315516818
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""encodelast""",160624.93691425485,6.225683379
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""array""",755851.329721399,1.323011498
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""array""",238879.38401621807,4.186213072
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""array""",98149.95429597322,10.188491754
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""multiprimitives""",774572.2438531978,1.291035159
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""multiprimitives""",694199.9337294529,1.440507196
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""multiprimitives""",154400.70097152414,6.476654534
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""noencode""",778538.1018076852,1.284458651
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""noencode""",757422.9027483201,1.320266388
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""noencode""",166024.88193455138,6.023193562
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""encodemany""",780234.8595874131,1.281665370
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""encodemany""",745724.6800573966,1.340977477
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""encodemany""",165016.86713801828,6.059986578
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""encodelast""",785447.4144146002,1.273159707
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""encodelast""",712330.3547417632,1.403843025
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""encodelast""",160567.06241415915,6.227927353
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""array""",762991.7248572734,1.310630204
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""array""",237839.83933336622,4.204510072
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""array""",101479.03823915735,9.854251847
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""multiprimitives""",776337.6549522311,1.288099313
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""multiprimitives""",723380.2287835373,1.382398855
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""multiprimitives""",158797.59469975665,6.297324603
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""noencode""",770981.0747822969,1.297048699
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""noencode""",717637.4414940065,1.393461297
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""noencode""",166825.38202737638,5.994291683
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""encodemany""",767760.3316108582,1.302489799
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""encodemany""",728573.3509850726,1.372545398
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""encodemany""",162480.08140434054,6.154600560
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""encodelast""",793618.0417900357,1.260051999
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""encodelast""",760157.5185639322,1.315516818
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""encodelast""",160624.93691425485,6.225683379
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""array""",755851.329721399,1.323011498
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""array""",238879.38401621807,4.186213072
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""array""",98149.95429597322,10.188491754
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""multiprimitives""",774572.2438531978,1.291035159
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""multiprimitives""",694199.9337294529,1.440507196
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""multiprimitives""",154400.70097152414,6.476654534
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""noencode""",793522.4036152278,1.260203865
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""noencode""",702604.9392891156,1.423274936
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""noencode""",160275.55067603124,6.239254807
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""encodemany""",771244.2518529632,1.296606098
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""encodemany""",735023.533325644,1.360500657
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""encodemany""",162013.5617819775,6.172322792
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""encodelast""",790061.5702724317,1.265724138
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""encodelast""",737173.2796606707,1.356533162
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""encodelast""",164695.62887973565,6.071806561
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""array""",758831.1217938885,1.317816272
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""array""",232579.13380423418,4.299611851
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""array""",101523.52496013729,9.849933800
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""multiprimitives""",805901.331775322,1.240846690
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""multiprimitives""",717721.676597205,1.393297754
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""multiprimitives""",160480.98240531186,6.231267936
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""noencode""",770981.0747822969,1.297048699
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""noencode""",717637.4414940065,1.393461297
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""noencode""",166825.38202737638,5.994291683
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""encodemany""",767760.3316108582,1.302489799
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""encodemany""",728573.3509850726,1.372545398
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""encodemany""",162480.08140434054,6.154600560
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""encodelast""",793618.0417900357,1.260051999
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""encodelast""",760157.5185639322,1.315516818
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""encodelast""",160624.93691425485,6.225683379
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""array""",755851.329721399,1.323011498
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""array""",238879.38401621807,4.186213072
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""array""",98149.95429597322,10.188491754
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""multiprimitives""",774572.2438531978,1.291035159
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""multiprimitives""",694199.9337294529,1.440507196
+"old","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""multiprimitives""",154400.70097152414,6.476654534
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""noencode""",767627.5136249834,1.302715161
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""noencode""",721610.614571168,1.385788928
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""noencode""",163488.65655765863,6.116632316
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""encodemany""",782759.1467928744,1.277532181
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""encodemany""",751919.6374879332,1.329929357
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""encodemany""",162045.40374506754,6.171109929
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""encodelast""",796414.0368496443,1.255628296
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""encodelast""",725443.1964629015,1.378467680
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""encodelast""",162579.6927732261,6.150829682
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""array""",753381.8060543436,1.327348221
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""array""",232317.24227657722,4.304458809
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""array""",102878.59447145717,9.720195004
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""string"" type=""multiprimitives""",784616.1467070124,1.274508566
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""iterable"" type=""multiprimitives""",717923.4756120491,1.392906116
+"new","url/url-searchparams-creation.js","n=1000000 inputType=""object"" type=""multiprimitives""",154891.13535023312,6.456147395
+"old","url/url-searchparams-iteration.js","n=1000000 loopMethod=""forEach""",2997152.938486367,0.333649974
+"old","url/url-searchparams-iteration.js","n=1000000 loopMethod=""iterator""",973175.7883833062,1.027563583
+"new","url/url-searchparams-iteration.js","n=1000000 loopMethod=""forEach""",3024903.787868313,0.330589027
+"new","url/url-searchparams-iteration.js","n=1000000 loopMethod=""iterator""",1031830.5570123054,0.969151372
+"old","url/url-searchparams-iteration.js","n=1000000 loopMethod=""forEach""",2997152.938486367,0.333649974
+"old","url/url-searchparams-iteration.js","n=1000000 loopMethod=""iterator""",973175.7883833062,1.027563583
+"new","url/url-searchparams-iteration.js","n=1000000 loopMethod=""forEach""",3024419.919510689,0.330641917
+"new","url/url-searchparams-iteration.js","n=1000000 loopMethod=""iterator""",1049530.6258174065,0.952806879
+"old","url/url-searchparams-iteration.js","n=1000000 loopMethod=""forEach""",2997152.938486367,0.333649974
+"old","url/url-searchparams-iteration.js","n=1000000 loopMethod=""iterator""",973175.7883833062,1.027563583
+"new","url/url-searchparams-iteration.js","n=1000000 loopMethod=""forEach""",3025816.0843081684,0.330489353
+"new","url/url-searchparams-iteration.js","n=1000000 loopMethod=""iterator""",990734.6603544465,1.009351989
+"old","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""get""",6385030.323988739,3.132326549
+"old","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""get""",5269466.556953598,3.795450599
+"old","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""get""",5767132.8476696005,3.467927743
+"old","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""get""",5402338.804285442,3.702100280
+"old","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""getAll""",2369143.1887354483,8.441870502
+"old","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""getAll""",2347807.973036162,8.518584241
+"old","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""getAll""",2246938.6737112715,8.900999495
+"old","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""getAll""",5610846.391347196,3.564524602
+"old","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""has""",5913591.339588061,3.382039585
+"old","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""has""",5047656.776329623,3.962234535
+"old","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""has""",5839094.038751093,3.425188885
+"old","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""has""",5579797.511274219,3.584359461
+"new","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""get""",6359706.163513681,3.144799380
+"new","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""get""",5290986.390426129,3.780013503
+"new","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""get""",5854884.987618533,3.415950961
+"new","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""get""",5581853.193205803,3.583039415
+"new","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""getAll""",2378792.713844458,8.407626223
+"new","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""getAll""",2370117.491264002,8.438400237
+"new","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""getAll""",2260648.326102303,8.847019578
+"new","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""getAll""",5611120.2253472125,3.564350646
+"new","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""has""",6415090.740393617,3.117648808
+"new","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""has""",5366333.365677924,3.726939539
+"new","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""has""",5073643.073027729,3.941940675
+"new","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""has""",5757239.580667702,3.473887046
+"old","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""get""",6385030.323988739,3.132326549
+"old","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""get""",5269466.556953598,3.795450599
+"old","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""get""",5767132.8476696005,3.467927743
+"old","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""get""",5402338.804285442,3.702100280
+"old","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""getAll""",2369143.1887354483,8.441870502
+"old","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""getAll""",2347807.973036162,8.518584241
+"old","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""getAll""",2246938.6737112715,8.900999495
+"old","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""getAll""",5610846.391347196,3.564524602
+"old","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""has""",5913591.339588061,3.382039585
+"old","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""has""",5047656.776329623,3.962234535
+"old","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""has""",5839094.038751093,3.425188885
+"old","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""has""",5579797.511274219,3.584359461
+"new","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""get""",5834557.978852731,3.427851788
+"new","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""get""",5153670.593343806,3.880729208
+"new","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""get""",5817844.078581789,3.437699555
+"new","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""get""",5579929.356576605,3.584274768
+"new","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""getAll""",2386407.9931527255,8.380796602
+"new","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""getAll""",2402867.442832194,8.323388816
+"new","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""getAll""",2185645.8526930194,9.150613296
+"new","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""getAll""",5596501.611843812,3.573661081
+"new","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""has""",6385324.976423058,3.132182007
+"new","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""has""",5330418.187327367,3.752050833
+"new","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""has""",5879810.957092514,3.401469902
+"new","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""has""",5721971.693908991,3.495298661
+"old","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""get""",6385030.323988739,3.132326549
+"old","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""get""",5269466.556953598,3.795450599
+"old","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""get""",5767132.8476696005,3.467927743
+"old","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""get""",5402338.804285442,3.702100280
+"old","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""getAll""",2369143.1887354483,8.441870502
+"old","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""getAll""",2347807.973036162,8.518584241
+"old","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""getAll""",2246938.6737112715,8.900999495
+"old","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""getAll""",5610846.391347196,3.564524602
+"old","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""has""",5913591.339588061,3.382039585
+"old","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""has""",5047656.776329623,3.962234535
+"old","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""has""",5839094.038751093,3.425188885
+"old","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""has""",5579797.511274219,3.584359461
+"new","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""get""",6350086.265540913,3.149563512
+"new","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""get""",5143387.599965201,3.888487813
+"new","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""get""",5849136.89526201,3.419307901
+"new","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""get""",5560298.769965802,3.596929019
+"new","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""getAll""",2373305.8528185347,8.427063868
+"new","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""getAll""",2375388.0006267987,8.419677120
+"new","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""getAll""",2165306.29575413,9.236568535
+"new","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""getAll""",5566365.7393328175,3.593008605
+"new","url/url-searchparams-read.js","n=20000000 param=""one"" accessMethod=""has""",6408461.100419067,3.120874058
+"new","url/url-searchparams-read.js","n=20000000 param=""two"" accessMethod=""has""",5324291.94305278,3.756368023
+"new","url/url-searchparams-read.js","n=20000000 param=""three"" accessMethod=""has""",5829222.384030684,3.430989364
+"new","url/url-searchparams-read.js","n=20000000 param=""nonexistent"" accessMethod=""has""",5715848.600401622,3.499042994
+"old","url/url-searchparams-sort.js","n=1000000 type=""wpt""",3618555.1343830787,0.276353396
+"old","url/url-searchparams-sort.js","n=1000000 type=""empty""",3839582.3124203933,0.260444996
+"old","url/url-searchparams-sort.js","n=1000000 type=""sorted""",1701498.5829664576,0.587717210
+"old","url/url-searchparams-sort.js","n=1000000 type=""almostsorted""",1559329.7632052188,0.641301169
+"old","url/url-searchparams-sort.js","n=1000000 type=""reversed""",1693106.471288275,0.590630310
+"old","url/url-searchparams-sort.js","n=1000000 type=""random""",1719742.651312215,0.581482351
+"old","url/url-searchparams-sort.js","n=1000000 type=""short""",2784405.7850429546,0.359143055
+"old","url/url-searchparams-sort.js","n=1000000 type=""long""",1350780.6866695783,0.740312628
+"new","url/url-searchparams-sort.js","n=1000000 type=""wpt""",3269475.079498594,0.305859496
+"new","url/url-searchparams-sort.js","n=1000000 type=""empty""",3844495.7594923433,0.260112135
+"new","url/url-searchparams-sort.js","n=1000000 type=""sorted""",1606797.8165359444,0.622355837
+"new","url/url-searchparams-sort.js","n=1000000 type=""almostsorted""",1655624.6189983499,0.604001649
+"new","url/url-searchparams-sort.js","n=1000000 type=""reversed""",1651197.0718912827,0.605621229
+"new","url/url-searchparams-sort.js","n=1000000 type=""random""",1656354.7321378903,0.603735408
+"new","url/url-searchparams-sort.js","n=1000000 type=""short""",2492466.898899279,0.401208939
+"new","url/url-searchparams-sort.js","n=1000000 type=""long""",1264078.04988232,0.791090392
+"old","url/url-searchparams-sort.js","n=1000000 type=""wpt""",3618555.1343830787,0.276353396
+"old","url/url-searchparams-sort.js","n=1000000 type=""empty""",3839582.3124203933,0.260444996
+"old","url/url-searchparams-sort.js","n=1000000 type=""sorted""",1701498.5829664576,0.587717210
+"old","url/url-searchparams-sort.js","n=1000000 type=""almostsorted""",1559329.7632052188,0.641301169
+"old","url/url-searchparams-sort.js","n=1000000 type=""reversed""",1693106.471288275,0.590630310
+"old","url/url-searchparams-sort.js","n=1000000 type=""random""",1719742.651312215,0.581482351
+"old","url/url-searchparams-sort.js","n=1000000 type=""short""",2784405.7850429546,0.359143055
+"old","url/url-searchparams-sort.js","n=1000000 type=""long""",1350780.6866695783,0.740312628
+"new","url/url-searchparams-sort.js","n=1000000 type=""wpt""",3677655.131207316,0.271912391
+"new","url/url-searchparams-sort.js","n=1000000 type=""empty""",3625085.704729367,0.275855547
+"new","url/url-searchparams-sort.js","n=1000000 type=""sorted""",1662964.2154213823,0.601335850
+"new","url/url-searchparams-sort.js","n=1000000 type=""almostsorted""",1594713.773890672,0.627071777
+"new","url/url-searchparams-sort.js","n=1000000 type=""reversed""",1706856.7422334817,0.585872250
+"new","url/url-searchparams-sort.js","n=1000000 type=""random""",1617877.7091799069,0.618093688
+"new","url/url-searchparams-sort.js","n=1000000 type=""short""",2546977.8799581155,0.392622177
+"new","url/url-searchparams-sort.js","n=1000000 type=""long""",1342378.0511222829,0.744946626
+"old","url/url-searchparams-sort.js","n=1000000 type=""wpt""",3618555.1343830787,0.276353396
+"old","url/url-searchparams-sort.js","n=1000000 type=""empty""",3839582.3124203933,0.260444996
+"old","url/url-searchparams-sort.js","n=1000000 type=""sorted""",1701498.5829664576,0.587717210
+"old","url/url-searchparams-sort.js","n=1000000 type=""almostsorted""",1559329.7632052188,0.641301169
+"old","url/url-searchparams-sort.js","n=1000000 type=""reversed""",1693106.471288275,0.590630310
+"old","url/url-searchparams-sort.js","n=1000000 type=""random""",1719742.651312215,0.581482351
+"old","url/url-searchparams-sort.js","n=1000000 type=""short""",2784405.7850429546,0.359143055
+"old","url/url-searchparams-sort.js","n=1000000 type=""long""",1350780.6866695783,0.740312628
+"new","url/url-searchparams-sort.js","n=1000000 type=""wpt""",3834938.3771230313,0.260760383
+"new","url/url-searchparams-sort.js","n=1000000 type=""empty""",3825329.8831561017,0.261415363
+"new","url/url-searchparams-sort.js","n=1000000 type=""sorted""",1610971.699320722,0.620743369
+"new","url/url-searchparams-sort.js","n=1000000 type=""almostsorted""",1677182.9728869216,0.596237868
+"new","url/url-searchparams-sort.js","n=1000000 type=""reversed""",1621045.486283462,0.616885836
+"new","url/url-searchparams-sort.js","n=1000000 type=""random""",1554831.391798271,0.643156554
+"new","url/url-searchparams-sort.js","n=1000000 type=""short""",2904097.0449331477,0.344341110
+"new","url/url-searchparams-sort.js","n=1000000 type=""long""",1250903.865606171,0.799421944
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""noencode""",896859.858836303,1.115001402
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""noencode""",859489.5625052958,1.163481261
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""noencode""",853701.1480370712,1.171370101
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""encodemany""",424717.0072992909,2.354508962
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""encodemany""",429885.04759477894,2.326203262
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""encodemany""",438566.2795896618,2.280157063
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""encodelast""",755008.3750474264,1.324488619
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""encodelast""",754137.6559996995,1.326017859
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""encodelast""",723324.6592577747,1.382505058
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""array""",562463.2507955842,1.777893931
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""array""",595756.157345571,1.678539093
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""array""",591944.4767067338,1.689347632
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""multiprimitives""",870450.4117191712,1.148830521
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""multiprimitives""",875991.0758268993,1.141564141
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""multiprimitives""",864813.1211792119,1.156319181
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""noencode""",884696.6824899771,1.130330903
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""noencode""",875213.0440309731,1.142578949
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""noencode""",869637.5167858303,1.149904392
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""encodemany""",436001.04945627,2.293572461
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""encodemany""",438021.82637968817,2.282991257
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""encodemany""",429498.153792737,2.328298716
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""encodelast""",731900.2381214005,1.366306428
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""encodelast""",736451.0036551278,1.357863585
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""encodelast""",717328.7041166227,1.394061041
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""array""",563176.8368340584,1.775641210
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""array""",609865.1109495579,1.639706850
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""array""",585583.4004626625,1.707698680
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""multiprimitives""",897970.188316453,1.113622716
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""multiprimitives""",881829.4521998283,1.134006125
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""multiprimitives""",873229.4178741219,1.145174429
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""noencode""",896859.858836303,1.115001402
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""noencode""",859489.5625052958,1.163481261
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""noencode""",853701.1480370712,1.171370101
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""encodemany""",424717.0072992909,2.354508962
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""encodemany""",429885.04759477894,2.326203262
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""encodemany""",438566.2795896618,2.280157063
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""encodelast""",755008.3750474264,1.324488619
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""encodelast""",754137.6559996995,1.326017859
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""encodelast""",723324.6592577747,1.382505058
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""array""",562463.2507955842,1.777893931
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""array""",595756.157345571,1.678539093
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""array""",591944.4767067338,1.689347632
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""multiprimitives""",870450.4117191712,1.148830521
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""multiprimitives""",875991.0758268993,1.141564141
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""multiprimitives""",864813.1211792119,1.156319181
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""noencode""",878067.9070341144,1.138864081
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""noencode""",863192.6965583599,1.158489876
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""noencode""",859782.0712103668,1.163085430
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""encodemany""",446378.9376776753,2.240249070
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""encodemany""",433376.66620391863,2.307461564
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""encodemany""",440083.8106347018,2.272294449
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""encodelast""",756823.7224833728,1.321311648
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""encodelast""",756667.1224602412,1.321585107
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""encodelast""",730432.4206824201,1.369052046
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""array""",583028.3968009388,1.715182323
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""array""",611769.6231282433,1.634602246
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""array""",612214.7643736559,1.633413727
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""multiprimitives""",905006.3652536692,1.104964604
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""multiprimitives""",866221.9164000723,1.154438581
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""multiprimitives""",859567.9562177343,1.163375150
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""noencode""",896859.858836303,1.115001402
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""noencode""",859489.5625052958,1.163481261
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""noencode""",853701.1480370712,1.171370101
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""encodemany""",424717.0072992909,2.354508962
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""encodemany""",429885.04759477894,2.326203262
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""encodemany""",438566.2795896618,2.280157063
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""encodelast""",755008.3750474264,1.324488619
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""encodelast""",754137.6559996995,1.326017859
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""encodelast""",723324.6592577747,1.382505058
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""array""",562463.2507955842,1.777893931
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""array""",595756.157345571,1.678539093
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""array""",591944.4767067338,1.689347632
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""multiprimitives""",870450.4117191712,1.148830521
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""multiprimitives""",875991.0758268993,1.141564141
+"old","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""multiprimitives""",864813.1211792119,1.156319181
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""noencode""",854201.7884011117,1.170683571
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""noencode""",858111.3419528827,1.165349939
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""noencode""",885641.1459764944,1.129125498
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""encodemany""",433312.1289443161,2.307805236
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""encodemany""",436732.9316958233,2.289728865
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""encodemany""",431071.30646755587,2.319801817
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""encodelast""",716466.5504422272,1.395738572
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""encodelast""",730843.8188622744,1.368281395
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""encodelast""",731212.9723393678,1.367590617
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""array""",563265.7353355373,1.775360966
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""array""",603981.7459152596,1.655679177
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""array""",594586.0131114362,1.681842455
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""string"" type=""multiprimitives""",851429.4843312645,1.174495385
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""iterable"" type=""multiprimitives""",894192.1597759004,1.118327855
+"new","url/url-searchparams-toString.js","n=1000000 inputType=""object"" type=""multiprimitives""",854870.094867918,1.169768373
+"old","url/usvstring.js","n=50000000 input=""valid""",8552847.868653532,5.846006005
+"old","url/usvstring.js","n=50000000 input=""validsurr""",3557915.4228784665,14.053172731
+"old","url/usvstring.js","n=50000000 input=""someinvalid""",753422.1831007332,66.363854319
+"old","url/usvstring.js","n=50000000 input=""allinvalid""",799361.3409840292,62.549935100
+"old","url/usvstring.js","n=50000000 input=""nonstring""",3387659.0674730763,14.759454539
+"new","url/usvstring.js","n=50000000 input=""valid""",8554508.171724899,5.844871382
+"new","url/usvstring.js","n=50000000 input=""validsurr""",3558116.9301370746,14.052376856
+"new","url/usvstring.js","n=50000000 input=""someinvalid""",779373.8369748422,64.154065261
+"new","url/usvstring.js","n=50000000 input=""allinvalid""",813706.3921105731,61.447225295
+"new","url/usvstring.js","n=50000000 input=""nonstring""",3630717.9752689274,13.771380851
+"old","url/usvstring.js","n=50000000 input=""valid""",8552847.868653532,5.846006005
+"old","url/usvstring.js","n=50000000 input=""validsurr""",3557915.4228784665,14.053172731
+"old","url/usvstring.js","n=50000000 input=""someinvalid""",753422.1831007332,66.363854319
+"old","url/usvstring.js","n=50000000 input=""allinvalid""",799361.3409840292,62.549935100
+"old","url/usvstring.js","n=50000000 input=""nonstring""",3387659.0674730763,14.759454539
+"new","url/usvstring.js","n=50000000 input=""valid""",8544263.95123934,5.851879142
+"new","url/usvstring.js","n=50000000 input=""validsurr""",3555298.016214201,14.063518662
+"new","url/usvstring.js","n=50000000 input=""someinvalid""",741517.8846819177,67.429256978
+"new","url/usvstring.js","n=50000000 input=""allinvalid""",810007.6254198859,61.727813950
+"new","url/usvstring.js","n=50000000 input=""nonstring""",3747623.0341134327,13.341790128
+"old","url/usvstring.js","n=50000000 input=""valid""",8552847.868653532,5.846006005
+"old","url/usvstring.js","n=50000000 input=""validsurr""",3557915.4228784665,14.053172731
+"old","url/usvstring.js","n=50000000 input=""someinvalid""",753422.1831007332,66.363854319
+"old","url/usvstring.js","n=50000000 input=""allinvalid""",799361.3409840292,62.549935100
+"old","url/usvstring.js","n=50000000 input=""nonstring""",3387659.0674730763,14.759454539
+"new","url/usvstring.js","n=50000000 input=""valid""",8541571.179908598,5.853723975
+"new","url/usvstring.js","n=50000000 input=""validsurr""",3557105.6006509443,14.056372122
+"new","url/usvstring.js","n=50000000 input=""someinvalid""",737207.0224940741,67.823553594
+"new","url/usvstring.js","n=50000000 input=""allinvalid""",797762.7430203238,62.675275873
+"new","url/usvstring.js","n=50000000 input=""nonstring""",3627818.3013841207,13.782388159
+"old","url/whatwg-url-canParse.js","n=1000000 type=""long""",223577.5579739755,4.472720827
+"old","url/whatwg-url-canParse.js","n=1000000 type=""short""",649627.7472225546,1.539343115
+"old","url/whatwg-url-canParse.js","n=1000000 type=""idn""",184682.11616241676,5.414709452
+"old","url/whatwg-url-canParse.js","n=1000000 type=""auth""",388993.71565014817,2.570735618
+"old","url/whatwg-url-canParse.js","n=1000000 type=""file""",596518.3681698638,1.676394313
+"old","url/whatwg-url-canParse.js","n=1000000 type=""ws""",479459.51656386536,2.085681826
+"old","url/whatwg-url-canParse.js","n=1000000 type=""javascript""",677134.2613064745,1.476811996
+"old","url/whatwg-url-canParse.js","n=1000000 type=""percent""",365897.6409947912,2.733004775
+"old","url/whatwg-url-canParse.js","n=1000000 type=""dot""",502834.95633070485,1.988724108
+"new","url/whatwg-url-canParse.js","n=1000000 type=""long""",231128.8577066434,4.326590846
+"new","url/whatwg-url-canParse.js","n=1000000 type=""short""",650236.9036721573,1.537901024
+"new","url/whatwg-url-canParse.js","n=1000000 type=""idn""",181668.28995458814,5.504537970
+"new","url/whatwg-url-canParse.js","n=1000000 type=""auth""",381422.0128721561,2.621767927
+"new","url/whatwg-url-canParse.js","n=1000000 type=""file""",582254.117805199,1.717463165
+"new","url/whatwg-url-canParse.js","n=1000000 type=""ws""",474860.53699799476,2.105881458
+"new","url/whatwg-url-canParse.js","n=1000000 type=""javascript""",680213.2333804427,1.470127235
+"new","url/whatwg-url-canParse.js","n=1000000 type=""percent""",369600.270152369,2.705625728
+"new","url/whatwg-url-canParse.js","n=1000000 type=""dot""",507227.5716434205,1.971501661
+"old","url/whatwg-url-canParse.js","n=1000000 type=""long""",223577.5579739755,4.472720827
+"old","url/whatwg-url-canParse.js","n=1000000 type=""short""",649627.7472225546,1.539343115
+"old","url/whatwg-url-canParse.js","n=1000000 type=""idn""",184682.11616241676,5.414709452
+"old","url/whatwg-url-canParse.js","n=1000000 type=""auth""",388993.71565014817,2.570735618
+"old","url/whatwg-url-canParse.js","n=1000000 type=""file""",596518.3681698638,1.676394313
+"old","url/whatwg-url-canParse.js","n=1000000 type=""ws""",479459.51656386536,2.085681826
+"old","url/whatwg-url-canParse.js","n=1000000 type=""javascript""",677134.2613064745,1.476811996
+"old","url/whatwg-url-canParse.js","n=1000000 type=""percent""",365897.6409947912,2.733004775
+"old","url/whatwg-url-canParse.js","n=1000000 type=""dot""",502834.95633070485,1.988724108
+"new","url/whatwg-url-canParse.js","n=1000000 type=""long""",225762.1439423615,4.429440572
+"new","url/whatwg-url-canParse.js","n=1000000 type=""short""",653352.2588401219,1.530567908
+"new","url/whatwg-url-canParse.js","n=1000000 type=""idn""",179009.7776135827,5.586287036
+"new","url/whatwg-url-canParse.js","n=1000000 type=""auth""",389872.85469971393,2.564938769
+"new","url/whatwg-url-canParse.js","n=1000000 type=""file""",577403.9393679395,1.731889812
+"new","url/whatwg-url-canParse.js","n=1000000 type=""ws""",440308.8981086481,2.271132844
+"new","url/whatwg-url-canParse.js","n=1000000 type=""javascript""",701703.0252428498,1.425104302
+"new","url/whatwg-url-canParse.js","n=1000000 type=""percent""",363094.02158329915,2.754107588
+"new","url/whatwg-url-canParse.js","n=1000000 type=""dot""",513427.90171438997,1.947693136
+"old","url/whatwg-url-canParse.js","n=1000000 type=""long""",223577.5579739755,4.472720827
+"old","url/whatwg-url-canParse.js","n=1000000 type=""short""",649627.7472225546,1.539343115
+"old","url/whatwg-url-canParse.js","n=1000000 type=""idn""",184682.11616241676,5.414709452
+"old","url/whatwg-url-canParse.js","n=1000000 type=""auth""",388993.71565014817,2.570735618
+"old","url/whatwg-url-canParse.js","n=1000000 type=""file""",596518.3681698638,1.676394313
+"old","url/whatwg-url-canParse.js","n=1000000 type=""ws""",479459.51656386536,2.085681826
+"old","url/whatwg-url-canParse.js","n=1000000 type=""javascript""",677134.2613064745,1.476811996
+"old","url/whatwg-url-canParse.js","n=1000000 type=""percent""",365897.6409947912,2.733004775
+"old","url/whatwg-url-canParse.js","n=1000000 type=""dot""",502834.95633070485,1.988724108
+"new","url/whatwg-url-canParse.js","n=1000000 type=""long""",227393.2074292617,4.397668740
+"new","url/whatwg-url-canParse.js","n=1000000 type=""short""",614970.2862500654,1.626094825
+"new","url/whatwg-url-canParse.js","n=1000000 type=""idn""",188401.54325672644,5.307812148
+"new","url/whatwg-url-canParse.js","n=1000000 type=""auth""",387883.14435658784,2.578096044
+"new","url/whatwg-url-canParse.js","n=1000000 type=""file""",582623.6482068073,1.716373860
+"new","url/whatwg-url-canParse.js","n=1000000 type=""ws""",489826.4177191364,2.041539541
+"new","url/whatwg-url-canParse.js","n=1000000 type=""javascript""",692228.1539083519,1.444610414
+"new","url/whatwg-url-canParse.js","n=1000000 type=""percent""",365378.82856391417,2.736885451
+"new","url/whatwg-url-canParse.js","n=1000000 type=""dot""",517921.87382426875,1.930793138
+"old","url/whatwg-url-get-prop.js","e=1 type=""long""",46862.557624836874,0.008535599
+"old","url/whatwg-url-get-prop.js","e=1 type=""short""",45890.505254462856,0.008716400
+"old","url/whatwg-url-get-prop.js","e=1 type=""idn""",46244.8061302115,0.008649620
+"old","url/whatwg-url-get-prop.js","e=1 type=""auth""",44116.02514613433,0.009067000
+"old","url/whatwg-url-get-prop.js","e=1 type=""file""",79185.02769496344,0.005051460
+"old","url/whatwg-url-get-prop.js","e=1 type=""ws""",46241.277738986486,0.008650280
+"old","url/whatwg-url-get-prop.js","e=1 type=""javascript""",47372.933947918194,0.008443640
+"old","url/whatwg-url-get-prop.js","e=1 type=""percent""",47951.51143164033,0.008341760
+"old","url/whatwg-url-get-prop.js","e=1 type=""dot""",47651.4960187175,0.008394280
+"old","url/whatwg-url-get-prop.js","e=1 type=""wpt""",77749.94137901245,0.006482320
+"new","url/whatwg-url-get-prop.js","e=1 type=""long""",46039.74196566218,0.008688146
+"new","url/whatwg-url-get-prop.js","e=1 type=""short""",49148.71356314043,0.008138565
+"new","url/whatwg-url-get-prop.js","e=1 type=""idn""",47448.656105782036,0.008430165
+"new","url/whatwg-url-get-prop.js","e=1 type=""auth""",44521.590467037044,0.008984405
+"new","url/whatwg-url-get-prop.js","e=1 type=""file""",49216.32234722484,0.008127385
+"new","url/whatwg-url-get-prop.js","e=1 type=""ws""",45888.58366607337,0.008716765
+"new","url/whatwg-url-get-prop.js","e=1 type=""javascript""",47714.220448048465,0.008383245
+"new","url/whatwg-url-get-prop.js","e=1 type=""percent""",46941.38722361058,0.008521265
+"new","url/whatwg-url-get-prop.js","e=1 type=""dot""",47614.25218364912,0.008400846
+"new","url/whatwg-url-get-prop.js","e=1 type=""wpt""",77754.69135398687,0.006481924
+"old","url/whatwg-url-get-prop.js","e=1 type=""long""",46862.557624836874,0.008535599
+"old","url/whatwg-url-get-prop.js","e=1 type=""short""",45890.505254462856,0.008716400
+"old","url/whatwg-url-get-prop.js","e=1 type=""idn""",46244.8061302115,0.008649620
+"old","url/whatwg-url-get-prop.js","e=1 type=""auth""",44116.02514613433,0.009067000
+"old","url/whatwg-url-get-prop.js","e=1 type=""file""",79185.02769496344,0.005051460
+"old","url/whatwg-url-get-prop.js","e=1 type=""ws""",46241.277738986486,0.008650280
+"old","url/whatwg-url-get-prop.js","e=1 type=""javascript""",47372.933947918194,0.008443640
+"old","url/whatwg-url-get-prop.js","e=1 type=""percent""",47951.51143164033,0.008341760
+"old","url/whatwg-url-get-prop.js","e=1 type=""dot""",47651.4960187175,0.008394280
+"old","url/whatwg-url-get-prop.js","e=1 type=""wpt""",77749.94137901245,0.006482320
+"new","url/whatwg-url-get-prop.js","e=1 type=""long""",45473.72709943104,0.008796288
+"new","url/whatwg-url-get-prop.js","e=1 type=""short""",48142.60417066602,0.008308649
+"new","url/whatwg-url-get-prop.js","e=1 type=""idn""",48232.69380800735,0.008293130
+"new","url/whatwg-url-get-prop.js","e=1 type=""auth""",44144.804228277644,0.009061089
+"new","url/whatwg-url-get-prop.js","e=1 type=""file""",80581.89800185096,0.004963894
+"new","url/whatwg-url-get-prop.js","e=1 type=""ws""",47718.17644988696,0.008382550
+"new","url/whatwg-url-get-prop.js","e=1 type=""javascript""",49745.00090722446,0.008041009
+"new","url/whatwg-url-get-prop.js","e=1 type=""percent""",47895.880104159165,0.008351449
+"new","url/whatwg-url-get-prop.js","e=1 type=""dot""",48381.34173555968,0.008267650
+"new","url/whatwg-url-get-prop.js","e=1 type=""wpt""",77401.14000821926,0.006511532
+"old","url/whatwg-url-get-prop.js","e=1 type=""long""",46862.557624836874,0.008535599
+"old","url/whatwg-url-get-prop.js","e=1 type=""short""",45890.505254462856,0.008716400
+"old","url/whatwg-url-get-prop.js","e=1 type=""idn""",46244.8061302115,0.008649620
+"old","url/whatwg-url-get-prop.js","e=1 type=""auth""",44116.02514613433,0.009067000
+"old","url/whatwg-url-get-prop.js","e=1 type=""file""",79185.02769496344,0.005051460
+"old","url/whatwg-url-get-prop.js","e=1 type=""ws""",46241.277738986486,0.008650280
+"old","url/whatwg-url-get-prop.js","e=1 type=""javascript""",47372.933947918194,0.008443640
+"old","url/whatwg-url-get-prop.js","e=1 type=""percent""",47951.51143164033,0.008341760
+"old","url/whatwg-url-get-prop.js","e=1 type=""dot""",47651.4960187175,0.008394280
+"old","url/whatwg-url-get-prop.js","e=1 type=""wpt""",77749.94137901245,0.006482320
+"new","url/whatwg-url-get-prop.js","e=1 type=""long""",46676.155929167064,0.008569686
+"new","url/whatwg-url-get-prop.js","e=1 type=""short""",48038.89613342131,0.008326586
+"new","url/whatwg-url-get-prop.js","e=1 type=""idn""",47274.137761092104,0.008461286
+"new","url/whatwg-url-get-prop.js","e=1 type=""auth""",45918.39428885379,0.008711106
+"new","url/whatwg-url-get-prop.js","e=1 type=""file""",78653.5920800552,0.005085591
+"new","url/whatwg-url-get-prop.js","e=1 type=""ws""",47676.9012684082,0.008389807
+"new","url/whatwg-url-get-prop.js","e=1 type=""javascript""",49206.744227157025,0.008128967
+"new","url/whatwg-url-get-prop.js","e=1 type=""percent""",47647.4886319048,0.008394986
+"new","url/whatwg-url-get-prop.js","e=1 type=""dot""",47725.936672216,0.008381187
+"new","url/whatwg-url-get-prop.js","e=1 type=""wpt""",78775.47894397094,0.006397930
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""empty""",3352124.727766241,1.491591276
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""empty""",3363717.7169841044,1.486450535
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""none""",317934.25622222666,15.726521764
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""none""",305340.67839234864,16.375151933
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""some""",143893.15377283175,34.748004814
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""some""",118235.46998927814,42.288494311
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""all""",137370.2896916158,36.397972307
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""all""",103168.43709024767,48.464434870
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""nonstring""",2034397.114430663,2.457730580
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""nonstring""",2014057.2665659725,2.482551059
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""empty""",3456608.957204396,1.446504381
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""empty""",3429801.1365356725,1.457810468
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""none""",318162.7361605726,15.715228189
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""none""",296563.80711361725,16.859778166
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""some""",142779.35135105552,35.019069303
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""some""",116182.38542606216,43.035783623
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""all""",136164.8440135243,36.720197759
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""all""",103024.37113801774,48.532205970
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""nonstring""",2059757.369364694,2.427470378
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""nonstring""",2215720.8108892594,2.256601994
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""empty""",3352124.727766241,1.491591276
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""empty""",3363717.7169841044,1.486450535
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""none""",317934.25622222666,15.726521764
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""none""",305340.67839234864,16.375151933
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""some""",143893.15377283175,34.748004814
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""some""",118235.46998927814,42.288494311
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""all""",137370.2896916158,36.397972307
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""all""",103168.43709024767,48.464434870
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""nonstring""",2034397.114430663,2.457730580
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""nonstring""",2014057.2665659725,2.482551059
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""empty""",3458506.08490529,1.445710916
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""empty""",3467578.89087521,1.441928261
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""none""",322945.4402051785,15.482491398
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""none""",298092.4732588182,16.773318512
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""some""",143014.5278893213,34.961483101
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""some""",117912.09505546179,42.404470870
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""all""",136855.78311934625,36.534809754
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""all""",102498.86866771209,48.781026220
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""nonstring""",1918779.4497172097,2.605823197
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""nonstring""",2112765.0278490763,2.366567003
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""empty""",3352124.727766241,1.491591276
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""empty""",3363717.7169841044,1.486450535
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""none""",317934.25622222666,15.726521764
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""none""",305340.67839234864,16.375151933
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""some""",143893.15377283175,34.748004814
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""some""",118235.46998927814,42.288494311
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""all""",137370.2896916158,36.397972307
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""all""",103168.43709024767,48.464434870
+"old","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""nonstring""",2034397.114430663,2.457730580
+"old","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""nonstring""",2014057.2665659725,2.482551059
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""empty""",3467942.1602568286,1.441777218
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""empty""",3499516.2128806664,1.428768920
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""none""",319549.9745906227,15.647004843
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""none""",295865.93726059224,16.899545944
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""some""",143609.54583431067,34.816627063
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""some""",117859.14244020017,42.423522660
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""all""",137811.86183680777,36.281347145
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""all""",98384.85294842902,50.820831156
+"new","url/whatwg-url-idna.js","n=5000000 to=""ascii"" domain=""nonstring""",2196769.7189311394,2.276069247
+"new","url/whatwg-url-idna.js","n=5000000 to=""unicode"" domain=""nonstring""",2198128.130444119,2.274662669
+"old","url/whatwg-url-parse.js","e=1 type=""long"" withBase=""true""",48462.17406159058,0.008253860
+"old","url/whatwg-url-parse.js","e=1 type=""short"" withBase=""true""",57214.784300263185,0.006991200
+"old","url/whatwg-url-parse.js","e=1 type=""idn"" withBase=""true""",44066.063842913296,0.009077280
+"old","url/whatwg-url-parse.js","e=1 type=""auth"" withBase=""true""",49787.035953708015,0.008034220
+"old","url/whatwg-url-parse.js","e=1 type=""file"" withBase=""true""",56475.318873769196,0.007082740
+"old","url/whatwg-url-parse.js","e=1 type=""ws"" withBase=""true""",54151.086947692755,0.007386740
+"old","url/whatwg-url-parse.js","e=1 type=""javascript"" withBase=""true""",59999.169011509184,0.006666759
+"old","url/whatwg-url-parse.js","e=1 type=""percent"" withBase=""true""",48842.434306925854,0.008189600
+"old","url/whatwg-url-parse.js","e=1 type=""dot"" withBase=""true""",54531.42509699777,0.007335220
+"old","url/whatwg-url-parse.js","e=1 type=""wpt"" withBase=""true""",54733.27088642746,0.019878220
+"old","url/whatwg-url-parse.js","e=1 type=""long"" withBase=""false""",55477.88651443535,0.007210080
+"old","url/whatwg-url-parse.js","e=1 type=""short"" withBase=""false""",67132.79201925368,0.005958340
+"old","url/whatwg-url-parse.js","e=1 type=""idn"" withBase=""false""",49956.912163259185,0.008006900
+"old","url/whatwg-url-parse.js","e=1 type=""auth"" withBase=""false""",61031.43118706134,0.006554000
+"old","url/whatwg-url-parse.js","e=1 type=""file"" withBase=""false""",64000.82945074968,0.006249919
+"old","url/whatwg-url-parse.js","e=1 type=""ws"" withBase=""false""",61081.38483715703,0.006548640
+"old","url/whatwg-url-parse.js","e=1 type=""javascript"" withBase=""false""",68882.38333046324,0.005807000
+"old","url/whatwg-url-parse.js","e=1 type=""percent"" withBase=""false""",56323.27305804395,0.007101860
+"old","url/whatwg-url-parse.js","e=1 type=""dot"" withBase=""false""",65927.40074629817,0.006067280
+"old","url/whatwg-url-parse.js","e=1 type=""wpt"" withBase=""false""",70667.21630057122,0.007132020
+"new","url/whatwg-url-parse.js","e=1 type=""long"" withBase=""true""",47800.0904616712,0.008368185
+"new","url/whatwg-url-parse.js","e=1 type=""short"" withBase=""true""",57816.627339314946,0.006918425
+"new","url/whatwg-url-parse.js","e=1 type=""idn"" withBase=""true""",43913.65039354865,0.009108785
+"new","url/whatwg-url-parse.js","e=1 type=""auth"" withBase=""true""",51751.363163250324,0.007729265
+"new","url/whatwg-url-parse.js","e=1 type=""file"" withBase=""true""",57029.73459074393,0.007013885
+"new","url/whatwg-url-parse.js","e=1 type=""ws"" withBase=""true""",53990.396458229996,0.007408725
+"new","url/whatwg-url-parse.js","e=1 type=""javascript"" withBase=""true""",61280.10461739461,0.006527404
+"new","url/whatwg-url-parse.js","e=1 type=""percent"" withBase=""true""",47992.67055935218,0.008334606
+"new","url/whatwg-url-parse.js","e=1 type=""dot"" withBase=""true""",53970.58198502451,0.007411445
+"new","url/whatwg-url-parse.js","e=1 type=""wpt"" withBase=""true""",51787.54369633498,0.021008913
+"new","url/whatwg-url-parse.js","e=1 type=""long"" withBase=""false""",55788.28568734794,0.007169964
+"new","url/whatwg-url-parse.js","e=1 type=""short"" withBase=""false""",69079.56999349271,0.005790424
+"new","url/whatwg-url-parse.js","e=1 type=""idn"" withBase=""false""",49481.15912089298,0.008083885
+"new","url/whatwg-url-parse.js","e=1 type=""auth"" withBase=""false""",59963.50621012052,0.006670724
+"new","url/whatwg-url-parse.js","e=1 type=""file"" withBase=""false""",67755.68114447476,0.005903564
+"new","url/whatwg-url-parse.js","e=1 type=""ws"" withBase=""false""",64153.52708874662,0.006235043
+"new","url/whatwg-url-parse.js","e=1 type=""javascript"" withBase=""false""",72921.33629077965,0.005485363
+"new","url/whatwg-url-parse.js","e=1 type=""percent"" withBase=""false""",57212.61566781784,0.006991465
+"new","url/whatwg-url-parse.js","e=1 type=""dot"" withBase=""false""",64374.87809007461,0.006213604
+"new","url/whatwg-url-parse.js","e=1 type=""wpt"" withBase=""false""",70143.17000366304,0.007185304
+"old","url/whatwg-url-parse.js","e=1 type=""long"" withBase=""true""",48462.17406159058,0.008253860
+"old","url/whatwg-url-parse.js","e=1 type=""short"" withBase=""true""",57214.784300263185,0.006991200
+"old","url/whatwg-url-parse.js","e=1 type=""idn"" withBase=""true""",44066.063842913296,0.009077280
+"old","url/whatwg-url-parse.js","e=1 type=""auth"" withBase=""true""",49787.035953708015,0.008034220
+"old","url/whatwg-url-parse.js","e=1 type=""file"" withBase=""true""",56475.318873769196,0.007082740
+"old","url/whatwg-url-parse.js","e=1 type=""ws"" withBase=""true""",54151.086947692755,0.007386740
+"old","url/whatwg-url-parse.js","e=1 type=""javascript"" withBase=""true""",59999.169011509184,0.006666759
+"old","url/whatwg-url-parse.js","e=1 type=""percent"" withBase=""true""",48842.434306925854,0.008189600
+"old","url/whatwg-url-parse.js","e=1 type=""dot"" withBase=""true""",54531.42509699777,0.007335220
+"old","url/whatwg-url-parse.js","e=1 type=""wpt"" withBase=""true""",54733.27088642746,0.019878220
+"old","url/whatwg-url-parse.js","e=1 type=""long"" withBase=""false""",55477.88651443535,0.007210080
+"old","url/whatwg-url-parse.js","e=1 type=""short"" withBase=""false""",67132.79201925368,0.005958340
+"old","url/whatwg-url-parse.js","e=1 type=""idn"" withBase=""false""",49956.912163259185,0.008006900
+"old","url/whatwg-url-parse.js","e=1 type=""auth"" withBase=""false""",61031.43118706134,0.006554000
+"old","url/whatwg-url-parse.js","e=1 type=""file"" withBase=""false""",64000.82945074968,0.006249919
+"old","url/whatwg-url-parse.js","e=1 type=""ws"" withBase=""false""",61081.38483715703,0.006548640
+"old","url/whatwg-url-parse.js","e=1 type=""javascript"" withBase=""false""",68882.38333046324,0.005807000
+"old","url/whatwg-url-parse.js","e=1 type=""percent"" withBase=""false""",56323.27305804395,0.007101860
+"old","url/whatwg-url-parse.js","e=1 type=""dot"" withBase=""false""",65927.40074629817,0.006067280
+"old","url/whatwg-url-parse.js","e=1 type=""wpt"" withBase=""false""",70667.21630057122,0.007132020
+"new","url/whatwg-url-parse.js","e=1 type=""long"" withBase=""true""",48958.35590007551,0.008170209
+"new","url/whatwg-url-parse.js","e=1 type=""short"" withBase=""true""",55858.97842307311,0.007160890
+"new","url/whatwg-url-parse.js","e=1 type=""idn"" withBase=""true""",43301.25287845079,0.009237608
+"new","url/whatwg-url-parse.js","e=1 type=""auth"" withBase=""true""",52013.778449911384,0.007690270
+"new","url/whatwg-url-parse.js","e=1 type=""file"" withBase=""true""",59117.27270738783,0.006766212
+"new","url/whatwg-url-parse.js","e=1 type=""ws"" withBase=""true""",54098.129408405846,0.007393971
+"new","url/whatwg-url-parse.js","e=1 type=""javascript"" withBase=""true""",60544.122134446705,0.006606752
+"new","url/whatwg-url-parse.js","e=1 type=""percent"" withBase=""true""",47931.11340381604,0.008345310
+"new","url/whatwg-url-parse.js","e=1 type=""dot"" withBase=""true""",54607.873827415366,0.007324951
+"new","url/whatwg-url-parse.js","e=1 type=""wpt"" withBase=""true""",53630.631056059094,0.020286914
+"new","url/whatwg-url-parse.js","e=1 type=""long"" withBase=""false""",54581.50314730593,0.007328490
+"new","url/whatwg-url-parse.js","e=1 type=""short"" withBase=""false""",67622.47656162699,0.005915193
+"new","url/whatwg-url-parse.js","e=1 type=""idn"" withBase=""false""",51087.982446169226,0.007829630
+"new","url/whatwg-url-parse.js","e=1 type=""auth"" withBase=""false""",59712.44576057309,0.006698771
+"new","url/whatwg-url-parse.js","e=1 type=""file"" withBase=""false""",68949.43300295637,0.005801353
+"new","url/whatwg-url-parse.js","e=1 type=""ws"" withBase=""false""",63749.97768750781,0.006274512
+"new","url/whatwg-url-parse.js","e=1 type=""javascript"" withBase=""false""",69663.92208229643,0.005741853
+"new","url/whatwg-url-parse.js","e=1 type=""percent"" withBase=""false""",56680.73907716105,0.007057071
+"new","url/whatwg-url-parse.js","e=1 type=""dot"" withBase=""false""",63908.66684603699,0.006258932
+"new","url/whatwg-url-parse.js","e=1 type=""wpt"" withBase=""false""",70633.03880010164,0.007135471
+"old","url/whatwg-url-parse.js","e=1 type=""long"" withBase=""true""",48462.17406159058,0.008253860
+"old","url/whatwg-url-parse.js","e=1 type=""short"" withBase=""true""",57214.784300263185,0.006991200
+"old","url/whatwg-url-parse.js","e=1 type=""idn"" withBase=""true""",44066.063842913296,0.009077280
+"old","url/whatwg-url-parse.js","e=1 type=""auth"" withBase=""true""",49787.035953708015,0.008034220
+"old","url/whatwg-url-parse.js","e=1 type=""file"" withBase=""true""",56475.318873769196,0.007082740
+"old","url/whatwg-url-parse.js","e=1 type=""ws"" withBase=""true""",54151.086947692755,0.007386740
+"old","url/whatwg-url-parse.js","e=1 type=""javascript"" withBase=""true""",59999.169011509184,0.006666759
+"old","url/whatwg-url-parse.js","e=1 type=""percent"" withBase=""true""",48842.434306925854,0.008189600
+"old","url/whatwg-url-parse.js","e=1 type=""dot"" withBase=""true""",54531.42509699777,0.007335220
+"old","url/whatwg-url-parse.js","e=1 type=""wpt"" withBase=""true""",54733.27088642746,0.019878220
+"old","url/whatwg-url-parse.js","e=1 type=""long"" withBase=""false""",55477.88651443535,0.007210080
+"old","url/whatwg-url-parse.js","e=1 type=""short"" withBase=""false""",67132.79201925368,0.005958340
+"old","url/whatwg-url-parse.js","e=1 type=""idn"" withBase=""false""",49956.912163259185,0.008006900
+"old","url/whatwg-url-parse.js","e=1 type=""auth"" withBase=""false""",61031.43118706134,0.006554000
+"old","url/whatwg-url-parse.js","e=1 type=""file"" withBase=""false""",64000.82945074968,0.006249919
+"old","url/whatwg-url-parse.js","e=1 type=""ws"" withBase=""false""",61081.38483715703,0.006548640
+"old","url/whatwg-url-parse.js","e=1 type=""javascript"" withBase=""false""",68882.38333046324,0.005807000
+"old","url/whatwg-url-parse.js","e=1 type=""percent"" withBase=""false""",56323.27305804395,0.007101860
+"old","url/whatwg-url-parse.js","e=1 type=""dot"" withBase=""false""",65927.40074629817,0.006067280
+"old","url/whatwg-url-parse.js","e=1 type=""wpt"" withBase=""false""",70667.21630057122,0.007132020
+"new","url/whatwg-url-parse.js","e=1 type=""long"" withBase=""true""",47714.442422147324,0.008383206
+"new","url/whatwg-url-parse.js","e=1 type=""short"" withBase=""true""",58804.08082679714,0.006802249
+"new","url/whatwg-url-parse.js","e=1 type=""idn"" withBase=""true""",43243.12636992873,0.009250025
+"new","url/whatwg-url-parse.js","e=1 type=""auth"" withBase=""true""",51760.71848018108,0.007727868
+"new","url/whatwg-url-parse.js","e=1 type=""file"" withBase=""true""",59183.075297591,0.006758689
+"new","url/whatwg-url-parse.js","e=1 type=""ws"" withBase=""true""",54320.01660019707,0.007363768
+"new","url/whatwg-url-parse.js","e=1 type=""javascript"" withBase=""true""",56283.10061912818,0.007106929
+"new","url/whatwg-url-parse.js","e=1 type=""percent"" withBase=""true""",50376.520410613986,0.007940207
+"new","url/whatwg-url-parse.js","e=1 type=""dot"" withBase=""true""",55643.44127975464,0.007188628
+"new","url/whatwg-url-parse.js","e=1 type=""wpt"" withBase=""true""",53740.05333601507,0.020245607
+"new","url/whatwg-url-parse.js","e=1 type=""long"" withBase=""false""",56122.478329357284,0.007127269
+"new","url/whatwg-url-parse.js","e=1 type=""short"" withBase=""false""",67919.65987192729,0.005889311
+"new","url/whatwg-url-parse.js","e=1 type=""idn"" withBase=""false""",49551.02436213276,0.008072487
+"new","url/whatwg-url-parse.js","e=1 type=""auth"" withBase=""false""",61882.82517993592,0.006463829
+"new","url/whatwg-url-parse.js","e=1 type=""file"" withBase=""false""",68967.76463922704,0.005799811
+"new","url/whatwg-url-parse.js","e=1 type=""ws"" withBase=""false""",64775.964230712554,0.006175130
+"new","url/whatwg-url-parse.js","e=1 type=""javascript"" withBase=""false""",69029.42897130619,0.005794630
+"new","url/whatwg-url-parse.js","e=1 type=""percent"" withBase=""false""",52270.58180293782,0.007652488
+"new","url/whatwg-url-parse.js","e=1 type=""dot"" withBase=""false""",64837.70312436682,0.006169250
+"new","url/whatwg-url-parse.js","e=1 type=""wpt"" withBase=""false""",68639.52645263846,0.007342708
+"old","url/whatwg-url-properties.js","prop=""href"" e=1 type=""wpt"" withBase=""true""",44847.22861645599,0.024260139
+"old","url/whatwg-url-properties.js","prop=""origin"" e=1 type=""wpt"" withBase=""true""",215168.59487787995,0.005056500
+"old","url/whatwg-url-properties.js","prop=""protocol"" e=1 type=""wpt"" withBase=""true""",45311.583773122235,0.024011520
+"old","url/whatwg-url-properties.js","prop=""username"" e=1 type=""wpt"" withBase=""true""",52400.25181018067,0.020763259
+"old","url/whatwg-url-properties.js","prop=""password"" e=1 type=""wpt"" withBase=""true""",50040.519943078914,0.021742380
+"old","url/whatwg-url-properties.js","prop=""host"" e=1 type=""wpt"" withBase=""true""",43520.6963311413,0.024999600
+"old","url/whatwg-url-properties.js","prop=""hostname"" e=1 type=""wpt"" withBase=""true""",43438.06018079735,0.025047159
+"old","url/whatwg-url-properties.js","prop=""port"" e=1 type=""wpt"" withBase=""true""",50913.35183933843,0.021369640
+"old","url/whatwg-url-properties.js","prop=""pathname"" e=1 type=""wpt"" withBase=""true""",42174.89089960438,0.025797340
+"old","url/whatwg-url-properties.js","prop=""search"" e=1 type=""wpt"" withBase=""true""",43027.01368796873,0.025286440
+"old","url/whatwg-url-properties.js","prop=""searchParams"" e=1 type=""wpt"" withBase=""true""",98007.2460504341,0.011101220
+"old","url/whatwg-url-properties.js","prop=""hash"" e=1 type=""wpt"" withBase=""true""",46048.271115968,0.023627380
+"old","url/whatwg-url-properties.js","prop=""href"" e=1 type=""wpt"" withBase=""false""",45022.18950768593,0.011194480
+"old","url/whatwg-url-properties.js","prop=""origin"" e=1 type=""wpt"" withBase=""false""",314104.80131624866,0.001604560
+"old","url/whatwg-url-properties.js","prop=""protocol"" e=1 type=""wpt"" withBase=""false""",45946.4978558301,0.010969280
+"old","url/whatwg-url-properties.js","prop=""username"" e=1 type=""wpt"" withBase=""false""",51181.33424863974,0.009847340
+"old","url/whatwg-url-properties.js","prop=""password"" e=1 type=""wpt"" withBase=""false""",52455.19452134635,0.009608200
+"old","url/whatwg-url-properties.js","prop=""host"" e=1 type=""wpt"" withBase=""false""",44259.05598243688,0.011387500
+"old","url/whatwg-url-properties.js","prop=""hostname"" e=1 type=""wpt"" withBase=""false""",44164.27005399608,0.011411940
+"old","url/whatwg-url-properties.js","prop=""port"" e=1 type=""wpt"" withBase=""false""",50679.548388913245,0.009944840
+"old","url/whatwg-url-properties.js","prop=""pathname"" e=1 type=""wpt"" withBase=""false""",43792.65221856704,0.011508780
+"old","url/whatwg-url-properties.js","prop=""search"" e=1 type=""wpt"" withBase=""false""",41978.73077640662,0.012006080
+"old","url/whatwg-url-properties.js","prop=""searchParams"" e=1 type=""wpt"" withBase=""false""",99990.4770974193,0.005040480
+"old","url/whatwg-url-properties.js","prop=""hash"" e=1 type=""wpt"" withBase=""false""",48100.0481000481,0.010478160
+"new","url/whatwg-url-properties.js","prop=""href"" e=1 type=""wpt"" withBase=""true""",45270.07971445232,0.024033534
+"new","url/whatwg-url-properties.js","prop=""origin"" e=1 type=""wpt"" withBase=""true""",214564.21672326914,0.005070743
+"new","url/whatwg-url-properties.js","prop=""protocol"" e=1 type=""wpt"" withBase=""true""",43959.178569415606,0.024750235
+"new","url/whatwg-url-properties.js","prop=""username"" e=1 type=""wpt"" withBase=""true""",50579.07226731337,0.021510873
+"new","url/whatwg-url-properties.js","prop=""password"" e=1 type=""wpt"" withBase=""true""",51644.867674978916,0.021066953
+"new","url/whatwg-url-properties.js","prop=""host"" e=1 type=""wpt"" withBase=""true""",44515.226928439115,0.024441075
+"new","url/whatwg-url-properties.js","prop=""hostname"" e=1 type=""wpt"" withBase=""true""",43393.09256149465,0.025073115
+"new","url/whatwg-url-properties.js","prop=""port"" e=1 type=""wpt"" withBase=""true""",52341.73204852983,0.020786473
+"new","url/whatwg-url-properties.js","prop=""pathname"" e=1 type=""wpt"" withBase=""true""",43953.957421623694,0.024753175
+"new","url/whatwg-url-properties.js","prop=""search"" e=1 type=""wpt"" withBase=""true""",44238.9447873166,0.024593715
+"new","url/whatwg-url-properties.js","prop=""searchParams"" e=1 type=""wpt"" withBase=""true""",101979.53716849502,0.010668807
+"new","url/whatwg-url-properties.js","prop=""hash"" e=1 type=""wpt"" withBase=""true""",48024.73132413983,0.022654994
+"new","url/whatwg-url-properties.js","prop=""href"" e=1 type=""wpt"" withBase=""false""",46273.65338848467,0.010891727
+"new","url/whatwg-url-properties.js","prop=""origin"" e=1 type=""wpt"" withBase=""false""",315157.38171749515,0.001599201
+"new","url/whatwg-url-properties.js","prop=""protocol"" e=1 type=""wpt"" withBase=""false""",45676.3070560741,0.011034167
+"new","url/whatwg-url-properties.js","prop=""username"" e=1 type=""wpt"" withBase=""false""",54098.69534126509,0.009316306
+"new","url/whatwg-url-properties.js","prop=""password"" e=1 type=""wpt"" withBase=""false""",53326.08211476006,0.009451285
+"new","url/whatwg-url-properties.js","prop=""host"" e=1 type=""wpt"" withBase=""false""",43419.65257902829,0.011607647
+"new","url/whatwg-url-properties.js","prop=""hostname"" e=1 type=""wpt"" withBase=""false""",43270.61640967726,0.011647627
+"new","url/whatwg-url-properties.js","prop=""port"" e=1 type=""wpt"" withBase=""false""",53416.05190514072,0.009435366
+"new","url/whatwg-url-properties.js","prop=""pathname"" e=1 type=""wpt"" withBase=""false""",42008.657284121975,0.011997527
+"new","url/whatwg-url-properties.js","prop=""search"" e=1 type=""wpt"" withBase=""false""",42691.57867105012,0.011805607
+"new","url/whatwg-url-properties.js","prop=""searchParams"" e=1 type=""wpt"" withBase=""false""",101336.21042383669,0.004973543
+"new","url/whatwg-url-properties.js","prop=""hash"" e=1 type=""wpt"" withBase=""false""",48789.2379459847,0.010330147
+"old","url/whatwg-url-properties.js","prop=""href"" e=1 type=""wpt"" withBase=""true""",44847.22861645599,0.024260139
+"old","url/whatwg-url-properties.js","prop=""origin"" e=1 type=""wpt"" withBase=""true""",215168.59487787995,0.005056500
+"old","url/whatwg-url-properties.js","prop=""protocol"" e=1 type=""wpt"" withBase=""true""",45311.583773122235,0.024011520
+"old","url/whatwg-url-properties.js","prop=""username"" e=1 type=""wpt"" withBase=""true""",52400.25181018067,0.020763259
+"old","url/whatwg-url-properties.js","prop=""password"" e=1 type=""wpt"" withBase=""true""",50040.519943078914,0.021742380
+"old","url/whatwg-url-properties.js","prop=""host"" e=1 type=""wpt"" withBase=""true""",43520.6963311413,0.024999600
+"old","url/whatwg-url-properties.js","prop=""hostname"" e=1 type=""wpt"" withBase=""true""",43438.06018079735,0.025047159
+"old","url/whatwg-url-properties.js","prop=""port"" e=1 type=""wpt"" withBase=""true""",50913.35183933843,0.021369640
+"old","url/whatwg-url-properties.js","prop=""pathname"" e=1 type=""wpt"" withBase=""true""",42174.89089960438,0.025797340
+"old","url/whatwg-url-properties.js","prop=""search"" e=1 type=""wpt"" withBase=""true""",43027.01368796873,0.025286440
+"old","url/whatwg-url-properties.js","prop=""searchParams"" e=1 type=""wpt"" withBase=""true""",98007.2460504341,0.011101220
+"old","url/whatwg-url-properties.js","prop=""hash"" e=1 type=""wpt"" withBase=""true""",46048.271115968,0.023627380
+"old","url/whatwg-url-properties.js","prop=""href"" e=1 type=""wpt"" withBase=""false""",45022.18950768593,0.011194480
+"old","url/whatwg-url-properties.js","prop=""origin"" e=1 type=""wpt"" withBase=""false""",314104.80131624866,0.001604560
+"old","url/whatwg-url-properties.js","prop=""protocol"" e=1 type=""wpt"" withBase=""false""",45946.4978558301,0.010969280
+"old","url/whatwg-url-properties.js","prop=""username"" e=1 type=""wpt"" withBase=""false""",51181.33424863974,0.009847340
+"old","url/whatwg-url-properties.js","prop=""password"" e=1 type=""wpt"" withBase=""false""",52455.19452134635,0.009608200
+"old","url/whatwg-url-properties.js","prop=""host"" e=1 type=""wpt"" withBase=""false""",44259.05598243688,0.011387500
+"old","url/whatwg-url-properties.js","prop=""hostname"" e=1 type=""wpt"" withBase=""false""",44164.27005399608,0.011411940
+"old","url/whatwg-url-properties.js","prop=""port"" e=1 type=""wpt"" withBase=""false""",50679.548388913245,0.009944840
+"old","url/whatwg-url-properties.js","prop=""pathname"" e=1 type=""wpt"" withBase=""false""",43792.65221856704,0.011508780
+"old","url/whatwg-url-properties.js","prop=""search"" e=1 type=""wpt"" withBase=""false""",41978.73077640662,0.012006080
+"old","url/whatwg-url-properties.js","prop=""searchParams"" e=1 type=""wpt"" withBase=""false""",99990.4770974193,0.005040480
+"old","url/whatwg-url-properties.js","prop=""hash"" e=1 type=""wpt"" withBase=""false""",48100.0481000481,0.010478160
+"new","url/whatwg-url-properties.js","prop=""href"" e=1 type=""wpt"" withBase=""true""",44737.156663395945,0.024319829
+"new","url/whatwg-url-properties.js","prop=""origin"" e=1 type=""wpt"" withBase=""true""",223163.28209192603,0.004875354
+"new","url/whatwg-url-properties.js","prop=""protocol"" e=1 type=""wpt"" withBase=""true""",43591.26474325286,0.024959129
+"new","url/whatwg-url-properties.js","prop=""username"" e=1 type=""wpt"" withBase=""true""",51043.307854059116,0.021315233
+"new","url/whatwg-url-properties.js","prop=""password"" e=1 type=""wpt"" withBase=""true""",49828.73205295476,0.021834792
+"new","url/whatwg-url-properties.js","prop=""host"" e=1 type=""wpt"" withBase=""true""",43112.008643957735,0.025236588
+"new","url/whatwg-url-properties.js","prop=""hostname"" e=1 type=""wpt"" withBase=""true""",43388.709236945746,0.025075648
+"new","url/whatwg-url-properties.js","prop=""port"" e=1 type=""wpt"" withBase=""true""",50307.59766794692,0.021626952
+"new","url/whatwg-url-properties.js","prop=""pathname"" e=1 type=""wpt"" withBase=""true""",43081.1444442667,0.025254668
+"new","url/whatwg-url-properties.js","prop=""search"" e=1 type=""wpt"" withBase=""true""",42663.476107884795,0.025501907
+"new","url/whatwg-url-properties.js","prop=""searchParams"" e=1 type=""wpt"" withBase=""true""",93954.08080655434,0.011580125
+"new","url/whatwg-url-properties.js","prop=""hash"" e=1 type=""wpt"" withBase=""true""",44324.63575069495,0.024546169
+"new","url/whatwg-url-properties.js","prop=""href"" e=1 type=""wpt"" withBase=""false""",45451.32352630847,0.011088786
+"new","url/whatwg-url-properties.js","prop=""origin"" e=1 type=""wpt"" withBase=""false""",312012.8668163173,0.001615318
+"new","url/whatwg-url-properties.js","prop=""protocol"" e=1 type=""wpt"" withBase=""false""",44568.85206731382,0.011308346
+"new","url/whatwg-url-properties.js","prop=""username"" e=1 type=""wpt"" withBase=""false""",53338.81961192199,0.009449028
+"new","url/whatwg-url-properties.js","prop=""password"" e=1 type=""wpt"" withBase=""false""",51968.68515514508,0.009698148
+"new","url/whatwg-url-properties.js","prop=""host"" e=1 type=""wpt"" withBase=""false""",43755.60238832663,0.011518525
+"new","url/whatwg-url-properties.js","prop=""hostname"" e=1 type=""wpt"" withBase=""false""",43105.27308345104,0.011692305
+"new","url/whatwg-url-properties.js","prop=""port"" e=1 type=""wpt"" withBase=""false""",52119.705312704275,0.009670047
+"new","url/whatwg-url-properties.js","prop=""pathname"" e=1 type=""wpt"" withBase=""false""",43376.3123163338,0.011619245
+"new","url/whatwg-url-properties.js","prop=""search"" e=1 type=""wpt"" withBase=""false""",41362.7923955491,0.012184864
+"new","url/whatwg-url-properties.js","prop=""searchParams"" e=1 type=""wpt"" withBase=""false""",103095.44060413928,0.004888674
+"new","url/whatwg-url-properties.js","prop=""hash"" e=1 type=""wpt"" withBase=""false""",47308.542843376716,0.010653467
+"old","url/whatwg-url-properties.js","prop=""href"" e=1 type=""wpt"" withBase=""true""",44847.22861645599,0.024260139
+"old","url/whatwg-url-properties.js","prop=""origin"" e=1 type=""wpt"" withBase=""true""",215168.59487787995,0.005056500
+"old","url/whatwg-url-properties.js","prop=""protocol"" e=1 type=""wpt"" withBase=""true""",45311.583773122235,0.024011520
+"old","url/whatwg-url-properties.js","prop=""username"" e=1 type=""wpt"" withBase=""true""",52400.25181018067,0.020763259
+"old","url/whatwg-url-properties.js","prop=""password"" e=1 type=""wpt"" withBase=""true""",50040.519943078914,0.021742380
+"old","url/whatwg-url-properties.js","prop=""host"" e=1 type=""wpt"" withBase=""true""",43520.6963311413,0.024999600
+"old","url/whatwg-url-properties.js","prop=""hostname"" e=1 type=""wpt"" withBase=""true""",43438.06018079735,0.025047159
+"old","url/whatwg-url-properties.js","prop=""port"" e=1 type=""wpt"" withBase=""true""",50913.35183933843,0.021369640
+"old","url/whatwg-url-properties.js","prop=""pathname"" e=1 type=""wpt"" withBase=""true""",42174.89089960438,0.025797340
+"old","url/whatwg-url-properties.js","prop=""search"" e=1 type=""wpt"" withBase=""true""",43027.01368796873,0.025286440
+"old","url/whatwg-url-properties.js","prop=""searchParams"" e=1 type=""wpt"" withBase=""true""",98007.2460504341,0.011101220
+"old","url/whatwg-url-properties.js","prop=""hash"" e=1 type=""wpt"" withBase=""true""",46048.271115968,0.023627380
+"old","url/whatwg-url-properties.js","prop=""href"" e=1 type=""wpt"" withBase=""false""",45022.18950768593,0.011194480
+"old","url/whatwg-url-properties.js","prop=""origin"" e=1 type=""wpt"" withBase=""false""",314104.80131624866,0.001604560
+"old","url/whatwg-url-properties.js","prop=""protocol"" e=1 type=""wpt"" withBase=""false""",45946.4978558301,0.010969280
+"old","url/whatwg-url-properties.js","prop=""username"" e=1 type=""wpt"" withBase=""false""",51181.33424863974,0.009847340
+"old","url/whatwg-url-properties.js","prop=""password"" e=1 type=""wpt"" withBase=""false""",52455.19452134635,0.009608200
+"old","url/whatwg-url-properties.js","prop=""host"" e=1 type=""wpt"" withBase=""false""",44259.05598243688,0.011387500
+"old","url/whatwg-url-properties.js","prop=""hostname"" e=1 type=""wpt"" withBase=""false""",44164.27005399608,0.011411940
+"old","url/whatwg-url-properties.js","prop=""port"" e=1 type=""wpt"" withBase=""false""",50679.548388913245,0.009944840
+"old","url/whatwg-url-properties.js","prop=""pathname"" e=1 type=""wpt"" withBase=""false""",43792.65221856704,0.011508780
+"old","url/whatwg-url-properties.js","prop=""search"" e=1 type=""wpt"" withBase=""false""",41978.73077640662,0.012006080
+"old","url/whatwg-url-properties.js","prop=""searchParams"" e=1 type=""wpt"" withBase=""false""",99990.4770974193,0.005040480
+"old","url/whatwg-url-properties.js","prop=""hash"" e=1 type=""wpt"" withBase=""false""",48100.0481000481,0.010478160
+"new","url/whatwg-url-properties.js","prop=""href"" e=1 type=""wpt"" withBase=""true""",45431.87886458051,0.023947942
+"new","url/whatwg-url-properties.js","prop=""origin"" e=1 type=""wpt"" withBase=""true""",220756.28506129232,0.004928512
+"new","url/whatwg-url-properties.js","prop=""protocol"" e=1 type=""wpt"" withBase=""true""",45185.1223665442,0.024078722
+"new","url/whatwg-url-properties.js","prop=""username"" e=1 type=""wpt"" withBase=""true""",52250.95480455693,0.020822586
+"new","url/whatwg-url-properties.js","prop=""password"" e=1 type=""wpt"" withBase=""true""",51438.6122240647,0.021151426
+"new","url/whatwg-url-properties.js","prop=""host"" e=1 type=""wpt"" withBase=""true""",43694.49834860499,0.024900160
+"new","url/whatwg-url-properties.js","prop=""hostname"" e=1 type=""wpt"" withBase=""true""",43597.81337731583,0.024955380
+"new","url/whatwg-url-properties.js","prop=""port"" e=1 type=""wpt"" withBase=""true""",51399.730888394275,0.021167426
+"new","url/whatwg-url-properties.js","prop=""pathname"" e=1 type=""wpt"" withBase=""true""",44141.54652261376,0.024647981
+"new","url/whatwg-url-properties.js","prop=""search"" e=1 type=""wpt"" withBase=""true""",42260.7004345977,0.025744959
+"new","url/whatwg-url-properties.js","prop=""searchParams"" e=1 type=""wpt"" withBase=""true""",102518.07187251802,0.010612763
+"new","url/whatwg-url-properties.js","prop=""hash"" e=1 type=""wpt"" withBase=""true""",48050.75785275472,0.022642723
+"new","url/whatwg-url-properties.js","prop=""href"" e=1 type=""wpt"" withBase=""false""",45698.11210581072,0.011028902
+"new","url/whatwg-url-properties.js","prop=""origin"" e=1 type=""wpt"" withBase=""false""",312040.1045829652,0.001615177
+"new","url/whatwg-url-properties.js","prop=""protocol"" e=1 type=""wpt"" withBase=""false""",45939.87236372128,0.010970862
+"new","url/whatwg-url-properties.js","prop=""username"" e=1 type=""wpt"" withBase=""false""",54149.26825966508,0.009307605
+"new","url/whatwg-url-properties.js","prop=""password"" e=1 type=""wpt"" withBase=""false""",52496.58225375952,0.009600625
+"new","url/whatwg-url-properties.js","prop=""host"" e=1 type=""wpt"" withBase=""false""",40562.27032821637,0.012425340
+"new","url/whatwg-url-properties.js","prop=""hostname"" e=1 type=""wpt"" withBase=""false""",43225.80827758791,0.011659701
+"new","url/whatwg-url-properties.js","prop=""port"" e=1 type=""wpt"" withBase=""false""",51554.17423101425,0.009776124
+"new","url/whatwg-url-properties.js","prop=""pathname"" e=1 type=""wpt"" withBase=""false""",43146.39615017719,0.011681161
+"new","url/whatwg-url-properties.js","prop=""search"" e=1 type=""wpt"" withBase=""false""",43213.944522555365,0.011662902
+"new","url/whatwg-url-properties.js","prop=""searchParams"" e=1 type=""wpt"" withBase=""false""",106070.60598305565,0.004751552
+"new","url/whatwg-url-properties.js","prop=""hash"" e=1 type=""wpt"" withBase=""false""",47411.36309268084,0.010630363
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null""",89895.76289887566,55.619974054
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null""",90249.91635494705,55.401713397
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null?key=param&bool""",68773.84001965713,72.702062275
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null?key=param&bool""",68847.29784737914,72.624491539
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null?key=param&bool#hash""",63609.17368909217,78.605014183
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null?key=param&bool#hash""",64166.812275890006,77.921901099
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null""",90487.09430238947,55.256498604
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null""",89835.38820018101,55.657353969
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null?key=param&bool""",61244.92552595737,81.639416769
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null?key=param&bool""",64317.01741061407,77.739923294
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null?key=param&bool#hash""",58713.70045338186,85.158999712
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null?key=param&bool#hash""",61043.285161184824,81.909091013
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null""",89895.76289887566,55.619974054
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null""",90249.91635494705,55.401713397
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null?key=param&bool""",68773.84001965713,72.702062275
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null?key=param&bool""",68847.29784737914,72.624491539
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null?key=param&bool#hash""",63609.17368909217,78.605014183
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null?key=param&bool#hash""",64166.812275890006,77.921901099
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null""",90016.4102245464,55.545427634
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null""",89353.57508852253,55.957470029
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null?key=param&bool""",65319.11375930363,76.547272494
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null?key=param&bool""",62023.170896106334,80.615033507
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null?key=param&bool#hash""",61081.7571241166,81.857501084
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null?key=param&bool#hash""",61277.27195430244,81.596321777
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null""",89895.76289887566,55.619974054
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null""",90249.91635494705,55.401713397
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null?key=param&bool""",68773.84001965713,72.702062275
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null?key=param&bool""",68847.29784737914,72.624491539
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null?key=param&bool#hash""",63609.17368909217,78.605014183
+"old","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null?key=param&bool#hash""",64166.812275890006,77.921901099
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null""",90933.6671908946,54.985135368
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null""",88065.8767914298,56.775679550
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null?key=param&bool""",65218.12421513615,76.665805099
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null?key=param&bool""",64772.15391920411,77.193665757
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""fileURLToPath"" input=""file:///dev/null?key=param&bool#hash""",60621.754440800774,82.478642298
+"new","url/whatwg-url-to-and-from-path.js","n=5000000 method=""pathToFileURL"" input=""file:///dev/null?key=param&bool#hash""",60624.50985690026,82.474893600
+"old","url/whatwg-url-validity.js","e=100000 type=""valid""",302525.14013410715,0.330551041
+"old","url/whatwg-url-validity.js","e=100000 type=""invalid""",23856.584267593575,4.191714911
+"new","url/whatwg-url-validity.js","e=100000 type=""valid""",305172.87555123377,0.327683120
+"new","url/whatwg-url-validity.js","e=100000 type=""invalid""",23934.972791910106,4.177986784
+"old","url/whatwg-url-validity.js","e=100000 type=""valid""",302525.14013410715,0.330551041
+"old","url/whatwg-url-validity.js","e=100000 type=""invalid""",23856.584267593575,4.191714911
+"new","url/whatwg-url-validity.js","e=100000 type=""valid""",307305.7784841304,0.325408785
+"new","url/whatwg-url-validity.js","e=100000 type=""invalid""",23647.691239912463,4.228742628
+"old","url/whatwg-url-validity.js","e=100000 type=""valid""",302525.14013410715,0.330551041
+"old","url/whatwg-url-validity.js","e=100000 type=""invalid""",23856.584267593575,4.191714911
+"new","url/whatwg-url-validity.js","e=100000 type=""valid""",301239.68504860747,0.331961574
+"new","url/whatwg-url-validity.js","e=100000 type=""invalid""",23805.20676928364,4.200761664

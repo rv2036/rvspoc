@@ -1,0 +1,6 @@
+"filename","configuration","rate","time"
+"v8/get-stats.js","n=1000000 method=""getHeapStatistics""",537228.5382181776,1.861405210
+"v8/get-stats.js","n=1000000 method=""getHeapSpaceStatistics""",232799.1673406998,4.295548010
+"v8/serialize.js","n=1000000 len=256",27985.42514379348,35.732885774
+"v8/serialize.js","n=1000000 len=16384",11387.679135526325,87.814205871
+"v8/serialize.js","n=1000000 len=524288",460.1680448162528,2173.119170844

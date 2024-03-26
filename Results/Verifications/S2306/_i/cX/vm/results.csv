@@ -1,0 +1,73 @@
+"binary","filename","configuration","rate","time"
+"old","vm/compile-script-in-isolate-cache.js","n=100 type=""with-dynamic-import-callback""",214.06341630848772,0.467151285
+"old","vm/compile-script-in-isolate-cache.js","n=100 type=""without-dynamic-import-callback""",214.77103930659024,0.465612125
+"new","vm/compile-script-in-isolate-cache.js","n=100 type=""with-dynamic-import-callback""",214.19127689275098,0.466872421
+"new","vm/compile-script-in-isolate-cache.js","n=100 type=""without-dynamic-import-callback""",215.75977629284182,0.463478419
+"old","vm/compile-script-in-isolate-cache.js","n=100 type=""with-dynamic-import-callback""",214.06341630848772,0.467151285
+"old","vm/compile-script-in-isolate-cache.js","n=100 type=""without-dynamic-import-callback""",214.77103930659024,0.465612125
+"new","vm/compile-script-in-isolate-cache.js","n=100 type=""with-dynamic-import-callback""",213.43724756243137,0.468521784
+"new","vm/compile-script-in-isolate-cache.js","n=100 type=""without-dynamic-import-callback""",213.96993165282578,0.467355386
+"old","vm/compile-script-in-isolate-cache.js","n=100 type=""with-dynamic-import-callback""",214.06341630848772,0.467151285
+"old","vm/compile-script-in-isolate-cache.js","n=100 type=""without-dynamic-import-callback""",214.77103930659024,0.465612125
+"new","vm/compile-script-in-isolate-cache.js","n=100 type=""with-dynamic-import-callback""",208.88204514254735,0.478739089
+"new","vm/compile-script-in-isolate-cache.js","n=100 type=""without-dynamic-import-callback""",215.48721667231663,0.464064651
+"old","vm/context-global-proxy.js","n=100000",50031.03785501619,1.998759256
+"new","vm/context-global-proxy.js","n=100000",49519.14655573216,2.019420910
+"old","vm/context-global-proxy.js","n=100000",50031.03785501619,1.998759256
+"new","vm/context-global-proxy.js","n=100000",51414.445430146196,1.944978676
+"old","vm/context-global-proxy.js","n=100000",50031.03785501619,1.998759256
+"new","vm/context-global-proxy.js","n=100000",48492.26449796483,2.062184578
+"old","vm/create-context.js","n=100",327.50807493265546,0.305335983
+"new","vm/create-context.js","n=100",322.87363423685895,0.309718693
+"old","vm/create-context.js","n=100",327.50807493265546,0.305335983
+"new","vm/create-context.js","n=100",322.943285468811,0.309651894
+"old","vm/create-context.js","n=100",327.50807493265546,0.305335983
+"new","vm/create-context.js","n=100",327.84560551832607,0.305021627
+"old","vm/run-in-context.js","withSigintListener=0 breakOnSigint=0 n=1",626.2834897267588,0.001596721
+"old","vm/run-in-context.js","withSigintListener=1 breakOnSigint=0 n=1",628.5197103781175,0.001591040
+"old","vm/run-in-context.js","withSigintListener=0 breakOnSigint=1 n=1",478.78045043664775,0.002088640
+"old","vm/run-in-context.js","withSigintListener=1 breakOnSigint=1 n=1",308.43245067162707,0.003242201
+"new","vm/run-in-context.js","withSigintListener=0 breakOnSigint=0 n=1",586.6475497785112,0.001704601
+"new","vm/run-in-context.js","withSigintListener=1 breakOnSigint=0 n=1",579.4007952855316,0.001725921
+"new","vm/run-in-context.js","withSigintListener=0 breakOnSigint=1 n=1",477.1397570976925,0.002095822
+"new","vm/run-in-context.js","withSigintListener=1 breakOnSigint=1 n=1",318.6659876956689,0.003138082
+"old","vm/run-in-context.js","withSigintListener=0 breakOnSigint=0 n=1",626.2834897267588,0.001596721
+"old","vm/run-in-context.js","withSigintListener=1 breakOnSigint=0 n=1",628.5197103781175,0.001591040
+"old","vm/run-in-context.js","withSigintListener=0 breakOnSigint=1 n=1",478.78045043664775,0.002088640
+"old","vm/run-in-context.js","withSigintListener=1 breakOnSigint=1 n=1",308.43245067162707,0.003242201
+"new","vm/run-in-context.js","withSigintListener=0 breakOnSigint=0 n=1",497.2707296005871,0.002010977
+"new","vm/run-in-context.js","withSigintListener=1 breakOnSigint=0 n=1",535.2639948785941,0.001868237
+"new","vm/run-in-context.js","withSigintListener=0 breakOnSigint=1 n=1",442.63926316497697,0.002259176
+"new","vm/run-in-context.js","withSigintListener=1 breakOnSigint=1 n=1",303.56623542047265,0.003294174
+"old","vm/run-in-context.js","withSigintListener=0 breakOnSigint=0 n=1",626.2834897267588,0.001596721
+"old","vm/run-in-context.js","withSigintListener=1 breakOnSigint=0 n=1",628.5197103781175,0.001591040
+"old","vm/run-in-context.js","withSigintListener=0 breakOnSigint=1 n=1",478.78045043664775,0.002088640
+"old","vm/run-in-context.js","withSigintListener=1 breakOnSigint=1 n=1",308.43245067162707,0.003242201
+"new","vm/run-in-context.js","withSigintListener=0 breakOnSigint=0 n=1",619.66430306046,0.001613777
+"new","vm/run-in-context.js","withSigintListener=1 breakOnSigint=0 n=1",616.7441091686413,0.001621418
+"new","vm/run-in-context.js","withSigintListener=0 breakOnSigint=1 n=1",459.53411512340557,0.002176117
+"new","vm/run-in-context.js","withSigintListener=1 breakOnSigint=1 n=1",311.48611270315126,0.003210416
+"old","vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=0 n=1",608.7835287528461,0.001642620
+"old","vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=0 n=1",601.9599817004165,0.001661240
+"old","vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=1 n=1",433.5909875511691,0.002306321
+"old","vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=1 n=1",310.81963136791717,0.003217300
+"new","vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=0 n=1",604.6091776045505,0.001653961
+"new","vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=0 n=1",626.0404008912311,0.001597341
+"new","vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=1 n=1",425.9595057336279,0.002347641
+"new","vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=1 n=1",314.6353910697666,0.003178282
+"old","vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=0 n=1",608.7835287528461,0.001642620
+"old","vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=0 n=1",601.9599817004165,0.001661240
+"old","vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=1 n=1",433.5909875511691,0.002306321
+"old","vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=1 n=1",310.81963136791717,0.003217300
+"new","vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=0 n=1",598.4451198895031,0.001670997
+"new","vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=0 n=1",631.4016232072929,0.001583778
+"new","vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=1 n=1",456.7928754928795,0.002189176
+"new","vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=1 n=1",311.1450604943784,0.003213935
+"old","vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=0 n=1",608.7835287528461,0.001642620
+"old","vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=0 n=1",601.9599817004165,0.001661240
+"old","vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=1 n=1",433.5909875511691,0.002306321
+"old","vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=1 n=1",310.81963136791717,0.003217300
+"new","vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=0 n=1",612.9787210566773,0.001631378
+"new","vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=0 n=1",534.8860719411069,0.001869557
+"new","vm/run-in-this-context.js","withSigintListener=0 breakOnSigint=1 n=1",472.48774721149545,0.002116457
+"new","vm/run-in-this-context.js","withSigintListener=1 breakOnSigint=1 n=1",287.26758257147577,0.003481075

@@ -1,0 +1,223 @@
+"binary","filename","configuration","rate","time"
+"old","validators/parse-file-mode.js","value=""'777'"" n=10000000",2056836.013127932,4.861836304
+"old","validators/parse-file-mode.js","value=""0o777"" n=10000000",47648359.75548444,0.209870813
+"new","validators/parse-file-mode.js","value=""'777'"" n=10000000",2093209.1595609281,4.777353450
+"new","validators/parse-file-mode.js","value=""0o777"" n=10000000",47719124.84938353,0.209559585
+"old","validators/parse-file-mode.js","value=""'777'"" n=10000000",2056836.013127932,4.861836304
+"old","validators/parse-file-mode.js","value=""0o777"" n=10000000",47648359.75548444,0.209870813
+"new","validators/parse-file-mode.js","value=""'777'"" n=10000000",2007341.7250940662,4.981712817
+"new","validators/parse-file-mode.js","value=""0o777"" n=10000000",47684387.94637094,0.209712244
+"old","validators/parse-file-mode.js","value=""'777'"" n=10000000",2056836.013127932,4.861836304
+"old","validators/parse-file-mode.js","value=""0o777"" n=10000000",47648359.75548444,0.209870813
+"new","validators/parse-file-mode.js","value=""'777'"" n=10000000",2048361.9686457184,4.881949652
+"new","validators/parse-file-mode.js","value=""0o777"" n=10000000",47736855.58640242,0.209481749
+"old","validators/validate-array.js","value=""[]"" n=10000000",65137335.81939095,0.153521784
+"old","validators/validate-array.js","value=""[1,2,3]"" n=10000000",65085410.542888865,0.153644264
+"new","validators/validate-array.js","value=""[]"" n=10000000",63712379.281526834,0.156955369
+"new","validators/validate-array.js","value=""[1,2,3]"" n=10000000",64851471.38844522,0.154198506
+"old","validators/validate-array.js","value=""[]"" n=10000000",65137335.81939095,0.153521784
+"old","validators/validate-array.js","value=""[1,2,3]"" n=10000000",65085410.542888865,0.153644264
+"new","validators/validate-array.js","value=""[]"" n=10000000",64868175.73655445,0.154158798
+"new","validators/validate-array.js","value=""[1,2,3]"" n=10000000",65123610.47380422,0.153554140
+"old","validators/validate-array.js","value=""[]"" n=10000000",65137335.81939095,0.153521784
+"old","validators/validate-array.js","value=""[1,2,3]"" n=10000000",65085410.542888865,0.153644264
+"new","validators/validate-array.js","value=""[]"" n=10000000",63423531.446839295,0.157670186
+"new","validators/validate-array.js","value=""[1,2,3]"" n=10000000",64927175.86159271,0.154018712
+"old","validators/validate-boolean.js","value=""true"" code=""validateBoolean"" n=100000000",81990449.20805967,1.219654252
+"old","validators/validate-boolean.js","value=""false"" code=""validateBoolean"" n=100000000",81092987.30689664,1.233152253
+"new","validators/validate-boolean.js","value=""true"" code=""validateBoolean"" n=100000000",81851907.79550874,1.221718622
+"new","validators/validate-boolean.js","value=""false"" code=""validateBoolean"" n=100000000",81711096.84814863,1.223823983
+"old","validators/validate-boolean.js","value=""true"" code=""validateBoolean"" n=100000000",81990449.20805967,1.219654252
+"old","validators/validate-boolean.js","value=""false"" code=""validateBoolean"" n=100000000",81092987.30689664,1.233152253
+"new","validators/validate-boolean.js","value=""true"" code=""validateBoolean"" n=100000000",82467942.23681429,1.212592400
+"new","validators/validate-boolean.js","value=""false"" code=""validateBoolean"" n=100000000",82302204.946192,1.215034276
+"old","validators/validate-boolean.js","value=""true"" code=""validateBoolean"" n=100000000",81990449.20805967,1.219654252
+"old","validators/validate-boolean.js","value=""false"" code=""validateBoolean"" n=100000000",81092987.30689664,1.233152253
+"new","validators/validate-boolean.js","value=""true"" code=""validateBoolean"" n=100000000",82272510.48615801,1.215472816
+"new","validators/validate-boolean.js","value=""false"" code=""validateBoolean"" n=100000000",81580645.2333971,1.225780940
+"old","validators/validate-encoding.js","value=""test"" encoding=""ascii"" n=100000000",13384725.08462785,7.471203134
+"old","validators/validate-encoding.js","value=""test"" encoding=""utf8"" n=100000000",25407186.24411826,3.935894319
+"old","validators/validate-encoding.js","value=""test"" encoding=""utf-8"" n=100000000",24469999.970046274,4.086636703
+"old","validators/validate-encoding.js","value=""test"" encoding=""utf16le"" n=100000000",21536509.104812276,4.643278050
+"old","validators/validate-encoding.js","value=""test"" encoding=""ucs2"" n=100000000",10040164.877382796,9.959995799
+"old","validators/validate-encoding.js","value=""test"" encoding=""ucs-2"" n=100000000",9327186.237563593,10.721346980
+"old","validators/validate-encoding.js","value=""test"" encoding=""base64"" n=100000000",21586538.111058183,4.632516779
+"old","validators/validate-encoding.js","value=""test"" encoding=""latin1"" n=100000000",13418069.389739776,7.452636970
+"old","validators/validate-encoding.js","value=""test"" encoding=""binary"" n=100000000",9161828.920412352,10.914851267
+"old","validators/validate-encoding.js","value=""test"" encoding=""hex"" n=100000000",21022160.61214633,4.756884977
+"new","validators/validate-encoding.js","value=""test"" encoding=""ascii"" n=100000000",13704338.90463383,7.296959065
+"new","validators/validate-encoding.js","value=""test"" encoding=""utf8"" n=100000000",25411316.268497724,3.935254630
+"new","validators/validate-encoding.js","value=""test"" encoding=""utf-8"" n=100000000",24478015.295026176,4.085298534
+"new","validators/validate-encoding.js","value=""test"" encoding=""utf16le"" n=100000000",21567071.37282568,4.636698153
+"new","validators/validate-encoding.js","value=""test"" encoding=""ucs2"" n=100000000",10070497.614217645,9.929995898
+"new","validators/validate-encoding.js","value=""test"" encoding=""ucs-2"" n=100000000",9359371.203104915,10.684478458
+"new","validators/validate-encoding.js","value=""test"" encoding=""base64"" n=100000000",21547394.616215732,4.640932316
+"new","validators/validate-encoding.js","value=""test"" encoding=""latin1"" n=100000000",13392801.726552641,7.466697562
+"new","validators/validate-encoding.js","value=""test"" encoding=""binary"" n=100000000",9197903.210002052,10.872043086
+"new","validators/validate-encoding.js","value=""test"" encoding=""hex"" n=100000000",21149632.89643138,4.728214456
+"old","validators/validate-encoding.js","value=""test"" encoding=""ascii"" n=100000000",13384725.08462785,7.471203134
+"old","validators/validate-encoding.js","value=""test"" encoding=""utf8"" n=100000000",25407186.24411826,3.935894319
+"old","validators/validate-encoding.js","value=""test"" encoding=""utf-8"" n=100000000",24469999.970046274,4.086636703
+"old","validators/validate-encoding.js","value=""test"" encoding=""utf16le"" n=100000000",21536509.104812276,4.643278050
+"old","validators/validate-encoding.js","value=""test"" encoding=""ucs2"" n=100000000",10040164.877382796,9.959995799
+"old","validators/validate-encoding.js","value=""test"" encoding=""ucs-2"" n=100000000",9327186.237563593,10.721346980
+"old","validators/validate-encoding.js","value=""test"" encoding=""base64"" n=100000000",21586538.111058183,4.632516779
+"old","validators/validate-encoding.js","value=""test"" encoding=""latin1"" n=100000000",13418069.389739776,7.452636970
+"old","validators/validate-encoding.js","value=""test"" encoding=""binary"" n=100000000",9161828.920412352,10.914851267
+"old","validators/validate-encoding.js","value=""test"" encoding=""hex"" n=100000000",21022160.61214633,4.756884977
+"new","validators/validate-encoding.js","value=""test"" encoding=""ascii"" n=100000000",13670643.944895519,7.314944373
+"new","validators/validate-encoding.js","value=""test"" encoding=""utf8"" n=100000000",25462913.93565467,3.927280289
+"new","validators/validate-encoding.js","value=""test"" encoding=""utf-8"" n=100000000",24492149.499970824,4.082940944
+"new","validators/validate-encoding.js","value=""test"" encoding=""utf16le"" n=100000000",21555149.739002734,4.639262599
+"new","validators/validate-encoding.js","value=""test"" encoding=""ucs2"" n=100000000",10059673.446705261,9.940680533
+"new","validators/validate-encoding.js","value=""test"" encoding=""ucs-2"" n=100000000",9352404.186701186,10.692437795
+"new","validators/validate-encoding.js","value=""test"" encoding=""base64"" n=100000000",21497174.607961193,4.651774097
+"new","validators/validate-encoding.js","value=""test"" encoding=""latin1"" n=100000000",13388045.614936633,7.469350111
+"new","validators/validate-encoding.js","value=""test"" encoding=""binary"" n=100000000",9173721.978852684,10.900700962
+"new","validators/validate-encoding.js","value=""test"" encoding=""hex"" n=100000000",21107051.36959359,4.737753192
+"old","validators/validate-encoding.js","value=""test"" encoding=""ascii"" n=100000000",13384725.08462785,7.471203134
+"old","validators/validate-encoding.js","value=""test"" encoding=""utf8"" n=100000000",25407186.24411826,3.935894319
+"old","validators/validate-encoding.js","value=""test"" encoding=""utf-8"" n=100000000",24469999.970046274,4.086636703
+"old","validators/validate-encoding.js","value=""test"" encoding=""utf16le"" n=100000000",21536509.104812276,4.643278050
+"old","validators/validate-encoding.js","value=""test"" encoding=""ucs2"" n=100000000",10040164.877382796,9.959995799
+"old","validators/validate-encoding.js","value=""test"" encoding=""ucs-2"" n=100000000",9327186.237563593,10.721346980
+"old","validators/validate-encoding.js","value=""test"" encoding=""base64"" n=100000000",21586538.111058183,4.632516779
+"old","validators/validate-encoding.js","value=""test"" encoding=""latin1"" n=100000000",13418069.389739776,7.452636970
+"old","validators/validate-encoding.js","value=""test"" encoding=""binary"" n=100000000",9161828.920412352,10.914851267
+"old","validators/validate-encoding.js","value=""test"" encoding=""hex"" n=100000000",21022160.61214633,4.756884977
+"new","validators/validate-encoding.js","value=""test"" encoding=""ascii"" n=100000000",13621609.674660005,7.341276280
+"new","validators/validate-encoding.js","value=""test"" encoding=""utf8"" n=100000000",25363224.80210424,3.942716306
+"new","validators/validate-encoding.js","value=""test"" encoding=""utf-8"" n=100000000",24428090.151853025,4.093647902
+"new","validators/validate-encoding.js","value=""test"" encoding=""utf16le"" n=100000000",21520935.559333023,4.646638141
+"new","validators/validate-encoding.js","value=""test"" encoding=""ucs2"" n=100000000",10054799.93155919,9.945498735
+"new","validators/validate-encoding.js","value=""test"" encoding=""ucs-2"" n=100000000",9312182.29073022,10.738621397
+"new","validators/validate-encoding.js","value=""test"" encoding=""base64"" n=100000000",21554197.51925878,4.639467552
+"new","validators/validate-encoding.js","value=""test"" encoding=""latin1"" n=100000000",13411075.246195937,7.456523669
+"new","validators/validate-encoding.js","value=""test"" encoding=""binary"" n=100000000",9169000.763565777,10.906313848
+"new","validators/validate-encoding.js","value=""test"" encoding=""hex"" n=100000000",21101218.47162919,4.739062824
+"old","validators/validate-object.js","objectToTest=""object"" n=100000",8812667.539825767,0.011347302
+"old","validators/validate-object.js","objectToTest=""null"" n=100000",7447401.609026013,0.013427502
+"old","validators/validate-object.js","objectToTest=""array"" n=100000",7943176.422237653,0.012589422
+"old","validators/validate-object.js","objectToTest=""function"" n=100000",6818695.389920959,0.014665562
+"new","validators/validate-object.js","objectToTest=""object"" n=100000",8866735.448889121,0.011278108
+"new","validators/validate-object.js","objectToTest=""null"" n=100000",7302975.400146454,0.013693049
+"new","validators/validate-object.js","objectToTest=""array"" n=100000",7965355.165628409,0.012554368
+"new","validators/validate-object.js","objectToTest=""function"" n=100000",7114677.936316517,0.014055450
+"old","validators/validate-object.js","objectToTest=""object"" n=100000",8812667.539825767,0.011347302
+"old","validators/validate-object.js","objectToTest=""null"" n=100000",7447401.609026013,0.013427502
+"old","validators/validate-object.js","objectToTest=""array"" n=100000",7943176.422237653,0.012589422
+"old","validators/validate-object.js","objectToTest=""function"" n=100000",6818695.389920959,0.014665562
+"new","validators/validate-object.js","objectToTest=""object"" n=100000",8974693.339215945,0.011142442
+"new","validators/validate-object.js","objectToTest=""null"" n=100000",7177588.468084422,0.013932256
+"new","validators/validate-object.js","objectToTest=""array"" n=100000",7990067.38742934,0.012515539
+"new","validators/validate-object.js","objectToTest=""function"" n=100000",7064204.292267042,0.014155876
+"old","validators/validate-object.js","objectToTest=""object"" n=100000",8812667.539825767,0.011347302
+"old","validators/validate-object.js","objectToTest=""null"" n=100000",7447401.609026013,0.013427502
+"old","validators/validate-object.js","objectToTest=""array"" n=100000",7943176.422237653,0.012589422
+"old","validators/validate-object.js","objectToTest=""function"" n=100000",6818695.389920959,0.014665562
+"new","validators/validate-object.js","objectToTest=""object"" n=100000",8785491.077762755,0.011382403
+"new","validators/validate-object.js","objectToTest=""null"" n=100000",7257811.019519956,0.013778259
+"new","validators/validate-object.js","objectToTest=""array"" n=100000",7983163.826815799,0.012526362
+"new","validators/validate-object.js","objectToTest=""function"" n=100000",6876520.656586695,0.014542238
+"old","validators/validate-one-of.js","validLength=1 value=""fifo"" code=""validateOneOf"" n=10000000",4088368.8531677853,2.445963258
+"old","validators/validate-one-of.js","validLength=2 value=""fifo"" code=""validateOneOf"" n=10000000",3607152.8040857203,2.772269583
+"old","validators/validate-one-of.js","validLength=3 value=""fifo"" code=""validateOneOf"" n=10000000",3728890.8824881944,2.681762571
+"old","validators/validate-one-of.js","validLength=1 value=""lifo"" code=""validateOneOf"" n=10000000",4182392.759695944,2.390975830
+"old","validators/validate-one-of.js","validLength=2 value=""lifo"" code=""validateOneOf"" n=10000000",3797804.1130039287,2.633100524
+"old","validators/validate-one-of.js","validLength=3 value=""lifo"" code=""validateOneOf"" n=10000000",3642911.2075886033,2.745057299
+"old","validators/validate-one-of.js","validLength=1 value=""lilo"" code=""validateOneOf"" n=10000000",3968035.430277263,2.520138788
+"old","validators/validate-one-of.js","validLength=2 value=""lilo"" code=""validateOneOf"" n=10000000",3571795.3348543253,2.799712487
+"old","validators/validate-one-of.js","validLength=3 value=""lilo"" code=""validateOneOf"" n=10000000",3721125.9727842407,2.687358631
+"new","validators/validate-one-of.js","validLength=1 value=""fifo"" code=""validateOneOf"" n=10000000",4055978.4108186457,2.465496358
+"new","validators/validate-one-of.js","validLength=2 value=""fifo"" code=""validateOneOf"" n=10000000",3704877.2180738216,2.699144779
+"new","validators/validate-one-of.js","validLength=3 value=""fifo"" code=""validateOneOf"" n=10000000",3519946.9623402776,2.840951897
+"new","validators/validate-one-of.js","validLength=1 value=""lifo"" code=""validateOneOf"" n=10000000",4172898.769269022,2.396415670
+"new","validators/validate-one-of.js","validLength=2 value=""lifo"" code=""validateOneOf"" n=10000000",3760337.9431653353,2.659335451
+"new","validators/validate-one-of.js","validLength=3 value=""lifo"" code=""validateOneOf"" n=10000000",3695924.517672324,2.705682963
+"new","validators/validate-one-of.js","validLength=1 value=""lilo"" code=""validateOneOf"" n=10000000",4056875.5501460475,2.464951137
+"new","validators/validate-one-of.js","validLength=2 value=""lilo"" code=""validateOneOf"" n=10000000",3756587.27957045,2.661990593
+"new","validators/validate-one-of.js","validLength=3 value=""lilo"" code=""validateOneOf"" n=10000000",3764105.595192027,2.656673610
+"old","validators/validate-one-of.js","validLength=1 value=""fifo"" code=""validateOneOf"" n=10000000",4088368.8531677853,2.445963258
+"old","validators/validate-one-of.js","validLength=2 value=""fifo"" code=""validateOneOf"" n=10000000",3607152.8040857203,2.772269583
+"old","validators/validate-one-of.js","validLength=3 value=""fifo"" code=""validateOneOf"" n=10000000",3728890.8824881944,2.681762571
+"old","validators/validate-one-of.js","validLength=1 value=""lifo"" code=""validateOneOf"" n=10000000",4182392.759695944,2.390975830
+"old","validators/validate-one-of.js","validLength=2 value=""lifo"" code=""validateOneOf"" n=10000000",3797804.1130039287,2.633100524
+"old","validators/validate-one-of.js","validLength=3 value=""lifo"" code=""validateOneOf"" n=10000000",3642911.2075886033,2.745057299
+"old","validators/validate-one-of.js","validLength=1 value=""lilo"" code=""validateOneOf"" n=10000000",3968035.430277263,2.520138788
+"old","validators/validate-one-of.js","validLength=2 value=""lilo"" code=""validateOneOf"" n=10000000",3571795.3348543253,2.799712487
+"old","validators/validate-one-of.js","validLength=3 value=""lilo"" code=""validateOneOf"" n=10000000",3721125.9727842407,2.687358631
+"new","validators/validate-one-of.js","validLength=1 value=""fifo"" code=""validateOneOf"" n=10000000",4275438.478217598,2.338941386
+"new","validators/validate-one-of.js","validLength=2 value=""fifo"" code=""validateOneOf"" n=10000000",3766324.3575357115,2.655108549
+"new","validators/validate-one-of.js","validLength=3 value=""fifo"" code=""validateOneOf"" n=10000000",3639836.579155965,2.747376093
+"new","validators/validate-one-of.js","validLength=1 value=""lifo"" code=""validateOneOf"" n=10000000",4196942.125342815,2.382687133
+"new","validators/validate-one-of.js","validLength=2 value=""lifo"" code=""validateOneOf"" n=10000000",3829987.5497254226,2.610974545
+"new","validators/validate-one-of.js","validLength=3 value=""lifo"" code=""validateOneOf"" n=10000000",3509310.5671311566,2.849562559
+"new","validators/validate-one-of.js","validLength=1 value=""lilo"" code=""validateOneOf"" n=10000000",3966375.233240365,2.521193637
+"new","validators/validate-one-of.js","validLength=2 value=""lilo"" code=""validateOneOf"" n=10000000",4058284.573321501,2.464095314
+"new","validators/validate-one-of.js","validLength=3 value=""lilo"" code=""validateOneOf"" n=10000000",3926544.60192071,2.546768473
+"old","validators/validate-one-of.js","validLength=1 value=""fifo"" code=""validateOneOf"" n=10000000",4088368.8531677853,2.445963258
+"old","validators/validate-one-of.js","validLength=2 value=""fifo"" code=""validateOneOf"" n=10000000",3607152.8040857203,2.772269583
+"old","validators/validate-one-of.js","validLength=3 value=""fifo"" code=""validateOneOf"" n=10000000",3728890.8824881944,2.681762571
+"old","validators/validate-one-of.js","validLength=1 value=""lifo"" code=""validateOneOf"" n=10000000",4182392.759695944,2.390975830
+"old","validators/validate-one-of.js","validLength=2 value=""lifo"" code=""validateOneOf"" n=10000000",3797804.1130039287,2.633100524
+"old","validators/validate-one-of.js","validLength=3 value=""lifo"" code=""validateOneOf"" n=10000000",3642911.2075886033,2.745057299
+"old","validators/validate-one-of.js","validLength=1 value=""lilo"" code=""validateOneOf"" n=10000000",3968035.430277263,2.520138788
+"old","validators/validate-one-of.js","validLength=2 value=""lilo"" code=""validateOneOf"" n=10000000",3571795.3348543253,2.799712487
+"old","validators/validate-one-of.js","validLength=3 value=""lilo"" code=""validateOneOf"" n=10000000",3721125.9727842407,2.687358631
+"new","validators/validate-one-of.js","validLength=1 value=""fifo"" code=""validateOneOf"" n=10000000",4036346.88228032,2.477487761
+"new","validators/validate-one-of.js","validLength=2 value=""fifo"" code=""validateOneOf"" n=10000000",3682450.986113386,2.715582648
+"new","validators/validate-one-of.js","validLength=3 value=""fifo"" code=""validateOneOf"" n=10000000",3807167.4556868933,2.626624680
+"new","validators/validate-one-of.js","validLength=1 value=""lifo"" code=""validateOneOf"" n=10000000",4216339.5046726735,2.371725519
+"new","validators/validate-one-of.js","validLength=2 value=""lifo"" code=""validateOneOf"" n=10000000",3720917.5918222833,2.687509130
+"new","validators/validate-one-of.js","validLength=3 value=""lifo"" code=""validateOneOf"" n=10000000",3795082.8210943067,2.634988608
+"new","validators/validate-one-of.js","validLength=1 value=""lilo"" code=""validateOneOf"" n=10000000",4359887.174578103,2.293637335
+"new","validators/validate-one-of.js","validLength=2 value=""lilo"" code=""validateOneOf"" n=10000000",3685059.6874202956,2.713660252
+"new","validators/validate-one-of.js","validLength=3 value=""lilo"" code=""validateOneOf"" n=10000000",3727849.2914572097,2.682511877
+"old","validators/validate-x-array.js","arrayLength=0 type=""validateStringArray"" n=100000000",63291801.88163716,1.579983458
+"old","validators/validate-x-array.js","arrayLength=1 type=""validateStringArray"" n=100000000",49191130.0555379,2.032886821
+"old","validators/validate-x-array.js","arrayLength=10 type=""validateStringArray"" n=100000000",15264045.522683427,6.551343145
+"old","validators/validate-x-array.js","arrayLength=100 type=""validateStringArray"" n=100000000",2341327.8411624883,42.710806339
+"old","validators/validate-x-array.js","arrayLength=0 type=""validateBooleanArray"" n=100000000",63268746.9893804,1.580559198
+"old","validators/validate-x-array.js","arrayLength=1 type=""validateBooleanArray"" n=100000000",49344068.82434928,2.026586019
+"old","validators/validate-x-array.js","arrayLength=10 type=""validateBooleanArray"" n=100000000",16469599.622969229,6.071793018
+"old","validators/validate-x-array.js","arrayLength=100 type=""validateBooleanArray"" n=100000000",2673285.184272411,37.407157526
+"new","validators/validate-x-array.js","arrayLength=0 type=""validateStringArray"" n=100000000",63336381.139107704,1.578871388
+"new","validators/validate-x-array.js","arrayLength=1 type=""validateStringArray"" n=100000000",49382354.3022994,2.025014834
+"new","validators/validate-x-array.js","arrayLength=10 type=""validateStringArray"" n=100000000",15282566.66640777,6.543403486
+"new","validators/validate-x-array.js","arrayLength=100 type=""validateStringArray"" n=100000000",2344323.7758265524,42.656223953
+"new","validators/validate-x-array.js","arrayLength=0 type=""validateBooleanArray"" n=100000000",63281649.03578647,1.580236949
+"new","validators/validate-x-array.js","arrayLength=1 type=""validateBooleanArray"" n=100000000",49182740.241947606,2.033233600
+"new","validators/validate-x-array.js","arrayLength=10 type=""validateBooleanArray"" n=100000000",16396749.22903223,6.098769860
+"new","validators/validate-x-array.js","arrayLength=100 type=""validateBooleanArray"" n=100000000",2673012.4836968016,37.410973802
+"old","validators/validate-x-array.js","arrayLength=0 type=""validateStringArray"" n=100000000",63291801.88163716,1.579983458
+"old","validators/validate-x-array.js","arrayLength=1 type=""validateStringArray"" n=100000000",49191130.0555379,2.032886821
+"old","validators/validate-x-array.js","arrayLength=10 type=""validateStringArray"" n=100000000",15264045.522683427,6.551343145
+"old","validators/validate-x-array.js","arrayLength=100 type=""validateStringArray"" n=100000000",2341327.8411624883,42.710806339
+"old","validators/validate-x-array.js","arrayLength=0 type=""validateBooleanArray"" n=100000000",63268746.9893804,1.580559198
+"old","validators/validate-x-array.js","arrayLength=1 type=""validateBooleanArray"" n=100000000",49344068.82434928,2.026586019
+"old","validators/validate-x-array.js","arrayLength=10 type=""validateBooleanArray"" n=100000000",16469599.622969229,6.071793018
+"old","validators/validate-x-array.js","arrayLength=100 type=""validateBooleanArray"" n=100000000",2673285.184272411,37.407157526
+"new","validators/validate-x-array.js","arrayLength=0 type=""validateStringArray"" n=100000000",63731688.40893823,1.569078154
+"new","validators/validate-x-array.js","arrayLength=1 type=""validateStringArray"" n=100000000",49193546.89264443,2.032786947
+"new","validators/validate-x-array.js","arrayLength=10 type=""validateStringArray"" n=100000000",15277212.164459407,6.545696880
+"new","validators/validate-x-array.js","arrayLength=100 type=""validateStringArray"" n=100000000",2342925.238771597,42.681686272
+"new","validators/validate-x-array.js","arrayLength=0 type=""validateBooleanArray"" n=100000000",63698557.918091826,1.569894253
+"new","validators/validate-x-array.js","arrayLength=1 type=""validateBooleanArray"" n=100000000",49416408.47392138,2.023619342
+"new","validators/validate-x-array.js","arrayLength=10 type=""validateBooleanArray"" n=100000000",16514892.83622947,6.055140714
+"new","validators/validate-x-array.js","arrayLength=100 type=""validateBooleanArray"" n=100000000",2674671.3900368437,37.387770465
+"old","validators/validate-x-array.js","arrayLength=0 type=""validateStringArray"" n=100000000",63291801.88163716,1.579983458
+"old","validators/validate-x-array.js","arrayLength=1 type=""validateStringArray"" n=100000000",49191130.0555379,2.032886821
+"old","validators/validate-x-array.js","arrayLength=10 type=""validateStringArray"" n=100000000",15264045.522683427,6.551343145
+"old","validators/validate-x-array.js","arrayLength=100 type=""validateStringArray"" n=100000000",2341327.8411624883,42.710806339
+"old","validators/validate-x-array.js","arrayLength=0 type=""validateBooleanArray"" n=100000000",63268746.9893804,1.580559198
+"old","validators/validate-x-array.js","arrayLength=1 type=""validateBooleanArray"" n=100000000",49344068.82434928,2.026586019
+"old","validators/validate-x-array.js","arrayLength=10 type=""validateBooleanArray"" n=100000000",16469599.622969229,6.071793018
+"old","validators/validate-x-array.js","arrayLength=100 type=""validateBooleanArray"" n=100000000",2673285.184272411,37.407157526
+"new","validators/validate-x-array.js","arrayLength=0 type=""validateStringArray"" n=100000000",63647701.438653246,1.571148647
+"new","validators/validate-x-array.js","arrayLength=1 type=""validateStringArray"" n=100000000",49399247.013403274,2.024322354
+"new","validators/validate-x-array.js","arrayLength=10 type=""validateStringArray"" n=100000000",15281444.933186958,6.543883804
+"new","validators/validate-x-array.js","arrayLength=100 type=""validateStringArray"" n=100000000",2342182.753369468,42.695216612
+"new","validators/validate-x-array.js","arrayLength=0 type=""validateBooleanArray"" n=100000000",63763001.106953755,1.568307612
+"new","validators/validate-x-array.js","arrayLength=1 type=""validateBooleanArray"" n=100000000",49208896.061192654,2.032152883
+"new","validators/validate-x-array.js","arrayLength=10 type=""validateBooleanArray"" n=100000000",16399293.874874922,6.097823526
+"new","validators/validate-x-array.js","arrayLength=100 type=""validateBooleanArray"" n=100000000",2674579.7103640283,37.389052049

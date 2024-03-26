@@ -1,0 +1,19 @@
+                                                                        confidence improvement accuracy (*)    (**)   (***)
+worker/atomics-wait.js n=10000000                                                      -2.71 %      ±10.97% ±25.29% ±80.53%
+worker/bench-eventlooputil.js method="ELU_passed" n=1000000                             2.04 %       ±3.60%  ±8.31% ±26.45%
+worker/bench-eventlooputil.js method="ELU_simple" n=1000000                            -0.27 %       ±1.43%  ±3.31% ±10.54%
+worker/echo.js n=100000 sendsPerBroadcast=1 payload="object" workers=1                  2.19 %       ±3.00%  ±6.93% ±22.07%
+worker/echo.js n=100000 sendsPerBroadcast=1 payload="string" workers=1                  2.84 %      ±12.06% ±27.83% ±88.60%
+worker/echo.js n=100000 sendsPerBroadcast=10 payload="object" workers=1                -1.81 %       ±2.45%  ±5.64% ±17.97%
+worker/echo.js n=100000 sendsPerBroadcast=10 payload="string" workers=1                 3.38 %       ±7.05% ±16.27% ±51.79%
+worker/messageport.js n=1000000 style="eventemitter" payload="object"                  -0.22 %       ±2.56%  ±5.91% ±18.83%
+worker/messageport.js n=1000000 style="eventemitter" payload="string"                   0.84 %       ±4.00%  ±9.24% ±29.40%
+worker/messageport.js n=1000000 style="eventtarget" payload="object"                    0.29 %       ±3.31%  ±7.65% ±24.34%
+worker/messageport.js n=1000000 style="eventtarget" payload="string"             *      4.98 %       ±3.91%  ±9.01% ±28.68%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 11 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.55 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.11 false positives, when considering a   1% risk acceptance (**, ***),
+  0.01 false positives, when considering a 0.1% risk acceptance (***)

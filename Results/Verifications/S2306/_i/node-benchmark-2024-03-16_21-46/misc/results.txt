@@ -1,0 +1,70 @@
+"filename","configuration","rate","time"
+"misc/arguments.js","n=1000000 method=""restAndSpread""",680074.9999767415,1.470426056
+"misc/arguments.js","n=1000000 method=""argumentsAndApply""",671759.697454641,1.488627561
+"misc/arguments.js","n=1000000 method=""restAndApply""",647607.4113103983,1.544145392
+"misc/arguments.js","n=1000000 method=""predefined""",695868.9335762527,1.437052226
+"misc/freelist.js","n=100000",71160.30759051495,1.405277793
+"misc/getstringwidth.js","n=100000 type=""ascii""",103272.9260900092,0.968307995
+"misc/getstringwidth.js","n=100000 type=""mixed""",25025.29900695852,3.995956251
+"misc/getstringwidth.js","n=100000 type=""emojiseq""",37057.765174461485,2.698489764
+"misc/getstringwidth.js","n=100000 type=""fullwidth""",79356.37409680344,1.260138220
+"misc/object-property-bench.js","n=1000000000 method=""property""",396304458.2321152,2.523312517
+"misc/object-property-bench.js","n=1000000000 method=""string""",397707210.9293454,2.514412544
+"misc/object-property-bench.js","n=1000000000 method=""variable""",330072353.37159044,3.029638774
+"misc/object-property-bench.js","n=1000000000 method=""symbol""",330193519.30599487,3.028527035
+"misc/print.js","code=""1"" dur=1",6.264797199274083,1.117354605
+"misc/print.js","code=""\""string\"""" dur=1",6.459083687776627,1.083745054
+"misc/print.js","code=""process.versions"" dur=1",6.228918896939012,1.123790519
+"misc/print.js","code=""process"" dur=1",6.107387592004523,1.146152900
+"misc/punycode.js","val=""افغانستا.icom.museum"" n=1024 method=""punycode""",24451.91883567604,0.041878104
+"misc/punycode.js","val=""الجزائر.icom.museum"" n=1024 method=""punycode""",25757.478000812214,0.039755445
+"misc/punycode.js","val=""österreich.icom.museum"" n=1024 method=""punycode""",29893.036061102062,0.034255470
+"misc/punycode.js","val=""বাংলাদেশ.icom.museum"" n=1024 method=""punycode""",23976.916785323916,0.042707743
+"misc/punycode.js","val=""беларусь.icom.museum"" n=1024 method=""punycode""",25193.59952667525,0.040645244
+"misc/punycode.js","val=""belgië.icom.museum"" n=1024 method=""punycode""",28702.327683095133,0.035676549
+"misc/punycode.js","val=""българия.icom.museum"" n=1024 method=""punycode""",24667.77755176355,0.041511644
+"misc/punycode.js","val=""تشادر.icom.museum"" n=1024 method=""punycode""",26583.270654532822,0.038520467
+"misc/punycode.js","val=""中国.icom.museum"" n=1024 method=""punycode""",26844.506629557633,0.038145607
+"misc/punycode.js","val=""القمر.icom.museum"" n=1024 method=""punycode""",27494.400633745936,0.037243947
+"misc/punycode.js","val=""κυπρος.icom.museum"" n=1024 method=""punycode""",27053.455699847404,0.037850987
+"misc/punycode.js","val=""českárepublika.icom.museum"" n=1024 method=""punycode""",25736.076286354564,0.039788505
+"misc/punycode.js","val=""مصر.icom.museum"" n=1024 method=""punycode""",28761.85629582288,0.035602709
+"misc/punycode.js","val=""ελλάδα.icom.museum"" n=1024 method=""punycode""",24840.776445044245,0.041222544
+"misc/punycode.js","val=""magyarország.icom.museum"" n=1024 method=""punycode""",29402.096030633766,0.034827449
+"misc/punycode.js","val=""ísland.icom.museum"" n=1024 method=""punycode""",27494.799280849897,0.037243407
+"misc/punycode.js","val=""भारत.icom.museum"" n=1024 method=""punycode""",27612.475197646945,0.037084687
+"misc/punycode.js","val=""ايران.icom.museum"" n=1024 method=""punycode""",25966.118374157868,0.039436006
+"misc/punycode.js","val=""éire.icom.museum"" n=1024 method=""punycode""",26305.550373510556,0.038927146
+"misc/punycode.js","val=""איקו״ם.ישראל.museum"" n=1024 method=""punycode""",21109.11147173426,0.048509858
+"misc/punycode.js","val=""日本.icom.museum"" n=1024 method=""punycode""",26774.890915198455,0.038244787
+"misc/punycode.js","val=""الأردن.icom.museum"" n=1024 method=""punycode""",26318.734369074915,0.038907646
+"misc/punycode.js","val=""افغانستا.icom.museum"" n=1024 method=""icu""",59791.971818362035,0.017126045
+"misc/punycode.js","val=""الجزائر.icom.museum"" n=1024 method=""icu""",69816.18094990504,0.014667087
+"misc/punycode.js","val=""österreich.icom.museum"" n=1024 method=""icu""",66870.46922368283,0.015313187
+"misc/punycode.js","val=""বাংলাদেশ.icom.museum"" n=1024 method=""icu""",58725.07854479255,0.017437184
+"misc/punycode.js","val=""беларусь.icom.museum"" n=1024 method=""icu""",64390.26132510882,0.015903026
+"misc/punycode.js","val=""belgië.icom.museum"" n=1024 method=""icu""",74981.4669831119,0.013656708
+"misc/punycode.js","val=""българия.icom.museum"" n=1024 method=""icu""",62968.86128316519,0.016262006
+"misc/punycode.js","val=""تشادر.icom.museum"" n=1024 method=""icu""",71221.86605879545,0.014377607
+"misc/punycode.js","val=""中国.icom.museum"" n=1024 method=""icu""",77006.4465826434,0.013297588
+"misc/punycode.js","val=""القمر.icom.museum"" n=1024 method=""icu""",72054.38304560367,0.014211488
+"misc/punycode.js","val=""κυπρος.icom.museum"" n=1024 method=""icu""",72591.1231264543,0.014106408
+"misc/punycode.js","val=""českárepublika.icom.museum"" n=1024 method=""icu""",63980.86172473659,0.016004786
+"misc/punycode.js","val=""مصر.icom.museum"" n=1024 method=""icu""",71986.51208969182,0.014224887
+"misc/punycode.js","val=""ελλάδα.icom.museum"" n=1024 method=""icu""",69098.02181945482,0.014819527
+"misc/punycode.js","val=""magyarország.icom.museum"" n=1024 method=""icu""",64512.85298894222,0.015872806
+"misc/punycode.js","val=""ísland.icom.museum"" n=1024 method=""icu""",72590.60853330958,0.014106508
+"misc/punycode.js","val=""भारत.icom.museum"" n=1024 method=""icu""",72297.25297973763,0.014163747
+"misc/punycode.js","val=""ايران.icom.museum"" n=1024 method=""icu""",71972.54753368565,0.014227647
+"misc/punycode.js","val=""éire.icom.museum"" n=1024 method=""icu""",75180.74949921104,0.013620508
+"misc/punycode.js","val=""איקו״ם.ישראל.museum"" n=1024 method=""icu""",58140.70675593309,0.017612445
+"misc/punycode.js","val=""日本.icom.museum"" n=1024 method=""icu""",75291.52673275655,0.013600468
+"misc/punycode.js","val=""الأردن.icom.museum"" n=1024 method=""icu""",70774.01056689153,0.014468588
+"misc/startup.js","count=30 mode=""process"" script=""benchmark/fixtures/require-builtins""",3.448157006474992,8.700299883
+"misc/startup.js","count=30 mode=""worker"" script=""benchmark/fixtures/require-builtins""",3.1652026019217963,9.478066264
+"misc/startup.js","count=30 mode=""process"" script=""test/fixtures/semicolon""",8.142030264201692,3.684584683
+"misc/startup.js","count=30 mode=""worker"" script=""test/fixtures/semicolon""",5.379795146514193,5.576420511
+"misc/trace.js","method=""trace"" n=100000",153154.27117933275,0.652936410
+"misc/trace.js","method=""isTraceCategoryEnabled"" n=100000",703418.2242831563,0.142162936
+"misc/util-extend-vs-object-assign.js","n=100000 type=""extend""",2907.871924865781,34.389410051
+"misc/util-extend-vs-object-assign.js","n=100000 type=""assign""",2294.6526492208495,43.579580567

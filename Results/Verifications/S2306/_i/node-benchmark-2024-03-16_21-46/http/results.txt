@@ -1,0 +1,223 @@
+"filename","configuration","rate","time"
+"http/bench-parser.js","n=100000 len=4",66632.43198922952,1.500770676
+"http/bench-parser.js","n=100000 len=8",57672.36179470771,1.733932804
+"http/bench-parser.js","n=100000 len=16",44374.81517251593,2.253530513
+"http/bench-parser.js","n=100000 len=32",26283.94505629884,3.804603905
+"http/check_invalid_header_char.js","n=1000000 input=""""",8592396.670673128,0.116381964
+"http/check_invalid_header_char.js","n=1000000 input=""1""",8459038.665952757,0.118216743
+"http/check_invalid_header_char.js","n=1000000 input=""\t\t\t\t\t\t\t\t\t\tFoo bar baz""",4761162.519340199,0.210032738
+"http/check_invalid_header_char.js","n=1000000 input=""keep-alive""",5943396.553301904,0.168253959
+"http/check_invalid_header_char.js","n=1000000 input=""close""",6873826.852563357,0.145479370
+"http/check_invalid_header_char.js","n=1000000 input=""gzip""",7131567.209747157,0.140221633
+"http/check_invalid_header_char.js","n=1000000 input=""20091""",7434178.434630396,0.134513855
+"http/check_invalid_header_char.js","n=1000000 input=""private""",6118897.234473224,0.163428141
+"http/check_invalid_header_char.js","n=1000000 input=""text/html; charset=utf-8""",4460427.603709492,0.224193752
+"http/check_invalid_header_char.js","n=1000000 input=""text/plain""",5965009.054078468,0.167644339
+"http/check_invalid_header_char.js","n=1000000 input=""Sat, 07 May 2016 16:54:48 GMT""",4081228.827962255,0.245024242
+"http/check_invalid_header_char.js","n=1000000 input=""SAMEORIGIN""",5957828.854919772,0.167846379
+"http/check_invalid_header_char.js","n=1000000 input=""en-US""",6895095.194718523,0.145030630
+"http/check_invalid_header_char.js","n=1000000 input=""中文呢""",3262239.6491354257,0.306537872
+"http/check_invalid_header_char.js","n=1000000 input=""foo\nbar""",3543790.7498726435,0.282183704
+"http/check_invalid_header_char.js","n=1000000 input=""""",3679212.832708779,0.271797269
+"http/check_invalid_header_char.js","n=1000000 input=""group_acmeair""",5575033.701218099,0.179371113
+"http/check_invalid_header_char.js","n=1000000 input=""LONG_AND_INVALID""",2048931.0762431533,0.488059365
+"http/check_is_http_token.js","n=1000000 key=""TCN""",3631297.1581355873,0.275383687
+"http/check_is_http_token.js","n=1000000 key=""ETag""",3486731.115730038,0.286801582
+"http/check_is_http_token.js","n=1000000 key=""date""",3497158.3944380744,0.285946442
+"http/check_is_http_token.js","n=1000000 key=""Vary""",3628402.1567686857,0.275603408
+"http/check_is_http_token.js","n=1000000 key=""server""",3486218.3964802413,0.286843762
+"http/check_is_http_token.js","n=1000000 key=""Server""",3438423.9593177503,0.290830919
+"http/check_is_http_token.js","n=1000000 key=""status""",3446644.2919710283,0.290137280
+"http/check_is_http_token.js","n=1000000 key=""version""",3402060.188309883,0.293939538
+"http/check_is_http_token.js","n=1000000 key=""Expires""",3311219.091731676,0.302003574
+"http/check_is_http_token.js","n=1000000 key=""alt-svc""",3456983.4072401817,0.289269540
+"http/check_is_http_token.js","n=1000000 key=""location""",3224671.460878168,0.310109111
+"http/check_is_http_token.js","n=1000000 key=""Connection""",3206880.5906371097,0.311829509
+"http/check_is_http_token.js","n=1000000 key=""Keep-Alive""",3212413.0828234074,0.311292469
+"http/check_is_http_token.js","n=1000000 key=""content-type""",3190699.605845539,0.313410889
+"http/check_is_http_token.js","n=1000000 key=""Content-Type""",2968426.2921852036,0.336878838
+"http/check_is_http_token.js","n=1000000 key=""Cache-Control""",3137130.046645422,0.318762686
+"http/check_is_http_token.js","n=1000000 key=""Last-Modified""",3089068.1141496175,0.323722224
+"http/check_is_http_token.js","n=1000000 key=""Accept-Ranges""",2942373.3588382965,0.339861696
+"http/check_is_http_token.js","n=1000000 key=""content-length""",3067421.6016577478,0.326006702
+"http/check_is_http_token.js","n=1000000 key=""x-frame-options""",2935963.106805038,0.340603735
+"http/check_is_http_token.js","n=1000000 key=""x-xss-protection""",3006415.5103140795,0.332622020
+"http/check_is_http_token.js","n=1000000 key=""Content-Encoding""",2967826.170432439,0.336946958
+"http/check_is_http_token.js","n=1000000 key=""Content-Location""",3009184.3918661023,0.332315960
+"http/check_is_http_token.js","n=1000000 key=""Transfer-Encoding""",2858058.815998091,0.349887831
+"http/check_is_http_token.js","n=1000000 key=""alternate-protocol""",2880774.484005541,0.347128873
+"http/check_is_http_token.js","n=1000000 key="":""",9255189.718061747,0.108047488
+"http/check_is_http_token.js","n=1000000 key=""@@""",9229016.54113866,0.108353907
+"http/check_is_http_token.js","n=1000000 key=""中文呢""",9122244.248691827,0.109622147
+"http/check_is_http_token.js","n=1000000 key=""((((())))""",9224783.510013152,0.108403628
+"http/check_is_http_token.js","n=1000000 key="":alternate-protocol""",8462181.112118967,0.118172843
+"http/check_is_http_token.js","n=1000000 key=""alternate-protocol:""",3514141.019428835,0.284564562
+"http/chunked.js","duration=5 c=100 len=1 n=1 benchmarker=""test-double-http""", 1761, 5.198067974
+"http/chunked.js","duration=5 c=100 len=64 n=1 benchmarker=""test-double-http""", 1736, 5.179589942
+"http/chunked.js","duration=5 c=100 len=256 n=1 benchmarker=""test-double-http""", 1717, 5.206237829
+"http/chunked.js","duration=5 c=100 len=1 n=4 benchmarker=""test-double-http""", 769, 5.190051897
+"http/chunked.js","duration=5 c=100 len=64 n=4 benchmarker=""test-double-http""", 784, 5.191064716
+"http/chunked.js","duration=5 c=100 len=256 n=4 benchmarker=""test-double-http""", 787, 5.184696519
+"http/chunked.js","duration=5 c=100 len=1 n=8 benchmarker=""test-double-http""", 450, 5.186302879
+"http/chunked.js","duration=5 c=100 len=64 n=8 benchmarker=""test-double-http""", 447, 5.185774499
+"http/chunked.js","duration=5 c=100 len=256 n=8 benchmarker=""test-double-http""", 449, 5.187136518
+"http/chunked.js","duration=5 c=100 len=1 n=16 benchmarker=""test-double-http""", 245, 5.191986936
+"http/chunked.js","duration=5 c=100 len=64 n=16 benchmarker=""test-double-http""", 246, 5.193558595
+"http/chunked.js","duration=5 c=100 len=256 n=16 benchmarker=""test-double-http""", 243, 5.203425031
+"http/client-request-body.js","method=""write"" len=32 type=""asc"" dur=5",721.8794969443269,5.000834648
+"http/client-request-body.js","method=""end"" len=32 type=""asc"" dur=5",710.6700178596893,5.002321627
+"http/client-request-body.js","method=""write"" len=256 type=""asc"" dur=5",722.7486345436424,5.000355348
+"http/client-request-body.js","method=""end"" len=256 type=""asc"" dur=5",751.6169340798482,4.999887349
+"http/client-request-body.js","method=""write"" len=1024 type=""asc"" dur=5",755.8951523227972,5.002016468
+"http/client-request-body.js","method=""end"" len=1024 type=""asc"" dur=5",680.1556805479074,5.003266307
+"http/client-request-body.js","method=""write"" len=32 type=""utf"" dur=5",740.7138745312384,5.000581368
+"http/client-request-body.js","method=""end"" len=32 type=""utf"" dur=5",743.1031159991835,5.000651888
+"http/client-request-body.js","method=""write"" len=256 type=""utf"" dur=5",739.8981055911197,5.002040108
+"http/client-request-body.js","method=""end"" len=256 type=""utf"" dur=5",741.9582866100881,5.001628888
+"http/client-request-body.js","method=""write"" len=1024 type=""utf"" dur=5",704.9677704244654,5.000228589
+"http/client-request-body.js","method=""end"" len=1024 type=""utf"" dur=5",735.1453562346934,5.001731928
+"http/client-request-body.js","method=""write"" len=32 type=""buf"" dur=5",754.3650262795247,5.000231809
+"http/client-request-body.js","method=""end"" len=32 type=""buf"" dur=5",728.2434583883205,5.001074789
+"http/client-request-body.js","method=""write"" len=256 type=""buf"" dur=5",768.0699560386984,5.002148528
+"http/client-request-body.js","method=""end"" len=256 type=""buf"" dur=5",742.7254052651928,5.000502169
+"http/client-request-body.js","method=""write"" len=1024 type=""buf"" dur=5",765.6868818441872,5.002044688
+"http/client-request-body.js","method=""end"" len=1024 type=""buf"" dur=5",717.5624598454426,5.001655188
+"http/cluster.js","duration=5 c=50 len=4 type=""bytes"" benchmarker=""test-double-http""", 2599, 5.184802420
+"http/cluster.js","duration=5 c=500 len=4 type=""bytes"" benchmarker=""test-double-http""", 2615, 5.187058979
+"http/cluster.js","duration=5 c=50 len=1024 type=""bytes"" benchmarker=""test-double-http""", 2565, 5.183453441
+"http/cluster.js","duration=5 c=500 len=1024 type=""bytes"" benchmarker=""test-double-http""", 2487, 5.190189017
+"http/cluster.js","duration=5 c=50 len=102400 type=""bytes"" benchmarker=""test-double-http""", 1607, 5.185544800
+"http/cluster.js","duration=5 c=500 len=102400 type=""bytes"" benchmarker=""test-double-http""", 1653, 5.183947160
+"http/cluster.js","duration=5 c=50 len=4 type=""buffer"" benchmarker=""test-double-http""", 2489, 5.180886922
+"http/cluster.js","duration=5 c=500 len=4 type=""buffer"" benchmarker=""test-double-http""", 2563, 5.188735198
+"http/cluster.js","duration=5 c=50 len=1024 type=""buffer"" benchmarker=""test-double-http""", 2585, 5.183579580
+"http/cluster.js","duration=5 c=500 len=1024 type=""buffer"" benchmarker=""test-double-http""", 2519, 5.182630661
+"http/cluster.js","duration=5 c=50 len=102400 type=""buffer"" benchmarker=""test-double-http""", 1915, 5.188261198
+"http/cluster.js","duration=5 c=500 len=102400 type=""buffer"" benchmarker=""test-double-http""", 1772, 5.186061519
+"http/create-clientrequest.js","e=1 arg=""URL"" url=""long""",8923.84278785846,0.044823739
+"http/create-clientrequest.js","e=1 arg=""string"" url=""long""",6844.136143487725,0.058444191
+"http/create-clientrequest.js","e=1 arg=""options"" url=""long""",15327.35709461976,0.026097128
+"http/create-clientrequest.js","e=1 arg=""URL"" url=""idn""",9059.653697455311,0.044151798
+"http/create-clientrequest.js","e=1 arg=""string"" url=""idn""",6639.370995287026,0.060246671
+"http/create-clientrequest.js","e=1 arg=""options"" url=""idn""",14847.55256840945,0.026940467
+"http/create-clientrequest.js","e=1 arg=""URL"" url=""wpt""",7547.370222899648,0.036039043
+"http/create-clientrequest.js","e=1 arg=""string"" url=""wpt""",6507.989909457351,0.041794779
+"http/create-clientrequest.js","e=1 arg=""options"" url=""wpt""",11809.928407085106,0.023031469
+"http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""", 2150, 5.182869360
+"http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""asc"" benchmarker=""test-double-http""", 1963, 5.185651160
+"http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""", 1582, 5.184905960
+"http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""asc"" benchmarker=""test-double-http""", 1296, 5.201138632
+"http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""", 1211, 5.192661956
+"http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""asc"" benchmarker=""test-double-http""", 1021, 5.203798710
+"http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""", 519, 5.191527037
+"http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""asc"" benchmarker=""test-double-http""", 445, 5.189742957
+"http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""", 2108, 5.198444673
+"http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""utf"" benchmarker=""test-double-http""", 2026, 5.192174316
+"http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""", 1565, 5.182415901
+"http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""utf"" benchmarker=""test-double-http""", 1556, 5.185088659
+"http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""", 1235, 5.194711075
+"http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""utf"" benchmarker=""test-double-http""", 1078, 5.187652218
+"http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""", 527, 5.191681037
+"http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""utf"" benchmarker=""test-double-http""", 462, 5.208710149
+"http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""", 2377, 5.184319280
+"http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=65536 type=""buf"" benchmarker=""test-double-http""", 2416, 5.192334036
+"http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""", 1970, 5.187381998
+"http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=131072 type=""buf"" benchmarker=""test-double-http""", 1985, 5.191543877
+"http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""", 1660, 5.189880737
+"http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=262144 type=""buf"" benchmarker=""test-double-http""", 1712, 5.190325777
+"http/end-vs-write-end.js","duration=5 method=""write"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""", 966, 5.189401538
+"http/end-vs-write-end.js","duration=5 method=""end"" c=100 len=1048576 type=""buf"" benchmarker=""test-double-http""", 1006, 5.192401856
+"http/headers.js","duration=5 len=1 n=10 benchmarker=""test-double-http""", 3094, 5.188514558
+"http/headers.js","duration=5 len=100 n=10 benchmarker=""test-double-http""", 2452, 5.184496380
+"http/headers.js","duration=5 len=1 n=600 benchmarker=""test-double-http""", 832, 5.185979900
+"http/headers.js","duration=5 len=100 n=600 benchmarker=""test-double-http""", 1120, 5.192325236
+"http/_chunky_http_client.js","type=""send"" n=5 len=1",49.21986949824113,0.101584991
+"http/_chunky_http_client.js","type=""send"" n=50 len=1",110.52964608261425,0.452367322
+"http/_chunky_http_client.js","type=""send"" n=500 len=1",126.59509775700667,3.949600015
+"http/_chunky_http_client.js","type=""send"" n=2000 len=1",131.61475652257286,15.195864452
+"http/_chunky_http_client.js","type=""send"" n=5 len=4",62.69120661288914,0.079756002
+"http/_chunky_http_client.js","type=""send"" n=50 len=4",119.37904996709938,0.418833958
+"http/_chunky_http_client.js","type=""send"" n=500 len=4",134.51243537293885,3.717128447
+"http/_chunky_http_client.js","type=""send"" n=2000 len=4",138.8456233102718,14.404487173
+"http/_chunky_http_client.js","type=""send"" n=5 len=8",61.177989529754164,0.081728740
+"http/_chunky_http_client.js","type=""send"" n=50 len=8",112.46122915993895,0.444597666
+"http/_chunky_http_client.js","type=""send"" n=500 len=8",135.40368528968514,3.692661680
+"http/_chunky_http_client.js","type=""send"" n=2000 len=8",139.10041903134638,14.378101906
+"http/_chunky_http_client.js","type=""send"" n=5 len=16",60.4021137840523,0.082778560
+"http/_chunky_http_client.js","type=""send"" n=50 len=16",120.09835988419435,0.416325419
+"http/_chunky_http_client.js","type=""send"" n=500 len=16",138.06719982118508,3.621424934
+"http/_chunky_http_client.js","type=""send"" n=2000 len=16",137.9942066031616,14.493362071
+"http/_chunky_http_client.js","type=""send"" n=5 len=32",61.304485142802854,0.081560101
+"http/_chunky_http_client.js","type=""send"" n=50 len=32",119.37404510015409,0.418851518
+"http/_chunky_http_client.js","type=""send"" n=500 len=32",137.64016648636314,3.632660529
+"http/_chunky_http_client.js","type=""send"" n=2000 len=32",135.85768172197447,14.721287561
+"http/_chunky_http_client.js","type=""send"" n=5 len=64",56.947064673801854,0.087800838
+"http/_chunky_http_client.js","type=""send"" n=50 len=64",122.6855846006016,0.407545843
+"http/_chunky_http_client.js","type=""send"" n=500 len=64",137.28864391303406,3.641961824
+"http/_chunky_http_client.js","type=""send"" n=2000 len=64",138.82082473003302,14.407060352
+"http/_chunky_http_client.js","type=""send"" n=5 len=128",54.065021947425336,0.092481235
+"http/_chunky_http_client.js","type=""send"" n=50 len=128",118.05368125660947,0.423536136
+"http/_chunky_http_client.js","type=""send"" n=500 len=128",136.35811964881256,3.666815011
+"http/_chunky_http_client.js","type=""send"" n=2000 len=128",143.8094164247727,13.907295153
+"http/incoming_headers.js","duration=5 w=0 headers=20 connections=50 benchmarker=""test-double-http""", 3230, 5.183076220
+"http/incoming_headers.js","duration=5 w=6 headers=20 connections=50 benchmarker=""test-double-http""", 3255, 5.183049781
+"http/set-header.js","duration=5 res=""normal"" benchmarker=""test-double-http""", 3091, 5.179492283
+"http/set-header.js","duration=5 res=""setHeader"" benchmarker=""test-double-http""", 2856, 5.185158019
+"http/set-header.js","duration=5 res=""setHeaderWH"" benchmarker=""test-double-http""", 2865, 5.192066796
+"http/set_header.js","n=1000000 value=""X-Powered-By""",691855.1941571462,1.445389163
+"http/set_header.js","n=1000000 value=""Vary""",857864.0428549483,1.165685878
+"http/set_header.js","n=1000000 value=""Set-Cookie""",707946.2182234774,1.412536679
+"http/set_header.js","n=1000000 value=""Content-Type""",677951.9042329696,1.475030889
+"http/set_header.js","n=1000000 value=""Content-Length""",503665.93680217507,1.985442983
+"http/set_header.js","n=1000000 value=""Connection""",678447.8829454111,1.473952569
+"http/set_header.js","n=1000000 value=""Transfer-Encoding""",496767.6992465657,2.013013329
+"http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""", 2828, 5.183825120
+"http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""", 3111, 5.194289615
+"http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""", 3047, 5.187408798
+"http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""bytes"" benchmarker=""test-double-http""", 2957, 5.188715018
+"http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""", 2847, 5.179312742
+"http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""", 3027, 5.182259841
+"http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""", 2880, 5.180162282
+"http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""bytes"" benchmarker=""test-double-http""", 3185, 5.180668762
+"http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""", 2896, 5.200938592
+"http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""", 2891, 5.199806932
+"http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""", 2973, 5.182179541
+"http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""bytes"" benchmarker=""test-double-http""", 2997, 5.181553101
+"http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""", 2699, 5.191994116
+"http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""", 2885, 5.191983377
+"http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""", 2780, 5.192594056
+"http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""bytes"" benchmarker=""test-double-http""", 2959, 5.182461001
+"http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""", 1658, 5.202448331
+"http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""", 1804, 5.185743199
+"http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""", 1789, 5.189924858
+"http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""bytes"" benchmarker=""test-double-http""", 1859, 5.181430821
+"http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""", 1813, 5.191965177
+"http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""", 2050, 5.184796780
+"http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""", 1737, 5.203108551
+"http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""bytes"" benchmarker=""test-double-http""", 1993, 5.183386981
+"http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""", 2896, 5.182903621
+"http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""", 2905, 5.183629160
+"http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""", 2759, 5.186981859
+"http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type=""buffer"" benchmarker=""test-double-http""", 3038, 5.198527934
+"http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""", 2672, 5.190179043
+"http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""", 2855, 5.187209551
+"http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""", 2799, 5.183202854
+"http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type=""buffer"" benchmarker=""test-double-http""", 3017, 5.184246393
+"http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""", 2918, 5.192478606
+"http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""", 3050, 5.181699815
+"http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""", 2981, 5.183693494
+"http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type=""buffer"" benchmarker=""test-double-http""", 2891, 5.183205554
+"http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""", 2671, 5.209771291
+"http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""", 2746, 5.202389018
+"http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""", 2712, 5.187627790
+"http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type=""buffer"" benchmarker=""test-double-http""", 2799, 5.182998954
+"http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""", 2083, 5.196033002
+"http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""", 2055, 5.188235470
+"http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""", 2048, 5.190943568
+"http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type=""buffer"" benchmarker=""test-double-http""", 2009, 5.211201290
+"http/simple.js","duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""", 2005, 5.192250606
+"http/simple.js","duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""", 2108, 5.192793606
+"http/simple.js","duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""", 1852, 5.194436465
+"http/simple.js","duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type=""buffer"" benchmarker=""test-double-http""", 2031, 5.187911830
+"http/upgrade.js","n=5",41.85601070228058,0.119457156
+"http/upgrade.js","n=1000",294.91089674084554,3.390854699

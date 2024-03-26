@@ -1,0 +1,96 @@
+                                                                                            confidence improvement accuracy (*)    (**)    (***)
+string_decoder/string-decoder-create.js n=25000000 encoding="ascii"                                ***     37.46 %       ±2.48%  ±5.73%  ±18.24%
+string_decoder/string-decoder-create.js n=25000000 encoding="AscII"                                  *     37.65 %      ±32.59% ±75.18% ±239.37%
+string_decoder/string-decoder-create.js n=25000000 encoding="base64"                                **     75.49 %      ±26.62% ±61.41% ±195.53%
+string_decoder/string-decoder-create.js n=25000000 encoding="ucs2"                                  **     40.53 %      ±10.28% ±23.71%  ±75.49%
+string_decoder/string-decoder-create.js n=25000000 encoding="UTF-16LE"                              **     43.53 %      ±10.94% ±25.23%  ±80.33%
+string_decoder/string-decoder-create.js n=25000000 encoding="utf-8"                                ***     39.62 %       ±4.15%  ±9.57%  ±30.45%
+string_decoder/string-decoder-create.js n=25000000 encoding="UTF-8"                                  *     14.76 %      ±12.49% ±28.81%  ±91.74%
+string_decoder/string-decoder-create.js n=25000000 encoding="utf8"                                 ***     41.64 %       ±1.95%  ±4.51%  ±14.35%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=1024 encoding="ascii"                       -1.44 %       ±4.06%  ±9.36%  ±29.80%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=1024 encoding="base64-ascii"          *     -2.94 %       ±2.79%  ±6.44%  ±20.50%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=1024 encoding="base64-utf8"          **     -3.13 %       ±0.68%  ±1.57%   ±5.01%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=1024 encoding="utf16le"                      2.16 %       ±3.02%  ±6.96%  ±22.17%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=1024 encoding="utf8"                ***     16.30 %       ±0.15%  ±0.34%   ±1.08%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=128 encoding="ascii"                         1.64 %       ±6.58% ±15.17%  ±48.29%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=128 encoding="base64-ascii"          **     -9.30 %       ±3.25%  ±7.51%  ±23.90%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=128 encoding="base64-utf8"                   1.15 %       ±2.15%  ±4.97%  ±15.82%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=128 encoding="utf16le"               **     10.81 %       ±3.17%  ±7.32%  ±23.31%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=128 encoding="utf8"                 ***     19.00 %       ±0.95%  ±2.19%   ±6.99%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=32 encoding="ascii"                   *      7.39 %       ±3.78%  ±8.72%  ±27.78%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=32 encoding="base64-ascii"                  -5.62 %       ±9.24% ±21.31%  ±67.84%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=32 encoding="base64-utf8"                   -4.14 %       ±5.71% ±13.18%  ±41.95%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=32 encoding="utf16le"               ***      8.52 %       ±0.50%  ±1.16%   ±3.70%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=32 encoding="utf8"                           1.09 %       ±1.37%  ±3.15%  ±10.04%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=4096 encoding="ascii"                       -0.93 %       ±2.02%  ±4.65%  ±14.81%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=4096 encoding="base64-ascii"                -1.53 %       ±1.56%  ±3.61%  ±11.48%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=4096 encoding="base64-utf8"                 -1.96 %       ±2.46%  ±5.68%  ±18.10%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=4096 encoding="utf16le"                      1.29 %       ±2.93%  ±6.75%  ±21.50%
+string_decoder/string-decoder.js n=2500000 chunkLen=1024 inLen=4096 encoding="utf8"                ***     14.61 %       ±0.49%  ±1.13%   ±3.61%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=1024 encoding="ascii"                 ***      7.17 %       ±0.72%  ±1.67%   ±5.32%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=1024 encoding="base64-ascii"            *      4.28 %       ±3.80%  ±8.76%  ±27.88%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=1024 encoding="base64-utf8"            **      5.68 %       ±1.78%  ±4.11%  ±13.09%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=1024 encoding="utf16le"                **     -2.98 %       ±0.55%  ±1.26%   ±4.02%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=1024 encoding="utf8"                  ***     18.46 %       ±1.07%  ±2.46%   ±7.82%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=128 encoding="ascii"                    *     18.81 %       ±8.39% ±19.35%  ±61.59%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=128 encoding="base64-ascii"                   -1.82 %       ±5.49% ±12.66%  ±40.31%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=128 encoding="base64-utf8"                     0.22 %       ±7.72% ±17.80%  ±56.68%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=128 encoding="utf16le"                 **     -3.10 %       ±0.57%  ±1.30%   ±4.15%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=128 encoding="utf8"                   ***     23.46 %       ±0.97%  ±2.23%   ±7.10%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=32 encoding="ascii"                           -3.47 %      ±15.22% ±35.12% ±111.80%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=32 encoding="base64-ascii"                     4.92 %      ±13.49% ±31.12%  ±99.09%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=32 encoding="base64-utf8"               *      8.03 %       ±6.83% ±15.75%  ±50.14%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=32 encoding="utf16le"                         -0.02 %       ±0.58%  ±1.33%   ±4.24%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=32 encoding="utf8"                            -0.73 %       ±2.07%  ±4.78%  ±15.23%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=4096 encoding="ascii"                   *      1.99 %       ±0.94%  ±2.17%   ±6.90%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=4096 encoding="base64-ascii"                   2.11 %      ±17.04% ±39.30% ±125.11%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=4096 encoding="base64-utf8"                   -0.22 %       ±7.77% ±17.93%  ±57.08%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=4096 encoding="utf16le"                 *     -2.38 %       ±1.44%  ±3.32%  ±10.58%
+string_decoder/string-decoder.js n=2500000 chunkLen=16 inLen=4096 encoding="utf8"                  ***     18.79 %       ±1.34%  ±3.10%   ±9.87%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=1024 encoding="ascii"                         0.58 %       ±1.75%  ±4.04%  ±12.86%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=1024 encoding="base64-ascii"          **     -7.05 %       ±2.90%  ±6.69%  ±21.31%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=1024 encoding="base64-utf8"           **     -8.95 %       ±2.96%  ±6.83%  ±21.76%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=1024 encoding="utf16le"                *      3.06 %       ±1.67%  ±3.84%  ±12.24%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=1024 encoding="utf8"                 ***     14.58 %       ±1.70%  ±3.92%  ±12.47%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=128 encoding="ascii"                          4.04 %       ±4.76% ±10.99%  ±34.98%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=128 encoding="base64-ascii"            *     -1.83 %       ±1.27%  ±2.92%   ±9.31%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=128 encoding="base64-utf8"             *     -4.39 %       ±3.47%  ±8.01%  ±25.50%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=128 encoding="utf16le"                **      5.29 %       ±2.26%  ±5.22%  ±16.61%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=128 encoding="utf8"                  ***     18.77 %       ±0.55%  ±1.27%   ±4.05%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=32 encoding="ascii"                  ***     14.89 %       ±1.33%  ±3.06%   ±9.74%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=32 encoding="base64-ascii"                   -3.84 %       ±8.03% ±18.52%  ±58.97%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=32 encoding="base64-utf8"                    -2.85 %       ±6.15% ±14.19%  ±45.18%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=32 encoding="utf16le"                  *     10.02 %       ±5.18% ±11.94%  ±38.01%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=32 encoding="utf8"                            2.18 %       ±2.67%  ±6.15%  ±19.58%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=4096 encoding="ascii"                        -0.07 %       ±2.90%  ±6.70%  ±21.33%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=4096 encoding="base64-ascii"           *     -5.04 %       ±3.77%  ±8.69%  ±27.67%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=4096 encoding="base64-utf8"                  -3.78 %       ±5.94% ±13.70%  ±43.63%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=4096 encoding="utf16le"               **      4.74 %       ±2.06%  ±4.74%  ±15.10%
+string_decoder/string-decoder.js n=2500000 chunkLen=256 inLen=4096 encoding="utf8"                 ***     12.41 %       ±0.44%  ±1.02%   ±3.25%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=1024 encoding="ascii"                   *      3.74 %       ±2.74%  ±6.31%  ±20.09%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=1024 encoding="base64-ascii"                  -5.75 %       ±6.67% ±15.39%  ±49.00%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=1024 encoding="base64-utf8"             *     -3.49 %       ±3.13%  ±7.21%  ±22.95%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=1024 encoding="utf16le"                **      2.33 %       ±0.82%  ±1.89%   ±6.03%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=1024 encoding="utf8"                  ***     15.13 %       ±0.68%  ±1.56%   ±4.96%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=128 encoding="ascii"                           1.55 %       ±1.95%  ±4.51%  ±14.36%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=128 encoding="base64-ascii"                   -7.23 %       ±7.30% ±16.84%  ±53.62%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=128 encoding="base64-utf8"                    -3.23 %       ±7.89% ±18.20%  ±57.95%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=128 encoding="utf16le"                 **      4.49 %       ±1.17%  ±2.70%   ±8.61%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=128 encoding="utf8"                   ***     15.36 %       ±1.39%  ±3.22%  ±10.24%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=32 encoding="ascii"                            5.25 %       ±6.06% ±13.98%  ±44.52%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=32 encoding="base64-ascii"                    -2.17 %       ±3.82%  ±8.81%  ±28.03%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=32 encoding="base64-utf8"               *     -2.74 %       ±1.75%  ±4.03%  ±12.83%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=32 encoding="utf16le"                   *      5.96 %       ±5.70% ±13.15%  ±41.86%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=32 encoding="utf8"                      *      2.62 %       ±2.06%  ±4.75%  ±15.11%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=4096 encoding="ascii"                   *      2.42 %       ±1.52%  ±3.52%  ±11.19%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=4096 encoding="base64-ascii"                  -9.13 %      ±14.32% ±33.04% ±105.19%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=4096 encoding="base64-utf8"                   -8.23 %      ±15.61% ±36.00% ±114.61%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=4096 encoding="utf16le"                        0.03 %       ±3.49%  ±8.06%  ±25.65%
+string_decoder/string-decoder.js n=2500000 chunkLen=64 inLen=4096 encoding="utf8"                  ***     14.13 %       ±0.63%  ±1.46%   ±4.65%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 88 comparisons, you can thus
+expect the following amount of false-positive results:
+  4.40 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.88 false positives, when considering a   1% risk acceptance (**, ***),
+  0.09 false positives, when considering a 0.1% risk acceptance (***)

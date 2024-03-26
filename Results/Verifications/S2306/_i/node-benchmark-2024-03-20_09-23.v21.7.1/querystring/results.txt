@@ -1,0 +1,20 @@
+"filename","configuration","rate","time"
+"querystring/querystring-parse.js","n=1000000 type=""noencode""",270783.134551696,3.692992186
+"querystring/querystring-parse.js","n=1000000 type=""multicharsep""",243655.73515598747,4.104151291
+"querystring/querystring-parse.js","n=1000000 type=""encodefake""",290805.33774023305,3.438726427
+"querystring/querystring-parse.js","n=1000000 type=""encodemany""",114099.00844496474,8.764318057
+"querystring/querystring-parse.js","n=1000000 type=""encodelast""",213022.47503208838,4.694340350
+"querystring/querystring-parse.js","n=1000000 type=""multivalue""",208301.63589981376,4.800730420
+"querystring/querystring-parse.js","n=1000000 type=""multivaluemany""",81117.02106247701,12.327868885
+"querystring/querystring-parse.js","n=1000000 type=""manypairs""",49918.46555946598,20.032667046
+"querystring/querystring-parse.js","n=1000000 type=""manyblankpairs""",1718738.6498796407,0.581822024
+"querystring/querystring-parse.js","n=1000000 type=""altspaces""",196495.82228866586,5.089166723
+"querystring/querystring-stringify.js","n=1000000 type=""noencode""",428809.04661121406,2.332040352
+"querystring/querystring-stringify.js","n=1000000 type=""encodemany""",285931.80801045045,3.497337379
+"querystring/querystring-stringify.js","n=1000000 type=""encodelast""",395861.3550391187,2.526136960
+"querystring/querystring-stringify.js","n=1000000 type=""array""",388526.47366066265,2.573827185
+"querystring/querystring-stringify.js","n=1000000 type=""multiprimitives""",444125.8068777731,2.251614260
+"querystring/querystring-unescapebuffer.js","n=10000000 input=""there is nothing to unescape here""",1076227.7906715192,9.291713229
+"querystring/querystring-unescapebuffer.js","n=10000000 input=""there%20are%20several%20spaces%20that%20need%20to%20be%20unescaped""",465476.00581177365,21.483384482
+"querystring/querystring-unescapebuffer.js","n=10000000 input=""there%2Qare%0-fake%escaped values in%%%%this%9Hstring""",641081.9649254695,15.598629422
+"querystring/querystring-unescapebuffer.js","n=10000000 input=""%20%21%22%23%24%25%26%27%28%29%2A%2B%2C%2D%2E%2F%30%31%32%33%34%35%36%37""",500373.2858767887,19.985079704

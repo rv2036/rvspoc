@@ -1,0 +1,45 @@
+                                                                 confidence improvement accuracy (*)    (**)    (***)
+events/ee-add-remove.js n=1000000 removeListener=0 newListener=0                -0.52 %       ±3.28%  ±7.58%  ±24.12%
+events/ee-add-remove.js n=1000000 removeListener=0 newListener=1                 1.49 %       ±2.52%  ±5.81%  ±18.51%
+events/ee-add-remove.js n=1000000 removeListener=1 newListener=0                -1.37 %       ±5.81% ±13.39%  ±42.64%
+events/ee-add-remove.js n=1000000 removeListener=1 newListener=1                 2.21 %       ±5.50% ±12.68%  ±40.36%
+events/ee-emit.js listeners=1 argc=0 n=2000000                                   0.31 %       ±1.02%  ±2.34%   ±7.45%
+events/ee-emit.js listeners=1 argc=10 n=2000000                                  0.41 %       ±2.41%  ±5.55%  ±17.66%
+events/ee-emit.js listeners=1 argc=2 n=2000000                                   0.08 %       ±1.06%  ±2.45%   ±7.81%
+events/ee-emit.js listeners=1 argc=4 n=2000000                                  -0.11 %       ±0.51%  ±1.18%   ±3.75%
+events/ee-emit.js listeners=10 argc=0 n=2000000                                  3.00 %       ±4.72% ±10.88%  ±34.64%
+events/ee-emit.js listeners=10 argc=10 n=2000000                          *      5.33 %       ±5.31% ±12.26%  ±39.03%
+events/ee-emit.js listeners=10 argc=2 n=2000000                                  2.19 %       ±6.91% ±15.93%  ±50.73%
+events/ee-emit.js listeners=10 argc=4 n=2000000                                  0.34 %      ±10.33% ±23.84%  ±75.89%
+events/ee-emit.js listeners=5 argc=0 n=2000000                                  -0.48 %       ±6.52% ±15.04%  ±47.90%
+events/ee-emit.js listeners=5 argc=10 n=2000000                                 -0.16 %       ±1.50%  ±3.45%  ±10.99%
+events/ee-emit.js listeners=5 argc=2 n=2000000                                   0.22 %       ±0.88%  ±2.04%   ±6.48%
+events/ee-emit.js listeners=5 argc=4 n=2000000                                  -2.69 %       ±6.09% ±14.04%  ±44.72%
+events/ee-listen-unique.js n=1000000 events=1                                   -0.15 %       ±0.94%  ±2.18%   ±6.94%
+events/ee-listen-unique.js n=1000000 events=10                                   0.19 %       ±1.66%  ±3.82%  ±12.16%
+events/ee-listen-unique.js n=1000000 events=2                                    2.07 %       ±2.91%  ±6.71%  ±21.36%
+events/ee-listen-unique.js n=1000000 events=20                                   2.94 %       ±7.16% ±16.52%  ±52.61%
+events/ee-listen-unique.js n=1000000 events=3                                    0.06 %       ±5.95% ±13.73%  ±43.70%
+events/ee-listen-unique.js n=1000000 events=5                                   -0.73 %       ±3.24%  ±7.48%  ±23.82%
+events/ee-listener-count-on-prototype.js n=50000000                              0.91 %       ±5.14% ±11.85%  ±37.73%
+events/ee-listeners.js raw="false" listeners=5 n=5000000                         2.35 %      ±11.82% ±27.27%  ±86.83%
+events/ee-listeners.js raw="false" listeners=50 n=5000000                       -8.79 %      ±17.88% ±41.25% ±131.33%
+events/ee-listeners.js raw="true" listeners=5 n=5000000                   *      1.66 %       ±1.35%  ±3.12%   ±9.94%
+events/ee-listeners.js raw="true" listeners=50 n=5000000                  *      5.00 %       ±3.67%  ±8.47%  ±26.98%
+events/ee-once.js argc=0 n=20000000                                              0.04 %       ±1.33%  ±3.08%   ±9.80%
+events/ee-once.js argc=1 n=20000000                                             -1.82 %       ±5.87% ±13.55%  ±43.14%
+events/ee-once.js argc=4 n=20000000                                      **      0.88 %       ±0.26%  ±0.60%   ±1.92%
+events/ee-once.js argc=5 n=20000000                                             -2.11 %       ±4.29%  ±9.89%  ±31.50%
+events/eventtarget-add-remove.js nListener=10 n=1000000                         -0.53 %       ±1.07%  ±2.48%   ±7.89%
+events/eventtarget-add-remove.js nListener=5 n=1000000                          -0.04 %       ±0.35%  ±0.80%   ±2.55%
+events/eventtarget-creation.js n=1000000                                        -0.46 %      ±10.96% ±25.28%  ±80.49%
+events/eventtarget.js listeners=1 n=1000000                                      1.73 %       ±6.26% ±14.45%  ±46.01%
+events/eventtarget.js listeners=10 n=1000000                                    -2.69 %       ±5.43% ±12.54%  ±39.91%
+events/eventtarget.js listeners=5 n=1000000                                      1.09 %       ±6.60% ±15.23%  ±48.51%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 37 comparisons, you can thus
+expect the following amount of false-positive results:
+  1.85 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.37 false positives, when considering a   1% risk acceptance (**, ***),
+  0.04 false positives, when considering a 0.1% risk acceptance (***)
