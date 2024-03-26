@@ -1,0 +1,217 @@
+"binary","filename","configuration","rate","time"
+"old","child_process/child-process-exec-stdout.js","dur=5 len=64",221903.9813568017,5.019828816
+"old","child_process/child-process-exec-stdout.js","dur=5 len=256",216555.56462936793,5.020014156
+"old","child_process/child-process-exec-stdout.js","dur=5 len=1024",214570.5399088691,5.024790451
+"old","child_process/child-process-exec-stdout.js","dur=5 len=4096",212783.50762957582,5.025224990
+"old","child_process/child-process-exec-stdout.js","dur=5 len=32768",221886.20375030587,5.021096315
+"new","child_process/child-process-exec-stdout.js","dur=5 len=64",221947.00760513858,5.018855681
+"new","child_process/child-process-exec-stdout.js","dur=5 len=256",217436.08526227696,5.024520188
+"new","child_process/child-process-exec-stdout.js","dur=5 len=1024",214572.48561801462,5.024744887
+"new","child_process/child-process-exec-stdout.js","dur=5 len=4096",215474.8016877656,5.019501081
+"new","child_process/child-process-exec-stdout.js","dur=5 len=32768",215217.10195800036,5.024465947
+"old","child_process/child-process-exec-stdout.js","dur=5 len=64",221903.9813568017,5.019828816
+"old","child_process/child-process-exec-stdout.js","dur=5 len=256",216555.56462936793,5.020014156
+"old","child_process/child-process-exec-stdout.js","dur=5 len=1024",214570.5399088691,5.024790451
+"old","child_process/child-process-exec-stdout.js","dur=5 len=4096",212783.50762957582,5.025224990
+"old","child_process/child-process-exec-stdout.js","dur=5 len=32768",221886.20375030587,5.021096315
+"new","child_process/child-process-exec-stdout.js","dur=5 len=64",221631.20946592678,5.026223530
+"new","child_process/child-process-exec-stdout.js","dur=5 len=256",217449.67766264695,5.024206114
+"new","child_process/child-process-exec-stdout.js","dur=5 len=1024",213131.87813509427,5.025043693
+"new","child_process/child-process-exec-stdout.js","dur=5 len=4096",215202.45338151482,5.025407392
+"new","child_process/child-process-exec-stdout.js","dur=5 len=32768",215172.41307071998,5.025509472
+"old","child_process/child-process-exec-stdout.js","dur=5 len=64",221903.9813568017,5.019828816
+"old","child_process/child-process-exec-stdout.js","dur=5 len=256",216555.56462936793,5.020014156
+"old","child_process/child-process-exec-stdout.js","dur=5 len=1024",214570.5399088691,5.024790451
+"old","child_process/child-process-exec-stdout.js","dur=5 len=4096",212783.50762957582,5.025224990
+"old","child_process/child-process-exec-stdout.js","dur=5 len=32768",221886.20375030587,5.021096315
+"new","child_process/child-process-exec-stdout.js","dur=5 len=64",221936.93221518677,5.019516080
+"new","child_process/child-process-exec-stdout.js","dur=5 len=256",217647.09653415874,5.019648860
+"new","child_process/child-process-exec-stdout.js","dur=5 len=1024",216034.8439141052,5.023944195
+"new","child_process/child-process-exec-stdout.js","dur=5 len=4096",213669.46742151005,5.023562856
+"new","child_process/child-process-exec-stdout.js","dur=5 len=32768",208927.92433534365,5.018974861
+"old","child_process/child-process-params.js","params=1 methodName=""exec"" n=1000",134.36257296434232,7.442548754
+"old","child_process/child-process-params.js","params=2 methodName=""exec"" n=1000",135.096076686874,7.402139459
+"old","child_process/child-process-params.js","params=3 methodName=""exec"" n=1000",133.80118222598188,7.473775518
+"old","child_process/child-process-params.js","params=1 methodName=""execSync"" n=1000",99.56917742195273,10.043268669
+"old","child_process/child-process-params.js","params=2 methodName=""execSync"" n=1000",99.19294629087243,10.081362006
+"old","child_process/child-process-params.js","params=1 methodName=""execFile"" n=1000",124.67879751028696,8.020609919
+"old","child_process/child-process-params.js","params=2 methodName=""execFile"" n=1000",125.22791732975199,7.985439839
+"old","child_process/child-process-params.js","params=3 methodName=""execFile"" n=1000",127.77421165844851,7.826305379
+"old","child_process/child-process-params.js","params=4 methodName=""execFile"" n=1000",125.08892964474963,7.994312549
+"old","child_process/child-process-params.js","params=1 methodName=""execFileSync"" n=1000",116.69189283416442,8.569575621
+"old","child_process/child-process-params.js","params=2 methodName=""execFileSync"" n=1000",119.64024778563464,8.358391248
+"old","child_process/child-process-params.js","params=3 methodName=""execFileSync"" n=1000",119.47419297754325,8.370008410
+"old","child_process/child-process-params.js","params=1 methodName=""spawn"" n=1000",128.68764419337126,7.770753799
+"old","child_process/child-process-params.js","params=2 methodName=""spawn"" n=1000",129.10211521906115,7.745806475
+"old","child_process/child-process-params.js","params=3 methodName=""spawn"" n=1000",130.31683290555827,7.673605763
+"old","child_process/child-process-params.js","params=1 methodName=""spawnSync"" n=1000",121.98402896142085,8.197794486
+"old","child_process/child-process-params.js","params=2 methodName=""spawnSync"" n=1000",125.18148881097633,7.988401556
+"old","child_process/child-process-params.js","params=3 methodName=""spawnSync"" n=1000",121.87364761916697,8.205219254
+"new","child_process/child-process-params.js","params=1 methodName=""exec"" n=1000",130.99702890210543,7.633760921
+"new","child_process/child-process-params.js","params=2 methodName=""exec"" n=1000",133.04602579794266,7.516195948
+"new","child_process/child-process-params.js","params=3 methodName=""exec"" n=1000",129.96293876766637,7.694501290
+"new","child_process/child-process-params.js","params=1 methodName=""execSync"" n=1000",100.2533684332273,9.974727190
+"new","child_process/child-process-params.js","params=2 methodName=""execSync"" n=1000",97.41407632311831,10.265456880
+"new","child_process/child-process-params.js","params=1 methodName=""execFile"" n=1000",125.28496605821357,7.981803655
+"new","child_process/child-process-params.js","params=2 methodName=""execFile"" n=1000",125.0327371183815,7.997905373
+"new","child_process/child-process-params.js","params=3 methodName=""execFile"" n=1000",125.39396044079888,7.974865747
+"new","child_process/child-process-params.js","params=4 methodName=""execFile"" n=1000",127.68652243697197,7.831680125
+"new","child_process/child-process-params.js","params=1 methodName=""execFileSync"" n=1000",119.568988433442,8.363372586
+"new","child_process/child-process-params.js","params=2 methodName=""execFileSync"" n=1000",120.94884447348092,8.267958279
+"new","child_process/child-process-params.js","params=3 methodName=""execFileSync"" n=1000",120.65713667196155,8.287947382
+"new","child_process/child-process-params.js","params=1 methodName=""spawn"" n=1000",130.22162385739105,7.679216173
+"new","child_process/child-process-params.js","params=2 methodName=""spawn"" n=1000",131.0831890914894,7.628743296
+"new","child_process/child-process-params.js","params=3 methodName=""spawn"" n=1000",129.02630099511768,7.750357813
+"new","child_process/child-process-params.js","params=1 methodName=""spawnSync"" n=1000",121.7827233866234,8.211345355
+"new","child_process/child-process-params.js","params=2 methodName=""spawnSync"" n=1000",124.027469511671,8.062730006
+"new","child_process/child-process-params.js","params=3 methodName=""spawnSync"" n=1000",124.20855900727936,8.050974973
+"old","child_process/child-process-params.js","params=1 methodName=""exec"" n=1000",134.36257296434232,7.442548754
+"old","child_process/child-process-params.js","params=2 methodName=""exec"" n=1000",135.096076686874,7.402139459
+"old","child_process/child-process-params.js","params=3 methodName=""exec"" n=1000",133.80118222598188,7.473775518
+"old","child_process/child-process-params.js","params=1 methodName=""execSync"" n=1000",99.56917742195273,10.043268669
+"old","child_process/child-process-params.js","params=2 methodName=""execSync"" n=1000",99.19294629087243,10.081362006
+"old","child_process/child-process-params.js","params=1 methodName=""execFile"" n=1000",124.67879751028696,8.020609919
+"old","child_process/child-process-params.js","params=2 methodName=""execFile"" n=1000",125.22791732975199,7.985439839
+"old","child_process/child-process-params.js","params=3 methodName=""execFile"" n=1000",127.77421165844851,7.826305379
+"old","child_process/child-process-params.js","params=4 methodName=""execFile"" n=1000",125.08892964474963,7.994312549
+"old","child_process/child-process-params.js","params=1 methodName=""execFileSync"" n=1000",116.69189283416442,8.569575621
+"old","child_process/child-process-params.js","params=2 methodName=""execFileSync"" n=1000",119.64024778563464,8.358391248
+"old","child_process/child-process-params.js","params=3 methodName=""execFileSync"" n=1000",119.47419297754325,8.370008410
+"old","child_process/child-process-params.js","params=1 methodName=""spawn"" n=1000",128.68764419337126,7.770753799
+"old","child_process/child-process-params.js","params=2 methodName=""spawn"" n=1000",129.10211521906115,7.745806475
+"old","child_process/child-process-params.js","params=3 methodName=""spawn"" n=1000",130.31683290555827,7.673605763
+"old","child_process/child-process-params.js","params=1 methodName=""spawnSync"" n=1000",121.98402896142085,8.197794486
+"old","child_process/child-process-params.js","params=2 methodName=""spawnSync"" n=1000",125.18148881097633,7.988401556
+"old","child_process/child-process-params.js","params=3 methodName=""spawnSync"" n=1000",121.87364761916697,8.205219254
+"new","child_process/child-process-params.js","params=1 methodName=""exec"" n=1000",134.84304481893452,7.416029513
+"new","child_process/child-process-params.js","params=2 methodName=""exec"" n=1000",131.38988871145168,7.610935741
+"new","child_process/child-process-params.js","params=3 methodName=""exec"" n=1000",132.05231737818792,7.572756161
+"new","child_process/child-process-params.js","params=1 methodName=""execSync"" n=1000",99.20306255377399,10.080333956
+"new","child_process/child-process-params.js","params=2 methodName=""execSync"" n=1000",102.45385458769458,9.760491726
+"new","child_process/child-process-params.js","params=1 methodName=""execFile"" n=1000",126.53947586259594,7.902672215
+"new","child_process/child-process-params.js","params=2 methodName=""execFile"" n=1000",128.99377572590188,7.752312035
+"new","child_process/child-process-params.js","params=3 methodName=""execFile"" n=1000",128.5796881724105,7.777278155
+"new","child_process/child-process-params.js","params=4 methodName=""execFile"" n=1000",126.94323602893735,7.877536695
+"new","child_process/child-process-params.js","params=1 methodName=""execFileSync"" n=1000",120.24705024865003,8.316212314
+"new","child_process/child-process-params.js","params=2 methodName=""execFileSync"" n=1000",118.74880623828975,8.421137287
+"new","child_process/child-process-params.js","params=3 methodName=""execFileSync"" n=1000",120.6465882385455,8.288672018
+"new","child_process/child-process-params.js","params=1 methodName=""spawn"" n=1000",133.48536511948643,7.491457952
+"new","child_process/child-process-params.js","params=2 methodName=""spawn"" n=1000",130.10634281872936,7.686020361
+"old","child_process/child-process-params.js","params=1 methodName=""exec"" n=1000",134.36257296434232,7.442548754
+"old","child_process/child-process-params.js","params=2 methodName=""exec"" n=1000",135.096076686874,7.402139459
+"old","child_process/child-process-params.js","params=3 methodName=""exec"" n=1000",133.80118222598188,7.473775518
+"old","child_process/child-process-params.js","params=1 methodName=""execSync"" n=1000",99.56917742195273,10.043268669
+"old","child_process/child-process-params.js","params=2 methodName=""execSync"" n=1000",99.19294629087243,10.081362006
+"old","child_process/child-process-params.js","params=1 methodName=""execFile"" n=1000",124.67879751028696,8.020609919
+"old","child_process/child-process-params.js","params=2 methodName=""execFile"" n=1000",125.22791732975199,7.985439839
+"old","child_process/child-process-params.js","params=3 methodName=""execFile"" n=1000",127.77421165844851,7.826305379
+"old","child_process/child-process-params.js","params=4 methodName=""execFile"" n=1000",125.08892964474963,7.994312549
+"old","child_process/child-process-params.js","params=1 methodName=""execFileSync"" n=1000",116.69189283416442,8.569575621
+"old","child_process/child-process-params.js","params=2 methodName=""execFileSync"" n=1000",119.64024778563464,8.358391248
+"old","child_process/child-process-params.js","params=3 methodName=""execFileSync"" n=1000",119.47419297754325,8.370008410
+"old","child_process/child-process-params.js","params=1 methodName=""spawn"" n=1000",128.68764419337126,7.770753799
+"old","child_process/child-process-params.js","params=2 methodName=""spawn"" n=1000",129.10211521906115,7.745806475
+"old","child_process/child-process-params.js","params=3 methodName=""spawn"" n=1000",130.31683290555827,7.673605763
+"old","child_process/child-process-params.js","params=1 methodName=""spawnSync"" n=1000",121.98402896142085,8.197794486
+"old","child_process/child-process-params.js","params=2 methodName=""spawnSync"" n=1000",125.18148881097633,7.988401556
+"old","child_process/child-process-params.js","params=3 methodName=""spawnSync"" n=1000",121.87364761916697,8.205219254
+"old","child_process/child-process-read-ipc.js","dur=5 len=64",2711955.479060772,5.019905417
+"old","child_process/child-process-read-ipc.js","dur=5 len=256",9438949.029009182,5.018158680
+"old","child_process/child-process-read-ipc.js","dur=5 len=1024",39316249.71219189,5.017896301
+"old","child_process/child-process-read-ipc.js","dur=5 len=4096",68023851.15394509,5.019814818
+"old","child_process/child-process-read-ipc.js","dur=5 len=16384",85632098.24067622,5.018206500
+"old","child_process/child-process-read-ipc.js","dur=5 len=65536",86821374.4594181,5.009854252
+"old","child_process/child-process-read-ipc.js","dur=5 len=1048576",24036748.439127695,5.016745102
+"old","child_process/child-process-read-ipc.js","dur=5 len=2097152",11302480.028277215,5.009794652
+"new","child_process/child-process-read-ipc.js","dur=5 len=64",2670002.5139118466,5.009972811
+"new","child_process/child-process-read-ipc.js","dur=5 len=256",9233272.63094657,5.020950843
+"new","child_process/child-process-read-ipc.js","dur=5 len=1024",39263984.03843061,5.019724942
+"new","child_process/child-process-read-ipc.js","dur=5 len=4096",69225597.23830701,5.019058121
+"new","child_process/child-process-read-ipc.js","dur=5 len=16384",86248703.03034799,5.010255051
+"new","child_process/child-process-read-ipc.js","dur=5 len=65536",90983246.23783709,5.011906113
+"new","child_process/child-process-read-ipc.js","dur=5 len=1048576",25710609.70603825,5.016405658
+"new","child_process/child-process-read-ipc.js","dur=5 len=2097152",14651854.225359084,5.009626691
+"old","child_process/child-process-read-ipc.js","dur=5 len=64",2711955.479060772,5.019905417
+"old","child_process/child-process-read-ipc.js","dur=5 len=256",9438949.029009182,5.018158680
+"old","child_process/child-process-read-ipc.js","dur=5 len=1024",39316249.71219189,5.017896301
+"old","child_process/child-process-read-ipc.js","dur=5 len=4096",68023851.15394509,5.019814818
+"old","child_process/child-process-read-ipc.js","dur=5 len=16384",85632098.24067622,5.018206500
+"old","child_process/child-process-read-ipc.js","dur=5 len=65536",86821374.4594181,5.009854252
+"old","child_process/child-process-read-ipc.js","dur=5 len=1048576",24036748.439127695,5.016745102
+"old","child_process/child-process-read-ipc.js","dur=5 len=2097152",11302480.028277215,5.009794652
+"new","child_process/child-process-read-ipc.js","dur=5 len=64",2632602.482141406,5.011132554
+"new","child_process/child-process-read-ipc.js","dur=5 len=256",9275110.081849009,5.017374844
+"new","child_process/child-process-read-ipc.js","dur=5 len=1024",39547297.3375986,5.018616122
+"new","child_process/child-process-read-ipc.js","dur=5 len=4096",68910614.06566958,5.017986223
+"new","child_process/child-process-read-ipc.js","dur=5 len=16384",87370450.69369468,5.009686416
+"new","child_process/child-process-read-ipc.js","dur=5 len=65536",93659465.75156894,5.020536859
+"new","child_process/child-process-read-ipc.js","dur=5 len=1048576",21345728.89699703,5.010592635
+"new","child_process/child-process-read-ipc.js","dur=5 len=2097152",17159404.195394654,5.010851835
+"old","child_process/child-process-read-ipc.js","dur=5 len=64",2711955.479060772,5.019905417
+"old","child_process/child-process-read-ipc.js","dur=5 len=256",9438949.029009182,5.018158680
+"old","child_process/child-process-read-ipc.js","dur=5 len=1024",39316249.71219189,5.017896301
+"old","child_process/child-process-read-ipc.js","dur=5 len=4096",68023851.15394509,5.019814818
+"old","child_process/child-process-read-ipc.js","dur=5 len=16384",85632098.24067622,5.018206500
+"old","child_process/child-process-read-ipc.js","dur=5 len=65536",86821374.4594181,5.009854252
+"old","child_process/child-process-read-ipc.js","dur=5 len=1048576",24036748.439127695,5.016745102
+"old","child_process/child-process-read-ipc.js","dur=5 len=2097152",11302480.028277215,5.009794652
+"new","child_process/child-process-read-ipc.js","dur=5 len=64",2681869.4994912134,5.010952249
+"new","child_process/child-process-read-ipc.js","dur=5 len=256",9433493.321711604,5.018075742
+"new","child_process/child-process-read-ipc.js","dur=5 len=1024",39966801.17013714,5.010212730
+"new","child_process/child-process-read-ipc.js","dur=5 len=4096",70342023.57729329,5.009856670
+"new","child_process/child-process-read-ipc.js","dur=5 len=16384",83190749.30418834,5.019339620
+"new","child_process/child-process-read-ipc.js","dur=5 len=65536",89803549.09420618,5.019362960
+"new","child_process/child-process-read-ipc.js","dur=5 len=1048576",21935916.74400754,5.019187540
+"new","child_process/child-process-read-ipc.js","dur=5 len=2097152",18800598.737092163,5.019618860
+"old","child_process/child-process-read.js","dur=5 len=64",3.525574724484858,5.026915747
+"old","child_process/child-process-read.js","dur=5 len=256",4.295231648524397,5.017299682
+"old","child_process/child-process-read.js","dur=5 len=1024",3.8810211087085906,5.025809568
+"old","child_process/child-process-read.js","dur=5 len=4096",2.817543044367523,5.029875423
+"old","child_process/child-process-read.js","dur=5 len=32768",6.6636362880366296,5.021184115
+"new","child_process/child-process-read.js","dur=5 len=64",4.348345217214801,5.027222870
+"new","child_process/child-process-read.js","dur=5 len=256",3.9939615991706003,5.020038662
+"new","child_process/child-process-read.js","dur=5 len=1024",2.6254740008420394,5.033083577
+"new","child_process/child-process-read.js","dur=5 len=4096",3.2053653752786886,5.030405974
+"new","child_process/child-process-read.js","dur=5 len=32768",6.990185733307288,5.029064193
+"old","child_process/child-process-read.js","dur=5 len=64",3.525574724484858,5.026915747
+"old","child_process/child-process-read.js","dur=5 len=256",4.295231648524397,5.017299682
+"old","child_process/child-process-read.js","dur=5 len=1024",3.8810211087085906,5.025809568
+"old","child_process/child-process-read.js","dur=5 len=4096",2.817543044367523,5.029875423
+"old","child_process/child-process-read.js","dur=5 len=32768",6.6636362880366296,5.021184115
+"new","child_process/child-process-read.js","dur=5 len=64",2.252000861104397,5.019941580
+"new","child_process/child-process-read.js","dur=5 len=256",4.39868725457573,5.016668526
+"new","child_process/child-process-read.js","dur=5 len=1024",3.203999333177746,5.025329191
+"new","child_process/child-process-read.js","dur=5 len=4096",3.036211804956585,5.020380179
+"new","child_process/child-process-read.js","dur=5 len=32768",6.423383137022964,5.026841890
+"old","child_process/child-process-read.js","dur=5 len=64",3.525574724484858,5.026915747
+"old","child_process/child-process-read.js","dur=5 len=256",4.295231648524397,5.017299682
+"old","child_process/child-process-read.js","dur=5 len=1024",3.8810211087085906,5.025809568
+"old","child_process/child-process-read.js","dur=5 len=4096",2.817543044367523,5.029875423
+"old","child_process/child-process-read.js","dur=5 len=32768",6.6636362880366296,5.021184115
+"new","child_process/child-process-read.js","dur=5 len=64",2.2397463479056494,5.021705678
+"new","child_process/child-process-read.js","dur=5 len=256",4.389391809539676,5.019819140
+"new","child_process/child-process-read.js","dur=5 len=1024",3.812030469951839,5.029021971
+"new","child_process/child-process-read.js","dur=5 len=4096",3.08781356156518,5.030678188
+"new","child_process/child-process-read.js","dur=5 len=32768",6.868522031127656,5.018468882
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

@@ -1,0 +1,33 @@
+                                                                       confidence improvement accuracy (*)      (**)     (***)
+webstreams/creation.js kind="ReadableStream.tee" n=50000                       **    -13.60 %       ±3.65%    ±8.41%   ±26.77%
+webstreams/creation.js kind="ReadableStream" n=50000                          ***     96.68 %       ±0.62%    ±1.42%    ±4.52%
+webstreams/creation.js kind="ReadableStreamBYOBReader" n=50000                  *    848.05 %     ±397.65%  ±917.25% ±2920.36%
+webstreams/creation.js kind="ReadableStreamDefaultReader" n=50000               *    837.83 %     ±471.87% ±1088.45% ±3465.43%
+webstreams/creation.js kind="TransformStream" n=50000                          **     50.18 %      ±11.28%   ±26.03%   ±82.86%
+webstreams/creation.js kind="WritableStream" n=50000                          ***    205.24 %      ±16.36%   ±37.74%  ±120.17%
+webstreams/pipe-to.js highWaterMarkW=1024 highWaterMarkR=1024 n=500000        ***    287.86 %      ±13.43%   ±30.97%   ±98.61%
+webstreams/pipe-to.js highWaterMarkW=1024 highWaterMarkR=2048 n=500000         **    286.24 %      ±59.66%  ±137.62%  ±438.16%
+webstreams/pipe-to.js highWaterMarkW=1024 highWaterMarkR=4096 n=500000        ***    281.55 %      ±10.72%   ±24.72%   ±78.69%
+webstreams/pipe-to.js highWaterMarkW=1024 highWaterMarkR=512 n=500000          **    286.39 %      ±45.78%  ±105.59%  ±336.19%
+webstreams/pipe-to.js highWaterMarkW=2048 highWaterMarkR=1024 n=500000        ***    275.72 %      ±36.28%   ±83.68%  ±266.42%
+webstreams/pipe-to.js highWaterMarkW=2048 highWaterMarkR=2048 n=500000         **    286.75 %      ±55.68%  ±128.43%  ±408.90%
+webstreams/pipe-to.js highWaterMarkW=2048 highWaterMarkR=4096 n=500000         **    283.42 %      ±68.21%  ±157.35%  ±500.96%
+webstreams/pipe-to.js highWaterMarkW=2048 highWaterMarkR=512 n=500000         ***    280.51 %      ±15.10%   ±34.84%  ±110.92%
+webstreams/pipe-to.js highWaterMarkW=4096 highWaterMarkR=1024 n=500000        ***    311.48 %      ±33.66%   ±77.65%  ±247.21%
+webstreams/pipe-to.js highWaterMarkW=4096 highWaterMarkR=2048 n=500000        ***    296.75 %      ±34.01%   ±78.45%  ±249.77%
+webstreams/pipe-to.js highWaterMarkW=4096 highWaterMarkR=4096 n=500000         **    288.74 %      ±50.27%  ±115.95%  ±369.16%
+webstreams/pipe-to.js highWaterMarkW=4096 highWaterMarkR=512 n=500000         ***    290.39 %      ±21.81%   ±50.32%  ±160.20%
+webstreams/pipe-to.js highWaterMarkW=512 highWaterMarkR=1024 n=500000          **    295.36 %      ±47.94%  ±110.57%  ±352.04%
+webstreams/pipe-to.js highWaterMarkW=512 highWaterMarkR=2048 n=500000         ***    305.82 %      ±25.21%   ±58.15%  ±185.14%
+webstreams/pipe-to.js highWaterMarkW=512 highWaterMarkR=4096 n=500000          **    287.07 %      ±49.80%  ±114.87%  ±365.74%
+webstreams/pipe-to.js highWaterMarkW=512 highWaterMarkR=512 n=500000           **    278.80 %      ±64.18%  ±148.04%  ±471.34%
+webstreams/readable-async-iterator.js n=100000                                ***   1099.27 %      ±73.49%  ±169.52%  ±539.72%
+webstreams/readable-read.js type="byob" n=100000                              ***    222.48 %       ±8.20%   ±18.92%   ±60.25%
+webstreams/readable-read.js type="normal" n=100000                            ***   1142.96 %     ±114.92%  ±265.08%  ±843.99%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 25 comparisons, you can thus
+expect the following amount of false-positive results:
+  1.25 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.25 false positives, when considering a   1% risk acceptance (**, ***),
+  0.03 false positives, when considering a 0.1% risk acceptance (***)

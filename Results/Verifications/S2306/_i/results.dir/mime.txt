@@ -1,0 +1,62 @@
+                                                                                                                                                                                                 confidence
+mime/mimetype-instantiation.js value="application/ecmascript; " n=100000                                                                                                                                  *
+mime/mimetype-instantiation.js value="text/html;012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789=x;charset=gbk" n=100000           
+mime/mimetype-instantiation.js value="text/html;charset=gbk" n=100000                                                                                                                                      
+mime/mimetype-instantiation.js value="text/html;test=ÿ;charset=gbk" n=100000                                                                                                                               
+mime/mimetype-instantiation.js value="x/x;\\n\\r\\t x=x\\n\\r\\t ;x=y" n=100000                                                                                                                            
+mime/mimetype-to-string.js value="application/ecmascript; " n=100000                                                                                                                                       
+mime/mimetype-to-string.js value="text/html;012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789=x;charset=gbk" n=100000               
+mime/mimetype-to-string.js value="text/html;charset=gbk" n=100000                                                                                                                                         *
+mime/mimetype-to-string.js value="text/html;test=ÿ;charset=gbk" n=100000                                                                                                                                   
+mime/mimetype-to-string.js value="x/x;\\n\\r\\t x=x\\n\\r\\t ;x=y" n=100000                                                                                                                                
+                                                                                                                                                                                                 improvement
+mime/mimetype-instantiation.js value="application/ecmascript; " n=100000                                                                                                                              5.40 %
+mime/mimetype-instantiation.js value="text/html;012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789=x;charset=gbk" n=100000      1.22 %
+mime/mimetype-instantiation.js value="text/html;charset=gbk" n=100000                                                                                                                                 0.22 %
+mime/mimetype-instantiation.js value="text/html;test=ÿ;charset=gbk" n=100000                                                                                                                          0.45 %
+mime/mimetype-instantiation.js value="x/x;\\n\\r\\t x=x\\n\\r\\t ;x=y" n=100000                                                                                                                      -2.77 %
+mime/mimetype-to-string.js value="application/ecmascript; " n=100000                                                                                                                                  0.61 %
+mime/mimetype-to-string.js value="text/html;012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789=x;charset=gbk" n=100000          0.00 %
+mime/mimetype-to-string.js value="text/html;charset=gbk" n=100000                                                                                                                                     0.18 %
+mime/mimetype-to-string.js value="text/html;test=ÿ;charset=gbk" n=100000                                                                                                                             -1.76 %
+mime/mimetype-to-string.js value="x/x;\\n\\r\\t x=x\\n\\r\\t ;x=y" n=100000                                                                                                                          -0.90 %
+                                                                                                                                                                                                 accuracy (*)
+mime/mimetype-instantiation.js value="application/ecmascript; " n=100000                                                                                                                               ±4.11%
+mime/mimetype-instantiation.js value="text/html;012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789=x;charset=gbk" n=100000       ±4.51%
+mime/mimetype-instantiation.js value="text/html;charset=gbk" n=100000                                                                                                                                  ±2.70%
+mime/mimetype-instantiation.js value="text/html;test=ÿ;charset=gbk" n=100000                                                                                                                           ±4.91%
+mime/mimetype-instantiation.js value="x/x;\\n\\r\\t x=x\\n\\r\\t ;x=y" n=100000                                                                                                                        ±4.36%
+mime/mimetype-to-string.js value="application/ecmascript; " n=100000                                                                                                                                   ±0.83%
+mime/mimetype-to-string.js value="text/html;012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789=x;charset=gbk" n=100000           ±4.26%
+mime/mimetype-to-string.js value="text/html;charset=gbk" n=100000                                                                                                                                      ±0.18%
+mime/mimetype-to-string.js value="text/html;test=ÿ;charset=gbk" n=100000                                                                                                                               ±8.14%
+mime/mimetype-to-string.js value="x/x;\\n\\r\\t x=x\\n\\r\\t ;x=y" n=100000                                                                                                                            ±2.04%
+                                                                                                                                                                                                    (**)
+mime/mimetype-instantiation.js value="application/ecmascript; " n=100000                                                                                                                          ±9.48%
+mime/mimetype-instantiation.js value="text/html;012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789=x;charset=gbk" n=100000 ±10.40%
+mime/mimetype-instantiation.js value="text/html;charset=gbk" n=100000                                                                                                                             ±6.23%
+mime/mimetype-instantiation.js value="text/html;test=ÿ;charset=gbk" n=100000                                                                                                                     ±11.32%
+mime/mimetype-instantiation.js value="x/x;\\n\\r\\t x=x\\n\\r\\t ;x=y" n=100000                                                                                                                  ±10.05%
+mime/mimetype-to-string.js value="application/ecmascript; " n=100000                                                                                                                              ±1.91%
+mime/mimetype-to-string.js value="text/html;012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789=x;charset=gbk" n=100000      ±9.82%
+mime/mimetype-to-string.js value="text/html;charset=gbk" n=100000                                                                                                                                 ±0.42%
+mime/mimetype-to-string.js value="text/html;test=ÿ;charset=gbk" n=100000                                                                                                                         ±18.79%
+mime/mimetype-to-string.js value="x/x;\\n\\r\\t x=x\\n\\r\\t ;x=y" n=100000                                                                                                                       ±4.70%
+                                                                                                                                                                                                   (***)
+mime/mimetype-instantiation.js value="application/ecmascript; " n=100000                                                                                                                         ±30.18%
+mime/mimetype-instantiation.js value="text/html;012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789=x;charset=gbk" n=100000 ±33.12%
+mime/mimetype-instantiation.js value="text/html;charset=gbk" n=100000                                                                                                                            ±19.84%
+mime/mimetype-instantiation.js value="text/html;test=ÿ;charset=gbk" n=100000                                                                                                                     ±36.04%
+mime/mimetype-instantiation.js value="x/x;\\n\\r\\t x=x\\n\\r\\t ;x=y" n=100000                                                                                                                  ±31.99%
+mime/mimetype-to-string.js value="application/ecmascript; " n=100000                                                                                                                              ±6.07%
+mime/mimetype-to-string.js value="text/html;012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789=x;charset=gbk" n=100000     ±31.25%
+mime/mimetype-to-string.js value="text/html;charset=gbk" n=100000                                                                                                                                 ±1.33%
+mime/mimetype-to-string.js value="text/html;test=ÿ;charset=gbk" n=100000                                                                                                                         ±59.81%
+mime/mimetype-to-string.js value="x/x;\\n\\r\\t x=x\\n\\r\\t ;x=y" n=100000                                                                                                                      ±14.98%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 10 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.50 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.10 false positives, when considering a   1% risk acceptance (**, ***),
+  0.01 false positives, when considering a 0.1% risk acceptance (***)

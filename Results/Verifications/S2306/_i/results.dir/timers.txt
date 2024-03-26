@@ -1,0 +1,30 @@
+                                                             confidence improvement accuracy (*)     (**)    (***)
+timers/immediate.js type="breadth" n=5000000                                -7.97 %      ±23.25%  ±53.62% ±170.73%
+timers/immediate.js type="breadth1" n=5000000                                3.48 %      ±34.32%  ±79.15% ±252.02%
+timers/immediate.js type="breadth4" n=5000000                               12.52 %      ±15.64%  ±36.09% ±114.90%
+timers/immediate.js type="clear" n=5000000                                   3.87 %      ±24.17%  ±55.76% ±177.52%
+timers/immediate.js type="depth" n=5000000                                  -0.63 %       ±2.26%   ±5.22%  ±16.63%
+timers/immediate.js type="depth1" n=5000000                                 -2.09 %       ±3.87%   ±8.94%  ±28.45%
+timers/set-immediate-breadth-args.js n=5000000                             -13.64 %      ±24.35%  ±56.17% ±178.83%
+timers/set-immediate-breadth.js n=10000000                                   2.87 %      ±19.62%  ±45.26% ±144.10%
+timers/set-immediate-depth-args.js n=5000000                                -2.27 %       ±5.29%  ±12.21%  ±38.86%
+timers/timers-breadth-args.js n=1000000                                    -10.96 %      ±34.38%  ±79.31% ±252.50%
+timers/timers-breadth.js n=5000000                                          23.75 %      ±58.21% ±134.27% ±427.50%
+timers/timers-cancel-pooled.js n=5000000                                   -32.55 %      ±77.30% ±178.31% ±567.72%
+timers/timers-cancel-unpooled.js direction="end" n=1000000          ***    -76.66 %       ±3.98%   ±9.18%  ±29.24%
+timers/timers-cancel-unpooled.js direction="start" n=1000000                24.25 %      ±88.14% ±203.32% ±647.33%
+timers/timers-depth.js n=1000                                               -0.18 %       ±0.74%   ±1.71%   ±5.44%
+timers/timers-insert-pooled.js n=5000000                                    21.11 %      ±22.80%  ±52.58% ±167.42%
+timers/timers-insert-unpooled.js direction="end" n=1000000                   0.70 %       ±8.71%  ±20.08%  ±63.93%
+timers/timers-insert-unpooled.js direction="start" n=1000000                -7.20 %      ±14.07%  ±32.45% ±103.31%
+timers/timers-timeout-nexttick.js n=50000                                   -1.23 %       ±6.93%  ±15.97%  ±50.86%
+timers/timers-timeout-nexttick.js n=5000000                                -21.46 %      ±27.29%  ±62.95% ±200.41%
+timers/timers-timeout-pooled.js n=10000000                                 -16.98 %      ±76.35% ±176.10% ±560.68%
+timers/timers-timeout-unpooled.js n=1000000                                 50.92 %      ±90.75% ±209.34% ±666.49%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 22 comparisons, you can thus
+expect the following amount of false-positive results:
+  1.10 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.22 false positives, when considering a   1% risk acceptance (**, ***),
+  0.02 false positives, when considering a 0.1% risk acceptance (***)

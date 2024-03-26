@@ -1,0 +1,37 @@
+"filename","configuration","rate","time"
+"test_runner/global-concurrent-tests.js","type=""sync"" n=100",437.53741273031903,0.228551884
+"test_runner/global-concurrent-tests.js","type=""async"" n=100",444.03620545112966,0.225206861
+"test_runner/global-concurrent-tests.js","type=""sync"" n=1000",1033.381406374142,0.967696916
+"test_runner/global-concurrent-tests.js","type=""async"" n=1000",994.3897099367503,1.005641943
+"test_runner/global-concurrent-tests.js","type=""sync"" n=10000",1555.0661317344504,6.430594684
+"test_runner/global-concurrent-tests.js","type=""async"" n=10000",1455.4947421890597,6.870516059
+"test_runner/global-sequential-tests.js","type=""sync"" n=100",122983.07752853209,0.000813120
+"test_runner/global-sequential-tests.js","type=""async"" n=100",124588.70154901133,0.000802641
+"test_runner/global-sequential-tests.js","type=""sync"" n=1000",191227.1120269615,0.005229384
+"test_runner/global-sequential-tests.js","type=""async"" n=1000",187477.86589445785,0.005333963
+"test_runner/global-sequential-tests.js","type=""sync"" n=10000",468299.5178154014,0.021353855
+"test_runner/global-sequential-tests.js","type=""async"" n=10000",443179.98301379755,0.022564196
+"test_runner/suite-tests.js","concurrency=""yes"" testType=""sync"" testsPerSuite=10 numberOfSuites=10",390.62691651330914,0.255998744
+"test_runner/suite-tests.js","concurrency=""no"" testType=""sync"" testsPerSuite=10 numberOfSuites=10",362.56257458410687,0.275814458
+"test_runner/suite-tests.js","concurrency=""yes"" testType=""async"" testsPerSuite=10 numberOfSuites=10",367.34389746791175,0.272224476
+"test_runner/suite-tests.js","concurrency=""no"" testType=""async"" testsPerSuite=10 numberOfSuites=10",365.8010063888024,0.273372676
+"test_runner/suite-tests.js","concurrency=""yes"" testType=""sync"" testsPerSuite=100 numberOfSuites=10",1060.6568233202136,0.942812018
+"test_runner/suite-tests.js","concurrency=""no"" testType=""sync"" testsPerSuite=100 numberOfSuites=10",961.2877429060694,1.040271248
+"test_runner/suite-tests.js","concurrency=""yes"" testType=""async"" testsPerSuite=100 numberOfSuites=10",1049.4621975871698,0.952869005
+"test_runner/suite-tests.js","concurrency=""no"" testType=""async"" testsPerSuite=100 numberOfSuites=10",940.7961454452966,1.062929525
+"test_runner/suite-tests.js","concurrency=""yes"" testType=""sync"" testsPerSuite=1000 numberOfSuites=10",1123.389324547632,8.901633460
+"test_runner/suite-tests.js","concurrency=""no"" testType=""sync"" testsPerSuite=1000 numberOfSuites=10",1075.4423165786504,9.298499646
+"test_runner/suite-tests.js","concurrency=""yes"" testType=""async"" testsPerSuite=1000 numberOfSuites=10",1136.9456823983078,8.795494943
+"test_runner/suite-tests.js","concurrency=""no"" testType=""async"" testsPerSuite=1000 numberOfSuites=10",1091.9319567003852,9.158079804
+"test_runner/suite-tests.js","concurrency=""yes"" testType=""sync"" testsPerSuite=10 numberOfSuites=100",1010.0756541412559,0.990024852
+"test_runner/suite-tests.js","concurrency=""no"" testType=""sync"" testsPerSuite=10 numberOfSuites=100",863.0370155376343,1.158698853
+"test_runner/suite-tests.js","concurrency=""yes"" testType=""async"" testsPerSuite=10 numberOfSuites=100",984.5357880777266,1.015707110
+"test_runner/suite-tests.js","concurrency=""no"" testType=""async"" testsPerSuite=10 numberOfSuites=100",872.9714586529775,1.145512823
+"test_runner/suite-tests.js","concurrency=""yes"" testType=""sync"" testsPerSuite=100 numberOfSuites=100",1121.7911525718107,8.914315269
+"test_runner/suite-tests.js","concurrency=""no"" testType=""sync"" testsPerSuite=100 numberOfSuites=100",1033.9141057912,9.671983334
+"test_runner/suite-tests.js","concurrency=""yes"" testType=""async"" testsPerSuite=100 numberOfSuites=100",1157.1318797087729,8.642057293
+"test_runner/suite-tests.js","concurrency=""no"" testType=""async"" testsPerSuite=100 numberOfSuites=100",1054.2662509523345,9.485269960
+"test_runner/suite-tests.js","concurrency=""yes"" testType=""sync"" testsPerSuite=1000 numberOfSuites=100",201.93175989497064,495.216800230
+"test_runner/suite-tests.js","concurrency=""no"" testType=""sync"" testsPerSuite=1000 numberOfSuites=100",202.6109969176586,493.556625856
+"test_runner/suite-tests.js","concurrency=""yes"" testType=""async"" testsPerSuite=1000 numberOfSuites=100",211.67371727177255,472.425208424
+"test_runner/suite-tests.js","concurrency=""no"" testType=""async"" testsPerSuite=1000 numberOfSuites=100",205.21311295831313,487.298294726

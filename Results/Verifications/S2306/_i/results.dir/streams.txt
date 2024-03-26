@@ -1,0 +1,43 @@
+                                                                                         confidence improvement accuracy (*)     (**)    (***)
+streams/creation.js kind="duplex" n=50000000                                                            -1.59 %       ±4.00%   ±9.22%  ±29.37%
+streams/creation.js kind="readable" n=50000000                                                          -1.82 %       ±8.05%  ±18.57%  ±59.12%
+streams/creation.js kind="transform" n=50000000                                                          7.23 %      ±25.82%  ±59.57% ±189.65%
+streams/creation.js kind="writable" n=50000000                                                          -2.82 %       ±4.81%  ±11.09%  ±35.32%
+streams/destroy.js kind="duplex" n=1000000                                                             -20.92 %      ±52.16% ±120.31% ±383.06%
+streams/destroy.js kind="readable" n=1000000                                                            -3.01 %      ±13.77%  ±31.76% ±101.11%
+streams/destroy.js kind="transform" n=1000000                                                            1.54 %       ±8.79%  ±20.28%  ±64.58%
+streams/destroy.js kind="writable" n=1000000                                                             0.30 %      ±10.92%  ±25.20%  ±80.23%
+streams/pipe-object-mode.js n=5000000                                                                   -1.36 %       ±7.47%  ±17.23%  ±54.87%
+streams/pipe.js n=5000000                                                                               -1.85 %       ±5.22%  ±12.03%  ±38.30%
+streams/readable-async-iterator.js sync="no" n=100000                                                    3.16 %       ±9.91%  ±22.86%  ±72.79%
+streams/readable-async-iterator.js sync="yes" n=100000                                                   2.61 %       ±5.43%  ±12.52%  ±39.86%
+streams/readable-bigread.js n=1000                                                                      -2.16 %      ±12.38%  ±28.57%  ±90.95%
+streams/readable-bigunevenread.js n=1000                                                                -2.53 %       ±9.14%  ±21.08%  ±67.13%
+streams/readable-boundaryread.js type="buffer" n=2000                                                   -2.13 %       ±2.24%   ±5.18%  ±16.48%
+streams/readable-boundaryread.js type="string" n=2000                                                   -4.29 %       ±4.93%  ±11.38%  ±36.23%
+streams/readable-from.js n=10000000                                                                     19.60 %      ±37.00%  ±85.34% ±271.71%
+streams/readable-readall.js n=5000                                                                       2.24 %      ±20.00%  ±46.14% ±146.89%
+streams/readable-unevenread.js n=1000                                                                   -4.59 %       ±6.57%  ±15.14%  ±48.22%
+streams/writable-manywrites.js len=1024 callback="no" writev="no" sync="no" n=100000                     1.57 %       ±7.34%  ±16.93%  ±53.90%
+streams/writable-manywrites.js len=1024 callback="no" writev="no" sync="yes" n=100000                   -1.04 %       ±1.57%   ±3.63%  ±11.56%
+streams/writable-manywrites.js len=1024 callback="no" writev="yes" sync="no" n=100000                    0.69 %       ±0.80%   ±1.84%   ±5.87%
+streams/writable-manywrites.js len=1024 callback="no" writev="yes" sync="yes" n=100000                  -0.12 %       ±2.51%   ±5.78%  ±18.40%
+streams/writable-manywrites.js len=1024 callback="yes" writev="no" sync="no" n=100000                   -2.67 %      ±10.06%  ±23.21%  ±73.89%
+streams/writable-manywrites.js len=1024 callback="yes" writev="no" sync="yes" n=100000                  -0.09 %       ±3.90%   ±8.99%  ±28.63%
+streams/writable-manywrites.js len=1024 callback="yes" writev="yes" sync="no" n=100000                  -0.44 %       ±2.67%   ±6.16%  ±19.60%
+streams/writable-manywrites.js len=1024 callback="yes" writev="yes" sync="yes" n=100000                 -0.88 %       ±1.33%   ±3.08%   ±9.79%
+streams/writable-manywrites.js len=32768 callback="no" writev="no" sync="no" n=100000                   -1.46 %       ±1.90%   ±4.38%  ±13.96%
+streams/writable-manywrites.js len=32768 callback="no" writev="no" sync="yes" n=100000                  -0.21 %       ±4.45%  ±10.26%  ±32.68%
+streams/writable-manywrites.js len=32768 callback="no" writev="yes" sync="no" n=100000                  -0.96 %       ±4.18%   ±9.63%  ±30.66%
+streams/writable-manywrites.js len=32768 callback="no" writev="yes" sync="yes" n=100000                  0.53 %       ±2.89%   ±6.66%  ±21.20%
+streams/writable-manywrites.js len=32768 callback="yes" writev="no" sync="no" n=100000            *     -4.03 %       ±3.80%   ±8.77%  ±27.93%
+streams/writable-manywrites.js len=32768 callback="yes" writev="no" sync="yes" n=100000                 -0.63 %       ±4.47%  ±10.31%  ±32.82%
+streams/writable-manywrites.js len=32768 callback="yes" writev="yes" sync="no" n=100000                 -3.94 %       ±7.17%  ±16.54%  ±52.65%
+streams/writable-manywrites.js len=32768 callback="yes" writev="yes" sync="yes" n=100000                -1.70 %       ±2.40%   ±5.54%  ±17.64%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 35 comparisons, you can thus
+expect the following amount of false-positive results:
+  1.75 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.35 false positives, when considering a   1% risk acceptance (**, ***),
+  0.04 false positives, when considering a 0.1% risk acceptance (***)

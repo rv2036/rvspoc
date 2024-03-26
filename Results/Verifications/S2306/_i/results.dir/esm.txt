@@ -1,0 +1,53 @@
+                                                                                                                                                                confidence improvement accuracy (*)
+                                                                                                                                                                        NA       NaN %           NA
+esm/cjs-parse.js n=100                                                                                                                                                   *     -4.88 %       ±4.48%
+esm/detect-esm-syntax.js n=10000 type="without-module-syntax-detection"                                                                                                 NA     -0.04 %           NA
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/non-exist" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000                                 -3.46 %       ±4.86%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/non-exist" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000                      -5.66 %       ±7.64%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.js" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000                             -4.02 %       ±4.98%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.js" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000           **     -5.90 %       ±1.36%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.json" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000                           -5.01 %       ±5.55%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.json" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000                -4.55 %       ±7.08%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.node" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000                     *     -4.37 %       ±2.93%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.node" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000                -1.13 %       ±4.59%
+esm/esm-loader-defaultResolve.js specifier="./relative-existing.js" n=1000                                                                                                     -1.82 %       ±8.56%
+esm/esm-loader-defaultResolve.js specifier="./relative-nonexistent.js" n=1000                                                                                                   1.04 %       ±3.74%
+esm/esm-loader-defaultResolve.js specifier="node:os" n=1000                                                                                                                    -0.97 %       ±2.75%
+esm/esm-loader-defaultResolve.js specifier="node:prefixed-nonexistent" n=1000                                                                                                   3.62 %       ±4.08%
+esm/esm-loader-defaultResolve.js specifier="unprefixed-existing" n=1000                                                                                                        -2.85 %       ±9.70%
+esm/esm-loader-defaultResolve.js specifier="unprefixed-nonexistent" n=1000                                                                                               *     -1.57 %       ±1.51%
+esm/esm-loader-import.js specifier="./relative-existing.js" n=1000                                                                                                              0.32 %       ±4.23%
+esm/esm-loader-import.js specifier="./relative-nonexistent.js" n=1000                                                                                                           3.23 %      ±10.48%
+esm/esm-loader-import.js specifier="data:text/javascript,{i}" n=1000                                                                                                           -0.48 %      ±14.71%
+esm/esm-loader-import.js specifier="node:os" n=1000                                                                                                                            -0.16 %       ±2.98%
+esm/esm-loader-import.js specifier="node:prefixed-nonexistent" n=1000                                                                                                          -2.25 %       ±4.92%
+                                                                                                                                                                   (**)    (***)
+                                                                                                                                                                     NA       NA
+esm/cjs-parse.js n=100                                                                                                                                          ±10.34%  ±32.92%
+esm/detect-esm-syntax.js n=10000 type="without-module-syntax-detection"                                                                                              NA       NA
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/non-exist" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000                  ±11.22%  ±35.72%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/non-exist" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000       ±17.63%  ±56.14%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.js" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000              ±11.48%  ±36.54%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.js" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000    ±3.13%   ±9.97%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.json" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000            ±12.79%  ±40.73%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.json" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000 ±16.32%  ±51.96%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.node" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000             ±6.76%  ±21.53%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.node" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000 ±10.59%  ±33.73%
+esm/esm-loader-defaultResolve.js specifier="./relative-existing.js" n=1000                                                                                      ±19.74%  ±62.86%
+esm/esm-loader-defaultResolve.js specifier="./relative-nonexistent.js" n=1000                                                                                    ±8.62%  ±27.46%
+esm/esm-loader-defaultResolve.js specifier="node:os" n=1000                                                                                                      ±6.34%  ±20.19%
+esm/esm-loader-defaultResolve.js specifier="node:prefixed-nonexistent" n=1000                                                                                    ±9.40%  ±29.93%
+esm/esm-loader-defaultResolve.js specifier="unprefixed-existing" n=1000                                                                                         ±22.37%  ±71.23%
+esm/esm-loader-defaultResolve.js specifier="unprefixed-nonexistent" n=1000                                                                                       ±3.48%  ±11.07%
+esm/esm-loader-import.js specifier="./relative-existing.js" n=1000                                                                                               ±9.75%  ±31.05%
+esm/esm-loader-import.js specifier="./relative-nonexistent.js" n=1000                                                                                           ±24.16%  ±76.93%
+esm/esm-loader-import.js specifier="data:text/javascript,{i}" n=1000                                                                                            ±33.93% ±108.03%
+esm/esm-loader-import.js specifier="node:os" n=1000                                                                                                              ±6.87%  ±21.88%
+esm/esm-loader-import.js specifier="node:prefixed-nonexistent" n=1000                                                                                           ±11.36%  ±36.15%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 22 comparisons, you can thus
+expect the following amount of false-positive results:
+  1.10 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.22 false positives, when considering a   1% risk acceptance (**, ***),
+  0.02 false positives, when considering a 0.1% risk acceptance (***)

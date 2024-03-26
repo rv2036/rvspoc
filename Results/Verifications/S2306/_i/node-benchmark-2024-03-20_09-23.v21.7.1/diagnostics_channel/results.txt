@@ -1,0 +1,11 @@
+"filename","configuration","rate","time"
+"diagnostics_channel/http.js","duration=5 chunkedEnc=1 connections=50 chunks=4 len=1024 type=""buffer"" apm=""none"" benchmarker=""test-double-http""", 2, 11.092030857
+"diagnostics_channel/http.js","duration=5 chunkedEnc=1 connections=500 chunks=4 len=1024 type=""buffer"" apm=""none"" benchmarker=""test-double-http""", 2, 11.182258723
+"diagnostics_channel/http.js","duration=5 chunkedEnc=1 connections=50 chunks=4 len=1024 type=""buffer"" apm=""diagnostics_channel"" benchmarker=""test-double-http""", 1, 8.478525129
+"diagnostics_channel/http.js","duration=5 chunkedEnc=1 connections=500 chunks=4 len=1024 type=""buffer"" apm=""diagnostics_channel"" benchmarker=""test-double-http""", 1, 8.467091533
+"diagnostics_channel/http.js","duration=5 chunkedEnc=1 connections=50 chunks=4 len=1024 type=""buffer"" apm=""patch"" benchmarker=""test-double-http""", 1, 8.473694771
+"diagnostics_channel/http.js","duration=5 chunkedEnc=1 connections=500 chunks=4 len=1024 type=""buffer"" apm=""patch"" benchmarker=""test-double-http""", 1, 8.422762176
+"diagnostics_channel/publish.js","subscribers=0 n=100000000",216311870.4946023,0.462295480
+"diagnostics_channel/publish.js","subscribers=1 n=100000000",28466943.202163097,3.512846437
+"diagnostics_channel/publish.js","subscribers=10 n=100000000",6021260.35232899,16.607818654
+"diagnostics_channel/subscribe.js","n=100000000",4028418.970678716,24.823634465

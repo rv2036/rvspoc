@@ -1,0 +1,89 @@
+"filename","configuration","rate","time"
+"string_decoder/string-decoder-create.js","n=25000000 encoding=""ascii""",2383901.56506254,10.487010188
+"string_decoder/string-decoder-create.js","n=25000000 encoding=""utf8""",2821646.830563375,8.860074099
+"string_decoder/string-decoder-create.js","n=25000000 encoding=""utf-8""",2725946.1152633885,9.171127727
+"string_decoder/string-decoder-create.js","n=25000000 encoding=""base64""",2618518.0648173974,9.547384964
+"string_decoder/string-decoder-create.js","n=25000000 encoding=""ucs2""",2142535.2662948156,11.668419369
+"string_decoder/string-decoder-create.js","n=25000000 encoding=""UTF-8""",1646815.2542679973,15.180816388
+"string_decoder/string-decoder-create.js","n=25000000 encoding=""AscII""",1488234.4574679527,16.798428416
+"string_decoder/string-decoder-create.js","n=25000000 encoding=""UTF-16LE""",2133558.9290043395,11.717510897
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=32 encoding=""ascii""",755202.1143068556,3.310372088
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=32 encoding=""ascii""",1620681.1811558418,1.542561257
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=32 encoding=""ascii""",1650994.968948126,1.514238412
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=32 encoding=""ascii""",1642149.254587104,1.522395113
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=128 encoding=""ascii""",210484.72042826118,11.877346702
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=128 encoding=""ascii""",724603.5577926288,3.450162469
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=128 encoding=""ascii""",1218164.1835498314,2.052268515
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=128 encoding=""ascii""",1237407.1364922388,2.020353630
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=1024 encoding=""ascii""",27777.425186882996,90.001142409
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=1024 encoding=""ascii""",84785.68754774104,29.486108709
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=1024 encoding=""ascii""",241969.87944441842,10.331864469
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=1024 encoding=""ascii""",489824.4681043565,5.103869167
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=4096 encoding=""ascii""",6821.114063310641,366.509044827
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=4096 encoding=""ascii""",23147.437326997944,108.003316509
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=4096 encoding=""ascii""",58055.36019824929,43.062345862
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=4096 encoding=""ascii""",124230.96400706975,20.123807458
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=32 encoding=""utf8""",629808.8589365545,3.969458296
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=32 encoding=""utf8""",968079.3147475509,2.582433032
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=32 encoding=""utf8""",969483.6304643475,2.578692328
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=32 encoding=""utf8""",953073.6539372231,2.623092129
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=128 encoding=""utf8""",188241.15880859797,13.280836220
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=128 encoding=""utf8""",394443.20840844116,6.338048030
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=128 encoding=""utf8""",495236.3831351707,5.048094375
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=128 encoding=""utf8""",497564.8802581635,5.024470374
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=1024 encoding=""utf8""",23634.09501046386,105.779383509
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=1024 encoding=""utf8""",48209.84144060299,51.856631868
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=1024 encoding=""utf8""",67278.53843006205,37.158952295
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=1024 encoding=""utf8""",79005.71450880186,31.643280686
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=4096 encoding=""utf8""",5862.257477960348,426.456874233
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=4096 encoding=""utf8""",12075.105675424855,207.037525567
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=4096 encoding=""utf8""",16973.91113392684,147.284852635
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=4096 encoding=""utf8""",19232.046071457513,129.991369130
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=32 encoding=""base64-utf8""",218627.65072778764,11.434967131
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=32 encoding=""base64-utf8""",604974.0468602191,4.132408676
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=32 encoding=""base64-utf8""",616279.3841788516,4.056601704
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=32 encoding=""base64-utf8""",590916.8376032091,4.230713767
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=128 encoding=""base64-utf8""",61483.716348131886,40.661172559
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=128 encoding=""base64-utf8""",153682.36777533413,16.267318341
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=128 encoding=""base64-utf8""",329924.5237684798,7.577490668
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=128 encoding=""base64-utf8""",339038.5251354385,7.373793285
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=1024 encoding=""base64-utf8""",8281.221974115639,301.887814119
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=1024 encoding=""base64-utf8""",21856.393673730705,114.383005601
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=1024 encoding=""base64-utf8""",44226.70331728311,56.526935369
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=1024 encoding=""base64-utf8""",65109.48125350737,38.396865585
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=4096 encoding=""base64-utf8""",2031.15440521983,1230.827156013
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=4096 encoding=""base64-utf8""",4793.0609758741,521.587355676
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=4096 encoding=""base64-utf8""",11840.42135838438,211.141134621
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=4096 encoding=""base64-utf8""",16839.10154327714,148.463977937
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=32 encoding=""base64-ascii""",292336.62503437646,8.551785120
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=32 encoding=""base64-ascii""",651836.8395414873,3.835315601
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=32 encoding=""base64-ascii""",626658.578670148,3.989413191
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=32 encoding=""base64-ascii""",638021.4673771356,3.918363453
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=128 encoding=""base64-ascii""",72171.24188322003,34.639836239
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=128 encoding=""base64-ascii""",186199.26035568793,13.426476535
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=128 encoding=""base64-ascii""",368658.8532385757,6.781337212
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=128 encoding=""base64-ascii""",361482.16119904205,6.915970602
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=1024 encoding=""base64-ascii""",10009.985974460544,249.750599689
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=1024 encoding=""base64-ascii""",26658.22767186028,93.779677733
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=1024 encoding=""base64-ascii""",53717.993107955575,46.539341017
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=1024 encoding=""base64-ascii""",76672.42368439972,32.606247199
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=4096 encoding=""base64-ascii""",2287.971069402451,1092.671158929
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=4096 encoding=""base64-ascii""",6740.39192390709,370.898313959
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=4096 encoding=""base64-ascii""",13619.388053415847,183.561845084
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=4096 encoding=""base64-ascii""",20101.1647038377,124.370902723
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=32 encoding=""utf16le""",1055665.5680127076,2.368174236
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=32 encoding=""utf16le""",1927990.9478449712,1.296686586
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=32 encoding=""utf16le""",1855173.4299419594,1.347582905
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=32 encoding=""utf16le""",1855379.0717745565,1.347433545
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=128 encoding=""utf16le""",271361.7416435273,9.212794644
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=128 encoding=""utf16le""",837822.5895210537,2.983925274
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=128 encoding=""utf16le""",1403351.6737513267,1.781449402
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=128 encoding=""utf16le""",1399235.5947960916,1.786689825
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=1024 encoding=""utf16le""",34026.315157424135,73.472545835
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=1024 encoding=""utf16le""",105298.58037707832,23.742010491
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=1024 encoding=""utf16le""",273744.1773384369,9.132614342
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=1024 encoding=""utf16le""",462044.25162803085,5.410737156
+"string_decoder/string-decoder.js","n=2500000 chunkLen=16 inLen=4096 encoding=""utf16le""",8257.565410699162,302.752672932
+"string_decoder/string-decoder.js","n=2500000 chunkLen=64 inLen=4096 encoding=""utf16le""",25081.813030820325,99.673815323
+"string_decoder/string-decoder.js","n=2500000 chunkLen=256 inLen=4096 encoding=""utf16le""",67976.81555168274,36.777245002
+"string_decoder/string-decoder.js","n=2500000 chunkLen=1024 inLen=4096 encoding=""utf16le""",115826.96351746458,21.583920739

@@ -1,0 +1,29 @@
+"filename","configuration","rate","time"
+"zlib/createInflate.js","n=100 chunkLen=1024 inputLen=16777216",6.200044748351768,16.128915848
+"zlib/creation.js","n=500000 options=""true"" type=""Deflate""",40743.96831946224,12.271755075
+"zlib/creation.js","n=500000 options=""false"" type=""Deflate""",41812.33746359048,11.958192972
+"zlib/creation.js","n=500000 options=""true"" type=""DeflateRaw""",41255.40155920602,12.119625094
+"zlib/creation.js","n=500000 options=""false"" type=""DeflateRaw""",42537.67221518141,11.754286823
+"zlib/creation.js","n=500000 options=""true"" type=""Inflate""",40382.13344743946,12.381713330
+"zlib/creation.js","n=500000 options=""false"" type=""Inflate""",41670.23802136133,11.998971538
+"zlib/creation.js","n=500000 options=""true"" type=""InflateRaw""",40335.42002089095,12.396052892
+"zlib/creation.js","n=500000 options=""false"" type=""InflateRaw""",41833.01106490982,11.952283311
+"zlib/creation.js","n=500000 options=""true"" type=""Gzip""",41029.85721841999,12.186247623
+"zlib/creation.js","n=500000 options=""false"" type=""Gzip""",43292.1003394915,11.549451195
+"zlib/creation.js","n=500000 options=""true"" type=""Gunzip""",40008.72956551717,12.497272606
+"zlib/creation.js","n=500000 options=""false"" type=""Gunzip""",41141.17070580414,12.153275938
+"zlib/creation.js","n=500000 options=""true"" type=""Unzip""",39418.156566010555,12.684509971
+"zlib/creation.js","n=500000 options=""false"" type=""Unzip""",40423.968754253256,12.368899329
+"zlib/creation.js","n=500000 options=""true"" type=""BrotliCompress""",39297.27970024734,12.723527018
+"zlib/creation.js","n=500000 options=""false"" type=""BrotliCompress""",37945.311932373705,13.176858340
+"zlib/creation.js","n=500000 options=""true"" type=""BrotliDecompress""",39405.99935023038,12.688423292
+"zlib/creation.js","n=500000 options=""false"" type=""BrotliDecompress""",40570.608859571235,12.324192662
+"zlib/deflate.js","n=400000 inputLen=1024 method=""createDeflate""",10287.549124477682,38.881952850
+"zlib/deflate.js","n=400000 inputLen=1024 method=""deflate""",3641.3283979209923,109.850020731
+"zlib/deflate.js","n=400000 inputLen=1024 method=""deflateSync""",12909.000069226095,30.986133539
+"zlib/inflate.js","n=400000 inputLen=1024 method=""inflate""",4489.038489654868,89.105941266
+"zlib/inflate.js","n=400000 inputLen=1024 method=""inflateSync""",25278.816650158395,15.823525505
+"zlib/pipe.js","algorithm=""gzip"" type=""string"" duration=5 inputLen=1024",0.04386776533568035,5.004544291
+"zlib/pipe.js","algorithm=""brotli"" type=""string"" duration=5 inputLen=1024",0.0249755152486309,5.004901751
+"zlib/pipe.js","algorithm=""gzip"" type=""buffer"" duration=5 inputLen=1024",0.050153704169049566,5.005221391
+"zlib/pipe.js","algorithm=""brotli"" type=""buffer"" duration=5 inputLen=1024",0.03746376960512506,5.004835391

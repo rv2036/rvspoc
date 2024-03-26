@@ -1,0 +1,126 @@
+                                                                                                                      confidence improvement accuracy (*)      (**)      (***)
+assert/deepequal-buffer.js method="deepEqual" arrayBuffer=0 strict=0 len=100 n=20000                                         ***    733.78 %      ±31.10%   ±71.74%   ±228.40%
+assert/deepequal-buffer.js method="deepEqual" arrayBuffer=0 strict=0 len=1000 n=20000                                        ***    721.88 %      ±31.21%   ±72.00%   ±229.23%
+assert/deepequal-buffer.js method="deepEqual" arrayBuffer=0 strict=1 len=100 n=20000                                         ***    781.16 %       ±2.58%    ±5.96%    ±18.97%
+assert/deepequal-buffer.js method="deepEqual" arrayBuffer=0 strict=1 len=1000 n=20000                                        ***    763.44 %      ±32.37%   ±74.67%   ±237.74%
+assert/deepequal-buffer.js method="deepEqual" arrayBuffer=1 strict=0 len=100 n=20000                                         ***   1146.48 %      ±36.83%   ±84.95%   ±270.46%
+assert/deepequal-buffer.js method="deepEqual" arrayBuffer=1 strict=0 len=1000 n=20000                                        ***   1159.58 %      ±16.74%   ±38.60%   ±122.91%
+assert/deepequal-buffer.js method="deepEqual" arrayBuffer=1 strict=1 len=100 n=20000                                         ***   1017.07 %      ±24.98%   ±57.63%   ±183.48%
+assert/deepequal-buffer.js method="deepEqual" arrayBuffer=1 strict=1 len=1000 n=20000                                        ***    952.04 %      ±11.45%   ±26.42%    ±84.11%
+assert/deepequal-buffer.js method="notDeepEqual" arrayBuffer=0 strict=1 len=100 n=20000                                      ***    760.03 %      ±22.34%   ±51.53%   ±164.07%
+assert/deepequal-buffer.js method="notDeepEqual" arrayBuffer=0 strict=1 len=1000 n=20000                                     ***    750.44 %      ±25.90%   ±59.74%   ±190.21%
+assert/deepequal-buffer.js method="notDeepEqual" arrayBuffer=1 strict=1 len=100 n=20000                                      ***    898.45 %       ±7.14%   ±16.47%    ±52.43%
+assert/deepequal-buffer.js method="notDeepEqual" arrayBuffer=1 strict=1 len=1000 n=20000                                     ***    890.48 %      ±10.36%   ±23.89%    ±76.06%
+assert/deepequal-buffer.js method="unequal_length" arrayBuffer=0 strict=1 len=100 n=20000                                    ***    841.90 %      ±33.81%   ±78.00%   ±248.33%
+assert/deepequal-buffer.js method="unequal_length" arrayBuffer=0 strict=1 len=1000 n=20000                                   ***    824.72 %      ±22.71%   ±52.39%   ±166.81%
+assert/deepequal-buffer.js method="unequal_length" arrayBuffer=1 strict=1 len=100 n=20000                                    ***   1064.07 %      ±65.36%  ±150.75%   ±479.98%
+assert/deepequal-buffer.js method="unequal_length" arrayBuffer=1 strict=1 len=1000 n=20000                                   ***   1085.59 %      ±52.93%  ±122.09%   ±388.73%
+assert/deepequal-map.js method="deepEqual_mixed" strict=0 len=500 n=500                                                      ***    404.89 %      ±21.02%   ±48.48%   ±154.36%
+assert/deepequal-map.js method="deepEqual_mixed" strict=1 len=500 n=500                                                      ***    437.74 %      ±19.21%   ±44.30%   ±141.05%
+assert/deepequal-map.js method="deepEqual_objectOnly" strict=0 len=500 n=500                                                 ***    221.15 %       ±6.75%   ±15.58%    ±49.60%
+assert/deepequal-map.js method="deepEqual_objectOnly" strict=1 len=500 n=500                                                 ***    243.62 %      ±12.56%   ±28.97%    ±92.24%
+assert/deepequal-map.js method="deepEqual_primitiveOnly" strict=0 len=500 n=500                                              ***   1460.55 %      ±64.62%  ±149.05%   ±474.55%
+assert/deepequal-map.js method="deepEqual_primitiveOnly" strict=1 len=500 n=500                                              ***   1508.19 %      ±43.23%   ±99.71%   ±317.47%
+assert/deepequal-map.js method="notDeepEqual_mixed" strict=0 len=500 n=500                                                   ***   7579.14 %     ±309.67%  ±714.32%  ±2274.26%
+assert/deepequal-map.js method="notDeepEqual_mixed" strict=1 len=500 n=500                                                   ***   6987.81 %     ±236.87%  ±546.39%  ±1739.60%
+assert/deepequal-map.js method="notDeepEqual_objectOnly" strict=0 len=500 n=500                                              ***    415.21 %      ±27.73%   ±63.97%   ±203.66%
+assert/deepequal-map.js method="notDeepEqual_objectOnly" strict=1 len=500 n=500                                              ***    420.57 %      ±28.93%   ±66.73%   ±212.46%
+assert/deepequal-map.js method="notDeepEqual_primitiveOnly" strict=0 len=500 n=500                                           ***   1804.57 %      ±19.40%   ±44.75%   ±142.47%
+assert/deepequal-map.js method="notDeepEqual_primitiveOnly" strict=1 len=500 n=500                                           ***   1739.82 %     ±118.28%  ±272.84%   ±868.67%
+assert/deepequal-object.js method="deepEqual" strict=1 size=100 n=2000                                                       ***     61.79 %       ±5.11%   ±11.78%    ±37.50%
+assert/deepequal-object.js method="deepEqual" strict=1 size=1000 n=200                                                       ***     70.33 %       ±5.33%   ±12.29%    ±39.12%
+assert/deepequal-object.js method="deepEqual" strict=1 size=10000 n=25                                                       ***     69.99 %       ±5.50%   ±12.69%    ±40.40%
+assert/deepequal-object.js method="notDeepEqual" strict=1 size=100 n=2000                                                    ***   1366.28 %      ±17.78%   ±41.02%   ±130.59%
+assert/deepequal-object.js method="notDeepEqual" strict=1 size=1000 n=200                                                    ***   5383.95 %     ±235.39%  ±542.96%  ±1728.70%
+assert/deepequal-object.js method="notDeepEqual" strict=1 size=10000 n=25                                                    ***  15150.63 %    ±1118.72% ±2580.52%  ±8215.95%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=0 n=100000 primitive="array"                           ***    545.09 %       ±3.07%    ±7.08%    ±22.54%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=0 n=100000 primitive="boolean"                         ***   2691.19 %      ±53.43%  ±123.24%   ±392.38%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=0 n=100000 primitive="circular"                        ***   1009.43 %      ±64.41%  ±148.57%   ±473.03%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=0 n=100000 primitive="date"                            ***   1797.60 %      ±45.11%  ±104.06%   ±331.33%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=0 n=100000 primitive="empty_object"                    ***   2227.64 %     ±194.44%  ±448.52%  ±1428.02%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=0 n=100000 primitive="number"                          ***   2773.42 %      ±57.27%  ±132.10%   ±420.60%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=0 n=100000 primitive="object_other_property"           ***   2656.28 %      ±69.18%  ±159.57%   ±508.03%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=0 n=100000 primitive="object"                          ***   1459.02 %     ±140.84%  ±324.87%  ±1034.32%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=0 n=100000 primitive="regexp"                          ***   1296.66 %      ±12.01%   ±27.70%    ±88.20%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=0 n=100000 primitive="set_object"                      ***    464.09 %      ±34.20%   ±78.89%   ±251.16%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=0 n=100000 primitive="set_simple"                      ***    984.71 %      ±32.77%   ±75.59%   ±240.67%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=0 n=100000 primitive="string"                           **   2438.52 %     ±689.79% ±1591.13%  ±5065.90%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=1 n=100000 primitive="array"                           ***    591.39 %       ±9.82%   ±22.65%    ±72.11%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=1 n=100000 primitive="boolean"                         ***   2717.44 %     ±102.50%  ±236.43%   ±752.74%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=1 n=100000 primitive="circular"                        ***    428.64 %      ±16.31%   ±37.63%   ±119.82%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=1 n=100000 primitive="date"                            ***    741.81 %      ±33.71%   ±77.76%   ±247.58%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=1 n=100000 primitive="empty_object"                    ***    815.99 %      ±70.15%  ±161.82%   ±515.20%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=1 n=100000 primitive="number"                          ***   2979.98 %     ±152.11%  ±350.87%  ±1117.10%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=1 n=100000 primitive="object_other_property"           ***   2800.19 %      ±83.58%  ±192.78%   ±613.80%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=1 n=100000 primitive="object"                          ***    694.41 %       ±8.96%   ±20.66%    ±65.79%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=1 n=100000 primitive="regexp"                          ***    606.07 %      ±11.18%   ±25.79%    ±82.10%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=1 n=100000 primitive="set_object"                      ***    372.91 %       ±7.57%   ±17.45%    ±55.57%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=1 n=100000 primitive="set_simple"                      ***    558.59 %      ±14.31%   ±33.00%   ±105.07%
+assert/deepequal-prims-and-objs-big-loop.js method="deepEqual" strict=1 n=100000 primitive="string"                          ***   2726.37 %      ±35.44%   ±81.76%   ±260.30%
+assert/deepequal-prims-and-objs-big-loop.js method="notDeepEqual" strict=1 n=100000 primitive="array"                        ***    620.25 %      ±12.56%   ±28.96%    ±92.21%
+assert/deepequal-prims-and-objs-big-loop.js method="notDeepEqual" strict=1 n=100000 primitive="boolean"                      ***   2805.46 %      ±92.69%  ±213.81%   ±680.72%
+assert/deepequal-prims-and-objs-big-loop.js method="notDeepEqual" strict=1 n=100000 primitive="circular"                     ***    597.90 %       ±7.38%   ±17.03%    ±54.23%
+assert/deepequal-prims-and-objs-big-loop.js method="notDeepEqual" strict=1 n=100000 primitive="date"                         ***   1462.26 %      ±31.83%   ±73.42%   ±233.77%
+assert/deepequal-prims-and-objs-big-loop.js method="notDeepEqual" strict=1 n=100000 primitive="empty_object"                 ***   1905.99 %      ±53.45%  ±123.29%   ±392.54%
+assert/deepequal-prims-and-objs-big-loop.js method="notDeepEqual" strict=1 n=100000 primitive="number"                       ***   3008.11 %     ±330.18%  ±761.62%  ±2424.88%
+assert/deepequal-prims-and-objs-big-loop.js method="notDeepEqual" strict=1 n=100000 primitive="object_other_property"        ***   2915.32 %      ±65.53%  ±151.15%   ±481.25%
+assert/deepequal-prims-and-objs-big-loop.js method="notDeepEqual" strict=1 n=100000 primitive="object"                       ***   1447.13 %      ±71.96%  ±166.00%   ±528.51%
+assert/deepequal-prims-and-objs-big-loop.js method="notDeepEqual" strict=1 n=100000 primitive="regexp"                       ***   1149.34 %      ±82.36%  ±189.98%   ±604.87%
+assert/deepequal-prims-and-objs-big-loop.js method="notDeepEqual" strict=1 n=100000 primitive="set_object"                   ***    363.07 %      ±16.23%   ±37.43%   ±119.16%
+assert/deepequal-prims-and-objs-big-loop.js method="notDeepEqual" strict=1 n=100000 primitive="set_simple"                   ***    567.18 %      ±35.06%   ±80.88%   ±257.50%
+assert/deepequal-prims-and-objs-big-loop.js method="notDeepEqual" strict=1 n=100000 primitive="string"                       ***   2885.07 %     ±107.95%  ±249.00%   ±792.79%
+assert/deepequal-set.js method="deepEqual_mixed" strict=0 len=500 n=500                                                      ***    485.81 %      ±10.97%   ±25.30%    ±80.56%
+assert/deepequal-set.js method="deepEqual_mixed" strict=1 len=500 n=500                                                      ***    505.16 %       ±8.76%   ±20.20%    ±64.31%
+assert/deepequal-set.js method="deepEqual_objectOnly" strict=0 len=500 n=500                                                 ***    251.78 %      ±16.98%   ±39.16%   ±124.67%
+assert/deepequal-set.js method="deepEqual_objectOnly" strict=1 len=500 n=500                                                 ***    261.91 %      ±19.04%   ±43.93%   ±139.86%
+assert/deepequal-set.js method="deepEqual_primitiveOnly" strict=0 len=500 n=500                                              ***   2304.78 %      ±68.63%  ±158.30%   ±504.02%
+assert/deepequal-set.js method="deepEqual_primitiveOnly" strict=1 len=500 n=500                                              ***   2332.32 %      ±93.10%  ±214.75%   ±683.72%
+assert/deepequal-set.js method="notDeepEqual_mixed" strict=0 len=500 n=500                                                    **   7743.30 %    ±1716.72% ±3959.91% ±12607.71%
+assert/deepequal-set.js method="notDeepEqual_mixed" strict=1 len=500 n=500                                                   ***   7769.84 %     ±105.09%  ±242.40%   ±771.76%
+assert/deepequal-set.js method="notDeepEqual_objectOnly" strict=0 len=500 n=500                                              ***    442.65 %      ±24.90%   ±57.43%   ±182.84%
+assert/deepequal-set.js method="notDeepEqual_objectOnly" strict=1 len=500 n=500                                              ***    454.35 %       ±9.83%   ±22.66%    ±72.16%
+assert/deepequal-set.js method="notDeepEqual_primitiveOnly" strict=0 len=500 n=500                                           ***   2993.27 %     ±139.46%  ±321.68%  ±1024.18%
+assert/deepequal-set.js method="notDeepEqual_primitiveOnly" strict=1 len=500 n=500                                           ***   2893.00 %       ±3.50%    ±8.08%    ±25.73%
+assert/deepequal-simple-array-and-set.js method="deepEqual_Array" strict=1 len=10000 n=500                                   ***    250.13 %      ±17.12%   ±39.49%   ±125.72%
+assert/deepequal-simple-array-and-set.js method="deepEqual_Set" strict=1 len=10000 n=500                                     ***    405.49 %      ±38.27%   ±88.28%   ±281.07%
+assert/deepequal-simple-array-and-set.js method="notDeepEqual_Array" strict=1 len=10000 n=500                                ***    258.26 %       ±3.84%    ±8.86%    ±28.22%
+assert/deepequal-simple-array-and-set.js method="notDeepEqual_Set" strict=1 len=10000 n=500                                  ***    411.06 %      ±13.47%   ±31.07%    ±98.92%
+assert/deepequal-typedarrays.js len=100 method="deepEqual" strict=0 n=500 type="Float32Array"                                ***   4416.10 %     ±107.77%  ±248.60%   ±791.50%
+assert/deepequal-typedarrays.js len=100 method="deepEqual" strict=0 n=500 type="Int8Array"                                   ***   6080.58 %     ±196.96%  ±454.33%  ±1446.53%
+assert/deepequal-typedarrays.js len=100 method="deepEqual" strict=0 n=500 type="Uint32Array"                                  **   5712.39 %     ±855.36% ±1973.05%  ±6281.85%
+assert/deepequal-typedarrays.js len=100 method="deepEqual" strict=0 n=500 type="Uint8Array"                                  ***   6026.10 %     ±174.12%  ±401.64%  ±1278.76%
+assert/deepequal-typedarrays.js len=100 method="deepEqual" strict=1 n=500 type="Float32Array"                                ***   6006.09 %      ±79.68%  ±183.79%   ±585.15%
+assert/deepequal-typedarrays.js len=100 method="deepEqual" strict=1 n=500 type="Int8Array"                                   ***   6251.67 %     ±156.71%  ±361.49%  ±1150.93%
+assert/deepequal-typedarrays.js len=100 method="deepEqual" strict=1 n=500 type="Uint32Array"                                 ***   6152.45 %     ±283.46%  ±653.86%  ±2081.77%
+assert/deepequal-typedarrays.js len=100 method="deepEqual" strict=1 n=500 type="Uint8Array"                                  ***   6030.36 %     ±321.47%  ±741.53%  ±2360.90%
+assert/deepequal-typedarrays.js len=100 method="notDeepEqual" strict=0 n=500 type="Float32Array"                             ***   4750.01 %     ±309.51%  ±713.94%  ±2273.08%
+assert/deepequal-typedarrays.js len=100 method="notDeepEqual" strict=0 n=500 type="Int8Array"                                ***   6811.19 %     ±159.41%  ±367.71%  ±1170.72%
+assert/deepequal-typedarrays.js len=100 method="notDeepEqual" strict=0 n=500 type="Uint32Array"                              ***   6849.30 %     ±199.51%  ±460.19%  ±1465.18%
+assert/deepequal-typedarrays.js len=100 method="notDeepEqual" strict=0 n=500 type="Uint8Array"                               ***   6871.59 %     ±280.65%  ±647.38%  ±2061.15%
+assert/deepequal-typedarrays.js len=100 method="notDeepEqual" strict=1 n=500 type="Float32Array"                             ***   6908.95 %     ±102.31%  ±236.00%   ±751.40%
+assert/deepequal-typedarrays.js len=100 method="notDeepEqual" strict=1 n=500 type="Int8Array"                                ***   7035.35 %     ±350.72%  ±809.00%  ±2575.72%
+assert/deepequal-typedarrays.js len=100 method="notDeepEqual" strict=1 n=500 type="Uint32Array"                              ***   6787.19 %     ±205.64%  ±474.36%  ±1510.27%
+assert/deepequal-typedarrays.js len=100 method="notDeepEqual" strict=1 n=500 type="Uint8Array"                               ***   7026.89 %     ±121.69%  ±280.70%   ±893.71%
+assert/deepequal-typedarrays.js len=5000 method="deepEqual" strict=0 n=500 type="Float32Array"                               ***    338.99 %       ±2.69%    ±6.21%    ±19.76%
+assert/deepequal-typedarrays.js len=5000 method="deepEqual" strict=0 n=500 type="Int8Array"                                  ***   5792.61 %     ±106.67%  ±246.05%   ±783.38%
+assert/deepequal-typedarrays.js len=5000 method="deepEqual" strict=0 n=500 type="Uint32Array"                                ***   5109.75 %     ±465.34% ±1073.38%  ±3417.48%
+assert/deepequal-typedarrays.js len=5000 method="deepEqual" strict=0 n=500 type="Uint8Array"                                 ***   5781.15 %     ±152.36%  ±351.44%  ±1118.92%
+assert/deepequal-typedarrays.js len=5000 method="deepEqual" strict=1 n=500 type="Float32Array"                               ***   5179.04 %     ±157.15%  ±362.50%  ±1154.14%
+assert/deepequal-typedarrays.js len=5000 method="deepEqual" strict=1 n=500 type="Int8Array"                                  ***   5917.42 %     ±210.93%  ±486.55%  ±1549.09%
+assert/deepequal-typedarrays.js len=5000 method="deepEqual" strict=1 n=500 type="Uint32Array"                                ***   5209.37 %       ±9.44%   ±21.78%    ±69.34%
+assert/deepequal-typedarrays.js len=5000 method="deepEqual" strict=1 n=500 type="Uint8Array"                                 ***   5845.05 %     ±342.29%  ±789.56%  ±2513.84%
+assert/deepequal-typedarrays.js len=5000 method="notDeepEqual" strict=0 n=500 type="Float32Array"                            ***   3447.40 %     ±121.84%  ±281.04%   ±894.79%
+assert/deepequal-typedarrays.js len=5000 method="notDeepEqual" strict=0 n=500 type="Int8Array"                               ***   6448.70 %     ±542.84% ±1252.17%  ±3986.69%
+assert/deepequal-typedarrays.js len=5000 method="notDeepEqual" strict=0 n=500 type="Uint32Array"                             ***   6061.29 %     ±172.65%  ±398.25%  ±1267.98%
+assert/deepequal-typedarrays.js len=5000 method="notDeepEqual" strict=0 n=500 type="Uint8Array"                              ***   6560.72 %     ±211.85%  ±488.66%  ±1555.82%
+assert/deepequal-typedarrays.js len=5000 method="notDeepEqual" strict=1 n=500 type="Float32Array"                            ***   6113.58 %     ±264.32%  ±609.70%  ±1941.18%
+assert/deepequal-typedarrays.js len=5000 method="notDeepEqual" strict=1 n=500 type="Int8Array"                               ***   6867.95 %      ±46.56%  ±107.41%   ±341.97%
+assert/deepequal-typedarrays.js len=5000 method="notDeepEqual" strict=1 n=500 type="Uint32Array"                             ***   6083.98 %     ±198.39%  ±457.63%  ±1457.01%
+assert/deepequal-typedarrays.js len=5000 method="notDeepEqual" strict=1 n=500 type="Uint8Array"                              ***   6746.77 %     ±193.79%  ±447.01%  ±1423.20%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 118 comparisons, you can thus
+expect the following amount of false-positive results:
+  5.90 false positives, when considering a   5% risk acceptance (*, **, ***),
+  1.18 false positives, when considering a   1% risk acceptance (**, ***),
+  0.12 false positives, when considering a 0.1% risk acceptance (***)

@@ -1,0 +1,17 @@
+                                                                confidence improvement accuracy (*)    (**)    (***)
+perf_hooks/bench-eventlooputil.js method="ELU_passed" n=1000000                -0.64 %       ±4.04%  ±9.33%  ±29.70%
+perf_hooks/bench-eventlooputil.js method="ELU_simple" n=1000000                -4.76 %       ±5.65% ±13.04%  ±41.51%
+perf_hooks/bench-eventlooputil.js method="idleTime" n=1000000           **      3.93 %       ±0.78%  ±1.81%   ±5.76%
+perf_hooks/performance-observer.js pending=1 n=100000                          -2.29 %       ±8.75% ±20.18%  ±64.26%
+perf_hooks/performance-observer.js pending=10 n=100000                          3.30 %       ±9.93% ±22.90%  ±72.92%
+perf_hooks/resourcetiming.js observe="resource" n=100000                       -3.31 %       ±4.49% ±10.37%  ±33.01%
+perf_hooks/timerfied.js observe="function" n=100000                             0.99 %       ±9.05% ±20.89%  ±66.50%
+perf_hooks/usertiming.js observe="all" n=100000                          *    -12.51 %      ±11.89% ±27.42%  ±87.30%
+perf_hooks/usertiming.js observe="measure" n=100000                             2.23 %      ±15.32% ±35.35% ±112.54%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 9 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.45 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.09 false positives, when considering a   1% risk acceptance (**, ***),
+  0.01 false positives, when considering a 0.1% risk acceptance (***)

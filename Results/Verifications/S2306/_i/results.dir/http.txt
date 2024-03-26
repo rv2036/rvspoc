@@ -1,0 +1,230 @@
+                                                                                                               confidence improvement accuracy (*)    (**)    (***)
+http/_chunky_http_client.js type="send" n=2000 len=1                                                                    *     -1.99 %       ±0.89%  ±2.05%   ±6.52%
+http/_chunky_http_client.js type="send" n=2000 len=128                                                                        -0.66 %       ±7.48% ±17.24%  ±54.90%
+http/_chunky_http_client.js type="send" n=2000 len=16                                                                          0.35 %       ±4.10%  ±9.45%  ±30.09%
+http/_chunky_http_client.js type="send" n=2000 len=32                                                                         -0.66 %       ±5.39% ±12.42%  ±39.56%
+http/_chunky_http_client.js type="send" n=2000 len=4                                                                          -0.20 %       ±4.75% ±10.95%  ±34.85%
+http/_chunky_http_client.js type="send" n=2000 len=64                                                                          0.63 %       ±2.30%  ±5.31%  ±16.89%
+http/_chunky_http_client.js type="send" n=2000 len=8                                                                           0.18 %       ±1.72%  ±3.96%  ±12.61%
+http/_chunky_http_client.js type="send" n=5 len=1                                                                       *      3.92 %       ±2.76%  ±6.38%  ±20.30%
+http/_chunky_http_client.js type="send" n=5 len=128                                                                           -2.70 %       ±6.09% ±14.04%  ±44.70%
+http/_chunky_http_client.js type="send" n=5 len=16                                                                            -3.84 %       ±6.91% ±15.93%  ±50.72%
+http/_chunky_http_client.js type="send" n=5 len=32                                                                            -4.25 %       ±9.04% ±20.86%  ±66.42%
+http/_chunky_http_client.js type="send" n=5 len=4                                                                             -1.26 %       ±5.19% ±11.98%  ±38.14%
+http/_chunky_http_client.js type="send" n=5 len=64                                                                             1.21 %       ±4.21%  ±9.71%  ±30.91%
+http/_chunky_http_client.js type="send" n=5 len=8                                                                      **     -2.47 %       ±0.98%  ±2.26%   ±7.20%
+http/_chunky_http_client.js type="send" n=50 len=1                                                                             0.50 %       ±3.09%  ±7.12%  ±22.66%
+http/_chunky_http_client.js type="send" n=50 len=128                                                                           1.93 %       ±2.97%  ±6.84%  ±21.79%
+http/_chunky_http_client.js type="send" n=50 len=16                                                                     *     -0.79 %       ±0.64%  ±1.47%   ±4.67%
+http/_chunky_http_client.js type="send" n=50 len=32                                                                           -1.73 %      ±15.68% ±36.16% ±115.13%
+http/_chunky_http_client.js type="send" n=50 len=4                                                                            -0.02 %       ±4.31%  ±9.94%  ±31.66%
+http/_chunky_http_client.js type="send" n=50 len=64                                                                            1.30 %       ±3.32%  ±7.67%  ±24.41%
+http/_chunky_http_client.js type="send" n=50 len=8                                                                            -2.19 %      ±10.73% ±24.75%  ±78.80%
+http/_chunky_http_client.js type="send" n=500 len=1                                                                     *     -0.90 %       ±0.57%  ±1.32%   ±4.19%
+http/_chunky_http_client.js type="send" n=500 len=128                                                                  **      3.07 %       ±1.32%  ±3.04%   ±9.68%
+http/_chunky_http_client.js type="send" n=500 len=16                                                                           0.60 %       ±3.97%  ±9.16%  ±29.15%
+http/_chunky_http_client.js type="send" n=500 len=32                                                                          -0.29 %       ±8.82% ±20.35%  ±64.80%
+http/_chunky_http_client.js type="send" n=500 len=4                                                                            1.30 %       ±4.56% ±10.51%  ±33.46%
+http/_chunky_http_client.js type="send" n=500 len=64                                                                          -0.54 %       ±6.36% ±14.67%  ±46.71%
+http/_chunky_http_client.js type="send" n=500 len=8                                                                           -0.35 %       ±4.84% ±11.17%  ±35.56%
+http/bench-parser.js n=100000 len=16                                                                                          -2.34 %       ±3.50%  ±8.08%  ±25.71%
+http/bench-parser.js n=100000 len=32                                                                                    *     -1.43 %       ±0.88%  ±2.03%   ±6.47%
+http/bench-parser.js n=100000 len=4                                                                                           -1.31 %       ±2.55%  ±5.89%  ±18.75%
+http/bench-parser.js n=100000 len=8                                                                                            0.00 %       ±1.32%  ±3.05%   ±9.71%
+http/check_invalid_header_char.js n=1000000 input='                                                                            0.49 %       ±2.53%  ±5.85%  ±18.61%
+http/check_invalid_header_char.js n=1000000 input="\177"                                                                      -0.73 %       ±4.34% ±10.02%  ±31.89%
+http/check_invalid_header_char.js n=1000000 input="\\t\\t\\t\\t\\t\\t\\t\\t\\t\\tFoo bar baz"                                  0.06 %       ±0.29%  ±0.67%   ±2.14%
+http/check_invalid_header_char.js n=1000000 input="1"                                                                         -0.92 %       ±4.50% ±10.39%  ±33.08%
+http/check_invalid_header_char.js n=1000000 input="20091"                                                                     -0.17 %       ±0.98%  ±2.26%   ±7.19%
+http/check_invalid_header_char.js n=1000000 input="close"                                                                      0.58 %       ±2.07%  ±4.77%  ±15.19%
+http/check_invalid_header_char.js n=1000000 input="en-US"                                                               *      1.80 %       ±1.51%  ±3.49%  ±11.12%
+http/check_invalid_header_char.js n=1000000 input="foo\\nbar"                                                           *      1.11 %       ±0.91%  ±2.10%   ±6.67%
+http/check_invalid_header_char.js n=1000000 input="group_acmeair"                                                              0.13 %       ±0.25%  ±0.58%   ±1.85%
+http/check_invalid_header_char.js n=1000000 input="gzip"                                                                      -2.00 %       ±4.07%  ±9.40%  ±29.91%
+http/check_invalid_header_char.js n=1000000 input="keep-alive"                                                                -3.00 %      ±10.37% ±23.91%  ±76.14%
+http/check_invalid_header_char.js n=1000000 input="LONG_AND_INVALID"                                                          -3.48 %       ±5.42% ±12.50%  ±39.80%
+http/check_invalid_header_char.js n=1000000 input="private"                                                                   -0.67 %       ±3.57%  ±8.23%  ±26.19%
+http/check_invalid_header_char.js n=1000000 input="SAMEORIGIN"                                                                 0.30 %       ±2.27%  ±5.25%  ±16.70%
+http/check_invalid_header_char.js n=1000000 input="Sat, 07 May 2016 16:54:48 GMT"                                             -0.31 %       ±1.56%  ±3.60%  ±11.45%
+http/check_invalid_header_char.js n=1000000 input="text/html; charset=utf-8"                                                  -0.17 %       ±1.15%  ±2.66%   ±8.46%
+http/check_invalid_header_char.js n=1000000 input="text/plain"                                                                -0.17 %       ±1.08%  ±2.49%   ±7.93%
+http/check_invalid_header_char.js n=1000000 input="中文呢"                                                                    -2.60 %       ±2.60%  ±6.01%  ±19.12%
+http/check_is_http_token.js n=1000000 key=":"                                                                          **      1.12 %       ±0.41%  ±0.94%   ±3.00%
+http/check_is_http_token.js n=1000000 key=":alternate-protocol"                                                               -1.23 %       ±3.27%  ±7.54%  ±23.99%
+http/check_is_http_token.js n=1000000 key="((((())))"                                                                  **     -0.42 %       ±0.16%  ±0.37%   ±1.17%
+http/check_is_http_token.js n=1000000 key="@@"                                                                                -0.66 %       ±1.05%  ±2.43%   ±7.75%
+http/check_is_http_token.js n=1000000 key="Accept-Ranges"                                                                     -2.60 %       ±8.17% ±18.84%  ±59.97%
+http/check_is_http_token.js n=1000000 key="alt-svc"                                                                            4.64 %       ±5.59% ±12.90%  ±41.06%
+http/check_is_http_token.js n=1000000 key="alternate-protocol:"                                                               -0.10 %       ±0.92%  ±2.12%   ±6.74%
+http/check_is_http_token.js n=1000000 key="alternate-protocol"                                                                 1.51 %       ±3.13%  ±7.22%  ±22.99%
+http/check_is_http_token.js n=1000000 key="Cache-Control"                                                                     -0.41 %       ±8.28% ±19.11%  ±60.84%
+http/check_is_http_token.js n=1000000 key="Connection"                                                                        -0.59 %       ±2.13%  ±4.92%  ±15.67%
+http/check_is_http_token.js n=1000000 key="Content-Encoding"                                                                  -2.15 %       ±4.00%  ±9.23%  ±29.37%
+http/check_is_http_token.js n=1000000 key="content-length"                                                                     0.42 %       ±5.31% ±12.26%  ±39.03%
+http/check_is_http_token.js n=1000000 key="Content-Location"                                                                  -1.39 %       ±3.19%  ±7.36%  ±23.42%
+http/check_is_http_token.js n=1000000 key="content-type"                                                                      -0.42 %       ±5.37% ±12.38%  ±39.41%
+http/check_is_http_token.js n=1000000 key="Content-Type"                                                                      -3.30 %       ±8.51% ±19.63%  ±62.51%
+http/check_is_http_token.js n=1000000 key="date"                                                                              -1.94 %       ±3.01%  ±6.95%  ±22.14%
+http/check_is_http_token.js n=1000000 key="ETag"                                                                               1.96 %       ±5.50% ±12.68%  ±40.37%
+http/check_is_http_token.js n=1000000 key="Expires"                                                                           -3.03 %       ±6.45% ±14.88%  ±47.39%
+http/check_is_http_token.js n=1000000 key="Keep-Alive"                                                                         0.36 %       ±2.45%  ±5.64%  ±17.97%
+http/check_is_http_token.js n=1000000 key="Last-Modified"                                                                     -0.07 %       ±2.12%  ±4.88%  ±15.54%
+http/check_is_http_token.js n=1000000 key="location"                                                                          -2.65 %       ±5.86% ±13.51%  ±43.03%
+http/check_is_http_token.js n=1000000 key="server"                                                                             0.04 %       ±2.26%  ±5.22%  ±16.61%
+http/check_is_http_token.js n=1000000 key="Server"                                                                            -3.27 %       ±3.83%  ±8.84%  ±28.16%
+http/check_is_http_token.js n=1000000 key="status"                                                                             1.27 %       ±9.16% ±21.14%  ±67.31%
+http/check_is_http_token.js n=1000000 key="TCN"                                                                         *     -1.42 %       ±0.89%  ±2.04%   ±6.51%
+http/check_is_http_token.js n=1000000 key="Transfer-Encoding"                                                                 -0.84 %       ±1.97%  ±4.56%  ±14.50%
+http/check_is_http_token.js n=1000000 key="Vary"                                                                              -1.77 %       ±6.36% ±14.68%  ±46.74%
+http/check_is_http_token.js n=1000000 key="version"                                                                           -1.46 %       ±2.44%  ±5.63%  ±17.92%
+http/check_is_http_token.js n=1000000 key="x-frame-options"                                                             *     -2.94 %       ±2.56%  ±5.90%  ±18.78%
+http/check_is_http_token.js n=1000000 key="x-xss-protection"                                                            *      6.14 %       ±3.22%  ±7.43%  ±23.67%
+http/check_is_http_token.js n=1000000 key="中文呢"                                                                            -0.42 %       ±1.28%  ±2.96%   ±9.43%
+http/chunked.js duration=5 c=100 len=1 n=1 benchmarker="test-double-http"                                                     -0.13 %       ±3.03%  ±7.00%  ±22.27%
+http/chunked.js duration=5 c=100 len=1 n=16 benchmarker="test-double-http"                                              *     -1.48 %       ±1.16%  ±2.67%   ±8.49%
+http/chunked.js duration=5 c=100 len=1 n=4 benchmarker="test-double-http"                                                     -2.85 %       ±3.04%  ±7.01%  ±22.32%
+http/chunked.js duration=5 c=100 len=1 n=8 benchmarker="test-double-http"                                                     -0.66 %       ±1.98%  ±4.57%  ±14.55%
+http/chunked.js duration=5 c=100 len=256 n=1 benchmarker="test-double-http"                                             *      2.65 %       ±2.16%  ±4.98%  ±15.84%
+http/chunked.js duration=5 c=100 len=256 n=16 benchmarker="test-double-http"                                                  -0.94 %       ±1.54%  ±3.54%  ±11.28%
+http/chunked.js duration=5 c=100 len=256 n=4 benchmarker="test-double-http"                                                   -0.34 %       ±4.28%  ±9.87%  ±31.41%
+http/chunked.js duration=5 c=100 len=256 n=8 benchmarker="test-double-http"                                                   -0.59 %       ±0.84%  ±1.95%   ±6.19%
+http/chunked.js duration=5 c=100 len=64 n=1 benchmarker="test-double-http"                                              *      3.79 %       ±2.18%  ±5.02%  ±15.98%
+http/chunked.js duration=5 c=100 len=64 n=16 benchmarker="test-double-http"                                                   -0.54 %       ±1.17%  ±2.69%   ±8.56%
+http/chunked.js duration=5 c=100 len=64 n=4 benchmarker="test-double-http"                                                     0.55 %       ±0.80%  ±1.84%   ±5.87%
+http/chunked.js duration=5 c=100 len=64 n=8 benchmarker="test-double-http"                                              *      2.20 %       ±1.72%  ±3.98%  ±12.67%
+http/client-request-body.js method="end" len=1024 type="asc" dur=5                                                            -2.79 %      ±14.99% ±34.58% ±110.10%
+http/client-request-body.js method="end" len=1024 type="buf" dur=5                                                            -3.28 %      ±11.68% ±26.95%  ±85.81%
+http/client-request-body.js method="end" len=1024 type="utf" dur=5                                                            -2.11 %       ±5.45% ±12.56%  ±40.00%
+http/client-request-body.js method="end" len=256 type="asc" dur=5                                                       *      8.70 %       ±8.00% ±18.45%  ±58.73%
+http/client-request-body.js method="end" len=256 type="buf" dur=5                                                              2.52 %       ±6.61% ±15.25%  ±48.54%
+http/client-request-body.js method="end" len=256 type="utf" dur=5                                                             -1.38 %       ±4.21%  ±9.70%  ±30.89%
+http/client-request-body.js method="end" len=32 type="asc" dur=5                                                              -2.90 %       ±6.27% ±14.47%  ±46.06%
+http/client-request-body.js method="end" len=32 type="buf" dur=5                                                               1.02 %       ±9.12% ±21.03%  ±66.95%
+http/client-request-body.js method="end" len=32 type="utf" dur=5                                                       **      9.54 %       ±2.87%  ±6.61%  ±21.06%
+http/client-request-body.js method="write" len=1024 type="asc" dur=5                                                          -6.43 %      ±11.43% ±26.37%  ±83.95%
+http/client-request-body.js method="write" len=1024 type="buf" dur=5                                                          -0.55 %       ±3.19%  ±7.35%  ±23.40%
+http/client-request-body.js method="write" len=1024 type="utf" dur=5                                                          -6.51 %       ±7.96% ±18.35%  ±58.44%
+http/client-request-body.js method="write" len=256 type="asc" dur=5                                                            2.01 %       ±7.48% ±17.26%  ±54.94%
+http/client-request-body.js method="write" len=256 type="buf" dur=5                                                            2.34 %       ±7.16% ±16.52%  ±52.59%
+http/client-request-body.js method="write" len=256 type="utf" dur=5                                                            2.68 %       ±5.32% ±12.26%  ±39.05%
+http/client-request-body.js method="write" len=32 type="asc" dur=5                                                            -2.29 %       ±5.11% ±11.78%  ±37.51%
+http/client-request-body.js method="write" len=32 type="buf" dur=5                                                            -1.07 %       ±2.50%  ±5.76%  ±18.34%
+http/client-request-body.js method="write" len=32 type="utf" dur=5                                                            -0.23 %       ±1.31%  ±3.03%   ±9.65%
+http/cluster.js duration=5 c=50 len=1024 type="buffer" benchmarker="test-double-http"                                         -1.43 %       ±4.85% ±11.18%  ±35.58%
+http/cluster.js duration=5 c=50 len=1024 type="bytes" benchmarker="test-double-http"                                          -2.24 %       ±7.65% ±17.65%  ±56.19%
+http/cluster.js duration=5 c=50 len=102400 type="buffer" benchmarker="test-double-http"                                       -1.06 %       ±3.94%  ±9.08%  ±28.90%
+http/cluster.js duration=5 c=50 len=102400 type="bytes" benchmarker="test-double-http"                                         1.53 %       ±6.93% ±15.98%  ±50.88%
+http/cluster.js duration=5 c=50 len=4 type="buffer" benchmarker="test-double-http"                                            -2.47 %       ±8.80% ±20.30%  ±64.65%
+http/cluster.js duration=5 c=50 len=4 type="bytes" benchmarker="test-double-http"                                              0.61 %       ±2.93%  ±6.75%  ±21.48%
+http/cluster.js duration=5 c=500 len=1024 type="buffer" benchmarker="test-double-http"                                         0.88 %       ±6.50% ±15.00%  ±47.77%
+http/cluster.js duration=5 c=500 len=1024 type="bytes" benchmarker="test-double-http"                                         -5.09 %       ±6.76% ±15.60%  ±49.67%
+http/cluster.js duration=5 c=500 len=102400 type="buffer" benchmarker="test-double-http"                                      -4.39 %      ±12.12% ±27.95%  ±88.98%
+http/cluster.js duration=5 c=500 len=102400 type="bytes" benchmarker="test-double-http"                                       -0.69 %       ±3.88%  ±8.96%  ±28.52%
+http/cluster.js duration=5 c=500 len=4 type="buffer" benchmarker="test-double-http"                                           -4.02 %       ±6.15% ±14.19%  ±45.17%
+http/cluster.js duration=5 c=500 len=4 type="bytes" benchmarker="test-double-http"                                            -2.87 %       ±4.72% ±10.90%  ±34.69%
+http/create-clientrequest.js e=1 arg="options" url="idn"                                                                       0.18 %       ±2.98%  ±6.88%  ±21.91%
+http/create-clientrequest.js e=1 arg="options" url="long"                                                               *      2.69 %       ±2.36%  ±5.45%  ±17.34%
+http/create-clientrequest.js e=1 arg="options" url="wpt"                                                                      -1.75 %       ±2.02%  ±4.65%  ±14.80%
+http/create-clientrequest.js e=1 arg="string" url="idn"                                                                       -0.23 %       ±2.97%  ±6.85%  ±21.80%
+http/create-clientrequest.js e=1 arg="string" url="long"                                                                       1.09 %       ±5.92% ±13.65%  ±43.45%
+http/create-clientrequest.js e=1 arg="string" url="wpt"                                                                        0.74 %       ±5.49% ±12.67%  ±40.33%
+http/create-clientrequest.js e=1 arg="URL" url="idn"                                                                          -0.31 %       ±4.25%  ±9.80%  ±31.19%
+http/create-clientrequest.js e=1 arg="URL" url="long"                                                                          0.18 %       ±8.55% ±19.71%  ±62.77%
+http/create-clientrequest.js e=1 arg="URL" url="wpt"                                                                           0.52 %       ±2.73%  ±6.29%  ±20.03%
+http/end-vs-write-end.js duration=5 method="end" c=100 len=1048576 type="asc" benchmarker="test-double-http"                   0.08 %       ±5.22% ±12.05%  ±38.35%
+http/end-vs-write-end.js duration=5 method="end" c=100 len=1048576 type="buf" benchmarker="test-double-http"                  -1.89 %      ±11.70% ±26.99%  ±85.94%
+http/end-vs-write-end.js duration=5 method="end" c=100 len=1048576 type="utf" benchmarker="test-double-http"                   0.28 %       ±5.90% ±13.62%  ±43.35%
+http/end-vs-write-end.js duration=5 method="end" c=100 len=131072 type="asc" benchmarker="test-double-http"                   -2.32 %       ±2.92%  ±6.73%  ±21.44%
+http/end-vs-write-end.js duration=5 method="end" c=100 len=131072 type="buf" benchmarker="test-double-http"                   -2.04 %       ±8.50% ±19.61%  ±62.45%
+http/end-vs-write-end.js duration=5 method="end" c=100 len=131072 type="utf" benchmarker="test-double-http"                   -2.68 %       ±7.85% ±18.11%  ±57.65%
+http/end-vs-write-end.js duration=5 method="end" c=100 len=262144 type="asc" benchmarker="test-double-http"                   -0.48 %       ±3.29%  ±7.59%  ±24.16%
+http/end-vs-write-end.js duration=5 method="end" c=100 len=262144 type="buf" benchmarker="test-double-http"                    0.28 %      ±11.32% ±26.10%  ±83.11%
+http/end-vs-write-end.js duration=5 method="end" c=100 len=262144 type="utf" benchmarker="test-double-http"                    1.28 %       ±2.11%  ±4.87%  ±15.50%
+http/end-vs-write-end.js duration=5 method="end" c=100 len=65536 type="asc" benchmarker="test-double-http"                     0.00 %       ±5.72% ±13.18%  ±41.97%
+http/end-vs-write-end.js duration=5 method="end" c=100 len=65536 type="buf" benchmarker="test-double-http"                     2.67 %       ±5.89% ±13.60%  ±43.29%
+http/end-vs-write-end.js duration=5 method="end" c=100 len=65536 type="utf" benchmarker="test-double-http"                     0.90 %       ±3.41%  ±7.88%  ±25.08%
+http/end-vs-write-end.js duration=5 method="write" c=100 len=1048576 type="asc" benchmarker="test-double-http"                -0.30 %      ±12.10% ±27.91%  ±88.86%
+http/end-vs-write-end.js duration=5 method="write" c=100 len=1048576 type="buf" benchmarker="test-double-http"                 7.06 %      ±13.66% ±31.52% ±100.34%
+http/end-vs-write-end.js duration=5 method="write" c=100 len=1048576 type="utf" benchmarker="test-double-http"                -5.14 %       ±8.28% ±19.11%  ±60.85%
+http/end-vs-write-end.js duration=5 method="write" c=100 len=131072 type="asc" benchmarker="test-double-http"                 -1.82 %       ±4.97% ±11.47%  ±36.51%
+http/end-vs-write-end.js duration=5 method="write" c=100 len=131072 type="buf" benchmarker="test-double-http"                  3.31 %       ±7.99% ±18.42%  ±58.66%
+http/end-vs-write-end.js duration=5 method="write" c=100 len=131072 type="utf" benchmarker="test-double-http"                 -1.18 %       ±9.68% ±22.33%  ±71.11%
+http/end-vs-write-end.js duration=5 method="write" c=100 len=262144 type="asc" benchmarker="test-double-http"                 -0.89 %       ±2.92%  ±6.73%  ±21.42%
+http/end-vs-write-end.js duration=5 method="write" c=100 len=262144 type="buf" benchmarker="test-double-http"                  2.88 %       ±8.11% ±18.71%  ±59.56%
+http/end-vs-write-end.js duration=5 method="write" c=100 len=262144 type="utf" benchmarker="test-double-http"                 -2.26 %       ±9.83% ±22.68%  ±72.20%
+http/end-vs-write-end.js duration=5 method="write" c=100 len=65536 type="asc" benchmarker="test-double-http"                  -0.59 %       ±8.86% ±20.43%  ±65.05%
+http/end-vs-write-end.js duration=5 method="write" c=100 len=65536 type="buf" benchmarker="test-double-http"                  -3.43 %       ±8.73% ±20.13%  ±64.10%
+http/end-vs-write-end.js duration=5 method="write" c=100 len=65536 type="utf" benchmarker="test-double-http"                  -0.76 %       ±1.31%  ±3.02%   ±9.61%
+http/headers.js duration=5 len=1 n=10 benchmarker="test-double-http"                                                    *      4.39 %       ±3.66%  ±8.45%  ±26.89%
+http/headers.js duration=5 len=1 n=600 benchmarker="test-double-http"                                                   *     -1.50 %       ±1.45%  ±3.34%  ±10.63%
+http/headers.js duration=5 len=100 n=10 benchmarker="test-double-http"                                                        -0.12 %       ±3.40%  ±7.84%  ±24.97%
+http/headers.js duration=5 len=100 n=600 benchmarker="test-double-http"                                                        3.30 %       ±7.30% ±16.85%  ±53.64%
+http/incoming_headers.js duration=5 w=0 headers=20 connections=50 benchmarker="test-double-http"                              -3.41 %       ±9.19% ±21.19%  ±67.46%
+http/incoming_headers.js duration=5 w=6 headers=20 connections=50 benchmarker="test-double-http"                               2.05 %      ±14.62% ±33.73% ±107.40%
+http/set_header.js n=1000000 value="Connection"                                                                                5.73 %      ±10.29% ±23.73%  ±75.56%
+http/set_header.js n=1000000 value="Content-Length"                                                                            1.11 %       ±2.53%  ±5.84%  ±18.60%
+http/set_header.js n=1000000 value="Content-Type"                                                                       *     -4.30 %       ±3.03%  ±6.98%  ±22.22%
+http/set_header.js n=1000000 value="Set-Cookie"                                                                               -0.65 %      ±15.76% ±36.36% ±115.76%
+http/set_header.js n=1000000 value="Transfer-Encoding"                                                                        -2.81 %       ±9.53% ±21.98%  ±69.98%
+http/set_header.js n=1000000 value="Vary"                                                                                      1.65 %       ±3.88%  ±8.95%  ±28.48%
+http/set_header.js n=1000000 value="X-Powered-By"                                                                              2.64 %       ±5.90% ±13.60%  ±43.31%
+http/set-header.js duration=5 res="normal" benchmarker="test-double-http"                                               *      5.75 %       ±4.52% ±10.43%  ±33.20%
+http/set-header.js duration=5 res="setHeader" benchmarker="test-double-http"                                            *     -4.50 %       ±3.14%  ±7.24%  ±23.06%
+http/set-header.js duration=5 res="setHeaderWH" benchmarker="test-double-http"                                                -1.84 %       ±9.40% ±21.68%  ±69.04%
+http/simple.js duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type="buffer" benchmarker="test-double-http"                     5.58 %       ±9.24% ±21.32%  ±67.88%
+http/simple.js duration=5 chunkedEnc=0 c=50 chunks=1 len=1024 type="bytes" benchmarker="test-double-http"                      0.07 %       ±3.09%  ±7.14%  ±22.73%
+http/simple.js duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type="buffer" benchmarker="test-double-http"                  -1.36 %       ±7.59% ±17.51%  ±55.74%
+http/simple.js duration=5 chunkedEnc=0 c=50 chunks=1 len=102400 type="bytes" benchmarker="test-double-http"                   -3.53 %       ±5.83% ±13.45%  ±42.81%
+http/simple.js duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type="buffer" benchmarker="test-double-http"                        2.02 %       ±3.83%  ±8.83%  ±28.12%
+http/simple.js duration=5 chunkedEnc=0 c=50 chunks=1 len=4 type="bytes" benchmarker="test-double-http"                         4.92 %      ±10.53% ±24.29%  ±77.34%
+http/simple.js duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type="buffer" benchmarker="test-double-http"                     6.20 %      ±13.59% ±31.34%  ±99.79%
+http/simple.js duration=5 chunkedEnc=0 c=50 chunks=4 len=1024 type="bytes" benchmarker="test-double-http"                      1.08 %       ±6.22% ±14.35%  ±45.70%
+http/simple.js duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type="buffer" benchmarker="test-double-http"                  -2.71 %      ±15.93% ±36.75% ±116.99%
+http/simple.js duration=5 chunkedEnc=0 c=50 chunks=4 len=102400 type="bytes" benchmarker="test-double-http"                   -4.69 %      ±11.42% ±26.35%  ±83.88%
+http/simple.js duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type="buffer" benchmarker="test-double-http"                        3.52 %      ±12.43% ±28.67%  ±91.28%
+http/simple.js duration=5 chunkedEnc=0 c=50 chunks=4 len=4 type="bytes" benchmarker="test-double-http"                        -5.18 %       ±5.44% ±12.55%  ±39.94%
+http/simple.js duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type="buffer" benchmarker="test-double-http"                    2.93 %       ±4.45% ±10.27%  ±32.70%
+http/simple.js duration=5 chunkedEnc=0 c=500 chunks=1 len=1024 type="bytes" benchmarker="test-double-http"                     2.69 %       ±4.24%  ±9.78%  ±31.14%
+http/simple.js duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type="buffer" benchmarker="test-double-http"           *     -8.24 %       ±7.83% ±18.07%  ±57.54%
+http/simple.js duration=5 chunkedEnc=0 c=500 chunks=1 len=102400 type="bytes" benchmarker="test-double-http"                   5.61 %      ±11.08% ±25.57%  ±81.40%
+http/simple.js duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type="buffer" benchmarker="test-double-http"                       2.07 %       ±2.86%  ±6.59%  ±20.99%
+http/simple.js duration=5 chunkedEnc=0 c=500 chunks=1 len=4 type="bytes" benchmarker="test-double-http"                        5.05 %       ±8.17% ±18.84%  ±59.99%
+http/simple.js duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type="buffer" benchmarker="test-double-http"                    1.43 %      ±10.53% ±24.30%  ±77.36%
+http/simple.js duration=5 chunkedEnc=0 c=500 chunks=4 len=1024 type="bytes" benchmarker="test-double-http"                    -4.85 %       ±7.51% ±17.32%  ±55.15%
+http/simple.js duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type="buffer" benchmarker="test-double-http"           *     11.00 %       ±7.54% ±17.39%  ±55.38%
+http/simple.js duration=5 chunkedEnc=0 c=500 chunks=4 len=102400 type="bytes" benchmarker="test-double-http"            *     14.72 %       ±8.56% ±19.73%  ±62.83%
+http/simple.js duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type="buffer" benchmarker="test-double-http"                       6.14 %       ±9.84% ±22.71%  ±72.30%
+http/simple.js duration=5 chunkedEnc=0 c=500 chunks=4 len=4 type="bytes" benchmarker="test-double-http"                        0.69 %      ±13.77% ±31.76% ±101.12%
+http/simple.js duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type="buffer" benchmarker="test-double-http"              *     -8.65 %       ±6.16% ±14.20%  ±45.21%
+http/simple.js duration=5 chunkedEnc=1 c=50 chunks=1 len=1024 type="bytes" benchmarker="test-double-http"                     -1.66 %      ±12.23% ±28.22%  ±89.84%
+http/simple.js duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type="buffer" benchmarker="test-double-http"                  -5.35 %       ±8.56% ±19.74%  ±62.83%
+http/simple.js duration=5 chunkedEnc=1 c=50 chunks=1 len=102400 type="bytes" benchmarker="test-double-http"                   -3.97 %      ±16.45% ±37.94% ±120.79%
+http/simple.js duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type="buffer" benchmarker="test-double-http"                       -1.99 %       ±2.90%  ±6.69%  ±21.31%
+http/simple.js duration=5 chunkedEnc=1 c=50 chunks=1 len=4 type="bytes" benchmarker="test-double-http"                        -3.53 %      ±15.12% ±34.88% ±111.06%
+http/simple.js duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type="buffer" benchmarker="test-double-http"                     2.17 %      ±10.32% ±23.81%  ±75.82%
+http/simple.js duration=5 chunkedEnc=1 c=50 chunks=4 len=1024 type="bytes" benchmarker="test-double-http"                      1.87 %       ±8.60% ±19.84%  ±63.15%
+http/simple.js duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type="buffer" benchmarker="test-double-http"                   0.99 %       ±8.65% ±19.96%  ±63.53%
+http/simple.js duration=5 chunkedEnc=1 c=50 chunks=4 len=102400 type="bytes" benchmarker="test-double-http"             *      5.21 %       ±4.32%  ±9.98%  ±31.76%
+http/simple.js duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type="buffer" benchmarker="test-double-http"                       -2.82 %       ±3.15%  ±7.26%  ±23.11%
+http/simple.js duration=5 chunkedEnc=1 c=50 chunks=4 len=4 type="bytes" benchmarker="test-double-http"                         3.17 %       ±4.46% ±10.28%  ±32.73%
+http/simple.js duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type="buffer" benchmarker="test-double-http"                    0.73 %       ±5.39% ±12.42%  ±39.55%
+http/simple.js duration=5 chunkedEnc=1 c=500 chunks=1 len=1024 type="bytes" benchmarker="test-double-http"                     2.50 %      ±16.83% ±38.81% ±123.58%
+http/simple.js duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type="buffer" benchmarker="test-double-http"           *     -3.94 %       ±3.56%  ±8.21%  ±26.14%
+http/simple.js duration=5 chunkedEnc=1 c=500 chunks=1 len=102400 type="bytes" benchmarker="test-double-http"                  -1.39 %       ±4.07%  ±9.39%  ±29.89%
+http/simple.js duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type="buffer" benchmarker="test-double-http"                      -3.92 %      ±11.04% ±25.47%  ±81.10%
+http/simple.js duration=5 chunkedEnc=1 c=500 chunks=1 len=4 type="bytes" benchmarker="test-double-http"                 *      3.79 %       ±1.79%  ±4.13%  ±13.14%
+http/simple.js duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type="buffer" benchmarker="test-double-http"                    1.29 %       ±7.27% ±16.77%  ±53.39%
+http/simple.js duration=5 chunkedEnc=1 c=500 chunks=4 len=1024 type="bytes" benchmarker="test-double-http"                     1.90 %       ±6.64% ±15.32%  ±48.79%
+http/simple.js duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type="buffer" benchmarker="test-double-http"                 -4.79 %       ±4.88% ±11.27%  ±35.87%
+http/simple.js duration=5 chunkedEnc=1 c=500 chunks=4 len=102400 type="bytes" benchmarker="test-double-http"                  -0.05 %      ±12.98% ±29.93%  ±95.30%
+http/simple.js duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type="buffer" benchmarker="test-double-http"                      -2.84 %       ±6.71% ±15.48%  ±49.28%
+http/simple.js duration=5 chunkedEnc=1 c=500 chunks=4 len=4 type="bytes" benchmarker="test-double-http"                       -0.74 %       ±9.34% ±21.54%  ±68.59%
+http/upgrade.js n=1000                                                                                                  *      4.92 %       ±2.36%  ±5.45%  ±17.35%
+http/upgrade.js n=5                                                                                                           -2.33 %       ±8.47% ±19.53%  ±62.20%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 222 comparisons, you can thus
+expect the following amount of false-positive results:
+  11.10 false positives, when considering a   5% risk acceptance (*, **, ***),
+  2.22 false positives, when considering a   1% risk acceptance (**, ***),
+  0.22 false positives, when considering a 0.1% risk acceptance (***)

@@ -1,0 +1,14 @@
+                                confidence improvement accuracy (*)    (**)    (***)
+os/cpus.js n=30000                              1.45 %       ±4.02%  ±9.26%  ±29.49%
+os/homedir.js n=1000000                        -0.57 %       ±8.87% ±20.45%  ±65.11%
+os/hostname.js n=1000000                        0.08 %       ±3.72%  ±8.57%  ±27.29%
+os/loadavg.js n=5000000                         1.24 %       ±4.25%  ±9.80%  ±31.20%
+os/networkInterfaces.js n=10000               -10.05 %      ±29.57% ±68.20% ±217.13%
+os/uptime.js n=100000                           1.93 %       ±8.89% ±20.51%  ±65.32%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 6 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.30 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.06 false positives, when considering a   1% risk acceptance (**, ***),
+  0.01 false positives, when considering a 0.1% risk acceptance (***)

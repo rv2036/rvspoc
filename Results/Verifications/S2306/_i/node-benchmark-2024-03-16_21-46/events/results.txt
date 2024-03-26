@@ -1,0 +1,38 @@
+"filename","configuration","rate","time"
+"events/ee-add-remove.js","n=1000000 removeListener=0 newListener=0",238151.23164579592,4.199012506
+"events/ee-add-remove.js","n=1000000 removeListener=1 newListener=0",133397.32789115206,7.496402033
+"events/ee-add-remove.js","n=1000000 removeListener=0 newListener=1",168104.14691234913,5.948693226
+"events/ee-add-remove.js","n=1000000 removeListener=1 newListener=1",112020.39928751416,8.926945506
+"events/ee-emit.js","listeners=1 argc=0 n=2000000",10542505.693519734,0.189708221
+"events/ee-emit.js","listeners=5 argc=0 n=2000000",2804162.147210218,0.713225518
+"events/ee-emit.js","listeners=10 argc=0 n=2000000",1314318.5558018514,1.521701106
+"events/ee-emit.js","listeners=1 argc=2 n=2000000",10658720.49105919,0.187639783
+"events/ee-emit.js","listeners=5 argc=2 n=2000000",2687843.522781258,0.744090935
+"events/ee-emit.js","listeners=10 argc=2 n=2000000",1311864.0966727766,1.524548164
+"events/ee-emit.js","listeners=1 argc=4 n=2000000",10716412.309762785,0.186629624
+"events/ee-emit.js","listeners=5 argc=4 n=2000000",2740671.5741077056,0.729748146
+"events/ee-emit.js","listeners=10 argc=4 n=2000000",1238982.7186436413,1.614227519
+"events/ee-emit.js","listeners=1 argc=10 n=2000000",10431603.473221153,0.191725079
+"events/ee-emit.js","listeners=5 argc=10 n=2000000",2541781.3442155737,0.786849744
+"events/ee-emit.js","listeners=10 argc=10 n=2000000",1252077.7212470947,1.597344930
+"events/ee-listen-unique.js","n=1000000 events=1",237479.71340828494,4.210885998
+"events/ee-listen-unique.js","n=1000000 events=2",121047.84838022667,8.261195993
+"events/ee-listen-unique.js","n=1000000 events=3",80831.10827466921,12.371474564
+"events/ee-listen-unique.js","n=1000000 events=5",44666.09984182961,22.388343812
+"events/ee-listen-unique.js","n=1000000 events=10",22663.239966834397,44.124317682
+"events/ee-listen-unique.js","n=1000000 events=20",11380.035903318865,87.873184979
+"events/ee-listener-count-on-prototype.js","n=50000000",13315465.67212857,3.755032023
+"events/ee-listeners.js","raw=""true"" listeners=5 n=5000000",11308724.666378768,0.442136505
+"events/ee-listeners.js","raw=""false"" listeners=5 n=5000000",4402529.425381833,1.135710751
+"events/ee-listeners.js","raw=""true"" listeners=50 n=5000000",2228970.582229923,2.243187972
+"events/ee-listeners.js","raw=""false"" listeners=50 n=5000000",844604.0453143867,5.919933758
+"events/ee-once.js","argc=0 n=20000000",972929.9195408176,20.556465166
+"events/ee-once.js","argc=1 n=20000000",944229.3476718781,21.181294618
+"events/ee-once.js","argc=4 n=20000000",944036.3089935905,21.185625817
+"events/ee-once.js","argc=5 n=20000000",933575.8869666371,21.423004042
+"events/eventtarget-add-remove.js","nListener=5 n=1000000",135090.43971468147,7.402448331
+"events/eventtarget-add-remove.js","nListener=10 n=1000000",72744.10100371772,13.746819140
+"events/eventtarget-creation.js","n=1000000",1887247.778062983,0.529872130
+"events/eventtarget.js","listeners=1 n=1000000",821183.6488887803,1.217754398
+"events/eventtarget.js","listeners=5 n=1000000",636275.4864106897,1.571646278
+"events/eventtarget.js","listeners=10 n=1000000",521281.6298334723,1.918348821

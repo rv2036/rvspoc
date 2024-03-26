@@ -1,0 +1,45 @@
+                                                                                         confidence improvement accuracy (*)     (**)     (***)
+validators/parse-file-mode.js value="'777'" n=10000000                                            *     13.50 %       ±5.91%  ±13.63%   ±43.39%
+validators/parse-file-mode.js value="0o777" n=10000000                                          ***    220.53 %       ±0.45%   ±1.03%    ±3.27%
+validators/validate-array.js value="[]" n=10000000                                              ***    256.85 %      ±10.59%  ±24.42%   ±77.76%
+validators/validate-array.js value="[1,2,3]" n=10000000                                         ***    255.19 %       ±1.91%   ±4.40%   ±14.01%
+validators/validate-boolean.js value="false" code="validateBoolean" n=100000000                 ***     33.83 %       ±1.56%   ±3.60%   ±11.47%
+validators/validate-boolean.js value="true" code="validateBoolean" n=100000000                  ***     27.55 %       ±1.21%   ±2.80%    ±8.91%
+validators/validate-encoding.js value="test" encoding="ascii" n=100000000                        **      2.84 %       ±0.78%   ±1.79%    ±5.71%
+validators/validate-encoding.js value="test" encoding="base64" n=100000000                      ***     24.21 %       ±0.45%   ±1.03%    ±3.28%
+validators/validate-encoding.js value="test" encoding="binary" n=100000000                      ***     15.02 %       ±0.48%   ±1.11%    ±3.54%
+validators/validate-encoding.js value="test" encoding="hex" n=100000000                         ***     27.19 %       ±0.40%   ±0.91%    ±2.90%
+validators/validate-encoding.js value="test" encoding="latin1" n=100000000                      ***     16.17 %       ±0.26%   ±0.60%    ±1.92%
+validators/validate-encoding.js value="test" encoding="ucs-2" n=100000000                        **      4.45 %       ±0.71%   ±1.63%    ±5.20%
+validators/validate-encoding.js value="test" encoding="ucs2" n=100000000                        ***      3.32 %       ±0.20%   ±0.47%    ±1.51%
+validators/validate-encoding.js value="test" encoding="utf-8" n=100000000                       ***     13.20 %       ±0.39%   ±0.89%    ±2.84%
+validators/validate-encoding.js value="test" encoding="utf16le" n=100000000                     ***     23.48 %       ±0.34%   ±0.79%    ±2.50%
+validators/validate-encoding.js value="test" encoding="utf8" n=100000000                        ***     11.01 %       ±0.54%   ±1.25%    ±3.97%
+validators/validate-object.js objectToTest="array" n=100000                                     ***   3620.45 %      ±14.77%  ±34.07%  ±108.46%
+validators/validate-object.js objectToTest="function" n=100000                                  ***   3137.79 %     ±143.81% ±331.73% ±1056.19%
+validators/validate-object.js objectToTest="null" n=100000                                      ***   3437.36 %      ±77.01% ±177.64%  ±565.58%
+validators/validate-object.js objectToTest="object" n=100000                                    ***   4147.48 %     ±112.83% ±260.27%  ±828.67%
+validators/validate-one-of.js validLength=1 value="fifo" code="validateOneOf" n=10000000         **     23.55 %       ±9.88%  ±22.79%   ±72.57%
+validators/validate-one-of.js validLength=1 value="lifo" code="validateOneOf" n=10000000        ***     23.16 %       ±1.59%   ±3.66%   ±11.65%
+validators/validate-one-of.js validLength=1 value="lilo" code="validateOneOf" n=10000000          *     20.35 %      ±14.93%  ±34.43%  ±109.63%
+validators/validate-one-of.js validLength=2 value="fifo" code="validateOneOf" n=10000000         **     21.92 %       ±3.54%   ±8.16%   ±25.98%
+validators/validate-one-of.js validLength=2 value="lifo" code="validateOneOf" n=10000000         **     23.30 %       ±4.49%  ±10.35%   ±32.95%
+validators/validate-one-of.js validLength=2 value="lilo" code="validateOneOf" n=10000000          *     25.55 %      ±16.12%  ±37.18%  ±118.37%
+validators/validate-one-of.js validLength=3 value="fifo" code="validateOneOf" n=10000000          *     18.84 %      ±11.65%  ±26.87%   ±85.56%
+validators/validate-one-of.js validLength=3 value="lifo" code="validateOneOf" n=10000000          *     19.86 %      ±11.78%  ±27.18%   ±86.53%
+validators/validate-one-of.js validLength=3 value="lilo" code="validateOneOf" n=10000000         **     25.13 %       ±8.64%  ±19.93%   ±63.47%
+validators/validate-x-array.js arrayLength=0 type="validateBooleanArray" n=100000000            ***     32.51 %       ±1.35%   ±3.12%    ±9.93%
+validators/validate-x-array.js arrayLength=0 type="validateStringArray" n=100000000             ***     31.31 %       ±1.07%   ±2.46%    ±7.85%
+validators/validate-x-array.js arrayLength=1 type="validateBooleanArray" n=100000000            ***     23.66 %       ±0.80%   ±1.84%    ±5.86%
+validators/validate-x-array.js arrayLength=1 type="validateStringArray" n=100000000             ***     26.68 %       ±0.73%   ±1.68%    ±5.35%
+validators/validate-x-array.js arrayLength=10 type="validateBooleanArray" n=100000000            **     -2.59 %       ±0.99%   ±2.29%    ±7.30%
+validators/validate-x-array.js arrayLength=10 type="validateStringArray" n=100000000            ***     -0.48 %       ±0.05%   ±0.11%    ±0.34%
+validators/validate-x-array.js arrayLength=100 type="validateBooleanArray" n=100000000           **     -0.33 %       ±0.09%   ±0.20%    ±0.63%
+validators/validate-x-array.js arrayLength=100 type="validateStringArray" n=100000000           ***      0.87 %       ±0.12%   ±0.27%    ±0.85%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 37 comparisons, you can thus
+expect the following amount of false-positive results:
+  1.85 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.37 false positives, when considering a   1% risk acceptance (**, ***),
+  0.04 false positives, when considering a 0.1% risk acceptance (***)

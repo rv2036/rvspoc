@@ -1,0 +1,12 @@
+                                     confidence improvement accuracy (*)    (**)    (***)
+domain/domain-fn-args.js n=10 args=0                13.67 %      ±16.65% ±38.40% ±122.24%
+domain/domain-fn-args.js n=10 args=1          *     11.23 %      ±10.03% ±23.13%  ±73.64%
+domain/domain-fn-args.js n=10 args=2                17.10 %      ±21.50% ±49.59% ±157.88%
+domain/domain-fn-args.js n=10 args=3                 2.91 %      ±14.72% ±33.95% ±108.11%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 4 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.20 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.04 false positives, when considering a   1% risk acceptance (**, ***),
+  0.00 false positives, when considering a 0.1% risk acceptance (***)

@@ -1,0 +1,154 @@
+                                                                                                     confidence improvement accuracy (*)     (**)     (***)
+                                                                                                             NA       NaN %           NA       NA        NA
+util/format.js type="many-%" n=100000                                                                       ***    313.97 %      ±10.83%  ±24.97%   ±79.51%
+util/format.js type="no-replace-2" n=100000                                                                 ***    794.19 %      ±42.75%  ±98.62%  ±313.99%
+util/format.js type="no-replace" n=100000                                                                   ***   1074.56 %      ±41.06%  ±94.71%  ±301.54%
+util/format.js type="number" n=100000                                                                       ***    873.22 %      ±18.37%  ±42.38%  ±134.94%
+util/format.js type="object-%s" n=100000                                                                    ***    362.19 %       ±8.58%  ±19.78%   ±62.98%
+util/format.js type="object-to-string" n=100000                                                             ***    519.69 %      ±63.35% ±146.14%  ±465.28%
+util/format.js type="only-objects" n=100000                                                                 ***    289.94 %      ±16.03%  ±36.97%  ±117.70%
+util/format.js type="replace-object" n=100000                                                               ***    255.87 %      ±23.92%  ±55.17%  ±175.64%
+util/format.js type="string-2" n=100000                                                                     ***    546.97 %      ±10.10%  ±23.29%   ±74.14%
+util/format.js type="string" n=100000                                                                       ***    667.00 %      ±47.32% ±109.16%  ±347.56%
+util/format.js type="unknown" n=100000                                                                      ***    781.86 %       ±4.05%   ±9.33%   ±29.71%
+util/inspect-array.js type="denseArray_showHidden" len=100 n=500                                            ***   2410.61 %      ±98.21% ±226.54%  ±721.26%
+util/inspect-array.js type="denseArray_showHidden" len=100000 n=500                                         ***   2349.64 %     ±104.46% ±240.96%  ±767.18%
+util/inspect-array.js type="denseArray" len=100 n=500                                                       ***   2378.53 %      ±76.61% ±176.70%  ±562.60%
+util/inspect-array.js type="denseArray" len=100000 n=500                                                    ***   2284.90 %      ±61.37% ±141.55%  ±450.68%
+util/inspect-array.js type="mixedArray" len=100 n=500                                                       ***   2398.46 %      ±68.99% ±159.13%  ±506.65%
+util/inspect-array.js type="mixedArray" len=100000 n=500                                                    ***    894.53 %      ±30.81%  ±71.07%  ±226.29%
+util/inspect-array.js type="sparseArray" len=100 n=500                                                      ***   6373.70 %     ±305.01% ±703.57% ±2240.05%
+util/inspect-array.js type="sparseArray" len=100000 n=500                                                   ***    671.63 %      ±11.10%  ±25.61%   ±81.55%
+util/inspect-proxy.js isProxy=0 showProxy=0 n=100000                                                        ***    240.51 %       ±9.95%  ±22.96%   ±73.09%
+util/inspect-proxy.js isProxy=0 showProxy=1 n=100000                                                        ***    232.92 %       ±6.81%  ±15.71%   ±50.02%
+util/inspect-proxy.js isProxy=1 showProxy=0 n=100000                                                        ***    432.46 %       ±0.55%   ±1.26%    ±4.01%
+util/inspect-proxy.js isProxy=1 showProxy=1 n=100000                                                        ***    123.52 %       ±5.20%  ±12.00%   ±38.19%
+util/inspect.js option="colors" method="Array" n=20000                                                      ***    147.53 %       ±6.77%  ±15.63%   ±49.75%
+util/inspect.js option="colors" method="Date" n=20000                                                       ***   1240.49 %      ±39.97%  ±92.20%  ±293.55%
+util/inspect.js option="colors" method="Error" n=20000                                                      ***    839.70 %      ±10.10%  ±23.29%   ±74.15%
+util/inspect.js option="colors" method="Number" n=20000                                                     ***   2311.97 %     ±125.19% ±288.78%  ±919.44%
+util/inspect.js option="colors" method="Object_deep_ln" n=20000                                             ***    347.30 %      ±13.34%  ±30.77%   ±97.95%
+util/inspect.js option="colors" method="Object_empty" n=20000                                               ***   2310.48 %      ±42.59%  ±98.24%  ±312.79%
+util/inspect.js option="colors" method="Object" n=20000                                                     ***    794.29 %       ±8.20%  ±18.91%   ±60.20%
+util/inspect.js option="colors" method="Set" n=20000                                                        ***   1390.65 %      ±12.10%  ±27.91%   ±88.86%
+util/inspect.js option="colors" method="String_boxed" n=20000                                               ***   1158.42 %       ±8.81%  ±20.33%   ±64.73%
+util/inspect.js option="colors" method="String_complex" n=20000                                             ***   1492.34 %      ±55.97% ±129.12%  ±411.08%
+util/inspect.js option="colors" method="String" n=20000                                                     ***   2184.91 %      ±78.85% ±181.89%  ±579.10%
+util/inspect.js option="colors" method="TypedArray_extra" n=20000                                           ***    223.57 %       ±3.05%   ±7.04%   ±22.43%
+util/inspect.js option="colors" method="TypedArray" n=20000                                                 ***    198.49 %      ±15.65%  ±36.10%  ±114.93%
+util/inspect.js option="none" method="Array" n=20000                                                        ***    332.39 %      ±15.45%  ±35.63%  ±113.45%
+util/inspect.js option="none" method="Date" n=20000                                                         ***   1226.29 %      ±20.43%  ±47.13%  ±150.05%
+util/inspect.js option="none" method="Error" n=20000                                                        ***   1129.75 %      ±24.55%  ±56.62%  ±180.28%
+util/inspect.js option="none" method="Number" n=20000                                                       ***   2253.02 %     ±143.58% ±331.19% ±1054.44%
+util/inspect.js option="none" method="Object_deep_ln" n=20000                                               ***    650.72 %      ±16.94%  ±39.07%  ±124.38%
+util/inspect.js option="none" method="Object_empty" n=20000                                                 ***   2250.57 %      ±51.92% ±119.76%  ±381.29%
+util/inspect.js option="none" method="Object" n=20000                                                       ***   1344.22 %      ±54.73% ±126.25%  ±401.96%
+util/inspect.js option="none" method="Set" n=20000                                                          ***   1748.00 %      ±36.58%  ±84.37%  ±268.62%
+util/inspect.js option="none" method="String_boxed" n=20000                                                 ***   1244.37 %      ±20.30%  ±46.83%  ±149.11%
+util/inspect.js option="none" method="String_complex" n=20000                                               ***   1610.99 %      ±54.92% ±126.69%  ±403.35%
+util/inspect.js option="none" method="String" n=20000                                                       ***   2414.05 %      ±48.92% ±112.84%  ±359.27%
+util/inspect.js option="none" method="TypedArray_extra" n=20000                                             ***    545.48 %      ±35.79%  ±82.56%  ±262.85%
+util/inspect.js option="none" method="TypedArray" n=20000                                                   ***    693.32 %      ±11.55%  ±26.65%   ±84.85%
+util/inspect.js option="showHidden" method="Array" n=20000                                                  ***    299.87 %      ±16.89%  ±38.97%  ±124.06%
+util/inspect.js option="showHidden" method="Date" n=20000                                                   ***   1137.99 %      ±51.28% ±118.28%  ±376.59%
+util/inspect.js option="showHidden" method="Error" n=20000                                                  ***    488.79 %      ±16.79%  ±38.73%  ±123.32%
+util/inspect.js option="showHidden" method="Number" n=20000                                                 ***   2023.33 %      ±74.64% ±172.18%  ±548.18%
+util/inspect.js option="showHidden" method="Object_deep_ln" n=20000                                         ***    574.41 %      ±42.28%  ±97.52%  ±310.48%
+util/inspect.js option="showHidden" method="Object_empty" n=20000                                           ***   1990.66 %      ±22.32%  ±51.48%  ±163.89%
+util/inspect.js option="showHidden" method="Object" n=20000                                                 ***   1332.12 %      ±39.01%  ±89.98%  ±286.48%
+util/inspect.js option="showHidden" method="Set" n=20000                                                    ***   1669.63 %      ±27.19%  ±62.71%  ±199.66%
+util/inspect.js option="showHidden" method="String_boxed" n=20000                                           ***   1006.64 %      ±24.60%  ±56.74%  ±180.65%
+util/inspect.js option="showHidden" method="String_complex" n=20000                                         ***   1636.99 %      ±42.80%  ±98.73%  ±314.35%
+util/inspect.js option="showHidden" method="String" n=20000                                                 ***   2470.40 %      ±86.04% ±198.46%  ±631.86%
+util/inspect.js option="showHidden" method="TypedArray_extra" n=20000                                       ***    508.88 %      ±24.84%  ±57.30%  ±182.45%
+util/inspect.js option="showHidden" method="TypedArray" n=20000                                             ***    529.45 %      ±34.15%  ±78.78%  ±250.83%
+util/normalize-encoding.js n=100000 input='                                                                 ***   3412.13 %     ±166.38% ±383.78% ±1221.89%
+util/normalize-encoding.js n=100000 input="base64"                                                          ***   2811.43 %      ±56.29% ±129.84%  ±413.38%
+util/normalize-encoding.js n=100000 input="BASE64"                                                          ***   1832.76 %      ±38.02%  ±87.69%  ±279.20%
+util/normalize-encoding.js n=100000 input="binary"                                                          ***   2058.95 %      ±76.50% ±176.47%  ±561.84%
+util/normalize-encoding.js n=100000 input="BINARY"                                                          ***   1467.00 %      ±21.74%  ±50.14%  ±159.64%
+util/normalize-encoding.js n=100000 input="foo"                                                             ***   2429.32 %      ±84.23% ±194.30%  ±618.62%
+util/normalize-encoding.js n=100000 input="group_common"                                                    ***   2002.68 %      ±31.15%  ±71.86%  ±228.79%
+util/normalize-encoding.js n=100000 input="group_misc"                                                      ***   2740.27 %      ±31.13%  ±71.80%  ±228.60%
+util/normalize-encoding.js n=100000 input="group_uncommon"                                                  ***   2550.52 %     ±210.21% ±484.89% ±1543.81%
+util/normalize-encoding.js n=100000 input="group_upper"                                                     ***   2782.40 %      ±13.49%  ±31.11%   ±99.05%
+util/normalize-encoding.js n=100000 input="hex"                                                             ***   2761.84 %     ±177.20% ±408.74% ±1301.35%
+util/normalize-encoding.js n=100000 input="HEX"                                                             ***   2410.94 %      ±40.13%  ±92.57%  ±294.73%
+util/normalize-encoding.js n=100000 input="latin1"                                                          ***   2499.54 %     ±130.77% ±301.65%  ±960.40%
+util/normalize-encoding.js n=100000 input="ucs2"                                                            ***   2141.64 %      ±70.40% ±162.39%  ±517.02%
+util/normalize-encoding.js n=100000 input="UCS2"                                                            ***   1839.38 %      ±34.13%  ±78.73%  ±250.67%
+util/normalize-encoding.js n=100000 input="undefined"                                                       ***   2736.67 %     ±251.91% ±581.08% ±1850.08%
+util/normalize-encoding.js n=100000 input="utf-8"                                                           ***   2729.75 %      ±90.12% ±207.87%  ±661.82%
+util/normalize-encoding.js n=100000 input="UTF-8"                                                           ***   1759.95 %      ±84.19% ±194.20%  ±618.31%
+util/normalize-encoding.js n=100000 input="utf16le"                                                         ***   2822.07 %      ±62.27% ±143.64%  ±457.33%
+util/normalize-encoding.js n=100000 input="UTF16LE"                                                         ***   2336.52 %     ±111.48% ±257.15%  ±818.71%
+util/normalize-encoding.js n=100000 input="utf8"                                                            ***   2522.21 %     ±103.94% ±239.75%  ±763.31%
+util/normalize-encoding.js n=100000 input="Utf8"                                                            ***   1930.65 %     ±231.39% ±533.73% ±1699.31%
+util/normalize-encoding.js n=100000 input="UTF8"                                                            ***   2437.97 %     ±116.18% ±268.00%  ±853.26%
+util/priority-queue.js n=100000                                                                             ***    567.50 %      ±25.38%  ±58.55%  ±186.42%
+util/splice-one.js size=10 pos="end" n=100000                                                               ***   1556.54 %      ±71.92% ±165.90%  ±528.20%
+util/splice-one.js size=10 pos="middle" n=100000                                                             **   1279.66 %     ±249.71% ±576.01% ±1833.93%
+util/splice-one.js size=10 pos="start" n=100000                                                             ***    963.99 %      ±58.76% ±135.54%  ±431.53%
+util/splice-one.js size=100 pos="end" n=100000                                                              ***   1563.95 %      ±25.10%  ±57.90%  ±184.35%
+util/splice-one.js size=100 pos="middle" n=100000                                                           ***    422.45 %       ±1.58%   ±3.65%   ±11.62%
+util/splice-one.js size=100 pos="start" n=100000                                                            ***    240.13 %       ±2.50%   ±5.76%   ±18.34%
+util/splice-one.js size=500 pos="end" n=100000                                                              ***   1582.82 %      ±63.77% ±147.09%  ±468.30%
+util/splice-one.js size=500 pos="middle" n=100000                                                           ***    107.74 %       ±0.34%   ±0.80%    ±2.53%
+util/splice-one.js size=500 pos="start" n=100000                                                            ***     37.94 %       ±0.30%   ±0.69%    ±2.21%
+util/text-decoder.js type="ArrayBuffer" n=100 len=16384 fatal=0 ignoreBOM=0 encoding="latin1"                NA   2192.98 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=16384 fatal=0 ignoreBOM=0 encoding="utf-8"                 NA   3149.92 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=16384 fatal=0 ignoreBOM=1 encoding="utf-8"                 NA   3105.29 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=16384 fatal=1 ignoreBOM=0 encoding="latin1"                NA   2163.13 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=16384 fatal=1 ignoreBOM=0 encoding="utf-8"                 NA   2445.30 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=16384 fatal=1 ignoreBOM=1 encoding="utf-8"                 NA   2497.61 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=256 fatal=0 ignoreBOM=0 encoding="latin1"                  NA  13054.27 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=256 fatal=0 ignoreBOM=0 encoding="utf-8"                   NA  15637.66 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=256 fatal=0 ignoreBOM=1 encoding="utf-8"                   NA  15515.79 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=256 fatal=1 ignoreBOM=0 encoding="latin1"                  NA  13432.21 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=256 fatal=1 ignoreBOM=0 encoding="utf-8"                   NA  15390.10 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=256 fatal=1 ignoreBOM=1 encoding="utf-8"                   NA  14861.93 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=524288 fatal=0 ignoreBOM=0 encoding="latin1"               NA     87.69 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=524288 fatal=0 ignoreBOM=0 encoding="utf-8"                NA    142.52 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=524288 fatal=0 ignoreBOM=1 encoding="utf-8"                NA    138.06 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=524288 fatal=1 ignoreBOM=0 encoding="utf-8"                NA     93.35 %           NA       NA        NA
+util/text-decoder.js type="ArrayBuffer" n=100 len=524288 fatal=1 ignoreBOM=1 encoding="utf-8"                NA    101.96 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=16384 fatal=0 ignoreBOM=0 encoding="latin1"                     NA   2470.09 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=16384 fatal=0 ignoreBOM=0 encoding="utf-8"                      NA   1302.01 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=16384 fatal=0 ignoreBOM=1 encoding="utf-8"                      NA   1236.28 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=16384 fatal=1 ignoreBOM=0 encoding="utf-8"                      NA   7190.05 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=16384 fatal=1 ignoreBOM=1 encoding="utf-8"                      NA   7218.22 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=256 fatal=0 ignoreBOM=0 encoding="latin1"                       NA  12940.83 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=256 fatal=0 ignoreBOM=0 encoding="utf-8"                        NA  15295.25 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=256 fatal=0 ignoreBOM=1 encoding="utf-8"                        NA  13882.12 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=256 fatal=1 ignoreBOM=0 encoding="latin1"                       NA  13718.07 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=256 fatal=1 ignoreBOM=0 encoding="utf-8"                        NA  14751.33 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=256 fatal=1 ignoreBOM=1 encoding="utf-8"                        NA  14614.21 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=524288 fatal=0 ignoreBOM=0 encoding="latin1"                    NA     83.01 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=524288 fatal=0 ignoreBOM=0 encoding="utf-8"                     NA    144.02 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=524288 fatal=0 ignoreBOM=1 encoding="utf-8"                     NA    124.98 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=524288 fatal=1 ignoreBOM=0 encoding="utf-8"                     NA    114.45 %           NA       NA        NA
+util/text-decoder.js type="Buffer" n=100 len=524288 fatal=1 ignoreBOM=1 encoding="utf-8"                     NA    103.10 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=16384 fatal=0 ignoreBOM=0 encoding="latin1"          NA   2169.65 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=16384 fatal=0 ignoreBOM=0 encoding="utf-8"           NA   2913.66 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=16384 fatal=0 ignoreBOM=1 encoding="utf-8"           NA   3034.36 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=16384 fatal=1 ignoreBOM=0 encoding="latin1"          NA   2197.98 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=16384 fatal=1 ignoreBOM=0 encoding="utf-8"           NA   2535.01 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=16384 fatal=1 ignoreBOM=1 encoding="utf-8"           NA   2493.80 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=256 fatal=0 ignoreBOM=0 encoding="latin1"            NA  13224.64 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=256 fatal=0 ignoreBOM=0 encoding="utf-8"             NA  15441.40 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=256 fatal=0 ignoreBOM=1 encoding="utf-8"             NA  15019.17 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=256 fatal=1 ignoreBOM=0 encoding="latin1"            NA  13104.49 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=256 fatal=1 ignoreBOM=0 encoding="utf-8"             NA  14911.77 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=256 fatal=1 ignoreBOM=1 encoding="utf-8"             NA  14545.95 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=524288 fatal=0 ignoreBOM=0 encoding="latin1"         NA     88.01 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=524288 fatal=0 ignoreBOM=0 encoding="utf-8"          NA    122.86 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=524288 fatal=0 ignoreBOM=1 encoding="utf-8"          NA    131.91 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=524288 fatal=1 ignoreBOM=0 encoding="utf-8"          NA    104.67 %           NA       NA        NA
+util/text-decoder.js type="SharedArrayBuffer" n=100 len=524288 fatal=1 ignoreBOM=1 encoding="utf-8"          NA     98.08 %           NA       NA        NA
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 146 comparisons, you can thus
+expect the following amount of false-positive results:
+  7.30 false positives, when considering a   5% risk acceptance (*, **, ***),
+  1.46 false positives, when considering a   1% risk acceptance (**, ***),
+  0.15 false positives, when considering a 0.1% risk acceptance (***)

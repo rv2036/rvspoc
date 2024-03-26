@@ -1,0 +1,20 @@
+                                                   confidence improvement accuracy (*)     (**)     (***)
+readline/readline-iterable.js type="new" n=10             ***  12189.47 %     ±260.77% ±601.51% ±1915.10%
+readline/readline-iterable.js type="new" n=100            ***   6920.21 %     ±251.99% ±581.27% ±1850.67%
+readline/readline-iterable.js type="new" n=1000           ***   3983.64 %      ±64.76% ±149.39%  ±475.64%
+readline/readline-iterable.js type="new" n=10000          ***   1614.94 %      ±67.56% ±155.85%  ±496.20%
+readline/readline-iterable.js type="new" n=100000         ***    283.11 %      ±16.24%  ±37.47%  ±119.29%
+readline/readline-iterable.js type="new" n=1000000        ***     37.52 %       ±2.58%   ±5.95%   ±18.94%
+readline/readline-iterable.js type="old" n=10             ***   9903.95 %     ±416.91% ±961.68% ±3061.84%
+readline/readline-iterable.js type="old" n=100            ***   5119.39 %     ±157.96% ±364.37% ±1160.11%
+readline/readline-iterable.js type="old" n=1000           ***   2478.97 %      ±62.72% ±144.67%  ±460.59%
+readline/readline-iterable.js type="old" n=10000          ***   1245.77 %      ±53.73% ±123.94%  ±394.61%
+readline/readline-iterable.js type="old" n=100000         ***    175.19 %       ±7.89%  ±18.21%   ±57.96%
+readline/readline-iterable.js type="old" n=1000000         **     20.39 %       ±2.88%   ±6.64%   ±21.14%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 12 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.60 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.12 false positives, when considering a   1% risk acceptance (**, ***),
+  0.01 false positives, when considering a 0.1% risk acceptance (***)

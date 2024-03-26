@@ -1,0 +1,32 @@
+                                                                  confidence improvement accuracy (*)    (**)    (***)
+zlib/createInflate.js n=100 chunkLen=1024 inputLen=16777216               **     71.03 %      ±17.73% ±40.89% ±130.19%
+zlib/creation.js n=500000 options="false" type="BrotliCompress"           **     32.45 %       ±5.66% ±13.06%  ±41.59%
+zlib/creation.js n=500000 options="false" type="BrotliDecompress"        ***     41.50 %       ±4.87% ±11.23%  ±35.77%
+zlib/creation.js n=500000 options="false" type="Deflate"                   *     31.44 %      ±14.38% ±33.18% ±105.63%
+zlib/creation.js n=500000 options="false" type="DeflateRaw"               **     35.22 %      ±10.52% ±24.27%  ±77.27%
+zlib/creation.js n=500000 options="false" type="Gunzip"                  ***     34.72 %       ±2.70%  ±6.23%  ±19.84%
+zlib/creation.js n=500000 options="false" type="Gzip"                     **     35.59 %       ±8.40% ±19.39%  ±61.72%
+zlib/creation.js n=500000 options="false" type="Inflate"                  **     36.25 %       ±6.87% ±15.85%  ±50.48%
+zlib/creation.js n=500000 options="false" type="InflateRaw"               **     34.23 %       ±7.77% ±17.92%  ±57.04%
+zlib/creation.js n=500000 options="false" type="Unzip"                    **     32.51 %       ±8.74% ±20.17%  ±64.21%
+zlib/creation.js n=500000 options="true" type="BrotliCompress"            **     39.07 %       ±6.30% ±14.53%  ±46.25%
+zlib/creation.js n=500000 options="true" type="BrotliDecompress"          **     40.99 %      ±11.66% ±26.90%  ±85.64%
+zlib/creation.js n=500000 options="true" type="Deflate"                   **     44.75 %       ±9.51% ±21.93%  ±69.82%
+zlib/creation.js n=500000 options="true" type="DeflateRaw"                **     45.35 %       ±8.27% ±19.08%  ±60.75%
+zlib/creation.js n=500000 options="true" type="Gunzip"                    **     44.42 %       ±7.19% ±16.57%  ±52.77%
+zlib/creation.js n=500000 options="true" type="Gzip"                     ***     48.29 %       ±1.75%  ±4.05%  ±12.89%
+zlib/creation.js n=500000 options="true" type="Inflate"                  ***     47.05 %       ±5.55% ±12.81%  ±40.78%
+zlib/creation.js n=500000 options="true" type="InflateRaw"               ***     48.42 %       ±5.77% ±13.32%  ±42.41%
+zlib/creation.js n=500000 options="true" type="Unzip"                    ***     40.98 %       ±2.96%  ±6.82%  ±21.72%
+zlib/deflate.js n=400000 inputLen=1024 method="createDeflate"              *     16.31 %      ±10.14% ±23.39%  ±74.47%
+zlib/deflate.js n=400000 inputLen=1024 method="deflate"                   **     21.25 %       ±4.07%  ±9.39%  ±29.89%
+zlib/deflate.js n=400000 inputLen=1024 method="deflateSync"               **     16.90 %       ±4.39% ±10.12%  ±32.22%
+zlib/inflate.js n=400000 inputLen=1024 method="inflate"                    *     15.55 %      ±12.21% ±28.16%  ±89.65%
+zlib/inflate.js n=400000 inputLen=1024 method="inflateSync"               **     32.35 %       ±9.06% ±20.89%  ±66.52%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 24 comparisons, you can thus
+expect the following amount of false-positive results:
+  1.20 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.24 false positives, when considering a   1% risk acceptance (**, ***),
+  0.02 false positives, when considering a 0.1% risk acceptance (***)

@@ -1,0 +1,78 @@
+                                                                                                        confidence improvement accuracy (*)    (**)    (***)
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=1 requests=100                             2.23 %       ±7.42% ±17.12%  ±54.51%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=1 requests=1000                     *     -4.74 %       ±2.49%  ±5.75%  ±18.32%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=1 requests=5000                            2.25 %      ±12.44% ±28.69%  ±91.34%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=10 requests=100                            0.74 %       ±5.62% ±12.96%  ±41.26%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=10 requests=1000                           2.19 %       ±5.12% ±11.82%  ±37.63%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=10 requests=5000                           0.47 %      ±11.53% ±26.60%  ±84.69%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=100 requests=100                           3.75 %       ±9.93% ±22.91%  ±72.95%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=100 requests=1000                          1.93 %       ±5.34% ±12.31%  ±39.20%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=100 requests=5000                          1.97 %       ±4.79% ±11.05%  ±35.19%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=20 requests=100                            1.12 %       ±6.77% ±15.62%  ±49.74%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=20 requests=1000                           0.53 %       ±7.88% ±18.17%  ±57.84%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=20 requests=5000                          -0.20 %       ±6.75% ±15.58%  ±49.60%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=200 requests=100                          -0.93 %       ±7.20% ±16.60%  ±52.85%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=200 requests=1000                         -3.61 %       ±4.03%  ±9.29%  ±29.58%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=200 requests=5000                          4.84 %       ±4.95% ±11.42%  ±36.37%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=40 requests=100                            1.35 %       ±5.16% ±11.90%  ±37.90%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=40 requests=1000                          -0.60 %       ±4.47% ±10.31%  ±32.84%
+http2/compat.js duration=5 benchmarker="test-double-http2" clients=2 streams=40 requests=5000                           0.27 %       ±2.56%  ±5.90%  ±18.78%
+http2/headers.js nheaders=0 n=1000                                                                                     -1.05 %       ±4.68% ±10.80%  ±34.38%
+http2/headers.js nheaders=10 n=1000                                                                                     1.94 %       ±4.43% ±10.23%  ±32.57%
+http2/headers.js nheaders=100 n=1000                                                                                   -1.35 %       ±9.25% ±21.33%  ±67.92%
+http2/headers.js nheaders=1000 n=1000                                                                            *     -2.87 %       ±1.41%  ±3.26%  ±10.39%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=1 requests=100                   -0.56 %       ±8.84% ±20.38%  ±64.89%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=1 requests=1000                  -2.54 %       ±4.29%  ±9.89%  ±31.50%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=1 requests=5000            *     -2.30 %       ±1.72%  ±3.97%  ±12.63%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=10 requests=100                  -4.18 %       ±7.59% ±17.51%  ±55.76%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=10 requests=1000                 -1.81 %       ±8.11% ±18.70%  ±59.53%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=10 requests=5000                  0.66 %       ±2.09%  ±4.81%  ±15.32%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=100 requests=100                  1.11 %       ±3.13%  ±7.22%  ±22.98%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=100 requests=1000                -3.55 %      ±12.75% ±29.40%  ±93.61%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=100 requests=5000                 5.27 %       ±9.70% ±22.38%  ±71.26%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=20 requests=100                  -4.19 %       ±5.00% ±11.54%  ±36.75%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=20 requests=1000                 -0.41 %       ±5.87% ±13.55%  ±43.14%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=20 requests=5000                  1.94 %      ±12.18% ±28.10%  ±89.48%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=200 requests=100          **     -5.51 %       ±1.87%  ±4.31%  ±13.71%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=200 requests=1000          *      3.55 %       ±1.84%  ±4.24%  ±13.48%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=200 requests=5000                 2.97 %       ±4.85% ±11.18%  ±35.60%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=40 requests=100                  -2.71 %       ±5.87% ±13.54%  ±43.12%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=40 requests=1000           *     -2.78 %       ±2.11%  ±4.86%  ±15.46%
+http2/respond-with-fd.js duration=5 benchmarker="test-double-http2" clients=2 streams=40 requests=5000                  2.74 %      ±16.40% ±37.84% ±120.47%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=1 requests=100                            -1.64 %       ±8.26% ±19.05%  ±60.67%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=1 requests=1000                           -0.17 %       ±9.70% ±22.36%  ±71.21%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=1 requests=5000                           -3.49 %       ±9.30% ±21.44%  ±68.26%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=10 requests=100                           -0.06 %       ±5.78% ±13.34%  ±42.46%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=10 requests=1000                   **      8.18 %       ±1.72%  ±3.97%  ±12.65%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=10 requests=5000                           0.17 %       ±4.13%  ±9.53%  ±30.33%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=100 requests=100                           3.91 %       ±9.97% ±23.01%  ±73.25%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=100 requests=1000                         -0.17 %      ±10.07% ±23.22%  ±73.93%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=100 requests=5000                          1.56 %      ±15.23% ±35.12% ±111.82%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=20 requests=100                            2.31 %       ±3.49%  ±8.04%  ±25.60%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=20 requests=1000                          -1.30 %      ±12.53% ±28.91%  ±92.06%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=20 requests=5000                          -1.70 %       ±9.99% ±23.04%  ±73.36%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=200 requests=100                           0.57 %       ±9.56% ±22.06%  ±70.22%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=200 requests=1000                          2.84 %      ±11.24% ±25.92%  ±82.53%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=200 requests=5000                          0.96 %      ±13.57% ±31.31%  ±99.69%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=40 requests=100                            3.95 %      ±10.39% ±23.96%  ±76.30%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=40 requests=1000                           1.39 %       ±3.95%  ±9.12%  ±29.03%
+http2/simple.js duration=5 benchmarker="test-double-http2" clients=2 streams=40 requests=5000                           0.40 %      ±11.72% ±27.04%  ±86.09%
+http2/write.js duration=5 benchmarker="test-double-http2" size=100000 length=1048576 streams=100                        0.59 %       ±8.82% ±20.34%  ±64.77%
+http2/write.js duration=5 benchmarker="test-double-http2" size=100000 length=1048576 streams=1000                      -2.61 %       ±3.12%  ±7.19%  ±22.88%
+http2/write.js duration=5 benchmarker="test-double-http2" size=100000 length=1048576 streams=200                        0.40 %       ±8.24% ±19.01%  ±60.53%
+http2/write.js duration=5 benchmarker="test-double-http2" size=100000 length=131072 streams=100                  *     -4.69 %       ±2.43%  ±5.61%  ±17.85%
+http2/write.js duration=5 benchmarker="test-double-http2" size=100000 length=131072 streams=1000                        2.60 %       ±4.00%  ±9.23%  ±29.39%
+http2/write.js duration=5 benchmarker="test-double-http2" size=100000 length=131072 streams=200                         1.18 %       ±7.17% ±16.55%  ±52.68%
+http2/write.js duration=5 benchmarker="test-double-http2" size=100000 length=262144 streams=100                        -0.08 %       ±3.93%  ±9.07%  ±28.89%
+http2/write.js duration=5 benchmarker="test-double-http2" size=100000 length=262144 streams=1000                       -1.81 %      ±11.04% ±25.46%  ±81.05%
+http2/write.js duration=5 benchmarker="test-double-http2" size=100000 length=262144 streams=200                         3.21 %       ±6.80% ±15.69%  ±49.94%
+http2/write.js duration=5 benchmarker="test-double-http2" size=100000 length=65536 streams=100                         -2.26 %       ±4.87% ±11.24%  ±35.77%
+http2/write.js duration=5 benchmarker="test-double-http2" size=100000 length=65536 streams=1000                         3.57 %       ±5.54% ±12.77%  ±40.66%
+http2/write.js duration=5 benchmarker="test-double-http2" size=100000 length=65536 streams=200                         -0.95 %       ±4.48% ±10.34%  ±32.91%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 70 comparisons, you can thus
+expect the following amount of false-positive results:
+  3.50 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.70 false positives, when considering a   1% risk acceptance (**, ***),
+  0.07 false positives, when considering a 0.1% risk acceptance (***)

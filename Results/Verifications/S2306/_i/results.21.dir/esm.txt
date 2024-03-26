@@ -1,0 +1,49 @@
+                                                                                                                                                                confidence improvement accuracy (*)
+esm/cjs-parse.js n=100                                                                                                                                                 ***    692.52 %      ±37.34%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/non-exist" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000                          **     29.41 %       ±6.52%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/non-exist" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000               **     24.63 %      ±10.10%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.js" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000                       *     -8.36 %       ±4.75%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.js" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000          ***     30.22 %       ±1.88%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.json" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000                    **     24.55 %       ±7.27%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.json" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000         **     31.13 %       ±9.72%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.node" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000                   ***     30.33 %       ±4.00%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.node" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000         **     30.67 %       ±6.07%
+esm/esm-loader-defaultResolve.js specifier="./relative-existing.js" n=1000                                                                                             ***    940.43 %      ±90.70%
+esm/esm-loader-defaultResolve.js specifier="./relative-nonexistent.js" n=1000                                                                                          ***   1036.34 %      ±42.04%
+esm/esm-loader-defaultResolve.js specifier="node:os" n=1000                                                                                                            ***   2352.70 %      ±68.10%
+esm/esm-loader-defaultResolve.js specifier="node:prefixed-nonexistent" n=1000                                                                                          ***   2280.29 %      ±93.62%
+esm/esm-loader-defaultResolve.js specifier="unprefixed-existing" n=1000                                                                                                ***    587.55 %      ±68.64%
+esm/esm-loader-defaultResolve.js specifier="unprefixed-nonexistent" n=1000                                                                                             ***    516.44 %       ±9.44%
+esm/esm-loader-import.js specifier="./relative-existing.js" n=1000                                                                                                     ***   1297.78 %      ±58.91%
+esm/esm-loader-import.js specifier="./relative-nonexistent.js" n=1000                                                                                                  ***    892.33 %     ±100.70%
+esm/esm-loader-import.js specifier="data:text/javascript,{i}" n=1000                                                                                                    **    749.99 %     ±125.63%
+esm/esm-loader-import.js specifier="node:os" n=1000                                                                                                                    ***   1253.83 %      ±40.39%
+esm/esm-loader-import.js specifier="node:prefixed-nonexistent" n=1000                                                                                                  ***   1255.43 %      ±68.26%
+                                                                                                                                                                    (**)    (***)
+esm/cjs-parse.js n=100                                                                                                                                           ±86.14% ±274.26%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/non-exist" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000                   ±15.04%  ±47.88%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/non-exist" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000        ±23.29%  ±74.16%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.js" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000               ±10.96%  ±34.89%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.js" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000     ±4.33%  ±13.79%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.json" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000             ±16.77%  ±53.40%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.json" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000  ±22.42%  ±71.39%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.node" packageConfigMain=' packageJsonUrl="node_modules/test/package.json" n=10000              ±9.22%  ±29.34%
+esm/esm-legacyMainResolve.js resolvedFile="node_modules/test/index.node" packageConfigMain="./index.js" packageJsonUrl="node_modules/test/package.json" n=10000  ±14.00%  ±44.58%
+esm/esm-loader-defaultResolve.js specifier="./relative-existing.js" n=1000                                                                                      ±209.22% ±666.12%
+esm/esm-loader-defaultResolve.js specifier="./relative-nonexistent.js" n=1000                                                                                    ±96.98% ±308.77%
+esm/esm-loader-defaultResolve.js specifier="node:os" n=1000                                                                                                     ±157.08% ±500.12%
+esm/esm-loader-defaultResolve.js specifier="node:prefixed-nonexistent" n=1000                                                                                   ±215.95% ±687.56%
+esm/esm-loader-defaultResolve.js specifier="unprefixed-existing" n=1000                                                                                         ±158.32% ±504.07%
+esm/esm-loader-defaultResolve.js specifier="unprefixed-nonexistent" n=1000                                                                                       ±21.78%  ±69.35%
+esm/esm-loader-import.js specifier="./relative-existing.js" n=1000                                                                                              ±135.89% ±432.64%
+esm/esm-loader-import.js specifier="./relative-nonexistent.js" n=1000                                                                                           ±232.28% ±739.54%
+esm/esm-loader-import.js specifier="data:text/javascript,{i}" n=1000                                                                                            ±289.79% ±922.66%
+esm/esm-loader-import.js specifier="node:os" n=1000                                                                                                              ±93.17% ±296.65%
+esm/esm-loader-import.js specifier="node:prefixed-nonexistent" n=1000                                                                                           ±157.46% ±501.32%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 20 comparisons, you can thus
+expect the following amount of false-positive results:
+  1.00 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.20 false positives, when considering a   1% risk acceptance (**, ***),
+  0.02 false positives, when considering a 0.1% risk acceptance (***)

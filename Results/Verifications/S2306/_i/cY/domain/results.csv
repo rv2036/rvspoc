@@ -1,0 +1,25 @@
+"binary","filename","configuration","rate","time"
+"old","domain/domain-fn-args.js","n=10 args=0",4560.963895865897,0.002192519
+"old","domain/domain-fn-args.js","n=10 args=1",4815.427087451527,0.002076659
+"old","domain/domain-fn-args.js","n=10 args=2",4275.442839680727,0.002338939
+"old","domain/domain-fn-args.js","n=10 args=3",5035.299970442788,0.001985979
+"new","domain/domain-fn-args.js","n=10 args=0",5267.976707114192,0.001898262
+"new","domain/domain-fn-args.js","n=10 args=1",5266.755920623668,0.001898702
+"new","domain/domain-fn-args.js","n=10 args=2",4684.8018469362805,0.002134562
+"new","domain/domain-fn-args.js","n=10 args=3",5243.997982109577,0.001906942
+"old","domain/domain-fn-args.js","n=10 args=0",4560.963895865897,0.002192519
+"old","domain/domain-fn-args.js","n=10 args=1",4815.427087451527,0.002076659
+"old","domain/domain-fn-args.js","n=10 args=2",4275.442839680727,0.002338939
+"old","domain/domain-fn-args.js","n=10 args=3",5035.299970442788,0.001985979
+"new","domain/domain-fn-args.js","n=10 args=0",4845.952030890036,0.002063578
+"new","domain/domain-fn-args.js","n=10 args=1",5578.990414736569,0.001792439
+"new","domain/domain-fn-args.js","n=10 args=2",4923.833223860108,0.002030938
+"new","domain/domain-fn-args.js","n=10 args=3",4857.200727220093,0.002058799
+"old","domain/domain-fn-args.js","n=10 args=0",4560.963895865897,0.002192519
+"old","domain/domain-fn-args.js","n=10 args=1",4815.427087451527,0.002076659
+"old","domain/domain-fn-args.js","n=10 args=2",4275.442839680727,0.002338939
+"old","domain/domain-fn-args.js","n=10 args=3",5035.299970442788,0.001985979
+"new","domain/domain-fn-args.js","n=10 args=0",5439.876580080151,0.001838277
+"new","domain/domain-fn-args.js","n=10 args=1",5222.319357362269,0.001914858
+"new","domain/domain-fn-args.js","n=10 args=2",5410.7928001826685,0.001848158
+"new","domain/domain-fn-args.js","n=10 args=3",5444.13824191355,0.001836838

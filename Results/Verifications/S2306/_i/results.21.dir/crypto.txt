@@ -1,0 +1,465 @@
+                                                                                                                confidence improvement accuracy (*)      (**)     (***)
+                                                                                                                        NA       NaN %           NA        NA        NA
+crypto/aes-gcm-throughput.js len=1024 cipher="aes-128-gcm" n=500                                                       ***    623.11 %      ±19.36%   ±44.65%  ±142.16%
+crypto/aes-gcm-throughput.js len=1024 cipher="aes-192-gcm" n=500                                                       ***    615.34 %      ±27.94%   ±64.44%  ±205.18%
+crypto/aes-gcm-throughput.js len=1024 cipher="aes-256-gcm" n=500                                                       ***    609.23 %      ±13.21%   ±30.46%   ±96.99%
+crypto/aes-gcm-throughput.js len=1048576 cipher="aes-128-gcm" n=500                                                      *      1.60 %       ±0.71%    ±1.65%    ±5.25%
+crypto/aes-gcm-throughput.js len=1048576 cipher="aes-192-gcm" n=500                                                     **      1.62 %       ±0.69%    ±1.58%    ±5.03%
+crypto/aes-gcm-throughput.js len=1048576 cipher="aes-256-gcm" n=500                                                     **      1.57 %       ±0.38%    ±0.87%    ±2.78%
+crypto/aes-gcm-throughput.js len=16384 cipher="aes-128-gcm" n=500                                                      ***    132.51 %       ±3.79%    ±8.75%   ±27.86%
+crypto/aes-gcm-throughput.js len=16384 cipher="aes-192-gcm" n=500                                                      ***    123.90 %       ±2.45%    ±5.66%   ±18.01%
+crypto/aes-gcm-throughput.js len=16384 cipher="aes-256-gcm" n=500                                                      ***    115.63 %       ±1.21%    ±2.79%    ±8.89%
+crypto/aes-gcm-throughput.js len=262144 cipher="aes-128-gcm" n=500                                                     ***      8.75 %       ±0.42%    ±0.96%    ±3.07%
+crypto/aes-gcm-throughput.js len=262144 cipher="aes-192-gcm" n=500                                                       *      7.54 %       ±3.45%    ±7.95%   ±25.33%
+crypto/aes-gcm-throughput.js len=262144 cipher="aes-256-gcm" n=500                                                              5.91 %       ±6.57%   ±15.16%   ±48.25%
+crypto/aes-gcm-throughput.js len=4096 cipher="aes-128-gcm" n=500                                                       ***    360.84 %       ±3.74%    ±8.62%   ±27.44%
+crypto/aes-gcm-throughput.js len=4096 cipher="aes-192-gcm" n=500                                                       ***    340.02 %      ±13.76%   ±31.73%  ±101.02%
+crypto/aes-gcm-throughput.js len=4096 cipher="aes-256-gcm" n=500                                                        **    313.68 %      ±47.44%  ±109.43%  ±348.41%
+crypto/aes-gcm-throughput.js len=65536 cipher="aes-128-gcm" n=500                                                       **     35.34 %       ±4.93%   ±11.37%   ±36.21%
+crypto/aes-gcm-throughput.js len=65536 cipher="aes-192-gcm" n=500                                                      ***     32.68 %       ±3.95%    ±9.12%   ±29.03%
+crypto/aes-gcm-throughput.js len=65536 cipher="aes-256-gcm" n=500                                                        *     20.17 %       ±9.70%   ±22.36%   ±71.20%
+crypto/cipher-stream.js api="legacy" len=1024 type="asc" cipher="AES192" writes=500                                    ***   1665.52 %     ±140.74%  ±324.64% ±1033.60%
+crypto/cipher-stream.js api="legacy" len=1024 type="asc" cipher="AES256" writes=500                                    ***   1596.53 %      ±37.45%   ±86.39%  ±275.04%
+crypto/cipher-stream.js api="legacy" len=1024 type="buf" cipher="AES192" writes=500                                    ***    947.89 %      ±33.01%   ±76.15%  ±242.45%
+crypto/cipher-stream.js api="legacy" len=1024 type="buf" cipher="AES256" writes=500                                    ***    887.73 %      ±16.38%   ±37.79%  ±120.33%
+crypto/cipher-stream.js api="legacy" len=1024 type="utf" cipher="AES192" writes=500                                     **    714.36 %     ±175.54%  ±404.92% ±1289.20%
+crypto/cipher-stream.js api="legacy" len=1024 type="utf" cipher="AES256" writes=500                                    ***    725.77 %      ±28.14%   ±64.91%  ±206.67%
+crypto/cipher-stream.js api="legacy" len=102400 type="asc" cipher="AES192" writes=500                                   **     27.50 %       ±4.38%   ±10.09%   ±32.13%
+crypto/cipher-stream.js api="legacy" len=102400 type="asc" cipher="AES256" writes=500                                  ***     26.58 %       ±3.12%    ±7.20%   ±22.91%
+crypto/cipher-stream.js api="legacy" len=102400 type="buf" cipher="AES192" writes=500                                  ***     13.71 %       ±1.19%    ±2.75%    ±8.74%
+crypto/cipher-stream.js api="legacy" len=102400 type="buf" cipher="AES256" writes=500                                           8.96 %       ±9.89%   ±22.81%   ±72.64%
+crypto/cipher-stream.js api="legacy" len=102400 type="utf" cipher="AES192" writes=500                                    *     10.76 %       ±9.46%   ±21.82%   ±69.48%
+crypto/cipher-stream.js api="legacy" len=102400 type="utf" cipher="AES256" writes=500                                           6.12 %      ±17.96%   ±41.42%  ±131.87%
+crypto/cipher-stream.js api="legacy" len=1048576 type="asc" cipher="AES192" writes=500                                  **      2.73 %       ±1.00%    ±2.30%    ±7.31%
+crypto/cipher-stream.js api="legacy" len=1048576 type="asc" cipher="AES256" writes=500                                          1.84 %       ±3.70%    ±8.53%   ±27.14%
+crypto/cipher-stream.js api="legacy" len=1048576 type="buf" cipher="AES192" writes=500                                         -0.60 %       ±1.83%    ±4.23%   ±13.46%
+crypto/cipher-stream.js api="legacy" len=1048576 type="buf" cipher="AES256" writes=500                                         -0.28 %       ±1.26%    ±2.91%    ±9.25%
+crypto/cipher-stream.js api="legacy" len=1048576 type="utf" cipher="AES192" writes=500                                         -0.68 %       ±1.64%    ±3.79%   ±12.06%
+crypto/cipher-stream.js api="legacy" len=1048576 type="utf" cipher="AES256" writes=500                                          0.02 %       ±1.85%    ±4.26%   ±13.55%
+crypto/cipher-stream.js api="legacy" len=2 type="asc" cipher="AES192" writes=500                                       ***   4032.67 %     ±197.80%  ±456.25% ±1452.63%
+crypto/cipher-stream.js api="legacy" len=2 type="asc" cipher="AES256" writes=500                                       ***   3974.66 %     ±237.92%  ±548.81% ±1747.31%
+crypto/cipher-stream.js api="legacy" len=2 type="buf" cipher="AES192" writes=500                                       ***   2510.34 %     ±116.07%  ±267.74%  ±852.43%
+crypto/cipher-stream.js api="legacy" len=2 type="buf" cipher="AES256" writes=500                                       ***   2516.82 %      ±88.89%  ±205.04%  ±652.82%
+crypto/cipher-stream.js api="legacy" len=2 type="utf" cipher="AES192" writes=500                                       ***   1890.46 %      ±87.41%  ±201.62%  ±641.94%
+crypto/cipher-stream.js api="legacy" len=2 type="utf" cipher="AES256" writes=500                                       ***   1927.34 %     ±140.75%  ±324.67% ±1033.71%
+crypto/cipher-stream.js api="stream" len=1024 type="asc" cipher="AES192" writes=500                                    ***   3732.91 %     ±117.80%  ±271.72%  ±865.11%
+crypto/cipher-stream.js api="stream" len=1024 type="asc" cipher="AES256" writes=500                                    ***   3568.04 %     ±286.18%  ±660.13% ±2101.73%
+crypto/cipher-stream.js api="stream" len=1024 type="buf" cipher="AES192" writes=500                                    ***   3548.16 %     ±241.12%  ±556.18% ±1770.77%
+crypto/cipher-stream.js api="stream" len=1024 type="buf" cipher="AES256" writes=500                                    ***   3476.29 %     ±103.53%  ±238.81%  ±760.34%
+crypto/cipher-stream.js api="stream" len=1024 type="utf" cipher="AES192" writes=500                                    ***   3489.16 %      ±85.29%  ±196.73%  ±626.36%
+crypto/cipher-stream.js api="stream" len=1024 type="utf" cipher="AES256" writes=500                                    ***   3384.20 %     ±143.29%  ±330.52% ±1052.33%
+crypto/cipher-stream.js api="stream" len=102400 type="asc" cipher="AES192" writes=500                                  ***    133.95 %       ±5.21%   ±12.02%   ±38.27%
+crypto/cipher-stream.js api="stream" len=102400 type="asc" cipher="AES256" writes=500                                  ***    125.33 %       ±2.32%    ±5.35%   ±17.03%
+crypto/cipher-stream.js api="stream" len=102400 type="buf" cipher="AES192" writes=500                                  ***    123.05 %       ±2.04%    ±4.70%   ±14.96%
+crypto/cipher-stream.js api="stream" len=102400 type="buf" cipher="AES256" writes=500                                  ***    112.03 %       ±8.26%   ±19.06%   ±60.69%
+crypto/cipher-stream.js api="stream" len=102400 type="utf" cipher="AES192" writes=500                                  ***    122.03 %       ±7.63%   ±17.60%   ±56.04%
+crypto/cipher-stream.js api="stream" len=102400 type="utf" cipher="AES256" writes=500                                  ***    105.96 %       ±3.25%    ±7.49%   ±23.85%
+crypto/cipher-stream.js api="stream" len=1048576 type="asc" cipher="AES192" writes=500                                 ***     13.69 %       ±1.07%    ±2.46%    ±7.82%
+crypto/cipher-stream.js api="stream" len=1048576 type="asc" cipher="AES256" writes=500                                 ***     12.19 %       ±0.93%    ±2.15%    ±6.86%
+crypto/cipher-stream.js api="stream" len=1048576 type="buf" cipher="AES192" writes=500                                 ***     12.59 %       ±0.74%    ±1.70%    ±5.42%
+crypto/cipher-stream.js api="stream" len=1048576 type="buf" cipher="AES256" writes=500                                 ***     11.37 %       ±0.24%    ±0.55%    ±1.74%
+crypto/cipher-stream.js api="stream" len=1048576 type="utf" cipher="AES192" writes=500                                  **      8.89 %       ±2.72%    ±6.28%   ±20.00%
+crypto/cipher-stream.js api="stream" len=1048576 type="utf" cipher="AES256" writes=500                                  **      7.29 %       ±2.33%    ±5.37%   ±17.11%
+crypto/cipher-stream.js api="stream" len=2 type="asc" cipher="AES192" writes=500                                       ***   6492.60 %     ±570.27% ±1315.43% ±4188.12%
+crypto/cipher-stream.js api="stream" len=2 type="asc" cipher="AES256" writes=500                                       ***   6534.02 %     ±143.96%  ±332.08% ±1057.28%
+crypto/cipher-stream.js api="stream" len=2 type="buf" cipher="AES192" writes=500                                       ***   6978.04 %     ±350.89%  ±809.40% ±2576.98%
+crypto/cipher-stream.js api="stream" len=2 type="buf" cipher="AES256" writes=500                                       ***   6791.93 %     ±173.30%  ±399.75% ±1272.73%
+crypto/cipher-stream.js api="stream" len=2 type="utf" cipher="AES192" writes=500                                       ***   6855.69 %     ±276.11%  ±636.90% ±2027.77%
+crypto/cipher-stream.js api="stream" len=2 type="utf" cipher="AES256" writes=500                                       ***   6862.09 %     ±366.83%  ±846.17% ±2694.07%
+crypto/create-keyobject.js n=1000 keyFormat="der-pkcs8" keyType="ec"                                                    **     42.70 %      ±11.15%   ±25.72%   ±81.87%
+crypto/create-keyobject.js n=1000 keyFormat="der-pkcs8" keyType="ed25519"                                              ***     45.67 %       ±3.29%    ±7.58%   ±24.14%
+crypto/create-keyobject.js n=1000 keyFormat="der-pkcs8" keyType="rsa"                                                  ***     44.35 %       ±3.05%    ±7.03%   ±22.40%
+crypto/create-keyobject.js n=1000 keyFormat="der-spki" keyType="ec"                                                    ***    174.32 %       ±2.87%    ±6.63%   ±21.09%
+crypto/create-keyobject.js n=1000 keyFormat="der-spki" keyType="ed25519"                                               ***    219.86 %      ±13.74%   ±31.69%  ±100.90%
+crypto/create-keyobject.js n=1000 keyFormat="der-spki" keyType="rsa"                                                   ***    146.00 %      ±10.59%   ±24.43%   ±77.77%
+crypto/create-keyobject.js n=1000 keyFormat="jwk-private" keyType="ec"                                                 ***     58.04 %       ±3.73%    ±8.59%   ±27.36%
+crypto/create-keyobject.js n=1000 keyFormat="jwk-private" keyType="ed25519"                                            ***    762.06 %      ±13.82%   ±31.88%  ±101.50%
+crypto/create-keyobject.js n=1000 keyFormat="jwk-private" keyType="rsa"                                                ***   1026.72 %      ±51.04%  ±117.73%  ±374.85%
+crypto/create-keyobject.js n=1000 keyFormat="jwk-public" keyType="ec"                                                  ***     57.36 %       ±2.53%    ±5.84%   ±18.58%
+crypto/create-keyobject.js n=1000 keyFormat="jwk-public" keyType="ed25519"                                             ***   1771.34 %      ±10.95%   ±25.25%   ±80.39%
+crypto/create-keyobject.js n=1000 keyFormat="jwk-public" keyType="rsa"                                                 ***   1749.66 %      ±50.23%  ±115.87%  ±368.91%
+crypto/create-keyobject.js n=1000 keyFormat="pkcs8" keyType="ec"                                                       ***     29.03 %       ±2.58%    ±5.95%   ±18.96%
+crypto/create-keyobject.js n=1000 keyFormat="pkcs8" keyType="ed25519"                                                   **     30.84 %       ±4.70%   ±10.85%   ±34.53%
+crypto/create-keyobject.js n=1000 keyFormat="pkcs8" keyType="rsa"                                                       **     28.72 %       ±5.13%   ±11.83%   ±37.67%
+crypto/create-keyobject.js n=1000 keyFormat="spki" keyType="ec"                                                        ***    109.23 %       ±6.29%   ±14.51%   ±46.20%
+crypto/create-keyobject.js n=1000 keyFormat="spki" keyType="ed25519"                                                   ***    142.46 %       ±0.63%    ±1.45%    ±4.61%
+crypto/create-keyobject.js n=1000 keyFormat="spki" keyType="rsa"                                                       ***     91.74 %       ±5.78%   ±13.34%   ±42.46%
+crypto/get-ciphers.js v="crypto" n=1                                                                                    **      5.95 %       ±1.63%    ±3.77%   ±11.99%
+crypto/get-ciphers.js v="crypto" n=5000                                                                                ***   1291.11 %      ±37.89%   ±87.41%  ±278.30%
+crypto/get-ciphers.js v="tls" n=1                                                                                               3.62 %       ±8.51%   ±19.63%   ±62.50%
+crypto/get-ciphers.js v="tls" n=5000                                                                                   ***   1082.26 %      ±67.34%  ±155.33%  ±494.55%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="binary" type="asc" algo="md5" writes=500                     ***   3454.91 %      ±76.17%  ±175.69%  ±559.38%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="binary" type="asc" algo="sha256" writes=500                  ***   2681.47 %      ±29.13%   ±67.20%  ±213.94%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="binary" type="buf" algo="md5" writes=500                     ***   1603.51 %      ±32.97%   ±76.05%  ±242.12%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="binary" type="buf" algo="sha256" writes=500                  ***   1206.43 %       ±9.01%   ±20.78%   ±66.17%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="binary" type="utf" algo="md5" writes=500                     ***   1476.82 %      ±22.45%   ±51.79%  ±164.88%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="binary" type="utf" algo="sha256" writes=500                  ***   1112.45 %     ±113.68%  ±262.23%  ±834.90%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="buffer" type="asc" algo="md5" writes=500                     ***   2963.57 %      ±45.38%  ±104.67%  ±333.25%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="buffer" type="asc" algo="sha256" writes=500                  ***   2344.83 %       ±7.01%   ±16.18%   ±51.51%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="buffer" type="buf" algo="md5" writes=500                     ***   1345.25 %      ±36.05%   ±83.15%  ±264.74%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="buffer" type="buf" algo="sha256" writes=500                  ***   1043.91 %      ±68.18%  ±157.27%  ±500.72%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="buffer" type="utf" algo="md5" writes=500                     ***   1249.30 %      ±21.87%   ±50.45%  ±160.63%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="buffer" type="utf" algo="sha256" writes=500                  ***   1007.45 %      ±62.78%  ±144.81%  ±461.05%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="hex" type="asc" algo="md5" writes=500                        ***   3526.07 %     ±151.57%  ±349.62% ±1113.13%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="hex" type="asc" algo="sha256" writes=500                     ***   2704.72 %      ±49.37%  ±113.89%  ±362.59%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="hex" type="buf" algo="md5" writes=500                        ***   1594.64 %      ±31.56%   ±72.80%  ±231.78%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="hex" type="buf" algo="sha256" writes=500                     ***   1209.19 %      ±20.63%   ±47.58%  ±151.48%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="hex" type="utf" algo="md5" writes=500                        ***   1472.04 %      ±44.07%  ±101.66%  ±323.66%
+crypto/hash-stream-creation.js api="legacy" len=1024 out="hex" type="utf" algo="sha256" writes=500                     ***   1132.31 %      ±20.93%   ±48.27%  ±153.70%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="binary" type="asc" algo="md5" writes=500                   ***    412.93 %       ±0.33%    ±0.75%    ±2.40%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="binary" type="asc" algo="sha256" writes=500                ***     99.07 %       ±3.56%    ±8.21%   ±26.15%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="binary" type="buf" algo="md5" writes=500                   ***    169.46 %       ±0.12%    ±0.27%    ±0.85%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="binary" type="buf" algo="sha256" writes=500                ***     38.31 %       ±3.02%    ±6.96%   ±22.15%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="binary" type="utf" algo="md5" writes=500                   ***    124.30 %       ±0.90%    ±2.08%    ±6.64%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="binary" type="utf" algo="sha256" writes=500                ***     38.74 %       ±0.98%    ±2.27%    ±7.22%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="buffer" type="asc" algo="md5" writes=500                   ***    401.71 %       ±3.30%    ±7.60%   ±24.21%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="buffer" type="asc" algo="sha256" writes=500                ***     98.15 %       ±4.26%    ±9.82%   ±31.27%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="buffer" type="buf" algo="md5" writes=500                   ***    166.16 %       ±4.78%   ±11.03%   ±35.11%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="buffer" type="buf" algo="sha256" writes=500                ***     39.04 %       ±2.95%    ±6.81%   ±21.68%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="buffer" type="utf" algo="md5" writes=500                   ***    119.75 %       ±6.72%   ±15.51%   ±49.38%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="buffer" type="utf" algo="sha256" writes=500                ***     35.37 %       ±0.79%    ±1.82%    ±5.79%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="hex" type="asc" algo="md5" writes=500                      ***    412.46 %       ±1.97%    ±4.55%   ±14.49%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="hex" type="asc" algo="sha256" writes=500                   ***     97.83 %       ±1.46%    ±3.38%   ±10.75%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="hex" type="buf" algo="md5" writes=500                      ***    169.09 %       ±0.40%    ±0.92%    ±2.92%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="hex" type="buf" algo="sha256" writes=500                   ***     38.46 %       ±3.75%    ±8.64%   ±27.51%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="hex" type="utf" algo="md5" writes=500                      ***    121.82 %       ±3.63%    ±8.36%   ±26.63%
+crypto/hash-stream-creation.js api="legacy" len=102400 out="hex" type="utf" algo="sha256" writes=500                   ***     37.49 %       ±3.46%    ±7.99%   ±25.44%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="binary" type="asc" algo="md5" writes=500                  ***     41.84 %       ±2.76%    ±6.37%   ±20.28%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="binary" type="asc" algo="sha256" writes=500               ***      9.54 %       ±1.21%    ±2.79%    ±8.89%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="binary" type="buf" algo="md5" writes=500                  ***     17.20 %       ±0.35%    ±0.81%    ±2.59%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="binary" type="buf" algo="sha256" writes=500                **      3.44 %       ±0.52%    ±1.20%    ±3.82%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="binary" type="utf" algo="md5" writes=500                  ***     11.77 %       ±0.76%    ±1.74%    ±5.56%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="binary" type="utf" algo="sha256" writes=500               ***      3.17 %       ±0.43%    ±0.99%    ±3.15%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="buffer" type="asc" algo="md5" writes=500                  ***     41.68 %       ±2.45%    ±5.65%   ±17.99%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="buffer" type="asc" algo="sha256" writes=500               ***      9.63 %       ±0.26%    ±0.59%    ±1.89%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="buffer" type="buf" algo="md5" writes=500                  ***     17.29 %       ±2.29%    ±5.28%   ±16.81%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="buffer" type="buf" algo="sha256" writes=500                **      3.50 %       ±0.95%    ±2.18%    ±6.95%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="buffer" type="utf" algo="md5" writes=500                  ***     11.85 %       ±1.10%    ±2.53%    ±8.06%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="buffer" type="utf" algo="sha256" writes=500                **      3.37 %       ±0.55%    ±1.27%    ±4.04%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="hex" type="asc" algo="md5" writes=500                     ***     42.16 %       ±1.00%    ±2.32%    ±7.37%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="hex" type="asc" algo="sha256" writes=500                  ***      9.66 %       ±0.64%    ±1.47%    ±4.69%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="hex" type="buf" algo="md5" writes=500                     ***     16.33 %       ±0.75%    ±1.73%    ±5.51%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="hex" type="buf" algo="sha256" writes=500                  ***      3.70 %       ±0.44%    ±1.01%    ±3.20%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="hex" type="utf" algo="md5" writes=500                     ***     12.30 %       ±1.49%    ±3.44%   ±10.96%
+crypto/hash-stream-creation.js api="legacy" len=1048576 out="hex" type="utf" algo="sha256" writes=500                  ***      3.27 %       ±0.44%    ±1.02%    ±3.26%
+crypto/hash-stream-creation.js api="legacy" len=2 out="binary" type="asc" algo="md5" writes=500                        ***   3722.93 %      ±87.39%  ±201.59%  ±641.83%
+crypto/hash-stream-creation.js api="legacy" len=2 out="binary" type="asc" algo="sha256" writes=500                     ***   3659.86 %       ±7.54%   ±17.40%   ±55.40%
+crypto/hash-stream-creation.js api="legacy" len=2 out="binary" type="buf" algo="md5" writes=500                        ***   1753.73 %      ±98.02%  ±226.11%  ±719.89%
+crypto/hash-stream-creation.js api="legacy" len=2 out="binary" type="buf" algo="sha256" writes=500                     ***   1693.78 %      ±17.35%   ±40.02%  ±127.43%
+crypto/hash-stream-creation.js api="legacy" len=2 out="binary" type="utf" algo="md5" writes=500                        ***   1705.51 %      ±33.07%   ±76.28%  ±242.86%
+crypto/hash-stream-creation.js api="legacy" len=2 out="binary" type="utf" algo="sha256" writes=500                     ***   1642.50 %      ±23.19%   ±53.49%  ±170.31%
+crypto/hash-stream-creation.js api="legacy" len=2 out="buffer" type="asc" algo="md5" writes=500                        ***   3188.62 %      ±79.31%  ±182.94%  ±582.46%
+crypto/hash-stream-creation.js api="legacy" len=2 out="buffer" type="asc" algo="sha256" writes=500                     ***   3000.95 %     ±343.03%  ±791.26% ±2519.24%
+crypto/hash-stream-creation.js api="legacy" len=2 out="buffer" type="buf" algo="md5" writes=500                        ***   1383.78 %     ±169.97%  ±392.07% ±1248.29%
+crypto/hash-stream-creation.js api="legacy" len=2 out="buffer" type="buf" algo="sha256" writes=500                     ***   1425.89 %      ±10.88%   ±25.09%   ±79.88%
+crypto/hash-stream-creation.js api="legacy" len=2 out="buffer" type="utf" algo="md5" writes=500                        ***   1401.77 %      ±45.44%  ±104.81%  ±333.70%
+crypto/hash-stream-creation.js api="legacy" len=2 out="buffer" type="utf" algo="sha256" writes=500                     ***   1370.71 %      ±24.53%   ±56.59%  ±180.18%
+crypto/hash-stream-creation.js api="legacy" len=2 out="hex" type="asc" algo="md5" writes=500                           ***   3797.89 %      ±59.54%  ±137.34%  ±437.28%
+crypto/hash-stream-creation.js api="legacy" len=2 out="hex" type="asc" algo="sha256" writes=500                        ***   3683.17 %     ±123.93%  ±285.88%  ±910.19%
+crypto/hash-stream-creation.js api="legacy" len=2 out="hex" type="buf" algo="md5" writes=500                           ***   1755.40 %      ±89.36%  ±206.12%  ±656.27%
+crypto/hash-stream-creation.js api="legacy" len=2 out="hex" type="buf" algo="sha256" writes=500                        ***   1702.30 %      ±58.19%  ±134.22%  ±427.34%
+crypto/hash-stream-creation.js api="legacy" len=2 out="hex" type="utf" algo="md5" writes=500                           ***   1720.84 %      ±61.06%  ±140.85%  ±448.44%
+crypto/hash-stream-creation.js api="legacy" len=2 out="hex" type="utf" algo="sha256" writes=500                        ***   1658.25 %      ±21.21%   ±48.92%  ±155.74%
+crypto/hash-stream-creation.js api="stream" len=1024 out="binary" type="asc" algo="md5" writes=500                     ***   3745.58 %     ±128.03%  ±295.33%  ±940.29%
+crypto/hash-stream-creation.js api="stream" len=1024 out="binary" type="asc" algo="sha256" writes=500                  ***   3520.97 %     ±320.81%  ±740.00% ±2356.03%
+crypto/hash-stream-creation.js api="stream" len=1024 out="binary" type="buf" algo="md5" writes=500                     ***   3898.12 %      ±52.99%  ±122.23%  ±389.16%
+crypto/hash-stream-creation.js api="stream" len=1024 out="binary" type="buf" algo="sha256" writes=500                  ***   3725.21 %      ±71.08%  ±163.95%  ±521.99%
+crypto/hash-stream-creation.js api="stream" len=1024 out="binary" type="utf" algo="md5" writes=500                     ***   3806.72 %      ±60.61%  ±139.80%  ±445.10%
+crypto/hash-stream-creation.js api="stream" len=1024 out="binary" type="utf" algo="sha256" writes=500                  ***   3622.57 %     ±110.82%  ±255.62%  ±813.87%
+crypto/hash-stream-creation.js api="stream" len=1024 out="buffer" type="asc" algo="md5" writes=500                     ***   3958.27 %     ±153.44%  ±353.93% ±1126.85%
+crypto/hash-stream-creation.js api="stream" len=1024 out="buffer" type="asc" algo="sha256" writes=500                  ***   3765.07 %     ±128.46%  ±296.32%  ±943.45%
+crypto/hash-stream-creation.js api="stream" len=1024 out="buffer" type="buf" algo="md5" writes=500                     ***   3733.61 %     ±151.34%  ±349.08% ±1111.43%
+crypto/hash-stream-creation.js api="stream" len=1024 out="buffer" type="buf" algo="sha256" writes=500                  ***   3439.46 %     ±307.81%  ±710.02% ±2260.58%
+crypto/hash-stream-creation.js api="stream" len=1024 out="buffer" type="utf" algo="md5" writes=500                     ***   3658.88 %     ±189.21%  ±436.46% ±1389.60%
+crypto/hash-stream-creation.js api="stream" len=1024 out="buffer" type="utf" algo="sha256" writes=500                  ***   3463.64 %      ±38.12%   ±87.94%  ±279.99%
+crypto/hash-stream-creation.js api="stream" len=1024 out="hex" type="asc" algo="md5" writes=500                        ***   3788.36 %      ±78.79%  ±181.73%  ±578.61%
+crypto/hash-stream-creation.js api="stream" len=1024 out="hex" type="asc" algo="sha256" writes=500                     ***   3570.74 %     ±153.18%  ±353.34% ±1124.96%
+crypto/hash-stream-creation.js api="stream" len=1024 out="hex" type="buf" algo="md5" writes=500                        ***   3950.33 %      ±15.82%   ±36.50%  ±116.21%
+crypto/hash-stream-creation.js api="stream" len=1024 out="hex" type="buf" algo="sha256" writes=500                     ***   3671.26 %     ±111.43%  ±257.03%  ±818.34%
+crypto/hash-stream-creation.js api="stream" len=1024 out="hex" type="utf" algo="md5" writes=500                        ***   3815.03 %     ±124.10%  ±286.25%  ±911.37%
+crypto/hash-stream-creation.js api="stream" len=1024 out="hex" type="utf" algo="sha256" writes=500                     ***   3620.15 %     ±136.16%  ±314.08%  ±999.97%
+crypto/hash-stream-creation.js api="stream" len=102400 out="binary" type="asc" algo="md5" writes=500                   ***   1613.22 %      ±52.72%  ±121.61%  ±387.19%
+crypto/hash-stream-creation.js api="stream" len=102400 out="binary" type="asc" algo="sha256" writes=500                ***    552.45 %      ±19.67%   ±45.38%  ±144.48%
+crypto/hash-stream-creation.js api="stream" len=102400 out="binary" type="buf" algo="md5" writes=500                   ***   1729.39 %     ±102.98%  ±237.55%  ±756.32%
+crypto/hash-stream-creation.js api="stream" len=102400 out="binary" type="buf" algo="sha256" writes=500                ***    574.68 %      ±18.84%   ±43.47%  ±138.39%
+crypto/hash-stream-creation.js api="stream" len=102400 out="binary" type="utf" algo="md5" writes=500                   ***   1332.42 %      ±47.79%  ±110.23%  ±350.96%
+crypto/hash-stream-creation.js api="stream" len=102400 out="binary" type="utf" algo="sha256" writes=500                ***    512.84 %      ±12.96%   ±29.89%   ±95.16%
+crypto/hash-stream-creation.js api="stream" len=102400 out="buffer" type="asc" algo="md5" writes=500                   ***   1600.38 %      ±40.05%   ±92.39%  ±294.14%
+crypto/hash-stream-creation.js api="stream" len=102400 out="buffer" type="asc" algo="sha256" writes=500                ***    543.33 %      ±19.93%   ±45.97%  ±146.35%
+crypto/hash-stream-creation.js api="stream" len=102400 out="buffer" type="buf" algo="md5" writes=500                   ***   1546.10 %      ±21.00%   ±48.44%  ±154.24%
+crypto/hash-stream-creation.js api="stream" len=102400 out="buffer" type="buf" algo="sha256" writes=500                ***    483.93 %      ±30.21%   ±69.69%  ±221.87%
+crypto/hash-stream-creation.js api="stream" len=102400 out="buffer" type="utf" algo="md5" writes=500                   ***   1177.11 %      ±52.31%  ±120.67%  ±384.18%
+crypto/hash-stream-creation.js api="stream" len=102400 out="buffer" type="utf" algo="sha256" writes=500                ***    449.85 %      ±16.42%   ±37.88%  ±120.61%
+crypto/hash-stream-creation.js api="stream" len=102400 out="hex" type="asc" algo="md5" writes=500                      ***   1624.83 %     ±152.07%  ±350.78% ±1116.82%
+crypto/hash-stream-creation.js api="stream" len=102400 out="hex" type="asc" algo="sha256" writes=500                   ***    561.38 %      ±21.43%   ±49.44%  ±157.40%
+crypto/hash-stream-creation.js api="stream" len=102400 out="hex" type="buf" algo="md5" writes=500                      ***   1737.78 %      ±20.85%   ±48.09%  ±153.12%
+crypto/hash-stream-creation.js api="stream" len=102400 out="hex" type="buf" algo="sha256" writes=500                   ***    575.98 %      ±20.81%   ±48.00%  ±152.82%
+crypto/hash-stream-creation.js api="stream" len=102400 out="hex" type="utf" algo="md5" writes=500                      ***   1321.83 %      ±59.25%  ±136.66%  ±435.10%
+crypto/hash-stream-creation.js api="stream" len=102400 out="hex" type="utf" algo="sha256" writes=500                   ***    526.32 %      ±26.82%   ±61.85%  ±196.93%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="binary" type="asc" algo="md5" writes=500                  ***    256.75 %       ±6.35%   ±14.64%   ±46.61%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="binary" type="asc" algo="sha256" writes=500               ***     63.18 %       ±0.50%    ±1.16%    ±3.69%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="binary" type="buf" algo="md5" writes=500                  ***    275.60 %      ±13.81%   ±31.86%  ±101.45%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="binary" type="buf" algo="sha256" writes=500               ***     65.48 %       ±0.38%    ±0.87%    ±2.78%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="binary" type="utf" algo="md5" writes=500                  ***    189.68 %       ±0.41%    ±0.94%    ±2.98%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="binary" type="utf" algo="sha256" writes=500               ***     59.97 %       ±1.65%    ±3.82%   ±12.15%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="buffer" type="asc" algo="md5" writes=500                  ***    239.95 %       ±5.30%   ±12.24%   ±38.96%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="buffer" type="asc" algo="sha256" writes=500               ***     59.83 %       ±1.07%    ±2.47%    ±7.86%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="buffer" type="buf" algo="md5" writes=500                  ***    231.63 %       ±8.07%   ±18.62%   ±59.28%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="buffer" type="buf" algo="sha256" writes=500               ***     54.59 %       ±0.90%    ±2.09%    ±6.64%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="buffer" type="utf" algo="md5" writes=500                  ***    159.38 %       ±5.45%   ±12.56%   ±39.99%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="buffer" type="utf" algo="sha256" writes=500               ***     50.21 %       ±0.90%    ±2.07%    ±6.59%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="hex" type="asc" algo="md5" writes=500                     ***    261.36 %       ±4.41%   ±10.17%   ±32.37%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="hex" type="asc" algo="sha256" writes=500                  ***     64.91 %       ±1.15%    ±2.66%    ±8.46%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="hex" type="buf" algo="md5" writes=500                     ***    277.40 %       ±6.86%   ±15.82%   ±50.37%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="hex" type="buf" algo="sha256" writes=500                  ***     66.04 %       ±1.30%    ±3.00%    ±9.57%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="hex" type="utf" algo="md5" writes=500                     ***    189.71 %       ±5.14%   ±11.85%   ±37.72%
+crypto/hash-stream-creation.js api="stream" len=1048576 out="hex" type="utf" algo="sha256" writes=500                  ***     59.25 %       ±1.02%    ±2.35%    ±7.47%
+crypto/hash-stream-creation.js api="stream" len=2 out="binary" type="asc" algo="md5" writes=500                        ***   3821.66 %      ±21.41%   ±49.39%  ±157.25%
+crypto/hash-stream-creation.js api="stream" len=2 out="binary" type="asc" algo="sha256" writes=500                     ***   3800.36 %      ±62.83%  ±144.93%  ±461.43%
+crypto/hash-stream-creation.js api="stream" len=2 out="binary" type="buf" algo="md5" writes=500                        ***   3916.97 %      ±92.32%  ±212.94%  ±677.98%
+crypto/hash-stream-creation.js api="stream" len=2 out="binary" type="buf" algo="sha256" writes=500                     ***   3899.07 %     ±171.64%  ±395.93% ±1260.56%
+crypto/hash-stream-creation.js api="stream" len=2 out="binary" type="utf" algo="md5" writes=500                        ***   3913.62 %     ±108.50%  ±250.28%  ±796.84%
+crypto/hash-stream-creation.js api="stream" len=2 out="binary" type="utf" algo="sha256" writes=500                     ***   3866.44 %      ±55.04%  ±126.96%  ±404.21%
+crypto/hash-stream-creation.js api="stream" len=2 out="buffer" type="asc" algo="md5" writes=500                        ***   4016.94 %     ±141.52%  ±326.45% ±1039.36%
+crypto/hash-stream-creation.js api="stream" len=2 out="buffer" type="asc" algo="sha256" writes=500                     ***   3993.85 %      ±42.13%   ±97.17%  ±309.38%
+crypto/hash-stream-creation.js api="stream" len=2 out="buffer" type="buf" algo="md5" writes=500                        ***   3742.62 %     ±378.56%  ±873.22% ±2780.17%
+crypto/hash-stream-creation.js api="stream" len=2 out="buffer" type="buf" algo="sha256" writes=500                     ***   3712.22 %      ±63.24%  ±145.86%  ±464.40%
+crypto/hash-stream-creation.js api="stream" len=2 out="buffer" type="utf" algo="md5" writes=500                        ***   3777.24 %      ±77.20%  ±178.07%  ±566.95%
+crypto/hash-stream-creation.js api="stream" len=2 out="buffer" type="utf" algo="sha256" writes=500                     ***   3700.14 %     ±213.96%  ±493.55% ±1571.38%
+crypto/hash-stream-creation.js api="stream" len=2 out="hex" type="asc" algo="md5" writes=500                           ***   3855.50 %      ±85.51%  ±197.23%  ±627.96%
+crypto/hash-stream-creation.js api="stream" len=2 out="hex" type="asc" algo="sha256" writes=500                        ***   3812.86 %     ±116.06%  ±267.71%  ±852.36%
+crypto/hash-stream-creation.js api="stream" len=2 out="hex" type="buf" algo="md5" writes=500                           ***   3940.97 %      ±43.31%   ±99.91%  ±318.09%
+crypto/hash-stream-creation.js api="stream" len=2 out="hex" type="buf" algo="sha256" writes=500                        ***   3841.07 %      ±47.61%  ±109.82%  ±349.65%
+crypto/hash-stream-creation.js api="stream" len=2 out="hex" type="utf" algo="md5" writes=500                           ***   3891.60 %     ±109.11%  ±251.67%  ±801.29%
+crypto/hash-stream-creation.js api="stream" len=2 out="hex" type="utf" algo="sha256" writes=500                        ***   3881.52 %     ±125.59%  ±289.69%  ±922.34%
+crypto/hash-stream-throughput.js api="legacy" len=1024 type="asc" algo="sha1" writes=500                               ***   3333.91 %     ±349.11%  ±805.28% ±2563.88%
+crypto/hash-stream-throughput.js api="legacy" len=1024 type="asc" algo="sha256" writes=500                             ***   2372.29 %     ±120.61%  ±278.21%  ±885.78%
+crypto/hash-stream-throughput.js api="legacy" len=1024 type="asc" algo="sha512" writes=500                             ***   3041.21 %     ±143.17%  ±330.25% ±1051.45%
+crypto/hash-stream-throughput.js api="legacy" len=1024 type="buf" algo="sha1" writes=500                               ***   4976.94 %     ±239.65%  ±552.81% ±1760.04%
+crypto/hash-stream-throughput.js api="legacy" len=1024 type="buf" algo="sha256" writes=500                             ***   2732.84 %     ±248.09%  ±572.27% ±1822.00%
+crypto/hash-stream-throughput.js api="legacy" len=1024 type="buf" algo="sha512" writes=500                             ***   4099.74 %     ±147.23%  ±339.60% ±1081.24%
+crypto/hash-stream-throughput.js api="legacy" len=1024 type="utf" algo="sha1" writes=500                               ***   3950.69 %     ±137.29%  ±316.69% ±1008.28%
+crypto/hash-stream-throughput.js api="legacy" len=1024 type="utf" algo="sha256" writes=500                             ***   2454.53 %      ±58.30%  ±134.49%  ±428.18%
+crypto/hash-stream-throughput.js api="legacy" len=1024 type="utf" algo="sha512" writes=500                             ***   3237.40 %     ±158.79%  ±366.29% ±1166.20%
+crypto/hash-stream-throughput.js api="legacy" len=102400 type="asc" algo="sha1" writes=500                             ***     97.41 %       ±0.16%    ±0.38%    ±1.20%
+crypto/hash-stream-throughput.js api="legacy" len=102400 type="asc" algo="sha256" writes=500                           ***     38.62 %       ±2.98%    ±6.86%   ±21.85%
+crypto/hash-stream-throughput.js api="legacy" len=102400 type="asc" algo="sha512" writes=500                           ***     71.49 %       ±0.23%    ±0.54%    ±1.71%
+crypto/hash-stream-throughput.js api="legacy" len=102400 type="buf" algo="sha1" writes=500                             ***     99.70 %       ±0.37%    ±0.85%    ±2.71%
+crypto/hash-stream-throughput.js api="legacy" len=102400 type="buf" algo="sha256" writes=500                           ***     38.32 %       ±2.88%    ±6.65%   ±21.18%
+crypto/hash-stream-throughput.js api="legacy" len=102400 type="buf" algo="sha512" writes=500                           ***     72.44 %       ±0.37%    ±0.85%    ±2.72%
+crypto/hash-stream-throughput.js api="legacy" len=102400 type="utf" algo="sha1" writes=500                             ***     80.82 %       ±0.25%    ±0.58%    ±1.85%
+crypto/hash-stream-throughput.js api="legacy" len=102400 type="utf" algo="sha256" writes=500                           ***     35.62 %       ±0.31%    ±0.72%    ±2.31%
+crypto/hash-stream-throughput.js api="legacy" len=102400 type="utf" algo="sha512" writes=500                           ***     61.83 %       ±0.96%    ±2.20%    ±7.01%
+crypto/hash-stream-throughput.js api="legacy" len=1048576 type="asc" algo="sha1" writes=500                            ***      9.54 %       ±0.77%    ±1.77%    ±5.62%
+crypto/hash-stream-throughput.js api="legacy" len=1048576 type="asc" algo="sha256" writes=500                          ***      3.82 %       ±0.05%    ±0.12%    ±0.38%
+crypto/hash-stream-throughput.js api="legacy" len=1048576 type="asc" algo="sha512" writes=500                          ***      6.83 %       ±0.45%    ±1.03%    ±3.28%
+crypto/hash-stream-throughput.js api="legacy" len=1048576 type="buf" algo="sha1" writes=500                            ***      9.34 %       ±0.47%    ±1.09%    ±3.48%
+crypto/hash-stream-throughput.js api="legacy" len=1048576 type="buf" algo="sha256" writes=500                          ***      3.63 %       ±0.27%    ±0.63%    ±1.99%
+crypto/hash-stream-throughput.js api="legacy" len=1048576 type="buf" algo="sha512" writes=500                          ***      6.79 %       ±0.37%    ±0.86%    ±2.73%
+crypto/hash-stream-throughput.js api="legacy" len=1048576 type="utf" algo="sha1" writes=500                            ***      7.75 %       ±0.07%    ±0.16%    ±0.52%
+crypto/hash-stream-throughput.js api="legacy" len=1048576 type="utf" algo="sha256" writes=500                          ***      3.32 %       ±0.06%    ±0.14%    ±0.44%
+crypto/hash-stream-throughput.js api="legacy" len=1048576 type="utf" algo="sha512" writes=500                          ***      5.50 %       ±0.44%    ±1.01%    ±3.22%
+crypto/hash-stream-throughput.js api="legacy" len=2 type="asc" algo="sha1" writes=500                                  ***   5116.51 %     ±188.80%  ±435.49% ±1386.54%
+crypto/hash-stream-throughput.js api="legacy" len=2 type="asc" algo="sha256" writes=500                                ***   5199.22 %     ±180.45%  ±416.24% ±1325.23%
+crypto/hash-stream-throughput.js api="legacy" len=2 type="asc" algo="sha512" writes=500                                ***   5300.81 %     ±335.03%  ±772.80% ±2460.48%
+crypto/hash-stream-throughput.js api="legacy" len=2 type="buf" algo="sha1" writes=500                                  ***   9960.78 %     ±765.58% ±1765.94% ±5622.47%
+crypto/hash-stream-throughput.js api="legacy" len=2 type="buf" algo="sha256" writes=500                                ***   9929.75 %     ±175.23%  ±404.19% ±1286.89%
+crypto/hash-stream-throughput.js api="legacy" len=2 type="buf" algo="sha512" writes=500                                ***   9536.56 %     ±648.80% ±1496.59% ±4764.88%
+crypto/hash-stream-throughput.js api="legacy" len=2 type="utf" algo="sha1" writes=500                                  ***   8132.44 %     ±364.03%  ±839.71% ±2673.49%
+crypto/hash-stream-throughput.js api="legacy" len=2 type="utf" algo="sha256" writes=500                                ***   8055.42 %     ±156.91%  ±361.94% ±1152.35%
+crypto/hash-stream-throughput.js api="legacy" len=2 type="utf" algo="sha512" writes=500                                ***   7981.85 %     ±313.86%  ±723.96% ±2304.98%
+crypto/hash-stream-throughput.js api="stream" len=1024 type="asc" algo="sha1" writes=500                               ***   5263.23 %      ±36.62%   ±84.48%  ±268.96%
+crypto/hash-stream-throughput.js api="stream" len=1024 type="asc" algo="sha256" writes=500                             ***   4387.96 %      ±48.12%  ±110.99%  ±353.39%
+crypto/hash-stream-throughput.js api="stream" len=1024 type="asc" algo="sha512" writes=500                             ***   5003.99 %     ±220.67%  ±509.01% ±1620.59%
+crypto/hash-stream-throughput.js api="stream" len=1024 type="buf" algo="sha1" writes=500                               ***   5291.04 %     ±144.93%  ±334.30% ±1064.37%
+crypto/hash-stream-throughput.js api="stream" len=1024 type="buf" algo="sha256" writes=500                             ***   4312.58 %     ±213.22%  ±491.83% ±1565.92%
+crypto/hash-stream-throughput.js api="stream" len=1024 type="buf" algo="sha512" writes=500                             ***   5008.50 %     ±119.30%  ±275.19%  ±876.15%
+crypto/hash-stream-throughput.js api="stream" len=1024 type="utf" algo="sha1" writes=500                               ***   4991.87 %     ±100.55%  ±231.93%  ±738.41%
+crypto/hash-stream-throughput.js api="stream" len=1024 type="utf" algo="sha256" writes=500                             ***   4170.44 %     ±144.43%  ±333.16% ±1060.74%
+crypto/hash-stream-throughput.js api="stream" len=1024 type="utf" algo="sha512" writes=500                             ***   4645.89 %     ±437.78% ±1009.82% ±3215.11%
+crypto/hash-stream-throughput.js api="stream" len=102400 type="asc" algo="sha1" writes=500                             ***    364.11 %       ±2.42%    ±5.59%   ±17.81%
+crypto/hash-stream-throughput.js api="stream" len=102400 type="asc" algo="sha256" writes=500                           ***    148.29 %       ±8.69%   ±20.05%   ±63.82%
+crypto/hash-stream-throughput.js api="stream" len=102400 type="asc" algo="sha512" writes=500                           ***    269.53 %       ±0.76%    ±1.76%    ±5.61%
+crypto/hash-stream-throughput.js api="stream" len=102400 type="buf" algo="sha1" writes=500                             ***    345.15 %       ±3.57%    ±8.23%   ±26.20%
+crypto/hash-stream-throughput.js api="stream" len=102400 type="buf" algo="sha256" writes=500                           ***    137.14 %       ±8.33%   ±19.21%   ±61.16%
+crypto/hash-stream-throughput.js api="stream" len=102400 type="buf" algo="sha512" writes=500                           ***    252.04 %       ±0.67%    ±1.55%    ±4.94%
+crypto/hash-stream-throughput.js api="stream" len=102400 type="utf" algo="sha1" writes=500                             ***    277.47 %       ±0.41%    ±0.95%    ±3.01%
+crypto/hash-stream-throughput.js api="stream" len=102400 type="utf" algo="sha256" writes=500                           ***    125.10 %       ±0.75%    ±1.73%    ±5.50%
+crypto/hash-stream-throughput.js api="stream" len=102400 type="utf" algo="sha512" writes=500                           ***    215.79 %       ±1.37%    ±3.17%   ±10.10%
+crypto/hash-stream-throughput.js api="stream" len=1048576 type="asc" algo="sha1" writes=500                            ***     36.94 %       ±0.80%    ±1.85%    ±5.90%
+crypto/hash-stream-throughput.js api="stream" len=1048576 type="asc" algo="sha256" writes=500                          ***     14.54 %       ±0.16%    ±0.36%    ±1.15%
+crypto/hash-stream-throughput.js api="stream" len=1048576 type="asc" algo="sha512" writes=500                          ***     26.60 %       ±1.11%    ±2.57%    ±8.19%
+crypto/hash-stream-throughput.js api="stream" len=1048576 type="buf" algo="sha1" writes=500                            ***     34.47 %       ±1.89%    ±4.35%   ±13.85%
+crypto/hash-stream-throughput.js api="stream" len=1048576 type="buf" algo="sha256" writes=500                          ***     13.77 %       ±0.38%    ±0.87%    ±2.76%
+crypto/hash-stream-throughput.js api="stream" len=1048576 type="buf" algo="sha512" writes=500                          ***     24.95 %       ±0.99%    ±2.29%    ±7.28%
+crypto/hash-stream-throughput.js api="stream" len=1048576 type="utf" algo="sha1" writes=500                            ***     28.04 %       ±1.14%    ±2.64%    ±8.39%
+crypto/hash-stream-throughput.js api="stream" len=1048576 type="utf" algo="sha256" writes=500                          ***     12.72 %       ±0.33%    ±0.76%    ±2.41%
+crypto/hash-stream-throughput.js api="stream" len=1048576 type="utf" algo="sha512" writes=500                          ***     21.24 %       ±0.26%    ±0.59%    ±1.88%
+crypto/hash-stream-throughput.js api="stream" len=2 type="asc" algo="sha1" writes=500                                  ***   6161.45 %     ±499.05% ±1151.15% ±3665.07%
+crypto/hash-stream-throughput.js api="stream" len=2 type="asc" algo="sha256" writes=500                                ***   6389.46 %     ±205.95%  ±475.06% ±1512.51%
+crypto/hash-stream-throughput.js api="stream" len=2 type="asc" algo="sha512" writes=500                                ***   6318.97 %     ±559.69% ±1291.03% ±4110.43%
+crypto/hash-stream-throughput.js api="stream" len=2 type="buf" algo="sha1" writes=500                                  ***   6270.30 %     ±409.39%  ±944.33% ±3006.58%
+crypto/hash-stream-throughput.js api="stream" len=2 type="buf" algo="sha256" writes=500                                ***   6433.82 %     ±301.55%  ±695.58% ±2214.60%
+crypto/hash-stream-throughput.js api="stream" len=2 type="buf" algo="sha512" writes=500                                ***   6449.08 %     ±279.06%  ±643.71% ±2049.47%
+crypto/hash-stream-throughput.js api="stream" len=2 type="utf" algo="sha1" writes=500                                  ***   6290.31 %     ±307.19%  ±708.58% ±2256.00%
+crypto/hash-stream-throughput.js api="stream" len=2 type="utf" algo="sha256" writes=500                                ***   6353.00 %     ±167.28%  ±385.85% ±1228.50%
+crypto/hash-stream-throughput.js api="stream" len=2 type="utf" algo="sha512" writes=500                                ***   6427.71 %     ±185.30%  ±427.42% ±1360.84%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="a" size=10 sync=0                                               ***   1365.97 %      ±44.49%  ±102.62%  ±326.73%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="a" size=10 sync=1                                               ***    669.99 %      ±26.62%   ±61.41%  ±195.52%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="a" size=1024 sync=0                                             ***   1310.79 %      ±58.17%  ±134.19%  ±427.23%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="a" size=1024 sync=1                                             ***    396.78 %      ±34.21%   ±78.92%  ±251.27%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="a" size=64 sync=0                                               ***   1351.59 %      ±13.21%   ±30.48%   ±97.05%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="a" size=64 sync=1                                               ***    661.88 %       ±9.89%   ±22.82%   ±72.67%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="secret" size=10 sync=0                                          ***   1260.94 %      ±64.69%  ±149.22%  ±475.09%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="secret" size=10 sync=1                                          ***    672.84 %      ±12.72%   ±29.34%   ±93.42%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="secret" size=1024 sync=0                                        ***   1350.37 %      ±87.77%  ±202.46%  ±644.59%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="secret" size=1024 sync=1                                        ***    408.99 %      ±10.05%   ±23.18%   ±73.81%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="secret" size=64 sync=0                                           **   1264.39 %     ±312.80%  ±721.52% ±2297.20%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="secret" size=64 sync=1                                          ***    643.10 %      ±22.57%   ±52.05%  ±165.73%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="this-is-a-much-longer-secret" size=10 sync=0                    ***   1259.50 %      ±92.57%  ±213.52%  ±679.82%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="this-is-a-much-longer-secret" size=10 sync=1                    ***    673.83 %       ±7.18%   ±16.57%   ±52.76%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="this-is-a-much-longer-secret" size=1024 sync=0                  ***   1286.88 %      ±73.49%  ±169.52%  ±539.71%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="this-is-a-much-longer-secret" size=1024 sync=1                  ***    406.16 %      ±17.25%   ±39.78%  ±126.66%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="this-is-a-much-longer-secret" size=64 sync=0                     **   1326.00 %     ±190.79%  ±440.09% ±1401.19%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt=' key="this-is-a-much-longer-secret" size=64 sync=1                    ***    662.63 %      ±12.77%   ±29.47%   ±93.82%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="a" size=10 sync=0                                          ***   1244.54 %      ±54.70%  ±126.18%  ±401.72%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="a" size=10 sync=1                                          ***    657.97 %      ±45.72%  ±105.47%  ±335.81%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="a" size=1024 sync=0                                        ***   1269.44 %      ±91.64%  ±211.38%  ±673.00%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="a" size=1024 sync=1                                        ***    408.19 %      ±17.52%   ±40.41%  ±128.66%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="a" size=64 sync=0                                          ***   1247.73 %      ±87.33%  ±201.45%  ±641.39%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="a" size=64 sync=1                                          ***    674.78 %      ±20.26%   ±46.74%  ±148.81%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="secret" size=10 sync=0                                     ***   1230.57 %      ±98.11%  ±226.30%  ±720.51%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="secret" size=10 sync=1                                     ***    668.95 %       ±9.58%   ±22.11%   ±70.38%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="secret" size=1024 sync=0                                   ***   1286.54 %      ±28.08%   ±64.77%  ±206.23%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="secret" size=1024 sync=1                                   ***    418.56 %      ±11.87%   ±27.39%   ±87.20%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="secret" size=64 sync=0                                     ***   1208.47 %      ±73.24%  ±168.93%  ±537.85%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="secret" size=64 sync=1                                     ***    659.03 %      ±25.88%   ±59.70%  ±190.06%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="this-is-a-much-longer-secret" size=10 sync=0               ***   1189.88 %     ±128.93%  ±297.40%  ±946.86%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="this-is-a-much-longer-secret" size=10 sync=1               ***    649.97 %      ±35.34%   ±81.51%  ±259.51%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="this-is-a-much-longer-secret" size=1024 sync=0             ***   1257.85 %      ±37.55%   ±86.61%  ±275.77%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="this-is-a-much-longer-secret" size=1024 sync=1             ***    405.97 %      ±11.03%   ±25.45%   ±81.04%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="this-is-a-much-longer-secret" size=64 sync=0               ***   1239.20 %      ±38.97%   ±89.89%  ±286.21%
+crypto/hkdf.js n=1000 hash="sha256" info=' salt="salt" key="this-is-a-much-longer-secret" size=64 sync=1               ***    648.36 %      ±14.78%   ±34.08%  ±108.51%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="a" size=10 sync=0                                          ***   1233.12 %      ±61.90%  ±142.79%  ±454.63%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="a" size=10 sync=1                                          ***    660.55 %      ±28.37%   ±65.43%  ±208.32%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="a" size=1024 sync=0                                        ***   1288.36 %      ±88.07%  ±203.14%  ±646.77%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="a" size=1024 sync=1                                        ***    409.70 %       ±6.58%   ±15.18%   ±48.32%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="a" size=64 sync=0                                          ***   1239.38 %      ±91.28%  ±210.55%  ±670.37%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="a" size=64 sync=1                                          ***    648.20 %      ±31.16%   ±71.89%  ±228.87%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="secret" size=10 sync=0                                     ***   1281.44 %      ±20.65%   ±47.64%  ±151.69%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="secret" size=10 sync=1                                     ***    663.78 %      ±18.26%   ±42.12%  ±134.11%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="secret" size=1024 sync=0                                   ***   1263.13 %      ±55.17%  ±127.26%  ±405.19%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="secret" size=1024 sync=1                                   ***    405.18 %       ±8.69%   ±20.05%   ±63.85%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="secret" size=64 sync=0                                     ***   1254.73 %     ±152.94%  ±352.78% ±1123.19%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="secret" size=64 sync=1                                     ***    646.80 %      ±14.99%   ±34.57%  ±110.07%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="this-is-a-much-longer-secret" size=10 sync=0               ***   1212.05 %      ±89.23%  ±205.83%  ±655.32%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="this-is-a-much-longer-secret" size=10 sync=1               ***    658.54 %      ±13.04%   ±30.08%   ±95.78%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="this-is-a-much-longer-secret" size=1024 sync=0             ***   1241.39 %      ±88.07%  ±203.15%  ±646.78%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="this-is-a-much-longer-secret" size=1024 sync=1              **    380.46 %      ±73.49%  ±169.52%  ±539.72%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="this-is-a-much-longer-secret" size=64 sync=0               ***   1184.30 %     ±157.39%  ±363.04% ±1155.87%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt=' key="this-is-a-much-longer-secret" size=64 sync=1               ***    645.47 %      ±23.57%   ±54.36%  ±173.07%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="a" size=10 sync=0                                     ***   1266.17 %     ±136.94%  ±315.88% ±1005.70%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="a" size=10 sync=1                                     ***    659.15 %      ±15.39%   ±35.50%  ±113.02%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="a" size=1024 sync=0                                   ***   1272.23 %      ±94.94%  ±219.00%  ±697.25%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="a" size=1024 sync=1                                   ***    402.13 %       ±4.31%    ±9.93%   ±31.62%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="a" size=64 sync=0                                     ***   1229.50 %     ±109.18%  ±251.83%  ±801.80%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="a" size=64 sync=1                                     ***    639.66 %      ±11.82%   ±27.26%   ±86.78%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="secret" size=10 sync=0                                ***   1262.86 %     ±149.68%  ±345.26% ±1099.26%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="secret" size=10 sync=1                                ***    650.53 %      ±71.48%  ±164.87%  ±524.93%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="secret" size=1024 sync=0                              ***   1286.55 %     ±104.37%  ±240.75%  ±766.52%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="secret" size=1024 sync=1                              ***    402.45 %      ±13.11%   ±30.25%   ±96.30%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="secret" size=64 sync=0                                ***   1270.76 %      ±90.42%  ±208.57%  ±664.06%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="secret" size=64 sync=1                                 **    625.97 %      ±94.54%  ±218.08%  ±694.34%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="this-is-a-much-longer-secret" size=10 sync=0           **   1213.95 %     ±177.81%  ±410.15% ±1305.84%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="this-is-a-much-longer-secret" size=10 sync=1          ***    636.00 %      ±22.67%   ±52.29%  ±166.49%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="this-is-a-much-longer-secret" size=1024 sync=0        ***   1247.01 %      ±56.10%  ±129.39%  ±411.97%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="this-is-a-much-longer-secret" size=1024 sync=1         **    384.58 %      ±60.74%  ±140.10%  ±446.05%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="this-is-a-much-longer-secret" size=64 sync=0          ***   1290.85 %      ±11.48%   ±26.48%   ±84.32%
+crypto/hkdf.js n=1000 hash="sha256" info="info" salt="salt" key="this-is-a-much-longer-secret" size=64 sync=1          ***    631.39 %      ±36.48%   ±84.14%  ±267.90%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="a" size=10 sync=0                                               ***   1335.73 %     ±112.49%  ±259.48%  ±826.14%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="a" size=10 sync=1                                               ***    683.43 %      ±11.05%   ±25.49%   ±81.15%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="a" size=1024 sync=0                                             ***   1269.52 %     ±163.50%  ±377.14% ±1200.75%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="a" size=1024 sync=1                                             ***    500.70 %      ±20.05%   ±46.24%  ±147.23%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="a" size=64 sync=0                                                **   1282.38 %     ±186.34%  ±429.83% ±1368.51%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="a" size=64 sync=1                                               ***    670.49 %      ±31.13%   ±71.81%  ±228.64%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="secret" size=10 sync=0                                          ***   1347.87 %     ±164.53%  ±379.52% ±1208.32%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="secret" size=10 sync=1                                          ***    674.79 %      ±30.16%   ±69.56%  ±221.48%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="secret" size=1024 sync=0                                        ***   1282.35 %      ±36.31%   ±83.75%  ±266.65%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="secret" size=1024 sync=1                                        ***    497.97 %      ±19.40%   ±44.75%  ±142.48%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="secret" size=64 sync=0                                          ***   1290.43 %     ±127.93%  ±295.10%  ±939.54%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="secret" size=64 sync=1                                          ***    667.41 %      ±13.26%   ±30.59%   ±97.40%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="this-is-a-much-longer-secret" size=10 sync=0                     **   1264.00 %     ±202.82%  ±467.84% ±1489.51%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="this-is-a-much-longer-secret" size=10 sync=1                    ***    672.14 %      ±20.24%   ±46.68%  ±148.62%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="this-is-a-much-longer-secret" size=1024 sync=0                  ***   1275.34 %     ±109.38%  ±252.30%  ±803.28%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="this-is-a-much-longer-secret" size=1024 sync=1                  ***    495.36 %      ±15.27%   ±35.22%  ±112.13%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="this-is-a-much-longer-secret" size=64 sync=0                    ***   1340.71 %      ±43.46%  ±100.26%  ±319.20%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt=' key="this-is-a-much-longer-secret" size=64 sync=1                    ***    654.41 %      ±45.93%  ±105.94%  ±337.28%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="a" size=10 sync=0                                          ***   1231.80 %     ±149.05%  ±343.80% ±1094.61%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="a" size=10 sync=1                                          ***    661.64 %      ±29.87%   ±68.91%  ±219.40%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="a" size=1024 sync=0                                        ***   1248.21 %     ±104.47%  ±240.99%  ±767.27%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="a" size=1024 sync=1                                        ***    494.05 %       ±7.85%   ±18.10%   ±57.62%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="a" size=64 sync=0                                          ***   1257.55 %     ±148.68%  ±342.96% ±1091.93%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="a" size=64 sync=1                                          ***    658.60 %      ±34.87%   ±80.44%  ±256.10%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="secret" size=10 sync=0                                     ***   1279.23 %      ±76.29%  ±175.97%  ±560.26%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="secret" size=10 sync=1                                     ***    666.59 %       ±5.51%   ±12.71%   ±40.48%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="secret" size=1024 sync=0                                   ***   1244.21 %     ±110.19%  ±254.17%  ±809.24%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="secret" size=1024 sync=1                                    **    471.13 %      ±98.60%  ±227.45%  ±724.16%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="secret" size=64 sync=0                                     ***   1232.36 %     ±155.87%  ±359.55% ±1144.74%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="secret" size=64 sync=1                                     ***    673.82 %       ±8.81%   ±20.31%   ±64.67%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="this-is-a-much-longer-secret" size=10 sync=0                **   1195.54 %     ±173.11%  ±399.30% ±1271.32%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="this-is-a-much-longer-secret" size=10 sync=1               ***    654.72 %       ±8.40%   ±19.36%   ±61.65%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="this-is-a-much-longer-secret" size=1024 sync=0             ***   1247.95 %      ±67.99%  ±156.84%  ±499.35%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="this-is-a-much-longer-secret" size=1024 sync=1             ***    487.80 %       ±2.09%    ±4.82%   ±15.34%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="this-is-a-much-longer-secret" size=64 sync=0               ***   1209.19 %      ±71.50%  ±164.92%  ±525.09%
+crypto/hkdf.js n=1000 hash="sha512" info=' salt="salt" key="this-is-a-much-longer-secret" size=64 sync=1               ***    650.29 %      ±24.77%   ±57.13%  ±181.91%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="a" size=10 sync=0                                          ***   1253.29 %     ±104.67%  ±241.43%  ±768.68%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="a" size=10 sync=1                                          ***    652.20 %       ±5.73%   ±13.23%   ±42.11%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="a" size=1024 sync=0                                        ***   1274.42 %      ±58.49%  ±134.91%  ±429.52%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="a" size=1024 sync=1                                        ***    493.77 %       ±8.17%   ±18.85%   ±60.02%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="a" size=64 sync=0                                           **   1266.94 %     ±186.92%  ±431.17% ±1372.77%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="a" size=64 sync=1                                          ***    657.26 %      ±14.68%   ±33.87%  ±107.84%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="secret" size=10 sync=0                                     ***   1259.42 %     ±116.17%  ±267.97%  ±853.18%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="secret" size=10 sync=1                                     ***    656.69 %      ±14.27%   ±32.91%  ±104.78%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="secret" size=1024 sync=0                                   ***   1264.04 %      ±88.53%  ±204.21%  ±650.16%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="secret" size=1024 sync=1                                   ***    491.75 %       ±6.86%   ±15.82%   ±50.37%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="secret" size=64 sync=0                                     ***   1254.84 %     ±113.25%  ±261.24%  ±831.74%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="secret" size=64 sync=1                                     ***    656.08 %      ±21.37%   ±49.29%  ±156.93%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="this-is-a-much-longer-secret" size=10 sync=0                **   1207.22 %     ±172.81%  ±398.63% ±1269.16%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="this-is-a-much-longer-secret" size=10 sync=1               ***    652.14 %      ±16.16%   ±37.28%  ±118.68%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="this-is-a-much-longer-secret" size=1024 sync=0              **   1194.49 %     ±200.64%  ±462.82% ±1473.53%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="this-is-a-much-longer-secret" size=1024 sync=1             ***    486.05 %       ±9.93%   ±22.91%   ±72.95%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="this-is-a-much-longer-secret" size=64 sync=0               ***   1244.94 %      ±86.68%  ±199.93%  ±636.55%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt=' key="this-is-a-much-longer-secret" size=64 sync=1               ***    646.07 %      ±45.83%  ±105.71%  ±336.55%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="a" size=10 sync=0                                      **   1196.67 %     ±166.83%  ±384.83% ±1225.25%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="a" size=10 sync=1                                     ***    648.87 %      ±35.88%   ±82.77%  ±263.52%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="a" size=1024 sync=0                                   ***   1263.87 %     ±121.10%  ±279.34%  ±889.37%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="a" size=1024 sync=1                                   ***    491.57 %       ±9.38%   ±21.64%   ±68.91%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="a" size=64 sync=0                                     ***   1197.65 %      ±59.55%  ±137.36%  ±437.32%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="a" size=64 sync=1                                     ***    652.83 %      ±36.34%   ±83.81%  ±266.85%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="secret" size=10 sync=0                                 **   1239.42 %     ±175.30%  ±404.37% ±1287.44%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="secret" size=10 sync=1                                ***    653.80 %      ±28.48%   ±65.69%  ±209.16%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="secret" size=1024 sync=0                              ***   1252.78 %      ±68.09%  ±157.05%  ±500.04%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="secret" size=1024 sync=1                              ***    486.73 %      ±21.80%   ±50.29%  ±160.12%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="secret" size=64 sync=0                                ***   1212.08 %      ±51.58%  ±118.98%  ±378.82%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="secret" size=64 sync=1                                ***    657.03 %      ±23.97%   ±55.29%  ±176.02%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="this-is-a-much-longer-secret" size=10 sync=0          ***   1217.10 %     ±109.38%  ±252.31%  ±803.30%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="this-is-a-much-longer-secret" size=10 sync=1          ***    638.71 %      ±31.62%   ±72.93%  ±232.20%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="this-is-a-much-longer-secret" size=1024 sync=0        ***   1259.21 %      ±52.21%  ±120.43%  ±383.44%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="this-is-a-much-longer-secret" size=1024 sync=1        ***    472.75 %      ±10.96%   ±25.27%   ±80.47%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="this-is-a-much-longer-secret" size=64 sync=0          ***   1257.84 %     ±124.74%  ±287.73%  ±916.07%
+crypto/hkdf.js n=1000 hash="sha512" info="info" salt="salt" key="this-is-a-much-longer-secret" size=64 sync=1          ***    641.83 %      ±35.30%   ±81.42%  ±259.23%
+crypto/keygen.js n=100 method="dsaAsync"                                                                                        9.42 %      ±15.68%   ±36.17%  ±115.16%
+crypto/keygen.js n=100 method="dsaSync"                                                                                        11.80 %      ±18.27%   ±42.15%  ±134.19%
+crypto/keygen.js n=100 method="rsaAsync"                                                                               ***    127.63 %      ±11.57%   ±26.70%   ±85.00%
+crypto/keygen.js n=100 method="rsaSync"                                                                                         8.50 %      ±10.99%   ±25.34%   ±80.69%
+crypto/oneshot-sign.js n=1000 keyFormat="der" mode="sync" keyType="rsa"                                                 NA      6.93 %           NA        NA        NA
+crypto/oneshot-sign.js n=1000 keyFormat="jwk" mode="sync" keyType="rsa"                                                 NA      9.21 %           NA        NA        NA
+crypto/oneshot-sign.js n=1000 keyFormat="keyObject" mode="sync" keyType="rsa"                                           NA      3.06 %           NA        NA        NA
+crypto/oneshot-sign.js n=1000 keyFormat="pem" mode="sync" keyType="rsa"                                                 NA      1.48 %           NA        NA        NA
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 457 comparisons, you can thus
+expect the following amount of false-positive results:
+  22.85 false positives, when considering a   5% risk acceptance (*, **, ***),
+  4.57 false positives, when considering a   1% risk acceptance (**, ***),
+  0.46 false positives, when considering a 0.1% risk acceptance (***)

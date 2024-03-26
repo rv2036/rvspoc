@@ -1,0 +1,13 @@
+"filename","configuration","rate","time"
+"readline/readline-iterable.js","type=""old"" n=10",3760.191984836917,0.032179208
+"readline/readline-iterable.js","type=""new"" n=10",5337.8372327557745,0.022668357
+"readline/readline-iterable.js","type=""old"" n=100",16255.116927414216,0.073884427
+"readline/readline-iterable.js","type=""new"" n=100",27489.59606911136,0.043689256
+"readline/readline-iterable.js","type=""old"" n=1000",56116.28536264094,0.213859487
+"readline/readline-iterable.js","type=""new"" n=1000",104143.936796146,0.115234745
+"readline/readline-iterable.js","type=""old"" n=10000",172530.55515829928,0.695534770
+"readline/readline-iterable.js","type=""new"" n=10000",321839.06319651596,0.372860270
+"readline/readline-iterable.js","type=""old"" n=100000",238266.2071461277,5.036387721
+"readline/readline-iterable.js","type=""new"" n=100000",476261.9118268569,2.519624119
+"readline/readline-iterable.js","type=""old"" n=1000000",247794.27484565356,48.427273017
+"readline/readline-iterable.js","type=""new"" n=1000000",473463.9414032126,25.345121245

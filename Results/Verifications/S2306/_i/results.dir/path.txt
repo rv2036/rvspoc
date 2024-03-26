@@ -1,0 +1,128 @@
+                                                                                                  confidence improvement accuracy (*)    (**)    (***)
+path/basename-posix.js n=100000 pathext='                                                                        -0.46 %       ±0.69%  ±1.59%   ±5.07%
+path/basename-posix.js n=100000 pathext="/"                                                                      -0.88 %       ±1.58%  ±3.64%  ±11.60%
+path/basename-posix.js n=100000 pathext="/foo"                                                                   10.54 %      ±24.10% ±55.59% ±176.98%
+path/basename-posix.js n=100000 pathext="/foo/.bar.baz"                                                          -0.64 %       ±1.10%  ±2.53%   ±8.07%
+path/basename-posix.js n=100000 pathext="/foo/.bar.baz|.baz"                                                      1.56 %      ±11.64% ±26.86%  ±85.51%
+path/basename-posix.js n=100000 pathext="/foo/bar/baz/asdf/quux.html"                                             1.07 %       ±2.65%  ±6.12%  ±19.49%
+path/basename-posix.js n=100000 pathext="/foo/bar/baz/asdf/quux.html|.html"                                       2.24 %       ±3.08%  ±7.11%  ±22.64%
+path/basename-posix.js n=100000 pathext="foo"                                                              *     -2.63 %       ±2.38%  ±5.49%  ±17.49%
+path/basename-posix.js n=100000 pathext="foo/bar."                                                               -1.71 %       ±1.75%  ±4.05%  ±12.88%
+path/basename-posix.js n=100000 pathext="foo/bar.|."                                                              0.27 %       ±7.50% ±17.30%  ±55.09%
+path/basename-win32.js n=100000 pathext='                                                                         0.74 %       ±8.44% ±19.46%  ±61.96%
+path/basename-win32.js n=100000 pathext="\\\\foo\\\\bar\\\\baz\\\\asdf\\\\quux.html"                              0.06 %       ±2.34%  ±5.39%  ±17.17%
+path/basename-win32.js n=100000 pathext="\\\\foo\\\\bar\\\\baz\\\\asdf\\\\quux.html|.html"                       -1.87 %       ±6.75% ±15.57%  ±49.56%
+path/basename-win32.js n=100000 pathext="C:\\\\"                                                           *     -4.71 %       ±2.06%  ±4.74%  ±15.10%
+path/basename-win32.js n=100000 pathext="C:\\\\foo"                                                              -3.04 %       ±3.59%  ±8.29%  ±26.38%
+path/basename-win32.js n=100000 pathext="D:\\\\foo\\\\.bar.baz"                                                  -0.53 %       ±9.40% ±21.68%  ±69.01%
+path/basename-win32.js n=100000 pathext="E:\\\\foo\\\\.bar.baz|.baz"                                              1.77 %       ±2.83%  ±6.53%  ±20.80%
+path/basename-win32.js n=100000 pathext="foo"                                                                    -0.77 %       ±4.89% ±11.29%  ±35.94%
+path/basename-win32.js n=100000 pathext="foo\\\\bar."                                                             2.49 %       ±6.77% ±15.61%  ±49.71%
+path/basename-win32.js n=100000 pathext="foo\\\\bar.|."                                                          -1.10 %       ±6.40% ±14.77%  ±47.02%
+path/dirname-posix.js n=100000 path='                                                                             0.16 %       ±4.62% ±10.66%  ±33.93%
+path/dirname-posix.js n=100000 path="/"                                                                           0.89 %       ±3.91%  ±9.02%  ±28.72%
+path/dirname-posix.js n=100000 path="/foo"                                                                        0.76 %       ±2.98%  ±6.88%  ±21.90%
+path/dirname-posix.js n=100000 path="/foo/bar"                                                                   -2.62 %       ±7.34% ±16.93%  ±53.91%
+path/dirname-posix.js n=100000 path="/foo/bar/baz/asdf/quux"                                               *      2.84 %       ±1.28%  ±2.95%   ±9.41%
+path/dirname-posix.js n=100000 path="foo"                                                                         1.27 %       ±4.60% ±10.61%  ±33.77%
+path/dirname-posix.js n=100000 path="foo/bar"                                                                    -2.43 %       ±6.23% ±14.37%  ±45.74%
+path/dirname-win32.js n=100000 path='                                                                             0.14 %       ±3.96%  ±9.14%  ±29.10%
+path/dirname-win32.js n=100000 path="\\\\"                                                                **     -3.35 %       ±1.41%  ±3.25%  ±10.34%
+path/dirname-win32.js n=100000 path="\\\\foo"                                                                    -2.95 %       ±8.34% ±19.25%  ±61.29%
+path/dirname-win32.js n=100000 path="C:\\\\foo\\\\bar"                                                           -3.77 %       ±7.87% ±18.15%  ±57.78%
+path/dirname-win32.js n=100000 path="D:\\\\foo\\\\bar\\\\baz\\\\asdf\\\\quux"                                    -0.19 %       ±1.90%  ±4.37%  ±13.92%
+path/dirname-win32.js n=100000 path="foo"                                                                        -0.55 %       ±5.54% ±12.77%  ±40.65%
+path/dirname-win32.js n=100000 path="foo\\\\bar"                                                           *     -3.28 %       ±3.01%  ±6.95%  ±22.14%
+path/extname-posix.js n=100000 path='                                                                             0.25 %       ±3.74%  ±8.62%  ±27.44%
+path/extname-posix.js n=100000 path="/"                                                                   **     -4.52 %       ±1.09%  ±2.53%   ±8.04%
+path/extname-posix.js n=100000 path="/foo"                                                                 *     -6.72 %       ±3.20%  ±7.39%  ±23.52%
+path/extname-posix.js n=100000 path="/foo/bar/baz/asdf/quux.foobarbazasdfquux"                                    1.94 %       ±3.23%  ±7.44%  ±23.70%
+path/extname-posix.js n=100000 path="/foo/bar/baz/asdf/quux"                                                     -2.94 %       ±9.30% ±21.45%  ±68.30%
+path/extname-posix.js n=100000 path="foo/.bar.baz"                                                         *      1.94 %       ±1.50%  ±3.45%  ±10.98%
+path/extname-posix.js n=100000 path="foo/bar/...baz.quux"                                                         0.88 %       ±3.16%  ±7.29%  ±23.20%
+path/extname-posix.js n=100000 path="foo/bar/..baz.quux"                                                   *     -2.43 %       ±1.44%  ±3.32%  ±10.56%
+path/extname-posix.js n=100000 path="index.html"                                                                 -0.57 %       ±5.97% ±13.77%  ±43.85%
+path/extname-posix.js n=100000 path="index"                                                                      -0.98 %       ±5.52% ±12.73%  ±40.52%
+path/extname-win32.js n=100000 path='                                                                      *      1.61 %       ±1.23%  ±2.84%   ±9.03%
+path/extname-win32.js n=100000 path="\\\\"                                                                       -1.50 %       ±4.67% ±10.78%  ±34.31%
+path/extname-win32.js n=100000 path="\\\\foo\\\\bar\\\\baz\\\\asdf\\\\quux.foobarbazasdfquux"              *      4.99 %       ±3.56%  ±8.22%  ±26.17%
+path/extname-win32.js n=100000 path="C:\\\\foo"                                                                  -0.83 %       ±2.67%  ±6.17%  ±19.64%
+path/extname-win32.js n=100000 path="D:\\\\foo\\\\bar\\\\baz\\\\asdf\\\\quux"                                     0.16 %       ±1.98%  ±4.57%  ±14.55%
+path/extname-win32.js n=100000 path="foo\\\\.bar.baz"                                                             0.73 %       ±4.94% ±11.39%  ±36.26%
+path/extname-win32.js n=100000 path="foo\\\\bar\\\\...baz.quux"                                                   1.87 %       ±5.10% ±11.76%  ±37.43%
+path/extname-win32.js n=100000 path="foo\\\\bar\\\\..baz.quux"                                             *      2.84 %       ±1.49%  ±3.43%  ±10.91%
+path/extname-win32.js n=100000 path="index.html"                                                                  1.06 %       ±2.14%  ±4.95%  ±15.75%
+path/extname-win32.js n=100000 path="index"                                                                      -0.75 %       ±4.67% ±10.78%  ±34.33%
+path/format-posix.js n=1000000 props="/|/home/user/dir|index.html|.html|index"                             *      2.83 %       ±2.64%  ±6.09%  ±19.40%
+path/format-win32.js n=1000000 props="C:\\\\|C:\\\\path\\\\dir|index.html|.html|index"                    **     17.53 %       ±4.75% ±10.96%  ±34.89%
+path/isAbsolute-posix.js n=100000 path='                                                                         -1.34 %       ±2.62%  ±6.04%  ±19.22%
+path/isAbsolute-posix.js n=100000 path="."                                                                       -1.15 %       ±5.88% ±13.57%  ±43.19%
+path/isAbsolute-posix.js n=100000 path="/baz/.."                                                           *      9.06 %       ±5.82% ±13.43%  ±42.77%
+path/isAbsolute-posix.js n=100000 path="/foo/bar"                                                          *      4.92 %       ±4.16%  ±9.59%  ±30.52%
+path/isAbsolute-posix.js n=100000 path="bar/baz"                                                                 -0.77 %       ±5.81% ±13.40%  ±42.65%
+path/isAbsolute-win32.js n=100000 path='                                                                         -1.36 %       ±6.02% ±13.88%  ±44.18%
+path/isAbsolute-win32.js n=100000 path="."                                                                       -1.97 %       ±2.37%  ±5.47%  ±17.43%
+path/isAbsolute-win32.js n=100000 path="//server"                                                                 0.51 %       ±4.21%  ±9.70%  ±30.89%
+path/isAbsolute-win32.js n=100000 path="bar\\\\baz"                                                               2.88 %       ±3.61%  ±8.32%  ±26.48%
+path/isAbsolute-win32.js n=100000 path="C:\\\\baz\\\\.."                                                         -3.13 %       ±9.51% ±21.94%  ±69.84%
+path/isAbsolute-win32.js n=100000 path="C:baz\\\\.."                                                             -1.61 %       ±2.82%  ±6.51%  ±20.72%
+path/join-posix.js n=100000 paths="/foo|bar||baz/asdf|quux|.."                                                   -1.06 %       ±1.29%  ±2.98%   ±9.48%
+path/join-win32.js n=100000 paths="C:\\\\foo|bar||baz\\\\asdf|quux|.."                                            1.64 %       ±2.43%  ±5.59%  ±17.81%
+path/makeLong-win32.js n=100000 path="\\\\\\\\?\\\\foo"                                                           0.06 %       ±2.25%  ±5.18%  ±16.51%
+path/makeLong-win32.js n=100000 path="\\\\\\\\foo\\\\bar"                                                         0.97 %       ±3.87%  ±8.92%  ±28.40%
+path/makeLong-win32.js n=100000 path="C:\\\\foo"                                                                  1.67 %       ±4.58% ±10.57%  ±33.65%
+path/makeLong-win32.js n=100000 path="foo\\\\bar"                                                         **     -7.91 %       ±2.19%  ±5.05%  ±16.09%
+path/normalize-posix.js n=100000 path='                                                                          -0.22 %       ±7.50% ±17.29%  ±55.05%
+path/normalize-posix.js n=100000 path="."                                                                         0.73 %       ±0.98%  ±2.27%   ±7.23%
+path/normalize-posix.js n=100000 path="/../"                                                                     -0.26 %       ±3.06%  ±7.06%  ±22.49%
+path/normalize-posix.js n=100000 path="/foo"                                                                      0.91 %       ±3.80%  ±8.76%  ±27.88%
+path/normalize-posix.js n=100000 path="/foo/bar"                                                                 -0.28 %       ±4.18%  ±9.64%  ±30.70%
+path/normalize-posix.js n=100000 path="/foo/bar//baz/asdf/quux/.."                                                0.12 %       ±2.82%  ±6.51%  ±20.73%
+path/normalize-win32.js n=100000 path='                                                                  ***      1.45 %       ±0.02%  ±0.05%   ±0.15%
+path/normalize-win32.js n=100000 path="."                                                                        -0.38 %       ±2.76%  ±6.36%  ±20.26%
+path/normalize-win32.js n=100000 path="C:\\\\..\\\\"                                                       *     -2.11 %       ±1.72%  ±3.96%  ±12.60%
+path/normalize-win32.js n=100000 path="C:\\\\foo"                                                          *     -1.67 %       ±0.79%  ±1.81%   ±5.77%
+path/normalize-win32.js n=100000 path="C:\\\\foo\\\\bar"                                                         -0.15 %       ±2.74%  ±6.33%  ±20.15%
+path/normalize-win32.js n=100000 path="C:\\\\foo\\\\bar\\\\\\\\baz\\\\asdf\\\\quux\\\\.."                  *      3.37 %       ±2.06%  ±4.75%  ±15.12%
+path/parse-posix.js n=100000 path='                                                                              -3.48 %       ±3.93%  ±9.05%  ±28.83%
+path/parse-posix.js n=100000 path="/"                                                                            -0.17 %       ±6.07% ±13.99%  ±44.54%
+path/parse-posix.js n=100000 path="/foo"                                                                          3.26 %      ±10.37% ±23.92%  ±76.15%
+path/parse-posix.js n=100000 path="/foo/bar.baz"                                                                 -0.56 %       ±2.34%  ±5.39%  ±17.18%
+path/parse-posix.js n=100000 path="/foo/bar/baz/asdf/.quux"                                                       0.89 %       ±2.76%  ±6.37%  ±20.29%
+path/parse-posix.js n=100000 path="foo/.bar.baz"                                                                  0.78 %       ±5.03% ±11.60%  ±36.92%
+path/parse-posix.js n=100000 path="foo/bar"                                                                       0.14 %       ±7.20% ±16.62%  ±52.90%
+path/parse-win32.js n=100000 path='                                                                               4.60 %       ±7.24% ±16.71%  ±53.20%
+path/parse-win32.js n=100000 path="\\\\foo"                                                                       1.89 %       ±4.80% ±11.07%  ±35.26%
+path/parse-win32.js n=100000 path="\\\\foo\\\\bar\\\\baz\\\\asdf\\\\.quux"                                        0.70 %       ±2.62%  ±6.05%  ±19.26%
+path/parse-win32.js n=100000 path="C:\\\\"                                                                       -0.08 %       ±2.42%  ±5.58%  ±17.76%
+path/parse-win32.js n=100000 path="C:\\\\foo"                                                                    -1.09 %       ±2.19%  ±5.04%  ±16.05%
+path/parse-win32.js n=100000 path="E:\\\\foo\\\\bar.baz"                                                          1.20 %       ±2.58%  ±5.96%  ±18.98%
+path/parse-win32.js n=100000 path="foo\\\\.bar.baz"                                                              -0.08 %       ±1.46%  ±3.36%  ±10.69%
+path/parse-win32.js n=100000 path="foo\\\\bar"                                                                   -0.77 %       ±7.13% ±16.45%  ±52.37%
+path/relative-posix.js n=100000 paths="/|/"                                                                       3.43 %       ±4.27%  ±9.86%  ±31.38%
+path/relative-posix.js n=100000 paths="/|/var"                                                                    0.83 %       ±4.21%  ±9.71%  ±30.91%
+path/relative-posix.js n=100000 paths="/data/orandea/test/aaa|/data/orandea/impl/bbb"                            -0.93 %       ±5.41% ±12.49%  ±39.77%
+path/relative-posix.js n=100000 paths="/foo/bar/baz/quux|/"                                                *    -12.78 %       ±5.55% ±12.81%  ±40.78%
+path/relative-posix.js n=100000 paths="/foo/bar/baz/quux|/foo/bar/baz/quux"                                       0.26 %       ±0.53%  ±1.22%   ±3.87%
+path/relative-posix.js n=100000 paths="/foo/bar/baz/quux|/var/log"                                         *      2.83 %       ±1.77%  ±4.09%  ±13.04%
+path/relative-posix.js n=100000 paths="/var|/bin"                                                                 3.15 %       ±5.74% ±13.23%  ±42.12%
+path/relative-win32.js n=100000 paths="C:\\\\|D:\\\\"                                                            -2.63 %       ±3.34%  ±7.70%  ±24.51%
+path/relative-win32.js n=100000 paths="C:\\\\foo\\\\bar\\\\baz\\\\quux|C:\\\\"                                    0.02 %       ±1.87%  ±4.32%  ±13.75%
+path/relative-win32.js n=100000 paths="C:\\\\foo\\\\bar\\\\baz|C:\\\\foo\\\\bar\\\\baz"                    *     -0.79 %       ±0.38%  ±0.88%   ±2.80%
+path/relative-win32.js n=100000 paths="C:\\\\foo\\\\BAR\\\\BAZ|C:\\\\foo\\\\bar\\\\baz"                           0.62 %       ±2.58%  ±5.95%  ±18.95%
+path/relative-win32.js n=100000 paths="C:\\\\orandea\\\\test\\\\aaa|C:\\\\orandea\\\\impl\\\\bbb"                -0.49 %       ±1.83%  ±4.22%  ±13.44%
+path/resolve-posix.js n=100000 paths='                                                                   ***    -16.48 %       ±0.65%  ±1.49%   ±4.75%
+path/resolve-posix.js n=100000 paths="|"                                                                 ***    -13.97 %       ±1.60%  ±3.70%  ±11.77%
+path/resolve-posix.js n=100000 paths="a/b/c/|../../.."                                                    **     -7.03 %       ±1.55%  ±3.58%  ±11.39%
+path/resolve-posix.js n=100000 paths="foo/bar|/tmp/file/|..|a/../subfile"                                         0.40 %       ±1.13%  ±2.61%   ±8.32%
+path/resolve-win32.js n=100000 paths='                                                                    **    -16.21 %       ±2.65%  ±6.11%  ±19.46%
+path/resolve-win32.js n=100000 paths="|"                                                                 ***    -15.32 %       ±1.61%  ±3.72%  ±11.84%
+path/resolve-win32.js n=100000 paths="c:/blah\\\\blah|d:/games|c:../a"                                           -0.87 %       ±0.92%  ±2.12%   ±6.76%
+path/resolve-win32.js n=100000 paths="c:/ignore|d:\\\\a/b\\\\c/d|\\\\e.exe"                                       0.10 %       ±3.78%  ±8.72%  ±27.75%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 120 comparisons, you can thus
+expect the following amount of false-positive results:
+  6.00 false positives, when considering a   5% risk acceptance (*, **, ***),
+  1.20 false positives, when considering a   1% risk acceptance (**, ***),
+  0.12 false positives, when considering a 0.1% risk acceptance (***)

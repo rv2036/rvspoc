@@ -1,0 +1,67 @@
+"binary","filename","configuration","rate","time"
+"old","worker/atomics-wait.js","n=10000000",1165980.3774569137,8.576473664
+"new","worker/atomics-wait.js","n=10000000",1159659.660012201,8.623219678
+"old","worker/atomics-wait.js","n=10000000",1165980.3774569137,8.576473664
+"new","worker/atomics-wait.js","n=10000000",1168333.6939981394,8.559198499
+"old","worker/atomics-wait.js","n=10000000",1165980.3774569137,8.576473664
+"new","worker/atomics-wait.js","n=10000000",1075167.2993298515,9.300878111
+"old","worker/bench-eventlooputil.js","method=""ELU_simple"" n=1000000",1088032.3645933087,0.919090307
+"old","worker/bench-eventlooputil.js","method=""ELU_passed"" n=1000000",975249.8736707637,1.025378241
+"new","worker/bench-eventlooputil.js","method=""ELU_simple"" n=1000000",1092321.6125014182,0.915481291
+"new","worker/bench-eventlooputil.js","method=""ELU_passed"" n=1000000",988840.6015609426,1.011285336
+"old","worker/bench-eventlooputil.js","method=""ELU_simple"" n=1000000",1088032.3645933087,0.919090307
+"old","worker/bench-eventlooputil.js","method=""ELU_passed"" n=1000000",975249.8736707637,1.025378241
+"new","worker/bench-eventlooputil.js","method=""ELU_simple"" n=1000000",1081600.3310908405,0.924555930
+"new","worker/bench-eventlooputil.js","method=""ELU_passed"" n=1000000",985249.4210536466,1.014971416
+"old","worker/bench-eventlooputil.js","method=""ELU_simple"" n=1000000",1088032.3645933087,0.919090307
+"old","worker/bench-eventlooputil.js","method=""ELU_passed"" n=1000000",975249.8736707637,1.025378241
+"new","worker/bench-eventlooputil.js","method=""ELU_simple"" n=1000000",1081283.4891675673,0.924826847
+"new","worker/bench-eventlooputil.js","method=""ELU_passed"" n=1000000",1011340.0426279019,0.988787112
+"old","worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""string"" workers=1",9249.963445971329,10.810853533
+"old","worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""string"" workers=1",5234.454334890716,19.104188059
+"old","worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""object"" workers=1",7556.007587530345,13.234502327
+"old","worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""object"" workers=1",3146.639678146245,31.779933589
+"new","worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""string"" workers=1",10006.567167939065,9.993437142
+"new","worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""string"" workers=1",5420.401774918714,18.448816924
+"new","worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""object"" workers=1",7617.020267129876,13.128493360
+"new","worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""object"" workers=1",3072.787359469477,32.543742310
+"old","worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""string"" workers=1",9249.963445971329,10.810853533
+"old","worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""string"" workers=1",5234.454334890716,19.104188059
+"old","worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""object"" workers=1",7556.007587530345,13.234502327
+"old","worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""object"" workers=1",3146.639678146245,31.779933589
+"new","worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""string"" workers=1",9128.271696149879,10.954976290
+"new","worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""string"" workers=1",5258.344225711637,19.017393253
+"new","worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""object"" workers=1",7787.9475061740795,12.840353626
+"new","worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""object"" workers=1",3125.317443962089,31.996749704
+"old","worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""string"" workers=1",9249.963445971329,10.810853533
+"old","worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""string"" workers=1",5234.454334890716,19.104188059
+"old","worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""object"" workers=1",7556.007587530345,13.234502327
+"old","worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""object"" workers=1",3146.639678146245,31.779933589
+"new","worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""string"" workers=1",9403.36385036123,10.634492251
+"new","worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""string"" workers=1",5555.108797040772,18.001447614
+"new","worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""object"" workers=1",7758.577881300407,12.888960004
+"new","worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""object"" workers=1",3070.569497129673,32.567248549
+"old","worker/messageport.js","n=1000000 style=""eventtarget"" payload=""string""",82594.9191184431,12.107282272
+"old","worker/messageport.js","n=1000000 style=""eventemitter"" payload=""string""",116711.84757159415,8.568110443
+"old","worker/messageport.js","n=1000000 style=""eventtarget"" payload=""object""",42946.04812912182,23.285029556
+"old","worker/messageport.js","n=1000000 style=""eventemitter"" payload=""object""",53749.33839200319,18.604880170
+"new","worker/messageport.js","n=1000000 style=""eventtarget"" payload=""string""",87632.9247904432,11.411236158
+"new","worker/messageport.js","n=1000000 style=""eventemitter"" payload=""string""",116246.09367033691,8.602439604
+"new","worker/messageport.js","n=1000000 style=""eventtarget"" payload=""object""",43059.76060001516,23.223538312
+"new","worker/messageport.js","n=1000000 style=""eventemitter"" payload=""object""",53773.587918909034,18.596490186
+"old","worker/messageport.js","n=1000000 style=""eventtarget"" payload=""string""",82594.9191184431,12.107282272
+"old","worker/messageport.js","n=1000000 style=""eventemitter"" payload=""string""",116711.84757159415,8.568110443
+"old","worker/messageport.js","n=1000000 style=""eventtarget"" payload=""object""",42946.04812912182,23.285029556
+"old","worker/messageport.js","n=1000000 style=""eventemitter"" payload=""object""",53749.33839200319,18.604880170
+"new","worker/messageport.js","n=1000000 style=""eventtarget"" payload=""string""",87260.3517215283,11.459958392
+"new","worker/messageport.js","n=1000000 style=""eventemitter"" payload=""string""",117000.76531604602,8.546952640
+"new","worker/messageport.js","n=1000000 style=""eventtarget"" payload=""object""",43648.37502349159,22.910360339
+"new","worker/messageport.js","n=1000000 style=""eventemitter"" payload=""object""",54097.33608402989,18.485198577
+"old","worker/messageport.js","n=1000000 style=""eventtarget"" payload=""string""",82594.9191184431,12.107282272
+"old","worker/messageport.js","n=1000000 style=""eventemitter"" payload=""string""",116711.84757159415,8.568110443
+"old","worker/messageport.js","n=1000000 style=""eventtarget"" payload=""object""",42946.04812912182,23.285029556
+"old","worker/messageport.js","n=1000000 style=""eventemitter"" payload=""object""",53749.33839200319,18.604880170
+"new","worker/messageport.js","n=1000000 style=""eventtarget"" payload=""string""",85221.00182459026,11.734196719
+"new","worker/messageport.js","n=1000000 style=""eventemitter"" payload=""string""",119815.34630586172,8.346176269
+"new","worker/messageport.js","n=1000000 style=""eventtarget"" payload=""object""",42502.4084379701,23.528078449
+"new","worker/messageport.js","n=1000000 style=""eventemitter"" payload=""object""",53016.46403345033,18.862065176

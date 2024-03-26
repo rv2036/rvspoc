@@ -1,0 +1,45 @@
+                                                                                confidence improvement accuracy (*)     (**)     (***)
+                                                                                        NA       NaN %           NA       NA        NA
+child_process/child-process-exec-stdout.js dur=5 len=1024                                       0.00 %       ±1.68%   ±3.88%   ±12.34%
+child_process/child-process-exec-stdout.js dur=5 len=256                                **      0.44 %       ±0.14%   ±0.31%    ±0.99%
+child_process/child-process-exec-stdout.js dur=5 len=32768                                     -3.96 %       ±4.05%   ±9.34%   ±29.75%
+child_process/child-process-exec-stdout.js dur=5 len=4096                                       0.94 %       ±1.14%   ±2.62%    ±8.34%
+child_process/child-process-exec-stdout.js dur=5 len=64                                        -0.03 %       ±0.20%   ±0.46%    ±1.48%
+child_process/child-process-params.js params=1 methodName="exec" n=1000                        -1.07 %      ±18.19%  ±91.11%  ±911.13%
+child_process/child-process-params.js params=1 methodName="execFile" n=1000                     0.99 %       ±6.39%  ±32.03%  ±320.28%
+child_process/child-process-params.js params=1 methodName="execFileSync" n=1000                 2.76 %       ±3.69%  ±18.49%  ±184.96%
+child_process/child-process-params.js params=1 methodName="execSync" n=1000                     0.16 %       ±6.70%  ±33.57%  ±335.77%
+child_process/child-process-params.js params=1 methodName="spawn" n=1000                        2.46 %      ±16.11%  ±80.72%  ±807.29%
+child_process/child-process-params.js params=1 methodName="spawnSync" n=1000            NA     -0.17 %           NA       NA        NA
+child_process/child-process-params.js params=2 methodName="exec" n=1000                        -2.13 %       ±7.79%  ±39.02%  ±390.21%
+child_process/child-process-params.js params=2 methodName="execFile" n=1000                     1.43 %      ±20.10% ±100.68% ±1006.83%
+child_process/child-process-params.js params=2 methodName="execFileSync" n=1000                 0.17 %      ±11.68%  ±58.53%  ±585.33%
+child_process/child-process-params.js params=2 methodName="execSync" n=1000                     0.75 %      ±32.28% ±161.71% ±1617.26%
+child_process/child-process-params.js params=2 methodName="spawn" n=1000                        1.16 %       ±4.81%  ±24.08%  ±240.85%
+child_process/child-process-params.js params=2 methodName="spawnSync" n=1000            NA     -0.92 %           NA       NA        NA
+child_process/child-process-params.js params=3 methodName="exec" n=1000                        -2.09 %       ±9.92%  ±49.70%  ±497.06%
+child_process/child-process-params.js params=3 methodName="execFile" n=1000                    -0.62 %      ±15.84%  ±79.36%  ±793.62%
+child_process/child-process-params.js params=3 methodName="execFileSync" n=1000         **      0.99 %       ±0.06%   ±0.28%    ±2.81%
+child_process/child-process-params.js params=3 methodName="spawn" n=1000                NA     -0.99 %           NA       NA        NA
+child_process/child-process-params.js params=3 methodName="spawnSync" n=1000            NA      1.92 %           NA       NA        NA
+child_process/child-process-params.js params=4 methodName="execFile" n=1000                     1.78 %       ±3.78%  ±18.91%  ±189.14%
+child_process/child-process-read-ipc.js dur=5 len=1024                                          0.70 %       ±2.23%   ±5.15%   ±16.41%
+child_process/child-process-read-ipc.js dur=5 len=1048576                                      -4.32 %      ±24.47%  ±56.45%  ±179.74%
+child_process/child-process-read-ipc.js dur=5 len=16384                                        -0.03 %       ±6.28%  ±14.48%   ±46.09%
+child_process/child-process-read-ipc.js dur=5 len=2097152                                *     49.26 %      ±45.92% ±105.93%  ±337.26%
+child_process/child-process-read-ipc.js dur=5 len=256                                          -1.32 %       ±2.78%   ±6.41%   ±20.41%
+child_process/child-process-read-ipc.js dur=5 len=4096                                          2.16 %       ±2.75%   ±6.34%   ±20.17%
+child_process/child-process-read-ipc.js dur=5 len=64                                           -1.86 %       ±2.36%   ±5.43%   ±17.30%
+child_process/child-process-read-ipc.js dur=5 len=65536                                         5.37 %       ±5.65%  ±13.04%   ±41.52%
+child_process/child-process-read.js dur=5 len=1024                                            -17.19 %      ±37.98%  ±87.60%  ±278.91%
+child_process/child-process-read.js dur=5 len=256                                              -0.80 %      ±13.36%  ±30.82%   ±98.13%
+child_process/child-process-read.js dur=5 len=32768                                             1.46 %      ±11.12%  ±25.66%   ±81.69%
+child_process/child-process-read.js dur=5 len=4096                                       *     10.37 %       ±7.64%  ±17.63%   ±56.13%
+child_process/child-process-read.js dur=5 len=64                                              -16.42 %      ±85.53% ±197.29%  ±628.14%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 37 comparisons, you can thus
+expect the following amount of false-positive results:
+  1.85 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.37 false positives, when considering a   1% risk acceptance (**, ***),
+  0.04 false positives, when considering a 0.1% risk acceptance (***)

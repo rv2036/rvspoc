@@ -1,0 +1,9 @@
+"filename","configuration","rate","time"
+"cluster/echo.js","n=100000 serialization=""json"" sendsPerBroadcast=1 payload=""string"" workers=1",4767.868311690831,20.973733640
+"cluster/echo.js","n=100000 serialization=""advanced"" sendsPerBroadcast=1 payload=""string"" workers=1",3324.0478768317107,30.083802552
+"cluster/echo.js","n=100000 serialization=""json"" sendsPerBroadcast=10 payload=""string"" workers=1",2028.246064211244,49.303682509
+"cluster/echo.js","n=100000 serialization=""advanced"" sendsPerBroadcast=10 payload=""string"" workers=1",1144.6320953296795,87.364315930
+"cluster/echo.js","n=100000 serialization=""json"" sendsPerBroadcast=1 payload=""object"" workers=1",4281.335194548593,23.357199438
+"cluster/echo.js","n=100000 serialization=""advanced"" sendsPerBroadcast=1 payload=""object"" workers=1",2755.4623294009357,36.291550399
+"cluster/echo.js","n=100000 serialization=""json"" sendsPerBroadcast=10 payload=""object"" workers=1",1700.5556733779697,58.804308242
+"cluster/echo.js","n=100000 serialization=""advanced"" sendsPerBroadcast=10 payload=""object"" workers=1",827.7994423307852,120.802207499

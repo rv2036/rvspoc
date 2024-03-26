@@ -1,0 +1,111 @@
+                                                                                              confidence improvement accuracy (*)      (**)     (***)
+                                                                                                      NA       NaN %           NA        NA        NA
+fs/bench_fdatasyncSync.js n=10000 type="existing"                                                             1.78 %       ±4.89%   ±11.28%   ±35.90%
+fs/bench_fdatasyncSync.js n=10000 type="non-existing"                                                 **    -12.22 %       ±2.46%    ±5.68%   ±18.07%
+fs/bench-accessSync.js n=100000 type="existing"                                                              -2.85 %       ±4.14%    ±9.56%   ±30.43%
+fs/bench-accessSync.js n=100000 type="non-existing"                                                           2.02 %       ±2.92%    ±6.72%   ±21.41%
+fs/bench-accessSync.js n=100000 type="non-flat-existing"                                              **     -7.63 %       ±3.24%    ±7.48%   ±23.81%
+fs/bench-chmodSync.js n=1000 type="existing"                                                         ***    796.38 %      ±48.38%  ±111.59%  ±355.29%
+fs/bench-chmodSync.js n=1000 type="non-existing"                                                     ***    757.42 %      ±61.22%  ±141.21%  ±449.60%
+fs/bench-chownSync.js n=10000 method="chownSync" type="existing"                                     ***    342.09 %       ±9.61%   ±22.18%   ±70.60%
+fs/bench-chownSync.js n=10000 method="chownSync" type="non-existing"                                 ***    134.69 %       ±2.39%    ±5.52%   ±17.57%
+fs/bench-chownSync.js n=10000 method="lchownSync" type="existing"                                    ***    341.67 %      ±15.86%   ±36.59%  ±116.49%
+fs/bench-chownSync.js n=10000 method="lchownSync" type="non-existing"                                ***    120.09 %       ±5.50%   ±12.68%   ±40.36%
+fs/bench-copyFileSync.js n=10000 type="invalid"                                                      ***    131.63 %       ±5.75%   ±13.27%   ±42.24%
+fs/bench-copyFileSync.js n=10000 type="valid"                                                         **     11.06 %       ±3.67%    ±8.45%   ±26.92%
+fs/bench-existsSync.js n=1000000 type="existing"                                                      **      4.91 %       ±2.11%    ±4.86%   ±15.46%
+fs/bench-existsSync.js n=1000000 type="non-existing"                                                          1.17 %       ±4.93%   ±11.36%   ±36.18%
+fs/bench-existsSync.js n=1000000 type="non-flat-existing"                                              *      6.80 %       ±3.04%    ±7.02%   ±22.34%
+fs/bench-fchmodSync.js n=1000 type="existing"                                                                -1.82 %       ±5.37%   ±12.38%   ±39.40%
+fs/bench-fchmodSync.js n=1000 type="non-existing"                                                    ***    -14.61 %       ±0.62%    ±1.44%    ±4.58%
+fs/bench-fsyncSync.js n=10000 type="existing"                                                                 2.75 %       ±5.38%   ±12.42%   ±39.54%
+fs/bench-fsyncSync.js n=10000 type="non-existing"                                                     **    -13.36 %       ±2.45%    ±5.66%   ±18.01%
+fs/bench-ftruncateSync.js n=10000 type="invalid"                                                     ***    106.79 %       ±3.40%    ±7.85%   ±25.01%
+fs/bench-ftruncateSync.js n=10000 type="valid"                                                        **    153.75 %      ±30.44%   ±70.21%  ±223.53%
+fs/bench-linkSync.js n=1000 type="invalid"                                                           ***    106.43 %       ±2.78%    ±6.42%   ±20.44%
+fs/bench-linkSync.js n=1000 type="valid"                                                             ***    549.06 %      ±12.53%   ±28.91%   ±92.04%
+fs/bench-mkdirp.js n=10000                                                                             *     21.33 %      ±11.41%   ±26.31%   ±83.77%
+fs/bench-mkdirSync.js n=1000 recursive="false" type="existing"                                       ***    700.58 %      ±35.35%   ±81.53%  ±259.59%
+fs/bench-mkdirSync.js n=1000 recursive="false" type="non-existing"                                   ***    242.39 %      ±13.88%   ±32.01%  ±101.90%
+fs/bench-mkdirSync.js n=1000 recursive="true" type="existing"                                        ***   1376.78 %      ±41.27%   ±95.19%  ±303.06%
+fs/bench-mkdirSync.js n=1000 recursive="true" type="non-existing"                                      *     63.34 %      ±27.94%   ±64.45%  ±205.19%
+fs/bench-opendir.js bufferSize=1024 mode="async" dir="lib" n=100                                     ***   1986.09 %     ±155.58%  ±358.87% ±1142.59%
+fs/bench-opendir.js bufferSize=1024 mode="async" dir="test/parallel" n=100                           ***    189.50 %       ±6.08%   ±14.02%   ±44.62%
+fs/bench-opendir.js bufferSize=1024 mode="callback" dir="lib" n=100                                  ***   1954.58 %      ±29.63%   ±68.35%  ±217.60%
+fs/bench-opendir.js bufferSize=1024 mode="callback" dir="test/parallel" n=100                        ***    519.16 %      ±40.42%   ±93.23%  ±296.81%
+fs/bench-opendir.js bufferSize=1024 mode="sync" dir="lib" n=100                                      ***   2147.83 %     ±176.68%  ±407.55% ±1297.58%
+fs/bench-opendir.js bufferSize=1024 mode="sync" dir="test/parallel" n=100                            ***    146.96 %       ±6.07%   ±14.00%   ±44.58%
+fs/bench-opendir.js bufferSize=32 mode="async" dir="lib" n=100                                       ***   1869.03 %      ±85.35%  ±196.87%  ±626.80%
+fs/bench-opendir.js bufferSize=32 mode="async" dir="test/parallel" n=100                             ***    143.38 %       ±6.55%   ±15.12%   ±48.13%
+fs/bench-opendir.js bufferSize=32 mode="callback" dir="lib" n=100                                     **   1852.56 %     ±274.05%  ±632.14% ±2012.63%
+fs/bench-opendir.js bufferSize=32 mode="callback" dir="test/parallel" n=100                          ***    255.34 %      ±16.82%   ±38.81%  ±123.55%
+fs/bench-opendir.js bufferSize=32 mode="sync" dir="lib" n=100                                        ***   2194.77 %     ±124.66%  ±287.55%  ±915.52%
+fs/bench-opendir.js bufferSize=32 mode="sync" dir="test/parallel" n=100                              ***    171.59 %      ±10.94%   ±25.24%   ±80.36%
+fs/bench-opendir.js bufferSize=4 mode="async" dir="lib" n=100                                        ***   1173.50 %      ±72.78%  ±167.89%  ±534.53%
+fs/bench-opendir.js bufferSize=4 mode="async" dir="test/parallel" n=100                               **     50.75 %      ±14.05%   ±32.41%  ±103.19%
+fs/bench-opendir.js bufferSize=4 mode="callback" dir="lib" n=100                                     ***   1161.05 %     ±149.66%  ±345.22% ±1099.11%
+fs/bench-opendir.js bufferSize=4 mode="callback" dir="test/parallel" n=100                            **     77.63 %      ±26.98%   ±62.24%  ±198.16%
+fs/bench-opendir.js bufferSize=4 mode="sync" dir="lib" n=100                                         ***   2039.49 %     ±138.96%  ±320.54% ±1020.56%
+fs/bench-opendir.js bufferSize=4 mode="sync" dir="test/parallel" n=100                               ***    142.34 %       ±7.43%   ±17.14%   ±54.56%
+fs/bench-opendirSync.js n=1000 type="existing"                                                       ***     67.73 %       ±6.32%   ±14.58%   ±46.42%
+fs/bench-opendirSync.js n=1000 type="non-existing"                                                    **    -10.87 %       ±1.60%    ±3.70%   ±11.78%
+fs/bench-openSync.js n=100000 type="existing"                                                        ***    106.08 %       ±7.59%   ±17.52%   ±55.77%
+fs/bench-openSync.js n=100000 type="non-existing"                                                    ***     17.19 %       ±1.92%    ±4.43%   ±14.11%
+fs/bench-readdir.js withFileTypes="false" dir="lib" n=10                                             ***   5164.65 %     ±535.29% ±1234.73% ±3931.19%
+fs/bench-readdir.js withFileTypes="false" dir="test/parallel" n=10                                   ***    347.09 %      ±17.28%   ±39.85%  ±126.88%
+fs/bench-readdir.js withFileTypes="true" dir="lib" n=10                                              ***   6541.56 %     ±316.41%  ±729.86% ±2323.77%
+fs/bench-readdir.js withFileTypes="true" dir="test/parallel" n=10                                    ***    561.52 %      ±25.78%   ±59.47%  ±189.35%
+fs/bench-readdirSync.js withFileTypes="false" dir="lib" n=10                                                  2.43 %       ±5.55%   ±12.81%   ±40.79%
+fs/bench-readdirSync.js withFileTypes="false" dir="test/parallel" n=10                                 *     -2.94 %       ±1.52%    ±3.52%   ±11.19%
+fs/bench-readdirSync.js withFileTypes="true" dir="lib" n=10                                          ***   3616.03 %     ±201.53%  ±464.87% ±1480.06%
+fs/bench-readdirSync.js withFileTypes="true" dir="test/parallel" n=10                                ***    245.35 %      ±10.04%   ±23.15%   ±73.72%
+fs/bench-readlinkSync.js n=1000 type="invalid"                                                       ***    748.98 %      ±21.25%   ±49.03%  ±156.09%
+fs/bench-readlinkSync.js n=1000 type="valid"                                                         ***   2060.46 %     ±131.80%  ±304.01%  ±967.92%
+fs/bench-readSync.js n=10000 type="existing"                                                         ***   1081.26 %     ±135.41%  ±312.36%  ±994.49%
+fs/bench-readSync.js n=10000 type="non-existing"                                                     ***     80.52 %       ±2.83%    ±6.52%   ±20.77%
+fs/bench-realpath.js pathType="relative" n=10000                                                     ***    613.95 %      ±51.77%  ±119.42%  ±380.21%
+fs/bench-realpath.js pathType="resolved" n=10000                                                      **    104.32 %      ±28.43%   ±65.58%  ±208.78%
+fs/bench-realpathSync.js pathType="relative" n=10000                                                 ***     70.42 %       ±8.95%   ±20.65%   ±65.74%
+fs/bench-realpathSync.js pathType="resolved" n=10000                                                 ***     73.88 %       ±5.68%   ±13.10%   ±41.71%
+fs/bench-renameSync.js n=2000 type="invalid"                                                          **    666.00 %      ±98.89%  ±228.10%  ±726.25%
+fs/bench-renameSync.js n=2000 type="valid"                                                           ***    162.29 %       ±6.01%   ±13.85%   ±44.11%
+fs/bench-stat-promise.js statType="fstat" n=200000                                                    **     34.40 %       ±4.92%   ±11.35%   ±36.13%
+fs/bench-stat-promise.js statType="lstat" n=200000                                                    **     32.19 %       ±6.10%   ±14.08%   ±44.82%
+fs/bench-stat-promise.js statType="stat" n=200000                                                      *     26.39 %      ±12.58%   ±29.03%   ±92.41%
+fs/bench-stat.js statType="fstat" n=200000                                                             *     27.15 %      ±11.91%   ±27.47%   ±87.45%
+fs/bench-stat.js statType="lstat" n=200000                                                             *     35.33 %      ±18.67%   ±43.07%  ±137.14%
+fs/bench-stat.js statType="stat" n=200000                                                             **     32.69 %       ±8.34%   ±19.24%   ±61.26%
+fs/bench-statSync-failure.js statSyncType="noThrow" n=1000000                                          *      7.82 %       ±3.95%    ±9.11%   ±29.01%
+fs/bench-statSync-failure.js statSyncType="throw" n=1000000                                            *      2.05 %       ±1.16%    ±2.68%    ±8.52%
+fs/bench-statSync.js statSyncType="fstatSync" n=1000000                                              ***      9.37 %       ±0.98%    ±2.26%    ±7.18%
+fs/bench-statSync.js statSyncType="lstatSync" n=1000000                                                *     10.45 %       ±5.60%   ±12.93%   ±41.16%
+fs/bench-statSync.js statSyncType="statSync" n=1000000                                               ***      9.42 %       ±0.61%    ±1.41%    ±4.50%
+fs/bench-symlinkSync.js n=1000 type="invalid"                                                        ***    645.48 %       ±7.43%   ±17.15%   ±54.59%
+fs/bench-symlinkSync.js n=1000 type="valid"                                                          ***    301.92 %       ±8.10%   ±18.69%   ±59.51%
+fs/bench-timesSync.js n=1000 func="futimes" type="existing"                                            *     -5.58 %       ±2.52%    ±5.81%   ±18.49%
+fs/bench-timesSync.js n=1000 func="futimes" type="non-existing"                                      ***    877.63 %      ±34.81%   ±80.29%  ±255.62%
+fs/bench-timesSync.js n=1000 func="lutimes" type="existing"                                           **     -7.45 %       ±1.90%    ±4.38%   ±13.96%
+fs/bench-timesSync.js n=1000 func="lutimes" type="non-existing"                                      ***    668.05 %      ±36.27%   ±83.67%  ±266.39%
+fs/bench-timesSync.js n=1000 func="utimes" type="existing"                                             *     -4.49 %       ±2.84%    ±6.56%   ±20.88%
+fs/bench-timesSync.js n=1000 func="utimes" type="non-existing"                                       ***    690.74 %      ±47.76%  ±110.16%  ±350.74%
+fs/bench-unlinkSync.js n=1000 type="existing"                                                                 0.53 %       ±2.76%    ±6.37%   ±20.27%
+fs/bench-unlinkSync.js n=1000 type="non-existing"                                                      *     -1.92 %       ±1.17%    ±2.69%    ±8.57%
+fs/bench-writevSync.js n=100000 type="invalid"                                                       ***     13.69 %       ±0.77%    ±1.78%    ±5.67%
+fs/bench-writevSync.js n=100000 type="valid"                                                         ***     70.20 %       ±9.28%   ±21.41%   ±68.17%
+fs/read-stream-throughput.js n=1024 highWaterMark=1024 filesize=1024000 encodingType="asc"            NA    198.66 %           NA        NA        NA
+fs/read-stream-throughput.js n=1024 highWaterMark=1024 filesize=1024000 encodingType="buf"            NA    226.64 %           NA        NA        NA
+fs/read-stream-throughput.js n=1024 highWaterMark=1024 filesize=1024000 encodingType="utf"            NA    154.14 %           NA        NA        NA
+fs/read-stream-throughput.js n=1024 highWaterMark=1048576 filesize=1024000 encodingType="asc"         NA     38.83 %           NA        NA        NA
+fs/read-stream-throughput.js n=1024 highWaterMark=1048576 filesize=1024000 encodingType="buf"         NA    269.86 %           NA        NA        NA
+fs/read-stream-throughput.js n=1024 highWaterMark=4096 filesize=1024000 encodingType="asc"            NA    180.81 %           NA        NA        NA
+fs/read-stream-throughput.js n=1024 highWaterMark=4096 filesize=1024000 encodingType="buf"            NA    258.12 %           NA        NA        NA
+fs/read-stream-throughput.js n=1024 highWaterMark=4096 filesize=1024000 encodingType="utf"            NA    100.74 %           NA        NA        NA
+fs/read-stream-throughput.js n=1024 highWaterMark=65535 filesize=1024000 encodingType="asc"           NA    121.97 %           NA        NA        NA
+fs/read-stream-throughput.js n=1024 highWaterMark=65535 filesize=1024000 encodingType="buf"           NA    345.92 %           NA        NA        NA
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 103 comparisons, you can thus
+expect the following amount of false-positive results:
+  5.15 false positives, when considering a   5% risk acceptance (*, **, ***),
+  1.03 false positives, when considering a   1% risk acceptance (**, ***),
+  0.10 false positives, when considering a 0.1% risk acceptance (***)

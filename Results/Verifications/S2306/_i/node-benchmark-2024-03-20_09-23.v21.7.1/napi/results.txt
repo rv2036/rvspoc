@@ -1,0 +1,19 @@
+"filename","configuration","rate","time"
+"napi/define_properties/index.js","implem=""runFastPath"" n=5000000",614720.6519390466,8.133775861
+"napi/define_properties/index.js","implem=""runSlowPath"" n=5000000",396130.80936895875,12.622093212
+"napi/ref/index.js","n=10000000",85184.46141253776,117.392301767
+"napi/string/index.js","stringType=""Latin1"" n=100000",1431746.9000209852,0.069844747
+"napi/string/index.js","stringType=""Utf8"" n=100000",1315920.3038660001,0.075992444
+"napi/string/index.js","stringType=""Utf16"" n=100000",1278662.7765141819,0.078206703
+"napi/string/index.js","stringType=""Latin1"" n=1000000",1126490.1308610805,0.887713059
+"napi/string/index.js","stringType=""Utf8"" n=1000000",1054213.7985010957,0.948574190
+"napi/string/index.js","stringType=""Utf16"" n=1000000",1068710.3417889995,0.935707236
+"napi/string/index.js","stringType=""Latin1"" n=10000000",488314.4223575038,20.478608745
+"napi/string/index.js","stringType=""Utf8"" n=10000000",473527.89151998365,21.118080221
+"napi/string/index.js","stringType=""Utf16"" n=10000000",466607.2952713413,21.431298013
+"napi/type-tag/index.js","n=1000",491005.03329259634,0.002036639
+"napi/type-tag/index.js","n=10000",407932.6917585521,0.024513848
+"napi/type-tag/index.js","n=100000",402788.9396187237,0.248268982
+"napi/type-tag-check/index.js","n=100000",1604346.6242220725,0.062330670
+"napi/type-tag-check/index.js","n=1000000",1644997.3604454605,0.607903711
+"napi/type-tag-check/index.js","n=10000000",1661782.420861748,6.017634965

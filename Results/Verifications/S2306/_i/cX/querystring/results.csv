@@ -1,0 +1,115 @@
+"binary","filename","configuration","rate","time"
+"old","querystring/querystring-parse.js","n=1000000 type=""noencode""",265295.5744268811,3.769380632
+"old","querystring/querystring-parse.js","n=1000000 type=""multicharsep""",246661.62003076405,4.054136999
+"old","querystring/querystring-parse.js","n=1000000 type=""encodefake""",250779.75601565314,3.987562696
+"old","querystring/querystring-parse.js","n=1000000 type=""encodemany""",108888.29803727027,9.183723302
+"old","querystring/querystring-parse.js","n=1000000 type=""encodelast""",198366.11283954847,5.041183626
+"old","querystring/querystring-parse.js","n=1000000 type=""multivalue""",197340.54729754062,5.067382318
+"old","querystring/querystring-parse.js","n=1000000 type=""multivaluemany""",71632.18040103323,13.960206075
+"old","querystring/querystring-parse.js","n=1000000 type=""manypairs""",48970.73951967792,20.420357336
+"old","querystring/querystring-parse.js","n=1000000 type=""manyblankpairs""",1824149.1074073587,0.548200800
+"old","querystring/querystring-parse.js","n=1000000 type=""altspaces""",171914.27049231346,5.816852767
+"new","querystring/querystring-parse.js","n=1000000 type=""noencode""",257821.2659895132,3.878655999
+"new","querystring/querystring-parse.js","n=1000000 type=""multicharsep""",238108.95356781187,4.199758073
+"new","querystring/querystring-parse.js","n=1000000 type=""encodefake""",248202.10492783948,4.028974695
+"new","querystring/querystring-parse.js","n=1000000 type=""encodemany""",111125.6712287109,8.998820785
+"new","querystring/querystring-parse.js","n=1000000 type=""encodelast""",192299.96110964048,5.200209060
+"new","querystring/querystring-parse.js","n=1000000 type=""multivalue""",209215.52152631158,4.779760090
+"new","querystring/querystring-parse.js","n=1000000 type=""multivaluemany""",82022.7226915457,12.191743546
+"new","querystring/querystring-parse.js","n=1000000 type=""manypairs""",47893.207564850716,20.879787570
+"new","querystring/querystring-parse.js","n=1000000 type=""manyblankpairs""",1836097.4758738352,0.544633394
+"new","querystring/querystring-parse.js","n=1000000 type=""altspaces""",184937.35269369982,5.407236480
+"old","querystring/querystring-parse.js","n=1000000 type=""noencode""",265295.5744268811,3.769380632
+"old","querystring/querystring-parse.js","n=1000000 type=""multicharsep""",246661.62003076405,4.054136999
+"old","querystring/querystring-parse.js","n=1000000 type=""encodefake""",250779.75601565314,3.987562696
+"old","querystring/querystring-parse.js","n=1000000 type=""encodemany""",108888.29803727027,9.183723302
+"old","querystring/querystring-parse.js","n=1000000 type=""encodelast""",198366.11283954847,5.041183626
+"old","querystring/querystring-parse.js","n=1000000 type=""multivalue""",197340.54729754062,5.067382318
+"old","querystring/querystring-parse.js","n=1000000 type=""multivaluemany""",71632.18040103323,13.960206075
+"old","querystring/querystring-parse.js","n=1000000 type=""manypairs""",48970.73951967792,20.420357336
+"old","querystring/querystring-parse.js","n=1000000 type=""manyblankpairs""",1824149.1074073587,0.548200800
+"old","querystring/querystring-parse.js","n=1000000 type=""altspaces""",171914.27049231346,5.816852767
+"new","querystring/querystring-parse.js","n=1000000 type=""noencode""",250659.9512432656,3.989468581
+"new","querystring/querystring-parse.js","n=1000000 type=""multicharsep""",241133.0934340697,4.147087344
+"new","querystring/querystring-parse.js","n=1000000 type=""encodefake""",238419.80823314507,4.194282377
+"new","querystring/querystring-parse.js","n=1000000 type=""encodemany""",109603.12069475792,9.123827804
+"new","querystring/querystring-parse.js","n=1000000 type=""encodelast""",196293.24839141354,5.094418724
+"new","querystring/querystring-parse.js","n=1000000 type=""multivalue""",195667.8799908634,5.110700847
+"new","querystring/querystring-parse.js","n=1000000 type=""multivaluemany""",72250.70339370643,13.840695703
+"new","querystring/querystring-parse.js","n=1000000 type=""manypairs""",53479.98789030386,18.698583142
+"new","querystring/querystring-parse.js","n=1000000 type=""manyblankpairs""",1819955.1990728418,0.549464075
+"new","querystring/querystring-parse.js","n=1000000 type=""altspaces""",175520.67346855544,5.697334566
+"old","querystring/querystring-parse.js","n=1000000 type=""noencode""",265295.5744268811,3.769380632
+"old","querystring/querystring-parse.js","n=1000000 type=""multicharsep""",246661.62003076405,4.054136999
+"old","querystring/querystring-parse.js","n=1000000 type=""encodefake""",250779.75601565314,3.987562696
+"old","querystring/querystring-parse.js","n=1000000 type=""encodemany""",108888.29803727027,9.183723302
+"old","querystring/querystring-parse.js","n=1000000 type=""encodelast""",198366.11283954847,5.041183626
+"old","querystring/querystring-parse.js","n=1000000 type=""multivalue""",197340.54729754062,5.067382318
+"old","querystring/querystring-parse.js","n=1000000 type=""multivaluemany""",71632.18040103323,13.960206075
+"old","querystring/querystring-parse.js","n=1000000 type=""manypairs""",48970.73951967792,20.420357336
+"old","querystring/querystring-parse.js","n=1000000 type=""manyblankpairs""",1824149.1074073587,0.548200800
+"old","querystring/querystring-parse.js","n=1000000 type=""altspaces""",171914.27049231346,5.816852767
+"new","querystring/querystring-parse.js","n=1000000 type=""noencode""",250428.5186937275,3.993155433
+"new","querystring/querystring-parse.js","n=1000000 type=""multicharsep""",246821.82176645368,4.051505628
+"new","querystring/querystring-parse.js","n=1000000 type=""encodefake""",249896.0804650425,4.001663404
+"new","querystring/querystring-parse.js","n=1000000 type=""encodemany""",109988.35976030472,9.091871196
+"new","querystring/querystring-parse.js","n=1000000 type=""encodelast""",207757.3149241848,4.813308260
+"new","querystring/querystring-parse.js","n=1000000 type=""multivalue""",187335.52025622487,5.338015976
+"new","querystring/querystring-parse.js","n=1000000 type=""multivaluemany""",79010.2456935895,12.656586386
+"new","querystring/querystring-parse.js","n=1000000 type=""manypairs""",52106.44143013184,19.191485209
+"new","querystring/querystring-parse.js","n=1000000 type=""manyblankpairs""",1832012.2046014974,0.545847892
+"new","querystring/querystring-parse.js","n=1000000 type=""altspaces""",181395.62891290404,5.512812001
+"old","querystring/querystring-stringify.js","n=1000000 type=""noencode""",716948.9532961829,1.394799442
+"old","querystring/querystring-stringify.js","n=1000000 type=""encodemany""",388413.82095866604,2.574573679
+"old","querystring/querystring-stringify.js","n=1000000 type=""encodelast""",599066.3750632808,1.669264111
+"old","querystring/querystring-stringify.js","n=1000000 type=""array""",560599.1785376542,1.783805682
+"old","querystring/querystring-stringify.js","n=1000000 type=""multiprimitives""",839261.8975617171,1.191523174
+"new","querystring/querystring-stringify.js","n=1000000 type=""noencode""",723174.8917241399,1.382791371
+"new","querystring/querystring-stringify.js","n=1000000 type=""encodemany""",395418.8594614575,2.528963847
+"new","querystring/querystring-stringify.js","n=1000000 type=""encodelast""",596746.2463431808,1.675754152
+"new","querystring/querystring-stringify.js","n=1000000 type=""array""",605270.9494043149,1.652152645
+"new","querystring/querystring-stringify.js","n=1000000 type=""multiprimitives""",848696.7437839009,1.178277173
+"old","querystring/querystring-stringify.js","n=1000000 type=""noencode""",716948.9532961829,1.394799442
+"old","querystring/querystring-stringify.js","n=1000000 type=""encodemany""",388413.82095866604,2.574573679
+"old","querystring/querystring-stringify.js","n=1000000 type=""encodelast""",599066.3750632808,1.669264111
+"old","querystring/querystring-stringify.js","n=1000000 type=""array""",560599.1785376542,1.783805682
+"old","querystring/querystring-stringify.js","n=1000000 type=""multiprimitives""",839261.8975617171,1.191523174
+"new","querystring/querystring-stringify.js","n=1000000 type=""noencode""",710668.1272204311,1.407126564
+"new","querystring/querystring-stringify.js","n=1000000 type=""encodemany""",392517.00695038226,2.547660311
+"new","querystring/querystring-stringify.js","n=1000000 type=""encodelast""",616892.1361465818,1.621028931
+"new","querystring/querystring-stringify.js","n=1000000 type=""array""",602883.0201225218,1.658696574
+"new","querystring/querystring-stringify.js","n=1000000 type=""multiprimitives""",840549.1543315231,1.189698419
+"old","querystring/querystring-stringify.js","n=1000000 type=""noencode""",716948.9532961829,1.394799442
+"old","querystring/querystring-stringify.js","n=1000000 type=""encodemany""",388413.82095866604,2.574573679
+"old","querystring/querystring-stringify.js","n=1000000 type=""encodelast""",599066.3750632808,1.669264111
+"old","querystring/querystring-stringify.js","n=1000000 type=""array""",560599.1785376542,1.783805682
+"old","querystring/querystring-stringify.js","n=1000000 type=""multiprimitives""",839261.8975617171,1.191523174
+"new","querystring/querystring-stringify.js","n=1000000 type=""noencode""",699578.9712683952,1.429431188
+"new","querystring/querystring-stringify.js","n=1000000 type=""encodemany""",386583.8876134456,2.586760680
+"new","querystring/querystring-stringify.js","n=1000000 type=""encodelast""",624422.6599793755,1.601479357
+"new","querystring/querystring-stringify.js","n=1000000 type=""array""",617424.2518937531,1.619631877
+"new","querystring/querystring-stringify.js","n=1000000 type=""multiprimitives""",840027.9677231518,1.190436555
+"old","querystring/querystring-unescapebuffer.js","n=10000000 input=""there is nothing to unescape here""",1268382.6933643662,7.884055855
+"old","querystring/querystring-unescapebuffer.js","n=10000000 input=""there%20are%20several%20spaces%20that%20need%20to%20be%20unescaped""",468070.20495172037,21.364316494
+"old","querystring/querystring-unescapebuffer.js","n=10000000 input=""there%2Qare%0-fake%escaped values in%%%%this%9Hstring""",694560.283449685,14.397598363
+"old","querystring/querystring-unescapebuffer.js","n=10000000 input=""%20%21%22%23%24%25%26%27%28%29%2A%2B%2C%2D%2E%2F%30%31%32%33%34%35%36%37""",513025.275809577,19.492216995
+"new","querystring/querystring-unescapebuffer.js","n=10000000 input=""there is nothing to unescape here""",1267762.8614136288,7.887910511
+"new","querystring/querystring-unescapebuffer.js","n=10000000 input=""there%20are%20several%20spaces%20that%20need%20to%20be%20unescaped""",466272.9041416118,21.446667630
+"new","querystring/querystring-unescapebuffer.js","n=10000000 input=""there%2Qare%0-fake%escaped values in%%%%this%9Hstring""",697158.4282727597,14.343941914
+"new","querystring/querystring-unescapebuffer.js","n=10000000 input=""%20%21%22%23%24%25%26%27%28%29%2A%2B%2C%2D%2E%2F%30%31%32%33%34%35%36%37""",509868.1037075371,19.612915433
+"old","querystring/querystring-unescapebuffer.js","n=10000000 input=""there is nothing to unescape here""",1268382.6933643662,7.884055855
+"old","querystring/querystring-unescapebuffer.js","n=10000000 input=""there%20are%20several%20spaces%20that%20need%20to%20be%20unescaped""",468070.20495172037,21.364316494
+"old","querystring/querystring-unescapebuffer.js","n=10000000 input=""there%2Qare%0-fake%escaped values in%%%%this%9Hstring""",694560.283449685,14.397598363
+"old","querystring/querystring-unescapebuffer.js","n=10000000 input=""%20%21%22%23%24%25%26%27%28%29%2A%2B%2C%2D%2E%2F%30%31%32%33%34%35%36%37""",513025.275809577,19.492216995
+"new","querystring/querystring-unescapebuffer.js","n=10000000 input=""there is nothing to unescape here""",1260052.3443157752,7.936178243
+"new","querystring/querystring-unescapebuffer.js","n=10000000 input=""there%20are%20several%20spaces%20that%20need%20to%20be%20unescaped""",464430.76823911665,21.531734510
+"new","querystring/querystring-unescapebuffer.js","n=10000000 input=""there%2Qare%0-fake%escaped values in%%%%this%9Hstring""",697528.3416840232,14.336335031
+"new","querystring/querystring-unescapebuffer.js","n=10000000 input=""%20%21%22%23%24%25%26%27%28%29%2A%2B%2C%2D%2E%2F%30%31%32%33%34%35%36%37""",510678.4058328655,19.581795286
+"old","querystring/querystring-unescapebuffer.js","n=10000000 input=""there is nothing to unescape here""",1268382.6933643662,7.884055855
+"old","querystring/querystring-unescapebuffer.js","n=10000000 input=""there%20are%20several%20spaces%20that%20need%20to%20be%20unescaped""",468070.20495172037,21.364316494
+"old","querystring/querystring-unescapebuffer.js","n=10000000 input=""there%2Qare%0-fake%escaped values in%%%%this%9Hstring""",694560.283449685,14.397598363
+"old","querystring/querystring-unescapebuffer.js","n=10000000 input=""%20%21%22%23%24%25%26%27%28%29%2A%2B%2C%2D%2E%2F%30%31%32%33%34%35%36%37""",513025.275809577,19.492216995
+"new","querystring/querystring-unescapebuffer.js","n=10000000 input=""there is nothing to unescape here""",1267316.8755277812,7.890686373
+"new","querystring/querystring-unescapebuffer.js","n=10000000 input=""there%20are%20several%20spaces%20that%20need%20to%20be%20unescaped""",462725.86492900754,21.611067714
+"new","querystring/querystring-unescapebuffer.js","n=10000000 input=""there%2Qare%0-fake%escaped values in%%%%this%9Hstring""",695051.9054260737,14.387414698
+"new","querystring/querystring-unescapebuffer.js","n=10000000 input=""%20%21%22%23%24%25%26%27%28%29%2A%2B%2C%2D%2E%2F%30%31%32%33%34%35%36%37""",510085.63745745504,19.604551208

@@ -1,0 +1,10 @@
+/data/home/ryan/node-v20.10.0/benchmark/url/usvstring.js:25
+    toUSVString(str);
+    ^
+
+TypeError: toUSVString is not a function
+    at main (/data/home/ryan/node-v20.10.0/benchmark/url/usvstring.js:25:5)
+    at /data/home/ryan/node-v20.10.0/benchmark/common.js:54:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Node.js v21.7.1

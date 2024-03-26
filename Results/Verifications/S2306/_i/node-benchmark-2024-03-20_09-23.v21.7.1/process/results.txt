@@ -1,0 +1,33 @@
+"filename","configuration","rate","time"
+"process/bench-env.js","operation=""get"" n=1000000",318462.4624161907,3.140087508
+"process/bench-env.js","operation=""set"" n=1000000",339558.4585540039,2.945001000
+"process/bench-env.js","operation=""enumerate"" n=1000000",5133.250028682971,19.480835619
+"process/bench-env.js","operation=""query"" n=1000000",434708.8922737313,2.300390026
+"process/bench-env.js","operation=""delete"" n=1000000",371019.4210271765,2.695276698
+"process/bench-hrtime.js","type=""raw"" n=1000000",1183864.3671787158,0.844691358
+"process/bench-hrtime.js","type=""diff"" n=1000000",1073894.3513712322,0.931190297
+"process/bench-hrtime.js","type=""bigint"" n=1000000",1309889.7011699765,0.763423057
+"process/coverage.js","n=100000",11081.791215740039,9.023811950
+"process/getActiveResourcesInfo.js","n=100000 immediatesCount=10000 timeoutsCount=10000 requestsCount=10000 handlesCount=10000",62.22031221065403,1607.192192502
+"process/memoryUsage.js","n=100000",26499.85812982952,3.773605108
+"process/next-tick-breadth-args.js","n=10000000",289075.91875802993,34.592988731
+"process/next-tick-breadth.js","n=10000000",640123.6230911982,15.621982441
+"process/next-tick-depth-args.js","n=7000000",740920.7450444178,9.447704153
+"process/next-tick-depth.js","n=7000000",1030208.9141539279,6.794738333
+"process/next-tick-exec-args.js","n=4000000",1973930.149561228,2.026414157
+"process/next-tick-exec.js","n=4000000",1820484.5358313036,2.197217236
+"process/next-tick-loop-args.js","loop=100 n=10000",1707.0717525538696,5.857984578
+"process/next-tick-loop-args.js","loop=200 n=10000",1450.0553062984277,6.896288684
+"process/next-tick-loop-args.js","loop=100 n=20000",2982.028954292232,6.706842994
+"process/next-tick-loop-args.js","loop=200 n=20000",2333.9238514655995,8.569259870
+"process/next-tick-loop-args.js","loop=100 n=40000",4506.688449279594,8.875696745
+"process/next-tick-loop-args.js","loop=200 n=40000",3080.130684265172,12.986461972
+"process/next-tick-loop.js","loop=100 n=10000",2413.4944040544974,4.143369872
+"process/next-tick-loop.js","loop=200 n=10000",2091.6575950099764,4.780897229
+"process/next-tick-loop.js","loop=100 n=20000",3866.5377393887766,5.172586264
+"process/next-tick-loop.js","loop=200 n=20000",3066.627595193804,6.521822223
+"process/next-tick-loop.js","loop=100 n=40000",6296.218491709058,6.353019682
+"process/next-tick-loop.js","loop=200 n=40000",4458.31734147442,8.971994799
+"process/queue-microtask-breadth.js","n=400000",100795.38809976022,3.968435536
+"process/queue-microtask-depth.js","n=1200000",312579.8628525427,3.839018896
+"process/resourceUsage.js","n=100000",129240.51155550206,0.773751193

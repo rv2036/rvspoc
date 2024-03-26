@@ -1,0 +1,76 @@
+"filename","configuration","rate","time"
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=64",0.010408765677258383,5.011781758
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=64",0.010600719273760623,5.015491742
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=64",0.010391313213568116,5.015610362
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=64",0.010268243588357383,5.015355302
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=64",0.010410716355093323,5.015422943
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=64",0.009812624087618663,5.010116296
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=64",0.010261704137990867,5.013904661
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=64",0.008752300188723071,5.012338979
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=256",0.04141046189942121,5.011328758
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=256",0.04238669725292815,5.012906379
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=256",0.04048083458481333,5.013330480
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=256",0.04107259042766637,5.015402183
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=256",0.04095229561677439,5.011504658
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=256",0.03891333525318227,5.014313762
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=256",0.04084853511076251,5.014895882
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=256",0.03470226747956125,5.012701339
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=512",0.08097673151250391,5.012397959
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=512",0.08376983364781942,5.013761701
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=512",0.08128063322039587,5.012429979
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=512",0.08080208070657896,5.013790001
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=512",0.0795001972839704,5.014323141
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=512",0.07763725798429326,5.011806778
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=512",0.07977242688501447,5.011557298
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=512",0.07020299554012009,5.015460802
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=1 num=100 len=1024",0.15658789735098994,5.013620720
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=1 num=100 len=1024",0.16895641950664736,5.012360139
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=2 num=100 len=1024",0.15762243584834418,5.014596422
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=2 num=100 len=1024",0.15968657922498586,5.011887158
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=4 num=100 len=1024",0.15779085903112292,5.014079061
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=4 num=100 len=1024",0.15051417210337212,5.013180739
+"dgram/array-vs-concat.js","dur=5 type=""concat"" chunks=8 num=100 len=1024",0.15560951643148513,5.005920132
+"dgram/array-vs-concat.js","dur=5 type=""multi"" chunks=8 num=100 len=1024",0.13784052702780655,5.014713661
+"dgram/bind-params.js","address=""true"" port=""true"" n=10000",36460.22094733469,0.274271514
+"dgram/bind-params.js","address=""false"" port=""true"" n=10000",37413.891087848766,0.267280406
+"dgram/bind-params.js","address=""false"" port=""false"" n=10000",36498.40266748138,0.273984593
+"dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=64",0.010493892069107216,5.012021759
+"dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=64",0.003384750356782895,5.013005879
+"dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=64",0.010258225695512279,5.010956477
+"dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=64",0.003272722710310659,5.012095339
+"dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=64",0.009825302563603484,5.013357600
+"dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=64",0.0030952162433384896,5.013603980
+"dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=64",0.008827204831446955,5.007619314
+"dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=64",0.00280347973607975,5.012821939
+"dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=256",0.0425632432611681,5.014519642
+"dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=256",0.013618863071292796,5.014981022
+"dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=256",0.04001984685408017,5.013886841
+"dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=256",0.013159407069788284,5.013828021
+"dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=256",0.039280976760399884,5.015939963
+"dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=256",0.012268108852665214,5.014908022
+"dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=256",0.03469024037705806,5.014439242
+"dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=256",0.011100110586551016,5.003733229
+"dgram/multi-buffer.js","dur=5 type=""send"" chunks=1 num=100 len=1024",0.1685589172395128,5.006075492
+"dgram/multi-buffer.js","dur=5 type=""recv"" chunks=1 num=100 len=1024",0.0537169670612297,5.003983710
+"dgram/multi-buffer.js","dur=5 type=""send"" chunks=2 num=100 len=1024",0.16380420245135519,5.011657019
+"dgram/multi-buffer.js","dur=5 type=""recv"" chunks=2 num=100 len=1024",0.05074972378438779,5.003106048
+"dgram/multi-buffer.js","dur=5 type=""send"" chunks=4 num=100 len=1024",0.1477735934120792,5.013222060
+"dgram/multi-buffer.js","dur=5 type=""recv"" chunks=4 num=100 len=1024",0.04793941174231032,5.011208237
+"dgram/multi-buffer.js","dur=5 type=""send"" chunks=8 num=100 len=1024",0.1377497726923928,5.012478939
+"dgram/multi-buffer.js","dur=5 type=""recv"" chunks=8 num=100 len=1024",0.042431208658430544,5.011558499
+"dgram/offset-length.js","dur=5 type=""send"" num=100 len=1",0.00016663169954895385,5.012356819
+"dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1",0.000053491748488923226,5.014248161
+"dgram/offset-length.js","dur=5 type=""send"" num=100 len=64",0.010779177190971346,5.012082639
+"dgram/offset-length.js","dur=5 type=""recv"" num=100 len=64",0.003404744145941726,5.010457597
+"dgram/offset-length.js","dur=5 type=""send"" num=100 len=256",0.04252839579703581,5.014143621
+"dgram/offset-length.js","dur=5 type=""recv"" num=100 len=256",0.013699479704991132,5.012201358
+"dgram/offset-length.js","dur=5 type=""send"" num=100 len=1024",0.16526662713751988,5.004240789
+"dgram/offset-length.js","dur=5 type=""recv"" num=100 len=1024",0.05337161407096963,5.013491341
+"dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1",0.00017031049621225506,5.013454872
+"dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1",0.00005573014823160827,5.013921254
+"dgram/single-buffer.js","dur=5 type=""send"" num=100 len=64",0.011104423582292525,5.006985646
+"dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=64",0.0035421710018392854,5.014221634
+"dgram/single-buffer.js","dur=5 type=""send"" num=100 len=256",0.044577126345633336,5.010471750
+"dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=256",0.01409934112564766,5.004927304
+"dgram/single-buffer.js","dur=5 type=""send"" num=100 len=1024",0.16946736885864971,5.015255656
+"dgram/single-buffer.js","dur=5 type=""recv"" num=100 len=1024",0.05531251885453341,5.005294904

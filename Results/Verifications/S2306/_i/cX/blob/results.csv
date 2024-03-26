@@ -1,0 +1,79 @@
+"binary","filename","configuration","rate","time"
+"old","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=128",452.9437614046483,2.207779608
+"old","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=1024",57.22928618763082,17.473571079
+"old","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=1048576",0.04299655883153907,23257.675199497
+"new","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=128",455.9613671301966,2.193168264
+"new","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=1024",60.160382867761065,16.622234639
+"new","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=1048576",0.04258569407852018,23482.064144738
+"old","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=128",452.9437614046483,2.207779608
+"old","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=1024",57.22928618763082,17.473571079
+"old","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=1048576",0.04299655883153907,23257.675199497
+"new","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=128",471.1554714499483,2.122441658
+"new","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=1024",58.65864689087682,17.047784990
+"new","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=1048576",0.04400078398300623,22726.867784588
+"old","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=128",452.9437614046483,2.207779608
+"old","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=1024",57.22928618763082,17.473571079
+"old","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=1048576",0.04299655883153907,23257.675199497
+"new","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=128",467.6157631874665,2.138507892
+"new","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=1024",58.87396564723475,16.985436415
+"new","blob/blob.js","operation=""arrayBuffer"" n=1000 bytes=1048576",0.043921832413862875,22767.720403313
+"old","blob/clone.js","n=50000",4173.293834670782,11.980944065
+"new","blob/clone.js","n=50000",4133.763948063948,12.095514071
+"old","blob/clone.js","n=50000",4173.293834670782,11.980944065
+"new","blob/clone.js","n=50000",4162.693148842429,12.011454655
+"old","blob/clone.js","n=50000",4173.293834670782,11.980944065
+"new","blob/clone.js","n=50000",4357.5678960584655,11.474290520
+"old","blob/creation.js","kind=""Blob"" n=50000",11799.541284950456,4.237452863
+"old","blob/creation.js","kind=""createBlob"" n=50000",14368.03496501999,3.479946988
+"new","blob/creation.js","kind=""Blob"" n=50000",11857.957366885716,4.216577818
+"new","blob/creation.js","kind=""createBlob"" n=50000",14554.395750041922,3.435388240
+"old","blob/creation.js","kind=""Blob"" n=50000",11799.541284950456,4.237452863
+"old","blob/creation.js","kind=""createBlob"" n=50000",14368.03496501999,3.479946988
+"new","blob/creation.js","kind=""Blob"" n=50000",11974.748886300635,4.175452903
+"new","blob/creation.js","kind=""createBlob"" n=50000",14455.187958371878,3.458965746
+"old","blob/creation.js","kind=""Blob"" n=50000",11799.541284950456,4.237452863
+"old","blob/creation.js","kind=""createBlob"" n=50000",14368.03496501999,3.479946988
+"new","blob/creation.js","kind=""Blob"" n=50000",11992.679044132738,4.169210217
+"new","blob/creation.js","kind=""createBlob"" n=50000",14423.405142916474,3.466587779
+"old","blob/file.js","operation=""text"" n=1000 bytes=128",469.1356132742723,2.131579807
+"old","blob/file.js","operation=""arrayBuffer"" n=1000 bytes=128",456.24888505889646,2.191786178
+"old","blob/file.js","operation=""text"" n=1000 bytes=1024",58.75250242984003,17.020551613
+"old","blob/file.js","operation=""arrayBuffer"" n=1000 bytes=1024",58.55995913762882,17.076514648
+"new","blob/file.js","operation=""text"" n=1000 bytes=128",447.75936623601996,2.233342450
+"new","blob/file.js","operation=""arrayBuffer"" n=1000 bytes=128",463.373871542425,2.158084565
+"new","blob/file.js","operation=""text"" n=1000 bytes=1024",59.2846529295537,16.867771853
+"new","blob/file.js","operation=""arrayBuffer"" n=1000 bytes=1024",56.80511954549361,17.604047100
+"old","blob/file.js","operation=""text"" n=1000 bytes=128",469.1356132742723,2.131579807
+"old","blob/file.js","operation=""arrayBuffer"" n=1000 bytes=128",456.24888505889646,2.191786178
+"old","blob/file.js","operation=""text"" n=1000 bytes=1024",58.75250242984003,17.020551613
+"old","blob/file.js","operation=""arrayBuffer"" n=1000 bytes=1024",58.55995913762882,17.076514648
+"new","blob/file.js","operation=""text"" n=1000 bytes=128",445.98173197815515,2.242244308
+"new","blob/file.js","operation=""arrayBuffer"" n=1000 bytes=128",470.1770341694774,2.126858454
+"new","blob/file.js","operation=""text"" n=1000 bytes=1024",57.2626072692713,17.463403217
+"new","blob/file.js","operation=""arrayBuffer"" n=1000 bytes=1024",58.75432964753287,17.020022286
+"old","blob/file.js","operation=""text"" n=1000 bytes=128",469.1356132742723,2.131579807
+"old","blob/file.js","operation=""arrayBuffer"" n=1000 bytes=128",456.24888505889646,2.191786178
+"old","blob/file.js","operation=""text"" n=1000 bytes=1024",58.75250242984003,17.020551613
+"old","blob/file.js","operation=""arrayBuffer"" n=1000 bytes=1024",58.55995913762882,17.076514648
+"new","blob/file.js","operation=""text"" n=1000 bytes=128",452.57556959547753,2.209575742
+"new","blob/file.js","operation=""arrayBuffer"" n=1000 bytes=128",461.85381397260784,2.165187273
+"new","blob/file.js","operation=""text"" n=1000 bytes=1024",58.83092990324488,16.997861527
+"new","blob/file.js","operation=""arrayBuffer"" n=1000 bytes=1024",57.094522251437084,17.514815092
+"old","blob/resolveObjectURL.js","n=50000",10965.114089298233,4.559916075
+"new","blob/resolveObjectURL.js","n=50000",10918.802119489297,4.579256905
+"old","blob/resolveObjectURL.js","n=50000",10965.114089298233,4.559916075
+"new","blob/resolveObjectURL.js","n=50000",11133.468144372287,4.490963584
+"old","blob/resolveObjectURL.js","n=50000",10965.114089298233,4.559916075
+"new","blob/resolveObjectURL.js","n=50000",10371.82264373291,4.820753470
+"old","blob/slice.js","dataSize=5 n=50000",11378.584244251357,4.394219784
+"old","blob/slice.js","dataSize=30720 n=50000",10907.112030565337,4.584164888
+"new","blob/slice.js","dataSize=5 n=50000",11185.394451603155,4.470115043
+"new","blob/slice.js","dataSize=30720 n=50000",11727.53695784919,4.263469830
+"old","blob/slice.js","dataSize=5 n=50000",11378.584244251357,4.394219784
+"old","blob/slice.js","dataSize=30720 n=50000",10907.112030565337,4.584164888
+"new","blob/slice.js","dataSize=5 n=50000",11759.59155850919,4.251848353
+"new","blob/slice.js","dataSize=30720 n=50000",11695.010537492191,4.275327486
+"old","blob/slice.js","dataSize=5 n=50000",11378.584244251357,4.394219784
+"old","blob/slice.js","dataSize=30720 n=50000",10907.112030565337,4.584164888
+"new","blob/slice.js","dataSize=5 n=50000",10621.296099271844,4.707523407
+"new","blob/slice.js","dataSize=30720 n=50000",10694.252318844729,4.675408669

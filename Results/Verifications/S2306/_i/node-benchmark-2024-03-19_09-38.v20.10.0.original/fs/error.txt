@@ -1,0 +1,24 @@
+(node:1352194) ExperimentalWarning: Permission is an experimental feature
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1352194) SecurityWarning: The flag --allow-child-process must be used with extreme caution. It could invalidate the permission model.
+(node:1352233) ExperimentalWarning: Permission is an experimental feature
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1352233) SecurityWarning: The flag --allow-child-process must be used with extreme caution. It could invalidate the permission model.
+(node:1352335) ExperimentalWarning: Permission is an experimental feature
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1352335) SecurityWarning: The flag --allow-child-process must be used with extreme caution. It could invalidate the permission model.
+(node:1352374) ExperimentalWarning: Permission is an experimental feature
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1352374) SecurityWarning: The flag --allow-child-process must be used with extreme caution. It could invalidate the permission model.
+(node:1352424) ExperimentalWarning: Permission is an experimental feature
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1352424) SecurityWarning: The flag --allow-child-process must be used with extreme caution. It could invalidate the permission model.
+(node:1352463) ExperimentalWarning: Permission is an experimental feature
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1352463) SecurityWarning: The flag --allow-child-process must be used with extreme caution. It could invalidate the permission model.
+(node:1352575) ExperimentalWarning: Permission is an experimental feature
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1352575) SecurityWarning: The flag --allow-child-process must be used with extreme caution. It could invalidate the permission model.
+(node:1352616) ExperimentalWarning: Permission is an experimental feature
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1352616) SecurityWarning: The flag --allow-child-process must be used with extreme caution. It could invalidate the permission model.

@@ -1,0 +1,21 @@
+                                                          confidence improvement accuracy (*)    (**)   (***)
+blob/blob.js operation="arrayBuffer" n=1000 bytes=1024                    3.50 %       ±3.52%  ±8.13% ±25.89%
+blob/blob.js operation="arrayBuffer" n=1000 bytes=1048576                 1.18 %       ±4.59% ±10.60% ±33.74%
+blob/blob.js operation="arrayBuffer" n=1000 bytes=128                     2.64 %       ±4.36% ±10.06% ±32.02%
+blob/clone.js n=50000                                                     1.07 %       ±7.25% ±16.71% ±53.21%
+blob/creation.js kind="Blob" n=50000                                      1.21 %       ±1.54%  ±3.55% ±11.31%
+blob/creation.js kind="createBlob" n=50000                                0.76 %       ±1.18%  ±2.72%  ±8.68%
+blob/file.js operation="arrayBuffer" n=1000 bytes=1024                   -1.72 %       ±4.46% ±10.29% ±32.77%
+blob/file.js operation="arrayBuffer" n=1000 bytes=128                     1.95 %       ±2.41%  ±5.57% ±17.72%
+blob/file.js operation="text" n=1000 bytes=1024                          -0.50 %       ±4.49% ±10.35% ±32.95%
+blob/file.js operation="text" n=1000 bytes=128                    **     -4.34 %       ±1.81%  ±4.17% ±13.27%
+blob/resolveObjectURL.js n=50000                                         -1.43 %       ±8.90% ±20.52% ±65.34%
+blob/slice.js dataSize=30720 n=50000                                      4.26 %      ±13.38% ±30.86% ±98.25%
+blob/slice.js dataSize=5 n=50000                                         -1.67 %      ±12.43% ±28.66% ±91.25%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 13 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.65 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.13 false positives, when considering a   1% risk acceptance (**, ***),
+  0.01 false positives, when considering a 0.1% risk acceptance (***)

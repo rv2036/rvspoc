@@ -1,0 +1,20 @@
+"filename","configuration","rate","time"
+"querystring/querystring-parse.js","n=1000000 type=""noencode""",257821.2659895132,3.878655999
+"querystring/querystring-parse.js","n=1000000 type=""multicharsep""",238108.95356781187,4.199758073
+"querystring/querystring-parse.js","n=1000000 type=""encodefake""",248202.10492783948,4.028974695
+"querystring/querystring-parse.js","n=1000000 type=""encodemany""",111125.6712287109,8.998820785
+"querystring/querystring-parse.js","n=1000000 type=""encodelast""",192299.96110964048,5.200209060
+"querystring/querystring-parse.js","n=1000000 type=""multivalue""",209215.52152631158,4.779760090
+"querystring/querystring-parse.js","n=1000000 type=""multivaluemany""",82022.7226915457,12.191743546
+"querystring/querystring-parse.js","n=1000000 type=""manypairs""",47893.207564850716,20.879787570
+"querystring/querystring-parse.js","n=1000000 type=""manyblankpairs""",1836097.4758738352,0.544633394
+"querystring/querystring-parse.js","n=1000000 type=""altspaces""",184937.35269369982,5.407236480
+"querystring/querystring-stringify.js","n=1000000 type=""noencode""",723174.8917241399,1.382791371
+"querystring/querystring-stringify.js","n=1000000 type=""encodemany""",395418.8594614575,2.528963847
+"querystring/querystring-stringify.js","n=1000000 type=""encodelast""",596746.2463431808,1.675754152
+"querystring/querystring-stringify.js","n=1000000 type=""array""",605270.9494043149,1.652152645
+"querystring/querystring-stringify.js","n=1000000 type=""multiprimitives""",848696.7437839009,1.178277173
+"querystring/querystring-unescapebuffer.js","n=10000000 input=""there is nothing to unescape here""",1267762.8614136288,7.887910511
+"querystring/querystring-unescapebuffer.js","n=10000000 input=""there%20are%20several%20spaces%20that%20need%20to%20be%20unescaped""",466272.9041416118,21.446667630
+"querystring/querystring-unescapebuffer.js","n=10000000 input=""there%2Qare%0-fake%escaped values in%%%%this%9Hstring""",697158.4282727597,14.343941914
+"querystring/querystring-unescapebuffer.js","n=10000000 input=""%20%21%22%23%24%25%26%27%28%29%2A%2B%2C%2D%2E%2F%30%31%32%33%34%35%36%37""",509868.1037075371,19.612915433

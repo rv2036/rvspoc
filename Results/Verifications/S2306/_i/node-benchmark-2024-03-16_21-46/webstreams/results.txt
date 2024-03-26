@@ -1,0 +1,26 @@
+"filename","configuration","rate","time"
+"webstreams/creation.js","kind=""ReadableStream"" n=50000",17368.563008639452,2.878764350
+"webstreams/creation.js","kind=""TransformStream"" n=50000",4995.716943060877,10.008573458
+"webstreams/creation.js","kind=""WritableStream"" n=50000",16127.263393803769,3.100340013
+"webstreams/creation.js","kind=""ReadableStreamDefaultReader"" n=50000",155362.1765306273,0.321828653
+"webstreams/creation.js","kind=""ReadableStreamBYOBReader"" n=50000",144232.56478751567,0.346662351
+"webstreams/creation.js","kind=""ReadableStream.tee"" n=50000",4663.067622290974,10.722555204
+"webstreams/pipe-to.js","highWaterMarkW=512 highWaterMarkR=512 n=500000",94693.00173737985,5.280221250
+"webstreams/pipe-to.js","highWaterMarkW=1024 highWaterMarkR=512 n=500000",102962.95062113728,4.856115690
+"webstreams/pipe-to.js","highWaterMarkW=2048 highWaterMarkR=512 n=500000",107637.8221023938,4.645207328
+"webstreams/pipe-to.js","highWaterMarkW=4096 highWaterMarkR=512 n=500000",107752.18442409948,4.640277157
+"webstreams/pipe-to.js","highWaterMarkW=512 highWaterMarkR=1024 n=500000",106976.71222240003,4.673914440
+"webstreams/pipe-to.js","highWaterMarkW=1024 highWaterMarkR=1024 n=500000",107703.21172784633,4.642387093
+"webstreams/pipe-to.js","highWaterMarkW=2048 highWaterMarkR=1024 n=500000",102656.37103693011,4.870618306
+"webstreams/pipe-to.js","highWaterMarkW=4096 highWaterMarkR=1024 n=500000",105165.711479321,4.754401344
+"webstreams/pipe-to.js","highWaterMarkW=512 highWaterMarkR=2048 n=500000",107942.6533523212,4.632089211
+"webstreams/pipe-to.js","highWaterMarkW=1024 highWaterMarkR=2048 n=500000",110627.81452454446,4.519659022
+"webstreams/pipe-to.js","highWaterMarkW=2048 highWaterMarkR=2048 n=500000",101762.65717870023,4.913393713
+"webstreams/pipe-to.js","highWaterMarkW=4096 highWaterMarkR=2048 n=500000",112277.13372102096,4.453266515
+"webstreams/pipe-to.js","highWaterMarkW=512 highWaterMarkR=4096 n=500000",113566.07704925795,4.402723181
+"webstreams/pipe-to.js","highWaterMarkW=1024 highWaterMarkR=4096 n=500000",108132.00224121741,4.623978005
+"webstreams/pipe-to.js","highWaterMarkW=2048 highWaterMarkR=4096 n=500000",110640.13026310445,4.519155923
+"webstreams/pipe-to.js","highWaterMarkW=4096 highWaterMarkR=4096 n=500000",108840.05415414389,4.593897016
+"webstreams/readable-async-iterator.js","n=100000",199228.36185792377,0.501936567
+"webstreams/readable-read.js","type=""normal"" n=100000",260583.47537825437,0.383754188
+"webstreams/readable-read.js","type=""byob"" n=100000",28328.040498167822,3.530071203

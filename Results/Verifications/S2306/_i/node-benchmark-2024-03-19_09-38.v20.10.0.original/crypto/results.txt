@@ -1,0 +1,654 @@
+"filename","configuration","rate","time"
+"crypto/aes-gcm-throughput.js","len=1024 cipher=""aes-128-gcm"" n=500",35.03725385067828,0.111488475
+"crypto/aes-gcm-throughput.js","len=4096 cipher=""aes-128-gcm"" n=500",79.37532488002972,0.196849588
+"crypto/aes-gcm-throughput.js","len=16384 cipher=""aes-128-gcm"" n=500",120.61875250829108,0.518161552
+"crypto/aes-gcm-throughput.js","len=65536 cipher=""aes-128-gcm"" n=500",138.9266019042418,1.799511372
+"crypto/aes-gcm-throughput.js","len=262144 cipher=""aes-128-gcm"" n=500",139.7907095489762,7.153551214
+"crypto/aes-gcm-throughput.js","len=1048576 cipher=""aes-128-gcm"" n=500",150.48020549652404,26.581569229
+"crypto/aes-gcm-throughput.js","len=1024 cipher=""aes-192-gcm"" n=500",33.677336313532244,0.115990468
+"crypto/aes-gcm-throughput.js","len=4096 cipher=""aes-192-gcm"" n=500",77.04589519194167,0.202801200
+"crypto/aes-gcm-throughput.js","len=16384 cipher=""aes-192-gcm"" n=500",112.07607857629124,0.557656913
+"crypto/aes-gcm-throughput.js","len=65536 cipher=""aes-192-gcm"" n=500",127.41304443230759,1.962122490
+"crypto/aes-gcm-throughput.js","len=262144 cipher=""aes-192-gcm"" n=500",133.221833568409,7.506277111
+"crypto/aes-gcm-throughput.js","len=1048576 cipher=""aes-192-gcm"" n=500",136.7051685110549,29.260049518
+"crypto/aes-gcm-throughput.js","len=1024 cipher=""aes-256-gcm"" n=500",30.854574682296416,0.126601972
+"crypto/aes-gcm-throughput.js","len=4096 cipher=""aes-256-gcm"" n=500",73.07326164334269,0.213826503
+"crypto/aes-gcm-throughput.js","len=16384 cipher=""aes-256-gcm"" n=500",104.69448846703438,0.596975074
+"crypto/aes-gcm-throughput.js","len=65536 cipher=""aes-256-gcm"" n=500",117.33642920777051,2.130625601
+"crypto/aes-gcm-throughput.js","len=262144 cipher=""aes-256-gcm"" n=500",122.17482111341373,8.184992545
+"crypto/aes-gcm-throughput.js","len=1048576 cipher=""aes-256-gcm"" n=500",125.14576035270795,31.962728811
+"crypto/cipher-stream.js","api=""legacy"" len=2 type=""asc"" cipher=""AES192"" writes=500",0.000052399815961739125,0.017773394
+"crypto/cipher-stream.js","api=""stream"" len=2 type=""asc"" cipher=""AES192"" writes=500",0.0001635234228813033,0.045562773
+"crypto/cipher-stream.js","api=""legacy"" len=1024 type=""asc"" cipher=""AES192"" writes=500",0.011280293720006676,0.042271697
+"crypto/cipher-stream.js","api=""stream"" len=1024 type=""asc"" cipher=""AES192"" writes=500",0.04476890529221487,0.085208634
+"crypto/cipher-stream.js","api=""legacy"" len=102400 type=""asc"" cipher=""AES192"" writes=500",0.01889886161035929,2.523099899
+"crypto/cipher-stream.js","api=""stream"" len=102400 type=""asc"" cipher=""AES192"" writes=500",0.16364395479866656,2.331095744
+"crypto/cipher-stream.js","api=""legacy"" len=1048576 type=""asc"" cipher=""AES192"" writes=500",0.02152996945854794,22.679142715
+"crypto/cipher-stream.js","api=""stream"" len=1048576 type=""asc"" cipher=""AES192"" writes=500",0.17360572841534883,22.500697619
+"crypto/cipher-stream.js","api=""legacy"" len=2 type=""utf"" cipher=""AES192"" writes=500",0.000055485689061605526,0.016784915
+"crypto/cipher-stream.js","api=""stream"" len=2 type=""utf"" cipher=""AES192"" writes=500",0.0001720626528276219,0.043301556
+"crypto/cipher-stream.js","api=""legacy"" len=1024 type=""utf"" cipher=""AES192"" writes=500",0.01173046722399572,0.040649460
+"crypto/cipher-stream.js","api=""stream"" len=1024 type=""utf"" cipher=""AES192"" writes=500",0.04647826767055427,0.082074859
+"crypto/cipher-stream.js","api=""legacy"" len=102400 type=""utf"" cipher=""AES192"" writes=500",0.01940298016231803,2.457545976
+"crypto/cipher-stream.js","api=""stream"" len=102400 type=""utf"" cipher=""AES192"" writes=500",0.14180467240797656,2.690106892
+"crypto/cipher-stream.js","api=""legacy"" len=1048576 type=""utf"" cipher=""AES192"" writes=500",0.02151397185455452,22.696006730
+"crypto/cipher-stream.js","api=""stream"" len=1048576 type=""utf"" cipher=""AES192"" writes=500",0.16522238938454156,23.642376887
+"crypto/cipher-stream.js","api=""legacy"" len=2 type=""buf"" cipher=""AES192"" writes=500",0.0000651316476127923,0.014299079
+"crypto/cipher-stream.js","api=""stream"" len=2 type=""buf"" cipher=""AES192"" writes=500",0.00017889709428265497,0.041647298
+"crypto/cipher-stream.js","api=""legacy"" len=1024 type=""buf"" cipher=""AES192"" writes=500",0.012726061022128516,0.037469344
+"crypto/cipher-stream.js","api=""stream"" len=1024 type=""buf"" cipher=""AES192"" writes=500",0.04734582053560502,0.080570940
+"crypto/cipher-stream.js","api=""legacy"" len=102400 type=""buf"" cipher=""AES192"" writes=500",0.021718389060050337,2.195545705
+"crypto/cipher-stream.js","api=""stream"" len=102400 type=""buf"" cipher=""AES192"" writes=500",0.16818094599781783,2.268210137
+"crypto/cipher-stream.js","api=""legacy"" len=1048576 type=""buf"" cipher=""AES192"" writes=500",0.022026048922517538,22.168354012
+"crypto/cipher-stream.js","api=""stream"" len=1048576 type=""buf"" cipher=""AES192"" writes=500",0.17428978024761055,22.412386971
+"crypto/cipher-stream.js","api=""legacy"" len=2 type=""asc"" cipher=""AES256"" writes=500",0.000052202035343249546,0.017840733
+"crypto/cipher-stream.js","api=""stream"" len=2 type=""asc"" cipher=""AES256"" writes=500",0.00016935987970075026,0.043992595
+"crypto/cipher-stream.js","api=""legacy"" len=1024 type=""asc"" cipher=""AES256"" writes=500",0.009965792662231267,0.047847389
+"crypto/cipher-stream.js","api=""stream"" len=1024 type=""asc"" cipher=""AES256"" writes=500",0.04188498793309179,0.091075525
+"crypto/cipher-stream.js","api=""legacy"" len=102400 type=""asc"" cipher=""AES256"" writes=500",0.018929879228946338,2.518965665
+"crypto/cipher-stream.js","api=""stream"" len=102400 type=""asc"" cipher=""AES256"" writes=500",0.14463029428728896,2.637550649
+"crypto/cipher-stream.js","api=""legacy"" len=1048576 type=""asc"" cipher=""AES256"" writes=500",0.019496572360741263,25.044466328
+"crypto/cipher-stream.js","api=""stream"" len=1048576 type=""asc"" cipher=""AES256"" writes=500",0.15644137598677563,24.969417300
+"crypto/cipher-stream.js","api=""legacy"" len=2 type=""utf"" cipher=""AES256"" writes=500",0.00005690623314464718,0.016365915
+"crypto/cipher-stream.js","api=""stream"" len=2 type=""utf"" cipher=""AES256"" writes=500",0.0001767068102246743,0.042163517
+"crypto/cipher-stream.js","api=""legacy"" len=1024 type=""utf"" cipher=""AES256"" writes=500",0.010819475266914805,0.044072115
+"crypto/cipher-stream.js","api=""stream"" len=1024 type=""utf"" cipher=""AES256"" writes=500",0.044049534516224745,0.086600172
+"crypto/cipher-stream.js","api=""legacy"" len=102400 type=""utf"" cipher=""AES256"" writes=500",0.019066354047415277,2.500935192
+"crypto/cipher-stream.js","api=""stream"" len=102400 type=""utf"" cipher=""AES256"" writes=500",0.14543049224262306,2.623038131
+"crypto/cipher-stream.js","api=""legacy"" len=1048576 type=""utf"" cipher=""AES256"" writes=500",0.019414278019748536,25.150626230
+"crypto/cipher-stream.js","api=""stream"" len=1048576 type=""utf"" cipher=""AES256"" writes=500",0.15222583387720368,25.660887515
+"crypto/cipher-stream.js","api=""legacy"" len=2 type=""buf"" cipher=""AES256"" writes=500",0.0000679367068613082,0.013708680
+"crypto/cipher-stream.js","api=""stream"" len=2 type=""buf"" cipher=""AES256"" writes=500",0.00017917725706729042,0.041582178
+"crypto/cipher-stream.js","api=""legacy"" len=1024 type=""buf"" cipher=""AES256"" writes=500",0.012116722775489185,0.039353641
+"crypto/cipher-stream.js","api=""stream"" len=1024 type=""buf"" cipher=""AES256"" writes=500",0.045848383811462154,0.083202437
+"crypto/cipher-stream.js","api=""legacy"" len=102400 type=""buf"" cipher=""AES256"" writes=500",0.0186248830443462,2.560215584
+"crypto/cipher-stream.js","api=""stream"" len=102400 type=""buf"" cipher=""AES256"" writes=500",0.15078146182567198,2.529951109
+"crypto/cipher-stream.js","api=""legacy"" len=1048576 type=""buf"" cipher=""AES256"" writes=500",0.019574792703673388,24.944389317
+"crypto/cipher-stream.js","api=""stream"" len=1048576 type=""buf"" cipher=""AES256"" writes=500",0.15728873151762834,24.834900519
+"crypto/create-keyobject.js","n=1000 keyFormat=""pkcs8"" keyType=""rsa""",473.08122284301487,2.113801926
+"crypto/create-keyobject.js","n=1000 keyFormat=""spki"" keyType=""rsa""",1316.3165995945,0.759695654
+"crypto/create-keyobject.js","n=1000 keyFormat=""der-pkcs8"" keyType=""rsa""",458.0523571085266,2.183156542
+"crypto/create-keyobject.js","n=1000 keyFormat=""der-spki"" keyType=""rsa""",1393.6350019257388,0.717547994
+"crypto/create-keyobject.js","n=1000 keyFormat=""jwk-public"" keyType=""rsa""",16979.93486191348,0.058893041
+"crypto/create-keyobject.js","n=1000 keyFormat=""jwk-private"" keyType=""rsa""",10029.744310023247,0.099703439
+"crypto/create-keyobject.js","n=1000 keyFormat=""pkcs8"" keyType=""ec""",476.31426868119223,2.099454217
+"crypto/create-keyobject.js","n=1000 keyFormat=""spki"" keyType=""ec""",1623.1014418096133,0.616104437
+"crypto/create-keyobject.js","n=1000 keyFormat=""der-pkcs8"" keyType=""ec""",466.966876620796,2.141479514
+"crypto/create-keyobject.js","n=1000 keyFormat=""der-spki"" keyType=""ec""",1698.4043409693184,0.588787944
+"crypto/create-keyobject.js","n=1000 keyFormat=""jwk-public"" keyType=""ec""",579.9408921459009,1.724313656
+"crypto/create-keyobject.js","n=1000 keyFormat=""jwk-private"" keyType=""ec""",588.4939122676406,1.699252922
+"crypto/create-keyobject.js","n=1000 keyFormat=""pkcs8"" keyType=""ed25519""",477.94206923825936,2.092303784
+"crypto/create-keyobject.js","n=1000 keyFormat=""spki"" keyType=""ed25519""",2060.704607247115,0.485270910
+"crypto/create-keyobject.js","n=1000 keyFormat=""der-pkcs8"" keyType=""ed25519""",472.55876755010013,2.116138920
+"crypto/create-keyobject.js","n=1000 keyFormat=""der-spki"" keyType=""ed25519""",2077.6568588180617,0.481311433
+"crypto/create-keyobject.js","n=1000 keyFormat=""jwk-public"" keyType=""ed25519""",9552.710202277302,0.104682334
+"crypto/create-keyobject.js","n=1000 keyFormat=""jwk-private"" keyType=""ed25519""",4210.595458199104,0.237496100
+"crypto/get-ciphers.js","v=""crypto"" n=1",354.45947234454025,0.002821197
+"crypto/get-ciphers.js","v=""tls"" n=1",239.96151017376812,0.004167335
+"crypto/get-ciphers.js","v=""crypto"" n=5000",1081456.37567199,0.004623395
+"crypto/get-ciphers.js","v=""tls"" n=5000",912579.6180087732,0.005478974
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""hex"" type=""asc"" algo=""sha256"" writes=500",0.0003057640066213814,0.024367095
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""hex"" type=""asc"" algo=""sha256"" writes=500",0.000046891391158616865,0.158890159
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""hex"" type=""asc"" algo=""sha256"" writes=500",0.11267802741223516,0.033854846
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""hex"" type=""asc"" algo=""sha256"" writes=500",0.022534508804686142,0.169282468
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""hex"" type=""asc"" algo=""sha256"" writes=500",0.4181396552576321,0.912302198
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""hex"" type=""asc"" algo=""sha256"" writes=500",0.34986784457710735,1.090325197
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""hex"" type=""asc"" algo=""sha256"" writes=500",0.4279500676259597,9.127817228
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""hex"" type=""asc"" algo=""sha256"" writes=500",0.4181754305954844,9.341175292
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""binary"" type=""asc"" algo=""sha256"" writes=500",0.00029609818299396347,0.025162534
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""binary"" type=""asc"" algo=""sha256"" writes=500",0.00004753496833262277,0.156738941
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""binary"" type=""asc"" algo=""sha256"" writes=500",0.11227899159945212,0.033975165
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""binary"" type=""asc"" algo=""sha256"" writes=500",0.022833918649076957,0.167062751
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""binary"" type=""asc"" algo=""sha256"" writes=500",0.4199235629395349,0.908426581
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""binary"" type=""asc"" algo=""sha256"" writes=500",0.34814295821734564,1.095727251
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""binary"" type=""asc"" algo=""sha256"" writes=500",0.4286206049276364,9.113537602
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""binary"" type=""asc"" algo=""sha256"" writes=500",0.418482984639703,9.334310219
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""buffer"" type=""asc"" algo=""sha256"" writes=500",0.0002538323257403577,0.029352371
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""buffer"" type=""asc"" algo=""sha256"" writes=500",0.00005328361429994608,0.139828739
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""buffer"" type=""asc"" algo=""sha256"" writes=500",0.09860981862147217,0.038684761
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""buffer"" type=""asc"" algo=""sha256"" writes=500",0.0253561951784137,0.150444388
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""buffer"" type=""asc"" algo=""sha256"" writes=500",0.41255848142604895,0.924644005
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""buffer"" type=""asc"" algo=""sha256"" writes=500",0.35766818836367537,1.066546422
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""buffer"" type=""asc"" algo=""sha256"" writes=500",0.42769677713051396,9.133222902
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""buffer"" type=""asc"" algo=""sha256"" writes=500",0.41822726629778806,9.340017533
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""hex"" type=""utf"" algo=""sha256"" writes=500",0.00032399495776690976,0.022995977
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""hex"" type=""utf"" algo=""sha256"" writes=500",0.00004663347387915809,0.159768938
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""hex"" type=""utf"" algo=""sha256"" writes=500",0.11506984602055688,0.033151146
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""hex"" type=""utf"" algo=""sha256"" writes=500",0.02288466242228173,0.166692311
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""hex"" type=""utf"" algo=""sha256"" writes=500",0.3856516251892488,0.989156279
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""hex"" type=""utf"" algo=""sha256"" writes=500",0.321935245692599,1.184926881
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""hex"" type=""utf"" algo=""sha256"" writes=500",0.39099221770130865,9.990608056
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""hex"" type=""utf"" algo=""sha256"" writes=500",0.38233369815483487,10.216860347
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""binary"" type=""utf"" algo=""sha256"" writes=500",0.0003188743268231044,0.023365257
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""binary"" type=""utf"" algo=""sha256"" writes=500",0.000046843730533381054,0.159051820
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""binary"" type=""utf"" algo=""sha256"" writes=500",0.11166210051835523,0.034162865
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""binary"" type=""utf"" algo=""sha256"" writes=500",0.021158971943711136,0.180287458
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""binary"" type=""utf"" algo=""sha256"" writes=500",0.38321552890140365,0.995444333
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""binary"" type=""utf"" algo=""sha256"" writes=500",0.3271943987243926,1.165880981
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""binary"" type=""utf"" algo=""sha256"" writes=500",0.3909069638120743,9.992786933
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""binary"" type=""utf"" algo=""sha256"" writes=500",0.3842405528061166,10.166157558
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""buffer"" type=""utf"" algo=""sha256"" writes=500",0.0002702290622862393,0.027571352
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""buffer"" type=""utf"" algo=""sha256"" writes=500",0.00005209687785242322,0.143013956
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""buffer"" type=""utf"" algo=""sha256"" writes=500",0.09844760873781931,0.038748501
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""buffer"" type=""utf"" algo=""sha256"" writes=500",0.02569259007528351,0.148474609
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""buffer"" type=""utf"" algo=""sha256"" writes=500",0.3809673875369025,1.001318588
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""buffer"" type=""utf"" algo=""sha256"" writes=500",0.33068824925670964,1.153562993
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""buffer"" type=""utf"" algo=""sha256"" writes=500",0.3903992266616324,10.005783140
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""buffer"" type=""utf"" algo=""sha256"" writes=500",0.3840588535855678,10.170967193
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""hex"" type=""buf"" algo=""sha256"" writes=500",0.0003544122213561308,0.021022358
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""hex"" type=""buf"" algo=""sha256"" writes=500",0.0000466688825262371,0.159647718
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""hex"" type=""buf"" algo=""sha256"" writes=500",0.1283764513537471,0.029714930
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""hex"" type=""buf"" algo=""sha256"" writes=500",0.02304262280980157,0.165549612
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""hex"" type=""buf"" algo=""sha256"" writes=500",0.41845473169274816,0.911615278
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""hex"" type=""buf"" algo=""sha256"" writes=500",0.35779155348023695,1.066178681
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""hex"" type=""buf"" algo=""sha256"" writes=500",0.4341485540464152,8.997496280
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""hex"" type=""buf"" algo=""sha256"" writes=500",0.42229217939000235,9.250112104
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""binary"" type=""buf"" algo=""sha256"" writes=500",0.0003548078332856878,0.020998918
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""binary"" type=""buf"" algo=""sha256"" writes=500",0.00004684714160247098,0.159040239
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""binary"" type=""buf"" algo=""sha256"" writes=500",0.12641389389420488,0.030176250
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""binary"" type=""buf"" algo=""sha256"" writes=500",0.022070922154100173,0.172838146
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""binary"" type=""buf"" algo=""sha256"" writes=500",0.41852112650509476,0.911470658
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""binary"" type=""buf"" algo=""sha256"" writes=500",0.35897757553785187,1.062656145
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""binary"" type=""buf"" algo=""sha256"" writes=500",0.43323994249541503,9.016366260
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""binary"" type=""buf"" algo=""sha256"" writes=500",0.42317588344632756,9.230795404
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""buffer"" type=""buf"" algo=""sha256"" writes=500",0.00028835777127586814,0.025837974
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""buffer"" type=""buf"" algo=""sha256"" writes=500",0.00005483047907679136,0.135883923
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""buffer"" type=""buf"" algo=""sha256"" writes=500",0.1119102052084121,0.034087126
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""buffer"" type=""buf"" algo=""sha256"" writes=500",0.02626898523371677,0.145216773
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""buffer"" type=""buf"" algo=""sha256"" writes=500",0.41274147887778795,0.924234045
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""buffer"" type=""buf"" algo=""sha256"" writes=500",0.3582398824209227,1.064844383
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""buffer"" type=""buf"" algo=""sha256"" writes=500",0.43185922780719277,9.045192851
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""buffer"" type=""buf"" algo=""sha256"" writes=500",0.4233415317942479,9.227183507
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""hex"" type=""asc"" algo=""md5"" writes=500",0.00029346148251583747,0.025388615
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""hex"" type=""asc"" algo=""md5"" writes=500",0.0000464883949045491,0.160267538
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""hex"" type=""asc"" algo=""md5"" writes=500",0.14455331113888137,0.026389553
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""hex"" type=""asc"" algo=""md5"" writes=500",0.02336414081460228,0.163271455
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""hex"" type=""asc"" algo=""md5"" writes=500",1.7057765565636975,0.223634054
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""hex"" type=""asc"" algo=""md5"" writes=500",1.0166896536163559,0.375207641
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""hex"" type=""asc"" algo=""md5"" writes=500",1.8192402606861453,2.147187529
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""hex"" type=""asc"" algo=""md5"" writes=500",1.6824710680272328,2.321733832
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""binary"" type=""asc"" algo=""md5"" writes=500",0.0003085354461349786,0.024148216
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""binary"" type=""asc"" algo=""md5"" writes=500",0.000047973521020766505,0.155306103
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""binary"" type=""asc"" algo=""md5"" writes=500",0.14683459406674187,0.025979554
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""binary"" type=""asc"" algo=""md5"" writes=500",0.02388759384381693,0.159693659
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""binary"" type=""asc"" algo=""md5"" writes=500",1.7145793739531219,0.222485895
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""binary"" type=""asc"" algo=""md5"" writes=500",1.0285532362895207,0.370879905
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""binary"" type=""asc"" algo=""md5"" writes=500",1.8480730942224821,2.113688042
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""binary"" type=""asc"" algo=""md5"" writes=500",1.6763860918001006,2.330161303
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""buffer"" type=""asc"" algo=""md5"" writes=500",0.0002593684989973779,0.028725850
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""buffer"" type=""asc"" algo=""md5"" writes=500",0.00005352728565574159,0.139192199
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""buffer"" type=""asc"" algo=""md5"" writes=500",0.11554938553517666,0.033013566
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""buffer"" type=""asc"" algo=""md5"" writes=500",0.026982690850826947,0.141375717
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""buffer"" type=""asc"" algo=""md5"" writes=500",1.6384515020670718,0.232823325
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""buffer"" type=""asc"" algo=""md5"" writes=500",1.1135128731632151,0.342582233
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""buffer"" type=""asc"" algo=""md5"" writes=500",1.8481334769503253,2.113618983
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""buffer"" type=""asc"" algo=""md5"" writes=500",1.6976437914960747,2.300983292
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""hex"" type=""utf"" algo=""md5"" writes=500",0.00033420839454061,0.022293218
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""hex"" type=""utf"" algo=""md5"" writes=500",0.00004815814552122927,0.154710704
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""hex"" type=""utf"" algo=""md5"" writes=500",0.15107284750938133,0.025250714
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""hex"" type=""utf"" algo=""md5"" writes=500",0.02386329326247485,0.159856279
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""hex"" type=""utf"" algo=""md5"" writes=500",1.2348451365691242,0.308921107
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""hex"" type=""utf"" algo=""md5"" writes=500",0.8327213416748552,0.458100096
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""hex"" type=""utf"" algo=""md5"" writes=500",1.306564319354649,2.989711216
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""hex"" type=""utf"" algo=""md5"" writes=500",1.2265213902336567,3.184820119
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""binary"" type=""utf"" algo=""md5"" writes=500",0.000337741074365552,0.022060037
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""binary"" type=""utf"" algo=""md5"" writes=500",0.00004654254387844533,0.160081078
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""binary"" type=""utf"" algo=""md5"" writes=500",0.15028709143881033,0.025382734
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""binary"" type=""utf"" algo=""md5"" writes=500",0.023947502466961142,0.159294159
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""binary"" type=""utf"" algo=""md5"" writes=500",1.2367988930763554,0.308433108
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""binary"" type=""utf"" algo=""md5"" writes=500",0.8451429891208018,0.451367084
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""binary"" type=""utf"" algo=""md5"" writes=500",1.3011476073931703,3.002157463
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""binary"" type=""utf"" algo=""md5"" writes=500",1.2300869091032658,3.175588628
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""buffer"" type=""utf"" algo=""md5"" writes=500",0.00028153588556234483,0.026464053
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""buffer"" type=""utf"" algo=""md5"" writes=500",0.00005482413663826791,0.135899643
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""buffer"" type=""utf"" algo=""md5"" writes=500",0.12352227034351437,0.030882668
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""buffer"" type=""utf"" algo=""md5"" writes=500",0.026731136954230194,0.142706136
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""buffer"" type=""utf"" algo=""md5"" writes=500",1.1952130851725962,0.319164617
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""buffer"" type=""utf"" algo=""md5"" writes=500",0.8880902191599962,0.429539385
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""buffer"" type=""utf"" algo=""md5"" writes=500",1.2965598789059776,3.012780253
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""buffer"" type=""utf"" algo=""md5"" writes=500",1.2227743714263664,3.194579549
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""hex"" type=""buf"" algo=""md5"" writes=500",0.00036040850968588074,0.020672599
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""hex"" type=""buf"" algo=""md5"" writes=500",0.00004801433005173439,0.155174103
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""hex"" type=""buf"" algo=""md5"" writes=500",0.17055423013758492,0.022366477
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""hex"" type=""buf"" algo=""md5"" writes=500",0.02448521268879228,0.155795962
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""hex"" type=""buf"" algo=""md5"" writes=500",1.795167494124948,0.212498125
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""hex"" type=""buf"" algo=""md5"" writes=500",1.0881480743744536,0.350567846
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""hex"" type=""buf"" algo=""md5"" writes=500",1.9383314008274712,2.015264262
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""hex"" type=""buf"" algo=""md5"" writes=500",1.7435580925976433,2.240389934
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""binary"" type=""buf"" algo=""md5"" writes=500",0.00036462685487860503,0.020433439
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""binary"" type=""buf"" algo=""md5"" writes=500",0.00004867663665244665,0.153062765
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""binary"" type=""buf"" algo=""md5"" writes=500",0.16591875945137816,0.022991356
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""binary"" type=""buf"" algo=""md5"" writes=500",0.024128950191775543,0.158096280
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""binary"" type=""buf"" algo=""md5"" writes=500",1.798842074159719,0.212064045
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""binary"" type=""buf"" algo=""md5"" writes=500",1.082688867044148,0.352335503
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""binary"" type=""buf"" algo=""md5"" writes=500",1.9238582041430596,2.030425107
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""binary"" type=""buf"" algo=""md5"" writes=500",1.755495787131437,2.225154870
+"crypto/hash-stream-creation.js","api=""legacy"" len=2 out=""buffer"" type=""buf"" algo=""md5"" writes=500",0.00029566318123172526,0.025199555
+"crypto/hash-stream-creation.js","api=""stream"" len=2 out=""buffer"" type=""buf"" algo=""md5"" writes=500",0.00005381519763401342,0.138447519
+"crypto/hash-stream-creation.js","api=""legacy"" len=1024 out=""buffer"" type=""buf"" algo=""md5"" writes=500",0.1401856545519377,0.027211752
+"crypto/hash-stream-creation.js","api=""stream"" len=1024 out=""buffer"" type=""buf"" algo=""md5"" writes=500",0.027789170453548187,0.137272801
+"crypto/hash-stream-creation.js","api=""legacy"" len=102400 out=""buffer"" type=""buf"" algo=""md5"" writes=500",1.7590537117155094,0.216860761
+"crypto/hash-stream-creation.js","api=""stream"" len=102400 out=""buffer"" type=""buf"" algo=""md5"" writes=500",1.1589907893465143,0.329139567
+"crypto/hash-stream-creation.js","api=""legacy"" len=1048576 out=""buffer"" type=""buf"" algo=""md5"" writes=500",1.90315976330503,2.052507664
+"crypto/hash-stream-creation.js","api=""stream"" len=1048576 out=""buffer"" type=""buf"" algo=""md5"" writes=500",1.7640000618489466,2.214427360
+"crypto/hash-stream-throughput.js","api=""legacy"" len=2 type=""asc"" algo=""sha1"" writes=500",0.0011735611445320608,0.006348694
+"crypto/hash-stream-throughput.js","api=""stream"" len=2 type=""asc"" algo=""sha1"" writes=500",0.0003412144491145936,0.021835478
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1024 type=""asc"" algo=""sha1"" writes=500",0.3779551218840998,0.010092990
+"crypto/hash-stream-throughput.js","api=""stream"" len=1024 type=""asc"" algo=""sha1"" writes=500",0.14961783300669737,0.025496274
+"crypto/hash-stream-throughput.js","api=""legacy"" len=102400 type=""asc"" algo=""sha1"" writes=500",1.0651112686845463,0.358150118
+"crypto/hash-stream-throughput.js","api=""stream"" len=102400 type=""asc"" algo=""sha1"" writes=500",1.0222160409382237,0.373179163
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1048576 type=""asc"" algo=""sha1"" writes=500",1.0736192592571583,3.638394120
+"crypto/hash-stream-throughput.js","api=""stream"" len=1048576 type=""asc"" algo=""sha1"" writes=500",1.06321131885671,3.674010924
+"crypto/hash-stream-throughput.js","api=""legacy"" len=2 type=""utf"" algo=""sha1"" writes=500",0.0016680369466967892,0.004466676
+"crypto/hash-stream-throughput.js","api=""stream"" len=2 type=""utf"" algo=""sha1"" writes=500",0.00035873462523862193,0.020769059
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1024 type=""utf"" algo=""sha1"" writes=500",0.4120873644446355,0.009257011
+"crypto/hash-stream-throughput.js","api=""stream"" len=1024 type=""utf"" algo=""sha1"" writes=500",0.14765598007825342,0.025835034
+"crypto/hash-stream-throughput.js","api=""legacy"" len=102400 type=""utf"" algo=""sha1"" writes=500",0.8675468740651525,0.439710796
+"crypto/hash-stream-throughput.js","api=""stream"" len=102400 type=""utf"" algo=""sha1"" writes=500",0.8229675790398664,0.463529471
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1048576 type=""utf"" algo=""sha1"" writes=500",0.8688508914284364,4.495880753
+"crypto/hash-stream-throughput.js","api=""stream"" len=1048576 type=""utf"" algo=""sha1"" writes=500",0.8616013353736597,4.533709315
+"crypto/hash-stream-throughput.js","api=""legacy"" len=2 type=""buf"" algo=""sha1"" writes=500",0.002153722961153863,0.003459396
+"crypto/hash-stream-throughput.js","api=""stream"" len=2 type=""buf"" algo=""sha1"" writes=500",0.00038460721561500423,0.019371921
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1024 type=""buf"" algo=""sha1"" writes=500",0.5298460721018696,0.007199633
+"crypto/hash-stream-throughput.js","api=""stream"" len=1024 type=""buf"" algo=""sha1"" writes=500",0.16085414661452527,0.023715256
+"crypto/hash-stream-throughput.js","api=""legacy"" len=102400 type=""buf"" algo=""sha1"" writes=500",1.107489000505833,0.344445612
+"crypto/hash-stream-throughput.js","api=""stream"" len=102400 type=""buf"" algo=""sha1"" writes=500",1.0536296482268173,0.362052954
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1048576 type=""buf"" algo=""sha1"" writes=500",1.1096479621734958,3.520260599
+"crypto/hash-stream-throughput.js","api=""stream"" len=1048576 type=""buf"" algo=""sha1"" writes=500",1.107694959219291,3.526467253
+"crypto/hash-stream-throughput.js","api=""legacy"" len=2 type=""asc"" algo=""sha256"" writes=500",0.0011309914875498664,0.006587654
+"crypto/hash-stream-throughput.js","api=""stream"" len=2 type=""asc"" algo=""sha256"" writes=500",0.0003484119869506651,0.021384398
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1024 type=""asc"" algo=""sha256"" writes=500",0.24681229503733987,0.015455864
+"crypto/hash-stream-throughput.js","api=""stream"" len=1024 type=""asc"" algo=""sha256"" writes=500",0.12151663217290128,0.031392388
+"crypto/hash-stream-throughput.js","api=""legacy"" len=102400 type=""asc"" algo=""sha256"" writes=500",0.42238228877468126,0.903138547
+"crypto/hash-stream-throughput.js","api=""stream"" len=102400 type=""asc"" algo=""sha256"" writes=500",0.4111934885195939,0.927713442
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1048576 type=""asc"" algo=""sha256"" writes=500",0.4317271151103205,9.047960768
+"crypto/hash-stream-throughput.js","api=""stream"" len=1048576 type=""asc"" algo=""sha256"" writes=500",0.4296521881970913,9.091656245
+"crypto/hash-stream-throughput.js","api=""legacy"" len=2 type=""utf"" algo=""sha256"" writes=500",0.0016713372071515608,0.004457856
+"crypto/hash-stream-throughput.js","api=""stream"" len=2 type=""utf"" algo=""sha256"" writes=500",0.00036261267904303545,0.020546939
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1024 type=""utf"" algo=""sha256"" writes=500",0.2604453364893074,0.014646825
+"crypto/hash-stream-throughput.js","api=""stream"" len=1024 type=""utf"" algo=""sha256"" writes=500",0.1232253221749952,0.030957089
+"crypto/hash-stream-throughput.js","api=""legacy"" len=102400 type=""utf"" algo=""sha256"" writes=500",0.3877638453186783,0.983768165
+"crypto/hash-stream-throughput.js","api=""stream"" len=102400 type=""utf"" algo=""sha256"" writes=500",0.37631047458278544,1.013710094
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1048576 type=""utf"" algo=""sha256"" writes=500",0.3939907220045994,9.914573572
+"crypto/hash-stream-throughput.js","api=""stream"" len=1048576 type=""utf"" algo=""sha256"" writes=500",0.3921317181299922,9.961576224
+"crypto/hash-stream-throughput.js","api=""legacy"" len=2 type=""buf"" algo=""sha256"" writes=500",0.0021463144018929385,0.003471337
+"crypto/hash-stream-throughput.js","api=""stream"" len=2 type=""buf"" algo=""sha256"" writes=500",0.00036458793992664903,0.020435620
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1024 type=""buf"" algo=""sha256"" writes=500",0.3099931239957945,0.012305748
+"crypto/hash-stream-throughput.js","api=""stream"" len=1024 type=""buf"" algo=""sha256"" writes=500",0.1356388360370035,0.028123931
+"crypto/hash-stream-throughput.js","api=""legacy"" len=102400 type=""buf"" algo=""sha256"" writes=500",0.42948140033916593,0.888210121
+"crypto/hash-stream-throughput.js","api=""stream"" len=102400 type=""buf"" algo=""sha256"" writes=500",0.41781420748937853,0.913012817
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1048576 type=""buf"" algo=""sha256"" writes=500",0.43648125696439993,8.949410628
+"crypto/hash-stream-throughput.js","api=""stream"" len=1048576 type=""buf"" algo=""sha256"" writes=500",0.43501639710521245,8.979546578
+"crypto/hash-stream-throughput.js","api=""legacy"" len=2 type=""asc"" algo=""sha512"" writes=500",0.0011294212215692378,0.006596813
+"crypto/hash-stream-throughput.js","api=""stream"" len=2 type=""asc"" algo=""sha512"" writes=500",0.0003470390465788775,0.021468998
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1024 type=""asc"" algo=""sha512"" writes=500",0.3367765188744892,0.011327088
+"crypto/hash-stream-throughput.js","api=""stream"" len=1024 type=""asc"" algo=""sha512"" writes=500",0.14214907123176412,0.026835893
+"crypto/hash-stream-throughput.js","api=""legacy"" len=102400 type=""asc"" algo=""sha512"" writes=500",0.775915960096066,0.491637943
+"crypto/hash-stream-throughput.js","api=""stream"" len=102400 type=""asc"" algo=""sha512"" writes=500",0.7536954269499659,0.506132468
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1048576 type=""asc"" algo=""sha512"" writes=500",0.7829558832953062,4.989106134
+"crypto/hash-stream-throughput.js","api=""stream"" len=1048576 type=""asc"" algo=""sha512"" writes=500",0.7765875497620801,5.030018832
+"crypto/hash-stream-throughput.js","api=""legacy"" len=2 type=""utf"" algo=""sha512"" writes=500",0.0016290852353896827,0.004573475
+"crypto/hash-stream-throughput.js","api=""stream"" len=2 type=""utf"" algo=""sha512"" writes=500",0.00036501807124508486,0.020411539
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1024 type=""utf"" algo=""sha512"" writes=500",0.3579646910538322,0.010656630
+"crypto/hash-stream-throughput.js","api=""stream"" len=1024 type=""utf"" algo=""sha512"" writes=500",0.1405175820830543,0.027147473
+"crypto/hash-stream-throughput.js","api=""legacy"" len=102400 type=""utf"" algo=""sha512"" writes=500",0.6667432085036638,0.572138901
+"crypto/hash-stream-throughput.js","api=""stream"" len=102400 type=""utf"" algo=""sha512"" writes=500",0.637598444488167,0.598291495
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1048576 type=""utf"" algo=""sha512"" writes=500",0.6669517294764439,5.856870636
+"crypto/hash-stream-throughput.js","api=""stream"" len=1048576 type=""utf"" algo=""sha512"" writes=500",0.6640311078629727,5.882631030
+"crypto/hash-stream-throughput.js","api=""legacy"" len=2 type=""buf"" algo=""sha512"" writes=500",0.0021607810794490143,0.003448096
+"crypto/hash-stream-throughput.js","api=""stream"" len=2 type=""buf"" algo=""sha512"" writes=500",0.00037296427915997106,0.019976660
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1024 type=""buf"" algo=""sha512"" writes=500",0.45823119599965456,0.008324831
+"crypto/hash-stream-throughput.js","api=""stream"" len=1024 type=""buf"" algo=""sha512"" writes=500",0.15146598810971088,0.025185174
+"crypto/hash-stream-throughput.js","api=""legacy"" len=102400 type=""buf"" algo=""sha512"" writes=500",0.8007316185582867,0.476401478
+"crypto/hash-stream-throughput.js","api=""stream"" len=102400 type=""buf"" algo=""sha512"" writes=500",0.7710244774777902,0.494756960
+"crypto/hash-stream-throughput.js","api=""legacy"" len=1048576 type=""buf"" algo=""sha512"" writes=500",0.8025143780391731,4.867514037
+"crypto/hash-stream-throughput.js","api=""stream"" len=1048576 type=""buf"" algo=""sha512"" writes=500",0.7971597488645722,4.900209783
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""a"" size=10 sync=0",8529.209399178522,0.117244161
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""a"" size=10 sync=0",8805.396122852007,0.113566725
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""a"" size=10 sync=0",9023.167415451207,0.110825828
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""a"" size=10 sync=0",8380.078809613156,0.119330620
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""a"" size=10 sync=0",8474.306170631291,0.118003761
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""a"" size=10 sync=0",8382.994190920346,0.119289120
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""a"" size=10 sync=0",8996.75987990657,0.111151127
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""a"" size=10 sync=0",8456.389229533388,0.118253781
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""secret"" size=10 sync=0",8742.942751254579,0.114377965
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""secret"" size=10 sync=0",8647.988746337653,0.115633823
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""secret"" size=10 sync=0",8446.29835062375,0.118395060
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""secret"" size=10 sync=0",8448.356296247359,0.118366220
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""secret"" size=10 sync=0",8824.126389868294,0.113325666
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""secret"" size=10 sync=0",8526.12449734446,0.117286582
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""secret"" size=10 sync=0",8412.443956298364,0.118871520
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""secret"" size=10 sync=0",8368.458613356952,0.119496319
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""this-is-a-much-longer-secret"" size=10 sync=0",8761.842637937074,0.114131244
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""this-is-a-much-longer-secret"" size=10 sync=0",8965.084376191544,0.111543847
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""this-is-a-much-longer-secret"" size=10 sync=0",8794.452494544252,0.113708045
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""this-is-a-much-longer-secret"" size=10 sync=0",8216.628721179683,0.121704416
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""this-is-a-much-longer-secret"" size=10 sync=0",8721.157084051129,0.114663684
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""this-is-a-much-longer-secret"" size=10 sync=0",8299.755427786908,0.120485478
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""this-is-a-much-longer-secret"" size=10 sync=0",8070.564170770716,0.123907075
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""this-is-a-much-longer-secret"" size=10 sync=0",8481.71528781683,0.117900680
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""a"" size=64 sync=0",9320.281906465902,0.107292892
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""a"" size=64 sync=0",9266.869160731445,0.107911311
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""a"" size=64 sync=0",8717.978993924999,0.114705484
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""a"" size=64 sync=0",8962.858604084786,0.111571547
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""a"" size=64 sync=0",9117.378581521705,0.109680649
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""a"" size=64 sync=0",8792.443598122902,0.113734025
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""a"" size=64 sync=0",8903.805652146513,0.112311526
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""a"" size=64 sync=0",8253.98114066008,0.121153657
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""secret"" size=64 sync=0",8840.328688371217,0.113117966
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""secret"" size=64 sync=0",8820.886829733226,0.113367286
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""secret"" size=64 sync=0",8960.174684698397,0.111604967
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""secret"" size=64 sync=0",8557.77224962806,0.116852841
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""secret"" size=64 sync=0",8946.428579895726,0.111776447
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""secret"" size=64 sync=0",9141.606027879941,0.109389969
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""secret"" size=64 sync=0",8836.224519487436,0.113170506
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""secret"" size=64 sync=0",8706.096158274879,0.114862044
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""this-is-a-much-longer-secret"" size=64 sync=0",8633.997697295546,0.115821203
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""this-is-a-much-longer-secret"" size=64 sync=0",8654.575077110316,0.115545823
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""this-is-a-much-longer-secret"" size=64 sync=0",8147.156150415273,0.122742216
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""this-is-a-much-longer-secret"" size=64 sync=0",8918.688725152466,0.112124106
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""this-is-a-much-longer-secret"" size=64 sync=0",8662.26381698861,0.115443263
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""this-is-a-much-longer-secret"" size=64 sync=0",8210.941248358828,0.121788717
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""this-is-a-much-longer-secret"" size=64 sync=0",8492.792519439641,0.117746901
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""this-is-a-much-longer-secret"" size=64 sync=0",8811.249251429306,0.113491285
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""a"" size=1024 sync=0",9080.497145232444,0.110126129
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""a"" size=1024 sync=0",9111.661396739879,0.109749469
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""a"" size=1024 sync=0",9110.554012880628,0.109762809
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""a"" size=1024 sync=0",8999.885233463503,0.111112528
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""a"" size=1024 sync=0",8985.713506267823,0.111287768
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""a"" size=1024 sync=0",8571.596427776904,0.116664382
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""a"" size=1024 sync=0",8907.731631353241,0.112262026
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""a"" size=1024 sync=0",8402.771102826484,0.119008359
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""secret"" size=1024 sync=0",9531.184482042172,0.104918754
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""secret"" size=1024 sync=0",9247.46608563481,0.108137731
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""secret"" size=1024 sync=0",8790.364529824279,0.113760925
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""secret"" size=1024 sync=0",8627.082472026987,0.115914042
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""secret"" size=1024 sync=0",8834.463489437272,0.113193065
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""secret"" size=1024 sync=0",8873.547038752715,0.112694506
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""secret"" size=1024 sync=0",8545.354838254292,0.117022642
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""secret"" size=1024 sync=0",7834.476256761828,0.127640951
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""this-is-a-much-longer-secret"" size=1024 sync=0",9254.810951513953,0.108051910
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""this-is-a-much-longer-secret"" size=1024 sync=0",9293.924651606314,0.107597171
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""this-is-a-much-longer-secret"" size=1024 sync=0",8688.658634801115,0.115092564
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""this-is-a-much-longer-secret"" size=1024 sync=0",8978.85889065103,0.111372727
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""this-is-a-much-longer-secret"" size=1024 sync=0",9105.329532392434,0.109825789
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""this-is-a-much-longer-secret"" size=1024 sync=0",8682.361139981167,0.115176043
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""this-is-a-much-longer-secret"" size=1024 sync=0",8453.051078068322,0.118300480
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""this-is-a-much-longer-secret"" size=1024 sync=0",8786.433219922446,0.113811825
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""a"" size=10 sync=1",6125.748570303884,0.163245355
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""a"" size=10 sync=1",6075.12546318731,0.164605654
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""a"" size=10 sync=1",6043.5445117810805,0.165465812
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""a"" size=10 sync=1",5976.951524131902,0.167309371
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""a"" size=10 sync=1",6079.574591252113,0.164485193
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""a"" size=10 sync=1",5983.052966573861,0.167138751
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""a"" size=10 sync=1",5935.971172074723,0.168464430
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""a"" size=10 sync=1",5936.4736764587415,0.168450170
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""secret"" size=10 sync=1",6063.375626853753,0.164924633
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""secret"" size=10 sync=1",6118.2760032007145,0.163444735
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""secret"" size=10 sync=1",5919.871379664918,0.168922589
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""secret"" size=10 sync=1",5978.766887699686,0.167258570
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""secret"" size=10 sync=1",5864.062344318308,0.170530247
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""secret"" size=10 sync=1",6026.524711957431,0.165933112
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""secret"" size=10 sync=1",5857.348025819214,0.170725727
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""secret"" size=10 sync=1",5924.75645799787,0.168783309
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""this-is-a-much-longer-secret"" size=10 sync=1",6047.466089635192,0.165358513
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""this-is-a-much-longer-secret"" size=10 sync=1",5910.390827016697,0.169193549
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""this-is-a-much-longer-secret"" size=10 sync=1",5948.7469053875,0.168102630
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""this-is-a-much-longer-secret"" size=10 sync=1",5821.061749322426,0.171789966
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""this-is-a-much-longer-secret"" size=10 sync=1",6000.624112912736,0.166649332
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""this-is-a-much-longer-secret"" size=10 sync=1",5779.05121097562,0.173038785
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""this-is-a-much-longer-secret"" size=10 sync=1",5904.390627682069,0.169365488
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""this-is-a-much-longer-secret"" size=10 sync=1",5716.003030236118,0.174947423
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""a"" size=64 sync=1",5815.333412894848,0.171959186
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""a"" size=64 sync=1",6132.059230418595,0.163077355
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""a"" size=64 sync=1",5685.137429925493,0.175897243
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""a"" size=64 sync=1",6031.44632056201,0.165797712
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""a"" size=64 sync=1",5771.192808308879,0.173274405
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""a"" size=64 sync=1",6002.734209415983,0.166590751
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""a"" size=64 sync=1",5726.053113357002,0.174640364
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""a"" size=64 sync=1",5783.536625127668,0.172904585
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""secret"" size=64 sync=1",6026.937324046578,0.165921752
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""secret"" size=64 sync=1",6057.559915643148,0.165082973
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""secret"" size=64 sync=1",5853.101652507946,0.170849587
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""secret"" size=64 sync=1",5957.923594515398,0.167843710
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""secret"" size=64 sync=1",5142.624969502305,0.194453223
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""secret"" size=64 sync=1",5980.863712198542,0.167199931
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""secret"" size=64 sync=1",5833.2872406419865,0.171429926
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""secret"" size=64 sync=1",5966.1439230797,0.167612450
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""this-is-a-much-longer-secret"" size=64 sync=1",5939.333862132025,0.168369050
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""this-is-a-much-longer-secret"" size=64 sync=1",5957.261296858849,0.167862370
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""this-is-a-much-longer-secret"" size=64 sync=1",5709.154554538278,0.175157283
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""this-is-a-much-longer-secret"" size=64 sync=1",5867.352949818737,0.170434608
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""this-is-a-much-longer-secret"" size=64 sync=1",5803.701687992127,0.172303825
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""this-is-a-much-longer-secret"" size=64 sync=1",5816.969993148657,0.171910806
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""this-is-a-much-longer-secret"" size=64 sync=1",5728.000708255831,0.174580984
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""this-is-a-much-longer-secret"" size=64 sync=1",5679.6540400043705,0.176067062
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""a"" size=1024 sync=1",3630.2932316355573,0.275459842
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""a"" size=1024 sync=1",4452.377334188314,0.224599113
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""a"" size=1024 sync=1",3606.754165104055,0.277257599
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""a"" size=1024 sync=1",4456.435762374698,0.224394573
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""a"" size=1024 sync=1",3645.102577597108,0.274340702
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""a"" size=1024 sync=1",4362.62165274091,0.229219969
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""a"" size=1024 sync=1",3618.8911037306643,0.276327740
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""a"" size=1024 sync=1",4297.729786557333,0.232680985
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""secret"" size=1024 sync=1",3679.9505090815937,0.271742785
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""secret"" size=1024 sync=1",4501.53764648313,0.222146315
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""secret"" size=1024 sync=1",3550.3252479587095,0.281664335
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""secret"" size=1024 sync=1",4417.544328544328,0.226370111
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""secret"" size=1024 sync=1",3605.1948261704842,0.277377520
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""secret"" size=1024 sync=1",4431.862053223543,0.225638792
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""secret"" size=1024 sync=1",3580.00374160511,0.279329317
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""secret"" size=1024 sync=1",4374.6287143244435,0.228590828
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt="""" key=""this-is-a-much-longer-secret"" size=1024 sync=1",3683.0653740604985,0.271512965
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt="""" key=""this-is-a-much-longer-secret"" size=1024 sync=1",4434.66626156286,0.225496112
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt="""" key=""this-is-a-much-longer-secret"" size=1024 sync=1",3583.545845366313,0.279053218
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt="""" key=""this-is-a-much-longer-secret"" size=1024 sync=1",4410.207707993444,0.226746690
+"crypto/hkdf.js","n=1000 hash=""sha256"" info="""" salt=""salt"" key=""this-is-a-much-longer-secret"" size=1024 sync=1",3615.1115131757797,0.276616640
+"crypto/hkdf.js","n=1000 hash=""sha512"" info="""" salt=""salt"" key=""this-is-a-much-longer-secret"" size=1024 sync=1",4330.856904603093,0.230901187
+"crypto/hkdf.js","n=1000 hash=""sha256"" info=""info"" salt=""salt"" key=""this-is-a-much-longer-secret"" size=1024 sync=1",3593.1971995239055,0.278303679
+"crypto/hkdf.js","n=1000 hash=""sha512"" info=""info"" salt=""salt"" key=""this-is-a-much-longer-secret"" size=1024 sync=1",4302.53304103358,0.232421225
+"crypto/keygen.js","n=100 method=""rsaSync""",6.097871858130834,16.399163893
+"crypto/keygen.js","n=100 method=""rsaAsync""",146.89997043799684,0.680735331
+"crypto/keygen.js","n=100 method=""dsaSync""",1.6780132860932198,59.594283805
+"crypto/keygen.js","n=100 method=""dsaAsync""",6.963880928211199,14.359808996
+"crypto/oneshot-sign.js","n=1000 keyFormat=""pem"" mode=""sync"" keyType=""rsa""",66.30488209598036,15.081845686
+"crypto/oneshot-sign.js","n=1000 keyFormat=""der"" mode=""sync"" keyType=""rsa""",65.7774115652839,15.202787343
+"crypto/oneshot-sign.js","n=1000 keyFormat=""jwk"" mode=""sync"" keyType=""rsa""",77.01972774711113,12.983686508
+"crypto/oneshot-sign.js","n=1000 keyFormat=""keyObject"" mode=""sync"" keyType=""rsa""",94.80327548259486,10.548158752
+"crypto/oneshot-sign.js","n=1000 keyFormat=""pem"" mode=""async"" keyType=""rsa""",65.79118188732272,15.199605347
+"crypto/oneshot-sign.js","n=1000 keyFormat=""der"" mode=""async"" keyType=""rsa""",65.20254564289887,15.336824508
+"crypto/oneshot-sign.js","n=1000 keyFormat=""jwk"" mode=""async"" keyType=""rsa""",75.19137056478881,13.299398488
+"crypto/oneshot-sign.js","n=1000 keyFormat=""keyObject"" mode=""async"" keyType=""rsa""",93.69524802526573,10.672899865
+"crypto/oneshot-sign.js","n=1000 keyFormat=""pem"" mode=""async-parallel"" keyType=""rsa""",307.64305716261623,3.250520292
+"crypto/oneshot-sign.js","n=1000 keyFormat=""der"" mode=""async-parallel"" keyType=""rsa""",311.3199213106148,3.212129811
+"crypto/oneshot-sign.js","n=1000 keyFormat=""jwk"" mode=""async-parallel"" keyType=""rsa""",309.06322772491194,3.235583888
+"crypto/oneshot-sign.js","n=1000 keyFormat=""keyObject"" mode=""async-parallel"" keyType=""rsa""",379.3698358522943,2.635950214
+"crypto/oneshot-sign.js","n=1000 keyFormat=""keyObject.unique"" mode=""async-parallel"" keyType=""rsa""",311.52968113071387,3.209967013
+"crypto/oneshot-sign.js","n=1000 keyFormat=""pem"" mode=""sync"" keyType=""ec""",185.42983633210727,5.392875385
+"crypto/oneshot-sign.js","n=1000 keyFormat=""der"" mode=""sync"" keyType=""ec""",183.8091254664397,5.440426298
+"crypto/oneshot-sign.js","n=1000 keyFormat=""jwk"" mode=""sync"" keyType=""ec""",199.32615377882087,5.016903106
+"crypto/oneshot-sign.js","n=1000 keyFormat=""keyObject"" mode=""sync"" keyType=""ec""",313.69435636335635,3.187816356
+"crypto/oneshot-sign.js","n=1000 keyFormat=""pem"" mode=""async"" keyType=""ec""",180.497240103611,5.540250917
+"crypto/oneshot-sign.js","n=1000 keyFormat=""der"" mode=""async"" keyType=""ec""",177.2187415568395,5.642744053
+"crypto/oneshot-sign.js","n=1000 keyFormat=""jwk"" mode=""async"" keyType=""ec""",192.10425261116768,5.205506835
+"crypto/oneshot-sign.js","n=1000 keyFormat=""keyObject"" mode=""async"" keyType=""ec""",302.4294513178972,3.306556275
+"crypto/oneshot-sign.js","n=1000 keyFormat=""pem"" mode=""async-parallel"" keyType=""ec""",453.2097531130443,2.206483848
+"crypto/oneshot-sign.js","n=1000 keyFormat=""der"" mode=""async-parallel"" keyType=""ec""",450.1673736475494,2.221395993
+"crypto/oneshot-sign.js","n=1000 keyFormat=""jwk"" mode=""async-parallel"" keyType=""ec""",571.5956174714559,1.749488571
+"crypto/oneshot-sign.js","n=1000 keyFormat=""keyObject"" mode=""async-parallel"" keyType=""ec""",1268.7132943085498,0.788200143
+"crypto/oneshot-sign.js","n=1000 keyFormat=""keyObject.unique"" mode=""async-parallel"" keyType=""ec""",1256.56474186268,0.795820515
+"crypto/oneshot-sign.js","n=1000 keyFormat=""pem"" mode=""sync"" keyType=""ed25519""",451.9274670768558,2.212744462
+"crypto/oneshot-sign.js","n=1000 keyFormat=""der"" mode=""sync"" keyType=""ed25519""",433.4325216063826,2.307164207
+"crypto/oneshot-sign.js","n=1000 keyFormat=""jwk"" mode=""sync"" keyType=""ed25519""",2502.9268225091696,0.399532256
+"crypto/oneshot-sign.js","n=1000 keyFormat=""keyObject"" mode=""sync"" keyType=""ed25519""",4775.805813596058,0.209388748
+"crypto/oneshot-sign.js","n=1000 keyFormat=""pem"" mode=""async"" keyType=""ed25519""",404.4273439459978,2.472632019
+"crypto/oneshot-sign.js","n=1000 keyFormat=""der"" mode=""async"" keyType=""ed25519""",389.1707720463294,2.569566041
+"crypto/oneshot-sign.js","n=1000 keyFormat=""jwk"" mode=""async"" keyType=""ed25519""",1762.6655264993972,0.567322606
+"crypto/oneshot-sign.js","n=1000 keyFormat=""keyObject"" mode=""async"" keyType=""ed25519""",3426.739113962597,0.291822624
+"crypto/oneshot-sign.js","n=1000 keyFormat=""pem"" mode=""async-parallel"" keyType=""ed25519""",473.06987257818514,2.113852642
+"crypto/oneshot-sign.js","n=1000 keyFormat=""der"" mode=""async-parallel"" keyType=""ed25519""",465.86830123293504,2.146529389
+"crypto/oneshot-sign.js","n=1000 keyFormat=""jwk"" mode=""async-parallel"" keyType=""ed25519""",3457.6055788161743,0.289217488
+"crypto/oneshot-sign.js","n=1000 keyFormat=""keyObject"" mode=""async-parallel"" keyType=""ed25519""",17985.500233595678,0.055600344
+"crypto/oneshot-sign.js","n=1000 keyFormat=""keyObject.unique"" mode=""async-parallel"" keyType=""ed25519""",20474.823021260378,0.048840471
+"crypto/oneshot-verify.js","n=1000 keyFormat=""pem"" mode=""sync"" keyType=""rsa""",839.3034702751926,1.191464155
+"crypto/oneshot-verify.js","n=1000 keyFormat=""der"" mode=""sync"" keyType=""rsa""",883.5199658084841,1.131836335
+"crypto/oneshot-verify.js","n=1000 keyFormat=""jwk"" mode=""sync"" keyType=""rsa""",2030.2007713049443,0.492562122
+"crypto/oneshot-verify.js","n=1000 keyFormat=""keyObject"" mode=""sync"" keyType=""rsa""",2656.2947988268284,0.376464239
+"crypto/oneshot-verify.js","n=1000 keyFormat=""pem"" mode=""async"" keyType=""rsa""",737.0650530107358,1.356732348
+"crypto/oneshot-verify.js","n=1000 keyFormat=""der"" mode=""async"" keyType=""rsa""",770.9647466354769,1.297076169
+"crypto/oneshot-verify.js","n=1000 keyFormat=""jwk"" mode=""async"" keyType=""rsa""",1742.496149432009,0.573889360
+"crypto/oneshot-verify.js","n=1000 keyFormat=""keyObject"" mode=""async"" keyType=""rsa""",2297.205353205201,0.435311540
+"crypto/oneshot-verify.js","n=1000 keyFormat=""pem"" mode=""async-parallel"" keyType=""rsa""",1197.159167632709,0.835310815
+"crypto/oneshot-verify.js","n=1000 keyFormat=""der"" mode=""async-parallel"" keyType=""rsa""",1150.9359741660542,0.868858062
+"crypto/oneshot-verify.js","n=1000 keyFormat=""jwk"" mode=""async-parallel"" keyType=""rsa""",8995.48118299609,0.111166927
+"crypto/oneshot-verify.js","n=1000 keyFormat=""keyObject"" mode=""async-parallel"" keyType=""rsa""",11729.644732285757,0.085254074
+"crypto/oneshot-verify.js","n=1000 keyFormat=""keyObject.unique"" mode=""async-parallel"" keyType=""rsa""",10376.330519248286,0.096373183
+"crypto/oneshot-verify.js","n=1000 keyFormat=""pem"" mode=""sync"" keyType=""ec""",319.8577663649342,3.126389618
+"crypto/oneshot-verify.js","n=1000 keyFormat=""der"" mode=""sync"" keyType=""ec""",331.1932589814314,3.019385126
+"crypto/oneshot-verify.js","n=1000 keyFormat=""jwk"" mode=""sync"" keyType=""ec""",237.74965278529547,4.206104986
+"crypto/oneshot-verify.js","n=1000 keyFormat=""keyObject"" mode=""sync"" keyType=""ec""",407.63856326324145,2.453153578
+"crypto/oneshot-verify.js","n=1000 keyFormat=""pem"" mode=""async"" keyType=""ec""",309.70605697478055,3.228868075
+"crypto/oneshot-verify.js","n=1000 keyFormat=""der"" mode=""async"" keyType=""ec""",317.9115864981956,3.145528639
+"crypto/oneshot-verify.js","n=1000 keyFormat=""jwk"" mode=""async"" keyType=""ec""",228.92300816108556,4.368280882
+"crypto/oneshot-verify.js","n=1000 keyFormat=""keyObject"" mode=""async"" keyType=""ec""",408.8731446851058,2.445746347
+"crypto/oneshot-verify.js","n=1000 keyFormat=""pem"" mode=""async-parallel"" keyType=""ec""",1354.283312499084,0.738397934
+"crypto/oneshot-verify.js","n=1000 keyFormat=""der"" mode=""async-parallel"" keyType=""ec""",1377.0564434201947,0.726186646
+"crypto/oneshot-verify.js","n=1000 keyFormat=""jwk"" mode=""async-parallel"" keyType=""ec""",554.7499919971766,1.802613816
+"crypto/oneshot-verify.js","n=1000 keyFormat=""keyObject"" mode=""async-parallel"" keyType=""ec""",1712.7559882959163,0.583854330
+"crypto/oneshot-verify.js","n=1000 keyFormat=""keyObject.unique"" mode=""async-parallel"" keyType=""ec""",1672.0462665234224,0.598069575
+"crypto/oneshot-verify.js","n=1000 keyFormat=""pem"" mode=""sync"" keyType=""ed25519""",1167.5150977477556,0.856519973
+"crypto/oneshot-verify.js","n=1000 keyFormat=""der"" mode=""sync"" keyType=""ed25519""",1199.8962070582554,0.833405418
+"crypto/oneshot-verify.js","n=1000 keyFormat=""jwk"" mode=""sync"" keyType=""ed25519""",2193.170227102711,0.455960959
+"crypto/oneshot-verify.js","n=1000 keyFormat=""keyObject"" mode=""sync"" keyType=""ed25519""",2519.1245702540377,0.396963299
+"crypto/oneshot-verify.js","n=1000 keyFormat=""pem"" mode=""async"" keyType=""ed25519""",984.9095769241825,1.015321633
+"crypto/oneshot-verify.js","n=1000 keyFormat=""der"" mode=""async"" keyType=""ed25519""",989.0492301103809,1.011072017
+"crypto/oneshot-verify.js","n=1000 keyFormat=""jwk"" mode=""async"" keyType=""ed25519""",1819.9144296618215,0.549476384
+"crypto/oneshot-verify.js","n=1000 keyFormat=""keyObject"" mode=""async"" keyType=""ed25519""",2216.3409202554244,0.451194124
+"crypto/oneshot-verify.js","n=1000 keyFormat=""pem"" mode=""async-parallel"" keyType=""ed25519""",1761.248015835226,0.567779206
+"crypto/oneshot-verify.js","n=1000 keyFormat=""der"" mode=""async-parallel"" keyType=""ed25519""",1890.8517726598282,0.528862185
+"crypto/oneshot-verify.js","n=1000 keyFormat=""jwk"" mode=""async-parallel"" keyType=""ed25519""",8526.524410190252,0.117281081
+"crypto/oneshot-verify.js","n=1000 keyFormat=""keyObject"" mode=""async-parallel"" keyType=""ed25519""",10410.595662739717,0.096055983
+"crypto/oneshot-verify.js","n=1000 keyFormat=""keyObject.unique"" mode=""async-parallel"" keyType=""ed25519""",10699.43203669948,0.093462905
+"crypto/randomBytes.js","n=1000 size=64",25526.483075265267,0.039175001
+"crypto/randomBytes.js","n=1000 size=1024",14581.147072594136,0.068581710
+"crypto/randomBytes.js","n=1000 size=8192",3910.81737639672,0.255701022
+"crypto/randomBytes.js","n=1000 size=524288",72.72636619708497,13.750171393
+"crypto/randomInt.js","n=1000 max=100 min=-140737488355327 mode=""sync""",79762.83637284244,0.012537167
+"crypto/randomInt.js","n=100000 max=100 min=-140737488355327 mode=""sync""",1047346.5250608082,0.095479383
+"crypto/randomInt.js","n=1000 max=10000 min=-140737488355327 mode=""sync""",81514.55344534303,0.012267748
+"crypto/randomInt.js","n=100000 max=10000 min=-140737488355327 mode=""sync""",1053056.082481418,0.094961704
+"crypto/randomInt.js","n=1000 max=140737488355328 min=-140737488355327 mode=""sync""",102176.46079131581,0.009786990
+"crypto/randomInt.js","n=100000 max=140737488355328 min=-140737488355327 mode=""sync""",1402525.9604750231,0.071299928
+"crypto/randomInt.js","n=1000 max=100 min=-10000 mode=""sync""",98907.76158877516,0.010110430
+"crypto/randomInt.js","n=100000 max=100 min=-10000 mode=""sync""",1031036.4446432099,0.096989782
+"crypto/randomInt.js","n=1000 max=10000 min=-10000 mode=""sync""",102727.51833943021,0.009734490
+"crypto/randomInt.js","n=100000 max=10000 min=-10000 mode=""sync""",996118.544402253,0.100389658
+"crypto/randomInt.js","n=1000 max=140737488355328 min=-10000 mode=""sync""",80393.5618584644,0.012438807
+"crypto/randomInt.js","n=100000 max=140737488355328 min=-10000 mode=""sync""",1021247.034336909,0.097919501
+"crypto/randomInt.js","n=1000 max=100 min=-100 mode=""sync""",98611.65635139434,0.010140789
+"crypto/randomInt.js","n=100000 max=100 min=-100 mode=""sync""",989482.6112184887,0.101062918
+"crypto/randomInt.js","n=1000 max=10000 min=-100 mode=""sync""",100607.56910985442,0.009939610
+"crypto/randomInt.js","n=100000 max=10000 min=-100 mode=""sync""",1042348.5037394721,0.095937203
+"crypto/randomInt.js","n=1000 max=140737488355328 min=-100 mode=""sync""",79270.53980938766,0.012615027
+"crypto/randomInt.js","n=100000 max=140737488355328 min=-100 mode=""sync""",1031352.6885642232,0.096960042
+"crypto/randomInt.js","n=1000 max=100 min=-140737488355327 mode=""async-sequential""",21610.821817844848,0.046273113
+"crypto/randomInt.js","n=100000 max=100 min=-140737488355327 mode=""async-sequential""",367354.00756625825,0.272216984
+"crypto/randomInt.js","n=1000 max=10000 min=-140737488355327 mode=""async-sequential""",21016.663439908276,0.047581292
+"crypto/randomInt.js","n=100000 max=10000 min=-140737488355327 mode=""async-sequential""",383857.97967192554,0.260513016
+"crypto/randomInt.js","n=1000 max=140737488355328 min=-140737488355327 mode=""async-sequential""",22656.2890289979,0.044137855
+"crypto/randomInt.js","n=100000 max=140737488355328 min=-140737488355327 mode=""async-sequential""",440539.3276286134,0.226994490
+"crypto/randomInt.js","n=1000 max=100 min=-10000 mode=""async-sequential""",22888.734018628133,0.043689616
+"crypto/randomInt.js","n=100000 max=100 min=-10000 mode=""async-sequential""",375445.8842251794,0.266349970
+"crypto/randomInt.js","n=1000 max=10000 min=-10000 mode=""async-sequential""",22023.116608394233,0.045406834
+"crypto/randomInt.js","n=100000 max=10000 min=-10000 mode=""async-sequential""",385364.5674244001,0.259494537
+"crypto/randomInt.js","n=1000 max=140737488355328 min=-10000 mode=""async-sequential""",20776.99693898737,0.048130151
+"crypto/randomInt.js","n=100000 max=140737488355328 min=-10000 mode=""async-sequential""",355459.2801204535,0.281326176
+"crypto/randomInt.js","n=1000 max=100 min=-100 mode=""async-sequential""",22664.792590516667,0.044121295
+"crypto/randomInt.js","n=100000 max=100 min=-100 mode=""async-sequential""",375786.6671115981,0.266108430
+"crypto/randomInt.js","n=1000 max=10000 min=-100 mode=""async-sequential""",22288.17789353762,0.044866835
+"crypto/randomInt.js","n=100000 max=10000 min=-100 mode=""async-sequential""",378868.9725342083,0.263943493
+"crypto/randomInt.js","n=1000 max=140737488355328 min=-100 mode=""async-sequential""",20703.8090101776,0.048300291
+"crypto/randomInt.js","n=100000 max=140737488355328 min=-100 mode=""async-sequential""",385597.05836950016,0.259338078
+"crypto/randomInt.js","n=1000 max=100 min=-140737488355327 mode=""async-parallel""",20109.779689520685,0.049727049
+"crypto/randomInt.js","n=100000 max=100 min=-140737488355327 mode=""async-parallel""",12498.71399481836,8.000823128
+"crypto/randomInt.js","n=1000 max=10000 min=-140737488355327 mode=""async-parallel""",19677.11855517058,0.050820449
+"crypto/randomInt.js","n=100000 max=10000 min=-140737488355327 mode=""async-parallel""",13467.23900654769,7.425426990
+"crypto/randomInt.js","n=1000 max=140737488355328 min=-140737488355327 mode=""async-parallel""",21897.049096731396,0.045668254
+"crypto/randomInt.js","n=100000 max=140737488355328 min=-140737488355327 mode=""async-parallel""",22221.536668063534,4.500138829
+"crypto/randomInt.js","n=1000 max=100 min=-10000 mode=""async-parallel""",20976.756662826243,0.047671812
+"crypto/randomInt.js","n=100000 max=100 min=-10000 mode=""async-parallel""",24106.394726374776,4.148276884
+"crypto/randomInt.js","n=1000 max=10000 min=-10000 mode=""async-parallel""",21230.57869122484,0.047101872
+"crypto/randomInt.js","n=100000 max=10000 min=-10000 mode=""async-parallel""",21199.14395507844,4.717171609
+"crypto/randomInt.js","n=1000 max=140737488355328 min=-10000 mode=""async-parallel""",19712.058471327106,0.050730369
+"crypto/randomInt.js","n=100000 max=140737488355328 min=-10000 mode=""async-parallel""",14810.382032366437,6.752020291
+"crypto/randomInt.js","n=1000 max=100 min=-100 mode=""async-parallel""",21582.687386881087,0.046333433
+"crypto/randomInt.js","n=100000 max=100 min=-100 mode=""async-parallel""",22974.858797195593,4.352583878
+"crypto/randomInt.js","n=1000 max=10000 min=-100 mode=""async-parallel""",21254.63021491917,0.047048572
+"crypto/randomInt.js","n=100000 max=10000 min=-100 mode=""async-parallel""",26949.96813094851,3.710579527
+"crypto/randomInt.js","n=1000 max=140737488355328 min=-100 mode=""async-parallel""",19850.435307143503,0.050376729
+"crypto/randomInt.js","n=100000 max=140737488355328 min=-100 mode=""async-parallel""",12452.312783288644,8.030636697
+"crypto/randomUUID.js","disableEntropyCache=0 n=10000000",530019.5851925486,18.867227324
+"crypto/randomUUID.js","disableEntropyCache=1 n=10000000",53529.44301480742,186.813077753
+"crypto/rsa-encrypt-decrypt-throughput.js","len=16 keylen=""2048"" n=500",7.798076515866166,8.014796966
+"crypto/rsa-encrypt-decrypt-throughput.js","len=32 keylen=""2048"" n=500",15.539263558467667,8.044139256
+"crypto/rsa-encrypt-decrypt-throughput.js","len=64 keylen=""2048"" n=500",31.374659940194924,7.968213854
+"crypto/rsa-encrypt-decrypt-throughput.js","len=16 keylen=""4096"" n=500",1.5732740715436475,39.726072609
+"crypto/rsa-encrypt-decrypt-throughput.js","len=32 keylen=""4096"" n=500",3.141258061789808,39.792973879
+"crypto/rsa-encrypt-decrypt-throughput.js","len=64 keylen=""4096"" n=500",6.278184542270886,39.820428711
+"crypto/rsa-sign-verify-throughput.js","len=1024 keylen=""2048"" algo=""SHA1"" writes=500",129141.03647562746,0.030973888
+"crypto/rsa-sign-verify-throughput.js","len=102400 keylen=""2048"" algo=""SHA1"" writes=500",567287.0598318655,0.705110390
+"crypto/rsa-sign-verify-throughput.js","len=204800 keylen=""2048"" algo=""SHA1"" writes=500",575343.744100232,1.390473101
+"crypto/rsa-sign-verify-throughput.js","len=307200 keylen=""2048"" algo=""SHA1"" writes=500",575191.9976148744,2.086259901
+"crypto/rsa-sign-verify-throughput.js","len=1048576 keylen=""2048"" algo=""SHA1"" writes=500",582490.0640011712,7.031879603
+"crypto/rsa-sign-verify-throughput.js","len=1024 keylen=""2048"" algo=""SHA224"" writes=500",91608.8261897725,0.043663915
+"crypto/rsa-sign-verify-throughput.js","len=102400 keylen=""2048"" algo=""SHA224"" writes=500",226759.1930720826,1.763985815
+"crypto/rsa-sign-verify-throughput.js","len=204800 keylen=""2048"" algo=""SHA224"" writes=500",228002.98007533056,3.508726069
+"crypto/rsa-sign-verify-throughput.js","len=307200 keylen=""2048"" algo=""SHA224"" writes=500",227764.14791985584,5.268607948
+"crypto/rsa-sign-verify-throughput.js","len=1048576 keylen=""2048"" algo=""SHA224"" writes=500",229399.85234698668,17.855286122
+"crypto/rsa-sign-verify-throughput.js","len=1024 keylen=""2048"" algo=""SHA256"" writes=500",96116.51551583679,0.041616157
+"crypto/rsa-sign-verify-throughput.js","len=102400 keylen=""2048"" algo=""SHA256"" writes=500",223434.5074779276,1.790233767
+"crypto/rsa-sign-verify-throughput.js","len=204800 keylen=""2048"" algo=""SHA256"" writes=500",228295.4627982707,3.504230834
+"crypto/rsa-sign-verify-throughput.js","len=307200 keylen=""2048"" algo=""SHA256"" writes=500",227769.72737486655,5.268478888
+"crypto/rsa-sign-verify-throughput.js","len=1048576 keylen=""2048"" algo=""SHA256"" writes=500",229098.02011243664,17.878810118
+"crypto/rsa-sign-verify-throughput.js","len=1024 keylen=""2048"" algo=""SHA384"" writes=500",118910.0761871722,0.033638865
+"crypto/rsa-sign-verify-throughput.js","len=102400 keylen=""2048"" algo=""SHA384"" writes=500",402121.0150401795,0.994725431
+"crypto/rsa-sign-verify-throughput.js","len=204800 keylen=""2048"" algo=""SHA384"" writes=500",416998.25955612044,1.918473235
+"crypto/rsa-sign-verify-throughput.js","len=307200 keylen=""2048"" algo=""SHA384"" writes=500",419553.43319945055,2.860183960
+"crypto/rsa-sign-verify-throughput.js","len=1048576 keylen=""2048"" algo=""SHA384"" writes=500",420823.6950533305,9.733292227
+"crypto/rsa-sign-verify-throughput.js","len=1024 keylen=""2048"" algo=""SHA512"" writes=500",118772.09253711888,0.033677945
+"crypto/rsa-sign-verify-throughput.js","len=102400 keylen=""2048"" algo=""SHA512"" writes=500",410958.7353631768,0.973333733
+"crypto/rsa-sign-verify-throughput.js","len=204800 keylen=""2048"" algo=""SHA512"" writes=500",409580.77022871084,1.953216699
+"crypto/rsa-sign-verify-throughput.js","len=307200 keylen=""2048"" algo=""SHA512"" writes=500",415545.8943720733,2.887767672
+"crypto/rsa-sign-verify-throughput.js","len=1048576 keylen=""2048"" algo=""SHA512"" writes=500",420975.6801413282,9.729778211
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-1"" data=10 sync=""createHash""",22939.518010905216,0.043592895
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-256"" data=10 sync=""createHash""",22431.284787277622,0.044580594
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-384"" data=10 sync=""createHash""",21529.344755253547,0.046448232
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-512"" data=10 sync=""createHash""",21675.88726397045,0.046134213
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-1"" data=20 sync=""createHash""",22610.686886891443,0.044226874
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-256"" data=20 sync=""createHash""",22465.269479668863,0.044513154
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-384"" data=20 sync=""createHash""",21358.31584211856,0.046820171
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-512"" data=20 sync=""createHash""",21847.927413844227,0.045770932
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-1"" data=50 sync=""createHash""",22575.608761449275,0.044295594
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-256"" data=50 sync=""createHash""",22660.95081950496,0.044128775
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-384"" data=50 sync=""createHash""",22045.946265254664,0.045359813
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-512"" data=50 sync=""createHash""",22023.398407263423,0.045406253
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-1"" data=100 sync=""createHash""",22120.63786274998,0.045206653
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-256"" data=100 sync=""createHash""",22075.029360340926,0.045300053
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-384"" data=100 sync=""createHash""",21456.53342967603,0.046605851
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-512"" data=100 sync=""createHash""",21961.334742284726,0.045534573
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-1"" data=10 sync=""subtle""",9988.425811706426,0.100115876
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-256"" data=10 sync=""subtle""",9879.279648372727,0.101221955
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-384"" data=10 sync=""subtle""",9957.362970056736,0.100428196
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-512"" data=10 sync=""subtle""",9138.38491127638,0.109428527
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-1"" data=20 sync=""subtle""",9383.51348584483,0.106569890
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-256"" data=20 sync=""subtle""",9825.04406483138,0.101780714
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-384"" data=20 sync=""subtle""",9751.891023319951,0.102544214
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-512"" data=20 sync=""subtle""",9514.902578197014,0.105098291
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-1"" data=50 sync=""subtle""",9522.118123570259,0.105018651
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-256"" data=50 sync=""subtle""",9395.805631562142,0.106430469
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-384"" data=50 sync=""subtle""",9712.13682909008,0.102963953
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-512"" data=50 sync=""subtle""",9384.776297433593,0.106555550
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-1"" data=100 sync=""subtle""",9465.185679352013,0.105650331
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-256"" data=100 sync=""subtle""",9491.524690146567,0.105357151
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-384"" data=100 sync=""subtle""",9102.496900463268,0.109859966
+"crypto/webcrypto-digest.js","n=1000 method=""SHA-512"" data=100 sync=""subtle""",9607.47766126939,0.104085592

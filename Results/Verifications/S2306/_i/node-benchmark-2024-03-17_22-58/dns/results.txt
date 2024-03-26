@@ -1,0 +1,9 @@
+"filename","configuration","rate","time"
+"dns/lookup-promises.js","n=5000000 all=""true"" name=""127.0.0.1""",2576711271.25658,0.001940458
+"dns/lookup-promises.js","n=5000000 all=""false"" name=""127.0.0.1""",2593713461.0616174,0.001927738
+"dns/lookup-promises.js","n=5000000 all=""true"" name=""::1""",298253884.5629814,0.016764241
+"dns/lookup-promises.js","n=5000000 all=""false"" name=""::1""",343256112.3787559,0.014566383
+"dns/lookup.js","n=5000000 all=""true"" name=""127.0.0.1""",982116.371726687,5.091046381
+"dns/lookup.js","n=5000000 all=""false"" name=""127.0.0.1""",1097466.1132353721,4.555949327
+"dns/lookup.js","n=5000000 all=""true"" name=""::1""",566516.6590490968,8.825865789
+"dns/lookup.js","n=5000000 all=""false"" name=""::1""",608060.981122385,8.222859475

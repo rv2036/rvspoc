@@ -1,0 +1,29 @@
+                                                                                                                                                             confidence improvement accuracy (*)
+diagnostics_channel/http.js duration=5 chunkedEnc=1 connections=50 chunks=4 len=1024 type="buffer" apm="diagnostics_channel" benchmarker="test-double-http"                 -1.05 %       ±7.20%
+diagnostics_channel/http.js duration=5 chunkedEnc=1 connections=50 chunks=4 len=1024 type="buffer" apm="none" benchmarker="test-double-http"                                 0.16 %       ±2.95%
+diagnostics_channel/http.js duration=5 chunkedEnc=1 connections=50 chunks=4 len=1024 type="buffer" apm="patch" benchmarker="test-double-http"                               -0.15 %       ±7.06%
+diagnostics_channel/http.js duration=5 chunkedEnc=1 connections=500 chunks=4 len=1024 type="buffer" apm="diagnostics_channel" benchmarker="test-double-http"                -1.45 %      ±12.17%
+diagnostics_channel/http.js duration=5 chunkedEnc=1 connections=500 chunks=4 len=1024 type="buffer" apm="none" benchmarker="test-double-http"                                3.14 %       ±5.31%
+diagnostics_channel/http.js duration=5 chunkedEnc=1 connections=500 chunks=4 len=1024 type="buffer" apm="patch" benchmarker="test-double-http"                               7.28 %       ±7.56%
+diagnostics_channel/publish.js subscribers=0 n=100000000                                                                                                                    -0.42 %       ±1.27%
+diagnostics_channel/publish.js subscribers=1 n=100000000                                                                                                                    -2.41 %       ±4.63%
+diagnostics_channel/publish.js subscribers=10 n=100000000                                                                                                             *      0.60 %       ±0.57%
+diagnostics_channel/subscribe.js n=100000000                                                                                                                          *      8.74 %       ±8.25%
+                                                                                                                                                                (**)   (***)
+diagnostics_channel/http.js duration=5 chunkedEnc=1 connections=50 chunks=4 len=1024 type="buffer" apm="diagnostics_channel" benchmarker="test-double-http"  ±16.62% ±52.90%
+diagnostics_channel/http.js duration=5 chunkedEnc=1 connections=50 chunks=4 len=1024 type="buffer" apm="none" benchmarker="test-double-http"                  ±6.80% ±21.65%
+diagnostics_channel/http.js duration=5 chunkedEnc=1 connections=50 chunks=4 len=1024 type="buffer" apm="patch" benchmarker="test-double-http"                ±16.27% ±51.82%
+diagnostics_channel/http.js duration=5 chunkedEnc=1 connections=500 chunks=4 len=1024 type="buffer" apm="diagnostics_channel" benchmarker="test-double-http" ±28.07% ±89.37%
+diagnostics_channel/http.js duration=5 chunkedEnc=1 connections=500 chunks=4 len=1024 type="buffer" apm="none" benchmarker="test-double-http"                ±12.26% ±39.02%
+diagnostics_channel/http.js duration=5 chunkedEnc=1 connections=500 chunks=4 len=1024 type="buffer" apm="patch" benchmarker="test-double-http"               ±17.44% ±55.53%
+diagnostics_channel/publish.js subscribers=0 n=100000000                                                                                                      ±2.92%  ±9.30%
+diagnostics_channel/publish.js subscribers=1 n=100000000                                                                                                     ±10.68% ±33.99%
+diagnostics_channel/publish.js subscribers=10 n=100000000                                                                                                     ±1.32%  ±4.21%
+diagnostics_channel/subscribe.js n=100000000                                                                                                                 ±19.02% ±60.57%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 10 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.50 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.10 false positives, when considering a   1% risk acceptance (**, ***),
+  0.01 false positives, when considering a 0.1% risk acceptance (***)

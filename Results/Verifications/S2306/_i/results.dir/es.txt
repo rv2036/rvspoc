@@ -1,0 +1,106 @@
+                                                                                    confidence improvement accuracy (*)    (**)    (***)
+es/defaultparams-bench.js n=100000000 method="withdefaults"                                         0.03 %       ±0.09%  ±0.21%   ±0.68%
+es/defaultparams-bench.js n=100000000 method="withoutdefaults"                                     -0.05 %       ±0.13%  ±0.30%   ±0.96%
+es/destructuring-bench.js n=100000000 method="destructure"                                         -0.54 %       ±1.37%  ±3.16%  ±10.06%
+es/destructuring-bench.js n=100000000 method="swap"                                                -0.16 %       ±0.46%  ±1.07%   ±3.40%
+es/destructuring-object-bench.js n=100000000 method="destructureObject"                             0.04 %       ±0.30%  ±0.68%   ±2.18%
+es/destructuring-object-bench.js n=100000000 method="normal"                                **      0.55 %       ±0.19%  ±0.43%   ±1.38%
+es/error-stack.js n=100000 method="sourcemap"                                                      -0.11 %       ±1.40%  ±3.23%  ±10.27%
+es/error-stack.js n=100000 method="without-sourcemap"                                              -1.61 %       ±3.09%  ±7.13%  ±22.70%
+es/eval.js n=1000000 method="sourcemap"                                                             2.76 %       ±6.47% ±14.93%  ±47.54%
+es/eval.js n=1000000 method="without-sourcemap"                                                     0.91 %       ±2.12%  ±4.89%  ±15.55%
+es/foreach-bench.js n=5000000 count=10 method="for-in"                                             -0.18 %       ±5.84% ±13.47%  ±42.90%
+es/foreach-bench.js n=5000000 count=10 method="for-of"                                       *     -3.20 %       ±2.81%  ±6.48%  ±20.64%
+es/foreach-bench.js n=5000000 count=10 method="for"                                                -0.16 %       ±7.38% ±17.02%  ±54.18%
+es/foreach-bench.js n=5000000 count=10 method="forEach"                                            -7.49 %      ±17.12% ±39.50% ±125.76%
+es/foreach-bench.js n=5000000 count=100 method="for-in"                                            -0.28 %       ±0.57%  ±1.31%   ±4.18%
+es/foreach-bench.js n=5000000 count=100 method="for-of"                                            -0.17 %       ±0.72%  ±1.67%   ±5.30%
+es/foreach-bench.js n=5000000 count=100 method="for"                                                0.49 %       ±1.25%  ±2.88%   ±9.16%
+es/foreach-bench.js n=5000000 count=100 method="forEach"                                           -3.44 %       ±8.36% ±19.27%  ±61.36%
+es/foreach-bench.js n=5000000 count=20 method="for-in"                                              1.59 %       ±2.62%  ±6.04%  ±19.24%
+es/foreach-bench.js n=5000000 count=20 method="for-of"                                              0.22 %       ±0.32%  ±0.75%   ±2.38%
+es/foreach-bench.js n=5000000 count=20 method="for"                                                -0.45 %       ±0.70%  ±1.62%   ±5.14%
+es/foreach-bench.js n=5000000 count=20 method="forEach"                                             0.31 %       ±4.47% ±10.30%  ±32.81%
+es/foreach-bench.js n=5000000 count=5 method="for-in"                                              -1.43 %       ±3.73%  ±8.59%  ±27.36%
+es/foreach-bench.js n=5000000 count=5 method="for-of"                                              -1.00 %       ±1.94%  ±4.47%  ±14.23%
+es/foreach-bench.js n=5000000 count=5 method="for"                                                 -0.28 %       ±0.65%  ±1.51%   ±4.81%
+es/foreach-bench.js n=5000000 count=5 method="forEach"                                              0.50 %       ±8.09% ±18.66%  ±59.40%
+es/map-bench.js n=1000000 method="fakeMap"                                                   *      3.52 %       ±3.36%  ±7.76%  ±24.70%
+es/map-bench.js n=1000000 method="map"                                                     ***      6.61 %       ±0.66%  ±1.53%   ±4.88%
+es/map-bench.js n=1000000 method="nullProtoLiteralObject"                                           1.95 %       ±2.27%  ±5.23%  ±16.65%
+es/map-bench.js n=1000000 method="nullProtoObject"                                                 -4.46 %      ±11.06% ±25.52%  ±81.25%
+es/map-bench.js n=1000000 method="object"                                                          -2.91 %       ±9.65% ±22.25%  ±70.84%
+es/map-bench.js n=1000000 method="storageObject"                                                   -0.65 %       ±6.16% ±14.21%  ±45.24%
+es/restparams-bench.js n=100000000 method="arguments"                                               0.08 %       ±0.41%  ±0.94%   ±2.98%
+es/restparams-bench.js n=100000000 method="copy"                                             *      2.36 %       ±2.31%  ±5.33%  ±16.97%
+es/restparams-bench.js n=100000000 method="rest"                                                    0.12 %       ±0.13%  ±0.30%   ±0.96%
+es/spread-assign.js n=1000000 count=10 method="_extend"                                             0.16 %       ±2.14%  ±4.94%  ±15.73%
+es/spread-assign.js n=1000000 count=10 method="assign"                                             -1.37 %       ±7.21% ±16.64%  ±52.98%
+es/spread-assign.js n=1000000 count=10 method="spread"                                              0.71 %       ±2.55%  ±5.89%  ±18.74%
+es/spread-assign.js n=1000000 count=20 method="_extend"                                            -2.78 %       ±6.00% ±13.84%  ±44.07%
+es/spread-assign.js n=1000000 count=20 method="assign"                                             -2.97 %       ±3.00%  ±6.93%  ±22.05%
+es/spread-assign.js n=1000000 count=20 method="spread"                                             -1.04 %       ±2.32%  ±5.35%  ±17.03%
+es/spread-assign.js n=1000000 count=5 method="_extend"                                             -0.02 %       ±4.44% ±10.23%  ±32.59%
+es/spread-assign.js n=1000000 count=5 method="assign"                                              -1.72 %       ±2.97%  ±6.85%  ±21.81%
+es/spread-assign.js n=1000000 count=5 method="spread"                                              -2.04 %       ±5.43% ±12.53%  ±39.89%
+es/spread-bench.js n=5000000 rest=0 context="context" count=10 method="apply"                       0.02 %       ±2.35%  ±5.41%  ±17.24%
+es/spread-bench.js n=5000000 rest=0 context="context" count=10 method="call-spread"         **      7.18 %       ±1.65%  ±3.80%  ±12.09%
+es/spread-bench.js n=5000000 rest=0 context="context" count=10 method="spread"                      4.51 %       ±8.44% ±19.48%  ±62.01%
+es/spread-bench.js n=5000000 rest=0 context="context" count=20 method="apply"                      -1.05 %       ±3.98%  ±9.19%  ±29.24%
+es/spread-bench.js n=5000000 rest=0 context="context" count=20 method="call-spread"                 0.03 %       ±9.45% ±21.79%  ±69.38%
+es/spread-bench.js n=5000000 rest=0 context="context" count=20 method="spread"                     -0.59 %       ±2.55%  ±5.89%  ±18.76%
+es/spread-bench.js n=5000000 rest=0 context="context" count=5 method="apply"                        0.42 %       ±2.16%  ±4.97%  ±15.84%
+es/spread-bench.js n=5000000 rest=0 context="context" count=5 method="call-spread"                  4.79 %      ±11.27% ±25.99%  ±82.74%
+es/spread-bench.js n=5000000 rest=0 context="context" count=5 method="spread"                      -1.54 %       ±4.60% ±10.60%  ±33.75%
+es/spread-bench.js n=5000000 rest=0 context="null" count=10 method="apply"                         -0.55 %       ±1.27%  ±2.93%   ±9.32%
+es/spread-bench.js n=5000000 rest=0 context="null" count=10 method="call-spread"                   -4.37 %       ±7.59% ±17.50%  ±55.72%
+es/spread-bench.js n=5000000 rest=0 context="null" count=10 method="spread"                         0.68 %       ±1.34%  ±3.10%   ±9.86%
+es/spread-bench.js n=5000000 rest=0 context="null" count=20 method="apply"                   *      0.89 %       ±0.39%  ±0.90%   ±2.87%
+es/spread-bench.js n=5000000 rest=0 context="null" count=20 method="call-spread"                   -0.02 %      ±15.17% ±35.00% ±111.44%
+es/spread-bench.js n=5000000 rest=0 context="null" count=20 method="spread"                         1.90 %       ±2.93%  ±6.77%  ±21.54%
+es/spread-bench.js n=5000000 rest=0 context="null" count=5 method="apply"                   **      0.71 %       ±0.20%  ±0.47%   ±1.50%
+es/spread-bench.js n=5000000 rest=0 context="null" count=5 method="call-spread"                     4.29 %       ±8.53% ±19.67%  ±62.63%
+es/spread-bench.js n=5000000 rest=0 context="null" count=5 method="spread"                          1.33 %       ±3.13%  ±7.21%  ±22.96%
+es/spread-bench.js n=5000000 rest=1 context="context" count=10 method="apply"                      -2.95 %      ±12.79% ±29.50%  ±93.92%
+es/spread-bench.js n=5000000 rest=1 context="context" count=10 method="call-spread"                 1.33 %       ±6.68% ±15.41%  ±49.07%
+es/spread-bench.js n=5000000 rest=1 context="context" count=10 method="spread"                     -3.02 %       ±6.42% ±14.81%  ±47.16%
+es/spread-bench.js n=5000000 rest=1 context="context" count=20 method="apply"                      -0.73 %       ±5.59% ±12.89%  ±41.04%
+es/spread-bench.js n=5000000 rest=1 context="context" count=20 method="call-spread"                 0.63 %       ±4.01%  ±9.24%  ±29.43%
+es/spread-bench.js n=5000000 rest=1 context="context" count=20 method="spread"                      0.65 %       ±3.68%  ±8.49%  ±27.04%
+es/spread-bench.js n=5000000 rest=1 context="context" count=5 method="apply"               ***     16.61 %       ±0.97%  ±2.25%   ±7.15%
+es/spread-bench.js n=5000000 rest=1 context="context" count=5 method="call-spread"          **      7.99 %       ±1.93%  ±4.45%  ±14.18%
+es/spread-bench.js n=5000000 rest=1 context="context" count=5 method="spread"                       0.20 %       ±4.97% ±11.47%  ±36.53%
+es/spread-bench.js n=5000000 rest=1 context="null" count=10 method="apply"                         -0.28 %       ±2.07%  ±4.78%  ±15.21%
+es/spread-bench.js n=5000000 rest=1 context="null" count=10 method="call-spread"                    2.78 %       ±7.99% ±18.42%  ±58.64%
+es/spread-bench.js n=5000000 rest=1 context="null" count=10 method="spread"                        -0.10 %       ±1.12%  ±2.57%   ±8.19%
+es/spread-bench.js n=5000000 rest=1 context="null" count=20 method="apply"                   *      0.64 %       ±0.59%  ±1.36%   ±4.33%
+es/spread-bench.js n=5000000 rest=1 context="null" count=20 method="call-spread"                   -4.45 %       ±9.55% ±22.02%  ±70.12%
+es/spread-bench.js n=5000000 rest=1 context="null" count=20 method="spread"                        -1.04 %       ±4.48% ±10.32%  ±32.87%
+es/spread-bench.js n=5000000 rest=1 context="null" count=5 method="apply"                    *      0.54 %       ±0.45%  ±1.03%   ±3.29%
+es/spread-bench.js n=5000000 rest=1 context="null" count=5 method="call-spread"                     0.51 %       ±2.53%  ±5.83%  ±18.55%
+es/spread-bench.js n=5000000 rest=1 context="null" count=5 method="spread"                   *      2.39 %       ±1.28%  ±2.95%   ±9.40%
+es/string-concatenations.js mode="multi-concat" n=1000                                              5.41 %       ±9.37% ±21.60%  ±68.78%
+es/string-concatenations.js mode="multi-join" n=1000                                         *      4.50 %       ±4.46% ±10.28%  ±32.73%
+es/string-concatenations.js mode="multi-template" n=1000                                     *      7.00 %       ±5.31% ±12.26%  ±39.02%
+es/string-concatenations.js mode="to-string-concat" n=1000                                  **     22.46 %       ±5.71% ±13.18%  ±41.95%
+es/string-concatenations.js mode="to-string-string" n=1000                                  **     19.94 %       ±7.83% ±18.06%  ±57.49%
+es/string-concatenations.js mode="to-string-template" n=1000                                        8.04 %      ±19.36% ±44.65% ±142.15%
+es/string-repeat.js size=10 encoding="ascii" mode="Array" n=1000                                    0.72 %       ±4.56% ±10.53%  ±33.51%
+es/string-repeat.js size=10 encoding="ascii" mode="repeat" n=1000                                  -1.03 %       ±3.16%  ±7.29%  ±23.19%
+es/string-repeat.js size=10 encoding="utf8" mode="Array" n=1000                                     1.20 %       ±6.20% ±14.31%  ±45.57%
+es/string-repeat.js size=10 encoding="utf8" mode="repeat" n=1000                                   -0.40 %       ±7.71% ±17.79%  ±56.65%
+es/string-repeat.js size=1000 encoding="ascii" mode="Array" n=1000                                  0.46 %       ±0.99%  ±2.28%   ±7.26%
+es/string-repeat.js size=1000 encoding="ascii" mode="repeat" n=1000                         **      2.62 %       ±0.71%  ±1.63%   ±5.19%
+es/string-repeat.js size=1000 encoding="utf8" mode="Array" n=1000                                  -0.63 %       ±2.49%  ±5.74%  ±18.28%
+es/string-repeat.js size=1000 encoding="utf8" mode="repeat" n=1000                           *     12.31 %       ±7.13% ±16.44%  ±52.35%
+es/string-repeat.js size=1000000 encoding="ascii" mode="Array" n=1000                              -1.03 %       ±3.29%  ±7.60%  ±24.19%
+es/string-repeat.js size=1000000 encoding="ascii" mode="repeat" n=1000                       *      6.48 %       ±5.53% ±12.75%  ±40.61%
+es/string-repeat.js size=1000000 encoding="utf8" mode="Array" n=1000                         *     -2.62 %       ±1.99%  ±4.60%  ±14.65%
+es/string-repeat.js size=1000000 encoding="utf8" mode="repeat" n=1000                               0.00 %       ±6.44% ±14.86%  ±47.33%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 98 comparisons, you can thus
+expect the following amount of false-positive results:
+  4.90 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.98 false positives, when considering a   1% risk acceptance (**, ***),
+  0.10 false positives, when considering a 0.1% risk acceptance (***)

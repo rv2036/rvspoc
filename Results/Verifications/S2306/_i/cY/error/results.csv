@@ -1,0 +1,397 @@
+"binary","filename","configuration","rate","time"
+"old","error/determine-specific-type.js","v=""() => 1n"" n=1000000",1166434.5469694429,0.857313428
+"old","error/determine-specific-type.js","v=""() => true"" n=1000000",2104068.157921467,0.475269775
+"old","error/determine-specific-type.js","v=""() => false"" n=1000000",2109279.243336401,0.474095596
+"old","error/determine-specific-type.js","v=""() => 2"" n=1000000",1688153.4557151177,0.592363210
+"old","error/determine-specific-type.js","v=""() => +0"" n=1000000",2098297.8911759974,0.476576755
+"old","error/determine-specific-type.js","v=""() => -0"" n=1000000",1917517.6779502137,0.521507578
+"old","error/determine-specific-type.js","v=""() => NaN"" n=1000000",2017990.2743241247,0.495542527
+"old","error/determine-specific-type.js","v=""() => Infinity"" n=1000000",2045296.3185423026,0.488926710
+"old","error/determine-specific-type.js","v=""() => \""\' n=1000000",1472358.4952175794,0.679182416
+"old","error/determine-specific-type.js","v=""() => \""'\' n=1000000",663277.9464742325,1.507663575
+"old","error/determine-specific-type.js","v=""() => Symbol(\""foo\"")"" n=1000000",797013.3976031335,1.254684053
+"old","error/determine-specific-type.js","v=""() => function foo() {}"" n=1000000",1411174.9775194535,0.708629345
+"old","error/determine-specific-type.js","v=""() => null"" n=1000000",2314234.3651940464,0.432108353
+"old","error/determine-specific-type.js","v=""() => undefined"" n=1000000",2315586.0711412462,0.431856113
+"old","error/determine-specific-type.js","v=""() => new Array()"" n=1000000",1454113.3576228623,0.687704294
+"old","error/determine-specific-type.js","v=""() => new BigInt64Array()"" n=1000000",1268127.1902252696,0.788564434
+"old","error/determine-specific-type.js","v=""() => new BigUint64Array()"" n=1000000",1273800.8170018322,0.785052095
+"old","error/determine-specific-type.js","v=""() => new Int8Array()"" n=1000000",1285699.6393913364,0.777786638
+"old","error/determine-specific-type.js","v=""() => new Int16Array()"" n=1000000",1283393.5850472595,0.779184197
+"old","error/determine-specific-type.js","v=""() => new Int32Array()"" n=1000000",1248243.9875217094,0.801125429
+"old","error/determine-specific-type.js","v=""() => new Float32Array()"" n=1000000",1280880.7590225784,0.780712797
+"old","error/determine-specific-type.js","v=""() => new Float64Array()"" n=1000000",1277808.7652792402,0.782589717
+"old","error/determine-specific-type.js","v=""() => new Uint8Array()"" n=1000000",1252157.9847228462,0.798621270
+"old","error/determine-specific-type.js","v=""() => new Uint8ClampedArray()"" n=1000000",1284759.8556041953,0.778355578
+"old","error/determine-specific-type.js","v=""() => new Uint16Array()"" n=1000000",1274290.0128809821,0.784750716
+"old","error/determine-specific-type.js","v=""() => new Uint32Array()"" n=1000000",1264985.7901489723,0.790522714
+"old","error/determine-specific-type.js","v=""() => new Date()"" n=1000000",1475297.7393155594,0.677829277
+"old","error/determine-specific-type.js","v=""() => new Map()"" n=1000000",1466630.2854358063,0.681835095
+"old","error/determine-specific-type.js","v=""() => new WeakMap()"" n=1000000",1479511.34663735,0.675898838
+"old","error/determine-specific-type.js","v=""() => new Object()"" n=1000000",1472049.4261910121,0.679325016
+"old","error/determine-specific-type.js","v=""() => Promise.resolve(\""foo\"")"" n=1000000",1478034.1868036299,0.676574337
+"old","error/determine-specific-type.js","v=""() => new Set()"" n=1000000",1473894.1864568146,0.678474757
+"old","error/determine-specific-type.js","v=""() => new WeakSet()"" n=1000000",1474467.6551014201,0.678210876
+"old","error/determine-specific-type.js","v=""() => ({ __proto__: null })"" n=1000000",117035.58172541282,8.544410044
+"new","error/determine-specific-type.js","v=""() => 1n"" n=1000000",2665432.820044716,0.375173590
+"new","error/determine-specific-type.js","v=""() => true"" n=1000000",20453613.69947047,0.048891116
+"new","error/determine-specific-type.js","v=""() => false"" n=1000000",20621654.20104855,0.048492715
+"new","error/determine-specific-type.js","v=""() => 2"" n=1000000",7370066.012575764,0.135683995
+"new","error/determine-specific-type.js","v=""() => +0"" n=1000000",18286489.04768226,0.054685183
+"new","error/determine-specific-type.js","v=""() => -0"" n=1000000",17499740.041361686,0.057143706
+"new","error/determine-specific-type.js","v=""() => NaN"" n=1000000",22322798.334210284,0.044797251
+"new","error/determine-specific-type.js","v=""() => Infinity"" n=1000000",20787283.005450323,0.048106335
+"new","error/determine-specific-type.js","v=""() => \""\' n=1000000",5865282.347419255,0.170494776
+"new","error/determine-specific-type.js","v=""() => \""'\' n=1000000",1006160.336392644,0.993877381
+"new","error/determine-specific-type.js","v=""() => Symbol(\""foo\"")"" n=1000000",1347782.2581908708,0.741959611
+"new","error/determine-specific-type.js","v=""() => function foo() {}"" n=1000000",3605807.135083177,0.277330418
+"new","error/determine-specific-type.js","v=""() => null"" n=1000000",38933729.730613634,0.025684670
+"new","error/determine-specific-type.js","v=""() => undefined"" n=1000000",41722806.441183545,0.023967707
+"new","error/determine-specific-type.js","v=""() => new Array()"" n=1000000",3792831.565030551,0.263655262
+"new","error/determine-specific-type.js","v=""() => new BigInt64Array()"" n=1000000",2833115.8893278977,0.352968265
+"new","error/determine-specific-type.js","v=""() => new BigUint64Array()"" n=1000000",2773173.585519379,0.360597694
+"new","error/determine-specific-type.js","v=""() => new Int8Array()"" n=1000000",2820049.163214285,0.354603747
+"new","error/determine-specific-type.js","v=""() => new Int16Array()"" n=1000000",2833030.168414153,0.352978945
+"new","error/determine-specific-type.js","v=""() => new Int32Array()"" n=1000000",2819774.5044939267,0.354638287
+"new","error/determine-specific-type.js","v=""() => new Float32Array()"" n=1000000",2860371.4728391096,0.349604941
+"new","error/determine-specific-type.js","v=""() => new Float64Array()"" n=1000000",2779187.4974759766,0.359817393
+"new","error/determine-specific-type.js","v=""() => new Uint8Array()"" n=1000000",2711183.114953272,0.368842663
+"new","error/determine-specific-type.js","v=""() => new Uint8ClampedArray()"" n=1000000",2788538.3444601777,0.358610812
+"new","error/determine-specific-type.js","v=""() => new Uint16Array()"" n=1000000",2740774.1444839323,0.364860418
+"new","error/determine-specific-type.js","v=""() => new Uint32Array()"" n=1000000",2735048.1284641386,0.365624279
+"new","error/determine-specific-type.js","v=""() => new Date()"" n=1000000",3782289.26635892,0.264390143
+"new","error/determine-specific-type.js","v=""() => new Map()"" n=1000000",3810352.0566781033,0.262442941
+"new","error/determine-specific-type.js","v=""() => new WeakMap()"" n=1000000",3882375.2725990387,0.257574276
+"new","error/determine-specific-type.js","v=""() => new Object()"" n=1000000",3740101.456834595,0.267372426
+"new","error/determine-specific-type.js","v=""() => Promise.resolve(\""foo\"")"" n=1000000",3738553.8519260585,0.267483107
+"new","error/determine-specific-type.js","v=""() => new Set()"" n=1000000",3853455.5812830236,0.259507338
+"new","error/determine-specific-type.js","v=""() => new WeakSet()"" n=1000000",3910359.3447008864,0.255730973
+"new","error/determine-specific-type.js","v=""() => ({ __proto__: null })"" n=1000000",176060.10230474366,5.679878558
+"old","error/determine-specific-type.js","v=""() => 1n"" n=1000000",1166434.5469694429,0.857313428
+"old","error/determine-specific-type.js","v=""() => true"" n=1000000",2104068.157921467,0.475269775
+"old","error/determine-specific-type.js","v=""() => false"" n=1000000",2109279.243336401,0.474095596
+"old","error/determine-specific-type.js","v=""() => 2"" n=1000000",1688153.4557151177,0.592363210
+"old","error/determine-specific-type.js","v=""() => +0"" n=1000000",2098297.8911759974,0.476576755
+"old","error/determine-specific-type.js","v=""() => -0"" n=1000000",1917517.6779502137,0.521507578
+"old","error/determine-specific-type.js","v=""() => NaN"" n=1000000",2017990.2743241247,0.495542527
+"old","error/determine-specific-type.js","v=""() => Infinity"" n=1000000",2045296.3185423026,0.488926710
+"old","error/determine-specific-type.js","v=""() => \""\' n=1000000",1472358.4952175794,0.679182416
+"old","error/determine-specific-type.js","v=""() => \""'\' n=1000000",663277.9464742325,1.507663575
+"old","error/determine-specific-type.js","v=""() => Symbol(\""foo\"")"" n=1000000",797013.3976031335,1.254684053
+"old","error/determine-specific-type.js","v=""() => function foo() {}"" n=1000000",1411174.9775194535,0.708629345
+"old","error/determine-specific-type.js","v=""() => null"" n=1000000",2314234.3651940464,0.432108353
+"old","error/determine-specific-type.js","v=""() => undefined"" n=1000000",2315586.0711412462,0.431856113
+"old","error/determine-specific-type.js","v=""() => new Array()"" n=1000000",1454113.3576228623,0.687704294
+"old","error/determine-specific-type.js","v=""() => new BigInt64Array()"" n=1000000",1268127.1902252696,0.788564434
+"old","error/determine-specific-type.js","v=""() => new BigUint64Array()"" n=1000000",1273800.8170018322,0.785052095
+"old","error/determine-specific-type.js","v=""() => new Int8Array()"" n=1000000",1285699.6393913364,0.777786638
+"old","error/determine-specific-type.js","v=""() => new Int16Array()"" n=1000000",1283393.5850472595,0.779184197
+"old","error/determine-specific-type.js","v=""() => new Int32Array()"" n=1000000",1248243.9875217094,0.801125429
+"old","error/determine-specific-type.js","v=""() => new Float32Array()"" n=1000000",1280880.7590225784,0.780712797
+"old","error/determine-specific-type.js","v=""() => new Float64Array()"" n=1000000",1277808.7652792402,0.782589717
+"old","error/determine-specific-type.js","v=""() => new Uint8Array()"" n=1000000",1252157.9847228462,0.798621270
+"old","error/determine-specific-type.js","v=""() => new Uint8ClampedArray()"" n=1000000",1284759.8556041953,0.778355578
+"old","error/determine-specific-type.js","v=""() => new Uint16Array()"" n=1000000",1274290.0128809821,0.784750716
+"old","error/determine-specific-type.js","v=""() => new Uint32Array()"" n=1000000",1264985.7901489723,0.790522714
+"old","error/determine-specific-type.js","v=""() => new Date()"" n=1000000",1475297.7393155594,0.677829277
+"old","error/determine-specific-type.js","v=""() => new Map()"" n=1000000",1466630.2854358063,0.681835095
+"old","error/determine-specific-type.js","v=""() => new WeakMap()"" n=1000000",1479511.34663735,0.675898838
+"old","error/determine-specific-type.js","v=""() => new Object()"" n=1000000",1472049.4261910121,0.679325016
+"old","error/determine-specific-type.js","v=""() => Promise.resolve(\""foo\"")"" n=1000000",1478034.1868036299,0.676574337
+"old","error/determine-specific-type.js","v=""() => new Set()"" n=1000000",1473894.1864568146,0.678474757
+"old","error/determine-specific-type.js","v=""() => new WeakSet()"" n=1000000",1474467.6551014201,0.678210876
+"old","error/determine-specific-type.js","v=""() => ({ __proto__: null })"" n=1000000",117035.58172541282,8.544410044
+"new","error/determine-specific-type.js","v=""() => 1n"" n=1000000",2462176.778974429,0.406144680
+"new","error/determine-specific-type.js","v=""() => true"" n=1000000",19746212.982416276,0.050642622
+"new","error/determine-specific-type.js","v=""() => false"" n=1000000",20655027.09072043,0.048414364
+"new","error/determine-specific-type.js","v=""() => 2"" n=1000000",7008444.439663128,0.142685015
+"new","error/determine-specific-type.js","v=""() => +0"" n=1000000",18392692.068445828,0.054369420
+"new","error/determine-specific-type.js","v=""() => -0"" n=1000000",17628402.374207333,0.056726638
+"new","error/determine-specific-type.js","v=""() => NaN"" n=1000000",22248254.162809655,0.044947347
+"new","error/determine-specific-type.js","v=""() => Infinity"" n=1000000",20819512.2134025,0.048031865
+"new","error/determine-specific-type.js","v=""() => \""\' n=1000000",5819648.860661445,0.171831673
+"new","error/determine-specific-type.js","v=""() => \""'\' n=1000000",967789.5472955059,1.033282497
+"new","error/determine-specific-type.js","v=""() => Symbol(\""foo\"")"" n=1000000",1363562.3507115692,0.733373138
+"new","error/determine-specific-type.js","v=""() => function foo() {}"" n=1000000",3270005.3844562657,0.305809894
+"new","error/determine-specific-type.js","v=""() => null"" n=1000000",38720547.6510354,0.025826081
+"new","error/determine-specific-type.js","v=""() => undefined"" n=1000000",41562652.66481857,0.024060062
+"new","error/determine-specific-type.js","v=""() => new Array()"" n=1000000",3750133.08753561,0.266657203
+"new","error/determine-specific-type.js","v=""() => new BigInt64Array()"" n=1000000",2846595.9750613146,0.351296780
+"new","error/determine-specific-type.js","v=""() => new BigUint64Array()"" n=1000000",2578539.7818948315,0.387816394
+"new","error/determine-specific-type.js","v=""() => new Int8Array()"" n=1000000",2808012.293545213,0.356123797
+"new","error/determine-specific-type.js","v=""() => new Int16Array()"" n=1000000",2836205.9845648,0.352583700
+"new","error/determine-specific-type.js","v=""() => new Int32Array()"" n=1000000",2787665.0449285884,0.358723155
+"new","error/determine-specific-type.js","v=""() => new Float32Array()"" n=1000000",2818628.3304200647,0.354782498
+"new","error/determine-specific-type.js","v=""() => new Float64Array()"" n=1000000",2777283.930406886,0.360064014
+"new","error/determine-specific-type.js","v=""() => new Uint8Array()"" n=1000000",2676766.2556481375,0.373585104
+"new","error/determine-specific-type.js","v=""() => new Uint8ClampedArray()"" n=1000000",2814293.414634743,0.355328977
+"new","error/determine-specific-type.js","v=""() => new Uint16Array()"" n=1000000",2814934.776075232,0.355248018
+"new","error/determine-specific-type.js","v=""() => new Uint32Array()"" n=1000000",2782289.77072747,0.359416194
+"new","error/determine-specific-type.js","v=""() => new Date()"" n=1000000",3707897.7342968765,0.269694601
+"new","error/determine-specific-type.js","v=""() => new Map()"" n=1000000",3811714.913943713,0.262349106
+"new","error/determine-specific-type.js","v=""() => new WeakMap()"" n=1000000",3765539.3831663914,0.265566204
+"new","error/determine-specific-type.js","v=""() => new Object()"" n=1000000",3691517.0488654235,0.270891340
+"new","error/determine-specific-type.js","v=""() => Promise.resolve(\""foo\"")"" n=1000000",3707236.2742273957,0.269742721
+"new","error/determine-specific-type.js","v=""() => new Set()"" n=1000000",3796945.937925667,0.263369565
+"new","error/determine-specific-type.js","v=""() => new WeakSet()"" n=1000000",3845260.4442580123,0.260060408
+"new","error/determine-specific-type.js","v=""() => ({ __proto__: null })"" n=1000000",173753.16554550317,5.755290828
+"old","error/determine-specific-type.js","v=""() => 1n"" n=1000000",1166434.5469694429,0.857313428
+"old","error/determine-specific-type.js","v=""() => true"" n=1000000",2104068.157921467,0.475269775
+"old","error/determine-specific-type.js","v=""() => false"" n=1000000",2109279.243336401,0.474095596
+"old","error/determine-specific-type.js","v=""() => 2"" n=1000000",1688153.4557151177,0.592363210
+"old","error/determine-specific-type.js","v=""() => +0"" n=1000000",2098297.8911759974,0.476576755
+"old","error/determine-specific-type.js","v=""() => -0"" n=1000000",1917517.6779502137,0.521507578
+"old","error/determine-specific-type.js","v=""() => NaN"" n=1000000",2017990.2743241247,0.495542527
+"old","error/determine-specific-type.js","v=""() => Infinity"" n=1000000",2045296.3185423026,0.488926710
+"old","error/determine-specific-type.js","v=""() => \""\' n=1000000",1472358.4952175794,0.679182416
+"old","error/determine-specific-type.js","v=""() => \""'\' n=1000000",663277.9464742325,1.507663575
+"old","error/determine-specific-type.js","v=""() => Symbol(\""foo\"")"" n=1000000",797013.3976031335,1.254684053
+"old","error/determine-specific-type.js","v=""() => function foo() {}"" n=1000000",1411174.9775194535,0.708629345
+"old","error/determine-specific-type.js","v=""() => null"" n=1000000",2314234.3651940464,0.432108353
+"old","error/determine-specific-type.js","v=""() => undefined"" n=1000000",2315586.0711412462,0.431856113
+"old","error/determine-specific-type.js","v=""() => new Array()"" n=1000000",1454113.3576228623,0.687704294
+"old","error/determine-specific-type.js","v=""() => new BigInt64Array()"" n=1000000",1268127.1902252696,0.788564434
+"old","error/determine-specific-type.js","v=""() => new BigUint64Array()"" n=1000000",1273800.8170018322,0.785052095
+"old","error/determine-specific-type.js","v=""() => new Int8Array()"" n=1000000",1285699.6393913364,0.777786638
+"old","error/determine-specific-type.js","v=""() => new Int16Array()"" n=1000000",1283393.5850472595,0.779184197
+"old","error/determine-specific-type.js","v=""() => new Int32Array()"" n=1000000",1248243.9875217094,0.801125429
+"old","error/determine-specific-type.js","v=""() => new Float32Array()"" n=1000000",1280880.7590225784,0.780712797
+"old","error/determine-specific-type.js","v=""() => new Float64Array()"" n=1000000",1277808.7652792402,0.782589717
+"old","error/determine-specific-type.js","v=""() => new Uint8Array()"" n=1000000",1252157.9847228462,0.798621270
+"old","error/determine-specific-type.js","v=""() => new Uint8ClampedArray()"" n=1000000",1284759.8556041953,0.778355578
+"old","error/determine-specific-type.js","v=""() => new Uint16Array()"" n=1000000",1274290.0128809821,0.784750716
+"old","error/determine-specific-type.js","v=""() => new Uint32Array()"" n=1000000",1264985.7901489723,0.790522714
+"old","error/determine-specific-type.js","v=""() => new Date()"" n=1000000",1475297.7393155594,0.677829277
+"old","error/determine-specific-type.js","v=""() => new Map()"" n=1000000",1466630.2854358063,0.681835095
+"old","error/determine-specific-type.js","v=""() => new WeakMap()"" n=1000000",1479511.34663735,0.675898838
+"old","error/determine-specific-type.js","v=""() => new Object()"" n=1000000",1472049.4261910121,0.679325016
+"old","error/determine-specific-type.js","v=""() => Promise.resolve(\""foo\"")"" n=1000000",1478034.1868036299,0.676574337
+"old","error/determine-specific-type.js","v=""() => new Set()"" n=1000000",1473894.1864568146,0.678474757
+"old","error/determine-specific-type.js","v=""() => new WeakSet()"" n=1000000",1474467.6551014201,0.678210876
+"old","error/determine-specific-type.js","v=""() => ({ __proto__: null })"" n=1000000",117035.58172541282,8.544410044
+"new","error/determine-specific-type.js","v=""() => 1n"" n=1000000",2626037.627889181,0.380801855
+"new","error/determine-specific-type.js","v=""() => true"" n=1000000",20381541.644320004,0.049064002
+"new","error/determine-specific-type.js","v=""() => false"" n=1000000",20653380.856211927,0.048418223
+"new","error/determine-specific-type.js","v=""() => 2"" n=1000000",7073047.477817049,0.141381774
+"new","error/determine-specific-type.js","v=""() => +0"" n=1000000",17989787.018012002,0.055587095
+"new","error/determine-specific-type.js","v=""() => -0"" n=1000000",17477642.992331177,0.057215953
+"new","error/determine-specific-type.js","v=""() => NaN"" n=1000000",22107436.481797796,0.045233648
+"new","error/determine-specific-type.js","v=""() => Infinity"" n=1000000",20565678.313757516,0.048624703
+"new","error/determine-specific-type.js","v=""() => \""\' n=1000000",5847021.79606009,0.171027240
+"new","error/determine-specific-type.js","v=""() => \""'\' n=1000000",995512.0276991664,1.004508205
+"new","error/determine-specific-type.js","v=""() => Symbol(\""foo\"")"" n=1000000",1340559.292892616,0.745957307
+"new","error/determine-specific-type.js","v=""() => function foo() {}"" n=1000000",3555332.173245037,0.281267671
+"new","error/determine-specific-type.js","v=""() => null"" n=1000000",39061386.14016085,0.025600730
+"new","error/determine-specific-type.js","v=""() => undefined"" n=1000000",41791567.73209532,0.023928272
+"new","error/determine-specific-type.js","v=""() => new Array()"" n=1000000",3824471.8268638356,0.261474014
+"new","error/determine-specific-type.js","v=""() => new BigInt64Array()"" n=1000000",2829240.9876091494,0.353451687
+"new","error/determine-specific-type.js","v=""() => new BigUint64Array()"" n=1000000",2822999.198048034,0.354233186
+"new","error/determine-specific-type.js","v=""() => new Int8Array()"" n=1000000",2821512.4353434555,0.354419845
+"new","error/determine-specific-type.js","v=""() => new Int16Array()"" n=1000000",2811751.199023499,0.355650244
+"new","error/determine-specific-type.js","v=""() => new Int32Array()"" n=1000000",2809716.8990223403,0.355907743
+"new","error/determine-specific-type.js","v=""() => new Float32Array()"" n=1000000",2846042.7294211197,0.351365069
+"new","error/determine-specific-type.js","v=""() => new Float64Array()"" n=1000000",2588578.5164839956,0.386312408
+"new","error/determine-specific-type.js","v=""() => new Uint8Array()"" n=1000000",2696482.093420129,0.370853566
+"new","error/determine-specific-type.js","v=""() => new Uint8ClampedArray()"" n=1000000",2865765.281655393,0.348946931
+"new","error/determine-specific-type.js","v=""() => new Uint16Array()"" n=1000000",2838671.79818288,0.352277428
+"new","error/determine-specific-type.js","v=""() => new Uint32Array()"" n=1000000",2804838.524843084,0.356526763
+"new","error/determine-specific-type.js","v=""() => new Date()"" n=1000000",3829631.724920433,0.261121714
+"new","error/determine-specific-type.js","v=""() => new Map()"" n=1000000",3816378.840081415,0.262028494
+"new","error/determine-specific-type.js","v=""() => new WeakMap()"" n=1000000",3909014.1005174834,0.255818980
+"new","error/determine-specific-type.js","v=""() => new Object()"" n=1000000",3735634.7054614723,0.267692127
+"new","error/determine-specific-type.js","v=""() => Promise.resolve(\""foo\"")"" n=1000000",3713010.6399104646,0.269323225
+"new","error/determine-specific-type.js","v=""() => new Set()"" n=1000000",3804476.4938955107,0.262848253
+"new","error/determine-specific-type.js","v=""() => new WeakSet()"" n=1000000",3854088.8815178154,0.259464696
+"new","error/determine-specific-type.js","v=""() => ({ __proto__: null })"" n=1000000",175073.13730644502,5.711898555
+"old","error/error-class-reg-exp.js","n=100000",1632.9356491498602,61.239400372
+"new","error/error-class-reg-exp.js","n=100000",1740.4754385747638,57.455565177
+"old","error/error-class-reg-exp.js","n=100000",1632.9356491498602,61.239400372
+"new","error/error-class-reg-exp.js","n=100000",1736.9992155595685,57.570549891
+"old","error/error-class-reg-exp.js","n=100000",1632.9356491498602,61.239400372
+"new","error/error-class-reg-exp.js","n=100000",1648.476150128801,60.662084794
+"old","error/error.js","n=10000000",62968.96439943667,158.808392283
+"new","error/error.js","n=10000000",65903.51157928558,151.736982755
+"old","error/error.js","n=10000000",62968.96439943667,158.808392283
+"new","error/error.js","n=10000000",64052.48687099829,156.121963229
+"old","error/error.js","n=10000000",62968.96439943667,158.808392283
+"new","error/error.js","n=10000000",65306.80697094001,153.123395000
+"old","error/format-list.js","type=""undefined"" input=' n=10000000",19348331.21678391,0.516840439
+"old","error/format-list.js","type=""and"" input=' n=10000000",18630473.449589327,0.536755012
+"old","error/format-list.js","type=""or"" input=' n=10000000",17908237.521173425,0.558402243
+"old","error/format-list.js","type=""undefined"" input=""a"" n=10000000",18753459.32171104,0.533234953
+"old","error/format-list.js","type=""and"" input=""a"" n=10000000",18700695.429493185,0.534739472
+"old","error/format-list.js","type=""or"" input=""a"" n=10000000",18678781.35565933,0.535366832
+"old","error/format-list.js","type=""undefined"" input=""a,b"" n=10000000",3955153.8098229286,2.528346679
+"old","error/format-list.js","type=""and"" input=""a,b"" n=10000000",3775632.0790194245,2.648563152
+"old","error/format-list.js","type=""or"" input=""a,b"" n=10000000",3765739.9045571485,2.655520629
+"old","error/format-list.js","type=""undefined"" input=""a,b,c"" n=10000000",2386164.995882765,4.190825034
+"old","error/format-list.js","type=""and"" input=""a,b,c"" n=10000000",2327563.065221167,4.296339012
+"old","error/format-list.js","type=""or"" input=""a,b,c"" n=10000000",2366836.276363278,4.225049320
+"old","error/format-list.js","type=""undefined"" input=""a,b,c,d"" n=10000000",696482.1681031776,14.357869387
+"old","error/format-list.js","type=""and"" input=""a,b,c,d"" n=10000000",688955.2876345039,14.514730026
+"old","error/format-list.js","type=""or"" input=""a,b,c,d"" n=10000000",706284.0944467941,14.158608524
+"new","error/format-list.js","type=""undefined"" input=' n=10000000",37670049.430827215,0.265462885
+"new","error/format-list.js","type=""and"" input=' n=10000000",35724602.213877894,0.279919142
+"new","error/format-list.js","type=""or"" input=' n=10000000",35721223.1585505,0.279945621
+"new","error/format-list.js","type=""undefined"" input=""a"" n=10000000",37610216.03289284,0.265885205
+"new","error/format-list.js","type=""and"" input=""a"" n=10000000",35684641.84507926,0.280232601
+"new","error/format-list.js","type=""or"" input=""a"" n=10000000",35695902.069749065,0.280144202
+"new","error/format-list.js","type=""undefined"" input=""a,b"" n=10000000",4413754.491315193,2.265644820
+"new","error/format-list.js","type=""and"" input=""a,b"" n=10000000",4150717.5603828803,2.409221985
+"new","error/format-list.js","type=""or"" input=""a,b"" n=10000000",4214576.989210493,2.372717363
+"new","error/format-list.js","type=""undefined"" input=""a,b,c"" n=10000000",2548426.9397277045,3.923989283
+"new","error/format-list.js","type=""and"" input=""a,b,c"" n=10000000",2504560.327237156,3.992716762
+"new","error/format-list.js","type=""or"" input=""a,b,c"" n=10000000",2478600.390078659,4.034534990
+"new","error/format-list.js","type=""undefined"" input=""a,b,c,d"" n=10000000",758064.2542960842,13.191493918
+"new","error/format-list.js","type=""and"" input=""a,b,c,d"" n=10000000",733620.5154763967,13.631025563
+"new","error/format-list.js","type=""or"" input=""a,b,c,d"" n=10000000",731136.8051215422,13.677330877
+"old","error/format-list.js","type=""undefined"" input=' n=10000000",19348331.21678391,0.516840439
+"old","error/format-list.js","type=""and"" input=' n=10000000",18630473.449589327,0.536755012
+"old","error/format-list.js","type=""or"" input=' n=10000000",17908237.521173425,0.558402243
+"old","error/format-list.js","type=""undefined"" input=""a"" n=10000000",18753459.32171104,0.533234953
+"old","error/format-list.js","type=""and"" input=""a"" n=10000000",18700695.429493185,0.534739472
+"old","error/format-list.js","type=""or"" input=""a"" n=10000000",18678781.35565933,0.535366832
+"old","error/format-list.js","type=""undefined"" input=""a,b"" n=10000000",3955153.8098229286,2.528346679
+"old","error/format-list.js","type=""and"" input=""a,b"" n=10000000",3775632.0790194245,2.648563152
+"old","error/format-list.js","type=""or"" input=""a,b"" n=10000000",3765739.9045571485,2.655520629
+"old","error/format-list.js","type=""undefined"" input=""a,b,c"" n=10000000",2386164.995882765,4.190825034
+"old","error/format-list.js","type=""and"" input=""a,b,c"" n=10000000",2327563.065221167,4.296339012
+"old","error/format-list.js","type=""or"" input=""a,b,c"" n=10000000",2366836.276363278,4.225049320
+"old","error/format-list.js","type=""undefined"" input=""a,b,c,d"" n=10000000",696482.1681031776,14.357869387
+"old","error/format-list.js","type=""and"" input=""a,b,c,d"" n=10000000",688955.2876345039,14.514730026
+"old","error/format-list.js","type=""or"" input=""a,b,c,d"" n=10000000",706284.0944467941,14.158608524
+"new","error/format-list.js","type=""undefined"" input=' n=10000000",37561729.46267274,0.266228423
+"new","error/format-list.js","type=""and"" input=' n=10000000",35635455.885972925,0.280619393
+"new","error/format-list.js","type=""or"" input=' n=10000000",35672117.067697905,0.280330993
+"new","error/format-list.js","type=""undefined"" input=""a"" n=10000000",37639358.21822867,0.265679344
+"new","error/format-list.js","type=""and"" input=""a"" n=10000000",35667562.09962426,0.280366793
+"new","error/format-list.js","type=""or"" input=""a"" n=10000000",35629630.602714434,0.280665273
+"new","error/format-list.js","type=""undefined"" input=""a,b"" n=10000000",4542193.223879567,2.201579613
+"new","error/format-list.js","type=""and"" input=""a,b"" n=10000000",4142988.5600522775,2.413716537
+"new","error/format-list.js","type=""or"" input=""a,b"" n=10000000",4168150.863562894,2.399145407
+"new","error/format-list.js","type=""undefined"" input=""a,b,c"" n=10000000",2624965.4119463773,3.809574006
+"new","error/format-list.js","type=""and"" input=""a,b,c"" n=10000000",2541609.958540613,3.934514014
+"new","error/format-list.js","type=""or"" input=""a,b,c"" n=10000000",2561148.813503914,3.904497836
+"new","error/format-list.js","type=""undefined"" input=""a,b,c,d"" n=10000000",746859.0661420218,13.389406989
+"new","error/format-list.js","type=""and"" input=""a,b,c,d"" n=10000000",756752.6229566936,13.214357898
+"new","error/format-list.js","type=""or"" input=""a,b,c,d"" n=10000000",745458.6452466798,13.414560370
+"old","error/format-list.js","type=""undefined"" input=' n=10000000",19348331.21678391,0.516840439
+"old","error/format-list.js","type=""and"" input=' n=10000000",18630473.449589327,0.536755012
+"old","error/format-list.js","type=""or"" input=' n=10000000",17908237.521173425,0.558402243
+"old","error/format-list.js","type=""undefined"" input=""a"" n=10000000",18753459.32171104,0.533234953
+"old","error/format-list.js","type=""and"" input=""a"" n=10000000",18700695.429493185,0.534739472
+"old","error/format-list.js","type=""or"" input=""a"" n=10000000",18678781.35565933,0.535366832
+"old","error/format-list.js","type=""undefined"" input=""a,b"" n=10000000",3955153.8098229286,2.528346679
+"old","error/format-list.js","type=""and"" input=""a,b"" n=10000000",3775632.0790194245,2.648563152
+"old","error/format-list.js","type=""or"" input=""a,b"" n=10000000",3765739.9045571485,2.655520629
+"old","error/format-list.js","type=""undefined"" input=""a,b,c"" n=10000000",2386164.995882765,4.190825034
+"old","error/format-list.js","type=""and"" input=""a,b,c"" n=10000000",2327563.065221167,4.296339012
+"old","error/format-list.js","type=""or"" input=""a,b,c"" n=10000000",2366836.276363278,4.225049320
+"old","error/format-list.js","type=""undefined"" input=""a,b,c,d"" n=10000000",696482.1681031776,14.357869387
+"old","error/format-list.js","type=""and"" input=""a,b,c,d"" n=10000000",688955.2876345039,14.514730026
+"old","error/format-list.js","type=""or"" input=""a,b,c,d"" n=10000000",706284.0944467941,14.158608524
+"new","error/format-list.js","type=""undefined"" input=' n=10000000",37681520.26726568,0.265382074
+"new","error/format-list.js","type=""and"" input=' n=10000000",35684088.309440196,0.280236948
+"new","error/format-list.js","type=""or"" input=' n=10000000",35628062.3677925,0.280677627
+"new","error/format-list.js","type=""undefined"" input=""a"" n=10000000",37632572.07193573,0.265727253
+"new","error/format-list.js","type=""and"" input=""a"" n=10000000",35712392.06469648,0.280014847
+"new","error/format-list.js","type=""or"" input=""a"" n=10000000",35692756.99053621,0.280168887
+"new","error/format-list.js","type=""undefined"" input=""a,b"" n=10000000",4573514.010187246,2.186502540
+"new","error/format-list.js","type=""and"" input=""a,b"" n=10000000",4209274.089535867,2.375706544
+"new","error/format-list.js","type=""or"" input=""a,b"" n=10000000",4084706.327883874,2.448156415
+"new","error/format-list.js","type=""undefined"" input=""a,b,c"" n=10000000",2525268.425515889,3.959975066
+"new","error/format-list.js","type=""and"" input=""a,b,c"" n=10000000",2562179.2287881467,3.902927589
+"new","error/format-list.js","type=""or"" input=""a,b,c"" n=10000000",2552507.385014552,3.917716383
+"new","error/format-list.js","type=""undefined"" input=""a,b,c,d"" n=10000000",742977.4328055363,13.459359004
+"new","error/format-list.js","type=""and"" input=""a,b,c,d"" n=10000000",757527.067638262,13.200848428
+"new","error/format-list.js","type=""or"" input=""a,b,c,d"" n=10000000",699772.3688768337,14.290361330
+"old","error/hidestackframes.js","n=100000 type=""hide-stackframes-throw""",9637.722564550022,10.375895273
+"old","error/hidestackframes.js","n=100000 type=""direct-call-throw""",16374.438854550697,6.107079509
+"old","error/hidestackframes.js","n=100000 type=""hide-stackframes-noerr""",431152.80818662606,0.231936330
+"old","error/hidestackframes.js","n=100000 type=""direct-call-noerr""",561389.0395111276,0.178129591
+"new","error/hidestackframes.js","n=100000 type=""hide-stackframes-throw""",22528.2889831156,4.438863514
+"new","error/hidestackframes.js","n=100000 type=""direct-call-throw""",22845.6967035695,4.377191963
+"new","error/hidestackframes.js","n=100000 type=""hide-stackframes-noerr""",13915196.340637326,0.007186388
+"new","error/hidestackframes.js","n=100000 type=""direct-call-noerr""",14141695.261174485,0.007071288
+"old","error/hidestackframes.js","n=100000 type=""hide-stackframes-throw""",9637.722564550022,10.375895273
+"old","error/hidestackframes.js","n=100000 type=""direct-call-throw""",16374.438854550697,6.107079509
+"old","error/hidestackframes.js","n=100000 type=""hide-stackframes-noerr""",431152.80818662606,0.231936330
+"old","error/hidestackframes.js","n=100000 type=""direct-call-noerr""",561389.0395111276,0.178129591
+"new","error/hidestackframes.js","n=100000 type=""hide-stackframes-throw""",22358.116163942814,4.472648736
+"new","error/hidestackframes.js","n=100000 type=""direct-call-throw""",22702.091124075214,4.404880566
+"new","error/hidestackframes.js","n=100000 type=""hide-stackframes-noerr""",13490990.851219464,0.007412354
+"new","error/hidestackframes.js","n=100000 type=""direct-call-noerr""",13627702.611912739,0.007337994
+"old","error/hidestackframes.js","n=100000 type=""hide-stackframes-throw""",9637.722564550022,10.375895273
+"old","error/hidestackframes.js","n=100000 type=""direct-call-throw""",16374.438854550697,6.107079509
+"old","error/hidestackframes.js","n=100000 type=""hide-stackframes-noerr""",431152.80818662606,0.231936330
+"old","error/hidestackframes.js","n=100000 type=""direct-call-noerr""",561389.0395111276,0.178129591
+"new","error/hidestackframes.js","n=100000 type=""hide-stackframes-throw""",22534.08893540688,4.437721014
+"new","error/hidestackframes.js","n=100000 type=""direct-call-throw""",22474.949690212812,4.449398169
+"new","error/hidestackframes.js","n=100000 type=""hide-stackframes-noerr""",14077811.15939644,0.007103377
+"new","error/hidestackframes.js","n=100000 type=""direct-call-noerr""",14260052.303019838,0.007012597
+"old","error/node-error-instantiation.js","stackTraceLimit=0 code=""built-in"" n=1000000",429365.8198657291,2.329016316
+"old","error/node-error-instantiation.js","stackTraceLimit=10 code=""built-in"" n=1000000",56137.62190014713,17.813365906
+"old","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",245585.9101325873,4.071894839
+"old","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",41467.90364222874,24.115036261
+"old","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_STATE"" n=1000000",147988.11364857943,6.757299457
+"old","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_STATE"" n=1000000",33351.63819986048,29.983534662
+"old","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_URL"" n=1000000",113307.64356115773,8.825529934
+"old","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_URL"" n=1000000",30596.23006779698,32.683765215
+"new","error/node-error-instantiation.js","stackTraceLimit=0 code=""built-in"" n=1000000",350552.25527297397,2.852641753
+"new","error/node-error-instantiation.js","stackTraceLimit=10 code=""built-in"" n=1000000",55732.977364755934,17.942698332
+"new","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",284113.27340622403,3.519722919
+"new","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",44060.15811742227,22.696241746
+"new","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_STATE"" n=1000000",166198.42186438097,6.016904305
+"new","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_STATE"" n=1000000",35376.55218885603,28.267310920
+"new","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_URL"" n=1000000",116362.25250079506,8.593852203
+"new","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_URL"" n=1000000",31436.445051346393,31.810212585
+"old","error/node-error-instantiation.js","stackTraceLimit=0 code=""built-in"" n=1000000",429365.8198657291,2.329016316
+"old","error/node-error-instantiation.js","stackTraceLimit=10 code=""built-in"" n=1000000",56137.62190014713,17.813365906
+"old","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",245585.9101325873,4.071894839
+"old","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",41467.90364222874,24.115036261
+"old","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_STATE"" n=1000000",147988.11364857943,6.757299457
+"old","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_STATE"" n=1000000",33351.63819986048,29.983534662
+"old","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_URL"" n=1000000",113307.64356115773,8.825529934
+"old","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_URL"" n=1000000",30596.23006779698,32.683765215
+"new","error/node-error-instantiation.js","stackTraceLimit=0 code=""built-in"" n=1000000",355941.2447559479,2.809452444
+"new","error/node-error-instantiation.js","stackTraceLimit=10 code=""built-in"" n=1000000",55315.07099191582,18.078255746
+"new","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",283817.27722559,3.523393677
+"new","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",43518.155580526014,22.978915045
+"new","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_STATE"" n=1000000",172497.68119431438,5.797179377
+"new","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_STATE"" n=1000000",35170.164833371906,28.433190596
+"new","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_URL"" n=1000000",120814.72460626336,8.277136775
+"new","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_URL"" n=1000000",31984.69670538888,31.264951774
+"old","error/node-error-instantiation.js","stackTraceLimit=0 code=""built-in"" n=1000000",429365.8198657291,2.329016316
+"old","error/node-error-instantiation.js","stackTraceLimit=10 code=""built-in"" n=1000000",56137.62190014713,17.813365906
+"old","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",245585.9101325873,4.071894839
+"old","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",41467.90364222874,24.115036261
+"old","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_STATE"" n=1000000",147988.11364857943,6.757299457
+"old","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_STATE"" n=1000000",33351.63819986048,29.983534662
+"old","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_URL"" n=1000000",113307.64356115773,8.825529934
+"old","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_URL"" n=1000000",30596.23006779698,32.683765215
+"new","error/node-error-instantiation.js","stackTraceLimit=0 code=""built-in"" n=1000000",359462.9851763709,2.781927601
+"new","error/node-error-instantiation.js","stackTraceLimit=10 code=""built-in"" n=1000000",56015.89211235482,17.852076657
+"new","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",273712.41179606237,3.653469689
+"new","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",43091.28571960529,23.206548222
+"new","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_STATE"" n=1000000",171534.51975410344,5.829730374
+"new","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_STATE"" n=1000000",35752.37342635993,27.970171045
+"new","error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_URL"" n=1000000",121348.39878817102,8.240735024
+"new","error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_URL"" n=1000000",32010.004874013313,31.240232669
+"old","error/node-error-stack.js","stackTraceLimit=0 code=""built-in"" n=1000000",168659.63726198432,5.929100858
+"old","error/node-error-stack.js","stackTraceLimit=10 code=""built-in"" n=1000000",16164.14975200049,61.865301630
+"old","error/node-error-stack.js","stackTraceLimit=0 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",134186.25181590664,7.452328286
+"new","error/node-error-stack.js","stackTraceLimit=0 code=""built-in"" n=1000000",153674.61779303045,6.507255488
+"new","error/node-error-stack.js","stackTraceLimit=10 code=""built-in"" n=1000000",15138.029334868348,66.058796550
+"new","error/node-error-stack.js","stackTraceLimit=0 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",131593.57259150414,7.599155341
+"old","error/node-error-stack.js","stackTraceLimit=0 code=""built-in"" n=1000000",168659.63726198432,5.929100858
+"old","error/node-error-stack.js","stackTraceLimit=10 code=""built-in"" n=1000000",16164.14975200049,61.865301630
+"old","error/node-error-stack.js","stackTraceLimit=0 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",134186.25181590664,7.452328286
+"old","error/node-error-stack.js","stackTraceLimit=0 code=""built-in"" n=1000000",168659.63726198432,5.929100858
+"old","error/node-error-stack.js","stackTraceLimit=10 code=""built-in"" n=1000000",16164.14975200049,61.865301630
+"old","error/node-error-stack.js","stackTraceLimit=0 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",134186.25181590664,7.452328286
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

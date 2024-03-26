@@ -1,0 +1,64 @@
+                                                                                                     confidence improvement accuracy (*)      (**)      (***)
+                                                                                                             NA       NaN %           NA        NA         NA
+tls/convertprotocols.js n=1                                                                                         -2.58 %      ±20.22%   ±46.64%   ±148.50%
+tls/convertprotocols.js n=50000                                                                             ***   1166.11 %      ±40.87%   ±94.27%   ±300.15%
+tls/secure-pair.js size=100 securing="clear" dur=5                                                          ***  93400.00 %    ±4277.88% ±9867.69% ±31417.09%
+tls/secure-pair.js size=100 securing="SecurePair" dur=5                                                     ***   2199.39 %     ±177.17%  ±408.68%  ±1301.17%
+tls/secure-pair.js size=100 securing="TLSSocket" dur=5                                                      ***    706.64 %      ±23.80%   ±54.90%   ±174.78%
+tls/secure-pair.js size=1024 securing="clear" dur=5                                                         ***  19553.61 %    ±1372.46% ±3165.83% ±10079.48%
+tls/secure-pair.js size=1024 securing="SecurePair" dur=5                                                    ***   2412.78 %     ±134.91%  ±311.20%   ±990.82%
+tls/secure-pair.js size=1024 securing="TLSSocket" dur=5                                                     ***    437.72 %      ±26.04%   ±60.05%   ±191.20%
+tls/secure-pair.js size=1048576 securing="clear" dur=5                                                      ***   1560.67 %      ±30.56%   ±70.49%   ±224.44%
+tls/secure-pair.js size=1048576 securing="SecurePair" dur=5                                                 ***    171.75 %       ±8.48%   ±19.55%    ±62.26%
+tls/secure-pair.js size=1048576 securing="TLSSocket" dur=5                                                   **    136.55 %      ±38.75%   ±89.39%   ±284.62%
+tls/throughput-c2s.js size=100 type="asc" dur=5                                                             ***   3871.16 %      ±81.60%  ±188.23%   ±599.28%
+tls/throughput-c2s.js size=100 type="buf" dur=5                                                             ***   4514.04 %      ±40.31%   ±92.97%   ±296.01%
+tls/throughput-c2s.js size=100 type="utf" dur=5                                                             ***   3802.76 %      ±68.87%  ±158.87%   ±505.81%
+tls/throughput-c2s.js size=1024 type="asc" dur=5                                                            ***   2430.66 %      ±80.51%  ±185.70%   ±591.24%
+tls/throughput-c2s.js size=1024 type="buf" dur=5                                                            ***   1524.87 %      ±26.76%   ±61.74%   ±196.56%
+tls/throughput-c2s.js size=1024 type="utf" dur=5                                                            ***   1486.47 %      ±57.04%  ±131.57%   ±418.90%
+tls/throughput-c2s.js size=1048576 type="asc" dur=5                                                         ***    365.24 %      ±26.94%   ±62.13%   ±197.83%
+tls/throughput-c2s.js size=1048576 type="buf" dur=5                                                          **    395.88 %      ±54.25%  ±125.14%   ±398.42%
+tls/throughput-c2s.js size=1048576 type="utf" dur=5                                                         ***    374.25 %      ±14.58%   ±33.64%   ±107.10%
+tls/throughput-c2s.js size=16777216 type="asc" dur=5                                                         **    127.34 %      ±30.75%   ±70.93%   ±225.84%
+tls/throughput-c2s.js size=16777216 type="buf" dur=5                                                         **    124.22 %      ±28.22%   ±65.09%   ±207.23%
+tls/throughput-c2s.js size=16777216 type="utf" dur=5                                                        ***    131.21 %       ±3.12%    ±7.20%    ±22.91%
+tls/throughput-c2s.js size=4194304 type="asc" dur=5                                                          **    196.30 %      ±34.05%   ±78.55%   ±250.10%
+tls/throughput-c2s.js size=4194304 type="buf" dur=5                                                         ***    182.82 %      ±23.46%   ±54.13%   ±172.33%
+tls/throughput-c2s.js size=4194304 type="utf" dur=5                                                          **    172.62 %      ±26.66%   ±61.49%   ±195.77%
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=0 sendchunklen=131072 type="buf" dur=5                 NA    407.64 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=0 sendchunklen=16777216 type="buf" dur=5               NA    143.16 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=0 sendchunklen=256 type="asc" dur=5                    NA   4687.29 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=0 sendchunklen=256 type="buf" dur=5                    NA   4561.77 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=0 sendchunklen=32768 type="buf" dur=5                  NA    464.53 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=1048576 sendchunklen=131072 type="buf" dur=5           NA    114.41 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=1048576 sendchunklen=16777216 type="buf" dur=5         NA     37.78 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=1048576 sendchunklen=256 type="buf" dur=5              NA    457.03 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=1048576 sendchunklen=32768 type="buf" dur=5            NA    124.93 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=65536 sendchunklen=131072 type="buf" dur=5             NA    110.60 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=65536 sendchunklen=16777216 type="buf" dur=5           NA     39.60 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=65536 sendchunklen=256 type="asc" dur=5                NA   1375.80 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=65536 sendchunklen=256 type="buf" dur=5                NA    391.52 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="false" recvbuflen=65536 sendchunklen=32768 type="buf" dur=5              NA    137.79 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=0 sendchunklen=131072 type="buf" dur=5                  NA    401.19 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=0 sendchunklen=16777216 type="buf" dur=5                NA    147.55 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=0 sendchunklen=256 type="asc" dur=5                     NA   4619.32 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=0 sendchunklen=256 type="buf" dur=5                     NA   4639.21 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=0 sendchunklen=32768 type="buf" dur=5                   NA    423.59 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=1048576 sendchunklen=131072 type="buf" dur=5            NA    112.69 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=1048576 sendchunklen=16777216 type="buf" dur=5          NA     43.37 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=1048576 sendchunklen=256 type="asc" dur=5               NA   1045.77 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=1048576 sendchunklen=256 type="buf" dur=5               NA    444.00 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=1048576 sendchunklen=32768 type="buf" dur=5             NA    124.09 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=65536 sendchunklen=131072 type="buf" dur=5              NA    113.09 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=65536 sendchunklen=16777216 type="buf" dur=5            NA     43.05 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=65536 sendchunklen=256 type="asc" dur=5                 NA   1010.10 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=65536 sendchunklen=256 type="buf" dur=5                 NA    446.14 %           NA        NA         NA
+tls/throughput-s2c.js recvbufgenfn="true" recvbuflen=65536 sendchunklen=32768 type="buf" dur=5               NA    125.01 %           NA        NA         NA
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 56 comparisons, you can thus
+expect the following amount of false-positive results:
+  2.80 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.56 false positives, when considering a   1% risk acceptance (**, ***),
+  0.06 false positives, when considering a 0.1% risk acceptance (***)

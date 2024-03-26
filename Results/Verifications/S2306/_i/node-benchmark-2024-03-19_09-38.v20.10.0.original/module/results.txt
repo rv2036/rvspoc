@@ -1,0 +1,33 @@
+"filename","configuration","rate","time"
+"module/module-loader-circular.js","n=10000",729.2382565104483,13.712939373
+"module/module-loader-deep.js","cache=""true"" files=1000 ext=""""",124579.04739883932,0.008027032
+"module/module-loader-deep.js","cache=""false"" files=1000 ext=""""",583.107069471098,1.714950911
+"module/module-loader-deep.js","cache=""true"" files=1000 ext="".js""",130255.60187010573,0.007677213
+"module/module-loader-deep.js","cache=""false"" files=1000 ext="".js""",674.7942921990358,1.481933104
+"module/module-loader.js","cache=""true"" n=1 files=500 dir=""rel"" name=""""",3109.4981218413677,0.160797653
+"module/module-loader.js","cache=""false"" n=1 files=500 dir=""rel"" name=""""",561.7646869607964,0.890052386
+"module/module-loader.js","cache=""true"" n=1000 files=500 dir=""rel"" name=""""",323371.20953363,1.546210625
+"module/module-loader.js","cache=""false"" n=1000 files=500 dir=""rel"" name=""""",214824.9595209303,2.327476291
+"module/module-loader.js","cache=""true"" n=1 files=500 dir=""abs"" name=""""",2969.030411932899,0.168405146
+"module/module-loader.js","cache=""false"" n=1 files=500 dir=""abs"" name=""""",591.0056602668783,0.846015586
+"module/module-loader.js","cache=""true"" n=1000 files=500 dir=""abs"" name=""""",327639.916162345,1.526065584
+"module/module-loader.js","cache=""false"" n=1000 files=500 dir=""abs"" name=""""",214370.1792600225,2.332413966
+"module/module-loader.js","cache=""true"" n=1 files=500 dir=""rel"" name=""/""",2794.5354268174437,0.178920616
+"module/module-loader.js","cache=""false"" n=1 files=500 dir=""rel"" name=""/""",621.0442871363831,0.805095563
+"module/module-loader.js","cache=""true"" n=1000 files=500 dir=""rel"" name=""/""",310064.1236482642,1.612569665
+"module/module-loader.js","cache=""false"" n=1000 files=500 dir=""rel"" name=""/""",218933.59346964525,2.283797530
+"module/module-loader.js","cache=""true"" n=1 files=500 dir=""abs"" name=""/""",3358.7495735395664,0.148864924
+"module/module-loader.js","cache=""false"" n=1 files=500 dir=""abs"" name=""/""",629.9856798963079,0.793668834
+"module/module-loader.js","cache=""true"" n=1000 files=500 dir=""abs"" name=""/""",275618.23844379856,1.814103460
+"module/module-loader.js","cache=""false"" n=1000 files=500 dir=""abs"" name=""/""",223559.83196659986,2.236537734
+"module/module-loader.js","cache=""true"" n=1 files=500 dir=""rel"" name=""/index.js""",3635.3210527244137,0.137539434
+"module/module-loader.js","cache=""false"" n=1 files=500 dir=""rel"" name=""/index.js""",666.2538255928225,0.750464734
+"module/module-loader.js","cache=""true"" n=1000 files=500 dir=""rel"" name=""/index.js""",290800.8026965251,1.719390027
+"module/module-loader.js","cache=""false"" n=1000 files=500 dir=""rel"" name=""/index.js""",212100.5013299501,2.357373023
+"module/module-loader.js","cache=""true"" n=1 files=500 dir=""abs"" name=""/index.js""",2396.320911251445,0.208653189
+"module/module-loader.js","cache=""false"" n=1 files=500 dir=""abs"" name=""/index.js""",693.9672060883476,0.720495141
+"module/module-loader.js","cache=""true"" n=1000 files=500 dir=""abs"" name=""/index.js""",279188.1397849586,1.790907022
+"module/module-loader.js","cache=""false"" n=1000 files=500 dir=""abs"" name=""/index.js""",222432.9756872221,2.247868143
+"module/module-require.js","n=10000 type="".js""",1092.0086855605882,9.157436321
+"module/module-require.js","n=10000 type="".json""",2536.4662984835168,3.942492753
+"module/module-require.js","n=10000 type=""dir""",863.9197207008984,11.575149589

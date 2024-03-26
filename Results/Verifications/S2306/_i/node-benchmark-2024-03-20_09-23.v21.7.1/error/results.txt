@@ -1,0 +1,67 @@
+"filename","configuration","rate","time"
+"error/determine-specific-type.js","v=""() => 1n"" n=1000000",1166434.5469694429,0.857313428
+"error/determine-specific-type.js","v=""() => true"" n=1000000",2104068.157921467,0.475269775
+"error/determine-specific-type.js","v=""() => false"" n=1000000",2109279.243336401,0.474095596
+"error/determine-specific-type.js","v=""() => 2"" n=1000000",1688153.4557151177,0.592363210
+"error/determine-specific-type.js","v=""() => +0"" n=1000000",2098297.8911759974,0.476576755
+"error/determine-specific-type.js","v=""() => -0"" n=1000000",1917517.6779502137,0.521507578
+"error/determine-specific-type.js","v=""() => NaN"" n=1000000",2017990.2743241247,0.495542527
+"error/determine-specific-type.js","v=""() => Infinity"" n=1000000",2045296.3185423026,0.488926710
+"error/determine-specific-type.js","v=""() => \""\"""" n=1000000",1472358.4952175794,0.679182416
+"error/determine-specific-type.js","v=""() => \""'\"""" n=1000000",663277.9464742325,1.507663575
+"error/determine-specific-type.js","v=""() => Symbol(\""foo\"")"" n=1000000",797013.3976031335,1.254684053
+"error/determine-specific-type.js","v=""() => function foo() {}"" n=1000000",1411174.9775194535,0.708629345
+"error/determine-specific-type.js","v=""() => null"" n=1000000",2314234.3651940464,0.432108353
+"error/determine-specific-type.js","v=""() => undefined"" n=1000000",2315586.0711412462,0.431856113
+"error/determine-specific-type.js","v=""() => new Array()"" n=1000000",1454113.3576228623,0.687704294
+"error/determine-specific-type.js","v=""() => new BigInt64Array()"" n=1000000",1268127.1902252696,0.788564434
+"error/determine-specific-type.js","v=""() => new BigUint64Array()"" n=1000000",1273800.8170018322,0.785052095
+"error/determine-specific-type.js","v=""() => new Int8Array()"" n=1000000",1285699.6393913364,0.777786638
+"error/determine-specific-type.js","v=""() => new Int16Array()"" n=1000000",1283393.5850472595,0.779184197
+"error/determine-specific-type.js","v=""() => new Int32Array()"" n=1000000",1248243.9875217094,0.801125429
+"error/determine-specific-type.js","v=""() => new Float32Array()"" n=1000000",1280880.7590225784,0.780712797
+"error/determine-specific-type.js","v=""() => new Float64Array()"" n=1000000",1277808.7652792402,0.782589717
+"error/determine-specific-type.js","v=""() => new Uint8Array()"" n=1000000",1252157.9847228462,0.798621270
+"error/determine-specific-type.js","v=""() => new Uint8ClampedArray()"" n=1000000",1284759.8556041953,0.778355578
+"error/determine-specific-type.js","v=""() => new Uint16Array()"" n=1000000",1274290.0128809821,0.784750716
+"error/determine-specific-type.js","v=""() => new Uint32Array()"" n=1000000",1264985.7901489723,0.790522714
+"error/determine-specific-type.js","v=""() => new Date()"" n=1000000",1475297.7393155594,0.677829277
+"error/determine-specific-type.js","v=""() => new Map()"" n=1000000",1466630.2854358063,0.681835095
+"error/determine-specific-type.js","v=""() => new WeakMap()"" n=1000000",1479511.34663735,0.675898838
+"error/determine-specific-type.js","v=""() => new Object()"" n=1000000",1472049.4261910121,0.679325016
+"error/determine-specific-type.js","v=""() => Promise.resolve(\""foo\"")"" n=1000000",1478034.1868036299,0.676574337
+"error/determine-specific-type.js","v=""() => new Set()"" n=1000000",1473894.1864568146,0.678474757
+"error/determine-specific-type.js","v=""() => new WeakSet()"" n=1000000",1474467.6551014201,0.678210876
+"error/determine-specific-type.js","v=""() => ({ __proto__: null })"" n=1000000",117035.58172541282,8.544410044
+"error/error-class-reg-exp.js","n=100000",1632.9356491498602,61.239400372
+"error/error.js","n=10000000",62968.96439943667,158.808392283
+"error/format-list.js","type=""undefined"" input="""" n=10000000",19348331.21678391,0.516840439
+"error/format-list.js","type=""and"" input="""" n=10000000",18630473.449589327,0.536755012
+"error/format-list.js","type=""or"" input="""" n=10000000",17908237.521173425,0.558402243
+"error/format-list.js","type=""undefined"" input=""a"" n=10000000",18753459.32171104,0.533234953
+"error/format-list.js","type=""and"" input=""a"" n=10000000",18700695.429493185,0.534739472
+"error/format-list.js","type=""or"" input=""a"" n=10000000",18678781.35565933,0.535366832
+"error/format-list.js","type=""undefined"" input=""a,b"" n=10000000",3955153.8098229286,2.528346679
+"error/format-list.js","type=""and"" input=""a,b"" n=10000000",3775632.0790194245,2.648563152
+"error/format-list.js","type=""or"" input=""a,b"" n=10000000",3765739.9045571485,2.655520629
+"error/format-list.js","type=""undefined"" input=""a,b,c"" n=10000000",2386164.995882765,4.190825034
+"error/format-list.js","type=""and"" input=""a,b,c"" n=10000000",2327563.065221167,4.296339012
+"error/format-list.js","type=""or"" input=""a,b,c"" n=10000000",2366836.276363278,4.225049320
+"error/format-list.js","type=""undefined"" input=""a,b,c,d"" n=10000000",696482.1681031776,14.357869387
+"error/format-list.js","type=""and"" input=""a,b,c,d"" n=10000000",688955.2876345039,14.514730026
+"error/format-list.js","type=""or"" input=""a,b,c,d"" n=10000000",706284.0944467941,14.158608524
+"error/hidestackframes.js","n=100000 type=""hide-stackframes-throw""",9637.722564550022,10.375895273
+"error/hidestackframes.js","n=100000 type=""direct-call-throw""",16374.438854550697,6.107079509
+"error/hidestackframes.js","n=100000 type=""hide-stackframes-noerr""",431152.80818662606,0.231936330
+"error/hidestackframes.js","n=100000 type=""direct-call-noerr""",561389.0395111276,0.178129591
+"error/node-error-instantiation.js","stackTraceLimit=0 code=""built-in"" n=1000000",429365.8198657291,2.329016316
+"error/node-error-instantiation.js","stackTraceLimit=10 code=""built-in"" n=1000000",56137.62190014713,17.813365906
+"error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",245585.9101325873,4.071894839
+"error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",41467.90364222874,24.115036261
+"error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_STATE"" n=1000000",147988.11364857943,6.757299457
+"error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_STATE"" n=1000000",33351.63819986048,29.983534662
+"error/node-error-instantiation.js","stackTraceLimit=0 code=""ERR_INVALID_URL"" n=1000000",113307.64356115773,8.825529934
+"error/node-error-instantiation.js","stackTraceLimit=10 code=""ERR_INVALID_URL"" n=1000000",30596.23006779698,32.683765215
+"error/node-error-stack.js","stackTraceLimit=0 code=""built-in"" n=1000000",168659.63726198432,5.929100858
+"error/node-error-stack.js","stackTraceLimit=10 code=""built-in"" n=1000000",16164.14975200049,61.865301630
+"error/node-error-stack.js","stackTraceLimit=0 code=""ERR_HTTP2_STREAM_SELF_DEPENDENCY"" n=1000000",134186.25181590664,7.452328286

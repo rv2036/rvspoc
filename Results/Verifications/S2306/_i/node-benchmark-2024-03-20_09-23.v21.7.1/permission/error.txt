@@ -1,0 +1,21 @@
+node:internal/child_process:1110
+  const result = spawn_sync.spawn(options);
+                            ^
+
+Error: Access to this API has been restricted
+    at Object.spawnSync (node:internal/child_process:1110:29)
+    at Object.spawnSync (node:child_process:876:24)
+    at new WrkBenchmarker (/data/home/ryan/node-v20.10.0/benchmark/_http-benchmarkers.js:56:34)
+    at Object.<anonymous> (/data/home/ryan/node-v20.10.0/benchmark/_http-benchmarkers.js:182:3)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+    at Module.load (node:internal/modules/cjs/loader:1205:32)
+    at Module._load (node:internal/modules/cjs/loader:1021:12)
+    at Module.require (node:internal/modules/cjs/loader:1230:19)
+    at require (node:internal/modules/helpers:179:18) {
+  code: 'ERR_ACCESS_DENIED',
+  permission: 'ChildProcess',
+  resource: ''
+}
+
+Node.js v21.7.1

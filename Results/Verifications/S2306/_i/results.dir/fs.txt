@@ -1,0 +1,204 @@
+                                                                                              confidence improvement accuracy (*)     (**)    (***)
+fs/bench_fdatasyncSync.js n=10000 type="existing"                                                             1.77 %       ±4.89%  ±11.28%  ±35.90%
+fs/bench_fdatasyncSync.js n=10000 type="non-existing"                                                         0.51 %       ±2.82%   ±6.50%  ±20.69%
+fs/bench-accessSync.js n=100000 type="existing"                                                              -2.67 %       ±4.15%   ±9.58%  ±30.49%
+fs/bench-accessSync.js n=100000 type="non-existing"                                                          -1.14 %       ±2.82%   ±6.52%  ±20.74%
+fs/bench-accessSync.js n=100000 type="non-flat-existing"                                                     -3.22 %       ±3.40%   ±7.84%  ±24.95%
+fs/bench-chmodSync.js n=1000 type="existing"                                                                 -3.83 %       ±5.19%  ±11.97%  ±38.12%
+fs/bench-chmodSync.js n=1000 type="non-existing"                                                             -4.74 %       ±6.80%  ±15.69%  ±49.95%
+fs/bench-chownSync.js n=10000 method="chownSync" type="existing"                                             -1.13 %       ±2.15%   ±4.96%  ±15.79%
+fs/bench-chownSync.js n=10000 method="chownSync" type="non-existing"                                         -0.41 %       ±1.02%   ±2.34%   ±7.46%
+fs/bench-chownSync.js n=10000 method="lchownSync" type="existing"                                            -1.10 %       ±3.55%   ±8.19%  ±26.09%
+fs/bench-chownSync.js n=10000 method="lchownSync" type="non-existing"                                         1.07 %       ±2.52%   ±5.82%  ±18.53%
+fs/bench-copyFileSync.js n=10000 type="invalid"                                                              -0.80 %       ±2.46%   ±5.68%  ±18.09%
+fs/bench-copyFileSync.js n=10000 type="valid"                                                                -2.56 %       ±3.22%   ±7.42%  ±23.62%
+fs/bench-existsSync.js n=1000000 type="existing"                                                             -1.94 %       ±1.97%   ±4.54%  ±14.45%
+fs/bench-existsSync.js n=1000000 type="non-existing"                                                   *     -7.75 %       ±4.49%  ±10.36%  ±32.99%
+fs/bench-existsSync.js n=1000000 type="non-flat-existing"                                              *     -3.70 %       ±2.74%   ±6.33%  ±20.15%
+fs/bench-fchmodSync.js n=1000 type="existing"                                                                -2.73 %       ±5.32%  ±12.26%  ±39.03%
+fs/bench-fchmodSync.js n=1000 type="non-existing"                                                      *     -1.03 %       ±0.72%   ±1.67%   ±5.31%
+fs/bench-fsyncSync.js n=10000 type="existing"                                                                 2.45 %       ±5.37%  ±12.38%  ±39.42%
+fs/bench-fsyncSync.js n=10000 type="non-existing"                                                            -0.69 %       ±2.81%   ±6.49%  ±20.65%
+fs/bench-ftruncateSync.js n=10000 type="invalid"                                                             -0.96 %       ±1.63%   ±3.76%  ±11.98%
+fs/bench-ftruncateSync.js n=10000 type="valid"                                                               -1.41 %      ±11.83%  ±27.28%  ±86.85%
+fs/bench-linkSync.js n=1000 type="invalid"                                                                   -0.02 %       ±1.35%   ±3.11%   ±9.90%
+fs/bench-linkSync.js n=1000 type="valid"                                                               *      3.37 %       ±2.00%   ±4.60%  ±14.66%
+fs/bench-mkdirp.js n=10000                                                                                   -0.70 %       ±9.34%  ±21.54%  ±68.56%
+fs/bench-mkdirSync.js n=1000 recursive="false" type="existing"                                               -1.87 %       ±4.33%   ±9.99%  ±31.82%
+fs/bench-mkdirSync.js n=1000 recursive="false" type="non-existing"                                           -0.95 %       ±4.01%   ±9.26%  ±29.48%
+fs/bench-mkdirSync.js n=1000 recursive="true" type="existing"                                          *     -4.99 %       ±2.65%   ±6.12%  ±19.50%
+fs/bench-mkdirSync.js n=1000 recursive="true" type="non-existing"                                            -2.97 %      ±16.60%  ±38.28% ±121.89%
+fs/bench-opendir.js bufferSize=1024 mode="async" dir="lib" n=100                                              0.81 %       ±7.52%  ±17.34%  ±55.21%
+fs/bench-opendir.js bufferSize=1024 mode="async" dir="test/parallel" n=100                             *     -2.82 %       ±2.04%   ±4.70%  ±14.98%
+fs/bench-opendir.js bufferSize=1024 mode="callback" dir="lib" n=100                                    *     -2.49 %       ±1.41%   ±3.24%  ±10.33%
+fs/bench-opendir.js bufferSize=1024 mode="callback" dir="test/parallel" n=100                                -0.89 %       ±6.47%  ±14.92%  ±47.51%
+fs/bench-opendir.js bufferSize=1024 mode="sync" dir="lib" n=100                                              -2.66 %       ±7.65%  ±17.65%  ±56.19%
+fs/bench-opendir.js bufferSize=1024 mode="sync" dir="test/parallel" n=100                              *     -5.28 %       ±2.33%   ±5.37%  ±17.10%
+fs/bench-opendir.js bufferSize=32 mode="async" dir="lib" n=100                                               -2.41 %       ±4.23%   ±9.76%  ±31.06%
+fs/bench-opendir.js bufferSize=32 mode="async" dir="test/parallel" n=100                                      1.83 %       ±2.74%   ±6.33%  ±20.14%
+fs/bench-opendir.js bufferSize=32 mode="callback" dir="lib" n=100                                             0.21 %      ±14.06%  ±32.44% ±103.29%
+fs/bench-opendir.js bufferSize=32 mode="callback" dir="test/parallel" n=100                                   2.11 %       ±4.83%  ±11.15%  ±35.50%
+fs/bench-opendir.js bufferSize=32 mode="sync" dir="lib" n=100                                                -1.84 %       ±5.33%  ±12.30%  ±39.16%
+fs/bench-opendir.js bufferSize=32 mode="sync" dir="test/parallel" n=100                                       1.52 %       ±4.09%   ±9.44%  ±30.04%
+fs/bench-opendir.js bufferSize=4 mode="async" dir="lib" n=100                                                 4.01 %       ±5.94%  ±13.71%  ±43.65%
+fs/bench-opendir.js bufferSize=4 mode="async" dir="test/parallel" n=100                                       4.43 %       ±9.73%  ±22.45%  ±71.48%
+fs/bench-opendir.js bufferSize=4 mode="callback" dir="lib" n=100                                             -0.46 %      ±11.81%  ±27.25%  ±86.76%
+fs/bench-opendir.js bufferSize=4 mode="callback" dir="test/parallel" n=100                                    2.52 %      ±15.57%  ±35.92% ±114.37%
+fs/bench-opendir.js bufferSize=4 mode="sync" dir="lib" n=100                                                 -2.61 %       ±6.33%  ±14.59%  ±46.46%
+fs/bench-opendir.js bufferSize=4 mode="sync" dir="test/parallel" n=100                                        1.35 %       ±3.11%   ±7.17%  ±22.82%
+fs/bench-opendirSync.js n=1000 type="existing"                                                               -0.24 %       ±3.76%   ±8.67%  ±27.61%
+fs/bench-opendirSync.js n=1000 type="non-existing"                                                     *      4.16 %       ±1.87%   ±4.32%  ±13.76%
+fs/bench-openSync.js n=100000 type="existing"                                                                -2.27 %       ±3.60%   ±8.31%  ±26.45%
+fs/bench-openSync.js n=100000 type="non-existing"                                                      *     -2.24 %       ±1.60%   ±3.70%  ±11.77%
+fs/bench-readdir.js withFileTypes="false" dir="lib" n=10                                                     -1.75 %       ±9.99%  ±23.04%  ±73.37%
+fs/bench-readdir.js withFileTypes="false" dir="test/parallel" n=10                                           -1.57 %       ±3.80%   ±8.77%  ±27.93%
+fs/bench-readdir.js withFileTypes="true" dir="lib" n=10                                                      -0.46 %       ±4.74%  ±10.94%  ±34.83%
+fs/bench-readdir.js withFileTypes="true" dir="test/parallel" n=10                                            -1.63 %       ±3.83%   ±8.84%  ±28.16%
+fs/bench-readdirSync.js withFileTypes="false" dir="lib" n=10                                                 -3.36 %       ±5.24%  ±12.09%  ±38.48%
+fs/bench-readdirSync.js withFileTypes="false" dir="test/parallel" n=10                                 *      2.23 %       ±1.61%   ±3.70%  ±11.79%
+fs/bench-readdirSync.js withFileTypes="true" dir="lib" n=10                                                   2.42 %       ±5.55%  ±12.81%  ±40.79%
+fs/bench-readdirSync.js withFileTypes="true" dir="test/parallel" n=10                                        -0.63 %       ±2.89%   ±6.66%  ±21.21%
+fs/bench-readlinkSync.js n=1000 type="invalid"                                                               -0.84 %       ±2.48%   ±5.73%  ±18.23%
+fs/bench-readlinkSync.js n=1000 type="valid"                                                                 -4.99 %       ±5.80%  ±13.37%  ±42.56%
+fs/bench-readSync.js n=10000 type="existing"                                                                  5.86 %      ±12.14%  ±27.99%  ±89.12%
+fs/bench-readSync.js n=10000 type="non-existing"                                                              1.42 %       ±1.59%   ±3.66%  ±11.67%
+fs/bench-realpath.js pathType="relative" n=10000                                                     ***    136.65 %      ±17.16%  ±39.58% ±126.03%
+fs/bench-realpath.js pathType="resolved" n=10000                                                       *    -13.79 %      ±12.00%  ±27.67%  ±88.10%
+fs/bench-realpathSync.js pathType="relative" n=10000                                                  **    -19.27 %       ±4.24%   ±9.78%  ±31.14%
+fs/bench-realpathSync.js pathType="resolved" n=10000                                                  **    -18.07 %       ±2.68%   ±6.17%  ±19.65%
+fs/bench-renameSync.js n=2000 type="invalid"                                                                 -6.15 %      ±12.12%  ±27.95%  ±88.98%
+fs/bench-renameSync.js n=2000 type="valid"                                                                    0.11 %       ±2.29%   ±5.29%  ±16.83%
+fs/bench-stat-promise.js statType="fstat" n=200000                                                           -1.49 %       ±3.61%   ±8.32%  ±26.48%
+fs/bench-stat-promise.js statType="lstat" n=200000                                                     *      4.94 %       ±4.84%  ±11.18%  ±35.58%
+fs/bench-stat-promise.js statType="stat" n=200000                                                            -5.23 %       ±9.44%  ±21.76%  ±69.29%
+fs/bench-stat.js statType="fstat" n=200000                                                                    2.31 %       ±9.58%  ±22.10%  ±70.37%
+fs/bench-stat.js statType="lstat" n=200000                                                                    5.16 %      ±14.51%  ±33.47% ±106.57%
+fs/bench-stat.js statType="stat" n=200000                                                                    -3.53 %       ±6.06%  ±13.99%  ±44.54%
+fs/bench-statSync-failure.js statSyncType="noThrow" n=1000000                                          *     -3.71 %       ±3.53%   ±8.14%  ±25.91%
+fs/bench-statSync-failure.js statSyncType="throw" n=1000000                                                   0.24 %       ±1.14%   ±2.63%   ±8.37%
+fs/bench-statSync.js statSyncType="fstatSync" n=1000000                                                      -0.88 %       ±0.89%   ±2.04%   ±6.51%
+fs/bench-statSync.js statSyncType="lstatSync" n=1000000                                                      -1.09 %       ±5.02%  ±11.58%  ±36.86%
+fs/bench-statSync.js statSyncType="statSync" n=1000000                                                **     -2.40 %       ±0.55%   ±1.26%   ±4.01%
+fs/bench-symlinkSync.js n=1000 type="invalid"                                                          *     -2.00 %       ±0.98%   ±2.25%   ±7.18%
+fs/bench-symlinkSync.js n=1000 type="valid"                                                                   0.91 %       ±2.03%   ±4.69%  ±14.94%
+fs/bench-timesSync.js n=1000 func="futimes" type="existing"                                                  -0.26 %       ±2.66%   ±6.14%  ±19.53%
+fs/bench-timesSync.js n=1000 func="futimes" type="non-existing"                                               1.16 %       ±3.60%   ±8.31%  ±26.45%
+fs/bench-timesSync.js n=1000 func="lutimes" type="existing"                                                  -0.49 %       ±2.04%   ±4.71%  ±15.01%
+fs/bench-timesSync.js n=1000 func="lutimes" type="non-existing"                                              -3.86 %       ±4.54%  ±10.47%  ±33.34%
+fs/bench-timesSync.js n=1000 func="utimes" type="existing"                                                   -0.18 %       ±2.97%   ±6.85%  ±21.82%
+fs/bench-timesSync.js n=1000 func="utimes" type="non-existing"                                               -0.24 %       ±6.03%  ±13.90%  ±44.25%
+fs/bench-unlinkSync.js n=1000 type="existing"                                                                -0.57 %       ±2.73%   ±6.30%  ±20.04%
+fs/bench-unlinkSync.js n=1000 type="non-existing"                                                      *     -1.57 %       ±1.17%   ±2.70%   ±8.60%
+fs/bench-writevSync.js n=100000 type="invalid"                                                                0.34 %       ±0.68%   ±1.57%   ±5.00%
+fs/bench-writevSync.js n=100000 type="valid"                                                                  3.61 %       ±5.65%  ±13.04%  ±41.50%
+fs/read-stream-throughput.js n=1024 highWaterMark=1024 filesize=1024000 encodingType="asc"                    0.63 %       ±0.75%   ±1.73%   ±5.51%
+fs/read-stream-throughput.js n=1024 highWaterMark=1024 filesize=1024000 encodingType="buf"                   -0.65 %       ±1.10%   ±2.54%   ±8.08%
+fs/read-stream-throughput.js n=1024 highWaterMark=1024 filesize=1024000 encodingType="utf"            **     -0.87 %       ±0.38%   ±0.87%   ±2.78%
+fs/read-stream-throughput.js n=1024 highWaterMark=1048576 filesize=1024000 encodingType="asc"                -7.90 %      ±37.54%  ±86.58% ±275.67%
+fs/read-stream-throughput.js n=1024 highWaterMark=1048576 filesize=1024000 encodingType="buf"               -10.94 %      ±37.86%  ±87.34% ±278.07%
+fs/read-stream-throughput.js n=1024 highWaterMark=1048576 filesize=1024000 encodingType="utf"                 0.28 %       ±1.15%   ±2.64%   ±8.42%
+fs/read-stream-throughput.js n=1024 highWaterMark=4096 filesize=1024000 encodingType="asc"                   -0.87 %       ±3.77%   ±8.70%  ±27.71%
+fs/read-stream-throughput.js n=1024 highWaterMark=4096 filesize=1024000 encodingType="buf"                   -0.53 %       ±5.69%  ±13.13%  ±41.79%
+fs/read-stream-throughput.js n=1024 highWaterMark=4096 filesize=1024000 encodingType="utf"                   -0.33 %       ±0.76%   ±1.75%   ±5.58%
+fs/read-stream-throughput.js n=1024 highWaterMark=65535 filesize=1024000 encodingType="asc"                   2.74 %       ±5.61%  ±12.93%  ±41.17%
+fs/read-stream-throughput.js n=1024 highWaterMark=65535 filesize=1024000 encodingType="buf"                  -1.38 %      ±11.06%  ±25.51%  ±81.21%
+fs/read-stream-throughput.js n=1024 highWaterMark=65535 filesize=1024000 encodingType="utf"                  -0.49 %       ±0.72%   ±1.67%   ±5.32%
+fs/readfile-partitioned.js concurrent=1 len=1024 encoding=' duration=5                                       -2.77 %      ±15.03%  ±34.67% ±110.38%
+fs/readfile-partitioned.js concurrent=1 len=1024 encoding="utf-8" duration=5                                  2.61 %       ±7.50%  ±17.30%  ±55.09%
+fs/readfile-partitioned.js concurrent=1 len=16777216 encoding=' duration=5                                   -5.30 %       ±8.58%  ±19.79%  ±63.01%
+fs/readfile-partitioned.js concurrent=1 len=16777216 encoding="utf-8" duration=5                             -4.02 %       ±8.25%  ±19.03%  ±60.59%
+fs/readfile-partitioned.js concurrent=10 len=1024 encoding=' duration=5                                       1.73 %       ±6.01%  ±13.85%  ±44.11%
+fs/readfile-partitioned.js concurrent=10 len=1024 encoding="utf-8" duration=5                                 6.49 %       ±7.17%  ±16.54%  ±52.68%
+fs/readfile-partitioned.js concurrent=10 len=16777216 encoding=' duration=5                                  -1.33 %       ±2.33%   ±5.39%  ±17.15%
+fs/readfile-partitioned.js concurrent=10 len=16777216 encoding="utf-8" duration=5                            43.86 %     ±105.07% ±242.36% ±771.63%
+fs/readfile-permission-enabled.js concurrent=1 len=1024 encoding=' duration=5                                 0.24 %       ±2.44%   ±5.63%  ±17.92%
+fs/readfile-permission-enabled.js concurrent=1 len=1024 encoding="utf-8" duration=5                          -0.38 %       ±1.88%   ±4.34%  ±13.80%
+fs/readfile-permission-enabled.js concurrent=1 len=16777216 encoding=' duration=5                             4.89 %      ±14.89%  ±34.34% ±109.33%
+fs/readfile-permission-enabled.js concurrent=1 len=16777216 encoding="utf-8" duration=5               **      9.25 %       ±3.74%   ±8.62%  ±27.43%
+fs/readfile-permission-enabled.js concurrent=10 len=1024 encoding=' duration=5                         *     -1.60 %       ±1.41%   ±3.26%  ±10.36%
+fs/readfile-permission-enabled.js concurrent=10 len=1024 encoding="utf-8" duration=5                         -2.32 %       ±4.31%   ±9.94%  ±31.65%
+fs/readfile-permission-enabled.js concurrent=10 len=16777216 encoding=' duration=5                   ***      8.99 %       ±0.43%   ±1.00%   ±3.18%
+fs/readfile-permission-enabled.js concurrent=10 len=16777216 encoding="utf-8" duration=5                    -19.25 %      ±45.80% ±105.65% ±336.36%
+fs/readfile-promises.js concurrent=1 len=1024 encoding=' duration=5                                           1.27 %       ±7.02%  ±16.18%  ±51.53%
+fs/readfile-promises.js concurrent=1 len=1024 encoding="utf-8" duration=5                                     3.82 %       ±4.13%   ±9.53%  ±30.36%
+fs/readfile-promises.js concurrent=1 len=16777216 encoding=' duration=5                                       5.17 %      ±16.28%  ±37.55% ±119.57%
+fs/readfile-promises.js concurrent=1 len=16777216 encoding="utf-8" duration=5                                 1.63 %       ±5.54%  ±12.77%  ±40.67%
+fs/readfile-promises.js concurrent=1 len=33554432 encoding=' duration=5                                      -1.25 %      ±29.26%  ±67.50% ±214.89%
+fs/readfile-promises.js concurrent=1 len=33554432 encoding="utf-8" duration=5                                 1.36 %      ±10.69%  ±24.65%  ±78.49%
+fs/readfile-promises.js concurrent=1 len=4194304 encoding=' duration=5                                       -1.78 %       ±3.91%   ±9.01%  ±28.69%
+fs/readfile-promises.js concurrent=1 len=4194304 encoding="utf-8" duration=5                                  4.33 %       ±5.07%  ±11.70%  ±37.25%
+fs/readfile-promises.js concurrent=1 len=524288 encoding=' duration=5                                         5.03 %      ±15.86%  ±36.57% ±116.44%
+fs/readfile-promises.js concurrent=1 len=524288 encoding="utf-8" duration=5                                   0.52 %       ±3.40%   ±7.85%  ±24.99%
+fs/readfile-promises.js concurrent=1 len=8388608 encoding=' duration=5                                       -2.09 %      ±10.29%  ±23.74%  ±75.59%
+fs/readfile-promises.js concurrent=1 len=8388608 encoding="utf-8" duration=5                           *      7.01 %       ±5.59%  ±12.89%  ±41.04%
+fs/readfile-promises.js concurrent=10 len=1024 encoding=' duration=5                                          1.69 %       ±4.91%  ±11.33%  ±36.06%
+fs/readfile-promises.js concurrent=10 len=1024 encoding="utf-8" duration=5                                    0.81 %       ±5.59%  ±12.89%  ±41.05%
+fs/readfile-promises.js concurrent=10 len=16777216 encoding=' duration=5                                     14.23 %      ±29.40%  ±67.82% ±215.91%
+fs/readfile-promises.js concurrent=10 len=16777216 encoding="utf-8" duration=5                                2.35 %       ±7.87%  ±18.16%  ±57.83%
+fs/readfile-promises.js concurrent=10 len=33554432 encoding=' duration=5                                      3.00 %      ±15.41%  ±35.54% ±113.16%
+fs/readfile-promises.js concurrent=10 len=33554432 encoding="utf-8" duration=5                                2.89 %       ±8.17%  ±18.85%  ±60.03%
+fs/readfile-promises.js concurrent=10 len=4194304 encoding=' duration=5                                *    -28.16 %      ±18.45%  ±42.55% ±135.46%
+fs/readfile-promises.js concurrent=10 len=4194304 encoding="utf-8" duration=5                          *      8.74 %       ±6.23%  ±14.38%  ±45.78%
+fs/readfile-promises.js concurrent=10 len=524288 encoding=' duration=5                                 *      9.51 %       ±7.51%  ±17.32%  ±55.16%
+fs/readfile-promises.js concurrent=10 len=524288 encoding="utf-8" duration=5                                  1.15 %       ±3.44%   ±7.93%  ±25.26%
+fs/readfile-promises.js concurrent=10 len=8388608 encoding=' duration=5                               **     24.49 %       ±4.99%  ±11.52%  ±36.66%
+fs/readfile-promises.js concurrent=10 len=8388608 encoding="utf-8" duration=5                                -1.03 %       ±2.72%   ±6.28%  ±20.00%
+fs/readfile.js concurrent=1 len=1024 encoding=' duration=5                                                    3.23 %       ±5.34%  ±12.32%  ±39.24%
+fs/readfile.js concurrent=1 len=1024 encoding="utf-8" duration=5                                             -2.44 %       ±6.13%  ±14.14%  ±45.03%
+fs/readfile.js concurrent=1 len=16777216 encoding=' duration=5                                         *      4.75 %       ±4.02%   ±9.26%  ±29.50%
+fs/readfile.js concurrent=1 len=16777216 encoding="utf-8" duration=5                                   *      7.15 %       ±4.30%   ±9.92%  ±31.58%
+fs/readfile.js concurrent=10 len=1024 encoding=' duration=5                                                  -3.07 %       ±3.29%   ±7.59%  ±24.18%
+fs/readfile.js concurrent=10 len=1024 encoding="utf-8" duration=5                                             3.21 %       ±8.09%  ±18.66%  ±59.40%
+fs/readfile.js concurrent=10 len=16777216 encoding=' duration=5                                             -36.71 %      ±92.36% ±213.05% ±678.30%
+fs/readfile.js concurrent=10 len=16777216 encoding="utf-8" duration=5                                       -18.27 %      ±59.49% ±137.22% ±436.88%
+fs/readFileSync.js n=10000 hasFileDescriptor="false" path="existing" encoding="undefined"              *     -1.73 %       ±1.63%   ±3.75%  ±11.95%
+fs/readFileSync.js n=10000 hasFileDescriptor="false" path="existing" encoding="utf8"                  **     -1.96 %       ±0.49%   ±1.14%   ±3.62%
+fs/readFileSync.js n=10000 hasFileDescriptor="false" path="non-existing" encoding="undefined"                 1.26 %       ±2.31%   ±5.33%  ±16.96%
+fs/readFileSync.js n=10000 hasFileDescriptor="false" path="non-existing" encoding="utf8"                      0.07 %       ±4.93%  ±11.38%  ±36.22%
+fs/readFileSync.js n=10000 hasFileDescriptor="true" path="existing" encoding="undefined"                      0.61 %       ±3.66%   ±8.45%  ±26.89%
+fs/readFileSync.js n=10000 hasFileDescriptor="true" path="existing" encoding="utf8"                           0.99 %       ±2.27%   ±5.23%  ±16.66%
+fs/readFileSync.js n=10000 hasFileDescriptor="true" path="non-existing" encoding="undefined"                  3.84 %       ±6.26%  ±14.44%  ±45.97%
+fs/readFileSync.js n=10000 hasFileDescriptor="true" path="non-existing" encoding="utf8"                      -1.45 %       ±2.84%   ±6.54%  ±20.83%
+fs/write-stream-throughput.js size=1024 encodingType="asc" dur=5                                             -0.06 %       ±8.34%  ±19.24%  ±61.26%
+fs/write-stream-throughput.js size=1024 encodingType="buf" dur=5                                             -2.66 %       ±5.35%  ±12.33%  ±39.26%
+fs/write-stream-throughput.js size=1024 encodingType="utf" dur=5                                              2.37 %       ±4.41%  ±10.18%  ±32.41%
+fs/write-stream-throughput.js size=1048576 encodingType="asc" dur=5                                          -2.72 %       ±4.49%  ±10.36%  ±32.98%
+fs/write-stream-throughput.js size=1048576 encodingType="buf" dur=5                                    *      1.78 %       ±0.79%   ±1.82%   ±5.79%
+fs/write-stream-throughput.js size=1048576 encodingType="utf" dur=5                                   **      8.14 %       ±1.74%   ±4.02%  ±12.81%
+fs/write-stream-throughput.js size=2 encodingType="asc" dur=5                                                -2.39 %       ±7.87%  ±18.16%  ±57.81%
+fs/write-stream-throughput.js size=2 encodingType="buf" dur=5                                                 0.17 %       ±5.12%  ±11.81%  ±37.60%
+fs/write-stream-throughput.js size=2 encodingType="utf" dur=5                                                -2.55 %       ±4.23%   ±9.75%  ±31.05%
+fs/write-stream-throughput.js size=65535 encodingType="asc" dur=5                                             3.37 %      ±17.65%  ±40.72% ±129.64%
+fs/write-stream-throughput.js size=65535 encodingType="buf" dur=5                                             1.16 %       ±2.79%   ±6.44%  ±20.49%
+fs/write-stream-throughput.js size=65535 encodingType="utf" dur=5                                            -0.55 %       ±8.49%  ±19.58%  ±62.34%
+fs/writefile-promises.js concurrent=1 size=1024 encodingType="asc" duration=5                                 3.19 %       ±6.21%  ±14.33%  ±45.64%
+fs/writefile-promises.js concurrent=1 size=1024 encodingType="buf" duration=5                                -4.30 %      ±12.02%  ±27.72%  ±88.25%
+fs/writefile-promises.js concurrent=1 size=1024 encodingType="utf" duration=5                                -3.42 %       ±4.60%  ±10.61%  ±33.77%
+fs/writefile-promises.js concurrent=1 size=1048576 encodingType="asc" duration=5                              1.55 %      ±11.70%  ±26.99%  ±85.93%
+fs/writefile-promises.js concurrent=1 size=1048576 encodingType="buf" duration=5                              0.63 %       ±2.45%   ±5.66%  ±18.01%
+fs/writefile-promises.js concurrent=1 size=1048576 encodingType="utf" duration=5                             -4.26 %      ±16.10%  ±37.14% ±118.26%
+fs/writefile-promises.js concurrent=1 size=2 encodingType="asc" duration=5                                   -0.14 %       ±6.13%  ±14.14%  ±45.03%
+fs/writefile-promises.js concurrent=1 size=2 encodingType="buf" duration=5                                   -1.70 %       ±4.45%  ±10.27%  ±32.69%
+fs/writefile-promises.js concurrent=1 size=2 encodingType="utf" duration=5                                    2.78 %       ±5.78%  ±13.34%  ±42.46%
+fs/writefile-promises.js concurrent=1 size=65535 encodingType="asc" duration=5                               -6.40 %      ±14.81%  ±34.17% ±108.78%
+fs/writefile-promises.js concurrent=1 size=65535 encodingType="buf" duration=5                                0.60 %       ±4.01%   ±9.26%  ±29.47%
+fs/writefile-promises.js concurrent=1 size=65535 encodingType="utf" duration=5                                1.94 %       ±7.43%  ±17.15%  ±54.59%
+fs/writefile-promises.js concurrent=10 size=1024 encodingType="asc" duration=5                        **      8.63 %       ±1.32%   ±3.04%   ±9.67%
+fs/writefile-promises.js concurrent=10 size=1024 encodingType="buf" duration=5                                1.48 %       ±9.98%  ±23.01%  ±73.26%
+fs/writefile-promises.js concurrent=10 size=1024 encodingType="utf" duration=5                                6.14 %       ±6.59%  ±15.21%  ±48.42%
+fs/writefile-promises.js concurrent=10 size=1048576 encodingType="asc" duration=5                      *    126.11 %     ±125.69% ±289.92% ±923.06%
+fs/writefile-promises.js concurrent=10 size=1048576 encodingType="buf" duration=5                            40.15 %     ±124.29% ±286.69% ±912.76%
+fs/writefile-promises.js concurrent=10 size=1048576 encodingType="utf" duration=5                             2.98 %      ±15.66%  ±36.13% ±115.03%
+fs/writefile-promises.js concurrent=10 size=2 encodingType="asc" duration=5                                   1.31 %       ±4.47%  ±10.30%  ±32.80%
+fs/writefile-promises.js concurrent=10 size=2 encodingType="buf" duration=5                            *     -6.72 %       ±5.08%  ±11.71%  ±37.27%
+fs/writefile-promises.js concurrent=10 size=2 encodingType="utf" duration=5                            *      3.36 %       ±3.08%   ±7.10%  ±22.61%
+fs/writefile-promises.js concurrent=10 size=65535 encodingType="asc" duration=5                              26.87 %      ±74.19% ±171.13% ±544.85%
+fs/writefile-promises.js concurrent=10 size=65535 encodingType="buf" duration=5                       **    -31.36 %      ±10.03%  ±23.14%  ±73.68%
+fs/writefile-promises.js concurrent=10 size=65535 encodingType="utf" duration=5                              -3.64 %      ±11.58%  ±26.71%  ±85.03%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 196 comparisons, you can thus
+expect the following amount of false-positive results:
+  9.80 false positives, when considering a   5% risk acceptance (*, **, ***),
+  1.96 false positives, when considering a   1% risk acceptance (**, ***),
+  0.20 false positives, when considering a 0.1% risk acceptance (***)

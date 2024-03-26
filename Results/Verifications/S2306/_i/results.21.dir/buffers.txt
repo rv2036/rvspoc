@@ -1,0 +1,241 @@
+                                                                                                                                                confidence improvement accuracy (*)     (**)     (***)
+                                                                                                                                                        NA       NaN %           NA       NA        NA
+buffers/buffer-base64-decode-wrapped.js n=32 linesCount=524288 charsPerLine=76                                                                                 -4.15 %       ±5.77%  ±13.32%   ±42.39%
+buffers/buffer-base64-decode.js size=8388608 n=32                                                                                                              -3.11 %      ±12.27%  ±28.30%   ±90.10%
+buffers/buffer-base64-encode.js n=32 len=67108864                                                                                                       **    -10.61 %       ±2.78%   ±6.41%   ±20.40%
+buffers/buffer-bytelength-buffer.js n=4000000 len=16                                                                                                   ***     27.00 %       ±3.43%   ±7.91%   ±25.20%
+buffers/buffer-bytelength-buffer.js n=4000000 len=2                                                                                                     **     27.37 %       ±6.10%  ±14.08%   ±44.83%
+buffers/buffer-bytelength-buffer.js n=4000000 len=256                                                                                                   **     33.15 %       ±5.49%  ±12.67%   ±40.34%
+buffers/buffer-bytelength-string.js n=4000000 repeat=1 encoding="base64" type="four_bytes"                                                              **     87.14 %      ±19.46%  ±44.90%  ±142.95%
+buffers/buffer-bytelength-string.js n=4000000 repeat=1 encoding="base64" type="one_byte"                                                               ***     95.31 %       ±9.71%  ±22.41%   ±71.34%
+buffers/buffer-bytelength-string.js n=4000000 repeat=1 encoding="base64" type="three_bytes"                                                            ***     92.21 %       ±8.12%  ±18.72%   ±59.61%
+buffers/buffer-bytelength-string.js n=4000000 repeat=1 encoding="base64" type="two_bytes"                                                              ***     89.40 %       ±6.12%  ±14.13%   ±44.98%
+buffers/buffer-bytelength-string.js n=4000000 repeat=1 encoding="utf8" type="four_bytes"                                                               ***     47.28 %       ±1.36%   ±3.13%    ±9.97%
+buffers/buffer-bytelength-string.js n=4000000 repeat=1 encoding="utf8" type="one_byte"                                                                  **     98.14 %      ±29.07%  ±67.05%  ±213.49%
+buffers/buffer-bytelength-string.js n=4000000 repeat=1 encoding="utf8" type="three_bytes"                                                               **     50.77 %      ±11.05%  ±25.49%   ±81.17%
+buffers/buffer-bytelength-string.js n=4000000 repeat=1 encoding="utf8" type="two_bytes"                                                                 **     52.59 %      ±11.13%  ±25.68%   ±81.75%
+buffers/buffer-bytelength-string.js n=4000000 repeat=16 encoding="base64" type="four_bytes"                                                            ***     96.81 %       ±6.44%  ±14.85%   ±47.29%
+buffers/buffer-bytelength-string.js n=4000000 repeat=16 encoding="base64" type="one_byte"                                                              ***     87.05 %       ±7.70%  ±17.76%   ±56.56%
+buffers/buffer-bytelength-string.js n=4000000 repeat=16 encoding="base64" type="three_bytes"                                                           ***    107.67 %       ±5.77%  ±13.30%   ±42.36%
+buffers/buffer-bytelength-string.js n=4000000 repeat=16 encoding="base64" type="two_bytes"                                                             ***    111.71 %      ±14.67%  ±33.84%  ±107.74%
+buffers/buffer-bytelength-string.js n=4000000 repeat=16 encoding="utf8" type="four_bytes"                                                              ***      7.09 %       ±0.73%   ±1.69%    ±5.39%
+buffers/buffer-bytelength-string.js n=4000000 repeat=16 encoding="utf8" type="one_byte"                                                                 **     23.42 %       ±8.95%  ±20.64%   ±65.73%
+buffers/buffer-bytelength-string.js n=4000000 repeat=16 encoding="utf8" type="three_bytes"                                                              **     16.18 %       ±5.03%  ±11.61%   ±36.97%
+buffers/buffer-bytelength-string.js n=4000000 repeat=16 encoding="utf8" type="two_bytes"                                                                **     16.41 %       ±5.79%  ±13.36%   ±42.53%
+buffers/buffer-bytelength-string.js n=4000000 repeat=2 encoding="base64" type="four_bytes"                                                             ***     94.92 %       ±9.50%  ±21.91%   ±69.76%
+buffers/buffer-bytelength-string.js n=4000000 repeat=2 encoding="base64" type="one_byte"                                                                **     92.63 %      ±12.79%  ±29.51%   ±93.94%
+buffers/buffer-bytelength-string.js n=4000000 repeat=2 encoding="base64" type="three_bytes"                                                             **     98.72 %      ±21.03%  ±48.52%  ±154.46%
+buffers/buffer-bytelength-string.js n=4000000 repeat=2 encoding="base64" type="two_bytes"                                                              ***     93.09 %       ±5.60%  ±12.92%   ±41.14%
+buffers/buffer-bytelength-string.js n=4000000 repeat=2 encoding="utf8" type="four_bytes"                                                                 *     33.92 %      ±16.29%  ±37.57%  ±119.61%
+buffers/buffer-bytelength-string.js n=4000000 repeat=2 encoding="utf8" type="one_byte"                                                                  **     54.51 %      ±18.44%  ±42.54%  ±135.44%
+buffers/buffer-bytelength-string.js n=4000000 repeat=2 encoding="utf8" type="three_bytes"                                                                *     42.08 %      ±18.50%  ±42.68%  ±135.89%
+buffers/buffer-bytelength-string.js n=4000000 repeat=2 encoding="utf8" type="two_bytes"                                                                 **     47.72 %      ±15.80%  ±36.45%  ±116.06%
+buffers/buffer-bytelength-string.js n=4000000 repeat=256 encoding="base64" type="four_bytes"                                                            **     90.17 %      ±13.80%  ±31.83%  ±101.33%
+buffers/buffer-bytelength-string.js n=4000000 repeat=256 encoding="base64" type="one_byte"                                                             ***     91.67 %      ±10.95%  ±25.25%   ±80.39%
+buffers/buffer-bytelength-string.js n=4000000 repeat=256 encoding="base64" type="three_bytes"                                                          ***     94.05 %      ±12.17%  ±28.08%   ±89.40%
+buffers/buffer-bytelength-string.js n=4000000 repeat=256 encoding="base64" type="two_bytes"                                                             **     83.24 %      ±13.02%  ±30.04%   ±95.65%
+buffers/buffer-bytelength-string.js n=4000000 repeat=256 encoding="utf8" type="four_bytes"                                                               *      0.62 %       ±0.47%   ±1.09%    ±3.46%
+buffers/buffer-bytelength-string.js n=4000000 repeat=256 encoding="utf8" type="one_byte"                                                                 *      2.08 %       ±1.86%   ±4.30%   ±13.68%
+buffers/buffer-bytelength-string.js n=4000000 repeat=256 encoding="utf8" type="three_bytes"                                                              *      1.11 %       ±0.67%   ±1.55%    ±4.94%
+buffers/buffer-bytelength-string.js n=4000000 repeat=256 encoding="utf8" type="two_bytes"                                                              ***      2.07 %       ±0.16%   ±0.36%    ±1.15%
+buffers/buffer-compare-instance-method.js n=1000000 args=1 size=16                                                                                     ***     74.52 %       ±7.66%  ±17.68%   ±56.29%
+buffers/buffer-compare-instance-method.js n=1000000 args=1 size=16386                                                                                           6.80 %       ±6.94%  ±16.00%   ±50.95%
+buffers/buffer-compare-instance-method.js n=1000000 args=1 size=4096                                                                                    **     16.30 %       ±4.81%  ±11.11%   ±35.36%
+buffers/buffer-compare-instance-method.js n=1000000 args=1 size=512                                                                                      *     48.07 %      ±27.31%  ±63.00%  ±200.59%
+buffers/buffer-compare-instance-method.js n=1000000 args=2 size=16                                                                                     ***     99.22 %       ±5.81%  ±13.39%   ±42.63%
+buffers/buffer-compare-instance-method.js n=1000000 args=2 size=16386                                                                                   **     12.90 %       ±3.03%   ±7.00%   ±22.27%
+buffers/buffer-compare-instance-method.js n=1000000 args=2 size=4096                                                                                    **     39.08 %       ±7.74%  ±17.85%   ±56.84%
+buffers/buffer-compare-instance-method.js n=1000000 args=2 size=512                                                                                    ***     85.39 %       ±7.55%  ±17.41%   ±55.43%
+buffers/buffer-compare-instance-method.js n=1000000 args=5 size=16                                                                                     ***     84.74 %       ±6.92%  ±15.97%   ±50.84%
+buffers/buffer-compare-instance-method.js n=1000000 args=5 size=16386                                                                                  ***     16.77 %       ±0.92%   ±2.13%    ±6.78%
+buffers/buffer-compare-instance-method.js n=1000000 args=5 size=4096                                                                                   ***     49.93 %       ±5.61%  ±12.95%   ±41.24%
+buffers/buffer-compare-instance-method.js n=1000000 args=5 size=512                                                                                    ***     92.80 %       ±5.79%  ±13.36%   ±42.53%
+buffers/buffer-compare-offset.js n=1000000 size=16 method="offset"                                                                                     ***    102.36 %       ±2.21%   ±5.09%   ±16.20%
+buffers/buffer-compare-offset.js n=1000000 size=16 method="slice"                                                                                      ***     28.35 %       ±1.28%   ±2.95%    ±9.39%
+buffers/buffer-compare-offset.js n=1000000 size=16386 method="offset"                                                                                   **    100.55 %      ±40.17%  ±92.65%  ±294.99%
+buffers/buffer-compare-offset.js n=1000000 size=16386 method="slice"                                                                                     *     28.18 %      ±13.26%  ±30.60%   ±97.41%
+buffers/buffer-compare-offset.js n=1000000 size=4096 method="offset"                                                                                    **    107.54 %      ±18.24%  ±42.09%  ±133.99%
+buffers/buffer-compare-offset.js n=1000000 size=4096 method="slice"                                                                                     **     30.52 %      ±10.39%  ±23.97%   ±76.32%
+buffers/buffer-compare-offset.js n=1000000 size=512 method="offset"                                                                                    ***    101.78 %       ±2.47%   ±5.69%   ±18.11%
+buffers/buffer-compare-offset.js n=1000000 size=512 method="slice"                                                                                     ***     27.98 %       ±1.46%   ±3.37%   ±10.73%
+buffers/buffer-compare.js n=1000000 size=16                                                                                                             **     49.32 %       ±7.91%  ±18.24%   ±58.06%
+buffers/buffer-compare.js n=1000000 size=16386                                                                                                          **      4.06 %       ±1.15%   ±2.66%    ±8.47%
+buffers/buffer-compare.js n=1000000 size=4096                                                                                                            *     15.84 %      ±11.82%  ±27.26%   ±86.78%
+buffers/buffer-compare.js n=1000000 size=512                                                                                                            **     29.66 %       ±8.59%  ±19.83%   ±63.12%
+buffers/buffer-concat-fill.js n=800000 extraSize=1                                                                                                      **     85.98 %      ±16.22%  ±37.41%  ±119.12%
+buffers/buffer-concat-fill.js n=800000 extraSize=1024                                                                                                   **     40.81 %      ±14.83%  ±34.21%  ±108.93%
+buffers/buffer-concat-fill.js n=800000 extraSize=256                                                                                                   ***     71.53 %       ±6.85%  ±15.79%   ±50.27%
+buffers/buffer-concat.js n=800000 withTotalLength=0 pieceSize=1 pieces=16                                                                              ***     87.65 %       ±3.21%   ±7.40%   ±23.55%
+buffers/buffer-concat.js n=800000 withTotalLength=0 pieceSize=1 pieces=4                                                                               ***    159.24 %       ±6.90%  ±15.91%   ±50.67%
+buffers/buffer-concat.js n=800000 withTotalLength=0 pieceSize=16 pieces=16                                                                             ***     46.50 %       ±0.78%   ±1.81%    ±5.75%
+buffers/buffer-concat.js n=800000 withTotalLength=0 pieceSize=16 pieces=4                                                                              ***    124.80 %       ±2.01%   ±4.63%   ±14.75%
+buffers/buffer-concat.js n=800000 withTotalLength=0 pieceSize=256 pieces=16                                                                                     4.86 %      ±76.72% ±384.38% ±3844.14%
+buffers/buffer-concat.js n=800000 withTotalLength=0 pieceSize=256 pieces=4                                                                             ***     84.82 %       ±3.31%   ±7.63%   ±24.28%
+buffers/buffer-concat.js n=800000 withTotalLength=1 pieceSize=1 pieces=16                                                                              ***     51.22 %       ±1.42%   ±3.28%   ±10.45%
+buffers/buffer-concat.js n=800000 withTotalLength=1 pieceSize=1 pieces=4                                                                               ***    236.87 %      ±25.47%  ±58.75%  ±187.05%
+buffers/buffer-concat.js n=800000 withTotalLength=1 pieceSize=16 pieces=16                                                                             ***     48.68 %       ±3.20%   ±7.39%   ±23.53%
+buffers/buffer-concat.js n=800000 withTotalLength=1 pieceSize=16 pieces=4                                                                              ***    230.14 %      ±10.43%  ±24.06%   ±76.62%
+buffers/buffer-concat.js n=800000 withTotalLength=1 pieceSize=256 pieces=16                                                                                     3.91 %      ±40.46% ±202.68% ±2026.95%
+buffers/buffer-concat.js n=800000 withTotalLength=1 pieceSize=256 pieces=4                                                                             ***     96.65 %      ±12.49%  ±28.81%   ±91.73%
+buffers/buffer-copy.js n=6000000 partial="false" bytes=0                                                                                               ***    150.56 %       ±4.74%  ±10.94%   ±34.82%
+buffers/buffer-copy.js n=6000000 partial="true" bytes=128                                                                                              ***     -7.96 %       ±0.95%   ±2.19%    ±6.99%
+buffers/buffer-copy.js n=6000000 partial="true" bytes=32768                                                                                                     5.51 %       ±7.51%  ±17.33%   ±55.16%
+buffers/buffer-copy.js n=6000000 partial="true" bytes=8                                                                                                 **     -5.62 %       ±1.35%   ±3.12%    ±9.92%
+buffers/buffer-creation.js n=600000 len=10 type="fast-alloc-fill"                                                                                       NA    213.01 %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=10 type="fast-alloc"                                                                                            NA    236.28 %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=10 type="fast-allocUnsafe"                                                                                      NA       NaN %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=10 type="slow-allocUnsafe"                                                                                      NA       NaN %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=1024 type="fast-alloc-fill"                                                                                     NA       NaN %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=1024 type="fast-alloc"                                                                                          NA     -1.58 %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=1024 type="fast-allocUnsafe"                                                                                    NA       NaN %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=1024 type="slow-allocUnsafe"                                                                                    NA       NaN %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=4096 type="fast-alloc-fill"                                                                                     NA       NaN %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=4096 type="fast-alloc"                                                                                          NA     -0.53 %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=4096 type="fast-allocUnsafe"                                                                                    NA       NaN %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=4096 type="slow-allocUnsafe"                                                                                    NA       NaN %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=8192 type="fast-alloc-fill"                                                                                     NA       NaN %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=8192 type="fast-alloc"                                                                                          NA      5.43 %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=8192 type="fast-allocUnsafe"                                                                                    NA       NaN %           NA       NA        NA
+buffers/buffer-creation.js n=600000 len=8192 type="slow-allocUnsafe"                                                                                    NA       NaN %           NA       NA        NA
+buffers/buffer-equals.js n=1000000 difflen="false" size=0                                                                                              ***    277.71 %       ±1.64%   ±3.78%   ±12.04%
+buffers/buffer-equals.js n=1000000 difflen="false" size=16386                                                                                                   3.16 %       ±5.21%  ±12.03%   ±38.29%
+buffers/buffer-equals.js n=1000000 difflen="false" size=512                                                                                             **     33.84 %      ±11.03%  ±25.44%   ±81.00%
+buffers/buffer-equals.js n=1000000 difflen="true" size=0                                                                                               ***    275.86 %       ±5.50%  ±12.68%   ±40.36%
+buffers/buffer-equals.js n=1000000 difflen="true" size=16386                                                                                           ***    275.77 %       ±0.53%   ±1.23%    ±3.90%
+buffers/buffer-equals.js n=1000000 difflen="true" size=512                                                                                             ***    284.03 %       ±7.09%  ±16.36%   ±52.08%
+buffers/buffer-fill.js n=20000 size=65536 type="fill(\\"\\")"                                                                                          ***    549.04 %      ±19.39%  ±44.73%  ±142.43%
+buffers/buffer-fill.js n=20000 size=65536 type="fill(\\"t\\", \\"utf8\\")"                                                                             ***    586.36 %      ±33.03%  ±76.19%  ±242.58%
+buffers/buffer-fill.js n=20000 size=65536 type="fill(\\"t\\", 0, \\"utf8\\")"                                                                          ***    637.61 %       ±7.62%  ±17.58%   ±55.97%
+buffers/buffer-fill.js n=20000 size=65536 type="fill(\\"t\\", 0)"                                                                                       **    676.60 %     ±110.37% ±254.60%  ±810.59%
+buffers/buffer-fill.js n=20000 size=65536 type="fill(\\"t\\")"                                                                                         ***    548.43 %      ±44.70% ±103.11%  ±328.29%
+buffers/buffer-fill.js n=20000 size=65536 type="fill(\\"test\\")"                                                                                      ***    356.78 %      ±19.79%  ±45.66%  ±145.36%
+buffers/buffer-fill.js n=20000 size=65536 type="fill(0)"                                                                                                **    207.51 %      ±36.10%  ±83.28%  ±265.13%
+buffers/buffer-fill.js n=20000 size=65536 type="fill(100)"                                                                                             ***    222.24 %       ±5.47%  ±12.62%   ±40.17%
+buffers/buffer-fill.js n=20000 size=65536 type="fill(400)"                                                                                             ***    225.52 %       ±6.41%  ±14.79%   ±47.09%
+buffers/buffer-fill.js n=20000 size=65536 type="fill(Buffer.alloc(1), 0)"                                                                              ***    484.90 %      ±20.10%  ±46.36%  ±147.61%
+buffers/buffer-fill.js n=20000 size=8192 type="fill(\\"\\")"                                                                                           ***   1951.79 %      ±79.12% ±182.51%  ±581.09%
+buffers/buffer-fill.js n=20000 size=8192 type="fill(\\"t\\", \\"utf8\\")"                                                                              ***   1931.32 %      ±64.34% ±148.40%  ±472.49%
+buffers/buffer-fill.js n=20000 size=8192 type="fill(\\"t\\", 0, \\"utf8\\")"                                                                           ***   1898.52 %      ±92.33% ±212.97%  ±678.08%
+buffers/buffer-fill.js n=20000 size=8192 type="fill(\\"t\\", 0)"                                                                                       ***   1912.12 %     ±107.62% ±248.25%  ±790.38%
+buffers/buffer-fill.js n=20000 size=8192 type="fill(\\"t\\")"                                                                                          ***   2677.17 %      ±81.70% ±188.45%  ±600.01%
+buffers/buffer-fill.js n=20000 size=8192 type="fill(\\"test\\")"                                                                                       ***   1123.00 %      ±29.79%  ±68.71%  ±218.75%
+buffers/buffer-fill.js n=20000 size=8192 type="fill(0)"                                                                                                ***    908.27 %      ±13.33%  ±30.75%   ±97.91%
+buffers/buffer-fill.js n=20000 size=8192 type="fill(100)"                                                                                              ***    922.89 %      ±31.38%  ±72.38%  ±230.45%
+buffers/buffer-fill.js n=20000 size=8192 type="fill(400)"                                                                                              ***    909.32 %      ±11.96%  ±27.59%   ±87.84%
+buffers/buffer-fill.js n=20000 size=8192 type="fill(Buffer.alloc(1), 0)"                                                                               ***    980.71 %      ±74.40% ±171.62%  ±546.41%
+buffers/buffer-from.js n=800000 len=100 source="array"                                                                                                 ***    180.83 %       ±9.40%  ±21.68%   ±69.04%
+buffers/buffer-from.js n=800000 len=100 source="arraybuffer-middle"                                                                                    ***    234.73 %      ±12.62%  ±29.10%   ±92.66%
+buffers/buffer-from.js n=800000 len=100 source="arraybuffer"                                                                                           ***    242.78 %      ±22.97%  ±52.98%  ±168.68%
+buffers/buffer-from.js n=800000 len=100 source="buffer"                                                                                                ***    251.43 %       ±7.69%  ±17.74%   ±56.49%
+buffers/buffer-from.js n=800000 len=100 source="object"                                                                                                 **    193.56 %      ±48.86% ±112.71%  ±358.86%
+buffers/buffer-from.js n=800000 len=100 source="string-base64"                                                                                         ***    123.21 %       ±9.48%  ±21.87%   ±69.65%
+buffers/buffer-from.js n=800000 len=100 source="string-utf8"                                                                                           ***    154.51 %       ±4.66%  ±10.75%   ±34.21%
+buffers/buffer-from.js n=800000 len=100 source="string"                                                                                                ***    138.38 %       ±9.76%  ±22.50%   ±71.65%
+buffers/buffer-from.js n=800000 len=100 source="uint16array"                                                                                           ***    134.02 %       ±2.02%   ±4.65%   ±14.82%
+buffers/buffer-from.js n=800000 len=100 source="uint8array"                                                                                            ***    247.89 %       ±4.86%  ±11.21%   ±35.70%
+buffers/buffer-from.js n=800000 len=2048 source="array"                                                                                                 **     41.57 %       ±5.91%  ±13.62%   ±43.37%
+buffers/buffer-from.js n=800000 len=2048 source="arraybuffer-middle"                                                                                   ***    237.47 %      ±14.76%  ±34.05%  ±108.40%
+buffers/buffer-from.js n=800000 len=2048 source="arraybuffer"                                                                                           **    239.60 %      ±42.46%  ±97.95%  ±311.86%
+buffers/buffer-from.js n=800000 len=2048 source="buffer"                                                                                                **     88.02 %      ±25.07%  ±57.83%  ±184.12%
+buffers/buffer-from.js n=800000 len=2048 source="object"                                                                                               ***    193.52 %      ±21.29%  ±49.10%  ±156.32%
+buffers/buffer-from.js n=800000 len=2048 source="string-base64"                                                                                         **     22.61 %       ±3.22%   ±7.44%   ±23.68%
+buffers/buffer-from.js n=800000 len=2048 source="string-utf8"                                                                                          ***     49.01 %       ±6.30%  ±14.54%   ±46.29%
+buffers/buffer-from.js n=800000 len=2048 source="string"                                                                                               ***     43.66 %       ±1.68%   ±3.87%   ±12.33%
+buffers/buffer-from.js n=800000 len=2048 source="uint16array"                                                                                          ***     23.51 %       ±2.80%   ±6.45%   ±20.55%
+buffers/buffer-from.js n=800000 len=2048 source="uint8array"                                                                                            **     82.94 %      ±18.49%  ±42.64%  ±135.77%
+buffers/buffer-hex.js n=1000000 len=1024                                                                                                                **     15.79 %       ±2.47%   ±5.70%   ±18.16%
+buffers/buffer-hex.js n=1000000 len=64                                                                                                                 ***     74.50 %       ±8.59%  ±19.81%   ±63.09%
+buffers/buffer-indexof-number.js n=1000000 value=64                                                                                                     **     29.62 %       ±5.23%  ±12.05%   ±38.38%
+buffers/buffer-indexof.js n=50000 type="buffer" encoding="undefined" search="--l"                                                                       **     12.29 %       ±2.07%   ±4.78%   ±15.21%
+buffers/buffer-indexof.js n=50000 type="buffer" encoding="undefined" search="@"                                                                        ***    640.84 %       ±5.86%  ±13.52%   ±43.04%
+buffers/buffer-indexof.js n=50000 type="buffer" encoding="undefined" search="</i> to the Caterpillar"                                                  ***     11.43 %       ±0.90%   ±2.08%    ±6.62%
+buffers/buffer-indexof.js n=50000 type="buffer" encoding="undefined" search="aaaaaaaaaaaaaaaaa"                                                        ***     13.58 %       ±0.27%   ±0.62%    ±1.96%
+buffers/buffer-indexof.js n=50000 type="buffer" encoding="undefined" search="Alice"                                                                    ***   1264.91 %      ±34.65%  ±79.92%  ±254.45%
+buffers/buffer-indexof.js n=50000 type="buffer" encoding="undefined" search="found it very"                                                            ***      9.04 %       ±0.21%   ±0.49%    ±1.55%
+buffers/buffer-indexof.js n=50000 type="buffer" encoding="undefined" search="Gryphon"                                                                  ***     21.77 %       ±0.33%   ±0.77%    ±2.46%
+buffers/buffer-indexof.js n=50000 type="buffer" encoding="undefined" search="neighbouring pool"                                                        ***      9.64 %       ±0.19%   ±0.44%    ±1.39%
+buffers/buffer-indexof.js n=50000 type="buffer" encoding="undefined" search="Ou est ma chatte?"                                                        ***     59.45 %       ±3.22%   ±7.43%   ±23.64%
+buffers/buffer-indexof.js n=50000 type="buffer" encoding="undefined" search="SQ"                                                                       ***     93.23 %      ±11.57%  ±26.68%   ±84.95%
+buffers/buffer-indexof.js n=50000 type="buffer" encoding="undefined" search="venture to go near the house till she had brought herself down to"         **     32.14 %       ±9.98%  ±23.01%   ±73.26%
+buffers/buffer-indexof.js n=50000 type="string" encoding="ucs2" search="--l"                                                                           ***     15.15 %       ±0.31%   ±0.72%    ±2.30%
+buffers/buffer-indexof.js n=50000 type="string" encoding="ucs2" search="@"                                                                             ***    532.33 %      ±30.39%  ±70.09%  ±223.16%
+buffers/buffer-indexof.js n=50000 type="string" encoding="ucs2" search="</i> to the Caterpillar"                                                       ***     13.92 %       ±0.38%   ±0.88%    ±2.80%
+buffers/buffer-indexof.js n=50000 type="string" encoding="ucs2" search="aaaaaaaaaaaaaaaaa"                                                             ***     15.74 %       ±0.68%   ±1.58%    ±5.02%
+buffers/buffer-indexof.js n=50000 type="string" encoding="ucs2" search="Alice"                                                                         ***   1158.64 %     ±150.61% ±347.40% ±1106.07%
+buffers/buffer-indexof.js n=50000 type="string" encoding="ucs2" search="found it very"                                                                 ***     12.94 %       ±0.76%   ±1.76%    ±5.61%
+buffers/buffer-indexof.js n=50000 type="string" encoding="ucs2" search="Gryphon"                                                                       ***     21.95 %       ±0.74%   ±1.71%    ±5.46%
+buffers/buffer-indexof.js n=50000 type="string" encoding="ucs2" search="neighbouring pool"                                                             ***     11.66 %       ±0.53%   ±1.22%    ±3.87%
+buffers/buffer-indexof.js n=50000 type="string" encoding="ucs2" search="Ou est ma chatte?"                                                              **     71.91 %      ±12.84%  ±29.62%   ±94.32%
+buffers/buffer-indexof.js n=50000 type="string" encoding="ucs2" search="SQ"                                                                            ***     99.55 %       ±2.68%   ±6.17%   ±19.65%
+buffers/buffer-indexof.js n=50000 type="string" encoding="ucs2" search="venture to go near the house till she had brought herself down to"              **     31.93 %       ±6.33%  ±14.61%   ±46.50%
+buffers/buffer-indexof.js n=50000 type="string" encoding="utf8" search="--l"                                                                           ***     30.74 %       ±3.98%   ±9.17%   ±29.19%
+buffers/buffer-indexof.js n=50000 type="string" encoding="utf8" search="@"                                                                             ***    761.64 %     ±100.69% ±232.27%  ±739.50%
+buffers/buffer-indexof.js n=50000 type="string" encoding="utf8" search="</i> to the Caterpillar"                                                       ***     25.57 %       ±2.00%   ±4.61%   ±14.69%
+buffers/buffer-indexof.js n=50000 type="string" encoding="utf8" search="aaaaaaaaaaaaaaaaa"                                                             ***     25.59 %       ±1.04%   ±2.41%    ±7.66%
+buffers/buffer-indexof.js n=50000 type="string" encoding="utf8" search="Alice"                                                                         ***   1099.50 %      ±34.50%  ±79.57%  ±253.34%
+buffers/buffer-indexof.js n=50000 type="string" encoding="utf8" search="found it very"                                                                 ***     18.56 %       ±0.30%   ±0.69%    ±2.19%
+buffers/buffer-indexof.js n=50000 type="string" encoding="utf8" search="Gryphon"                                                                       ***     48.60 %       ±3.06%   ±7.06%   ±22.47%
+buffers/buffer-indexof.js n=50000 type="string" encoding="utf8" search="neighbouring pool"                                                             ***     18.42 %       ±0.70%   ±1.62%    ±5.17%
+buffers/buffer-indexof.js n=50000 type="string" encoding="utf8" search="Ou est ma chatte?"                                                             ***    101.50 %      ±10.84%  ±25.00%   ±79.61%
+buffers/buffer-indexof.js n=50000 type="string" encoding="utf8" search="SQ"                                                                            ***    169.11 %       ±3.72%   ±8.57%   ±27.29%
+buffers/buffer-indexof.js n=50000 type="string" encoding="utf8" search="venture to go near the house till she had brought herself down to"              **     54.60 %       ±7.60%  ±17.53%   ±55.80%
+buffers/buffer-iterate.js n=1000 method="for" type="fast" size=16386                                                                                   ***    316.19 %       ±2.46%   ±5.68%   ±18.08%
+buffers/buffer-iterate.js n=1000 method="for" type="fast" size=4096                                                                                    ***    655.80 %      ±88.34% ±203.77%  ±648.78%
+buffers/buffer-iterate.js n=1000 method="for" type="fast" size=512                                                                                     ***   1636.23 %      ±81.55% ±188.11%  ±598.90%
+buffers/buffer-iterate.js n=1000 method="forOf" type="fast" size=16386                                                                                 ***    302.50 %       ±4.13%   ±9.52%   ±30.29%
+buffers/buffer-iterate.js n=1000 method="forOf" type="fast" size=4096                                                                                  ***    512.94 %       ±9.38%  ±21.64%   ±68.89%
+buffers/buffer-iterate.js n=1000 method="forOf" type="fast" size=512                                                                                   ***   1322.43 %      ±66.54% ±153.49%  ±488.68%
+buffers/buffer-iterate.js n=1000 method="iterator" type="fast" size=16386                                                                              ***     60.19 %       ±7.68%  ±17.72%   ±56.42%
+buffers/buffer-iterate.js n=1000 method="iterator" type="fast" size=4096                                                                               ***    191.22 %       ±9.89%  ±22.81%   ±72.61%
+buffers/buffer-iterate.js n=1000 method="iterator" type="fast" size=512                                                                                ***    753.95 %       ±9.89%  ±22.81%   ±72.61%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="ascii"                                                                                        ***    781.89 %      ±17.80%  ±41.07%  ±130.76%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="base64"                                                                                       ***   1199.54 %      ±17.64%  ±40.70%  ±129.58%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="BASE64"                                                                                       ***    461.00 %       ±9.47%  ±21.84%   ±69.54%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="binary"                                                                                       ***    540.59 %       ±2.31%   ±5.32%   ±16.95%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="hex"                                                                                          ***   1213.13 %       ±2.59%   ±5.98%   ±19.03%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="HEX"                                                                                          ***    749.45 %      ±11.18%  ±25.79%   ±82.11%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="latin1"                                                                                       ***    750.75 %       ±4.13%   ±9.52%   ±30.30%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="LATIN1"                                                                                       ***    432.72 %       ±6.31%  ±14.55%   ±46.33%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="UCS-2"                                                                                         **    344.88 %      ±48.06% ±110.85%  ±352.93%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="UCS2"                                                                                         ***    454.69 %      ±15.36%  ±35.43%  ±112.79%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="utf-16le"                                                                                     ***   1189.55 %      ±20.79%  ±47.95%  ±152.67%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="UTF-16LE"                                                                                     ***    801.26 %       ±8.72%  ±20.10%   ±64.00%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="utf-8"                                                                                        ***    607.44 %       ±9.31%  ±21.48%   ±68.38%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="utf16le"                                                                                      ***   1159.27 %      ±11.94%  ±27.55%   ±87.71%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="UTF16LE"                                                                                      ***    726.30 %      ±47.02% ±108.45%  ±345.29%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="utf8"                                                                                         ***    597.88 %       ±9.42%  ±21.73%   ±69.18%
+buffers/buffer-normalize-encoding.js n=1000000 encoding="UTF8"                                                                                         ***    778.30 %       ±6.06%  ±13.98%   ±44.51%
+buffers/buffer-read-float.js n=1000000 value="big" endian="LE" type="Double"                                                                           ***    532.37 %       ±9.74%  ±22.46%   ±71.52%
+buffers/buffer-read-float.js n=1000000 value="big" endian="LE" type="Float"                                                                            ***    573.11 %      ±55.14% ±127.18%  ±404.93%
+buffers/buffer-read-float.js n=1000000 value="inf" endian="LE" type="Double"                                                                           ***    531.83 %       ±5.36%  ±12.37%   ±39.38%
+buffers/buffer-read-float.js n=1000000 value="inf" endian="LE" type="Float"                                                                            ***    581.09 %       ±9.97%  ±23.00%   ±73.23%
+buffers/buffer-read-float.js n=1000000 value="nan" endian="LE" type="Double"                                                                           ***    532.12 %      ±22.99%  ±53.03%  ±168.85%
+buffers/buffer-read-float.js n=1000000 value="nan" endian="LE" type="Float"                                                                              *    523.23 %     ±268.48% ±619.30% ±1971.73%
+buffers/buffer-read-float.js n=1000000 value="small" endian="LE" type="Double"                                                                         ***    532.24 %       ±6.73%  ±15.52%   ±49.41%
+buffers/buffer-read-float.js n=1000000 value="small" endian="LE" type="Float"                                                                          ***    539.12 %       ±8.55%  ±19.72%   ±62.79%
+buffers/buffer-read-float.js n=1000000 value="zero" endian="LE" type="Double"                                                                          ***    357.18 %       ±2.71%   ±6.25%   ±19.89%
+buffers/buffer-read-float.js n=1000000 value="zero" endian="LE" type="Float"                                                                           ***    389.73 %       ±5.01%  ±11.57%   ±36.83%
+buffers/buffer-read-with-byteLength.js byteLength=1 n=1000000 type="IntBE" buffer="fast"                                                                NA    220.54 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=1 n=1000000 type="IntLE" buffer="fast"                                                                NA    223.08 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=1 n=1000000 type="UIntBE" buffer="fast"                                                               NA    281.55 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=2 n=1000000 type="IntBE" buffer="fast"                                                                NA    219.27 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=2 n=1000000 type="IntLE" buffer="fast"                                                                NA    216.50 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=2 n=1000000 type="UIntBE" buffer="fast"                                                               NA    251.50 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=3 n=1000000 type="IntBE" buffer="fast"                                                                NA    279.23 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=3 n=1000000 type="IntLE" buffer="fast"                                                                NA    332.02 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=3 n=1000000 type="UIntBE" buffer="fast"                                                               NA    352.16 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=4 n=1000000 type="IntBE" buffer="fast"                                                                NA    273.97 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=4 n=1000000 type="IntLE" buffer="fast"                                                                NA    272.64 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=4 n=1000000 type="UIntBE" buffer="fast"                                                               NA    290.87 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=5 n=1000000 type="IntBE" buffer="fast"                                                                NA    431.87 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=5 n=1000000 type="IntLE" buffer="fast"                                                                NA    433.07 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=5 n=1000000 type="UIntBE" buffer="fast"                                                               NA    434.01 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=6 n=1000000 type="IntBE" buffer="fast"                                                                NA    416.64 %           NA       NA        NA
+buffers/buffer-read-with-byteLength.js byteLength=6 n=1000000 type="IntLE" buffer="fast"                                                                NA    420.99 %           NA       NA        NA
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 233 comparisons, you can thus
+expect the following amount of false-positive results:
+  11.65 false positives, when considering a   5% risk acceptance (*, **, ***),
+  2.33 false positives, when considering a   1% risk acceptance (**, ***),
+  0.23 false positives, when considering a 0.1% risk acceptance (***)

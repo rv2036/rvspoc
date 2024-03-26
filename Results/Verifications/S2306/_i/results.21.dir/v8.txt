@@ -1,0 +1,13 @@
+                                                          confidence improvement accuracy (*)    (**)    (***)
+v8/get-stats.js n=1000000 method="getHeapSpaceStatistics"         **     15.79 %       ±3.72%  ±8.58%  ±27.31%
+v8/get-stats.js n=1000000 method="getHeapStatistics"              **     25.50 %       ±4.47% ±10.32%  ±32.85%
+v8/serialize.js n=1000000 len=16384                               **    -11.26 %       ±4.83% ±11.15%  ±35.50%
+v8/serialize.js n=1000000 len=256                                        -0.95 %       ±7.27% ±16.77%  ±53.39%
+v8/serialize.js n=1000000 len=524288                                    -29.81 %      ±37.94% ±87.52% ±278.64%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 5 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.25 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.05 false positives, when considering a   1% risk acceptance (**, ***),
+  0.01 false positives, when considering a 0.1% risk acceptance (***)

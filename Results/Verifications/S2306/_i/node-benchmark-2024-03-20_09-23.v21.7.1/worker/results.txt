@@ -1,0 +1,12 @@
+"filename","configuration","rate","time"
+"worker/atomics-wait.js","n=10000000",1451350.6024807217,6.890133909
+"worker/bench-eventlooputil.js","method=""ELU_simple"" n=1000000",257287.65117159463,3.886700335
+"worker/bench-eventlooputil.js","method=""ELU_passed"" n=1000000",295164.3003624129,3.387943592
+"worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""string"" workers=1",7457.080588853815,13.410073662
+"worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""string"" workers=1",4840.811176301108,20.657694828
+"worker/echo.js","n=100000 sendsPerBroadcast=1 payload=""object"" workers=1",6682.1464768561145,14.965251113
+"worker/echo.js","n=100000 sendsPerBroadcast=10 payload=""object"" workers=1",2884.1984699271798,34.671677779
+"worker/messageport.js","n=1000000 style=""eventtarget"" payload=""string""",69901.12459294,14.305921483
+"worker/messageport.js","n=1000000 style=""eventemitter"" payload=""string""",104702.97745752119,9.550826770
+"worker/messageport.js","n=1000000 style=""eventtarget"" payload=""object""",38930.8312236457,25.686582294
+"worker/messageport.js","n=1000000 style=""eventemitter"" payload=""object""",49739.155129814666,20.104885123

@@ -1,0 +1,2 @@
+/data/home/ryan/node-v20.10.0/benchmark/napi/function_args/index.js: V8 Binding failed to load
+misc/function_call.js Binding failed to load

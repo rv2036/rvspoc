@@ -1,0 +1,11 @@
+/data/home/ryan/node-v20.10.0/benchmark/common.js:259
+      throw new Error('called end() with operation count <= 0');
+      ^
+
+Error: called end() with operation count <= 0
+    at Benchmark.end (/data/home/ryan/node-v20.10.0/benchmark/common.js:259:13)
+    at Timeout._onTimeout (/data/home/ryan/node-v20.10.0/benchmark/zlib/pipe.js:42:11)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+
+Node.js v21.7.1

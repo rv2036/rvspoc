@@ -1,0 +1,133 @@
+"binary","filename","configuration","rate","time"
+"old","timers/immediate.js","type=""depth"" n=5000000",119300.73232720657,41.910891094
+"old","timers/immediate.js","type=""depth1"" n=5000000",120346.65733142331,41.546646254
+"old","timers/immediate.js","type=""breadth"" n=5000000",367555.31958324346,13.603394465
+"old","timers/immediate.js","type=""breadth1"" n=5000000",227600.8320077145,21.968285247
+"old","timers/immediate.js","type=""breadth4"" n=5000000",171871.78340346063,14.545726765
+"old","timers/immediate.js","type=""clear"" n=5000000",1995414.5129057441,10.022980123
+"new","timers/immediate.js","type=""depth"" n=5000000",119379.61098867802,41.883198970
+"new","timers/immediate.js","type=""depth1"" n=5000000",115660.47972510314,43.229978052
+"new","timers/immediate.js","type=""breadth"" n=5000000",374068.6833686155,13.366529256
+"new","timers/immediate.js","type=""breadth1"" n=5000000",268307.2859003183,18.635349328
+"new","timers/immediate.js","type=""breadth4"" n=5000000",185404.28866722976,13.484046232
+"new","timers/immediate.js","type=""clear"" n=5000000",1957067.7802288916,10.219370122
+"old","timers/immediate.js","type=""depth"" n=5000000",119300.73232720657,41.910891094
+"old","timers/immediate.js","type=""depth1"" n=5000000",120346.65733142331,41.546646254
+"old","timers/immediate.js","type=""breadth"" n=5000000",367555.31958324346,13.603394465
+"old","timers/immediate.js","type=""breadth1"" n=5000000",227600.8320077145,21.968285247
+"old","timers/immediate.js","type=""breadth4"" n=5000000",171871.78340346063,14.545726765
+"old","timers/immediate.js","type=""clear"" n=5000000",1995414.5129057441,10.022980123
+"new","timers/immediate.js","type=""depth"" n=5000000",118956.6456952819,42.032119944
+"new","timers/immediate.js","type=""depth1"" n=5000000",118883.17099436451,42.058097527
+"new","timers/immediate.js","type=""breadth"" n=5000000",335208.82701097406,14.916074987
+"new","timers/immediate.js","type=""breadth1"" n=5000000",205628.64734237333,24.315678115
+"new","timers/immediate.js","type=""breadth4"" n=5000000",189054.2410190822,13.223718159
+"new","timers/immediate.js","type=""clear"" n=5000000",1963965.636144464,10.183477568
+"old","timers/immediate.js","type=""depth"" n=5000000",119300.73232720657,41.910891094
+"old","timers/immediate.js","type=""depth1"" n=5000000",120346.65733142331,41.546646254
+"old","timers/immediate.js","type=""breadth"" n=5000000",367555.31958324346,13.603394465
+"old","timers/immediate.js","type=""breadth1"" n=5000000",227600.8320077145,21.968285247
+"old","timers/immediate.js","type=""breadth4"" n=5000000",171871.78340346063,14.545726765
+"old","timers/immediate.js","type=""clear"" n=5000000",1995414.5129057441,10.022980123
+"new","timers/immediate.js","type=""depth"" n=5000000",117320.77951085872,42.618196204
+"new","timers/immediate.js","type=""depth1"" n=5000000",118939.00254305187,42.038354897
+"new","timers/immediate.js","type=""breadth"" n=5000000",305478.1311762267,16.367783778
+"new","timers/immediate.js","type=""breadth1"" n=5000000",232604.69410942623,21.495696891
+"new","timers/immediate.js","type=""breadth4"" n=5000000",205708.86659701553,12.153097926
+"new","timers/immediate.js","type=""clear"" n=5000000",2296763.0190850436,8.707907535
+"old","timers/set-immediate-breadth-args.js","n=5000000",235902.21909389753,21.195222407
+"new","timers/set-immediate-breadth-args.js","n=5000000",212057.24163436814,23.578539273
+"old","timers/set-immediate-breadth-args.js","n=5000000",235902.21909389753,21.195222407
+"new","timers/set-immediate-breadth-args.js","n=5000000",221513.53899757093,22.571983738
+"old","timers/set-immediate-breadth-args.js","n=5000000",235902.21909389753,21.195222407
+"new","timers/set-immediate-breadth-args.js","n=5000000",177581.03267360746,28.156160175
+"old","timers/set-immediate-breadth.js","n=10000000",311837.465141905,32.067987711
+"new","timers/set-immediate-breadth.js","n=10000000",342150.7723647091,29.226881269
+"old","timers/set-immediate-breadth.js","n=10000000",311837.465141905,32.067987711
+"new","timers/set-immediate-breadth.js","n=10000000",293847.50468175823,34.031257168
+"old","timers/set-immediate-breadth.js","n=10000000",311837.465141905,32.067987711
+"new","timers/set-immediate-breadth.js","n=10000000",326373.557207502,30.639737133
+"old","timers/set-immediate-depth-args.js","n=5000000",113650.90585093667,43.994369975
+"new","timers/set-immediate-depth-args.js","n=5000000",113850.29011168804,43.917323312
+"old","timers/set-immediate-depth-args.js","n=5000000",113650.90585093667,43.994369975
+"new","timers/set-immediate-depth-args.js","n=5000000",109408.87328017817,45.700132449
+"old","timers/set-immediate-depth-args.js","n=5000000",113650.90585093667,43.994369975
+"new","timers/set-immediate-depth-args.js","n=5000000",109959.37698712572,45.471338025
+"old","timers/timers-breadth-args.js","n=1000000",226129.7604628568,4.422239682
+"new","timers/timers-breadth-args.js","n=1000000",169168.3489624407,5.911271264
+"old","timers/timers-breadth-args.js","n=1000000",226129.7604628568,4.422239682
+"new","timers/timers-breadth-args.js","n=1000000",231682.84750215194,4.316245293
+"old","timers/timers-breadth-args.js","n=1000000",226129.7604628568,4.422239682
+"new","timers/timers-breadth-args.js","n=1000000",203169.14029568085,4.922007341
+"old","timers/timers-breadth.js","n=5000000",167811.68474637694,29.795303036
+"new","timers/timers-breadth.js","n=5000000",228984.56239328417,21.835533137
+"old","timers/timers-breadth.js","n=5000000",167811.68474637694,29.795303036
+"new","timers/timers-breadth.js","n=5000000",162282.97189073605,30.810379806
+"old","timers/timers-breadth.js","n=5000000",167811.68474637694,29.795303036
+"new","timers/timers-breadth.js","n=5000000",231718.42499604562,21.577912935
+"old","timers/timers-cancel-pooled.js","n=5000000",3747017.2974174013,1.334394694
+"new","timers/timers-cancel-pooled.js","n=5000000",2927245.8230841015,1.708090233
+"old","timers/timers-cancel-pooled.js","n=5000000",3747017.2974174013,1.334394694
+"new","timers/timers-cancel-pooled.js","n=5000000",1213902.4012782432,4.118947285
+"old","timers/timers-cancel-pooled.js","n=5000000",3747017.2974174013,1.334394694
+"new","timers/timers-cancel-pooled.js","n=5000000",3440682.2455056384,1.453200163
+"old","timers/timers-cancel-unpooled.js","direction=""start"" n=1000000",276872.2029421772,3.611774636
+"old","timers/timers-cancel-unpooled.js","direction=""end"" n=1000000",1514214.2280156934,0.660408535
+"new","timers/timers-cancel-unpooled.js","direction=""start"" n=1000000",457436.67494031007,2.186094939
+"new","timers/timers-cancel-unpooled.js","direction=""end"" n=1000000",330456.2908707494,3.026118817
+"old","timers/timers-cancel-unpooled.js","direction=""start"" n=1000000",276872.2029421772,3.611774636
+"old","timers/timers-cancel-unpooled.js","direction=""end"" n=1000000",1514214.2280156934,0.660408535
+"new","timers/timers-cancel-unpooled.js","direction=""start"" n=1000000",288678.21530583577,3.464064647
+"new","timers/timers-cancel-unpooled.js","direction=""end"" n=1000000",350957.00257512665,2.849351894
+"old","timers/timers-cancel-unpooled.js","direction=""start"" n=1000000",276872.2029421772,3.611774636
+"old","timers/timers-cancel-unpooled.js","direction=""end"" n=1000000",1514214.2280156934,0.660408535
+"new","timers/timers-cancel-unpooled.js","direction=""start"" n=1000000",285912.0832060818,3.497578657
+"new","timers/timers-cancel-unpooled.js","direction=""end"" n=1000000",378804.7156530831,2.639882659
+"old","timers/timers-depth.js","n=1000",908.9262298365874,1.100199298
+"new","timers/timers-depth.js","n=1000",908.4875379184982,1.100730564
+"old","timers/timers-depth.js","n=1000",908.9262298365874,1.100199298
+"new","timers/timers-depth.js","n=1000",909.1783356796681,1.099894224
+"old","timers/timers-depth.js","n=1000",908.9262298365874,1.100199298
+"new","timers/timers-depth.js","n=1000",904.1773226488302,1.105977749
+"old","timers/timers-insert-pooled.js","n=5000000",155959.7690948269,32.059549902
+"new","timers/timers-insert-pooled.js","n=5000000",176395.24880351295,28.345434664
+"old","timers/timers-insert-pooled.js","n=5000000",155959.7690948269,32.059549902
+"new","timers/timers-insert-pooled.js","n=5000000",185765.0323498071,26.915722172
+"old","timers/timers-insert-pooled.js","n=5000000",155959.7690948269,32.059549902
+"new","timers/timers-insert-pooled.js","n=5000000",204504.200684589,24.449375530
+"old","timers/timers-insert-unpooled.js","direction=""start"" n=1000000",246339.6791685272,4.059435343
+"old","timers/timers-insert-unpooled.js","direction=""end"" n=1000000",165742.80288583777,6.033444485
+"new","timers/timers-insert-unpooled.js","direction=""start"" n=1000000",214314.08731242543,4.666048847
+"new","timers/timers-insert-unpooled.js","direction=""end"" n=1000000",169170.49075545996,5.911196424
+"old","timers/timers-insert-unpooled.js","direction=""start"" n=1000000",246339.6791685272,4.059435343
+"old","timers/timers-insert-unpooled.js","direction=""end"" n=1000000",165742.80288583777,6.033444485
+"new","timers/timers-insert-unpooled.js","direction=""start"" n=1000000",242187.55912782208,4.129031250
+"new","timers/timers-insert-unpooled.js","direction=""end"" n=1000000",171248.01708966983,5.839483674
+"old","timers/timers-insert-unpooled.js","direction=""start"" n=1000000",246339.6791685272,4.059435343
+"old","timers/timers-insert-unpooled.js","direction=""end"" n=1000000",165742.80288583777,6.033444485
+"new","timers/timers-insert-unpooled.js","direction=""start"" n=1000000",229288.41386084165,4.361319367
+"new","timers/timers-insert-unpooled.js","direction=""end"" n=1000000",160311.15248151298,6.237869197
+"old","timers/timers-timeout-nexttick.js","n=50000",288352.6016212671,0.173398817
+"old","timers/timers-timeout-nexttick.js","n=5000000",604800.4385885047,8.267189772
+"new","timers/timers-timeout-nexttick.js","n=50000",275821.3524076964,0.181276756
+"new","timers/timers-timeout-nexttick.js","n=5000000",441402.91582755616,11.327519191
+"old","timers/timers-timeout-nexttick.js","n=50000",288352.6016212671,0.173398817
+"old","timers/timers-timeout-nexttick.js","n=5000000",604800.4385885047,8.267189772
+"new","timers/timers-timeout-nexttick.js","n=50000",291304.15781978366,0.171641903
+"new","timers/timers-timeout-nexttick.js","n=5000000",432104.60262114846,11.571272256
+"old","timers/timers-timeout-nexttick.js","n=50000",288352.6016212671,0.173398817
+"old","timers/timers-timeout-nexttick.js","n=5000000",604800.4385885047,8.267189772
+"new","timers/timers-timeout-nexttick.js","n=50000",287314.25506918307,0.174025476
+"new","timers/timers-timeout-nexttick.js","n=5000000",551547.2042657628,9.065407206
+"old","timers/timers-timeout-pooled.js","n=10000000",1156432.7972997446,8.647281557
+"new","timers/timers-timeout-pooled.js","n=10000000",1248424.7208335185,8.010094508
+"old","timers/timers-timeout-pooled.js","n=10000000",1156432.7972997446,8.647281557
+"new","timers/timers-timeout-pooled.js","n=10000000",563020.5357697372,17.761341487
+"old","timers/timers-timeout-pooled.js","n=10000000",1156432.7972997446,8.647281557
+"new","timers/timers-timeout-pooled.js","n=10000000",1068839.6646768951,9.355940213
+"old","timers/timers-timeout-unpooled.js","n=1000000",698897.6621248387,1.430824646
+"new","timers/timers-timeout-unpooled.js","n=1000000",1229230.1287451384,0.813517320
+"old","timers/timers-timeout-unpooled.js","n=1000000",698897.6621248387,1.430824646
+"new","timers/timers-timeout-unpooled.js","n=1000000",1173389.7278830134,0.852231766
+"old","timers/timers-timeout-unpooled.js","n=1000000",698897.6621248387,1.430824646
+"new","timers/timers-timeout-unpooled.js","n=1000000",761725.1955638794,1.312809404

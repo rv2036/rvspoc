@@ -1,0 +1,9 @@
+                                confidence improvement accuracy (*)   (**)   (***)
+policy/policy-startup.js n=1024                -1.13 %       ±3.28% ±7.57% ±24.10%
+
+Be aware that when doing many comparisons the risk of a false-positive
+result increases. In this case, there are 1 comparisons, you can thus
+expect the following amount of false-positive results:
+  0.05 false positives, when considering a   5% risk acceptance (*, **, ***),
+  0.01 false positives, when considering a   1% risk acceptance (**, ***),
+  0.00 false positives, when considering a 0.1% risk acceptance (***)

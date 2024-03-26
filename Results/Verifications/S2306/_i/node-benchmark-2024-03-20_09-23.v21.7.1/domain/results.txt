@@ -1,0 +1,5 @@
+"filename","configuration","rate","time"
+"domain/domain-fn-args.js","n=10 args=0",4560.963895865897,0.002192519
+"domain/domain-fn-args.js","n=10 args=1",4815.427087451527,0.002076659
+"domain/domain-fn-args.js","n=10 args=2",4275.442839680727,0.002338939
+"domain/domain-fn-args.js","n=10 args=3",5035.299970442788,0.001985979
