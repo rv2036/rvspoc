@@ -351,7 +351,7 @@ vendor/milkv-duo/images/ milkv-duo.img
 - 使用 rufus ， balenaetcher 或者 dd 工具烧录到 sd 卡
 
 #### I2C test
-3333333333333333333333333333333333333333333333333333333333333333333333
+
 选手未提供用户测试程序
 
 #### GPIO test
@@ -424,7 +424,7 @@ scp sunmin@192.168.0.200:/home/sunmin/data/duo/xv6/pr4/rvspoc-p2308-xv6-riscv/po
 ```
 ![](./8256ce01-7268-40ad-b074-8e464019f0cb.png)
 
-- i2c 
+- i2c OK
 
 ```bash
 $ ./i2ctest                                                                     
