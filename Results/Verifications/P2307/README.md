@@ -37,7 +37,7 @@ NONE: 选手提交中未有此项目
 | PR 创建时间     | Feb 25, 2024, 4:57 PM GMT+8 | Feb 27, 2024, 1:20 PM GMT+8|
 | 最后更新时间     | Feb 27, 2024, 2:12 PM GMT+8 | Feb 29, 2024, 10:20 PM GMT+8    |
 | 中断处理     | PASS     | PASS     |
-| 任务切换     | NONE     | PASS     |
+| 任务切换     | PASS     | PASS     |
 | UART     | PASS     | PASS     |
 | GPIO     | PASS     | PASS     |
 | I2C     | NONE    | PASS    |
@@ -54,6 +54,9 @@ NONE: 选手提交中未有此项目
 
 samples/basic/blinky 通过
 涉及：GPIO，SysTick (CLINT 中断)
+
+samples/synchronization 通过
+涉及: UART, 任务切换
 
 samples/subsys/shell/shell_module 通过
 涉及：UART (interrupt driven)，PLIC 中断，PINMUX
@@ -109,6 +112,38 @@ python3 ~/git/github/duo-buildroot-sdk/fsbl/plat/cv180x/fiptool.py     -v genfip
 *** Booting Zephyr OS build 90d153b26ed5 ***
 Hello World! milkv_duo
 ```
+
+##### samples/synchronization
+
+- [x] samples/synchronization
+涉及: UART, 任务切换
+
+```bash
+#编译
+west build -p always -b milkv_duo samples/synchronization
+# 将 SD 卡放入读卡器，并挂载 boot 分区
+# 使用下面的命令打包并替换 fip.bin
+python3 ~/git/github/duo-buildroot-sdk/fsbl/plat/cv180x/fiptool.py     -v genfip "/media/shiptux/boot/fip.bin"     --OLD_FIP="/media/shiptux/boot/fip.bin"     --BLCP_2ND="build/zephyr/zephyr.bin"
+```
+
+日志可见 thread_a 和 thread_b 之间交替打印信息。
+
+```
+*** Booting Zephyr OS build 90d153b26ed5 ***
+thread_a: Hello World from cpu 0 on milkv_duo!
+thread_b: Hello World from cpu 0 on milkv_duo!
+thread_a: Hello World from cpu 0 on milkv_duo!
+thread_b: Hello World from cpu 0 on milkv_duo!
+thread_a: Hello World from cpu 0 on milkv_duo!
+thread_b: Hello World from cpu 0 on milkv_duo!
+thread_a: Hello World from cpu 0 on milkv_duo!
+thread_b: Hello World from cpu 0 on milkv_duo!
+thread_a: Hello World from cpu 0 on milkv_duo!
+thread_b: Hello World from cpu 0 on milkv_duo!
+thread_a: Hello World from cpu 0 on milkv_duo!
+thread_b: Hello World from cpu 0 on milkv_duo!
+```
+
 
 ##### samples/basic/blinky
 
