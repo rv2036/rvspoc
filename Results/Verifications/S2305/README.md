@@ -36,19 +36,18 @@ pr3 的移植思路是：
 | openGauss版本    |     5.1.0 轻量版     | 5.1.0 标准版 | 5.0.0 轻量版        | 无|
 | 验证环境 |  docker（openEuler 22.03 RISC-V）on pioneerbox | Fedora 38 on pioneerbox    |   openEuler20.03 x86_64 virtualbox     | 无|
 | 是否移植成功    |     Y     | Y | NA        | 无|
-| benchmark结果    |     见附件[1]     | 见附件[2] | 见附件[3]        | 无|
+| benchmark结果    |     见:pr2 测试结果     | 见:pr3 测试结果 | 见:基准测试结果[3]        | 无|
 
+![results](./results.png)
 
-附件[1] pr2 测试结果 
+- pr2 测试结果
+https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/pr2-my_result_2024-03-25_122945
 
-https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/pr2-my_result_2024-03-25_122945.tar
+- pr3 测试结果
+https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/pr3-my_result_2024-03-25_114402
 
-附件[2] pr3 测试结果 
-
-https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/pr3-my_result_2024-03-25_114402.tar
-
-附件[3] 基准测试结果 
-https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/base-my_result_2024-03-24_204024.tar
+- 基准测试结果
+https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/base-my_result_2024-03-24_204024
 
 
 ### 验证总体思路
