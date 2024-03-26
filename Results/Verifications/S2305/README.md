@@ -38,17 +38,18 @@ pr3 的移植思路是：
 | 是否移植成功    |     Y     | Y | NA        | 无|
 | benchmark结果    |     见附件[1]     | 见附件[2] | 见附件[3]        | 无|
 
+![results](./results.png)
 
 附件[1] pr2 测试结果 
 
-https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/pr2-my_result_2024-03-25_122945.tar
+https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/pr2-my_result_2024-03-25_122945
 
 附件[2] pr3 测试结果 
 
-https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/pr3-my_result_2024-03-25_114402.tar
+https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/pr3-my_result_2024-03-25_114402
 
 附件[3] 基准测试结果 
-https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/base-my_result_2024-03-24_204024.tar
+https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/base-my_result_2024-03-24_204024
 
 
 ### 验证总体思路
