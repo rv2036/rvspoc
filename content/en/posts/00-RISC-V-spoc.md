@@ -30,7 +30,7 @@ The fact that open sources software are not as optimized for RISC-V hardware pla
 
 Host: The PLCT Lab (associated with the Intelligent Software Research Center of the Institute of Software, Chinese Academy of Sciences)
 
-Event Host: Hangzhou Quancheng Intelligent Software Co., Ltd.
+Event Host: Hangzhou Quancheng Intelligent Software Co., Ltd., Shanghai 苦芽 Technical Co., Ltd.
 
 Co-host: RISC-V China Community (CNRV)
 
