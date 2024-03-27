@@ -60,129 +60,127 @@ $ sudo ./sudo ./build_for_milkv_duo.sh
 烧录后的启动日志。 使用 Debian Sid 自带的编译器和 genimage 工具链:
 
 ```bash
-FSBL Jb28g9:gf2df47913:2024-02-29T16:35:38+08:00                                
-st_on_reason=d0000                                                              
-st_off_reason=0                                                                 
-P2S/0x1000/0x3bc0da00.                                                          
-SD/0xca00/0x1000/0x1000/0.P2E.                                                  
-DPS/0xda00/0x2000.                                                              
-SD/0xda00/0x2000/0x2000/0.DPE.                                                  
-DDR init.                                                                       
-ddr_param[0]=0x78075562.                                                        
-pkg_type=3                                                                      
-D3_1_4                                                                          
-DDR2-512M-QFN68                                                                 
-Data rate=1333.                                                                 
-DDR BIST PASS             根据手册计算，我测出我的当前的                                                      
-PLLS.                                                                           
-PLLE.                                                                           
-C2S/0xfa00/0x83f40000/0x3600.                                                   
- 2RET.:00/0x3600/0x3600/0.RSC.                                                  
- [M1S./302x51437010]0P/r0ex 8s0y0s0t0e0m0 0i/n0ixt1 bd0o0n0e.                   
-                                                                                
-RT: [1.331791]CVIRTOS Build Date:Feb 29 2024  (Time :16:35:37)                  
-RT: [1.337794]Post system init done                                             
-RT: [1.341109]create cvi task                                                   
-RT: [1.343935][cvi_spinlock_init] succeess                                      
-RT: [1.347829]prvCmdQuRunTask run                                               
-SD/0x13000/0x1b000/0x1b000/0.ME.                                                根据手册计算，我测出我的当前的
-L2/0x2e000.                                                                     
-SD/0x2e000/0x200/0x200/0.L2/0x414d3342/0xcafebfd8/0x80200000/0x23000/0x23000    
-COMP/1.                                                                         
-SD/0x2e000/0x23000/0x23000/0.DCP/0x80200020/0x1000000/0x81500020/0x23000/1.     
-DCP/0x4a307/0.                                                                  
-Loader_2nd loaded.                                                              
-Use internal 32k                                                                
-Jump to monitor at 0x80000000.                                                  
-OPENSBI: next_addr=0x80200020 arg1=0x80080000                                   
-OpenSBI v0.9                                                                    
-   ____                    _____ ____ _____                                     
-  / __ \                  / ____|  _ \_   _|                                    
- | |  | |_ __   ___ _ __ | (___ | |_) || |                                      
- | |  | | '_ \ / _ \ '_ \ \___ \|  _ < | |                                      
- | |__| | |_) |  __/ | | |____) | |_) || |_                                     
-  \____/| .__/ \___|_| |_|_____/|____/_____|                                    
-        | |                                                            $ ./adc
-adc raw: 4095         
-        |_|                                                                     
-                                                                                
-Platform Name             : Milk-V Duo                                          
-Platform Features         : mfdeleg                                             
-Platform HART Count       : 1                                                   
-Platform IPI Device       : clint                                               
-Platform Timer Device     : clint                                               
-Platform Console Device   : uart8250                                            
-Platform HSM Device       : ---                                             根据手册计算，我测出我的当前的    
-Platform SysReset Device  : ---                                                 
-Firmware Base             : 0x80000000                                          
-Firmware Size             : 132 KB                                              
-Runtime SBI Version       : 0.3                                                 
-                                                                                
-Domain0 Name              : root                                                
-Domain0 Boot HART         : 0                                                   
-Domain0 HARTs             : 0*                                                  
-Domain0 Region00          : 0x0000000074000000-0x000000007400ffff (I)           
-Domain0 Region01          : 0x0000000080000000-0x000000008003ffff ()            
-Domain0 Region02          : 0x0000000000000000-0xffffffffffffffff (R,W,X)       
-Domain0 Next Address      : 0x0000000080200020                                  
-Domain0 Next Arg1         : 0x0000000080080000                                  
-Domain0 Next Mode         : S-mode                                              
-Domain0 SysReset          : yes                                                 
-                                                                                
-Boot HART ID              : 0                                                   
-Boot HART Domain          : root                                                
-Boot HART ISA             : rv64imafdcvsux                                      
-Boot HART Features        : scounteren,mcounteren,time                          
-Boot HART PMP Count       : 16                                                  
-Boot HART PMP Granularity : 4096                                                
-Boot HART PMP Address Bits: 38                                                  
-Boot HART MHPM Count      : 8                                                   
-Boot HART MHPM Count      : 8                                                   
-Boot HART MIDELEG         : 0x0000000000000222                                  
-Boot HART MEDELEG         : 0x000000000000b109                                  
-                                                                                
-                                                                                
+FSBL Jb28g9:gf2df47913:2024-02-29T16:35:38+08:00
+st_on_reason=d0000
+st_off_reason=0
+P2S/0x1000/0x3bc0da00.
+SD/0xca00/0x1000/0x1000/0.P2E.
+DPS/0xda00/0x2000.
+SD/0xda00/0x2000/0x2000/0.DPE.
+DDR init.
+ddr_param[0]=0x78075562.
+pkg_type=3
+D3_1_4
+DDR2-512M-QFN68
+Data rate=1333.
+DDR BIST PASS
+PLLS.
+PLLE.
+C2S/0xfa00/0x83f40000/0x3600.
+ 2RET.:00/0x3600/0x3600/0.RSC.
+ [M1S./302x51437010]0P/r0ex 8s0y0s0t0e0m0 0i/n0ixt1 bd0o0n0e.
+
+RT: [1.331791]CVIRTOS Build Date:Feb 29 2024  (Time :16:35:37)
+RT: [1.337794]Post system init done
+RT: [1.341109]create cvi task
+RT: [1.343935][cvi_spinlock_init] succeess
+RT: [1.347829]prvCmdQuRunTask run
+SD/0x13000/0x1b000/0x1b000/0.ME.
+L2/0x2e000.
+SD/0x2e000/0x200/0x200/0.L2/0x414d3342/0xcafebfd8/0x80200000/0x23000/0x23000
+COMP/1.
+SD/0x2e000/0x23000/0x23000/0.DCP/0x80200020/0x1000000/0x81500020/0x23000/1.
+DCP/0x4a307/0.
+Loader_2nd loaded.
+Use internal 32k
+Jump to monitor at 0x80000000.
+OPENSBI: next_addr=0x80200020 arg1=0x80080000
+OpenSBI v0.9
+   ____                    _____ ____ _____
+  / __ \                  / ____|  _ \_   _|
+ | |  | |_ __   ___ _ __ | (___ | |_) || |
+ | |  | | '_ \ / _ \ '_ \ \___ \|  _ < | |
+ | |__| | |_) |  __/ | | |____) | |_) || |_
+  \____/| .__/ \___|_| |_|_____/|____/_____|
+        | |
+        |_|
+
+Platform Name             : Milk-V Duo
+Platform Features         : mfdeleg
+Platform HART Count       : 1
+Platform IPI Device       : clint
+Platform Timer Device     : clint
+Platform Console Device   : uart8250
+Platform HSM Device       : ---
+Platform SysReset Device  : ---
+Firmware Base             : 0x80000000
+Firmware Size             : 132 KB
+Runtime SBI Version       : 0.3
+
+Domain0 Name              : root
+Domain0 Boot HART         : 0
+Domain0 HARTs             : 0*
+Domain0 Region00          : 0x0000000074000000-0x000000007400ffff (I)
+Domain0 Region01          : 0x0000000080000000-0x000000008003ffff ()
+Domain0 Region02          : 0x0000000000000000-0xffffffffffffffff (R,W,X)
+Domain0 Next Address      : 0x0000000080200020
+Domain0 Next Arg1         : 0x0000000080080000
+Domain0 Next Mode         : S-mode
+Domain0 SysReset          : yes
+
+Boot HART ID              : 0
+Boot HART Domain          : root
+Boot HART ISA             : rv64imafdcvsux
+Boot HART Features        : scounteren,mcounteren,time
+Boot HART PMP Count       : 16
+Boot HART PMP Granularity : 4096
+Boot HART PMP Address Bits: 38
+Boot HART MHPM Count      : 8
+Boot HART MHPM Count      : 8
+Boot HART MIDELEG         : 0x0000000000000222
+Boot HART MEDELEG         : 0x000000000000b109
+
+
 U-Boot 2021.10 (Feb 29 2024 - 16:53:07 +0800)cvitek_cv180x                      
-                                                                                
-DRAM:  63.3 MiB                                                                 
-gd->relocaddr=0x83ef8000. offset=0x3cf8000                                      
-MMC:   cv-sd@4310000: 0                                                         
-Loading Environment from <NULL>... OK                                           
-In:    serial                                                                   
-Out:   serial                                                                   
-Err:   serial                                                                   
-Net:                                                                            
-Warning: ethernet@4070000 (eth0) using random MAC address - 66:af:79:59:29:5e   
-eth0: ethernet@4070000                                                          
-Hit any key to stop autoboot:  0                                                
-Boot from SD ...                                                                
-switch to partitions #0, OK                                                     
-mmc0 is current device                                                          
-1590733 bytes read in 72 ms (21.1 MiB/s)                                        
-## Loading kernel from FIT Image at 81400000 ...                                
-   Using 'config-cv1800b_milkv_duo_sd' configuration                            
-   Trying 'kernel-1' kernel subimage                                            
-   Verifying Hash Integrity ... crc32+ OK                                       
-## Loading fdt from FIT Image at 81400000 ...                                   
-   Using 'config-cv1800b_milkv_duo_sd' configuration                            
-   Trying 'fdt-1' fdt subimage                                                  
-   Verifying Hash Integrity ... sha256+ OK                                      
-   Booting using the fdt blob at 0x8158315c                                     
-   Loading Kernel Image                                                         
-   Decompressing 1585152 bytes used 2ms                                         
-   Loading Device Tree to 00000000836ac000, end 00000000836aff73 ... OK         
-                                                                                
-Starting kernel ...                                                             
-                                                                                
-                                                                                
-xv6 kernel is booting                                                           
-                                                                                
-SBI specification v0.3 detected                                                 
-SBI TIME extension detected                                                     
-SBI IPI extension detected                                                      
-SBI RFNC extension detected                                                     
-SBI HSM extension detected                                                      
-                                                                                
+
+DRAM:  63.3 MiB
+gd->relocaddr=0x83ef8000. offset=0x3cf8000
+MMC:   cv-sd@4310000: 0
+Loading Environment from <NULL>... OK
+In:    serial
+Out:   serial
+Err:   serial
+Net:
+Warning: ethernet@4070000 (eth0) using random MAC address - 66:af:79:59:29:5e
+eth0: ethernet@4070000
+Hit any key to stop autoboot:  0
+Boot from SD ...
+switch to partitions #0, OK
+mmc0 is current device
+1590733 bytes read in 72 ms (21.1 MiB/s)
+## Loading kernel from FIT Image at 81400000 ...
+   Using 'config-cv1800b_milkv_duo_sd' configuration
+   Trying 'kernel-1' kernel subimage
+   Verifying Hash Integrity ... crc32+ OK
+## Loading fdt from FIT Image at 81400000 ...
+   Using 'config-cv1800b_milkv_duo_sd' configuration
+   Trying 'fdt-1' fdt subimage
+   Verifying Hash Integrity ... sha256+ OK
+   Booting using the fdt blob at 0x8158315c
+   Loading Kernel Image
+   Decompressing 1585152 bytes used 2ms
+   Loading Device Tree to 00000000836ac000, end 00000000836aff73 ... OK
+
+Starting kernel ...
+
+
+xv6 kernel is booting
+SBI specification v0.3 detected
+SBI TIME extension detected
+SBI IPI extension detected
+SBI RFNC extension detected
+SBI HSM extension detected
+
 init: starting sh 
 ```
 
@@ -196,11 +194,25 @@ init: starting sh
 $ ./blink 5 
 ```
 
-蓝色 led 灯会闪烁 5 此，基于这个 LED 灯本身也是一个 GPIOL 设备。`
+蓝色 led 灯会闪烁 5 此，基于这个 LED 灯本身也是一个 GPIO 设备。
 
 #### ADC: 通过
 
 登入 Shell 后 连接 GP26（ADC1）和 3.3v OUT
+
+```bash
+$ ./adc
+adc raw: 4095
+```
+
+然后连接 GP26（ADC1）和 GND
+
+```bash
+$ ./adc
+adc raw: 0
+```
+
+#### PWM：通过
 
 ```bash
 $ ./pwm 1000000 900000
