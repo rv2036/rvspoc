@@ -49,6 +49,21 @@ https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/pr3-my_r
 - 基准测试结果
 https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/base-my_result_2024-03-24_204024
 
+### 第二轮验证结果
+
+第二轮的验证结果如下，我们修改了 `props.pg` 中的两个参数，对 PR2 和 PR3 分别测了 5 次， 得到如下结果
+```
+warehouses=8
+loadWorkers=40
+```
+
+- PR2 测试结果
+![pr2-round2](./pr2-round2.jpg)
+https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/pr2-round2
+
+- PR3 测试结果
+![pr3-round2](./pr3-round2.jpg)
+https://github.com/plctlab/rvspoc/tree/main/Results/Verifications/S2305/pr3-round2
 
 ### 验证总体思路
 
