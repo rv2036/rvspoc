@@ -29,7 +29,7 @@ summary = '**RISC-V**는 **MCU** 및 **IoT** 영역에서 수십억 출하 실�
 
 주최자 : PLCT연구실(중국과학원 소프트웨어연구소 지능소프트웨어연구센터 소속)
 
-계약업체: 항저우 전구 지능 소프트웨어 유한공사입니다, Shanghai 苦芽 Technical Co., Ltd.
+계약업체: 항저우 전구 지능 소프트웨어 유한공사입니다, Shanghai Kubuds Technology Co., Ltd.
 
 스폰서 : RISC-V 중국 커뮤니티 (CNRV)
 
