@@ -4,14 +4,16 @@
       {{ with .Site.Params.banners }}
       {{ range $index, $banner := . }}
       <li id="banner-{{$index}}" class="dismissed">
-        <span>{{index $banner "text"}}
-        {{- with (index $banner "link") }}
-        {{ if . -}}
-        <a href="{{.}}" class="details" target="_blank">{{ i18n "details" | default "Details"}}</a>
-        {{- end }}
-        {{ end -}}
-        </span>
-        <a class="close" data-banner-id="banner-{{$index}}"></a>
+        <div>
+          <span>{{index $banner "text"}}
+          {{- with (index $banner "link") }}
+          {{ if . -}}
+          <a href="{{.}}" class="details" target="_blank">{{ i18n "details" | default "Details"}}</a>
+          {{- end }}
+          {{ end -}}
+          </span>
+          <a class="close" data-banner-id="banner-{{$index}}"></a>
+        </div>
       </li>
       {{ end }}
       {{ end }}

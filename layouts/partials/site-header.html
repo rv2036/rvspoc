@@ -32,12 +32,15 @@
       </div>
       {{ if (or .IsPage .IsSection) }}
       {{ else }}
+      <div id="award-announcement" class="tc-l pv3 ph3 ph4-ns">
+        <a href='{{ absURL "/05/"}}'>{{ i18n "award_announcement" | default "锦标赛获奖结果公示" }}</a>
+      </div>
       <div id="registration" class="tc-l pv3 ph3 ph4-ns">
         {{ if (isset .Site.Params "registration_url") }}
           <a href="{{ .Site.Params.registration_url }}" target="_blank">
             {{- i18n "registration_desc"}}
         {{ else }}
-          <a href="#" target="_blank" class="disabled-link">
+          <a href="#" target="_blank" class="disabled-link" style="display: none !important">
             {{- i18n "registration_desc"}}<span>{{ i18n "registration_desc_suffix" -}}</span>
         {{- end -}}
         </a>
