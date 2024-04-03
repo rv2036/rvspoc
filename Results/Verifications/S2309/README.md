@@ -37,7 +37,7 @@ https://github.com/plctlab/rvspoc-s2309-opencv/pull/2 银河护卫队
     ```
 
 - 测试结果统计
-我们按照模块的包含的用例总数进行降序排序，重点看优化幅度一项，优化幅度大于 10% 且用例总数大于 125 个的模块做了加粗效果。
+我们按照模块的包含的用例总数进行降序排序，重点看优化幅度一项，优化幅度大于 10% 且用例总数大于 125 个的模块做了加粗效果。图表左侧列出了 OpenCV 模块名称，底部蓝色背景区域的数据表示基准测试、PR1 和 PR2 的总体通过率（过滤了 opencv_test_gapi 模块的结果数据）。最底部一栏列出了三组测试的总体耗时情况。
 
     ![round1-statistic](./round1-stastic.png)
 
@@ -49,16 +49,16 @@ https://github.com/plctlab/rvspoc-s2309-opencv/pull/2 银河护卫队
 
     注意！第二轮测试，只选了一个模块用于回归测试，侧重于性能测试
 - 测试模块
-```
-opencv_perf_imgproc
-opencv_perf_core
-opencv_perf_features2d
-opencv_perf_dnn
-opencv_test_imgproc
-```
+    ```
+    opencv_perf_imgproc
+    opencv_perf_core
+    opencv_perf_features2d
+    opencv_perf_dnn
+    opencv_test_imgproc
+    ```
 
 - 测试结果
-![round2-stastiic](./round2-stastic.png)
+    ![round2-stastiic](./round2-stastic.png)
 
 
 ## 验证步骤
