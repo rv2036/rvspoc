@@ -94,7 +94,7 @@ defaultContentLanguageInSubdir = false
         text = 'Срок регистрации и подачи заявок на этот чемпионат продлен до 29 февраля 2024 года.'
         link = 'https://rvspoc.org/02/'
       [[languages.ru.params.banners]]
-        text = 'The champion of each challenge has been announced, and the comment period is from April 3, 2024, to April 10, 2024.'
+        text = 'Объявлены победные результаты этого чемпионата, период объявления - 3 апреля 2024 г. - 10 апреля 2024 г.'
         link = 'https://rvspoc.org/05/'
   [languages.ja]
     contentDir = 'content/ja'
