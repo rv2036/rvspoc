@@ -42,3 +42,6 @@ other = 'Email: '
 
 [list_of_teams]
 other = "The Team List"
+
+[award_announcement]
+other = "Announcement of the Champion"
