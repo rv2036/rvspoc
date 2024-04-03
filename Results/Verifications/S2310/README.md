@@ -319,7 +319,7 @@ $ scp -r -O ../benchmark root@192.168.42.1:
 
 ### PR2 测试结果:
 
-#### 未开启 SWAP 情况下: 
+#### PR2 未开启 SWAP 情况下: 
 
 **无法完整运行 PR 中宣称的 squeezenet_ssd_int8模型以及不能运行 mobilenetv2_yolov3。（偷偷测了 master 分支是可以的，但是 master 分支有比赛结束后的提交不能采用.）**
 
@@ -383,7 +383,7 @@ cooling_down = 0
           FastestDet  min =  176.89  max =  176.89  avg =  176.89
 ```
 
-##### 临时删除 mobilenetv2_yolov3 和 squeezenet_ssd_int8 的测试 结果:
+##### PR2 临时删除 mobilenetv2_yolov3 和 squeezenet_ssd_int8 的测试 结果:
 
 ```bash
 [root@milkv-duo]~/benchmark-PR2# ./benchncnn 4 1 0 -1 1
@@ -422,7 +422,7 @@ network graph not ready
           FastestDet  min =  162.86  max =  171.33  avg =  167.25
 ```
 
-##### Master 分支的结果
+##### PR2 Master 分支的结果
 
 ```bash
 [root@milkv-duo]~/pr2-benchmark# ./benchncnn 4 1 0 -1 1
@@ -457,7 +457,7 @@ cooling_down = 1
           FastestDet  min =  164.67  max =  166.42  avg =  165.84
 ```
 
-#### 开启 256M SWAP 的测试结果
+#### PR2 开启 256M SWAP 的测试结果
 
 ```bash
 [root@milkv-duo]~/benchmark-PR2# ./benchncnn 4 1 0 -1 1
