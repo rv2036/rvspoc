@@ -5,6 +5,9 @@ body>main>article {
 		#toc {
 			font-family: monospace;
 		}
+		dl dd {
+			margin-bottom: 0.3em;
+		}
 	}
 	>nav {
 		margin: 0.5em 0;
