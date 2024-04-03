@@ -34,7 +34,7 @@ NONE: 选手提交中未有此项目
 | TPU     | NONE     | NONE    |
 | 是否优化后有原有不通过的可以运行     | NONE     | NONE （开启 SWAP 则 PASS）         |
 
-**PR1: 对比未经任何优化的数据缺少以下:**
+**PR1: 对比未经任何优化的数据缺少以下（是否开启 SWAP 不影响此项目）:**
 
 ```bash
 --- /tmp/reference.list 2024-03-12 21:17:51.018384421 +0800
@@ -230,7 +230,40 @@ cooling_down = 0
       yolo-fastestv2  min =  235.44  max =  235.44  avg =  235.44
           FastestDet  min =  242.64  max =  242.64  avg =  242.64
 ```
-备注: **提升频率版本，不作为本次参赛结果。**
+
+PR1 开启 256M SWAP 的测试结果 (和 PR2 对照)
+
+```bash
+[root@milkv-duo]~/benchmark# ./benchncnn 4 1 0 -1 1
+syscall error -1
+loop_count = 4
+num_threads = 1
+powersave = 0
+gpu_device = -1
+cooling_down = 1
+          squeezenet  min =  273.83  max =  284.72  avg =  278.86
+     squeezenet_int8  min =  955.24  max =  959.32  avg =  957.51
+           mobilenet  min =  417.96  max =  419.56  avg =  418.78
+      mobilenet_int8  min = 1441.15  max = 1443.78  avg = 1442.21
+        mobilenet_v2  min =  315.44  max =  323.83  avg =  319.86
+        mobilenet_v3  min =  255.67  max =  264.42  avg =  259.97
+          shufflenet  min =  465.57  max =  474.16  avg =  471.88
+       shufflenet_v2  min =  296.89  max =  304.38  avg =  300.39
+             mnasnet  min =  313.95  max =  323.97  avg =  321.11
+     proxylessnasnet  min =  366.19  max =  375.35  avg =  372.78
+     efficientnet_b0  min =  438.52  max =  448.55  avg =  445.14
+   efficientnetv2_b0  min =  625.44  max =  634.50  avg =  628.33
+        regnety_400m  min =  445.70  max =  456.76  avg =  453.00
+           blazeface  min =  151.72  max =  160.47  avg =  154.16
+       mobilenet_ssd  min =  939.92  max =  984.90  avg =  951.35
+  mobilenetv2_yolov3  min = 1100.38  max = 1110.35  avg = 1103.64
+           nanodet_m  min =  693.31  max =  703.68  avg =  698.56
+    yolo-fastest-1.1  min =  391.26  max =  400.06  avg =  397.81
+      yolo-fastestv2  min =  232.25  max =  242.63  avg =  237.85
+          FastestDet  min =  241.09  max =  250.78  avg =  246.04
+```
+
+备注: **以下是提升频率版本，不作为本次参赛结果。**
 
 ```bash
 [root@milkv-duo]~/benchmark-pr1# cat /sys/kernel/debug/clk/clk_summary | grep c906_0
