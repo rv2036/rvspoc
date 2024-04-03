@@ -42,3 +42,6 @@ other = '전자우편: '
 
 [list_of_teams]
 other = "팀 목록"
+
+[award_announcement]
+other = "Announcement of the Champion"

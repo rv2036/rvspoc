@@ -51,3 +51,6 @@ other = "最近の{{.Title }}"
 
 [list_of_teams]
 other = "チーム"
+
+[award_announcement]
+other = "Announcement of the Champion"

@@ -42,3 +42,6 @@ other = 'Электронная почта: '
 
 [list_of_teams]
 other = "Список команд"
+
+[award_announcement]
+other = "Announcement of the Champion"
