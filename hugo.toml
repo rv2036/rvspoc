@@ -78,7 +78,7 @@ defaultContentLanguageInSubdir = false
         text = 'The deadline for registrations and submissions for this championship is extended to February 29, 2024.'
         link = 'https://rvspoc.org/02/'
       [[languages.en.params.banners]]
-        text = 'The champion of each challenge has been announced, and the comment period is from April 3, 2024, to April 10, 2024.'
+        text = 'The champions for all challenges have been announced and commenting will commence between April 3 to April 10, 2024.'
         link = 'https://rvspoc.org/05/'
   [languages.ru]
     contentDir = 'content/ru'
@@ -112,7 +112,7 @@ defaultContentLanguageInSubdir = false
         text = 'チャンピオンシップの登録および提出期限は2024年2月29日まで延長されます.'
         link = 'https://rvspoc.org/02/'
       [[languages.ja.params.banners]]
-        text = 'The champion of each challenge has been announced, and the comment period is from April 3, 2024, to April 10, 2024.'
+        text = 'The champions for all challenges have been announced and commenting will commence between April 3 to April 10, 2024.'
         link = 'https://rvspoc.org/05/'
   [languages.ko]
     contentDir = 'content/ko'
@@ -130,5 +130,5 @@ defaultContentLanguageInSubdir = false
         text = '챔피언십 등록 및 제출 기한은 2024년 2월 29일까지 연장됩니다.'
         link = 'https://rvspoc.org/02/'
       [[languages.ko.params.banners]]
-        text = 'The champion of each challenge has been announced, and the comment period is from April 3, 2024, to April 10, 2024.'
+        text = 'The champions for all challenges have been announced and commenting will commence between April 3 to April 10, 2024.'
         link = 'https://rvspoc.org/05/'
