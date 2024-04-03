@@ -11,9 +11,10 @@ body {
 	background-color: #FDFDFD !important;
 	padding-top: var(--sat) !important;
 
-	#registration {
+	#registration, #award-announcement {
 		margin-top: 5em;
 		margin-bottom: 2em;
+		text-align: center;
 		a {
 			position: relative;
 			z-index: 10;
@@ -77,6 +78,14 @@ body {
 		}
 	}
 
+	#award-announcement a {
+		margin-right: 0;
+		font-size: 3em;
+	}
+	#registration {
+		margin-top: 0;
+	}
+
 
 	@media screen and (max-width: 60em) {
 		#registration {
@@ -89,13 +98,28 @@ body {
 				}
 			}
 		}
+
+		#award-announcement {
+			margin-top: 3em;
+			margin-bottom: 0;
+			a {
+				font-size: 1.5em;
+			}
+		}
+		#registration {
+			margin-top: 0;
+			a {
+				font-size: 1.3em;
+			}
+		}
 	}
 
 	#challenges-link {
 		margin-top: 0;
+		text-align: center;
 		a {
 			position: relative;
-			left: 0.5em;
+			left: 0;
 			z-index: 10;
 			display: inline-block;
 			padding: 0.8em 2em;
@@ -167,38 +191,40 @@ body {
 			list-style: none;
 			li {
 				padding: 0.8em 0;
-				display: inline-flex;
 				text-align: center;
-				span {
-					display: inline-block;
-				}
-				a {
-					display: inline-block;
-					color: var(--fg-less);
-					&.details {
-						margin-left: 0.5em;
+				div {
+					display: inline-flex;
+					span {
+						display: inline-block;
 					}
-					&.close {
-						margin-left: 1em;
-						width: 1.2em;
-						height: 1.2em;
-						position: relative;
-						top: 0;
-						cursor: pointer;
-						&:before, &:after {
-							content: "";
-							position: absolute;
-							left: 0.5em;
-							top: 0.1em;
-							width: 0.2em;
-							height: 1em;
-							background-color: var(--fg-less);
+					a {
+						display: inline-block;
+						color: var(--fg-less);
+						&.details {
+							margin-left: 0.5em;
 						}
-						&:before {
-							transform: rotate(45deg);
-						}
-						&:after {
-							transform: rotate(-45deg);
+						&.close {
+							margin-left: 1em;
+							width: 1.2em;
+							height: 1.2em;
+							position: relative;
+							top: 0;
+							cursor: pointer;
+							&:before, &:after {
+								content: "";
+								position: absolute;
+								left: 0.5em;
+								top: 0.1em;
+								width: 0.2em;
+								height: 1em;
+								background-color: var(--fg-less);
+							}
+							&:before {
+								transform: rotate(45deg);
+							}
+							&:after {
+								transform: rotate(-45deg);
+							}
 						}
 					}
 				}
@@ -287,6 +313,7 @@ body {
 
 		h1 {
 			text-shadow: 1px 1px 1px #FFFFFFF0;
+			text-align: center;
 		}
 
 		a {
