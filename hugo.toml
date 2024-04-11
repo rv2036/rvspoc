@@ -58,12 +58,12 @@ defaultContentLanguageInSubdir = false
     summaryLength = 230
     [languages.zh.params]
       #registration_url = 'https://www.wenjuan.com/s/UZBZJv0BMdV/'
-      [[languages.zh.params.banners]]
-        text = '本次锦标赛的报名与提交截止日期将延长至 2024 年 2 月 29 日。'
-        link = 'https://rvspoc.org/02/'
-      [[languages.zh.params.banners]]
-        text = '本次锦标赛的获奖结果已公布，公示期为 2024 年 4 月 3 日 —— 2024 年 4 月 10 日。'
-        link = 'https://rvspoc.org/05/'
+      #[[languages.zh.params.banners]]
+        #text = '本次锦标赛的报名与提交截止日期将延长至 2024 年 2 月 29 日。'
+        #link = 'https://rvspoc.org/02/'
+      #[[languages.zh.params.banners]]
+        #text = '本次锦标赛的获奖结果已公布，公示期为 2024 年 4 月 3 日 —— 2024 年 4 月 10 日。'
+        #link = 'https://rvspoc.org/05/'
   [languages.en]
     contentDir = 'content/en'
     disabled = false
@@ -74,12 +74,12 @@ defaultContentLanguageInSubdir = false
     weight = 2
     [languages.en.params]
       #registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
-      [[languages.en.params.banners]]
-        text = 'The deadline for registrations and submissions for this championship is extended to February 29, 2024.'
-        link = 'https://rvspoc.org/02/'
-      [[languages.en.params.banners]]
-        text = 'The champions for all challenges have been announced and commenting will commence between April 3 to April 10, 2024.'
-        link = 'https://rvspoc.org/05/'
+      #[[languages.en.params.banners]]
+        #text = 'The deadline for registrations and submissions for this championship is extended to February 29, 2024.'
+        #link = 'https://rvspoc.org/02/'
+      #[[languages.en.params.banners]]
+        #text = 'The champions for all challenges have been announced and commenting will commence between April 3 to April 10, 2024.'
+        #link = 'https://rvspoc.org/05/'
   [languages.ru]
     contentDir = 'content/ru'
     disabled = false
@@ -90,12 +90,12 @@ defaultContentLanguageInSubdir = false
     weight = 3
     [languages.ru.params]
       #registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
-      [[languages.ru.params.banners]]
-        text = 'Срок регистрации и подачи заявок на этот чемпионат продлен до 29 февраля 2024 года.'
-        link = 'https://rvspoc.org/02/'
-      [[languages.ru.params.banners]]
-        text = 'Объявлены победные результаты этого чемпионата, период объявления - 3 апреля 2024 г. - 10 апреля 2024 г.'
-        link = 'https://rvspoc.org/05/'
+      #[[languages.ru.params.banners]]
+        #text = 'Срок регистрации и подачи заявок на этот чемпионат продлен до 29 февраля 2024 года.'
+        #link = 'https://rvspoc.org/02/'
+      #[[languages.ru.params.banners]]
+        #text = 'Объявлены победные результаты этого чемпионата, период объявления - 3 апреля 2024 г. - 10 апреля 2024 г.'
+        #link = 'https://rvspoc.org/05/'
   [languages.ja]
     contentDir = 'content/ja'
     disabled = false
@@ -108,12 +108,12 @@ defaultContentLanguageInSubdir = false
     summaryLength = 230
     [languages.ja.params]
       #registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
-      [[languages.ja.params.banners]]
-        text = 'チャンピオンシップの登録および提出期限は2024年2月29日まで延長されます.'
-        link = 'https://rvspoc.org/02/'
-      [[languages.ja.params.banners]]
-        text = 'The champions for all challenges have been announced and commenting will commence between April 3 to April 10, 2024.'
-        link = 'https://rvspoc.org/05/'
+      #[[languages.ja.params.banners]]
+        #text = 'チャンピオンシップの登録および提出期限は2024年2月29日まで延長されます.'
+        #link = 'https://rvspoc.org/02/'
+      #[[languages.ja.params.banners]]
+        #text = 'The champions for all challenges have been announced and commenting will commence between April 3 to April 10, 2024.'
+        #link = 'https://rvspoc.org/05/'
   [languages.ko]
     contentDir = 'content/ko'
     disabled = false
@@ -126,9 +126,9 @@ defaultContentLanguageInSubdir = false
     summaryLength = 230
     [languages.ko.params]
       #registration_url = 'https://www.wenjuan.com/s/UZBZJveQl0k/'
-      [[languages.ko.params.banners]]
-        text = '챔피언십 등록 및 제출 기한은 2024년 2월 29일까지 연장됩니다.'
-        link = 'https://rvspoc.org/02/'
-      [[languages.ko.params.banners]]
-        text = 'The champions for all challenges have been announced and commenting will commence between April 3 to April 10, 2024.'
-        link = 'https://rvspoc.org/05/'
+      #[[languages.ko.params.banners]]
+        #text = '챔피언십 등록 및 제출 기한은 2024년 2월 29일까지 연장됩니다.'
+        #link = 'https://rvspoc.org/02/'
+      #[[languages.ko.params.banners]]
+        #text = 'The champions for all challenges have been announced and commenting will commence between April 3 to April 10, 2024.'
+        #link = 'https://rvspoc.org/05/'

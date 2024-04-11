@@ -52,4 +52,4 @@ other = "最近{{ .Title }}"
 other = "团队列表"
 
 [award_announcement]
-other = "锦标赛获奖结果公示"
+other = "冠军名单"

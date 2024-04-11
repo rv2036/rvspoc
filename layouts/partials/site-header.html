@@ -33,7 +33,7 @@
       {{ if (or .IsPage .IsSection) }}
       {{ else }}
       <div id="award-announcement" class="tc-l pv3 ph3 ph4-ns">
-        <a href='{{ absURL "/05/"}}'>{{ i18n "award_announcement" | default "锦标赛获奖结果公示" }}</a>
+        <a href='{{ absURL "/2023/champions/"}}'>{{ i18n "award_announcement" | default "冠军名单" }}</a>
       </div>
       <div id="registration" class="tc-l pv3 ph3 ph4-ns">
         {{ if (isset .Site.Params "registration_url") }}
