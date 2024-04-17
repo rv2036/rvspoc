@@ -75,7 +75,7 @@ title = '首届 RISC-V 软件移植及优化锦标赛冠军名单'
   </tr>
 
   <tr class="fir">
-    <td class="champion" rowspan="2">Xinyu302</td>
+    <td class="champion" rowspan="2">「啊对对队」队</td>
     <td class="challenge"><a href="https://rvspoc.org/s2310/" target="_blank"><span>S2310</span>ncnn 移植和优化</a></td>
   </tr>
   <tr class="tpr">
