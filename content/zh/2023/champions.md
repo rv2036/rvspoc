@@ -19,7 +19,7 @@ title = '首届 RISC-V 软件移植及优化锦标赛冠军名单'
   </tr>
 
   <tr class="fir">
-    <td class="champion" rowspan="2">BigBrotherJu</td>
+    <td class="champion" rowspan="2">「OStar」队</td>
     <td class="challenge"><a href="https://rvspoc.org/p2308/" target="_blank"><span>P2308</span>Xv6 移植和演示</a></td>
   </tr>
   <tr class="tpr">
