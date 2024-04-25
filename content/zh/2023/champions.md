@@ -87,7 +87,7 @@ title = '首届 RISC-V 软件移植及优化锦标赛冠军名单'
     <td class="challenge"><a href="https://rvspoc.org/s2311/" target="_blank"><span>S2311</span>Baby LLaMA 2 on Duo 速度优化（儿童讲故事场景）</a></td>
   </tr>
   <tr class="tpr">
-    <td class="pr"><a href="https://github.com/plctlab/rvspoc-s2311-llama2/pull/4" target="_blank">plctlab/rvspoc-s2311-llama2<span>#2</span></td>
+    <td class="pr"><a href="https://github.com/plctlab/rvspoc-s2311-llama2/pull/4" target="_blank">plctlab/rvspoc-s2311-llama2<span>#4</span></td>
   </tr>
 </table>
 
