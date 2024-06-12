@@ -12,7 +12,7 @@ title = '首届 RISC-V 软件移植及优化锦标赛冠军名单'
 
   <tr class="fir">
     <td class="champion" rowspan="2">「你走线如丁似蛋」队</td>
-    <td class="challenge"><a href="https://rvspoc.org/p2307/" target="_blank"><span>P2307</span>Zephyr 移植和演示</a></td>
+    <td class="challenge"><a href="https://rvspoc.org/2023/p2307/" target="_blank"><span>P2307</span>Zephyr 移植和演示</a></td>
   </tr>
   <tr class="tpr">
     <td class="pr"><a href="https://github.com/plctlab/rvspoc-p2307-zephyr/pull/1" target="_blank">plctlab/rvspoc-p2307-zephyr<span>#1</span></a></td>
@@ -20,7 +20,7 @@ title = '首届 RISC-V 软件移植及优化锦标赛冠军名单'
 
   <tr class="fir">
     <td class="champion" rowspan="2">「OStar」队</td>
-    <td class="challenge"><a href="https://rvspoc.org/p2308/" target="_blank"><span>P2308</span>Xv6 移植和演示</a></td>
+    <td class="challenge"><a href="https://rvspoc.org/2023/p2308/" target="_blank"><span>P2308</span>Xv6 移植和演示</a></td>
   </tr>
   <tr class="tpr">
     <td class="pr"><a href="https://github.com/plctlab/rvspoc-p2308-xv6-riscv/pull/4" target="_blank">plctlab/rvspoc-p2308-xv6-riscv<span>#4</span></td>
@@ -28,7 +28,7 @@ title = '首届 RISC-V 软件移植及优化锦标赛冠军名单'
 
   <tr class="fir">
     <td class="champion" rowspan="2">Xhackerustc</td>
-    <td class="challenge"><a href="https://rvspoc.org/p2308/" target="_blank"><span>P2308</span>Xv6 移植和演示</a></td>
+    <td class="challenge"><a href="https://rvspoc.org/2023/p2308/" target="_blank"><span>P2308</span>Xv6 移植和演示</a></td>
   </tr>
   <tr class="tpr">
     <td class="pr"><a href="https://github.com/plctlab/rvspoc-p2308-xv6-riscv/pull/2" target="_blank">plctlab/rvspoc-p2308-xv6-riscv<span>#2</span></td>
@@ -36,7 +36,7 @@ title = '首届 RISC-V 软件移植及优化锦标赛冠军名单'
 
   <tr class="fir">
     <td class="champion" rowspan="2">xctan</td>
-    <td class="challenge"><a href="https://rvspoc.org/s2302/" target="_blank"><span>S2302</span>二进制翻译及优化</a></td>
+    <td class="challenge"><a href="https://rvspoc.org/2023/s2302/" target="_blank"><span>S2302</span>二进制翻译及优化</a></td>
   </tr>
   <tr class="tpr">
     <td class="pr"><a href="https://github.com/plctlab/rvspoc-s2302-BT/pull/1" target="_blank">plctlab/rvspoc-s2302-BT<span>#1</span></td>
@@ -44,7 +44,7 @@ title = '首届 RISC-V 软件移植及优化锦标赛冠军名单'
 
   <tr class="fir">
     <td class="champion" rowspan="2">nexplorer-3e</td>
-    <td class="challenge"><a href="https://rvspoc.org/s2305/" target="_blank"><span>S2305</span>OpenGauss 数据库移植和优化</a></td>
+    <td class="challenge"><a href="https://rvspoc.org/2023/s2305/" target="_blank"><span>S2305</span>OpenGauss 数据库移植和优化</a></td>
   </tr>
   <tr class="tpr">
     <td class="pr"><a href="https://github.com/plctlab/rvspoc-s2305-openGauss-server/pull/2" target="_blank">plctlab/rvspoc-s2305-openGauss-server<span>#2</span></td>
@@ -52,7 +52,7 @@ title = '首届 RISC-V 软件移植及优化锦标赛冠军名单'
 
   <tr class="fir">
     <td class="champion" rowspan="2">「飞旺凯」队</td>
-    <td class="challenge"><a href="https://rvspoc.org/s2305/" target="_blank"><span>S2305</span>OpenGauss 数据库移植和优化</a></td>
+    <td class="challenge"><a href="https://rvspoc.org/2023/s2305/" target="_blank"><span>S2305</span>OpenGauss 数据库移植和优化</a></td>
   </tr>
   <tr class="tpr">
     <td class="pr"><a href="https://github.com/plctlab/rvspoc-s2305-openGauss-server/pull/3" target="_blank">plctlab/rvspoc-s2305-openGauss-server<span>#3</span></td>
@@ -60,7 +60,7 @@ title = '首届 RISC-V 软件移植及优化锦标赛冠军名单'
 
   <tr class="fir">
     <td class="champion" rowspan="2">liuyd-dev</td>
-    <td class="challenge"><a href="https://rvspoc.org/s2306/" target="_blank"><span>S2306</span>Node.js 性能优化</a></td>
+    <td class="challenge"><a href="https://rvspoc.org/2023/s2306/" target="_blank"><span>S2306</span>Node.js 性能优化</a></td>
   </tr>
   <tr class="tpr">
     <td class="pr"><a href="https://github.com/plctlab/rvspoc-s2306-node/pull/1" target="_blank">plctlab/rvspoc-s2306-node<span>#1</span></td>
@@ -68,7 +68,7 @@ title = '首届 RISC-V 软件移植及优化锦标赛冠军名单'
 
   <tr class="fir">
     <td class="champion" rowspan="2">「好吃的卷卷」队</td>
-    <td class="challenge"><a href="https://rvspoc.org/s2309/" target="_blank"><span>S2309</span>OpenCV 在 Duo 上的速度优化</a></td>
+    <td class="challenge"><a href="https://rvspoc.org/2023/s2309/" target="_blank"><span>S2309</span>OpenCV 在 Duo 上的速度优化</a></td>
   </tr>
   <tr class="tpr">
     <td class="pr"><a href="https://github.com/plctlab/rvspoc-s2309-opencv/pull/1" target="_blank">plctlab/rvspoc-s2309-opencv<span>#1</span></td>
@@ -76,7 +76,7 @@ title = '首届 RISC-V 软件移植及优化锦标赛冠军名单'
 
   <tr class="fir">
     <td class="champion" rowspan="2">「啊对对队」队</td>
-    <td class="challenge"><a href="https://rvspoc.org/s2310/" target="_blank"><span>S2310</span>ncnn 移植和优化</a></td>
+    <td class="challenge"><a href="https://rvspoc.org/2023/s2310/" target="_blank"><span>S2310</span>ncnn 移植和优化</a></td>
   </tr>
   <tr class="tpr">
     <td class="pr"><a href="https://github.com/plctlab/rvspoc-s2310-ncnn/pull/2" target="_blank">plctlab/rvspoc-s2310-ncnn<span>#2</span></td>
@@ -84,7 +84,7 @@ title = '首届 RISC-V 软件移植及优化锦标赛冠军名单'
 
   <tr class="fir">
     <td class="champion" rowspan="2">「操练TPU」队</td>
-    <td class="challenge"><a href="https://rvspoc.org/s2311/" target="_blank"><span>S2311</span>Baby LLaMA 2 on Duo 速度优化（儿童讲故事场景）</a></td>
+    <td class="challenge"><a href="https://rvspoc.org/2023/s2311/" target="_blank"><span>S2311</span>Baby LLaMA 2 on Duo 速度优化（儿童讲故事场景）</a></td>
   </tr>
   <tr class="tpr">
     <td class="pr"><a href="https://github.com/plctlab/rvspoc-s2311-llama2/pull/4" target="_blank">plctlab/rvspoc-s2311-llama2<span>#4</span></td>
