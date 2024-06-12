@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ru-RU" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>
+  
+    Индекс S2311 | Baby LLaMA 2 на оптимизации скорости Duo (сцена: рассказывание историй детям) | Чемпионат по портированию и оптимизации программного обеспечения RISC-V
+  
+</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Запустить Baby LLaMA 2 на такой маленькой плате, как Milk-V Duo, довольно сложно. Целью этой задачи является повышение производительности Baby LLaMA 2 на платформе Milk-V Duo с целью достижения более высокой скорости обработки токенов в секунду. Конкурсантам необходимо использовать упрощенные технологии и стратегии оптимизации компилятора в сочетании с различными методами, такими как голосовой ввод с микрофона или ввод слов из командной строки, чтобы разработать демонстрационную версию робота, способную рассказывать истории. Демонстрация должна выводиться через динамики и может быть позаимствована у прототипа робота-рассказчика Xiaomi Mi Rabbit.">
+    <meta name="generator" content="Hugo 0.120.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/2023/ananke/css/main.min.css" >
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://rvspoc.org/2023/ru/s2311/">
+    
+
+    <meta property="og:title" content="Baby LLaMA 2 на оптимизации скорости Duo (сцена: рассказывание историй детям)" />
+<meta property="og:description" content="Запустить Baby LLaMA 2 на такой маленькой плате, как Milk-V Duo, довольно сложно. Целью этой задачи является повышение производительности Baby LLaMA 2 на платформе Milk-V Duo с целью достижения более высокой скорости обработки токенов в секунду. Конкурсантам необходимо использовать упрощенные технологии и стратегии оптимизации компилятора в сочетании с различными методами, такими как голосовой ввод с микрофона или ввод слов из командной строки, чтобы разработать демонстрационную версию робота, способную рассказывать истории. Демонстрация должна выводиться через динамики и может быть позаимствована у прототипа робота-рассказчика Xiaomi Mi Rabbit." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rvspoc.org/2023/ru/s2311/" /><meta property="article:section" content="challenges" />
+<meta property="article:published_time" content="2023-11-27T19:57:09+08:00" />
+<meta property="article:modified_time" content="2023-11-27T19:57:09+08:00" />
+
+<meta itemprop="name" content="Baby LLaMA 2 на оптимизации скорости Duo (сцена: рассказывание историй детям)">
+<meta itemprop="description" content="Запустить Baby LLaMA 2 на такой маленькой плате, как Milk-V Duo, довольно сложно. Целью этой задачи является повышение производительности Baby LLaMA 2 на платформе Milk-V Duo с целью достижения более высокой скорости обработки токенов в секунду. Конкурсантам необходимо использовать упрощенные технологии и стратегии оптимизации компилятора в сочетании с различными методами, такими как голосовой ввод с микрофона или ввод слов из командной строки, чтобы разработать демонстрационную версию робота, способную рассказывать истории. Демонстрация должна выводиться через динамики и может быть позаимствована у прототипа робота-рассказчика Xiaomi Mi Rabbit."><meta itemprop="datePublished" content="2023-11-27T19:57:09+08:00" />
+<meta itemprop="dateModified" content="2023-11-27T19:57:09+08:00" />
+<meta itemprop="wordCount" content="628">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Baby LLaMA 2 на оптимизации скорости Duo (сцена: рассказывание историй детям)"/>
+<meta name="twitter:description" content="Запустить Baby LLaMA 2 на такой маленькой плате, как Milk-V Duo, довольно сложно. Целью этой задачи является повышение производительности Baby LLaMA 2 на платформе Milk-V Duo с целью достижения более высокой скорости обработки токенов в секунду. Конкурсантам необходимо использовать упрощенные технологии и стратегии оптимизации компилятора в сочетании с различными методами, такими как голосовой ввод с микрофона или ввод слов из командной строки, чтобы разработать демонстрационную версию робота, способную рассказывать истории. Демонстрация должна выводиться через динамики и может быть позаимствована у прототипа робота-рассказчика Xiaomi Mi Rabbit."/>
+
+	
+  </head>
+
+  
+  
+  <body class="ma0 section-challenges sans-serif">
+  
+
+
+    
+
+    
+   
+  
+
+  <header>
+    <div class="bg-orange">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    
+      
+    <a href="/2023/ru/" class="f3 fw3 no-underline dib">
+        Чемпионат по портированию и оптимизации программного обеспечения RISC-V
+    </a>
+      
+    
+    <div class="flex items-center nav-right">
+      
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/s2311/">简体中文</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/en/s2311/">English</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ja/s2311/">日本語</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ko/s2311/">한국어</a>
+    </li>
+    
+</ul>
+
+
+      
+      <ul class="pl0 mr3">
+        
+        <li class="list f5 f5-ns fw4 dib pr3">
+          <a class="no-underline nav-link" href="/2023/ru/faq/" title="FAQ страница">
+            FAQ
+          </a>
+        </li>
+        
+      </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+    
+  <article class='justify-between mw8 center ph3 challenge '>
+    <nav class="f7"><a href='/2023/ru/'>Заглавная страница</a><span>/</span><a href='/2023/ru/challenges/'>Задачи</a></nav>
+    
+    <header class="mt4 w-100">
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 mt3 mb1">Baby LLaMA 2 на оптимизации скорости Duo (сцена: рассказывание историй детям)</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    
+    <div id="challenges-meta" class="mid-gray lh-copy">
+      <div><span>Индекс:</span><span>S2311</span></div>
+      <div><span>Награда:</span><span>20000<span class="currency">Китайский юань</span></span></div>
+      
+    </div>
+    
+    <div id="article-body">
+      <div class="nested-copy-line-height lh-copy  f4 nested-links mid-gray"><div>
+          <h2 id="описание-задачи"><span class="hline"><a href="#описание-задачи" class="hanchor"></a>Описание задачи:</span></h2>
+<p>Запустить Baby LLaMA 2 на такой маленькой плате, как Milk-V Duo, довольно сложно. Целью этой задачи является повышение производительности Baby LLaMA 2 на платформе Milk-V Duo с целью достижения более высокой скорости обработки токенов в секунду. Конкурсантам необходимо использовать упрощенные технологии и стратегии оптимизации компилятора в сочетании с различными методами, такими как голосовой ввод с микрофона или ввод слов из командной строки, чтобы разработать демонстрационную версию робота, способную рассказывать истории. Демонстрация должна выводиться через динамики и может быть позаимствована у прототипа робота-рассказчика Xiaomi Mi Rabbit.</p>
+<h2 id="требования"><span class="hline"><a href="#требования" class="hanchor"></a>Требования:</span></h2>
+<ol>
+<li>Критерии оценки будут сосредоточены как на корректности, так и на производительности, при этом вопросы будут иметь одинаковые исходные данные, а работы будут оцениваться по корректности и производительности, соответственно, с помощью эталонного тестирования.</li>
+<li>Корректность оценивается по разнице между результатом работы и эталонным результатом, что отражает влияние методов оптимизации на точность выводов модели. Производительность оценивается по количеству вычислений токенов в секунду, что напрямую отражает оптимизацию производительности записи.</li>
+<li>Часть &ldquo;текст в речь&rdquo; (TTS) рассчитывается отдельно.</li>
+<li>В итоге оргкомитет оценивает работы по совокупности показателей корректности и производительности, которые взвешиваются в соответствии с коэффициентом, установленным жюри конкурса, для подсчета итогового балла, и участник с наибольшим количеством баллов становится победителем.</li>
+</ol>
+<h2 id="инструкции-по-подаче-материалов"><span class="hline"><a href="#инструкции-по-подаче-материалов" class="hanchor"></a>Инструкции по подаче материалов</span></h2>
+<ul>
+<li>Ссылка на репозиторий для отправки <a href="https://github.com/plctlab/rvspoc-s2311-llama2">https://github.com/plctlab/rvspoc-s2311-llama2</a>.</li>
+<li>Пожалуйста, отправьте результат в вышеуказанный репозиторий в форме Pull Request.</li>
+<li>При отправке, пожалуйста, укажите программное окружение, необходимое для воспроизведения, для модификации вы можете обратиться к программному окружению по умолчанию в &ldquo;Инструкциях по приему&rdquo;.</li>
+<li>В период проведения конкурса весь оптимизированный контент может быть представлен следующими способами:
+<ol>
+<li>в бинарном виде</li>
+<li>в виде зашифрованного исходного кода (зашифрованная информация должна быть отправлена по электронной почте на адрес <a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a>)</li>
+<li>исходный код</li>
+</ol>
+</li>
+<li>После объявления окончательных результатов поданные заявки должны быть полностью открыты.</li>
+<li>Оргкомитет закроет канал Pull Request в репозитории конкурса после окончания конкурса (т.е. после <del>16 февраля</del>29 февраля 2024 года) и начнет принимать результаты.</li>
+</ul>
+<h2 id="инструкции-по-приему"><span class="hline"><a href="#инструкции-по-приему" class="hanchor"></a>Инструкции по приему</span></h2>
+<ol>
+<li>Платформа для приема результатов - <strong>Milk-V Duo</strong>, версия <strong>64M</strong>.
+<ul>
+<li>TF-карта той же спецификации.</li>
+<li>Не используются файлы/разделы подкачки.</li>
+<li>Без разгона процессора</li>
+<li>Разгон процессора запрещен</li>
+</ul>
+</li>
+<li>Система на Duo <strong>безлимитная</strong></li>
+<li>Baby Llama 2 можно найти в следующем репозитории: <a href="https://github.com/karpathy/llama2.c">https://github.com/karpathy/llama2.c</a>.</li>
+<li>в дополнение к условию 1, оргкомитет будет использовать следующую программную среду для сравнения среднего значения нескольких баллов в качестве базовой линии с оптимизированными данными участника:
+<ol>
+<li>двоичный файл Baby Llama 2 компилируется с помощью <code>-Ofast</code> с использованием оригинальных немодифицированных C-файлов из вышеуказанного репозитория.</li>
+<li>компилятор использует официальный инструментарий кросс-компиляции Milk-V (версия TBD)</li>
+<li>в системе используется стандартный образ системы Milk-V Duo (версия будет объявлена дополнительно).</li>
+<li>унифицированные входные данные и параметры (определяются)</li>
+<li>следующие большие файлы языковых моделей:
+<ul>
+<li>Для чистого FP32-инференции (т.е. с использованием файла run.c) используется модель с параметрами размером 15M, предоставленная в репозитории Baby LLama 2 (чистая FP32-модель).</li>
+<li>Ее sha256sum: cd590644d963867a2b6e5a1107f51fad663c41d79c149fbecbbb1f95fa81f49a</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>Оценка корректности: Поскольку выходной сигнал фиксирован для фиксированного входного параметра (определение случайного числа), комиссия сравнит его с выходом бинарного файла run.c, сгенерированного по условию 4, и если есть расхождение, оно будет оценено обычным человеческим синтаксисом, при этом за правильный синтаксис баллы не снимаются, а за неправильный снимаются, процент снятия баллов будет определен.</li>
+<li>оценка работы: каждая работа будет выполнена 30 раз, и после удаления самых высоких и самых низких оценок с существенными различиями будет зафиксировано среднее значение.</li>
+<li>Если функция преобразования текста в речь (TTS) выполнена, дополнительные баллы будут начисляться в зависимости от степени реализации, процентное соотношение будет определено дополнительно.</li>
+<li>Окончательные результаты будут представлены с подробным объяснением каждого пункта.</li>
+<li>**В зависимости от фактического хода оптимизации конкурсных вопросов, по ходу конкурса могут быть внесены корректировки по неучтенным аспектам, поэтому следите за сайтом конкурса, а окончательное право интерпретации будет принадлежать комиссии по оценке конкурсных вопросов. **</li>
+</ol>
+<h2 id="описание-прав-интеллектуальной-собственности-и-соглашений-с-открытым-исходным-кодом"><span class="hline"><a href="#описание-прав-интеллектуальной-собственности-и-соглашений-с-открытым-исходным-кодом" class="hanchor"></a>Описание прав интеллектуальной собственности и соглашений с открытым исходным кодом:</span></h2>
+<p>Все результаты конкурса должны быть с открытым исходным кодом и опубликуется по указанному репозитория организатора. Право собственности на работу принадлежит участнику (автору). Организатор призывает участников внести код обратно в сообщество апстрима.</p>
+<h2 id="resourcesна-китайском"><span class="hline"><a href="#resourcesна-китайском" class="hanchor"></a>Resources(на китайском)</span></h2>
+<ul>
+<li>Live Replay &amp; Documents (Chinese)： <a href="https://github.com/plctlab/rvspoc/tree/main/archives/2023/Docs/S2311">plctlab/rvspoc:archives/2023/Docs/S2311</a></li>
+</ul>
+
+        </div><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+        
+        </div>
+      </div><aside id="toc" class="f6">
+        <div class="">
+          <p class="f5 b mb3">Оглавление</p>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#описание-задачи">Описание задачи:</a></li>
+    <li><a href="#требования">Требования:</a></li>
+    <li><a href="#инструкции-по-подаче-материалов">Инструкции по подаче материалов</a></li>
+    <li><a href="#инструкции-по-приему">Инструкции по приему</a></li>
+    <li><a href="#описание-прав-интеллектуальной-собственности-и-соглашений-с-открытым-исходным-кодом">Описание прав интеллектуальной собственности и соглашений с открытым исходным кодом:</a></li>
+    <li><a href="#resourcesна-китайском">Resources(на китайском)</a></li>
+  </ul>
+</nav>
+        </div>
+      </aside></div>
+
+
+  </article>
+
+    </main>
+    <footer class="bg-orange bottom-0 w-100 pa3 f6" role="contentinfo">
+  <div class="justify-between">
+    <div>
+      <span id="copyright">&copy; 2023 RVSPOC</span>
+      <span id="cc-license">
+      Если не указано иное, контент на этом сайте лицензируется по лицензии 
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license</a>
+      .
+      </span>
+      <div id="email">Электронная почта: <a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a></div>
+    </div>
+    
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+  </div>
+</footer>
+
+    <script>
+  function getDismissedBanners() {
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      return JSON.parse(dismissedBannersRaw);
+    } else {
+      return [];
+    }
+  }
+
+  function pushDismissedBanner(dismissedBanner) {
+    let dismissedBanners;
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      dismissedBanners = JSON.parse(dismissedBannersRaw);
+    } else {
+      dismissedBanners = [];
+    }
+    for (const oldDismissedBanner of dismissedBanners) {
+      if (oldDismissedBanner == dismissedBanner) {
+        return;
+      }
+    }
+    dismissedBanners.push(dismissedBanner);
+    dismissedBannersRaw = JSON.stringify(dismissedBanners);
+    localStorage.setItem('dismissedBanners', dismissedBannersRaw);
+  }
+
+  function prepareBanners() {
+    let banners = document.querySelectorAll('body div#banners ul li');
+    let dismissedBanners = getDismissedBanners();
+    for (const banner of banners) {
+      let bannerDismissed = false;
+      for (const dismissedBanner of dismissedBanners) {
+        if (dismissedBanner == banner.id) {
+          bannerDismissed = true;
+          break;
+        }
+      }
+      if (!bannerDismissed) {
+        banner.classList.remove('dismissed');
+      }
+    }
+  }
+
+  function registerCloseEventForBanner() {
+    let closeButtons = document.querySelectorAll('body div#banners ul li a.close');
+    for (const closeButton of closeButtons) {
+      const bannerId = closeButton.getAttribute('data-banner-id');
+      closeButton.addEventListener("click", function(e){
+        pushDismissedBanner(bannerId);
+        const theBanner = document.querySelector('body div#banners ul li#' + bannerId);
+        theBanner.classList.add('dismissed');
+      });
+    }
+  }
+
+  window.addEventListener("DOMContentLoaded", function() {
+    prepareBanners();
+    registerCloseEventForBanner();
+  });
+</script>
+
+  </body>
+</html>

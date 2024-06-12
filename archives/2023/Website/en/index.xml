@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RISC-V Software Porting and Optimization Championship</title>
+    <link>https://rvspoc.org/2023/en/</link>
+    <description>Recent content on RISC-V Software Porting and Optimization Championship</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 28 Dec 2023 15:09:10 +0800</lastBuildDate>
+    <atom:link href="https://rvspoc.org/2023/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streaming ASR Porting and Optimization for SG2002</title>
+      <link>https://rvspoc.org/2023/en/s2312/</link>
+      <pubDate>Thu, 28 Dec 2023 15:09:10 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/s2312/</guid>
+      <description>Natural voice interaction is an important form of human-machine interfacing. However, as high-precision ASR models are computationally intensive, these computation projects are usually run on the cloud, worsening the experience. This challenge aims to port high-precision streaming ASR to Sophgo&amp;rsquo;s SG2002 processor. You may choose between Chinese and English models. The goal is to achieve minimum word error rate whilst running on limited RAM (256MBytes) and a rate of RTF&amp;lt;1. You may reference Kaldi, Wenet, and other open source speech recognition projects for your port.</description>
+    </item>
+    <item>
+      <title>Xv6 Porting and Demo</title>
+      <link>https://rvspoc.org/2023/en/p2308/</link>
+      <pubDate>Fri, 01 Dec 2023 08:10:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/p2308/</guid>
+      <description>Port Xv6 to Milk-V Duo, with the ability to interact via serial connection, support for basic peripherals, and the ability to compile sample system and peripheral applications.</description>
+    </item>
+    <item>
+      <title>Zephyr Porting and Demo</title>
+      <link>https://rvspoc.org/2023/en/p2307/</link>
+      <pubDate>Fri, 01 Dec 2023 08:09:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/p2307/</guid>
+      <description>Port Zephyr to Milk-V Duo, with the ability to interact via serial connection, support for basic peripherals, and the ability to compile sample system and peripheral applications.</description>
+    </item>
+    <item>
+      <title>OpenGauss Database Porting and Optimization</title>
+      <link>https://rvspoc.org/2023/en/s2305/</link>
+      <pubDate>Fri, 01 Dec 2023 08:08:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/s2305/</guid>
+      <description>Port OpenGauss to SG2042/Pioneer Box (openEuler recommended, but any Linux distribution is allowed), optimise benchmark results as much as possible.</description>
+    </item>
+    <item>
+      <title>Binary Translation and Optimization</title>
+      <link>https://rvspoc.org/2023/en/s2302/</link>
+      <pubDate>Fri, 01 Dec 2023 08:07:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/s2302/</guid>
+      <description>Using an SG2042/Pioneer Box, run x86 or ARM64 applications using Qemu-like emulators or translators. You may need to implement support for runing Windows applications via Wine. The goal of this challenge is to optimise binary translation performance as much as possible.</description>
+    </item>
+    <item>
+      <title>OpenHarmony Port and Demonstration on SG2042</title>
+      <link>https://rvspoc.org/2023/en/p2301/</link>
+      <pubDate>Fri, 01 Dec 2023 08:06:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/p2301/</guid>
+      <description>Port OpenHarmony to SG2042/Pioneer Box with its graphical environment, along with the ability to browse the Web and perform productivity tasks.</description>
+    </item>
+    <item>
+      <title>Baby LLaMA 2 Optimization for Duo (Kids Book Read Aloud)</title>
+      <link>https://rvspoc.org/2023/en/s2311/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/s2311/</guid>
+      <description>It is a feat to get Baby LLaMA 2 running on small development boards like the Milk-V Duo. This challenge aims to improve Baby LLaMA 2 performance on Milk-V Duo, as assessed by tokens processed per second. The participant will make use of lightweight techniques and compiler optimization principles to develop a story-telling robot with support for microphone and command-line input. The demo should output robotic voice via speakers.</description>
+    </item>
+    <item>
+      <title>Chinese Domestic GPU Platform Porting and Demo</title>
+      <link>https://rvspoc.org/2023/en/p2304/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/p2304/</guid>
+      <description>Run Linux distribution with GNOME/KDE desktops, OpenGL 3D benchmarks, video playback, and 2D/3D games on a combination of SG2042/Pioneer Box + an arbitrary (host sanctioned) Chinese domestic GPU.</description>
+    </item>
+    <item>
+      <title>ncnn Porting and Optimization</title>
+      <link>https://rvspoc.org/2023/en/s2310/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/s2310/</guid>
+      <description>ncnn is a high-performance neural network compute framework with good RISC-V support. This challenge assesses the participant&amp;rsquo;s ability to maximise ncnn performance on a Duo, as benchmarked by its internal performance testsuites.</description>
+    </item>
+    <item>
+      <title>Node.js Performance Optimization</title>
+      <link>https://rvspoc.org/2023/en/s2306/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/s2306/</guid>
+      <description>Implement bugfixes and optimization on upstream Node.js for RISC-V, as well as platform-specific optimizations for SG2042/Pioneer Box, optimising benchmark results as much as possible.</description>
+    </item>
+    <item>
+      <title>OpenCV Optimization for Duo</title>
+      <link>https://rvspoc.org/2023/en/s2309/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/s2309/</guid>
+      <description>Improve OpenCV performance on Milk-V Duo. The participant must port OpenCV to the Milk-V Duo platform, optimising its performance. The assessment rubrics will focus on both accuracy and performance: accuracy will be benchmarked using OpenCV&amp;rsquo;s regression testsuites (build/bin/opencv_test_&lt;em&gt;); performance will be assessed using OpenCV&amp;rsquo;s performance testsuites (build/bin/opencv_perf_&lt;/em&gt;). The host will judge based on both the pass rates of regression testsuites and performance metrics and assign scores to each submission based on a predetermined weighted scale.</description>
+    </item>
+    <item>
+      <title>ROCm Porting with AMD GPU Compatibility</title>
+      <link>https://rvspoc.org/2023/en/p2303/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/p2303/</guid>
+      <description>ROCm is an open source compute framework from AMD, which is an NVIDIA&amp;rsquo;s CUDA competitor. This challenge asks the participant to port ROCm to an arbitrary SG2042/Pioneer Box + AMD GPU platform, making it possible to perform high-performance heterogenous computing on RISC-V hardware with a combination of open source hardware and software.</description>
+    </item>
+    <item>
+      <title>Preparation for the Inaugural “RISC-V Software Porting and Optimization Championship” Officially Launched</title>
+      <link>https://rvspoc.org/2023/en/00/</link>
+      <pubDate>Sat, 28 Oct 2023 00:28:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/00/</guid>
+      <description>To date, billions of RISC-V devices has already been deployed in the MCU/IoT realms and is poised to challenge established players in the desktop computing, HPC, AI, and database markets. Compared to the embedded and IoT software ecosystem, the world of desktops and servers boast a vast software ecosystem demands considerable porting and optimization efforts.</description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>https://rvspoc.org/2023/en/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rvspoc.org/2023/en/faq/</guid>
+      <description>Once a team/individual has registered, how many competitions can they take part in? Answer: You can enter all competitions with no maximum number of entries once you have registered.
+Will the Organising Committee provide equipment for this championship? In what form? Answer:
+CV1800B/Milk-V Duo equipment needs to be prepared by yourself; The SG2042/Pioneer Box will be available as an SSH connection before December 31, 2023, please pay attention to the announcement for details.</description>
+    </item>
+    <item>
+      <title>Introduction to Challenges</title>
+      <link>https://rvspoc.org/2023/en/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rvspoc.org/2023/en/introduction/</guid>
+      <description>Background The RISC-V Software Porting and Optimization Championship is jointly hosted by the PLCT Lab and SOPHGO. Today, RISC-V enjoys a sizeable open source software ecosystem with adequate functionalities, but it lacks optimisation as compared to x86 and ARM64. To help attract developers to the RISC-V ecosystem and to accelerate the advancement of its software ecosystem, the PLCT Lab and SOPHGO jointly launched the &amp;ldquo;RISC-V Software Porting and Optimization Championship.&amp;rdquo; This championship sets its focus on desktop and server software ecosystems, designing competitive categories for compilers, runtime environments, AI software stacks, etc.</description>
+    </item>
+    <item>
+      <title>List of Permitted Chinese Domestic GPUs</title>
+      <link>https://rvspoc.org/2023/en/cn-domestic-gpu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rvspoc.org/2023/en/cn-domestic-gpu/</guid>
+      <description>The following is a list of Chinese Domestic GPUs that will be used in this championship. GPUs allowed in P2304: Chinese Domestic GPU Platform Porting and Demo are listed as follows.
+Vendor Model Link Comment Moore Threads（摩尔线程） S30, S80 etc. https://www.mthreads.com/product/S10https://www.mthreads.com/product/S80 You may use any GPU models from this vendor. Sietium（芯瞳） GenBu01 https://www.sietium.com/index.php?m=content&amp;amp;c=index&amp;amp;a=show&amp;amp;catid=27&amp;amp;id=1 JingJiaMicro（景嘉微） JM7200, JM7201, JM9100, JM9200 JM7200: TBAJM7201: https://www.jemoic.com/products_6/382.htmlJM9100: https://www.jemoic.com/products_6/381.htmlJM9200: https://www.jemoic.com/products_6/569.html LinJoWing（凌久） GP101, GP102 GP101: http://www.ljmicro.cn/productInfo.html?id=26GP102: http://www.ljmicro.cn/productInfo.html?id=25 Glenfly Tech（格兰菲） Arise 1020 TBA The RVSPOC Organizing Committee reserves all rights to the final interpretation of the above list.</description>
+    </item>
+  </channel>
+</rss>

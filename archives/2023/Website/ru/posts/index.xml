@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Новости on Чемпионат по портированию и оптимизации программного обеспечения RISC-V</title>
+    <link>https://rvspoc.org/2023/ru/posts/</link>
+    <description>Recent content in Новости on Чемпионат по портированию и оптимизации программного обеспечения RISC-V</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Sat, 28 Oct 2023 00:28:09 +0800</lastBuildDate>
+    <atom:link href="https://rvspoc.org/2023/ru/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Официально начата подготовка к первому «Чемпионату по портированию и оптимизации программного обеспечения RISC-V», приглашаются спонсоры!</title>
+      <link>https://rvspoc.org/2023/ru/00/</link>
+      <pubDate>Sat, 28 Oct 2023 00:28:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ru/00/</guid>
+      <description>RISC-V уже имеет миллиардные поставки в таких областях, как MCU/IoT, и стремится к большим вычислительным мощностям в таких областях, как настольные вычисления, высокопроизводительные вычисления, искусственный интеллект и центры обработки данных. По сравнению с экосистемой программного обеспечения для встраиваемых систем и IoT, богатство экосистемы программного обеспечения для настольных систем и серверов и объем работ, необходимых для портирования и оптимизации, огромны.</description>
+    </item>
+  </channel>
+</rss>

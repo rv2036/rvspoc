@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ko-KR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>도전 | RISC-V 소프트웨어포팅및최적화챔피언십</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="">
+    <meta name="generator" content="Hugo 0.120.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/2023/ananke/css/main.min.css" >
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+    
+      
+
+    
+
+    
+    
+      <link href="/2023/ko/challenges/index.xml" rel="alternate" type="application/rss+xml" title="RISC-V 소프트웨어포팅및최적화챔피언십" />
+      <link href="/2023/ko/challenges/index.xml" rel="feed" type="application/rss+xml" title="RISC-V 소프트웨어포팅및최적화챔피언십" />
+      
+    
+
+    
+      <link rel="canonical" href="https://rvspoc.org/2023/ko/challenges/">
+    
+
+    <meta property="og:title" content="도전" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://rvspoc.org/2023/ko/challenges/" />
+
+<meta itemprop="name" content="도전">
+<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="도전"/>
+<meta name="twitter:description" content=""/>
+
+	
+  </head>
+
+  
+  <body class="ma0 section-challenges sans-serif">
+
+
+    
+
+    
+
+  <header>
+    <div class="pb3-m pb6-l bg-orange">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    
+      
+    <a href="/2023/ko/" class="f3 fw3 no-underline dib">
+        RISC-V 소프트웨어포팅및최적화챔피언십
+    </a>
+      
+    
+    <div class="flex items-center nav-right">
+      
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/challenges/">简体中文</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/en/challenges/">English</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ru/challenges/">Русский</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ja/challenges/">日本語</a>
+    </li>
+    
+</ul>
+
+
+      
+      <ul class="pl0 mr3">
+        
+        <li class="list f5 f5-ns fw4 dib pr3">
+          <a class="no-underline nav-link" href="/2023/ko/faq/" title="FAQ 页">
+            FAQ
+          </a>
+        </li>
+        
+      </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw3 light-silver mb0 lh-title">
+          도전
+        </h1>
+        
+      </div>
+      
+      
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <article class='in-section sans-serif fw3 cjk'>
+    <div class="f7 center ph3 measure-wide lh-copy"><p>챌린지 S2312는 SG2002에서 확인이 필요하지만, 다른 모든 대회 주제의 제출 결과는 다음의 RISC-V 하드웨어 환경에서 검증해야 합니다. 각 과제에서는 적어도 하나를 지정해야 합니다:</p>
+<ul>
+<li>SG2042/Pioneer Box (SG2042로 약칭)</li>
+<li>CV1800B/Milk-V Duo (Duo로 약칭)</li>
+</ul>
+<p><a href="/ko/introduction/">내용은 여기</a></p>
+<p>부담없이 이메일로 당사 직원에게 연락해 주시기 바랍니다: <a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a></p>
+</div>
+  </article>
+
+  <article class='pa3 pa4-ns mw8 center challenges sans-serif fw3 cjk'>
+    <section class="mt3">
+      <ul>
+      
+        <li id="S2312">
+          <div class="title f5 fw4">
+            <h1><a href="#S2312" class="anchor"></a><a href="/2023/ko/s2312/"><span class="cid">S2312</span><span>SG2002에서의 스트리밍 ASR 이식 최적화</span></a></h1>
+          </div>
+          <div class="summary">
+            <p><span>요약:</span>자연어 음성 대화는 인간과 컴퓨터 간의 중요한 상호 작용 형태 중 하나입니다. 그러나 고정밀 ASR 모델의 계산량이 방대하기 때문에, 일반적으로 ASR은 클라우드에서 실행되며 이로 인해 인간과 컴퓨터 간의 상호 작용 체험이 저하됩니다. 이번 경연 대회에서는 SG2002 프로세서 상에서 고정밀 스트리밍 ASR을 이식하는 것을 목표로 하며, 중국어 또는 영어 ASR 인식 모델을 선택할 수 있습니다. 목표는 제한된 메모리(256MB)와 실시간 스트리밍 인식(RTF &lt; 1) 요구 사항 하에서 가능한 한 낮은 WER을 달성하는 것입니다. 참가자들은 새로운 세대의 Kaldi, Wenet 등 오픈소스 음성 인식 프로젝트를 참조하여 이식할 수 있습니다.</p>
+          </div>
+          <div class="meta mid-gray lh-copy flex">
+            <div><span>어워드:</span><span class="award">CN¥15000</span></div>
+            <div><a href="/2023/ko/s2312/" class="details">상세 정보</a></div>
+            
+          </div>
+        </li>
+      
+        <li id="P2308">
+          <div class="title f5 fw4">
+            <h1><a href="#P2308" class="anchor"></a><a href="/2023/ko/p2308/"><span class="cid">P2308</span><span>Xv6의 이식 및 데모스트레이션</span></a></h1>
+          </div>
+          <div class="summary">
+            <p><span>요약:</span>이 프로젝트에서는 Xv6를 Milk-V Duo에 이식하고, 시리얼 포트를 통한 상호 작용을 가능하게 하며, 기본적인 주변장치 사용을 완료하고, 시스템 및 주변장치의 테스트 예제를 컴파일하고 실행하는 것이 요구됩니다.</p>
+          </div>
+          <div class="meta mid-gray lh-copy flex">
+            <div><span>어워드:</span><span class="award">CN¥20000</span></div>
+            <div><a href="/2023/ko/p2308/" class="details">상세 정보</a></div>
+            
+          </div>
+        </li>
+      
+        <li id="P2307">
+          <div class="title f5 fw4">
+            <h1><a href="#P2307" class="anchor"></a><a href="/2023/ko/p2307/"><span class="cid">P2307</span><span>Zephyr의 이식 및 데모스트레이션</span></a></h1>
+          </div>
+          <div class="summary">
+            <p><span>요약:</span>이 프로젝트에서는 Zephyr를 Milk-V Duo에 이식하고, 시리얼 포트를 통한 상호 작용을 가능하게 하며, 기본적인 주변장치 사용을 완료하고, 시스템 및 주변장치의 테스트 예제를 컴파일하고 실행하는 것이 요구됩니다.</p>
+          </div>
+          <div class="meta mid-gray lh-copy flex">
+            <div><span>어워드:</span><span class="award">CN¥10000</span></div>
+            <div><a href="/2023/ko/p2307/" class="details">상세 정보</a></div>
+            
+          </div>
+        </li>
+      
+        <li id="S2305">
+          <div class="title f5 fw4">
+            <h1><a href="#S2305" class="anchor"></a><a href="/2023/ko/s2305/"><span class="cid">S2305</span><span>OpenGauss 데이터베이스의 이식 및 최적화</span></a></h1>
+          </div>
+          <div class="summary">
+            <p><span>요약:</span>SG2042/Pioneer Box에서 OpenGauss를 실행합니다(운영 체제로는 openEuler가 권장되지만, 임의의 Linux 배포판 사용 가능). 관련 벤치마크 점수를 가능한 한 높게 합니다.</p>
+          </div>
+          <div class="meta mid-gray lh-copy flex">
+            <div><span>어워드:</span><span class="award">CN¥20000</span></div>
+            <div><a href="/2023/ko/s2305/" class="details">상세 정보</a></div>
+            
+          </div>
+        </li>
+      
+        <li id="S2302">
+          <div class="title f5 fw4">
+            <h1><a href="#S2302" class="anchor"></a><a href="/2023/ko/s2302/"><span class="cid">S2302</span><span>바이너리 번역 및 최적화</span></a></h1>
+          </div>
+          <div class="summary">
+            <p><span>요약:</span>SG2042/Pioneer Box에서 QEMU와 같은 에뮬레이터나 번역 도구를 사용하여 x86 또는 ARM64 프로그램을 실행합니다. Windows 프로그램 실행에는 Wine이나 유사 도구에 능숙해야 할 수도 있습니다. 이 과제의 목표는 번역 효율성을 가능한 한 높이는 것입니다.</p>
+          </div>
+          <div class="meta mid-gray lh-copy flex">
+            <div><span>어워드:</span><span class="award">CN¥20000</span></div>
+            <div><a href="/2023/ko/s2302/" class="details">상세 정보</a></div>
+            
+          </div>
+        </li>
+      
+        <li id="P2301">
+          <div class="title f5 fw4">
+            <h1><a href="#P2301" class="anchor"></a><a href="/2023/ko/p2301/"><span class="cid">P2301</span><span>SG2042에서 OpenHarmony 이식 및 데모스트레이션</span></a></h1>
+          </div>
+          <div class="summary">
+            <p><span>요약:</span>이 프로젝트에서는 OpenHarmony를 SG2042/Pioneer Box에 이식하고, 그래픽 인터페이스를 시작하여 기본적인 인터넷 브라우징, 오피스 작업 등을 수행할 수 있어야 합니다.</p>
+          </div>
+          <div class="meta mid-gray lh-copy flex">
+            <div><span>어워드:</span><span class="award">CN¥20000</span></div>
+            <div><a href="/2023/ko/p2301/" class="details">상세 정보</a></div>
+            
+          </div>
+        </li>
+      
+        <li id="S2311">
+          <div class="title f5 fw4">
+            <h1><a href="#S2311" class="anchor"></a><a href="/2023/ko/s2311/"><span class="cid">S2311</span><span>Duo에서 Baby LLaMA 2의 속도 최적화 (어린이용 이야기 시나리오)</span></a></h1>
+          </div>
+          <div class="summary">
+            <p><span>요약:</span>Milk-V Duo와 같은 작은 보드에서 Baby LLaMA 2를 실행하는 것은 큰 도전입니다. 이 대회의 목적은 Milk-V Duo 플랫폼에서 Baby LLaMA 2의 성능을 향상시키는 것이며, 목표는 초당 토큰 처리 속도를 높이는 것입니다. 참가자들은 경량 기술과 컴파일러 최적화 전략을 활용하여, 마이크로폰의 음성 입력이나 커맨드 라인 입력 프롬프트 등 다양한 방법을 결합하여 이야기를 들려주는 로봇의 데모를 개발해야 합니다. 이 데모는 스피커를 통해 출력되며, 샤오미 미토 이야기 로봇의 프로토타입 디자인을 참조할 수 있습니다.</p>
+          </div>
+          <div class="meta mid-gray lh-copy flex">
+            <div><span>어워드:</span><span class="award">CN¥20000</span></div>
+            <div><a href="/2023/ko/s2311/" class="details">상세 정보</a></div>
+            
+          </div>
+        </li>
+      
+        <li id="S2309">
+          <div class="title f5 fw4">
+            <h1><a href="#S2309" class="anchor"></a><a href="/2023/ko/s2309/"><span class="cid">S2309</span><span>Duo에서 OpenCV의 속도 최적화</span></a></h1>
+          </div>
+          <div class="summary">
+            <p><span>요약:</span>이 대회는 Milk-V Duo 플랫폼에서 OpenCV의 성능을 향상시키는 것을 목표로 합니다. 참가자는 Milk-V Duo 플랫폼에 OpenCV 라이브러리를 이식하고, 그 성능을 가능한 한 높여야 합니다. 평가 기준은 정확성과 성능의 두 가지 측면에 초점을 맞춥니다: 정확성은 OpenCV의 각 모듈의 회귀 테스트(build/bin/opencv_test_*)로 평가하고, 성능은 OpenCV의 각 모듈의 성능 테스트(build/bin/opencv_perf_*)로 평가합니다. 최종적으로, 위원회는 참가 작품의 회귀 테스트 통과율과 성능 데이터를 기반으로 평가하고, 두 가지는 사전에 설정된 가중치 비율에 따라 최종 점수를 계산하여, 최고 점수를 얻은 참가자가 승자가 됩니다.</p>
+          </div>
+          <div class="meta mid-gray lh-copy flex">
+            <div><span>어워드:</span><span class="award">CN¥15000</span></div>
+            <div><a href="/2023/ko/s2309/" class="details">상세 정보</a></div>
+            
+          </div>
+        </li>
+      
+        <li id="S2310">
+          <div class="title f5 fw4">
+            <h1><a href="#S2310" class="anchor"></a><a href="/2023/ko/s2310/"><span class="cid">S2310</span><span>ncnn의 이식 및 최적화</span></a></h1>
+          </div>
+          <div class="summary">
+            <p><span>요약:</span>ncnn은 매우 우수한 고성능 신경망 계산 프레임워크이며, RISC-V에 대한 지원도 좋습니다. 이 프로젝트에서는 upstream 기반 위에서, Duo의 계산 리소스를 최대한 활용하여 ncnn이 가진 성능 테스트 세트의 점수를 향상시키는 것이 요구됩니다.</p>
+          </div>
+          <div class="meta mid-gray lh-copy flex">
+            <div><span>어워드:</span><span class="award">CN¥15000</span></div>
+            <div><a href="/2023/ko/s2310/" class="details">상세 정보</a></div>
+            
+          </div>
+        </li>
+      
+        <li id="S2306">
+          <div class="title f5 fw4">
+            <h1><a href="#S2306" class="anchor"></a><a href="/2023/ko/s2306/"><span class="cid">S2306</span><span>Node.js의 성능 최적화</span></a></h1>
+          </div>
+          <div class="summary">
+            <p><span>요약:</span>Node.js의 공식 RISC-V 버전을 기반으로, 버그를 수정하고 안정성을 향상시키면서, SG2042/Pioneer Box 하드웨어에서의 최적화를 수행하고, 관련 벤치마크 점수를 가능한 한 높입니다.</p>
+          </div>
+          <div class="meta mid-gray lh-copy flex">
+            <div><span>어워드:</span><span class="award">CN¥20000</span></div>
+            <div><a href="/2023/ko/s2306/" class="details">상세 정보</a></div>
+            
+          </div>
+        </li>
+      
+        <li id="P2303">
+          <div class="title f5 fw4">
+            <h1><a href="#P2303" class="anchor"></a><a href="/2023/ko/p2303/"><span class="cid">P2303</span><span>ROCm 플랫폼의 이식 및 AMD GPU와의 호환성</span></a></h1>
+          </div>
+          <div class="summary">
+            <p><span>요약:</span>ROCm은 AMD가 CUDA에 대항하여 개발한 오픈 소스 계산 프레임워크입니다. 이 프로젝트는 SG2042/Pioneer Box와 함께 임의의 AMD GPU에서 ROCm 프레임워크를 이식하고, RISC-V 기반 이종 컴퓨팅을 실천하며, 오픈 소스 소프트웨어 및 하드웨어의 조합으로 고성능 계산 솔루션을 실현하는 것을 목표로 합니다.</p>
+          </div>
+          <div class="meta mid-gray lh-copy flex">
+            <div><span>어워드:</span><span class="award">CN¥20000</span></div>
+            <div><a href="/2023/ko/p2303/" class="details">상세 정보</a></div>
+            
+          </div>
+        </li>
+      
+        <li id="P2304">
+          <div class="title f5 fw4">
+            <h1><a href="#P2304" class="anchor"></a><a href="/2023/ko/p2304/"><span class="cid">P2304</span><span>중국산 GPU 플랫폼의 이식 및 데모스트레이션</span></a></h1>
+          </div>
+          <div class="summary">
+            <p><span>요약:</span>SG2042/Pioneer Box와 더불어, (주최자가 리스트업한) 임의의 중국산 GPU를 사용하여 Linux 배포판을 실행하고 GNOME/KDE 등의 그래픽 인터페이스를 활성화하며, OpenGL 기반의 3D 벤치마크 테스트 프로그램을 정상적으로 실행하고, 비디오를 재생하며, 오픈 소스 2D/3D 게임을 작동시키는 것이 요구됩니다.</p>
+          </div>
+          <div class="meta mid-gray lh-copy flex">
+            <div><span>어워드:</span><span class="award">CN¥15000</span></div>
+            <div><a href="/2023/ko/p2304/" class="details">상세 정보</a></div>
+            
+          </div>
+        </li>
+      
+      </ul>
+    </section>
+    <section class="pager-info f7">
+      
+      
+      
+      
+      
+      
+      <span class='element-start'>1</span>-<span class='element-end'>12</span>/<span class='total-elements'>12</span>
+    </section>
+    <ul class="pagination pagination-custom">
+        <li class="page-item active">
+          <a aria-current="page" aria-label="Page 1" class="page-link" role="button"><span>1</span></a>
+        </li>
+    </ul>
+  </article>
+
+    </main>
+    <footer class="bg-orange bottom-0 w-100 pa3 f6" role="contentinfo">
+  <div class="justify-between">
+    <div>
+      <span id="copyright">&copy; 2023 RVSPOC</span>
+      <span id="cc-license">
+      특별한 언급이 없는 한, 이 사이트는 다음 라이선스로 제공됩니다:
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">크리에이티브 커먼즈 저작자표시-비영리-동일조건변경허락 4.0 국제 라이선스</a>
+      .
+      </span>
+      <div id="email">전자우편: <a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a></div>
+    </div>
+    
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+  </div>
+</footer>
+
+    <script>
+  function getDismissedBanners() {
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      return JSON.parse(dismissedBannersRaw);
+    } else {
+      return [];
+    }
+  }
+
+  function pushDismissedBanner(dismissedBanner) {
+    let dismissedBanners;
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      dismissedBanners = JSON.parse(dismissedBannersRaw);
+    } else {
+      dismissedBanners = [];
+    }
+    for (const oldDismissedBanner of dismissedBanners) {
+      if (oldDismissedBanner == dismissedBanner) {
+        return;
+      }
+    }
+    dismissedBanners.push(dismissedBanner);
+    dismissedBannersRaw = JSON.stringify(dismissedBanners);
+    localStorage.setItem('dismissedBanners', dismissedBannersRaw);
+  }
+
+  function prepareBanners() {
+    let banners = document.querySelectorAll('body div#banners ul li');
+    let dismissedBanners = getDismissedBanners();
+    for (const banner of banners) {
+      let bannerDismissed = false;
+      for (const dismissedBanner of dismissedBanners) {
+        if (dismissedBanner == banner.id) {
+          bannerDismissed = true;
+          break;
+        }
+      }
+      if (!bannerDismissed) {
+        banner.classList.remove('dismissed');
+      }
+    }
+  }
+
+  function registerCloseEventForBanner() {
+    let closeButtons = document.querySelectorAll('body div#banners ul li a.close');
+    for (const closeButton of closeButtons) {
+      const bannerId = closeButton.getAttribute('data-banner-id');
+      closeButton.addEventListener("click", function(e){
+        pushDismissedBanner(bannerId);
+        const theBanner = document.querySelector('body div#banners ul li#' + bannerId);
+        theBanner.classList.add('dismissed');
+      });
+    }
+  }
+
+  window.addEventListener("DOMContentLoaded", function() {
+    prepareBanners();
+    registerCloseEventForBanner();
+  });
+</script>
+
+  </body>
+</html>

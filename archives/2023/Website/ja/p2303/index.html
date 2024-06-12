@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ja-JP" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>
+  
+    索引 P2303 | ROCmプラットフォームの移植およびAMD GPUとの互換性 | RISC-V ソフトウェアの移植と最適化チャンピオンシップ
+  
+</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="ROCmは、AMDがCUDAに対抗して開発したオープンソースの計算フレームワークです。本プロジェクトは、SG2042/Pioneer Boxに加えて任意のAMD GPU上でROCmフレームワークを移植し、RISC-Vに基づくヘテロジニアスコンピューティングを実践し、オープンソースのソフトウェアとハードウェアの組み合わせによる高性能計算ソリューションを実現することを目的としています。">
+    <meta name="generator" content="Hugo 0.120.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/2023/ananke/css/main.min.css" >
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://rvspoc.org/2023/ja/p2303/">
+    
+
+    <meta property="og:title" content="ROCmプラットフォームの移植およびAMD GPUとの互換性" />
+<meta property="og:description" content="ROCmは、AMDがCUDAに対抗して開発したオープンソースの計算フレームワークです。本プロジェクトは、SG2042/Pioneer Boxに加えて任意のAMD GPU上でROCmフレームワークを移植し、RISC-Vに基づくヘテロジニアスコンピューティングを実践し、オープンソースのソフトウェアとハードウェアの組み合わせによる高性能計算ソリューションを実現することを目的としています。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rvspoc.org/2023/ja/p2303/" /><meta property="article:section" content="challenges" />
+<meta property="article:published_time" content="2023-11-27T19:57:09+08:00" />
+<meta property="article:modified_time" content="2023-11-27T19:57:09+08:00" />
+
+<meta itemprop="name" content="ROCmプラットフォームの移植およびAMD GPUとの互換性">
+<meta itemprop="description" content="ROCmは、AMDがCUDAに対抗して開発したオープンソースの計算フレームワークです。本プロジェクトは、SG2042/Pioneer Boxに加えて任意のAMD GPU上でROCmフレームワークを移植し、RISC-Vに基づくヘテロジニアスコンピューティングを実践し、オープンソースのソフトウェアとハードウェアの組み合わせによる高性能計算ソリューションを実現することを目的としています。"><meta itemprop="datePublished" content="2023-11-27T19:57:09+08:00" />
+<meta itemprop="dateModified" content="2023-11-27T19:57:09+08:00" />
+<meta itemprop="wordCount" content="1058">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ROCmプラットフォームの移植およびAMD GPUとの互換性"/>
+<meta name="twitter:description" content="ROCmは、AMDがCUDAに対抗して開発したオープンソースの計算フレームワークです。本プロジェクトは、SG2042/Pioneer Boxに加えて任意のAMD GPU上でROCmフレームワークを移植し、RISC-Vに基づくヘテロジニアスコンピューティングを実践し、オープンソースのソフトウェアとハードウェアの組み合わせによる高性能計算ソリューションを実現することを目的としています。"/>
+
+	
+  </head>
+
+  
+  
+  <body class="ma0 section-challenges sans-serif">
+  
+
+
+    
+
+    
+   
+  
+
+  <header>
+    <div class="bg-orange">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    
+      
+    <a href="/2023/ja/" class="f3 fw3 no-underline dib">
+        RISC-V ソフトウェアの移植と最適化チャンピオンシップ
+    </a>
+      
+    
+    <div class="flex items-center nav-right">
+      
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/p2303/">简体中文</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/en/p2303/">English</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ru/p2303/">Русский</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ko/p2303/">한국어</a>
+    </li>
+    
+</ul>
+
+
+      
+      <ul class="pl0 mr3">
+        
+        <li class="list f5 f5-ns fw4 dib pr3">
+          <a class="no-underline nav-link" href="/2023/ja/faq/" title="FAQ ページ">
+            FAQ
+          </a>
+        </li>
+        
+      </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+    
+  <article class='justify-between mw8 center ph3 challenge cjk'>
+    <nav class="f7"><a href='/2023/ja/'>ホーム</a><span>/</span><a href='/2023/ja/challenges/'>チャレンジ</a></nav>
+    
+    <header class="mt4 w-100">
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 mt3 mb1">ROCmプラットフォームの移植およびAMD GPUとの互換性</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    
+    <div id="challenges-meta" class="mid-gray lh-copy">
+      <div><span>索引:</span><span>P2303</span></div>
+      <div><span>アワード:</span><span>20000<span class="currency">中国元</span></span></div>
+      
+    </div>
+    
+    <div id="article-body">
+      <div class="nested-copy-line-height lh-copy  f4 nested-links mid-gray"><div>
+          <h2 id="プロジェクトの説明"><span class="hline"><a href="#プロジェクトの説明" class="hanchor"></a>プロジェクトの説明：</span></h2>
+<p>ROCmは、AMDがCUDAに対抗して開発したオープンソースの計算フレームワークです。本プロジェクトは、SG2042/Pioneer Boxに加えて任意のAMD GPU上でROCmフレームワークを移植し、RISC-Vに基づくヘテロジニアスコンピューティングを実践し、オープンソースのソフトウェアとハードウェアの組み合わせによる高性能計算ソリューションを実現することを目的としています。</p>
+<h2 id="成果物の要求"><span class="hline"><a href="#成果物の要求" class="hanchor"></a>成果物の要求：</span></h2>
+<ol>
+<li>ROCm OpenCLランタイムをサポートし、FFT、BLAS、SPARSEなどの数値ライブラリをサポートすること。</li>
+<li>テストの合格率がx86アーキテクチャに近いこと。</li>
+<li>ROCmに付随するベンチマーク（例：rocm_bandwidth_test、rocHPL、rocHPCG等）を実施し、ROCmをベースにした一般的な科学計算アプリケーションの例を展示すること。</li>
+</ol>
+<h2 id="提出説明"><span class="hline"><a href="#提出説明" class="hanchor"></a>提出説明</span></h2>
+<ul>
+<li>提出リポジトリのリンクは <a href="https://github.com/plctlab/rvspoc-p2303-rocm">https://github.com/plctlab/rvspoc-p2303-rocm</a> です。</li>
+<li>Pull Requestの形式で結果を上記のリポジトリに提出してください。</li>
+<li>PRを作成する際には、以下の情報を提供してください：
+<ol>
+<li>適切なデモビデオ</li>
+<li>移植タスクの完了に必要なその他の情報</li>
+</ol>
+</li>
+<li>コンテスト期間中、最適化された内容の提出方法は以下の通りです：
+<ol>
+<li>バイナリ形式</li>
+<li>暗号化されたソースコード形式（暗号化情報はrvspoc@cyberlimes.cnにメールで送信する必要があります）</li>
+<li>ソースコード形式</li>
+</ol>
+</li>
+<li>最終結果の公開後、提出内容を完全にオープンソース化する必要があります。</li>
+<li>主催者はPull Requestを受け取ってから24時間以内に検証を開始します。</li>
+</ul>
+<h2 id="検受説明"><span class="hline"><a href="#検受説明" class="hanchor"></a>検受説明</span></h2>
+<ol>
+<li>検証プラットフォームは <strong>SG2042</strong> です。</li>
+<li>主催者はPull Requestを受け取ってから72時間以内に内容を検証します。</li>
+<li>「成果及び評価要件」に記載された内容に従い、条件1のプラットフォームでシステムとソフトウェアを実行します。</li>
+<li>条件を満たした場合、検受成功と宣言し、チャンピオンを発表し、この競技課題を終了します。</li>
+<li><strong>競技の実際の最適化進行状況に応じて、未考慮の側面については、競技の進行に伴い調整される可能性がありますので、競技ウェブサイトに注目し続けてください。最終的な解釈権は競技の課題審査委員会に帰属します。</strong></li>
+</ol>
+<h2 id="知的財産権およびオープンソースライセンスに関する説明"><span class="hline"><a href="#知的財産権およびオープンソースライセンスに関する説明" class="hanchor"></a>知的財産権およびオープンソースライセンスに関する説明：</span></h2>
+<p>すべての参加成果はオープンソースとして公開し、主催者が指定するリポジトリに提出する必要があります。参加者（著者）は作品の全ての権利を保有します。主催者は、参加者が成果をアップストリームにフィードバックして貢献することを奨励します。</p>
+
+        </div><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+        
+        </div>
+      </div><aside id="toc" class="f6">
+        <div class="">
+          <p class="f5 b mb3">目次</p>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#プロジェクトの説明">プロジェクトの説明：</a></li>
+    <li><a href="#成果物の要求">成果物の要求：</a></li>
+    <li><a href="#提出説明">提出説明</a></li>
+    <li><a href="#検受説明">検受説明</a></li>
+    <li><a href="#知的財産権およびオープンソースライセンスに関する説明">知的財産権およびオープンソースライセンスに関する説明：</a></li>
+  </ul>
+</nav>
+        </div>
+      </aside></div>
+
+
+  </article>
+
+    </main>
+    <footer class="bg-orange bottom-0 w-100 pa3 f6" role="contentinfo">
+  <div class="justify-between">
+    <div>
+      <span id="copyright">&copy; 2023 RVSPOC</span>
+      <span id="cc-license">
+      特に記載がない限り、このサイトは以下のライセンスで提供されています
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 lライセンス</a>
+      。
+      </span>
+      <div id="email">電子メール：<a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a></div>
+    </div>
+    
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+  </div>
+</footer>
+
+    <script>
+  function getDismissedBanners() {
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      return JSON.parse(dismissedBannersRaw);
+    } else {
+      return [];
+    }
+  }
+
+  function pushDismissedBanner(dismissedBanner) {
+    let dismissedBanners;
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      dismissedBanners = JSON.parse(dismissedBannersRaw);
+    } else {
+      dismissedBanners = [];
+    }
+    for (const oldDismissedBanner of dismissedBanners) {
+      if (oldDismissedBanner == dismissedBanner) {
+        return;
+      }
+    }
+    dismissedBanners.push(dismissedBanner);
+    dismissedBannersRaw = JSON.stringify(dismissedBanners);
+    localStorage.setItem('dismissedBanners', dismissedBannersRaw);
+  }
+
+  function prepareBanners() {
+    let banners = document.querySelectorAll('body div#banners ul li');
+    let dismissedBanners = getDismissedBanners();
+    for (const banner of banners) {
+      let bannerDismissed = false;
+      for (const dismissedBanner of dismissedBanners) {
+        if (dismissedBanner == banner.id) {
+          bannerDismissed = true;
+          break;
+        }
+      }
+      if (!bannerDismissed) {
+        banner.classList.remove('dismissed');
+      }
+    }
+  }
+
+  function registerCloseEventForBanner() {
+    let closeButtons = document.querySelectorAll('body div#banners ul li a.close');
+    for (const closeButton of closeButtons) {
+      const bannerId = closeButton.getAttribute('data-banner-id');
+      closeButton.addEventListener("click", function(e){
+        pushDismissedBanner(bannerId);
+        const theBanner = document.querySelector('body div#banners ul li#' + bannerId);
+        theBanner.classList.add('dismissed');
+      });
+    }
+  }
+
+  window.addEventListener("DOMContentLoaded", function() {
+    prepareBanners();
+    registerCloseEventForBanner();
+  });
+</script>
+
+  </body>
+</html>

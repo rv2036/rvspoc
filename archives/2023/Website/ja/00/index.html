@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ja-JP" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>
+  
+    第1回「RISC-V ソフトウェアの移植と最適化チャンピオンシップ」準備活動正式に開始いたします | RISC-V ソフトウェアの移植と最適化チャンピオンシップ
+  
+</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="RISC-VはMCUやIoTの領域で数十億の出荷実績があり、現在、デスクトップ計算、HPC、AI、データセンターなどの大規模計算への進出を試みています。組み込みシステムやIoT向けのソフトウェア環境と比べると、デスクトップやサーバー向けのソフトウェア環境は非常に多岐にわたり、その移植や最適化には多くの作業が必要です。">
+    <meta name="generator" content="Hugo 0.120.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/2023/ananke/css/main.min.css" >
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://rvspoc.org/2023/ja/00/">
+    
+
+    <meta property="og:title" content="第1回「RISC-V ソフトウェアの移植と最適化チャンピオンシップ」準備活動正式に開始いたします" />
+<meta property="og:description" content="RISC-VはMCUやIoTの領域で数十億の出荷実績があり、現在、デスクトップ計算、HPC、AI、データセンターなどの大規模計算への進出を試みています。組み込みシステムやIoT向けのソフトウェア環境と比べると、デスクトップやサーバー向けのソフトウェア環境は非常に多岐にわたり、その移植や最適化には多くの作業が必要です。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rvspoc.org/2023/ja/00/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-10-28T00:28:09+08:00" />
+<meta property="article:modified_time" content="2023-10-28T00:28:09+08:00" />
+
+<meta itemprop="name" content="第1回「RISC-V ソフトウェアの移植と最適化チャンピオンシップ」準備活動正式に開始いたします">
+<meta itemprop="description" content="RISC-VはMCUやIoTの領域で数十億の出荷実績があり、現在、デスクトップ計算、HPC、AI、データセンターなどの大規模計算への進出を試みています。組み込みシステムやIoT向けのソフトウェア環境と比べると、デスクトップやサーバー向けのソフトウェア環境は非常に多岐にわたり、その移植や最適化には多くの作業が必要です。"><meta itemprop="datePublished" content="2023-10-28T00:28:09+08:00" />
+<meta itemprop="dateModified" content="2023-10-28T00:28:09+08:00" />
+<meta itemprop="wordCount" content="3942">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="第1回「RISC-V ソフトウェアの移植と最適化チャンピオンシップ」準備活動正式に開始いたします"/>
+<meta name="twitter:description" content="RISC-VはMCUやIoTの領域で数十億の出荷実績があり、現在、デスクトップ計算、HPC、AI、データセンターなどの大規模計算への進出を試みています。組み込みシステムやIoT向けのソフトウェア環境と比べると、デスクトップやサーバー向けのソフトウェア環境は非常に多岐にわたり、その移植や最適化には多くの作業が必要です。"/>
+
+	
+  </head>
+
+  
+  
+    <body class="ma0 sans-serif">
+
+  
+
+
+    
+
+    
+   
+  
+
+  <header>
+    <div class="bg-orange">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    
+      
+    <a href="/2023/ja/" class="f3 fw3 no-underline dib">
+        RISC-V ソフトウェアの移植と最適化チャンピオンシップ
+    </a>
+      
+    
+    <div class="flex items-center nav-right">
+      
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/00/">简体中文</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/en/00/">English</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ru/00/">Русский</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ko/00/">한국어</a>
+    </li>
+    
+</ul>
+
+
+      
+      <ul class="pl0 mr3">
+        
+        <li class="list f5 f5-ns fw4 dib pr3">
+          <a class="no-underline nav-link" href="/2023/ja/faq/" title="FAQ ページ">
+            FAQ
+          </a>
+        </li>
+        
+      </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+    
+  <article class='justify-between mw8 center ph3 serif cjk'>
+    
+    <header class="mt4 w-100">
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 mt3 mb1">第1回「RISC-V ソフトウェアの移植と最適化チャンピオンシップ」準備活動正式に開始いたします</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked serif" datetime="2023-10-28T00:28:09+08:00">10月 28, 2023</time>
+      
+
+      
+      
+    </header>
+    
+    <div id="article-body">
+      <div class="nested-copy-line-height lh-copy  f4 nested-links mid-gray"><div>
+          <p>タイトル：
+第1回「RISC-V ソフトウェアの移植と最適化チャンピオンシップ」準備活動正式に開始いたします</p>
+<h2 id="イベント名"><span class="hline"><a href="#イベント名" class="hanchor"></a>イベント名</span></h2>
+<p><strong>RISC-V</strong> 软件移植及优化锦标赛</p>
+<p><strong>RISC-V Software Porting and Optimization Championship</strong></p>
+<p><strong>Чемпионат по портированию и оптимизации программного обеспечения RISC-V</strong></p>
+<p><strong>RISC-V</strong> ソフトウェアの移植と最適化チャンピオンシップ</p>
+<p><strong>RISC-V</strong> 소프트웨어 포팅 및 최적화 챔피언십</p>
+<h2 id="背景および目標"><span class="hline"><a href="#背景および目標" class="hanchor"></a>背景および目標</span></h2>
+<p><strong>RISC-V</strong>は<strong>MCU</strong>や<strong>IoT</strong>の領域で数十億の出荷実績があり、現在、デスクトップ計算、<strong>HPC</strong>、<strong>AI</strong>、データセンターなどの大規模計算への進出を試みています。組み込みシステムや<strong>IoT</strong>向けのソフトウェア環境と比べると、デスクトップやサーバー向けのソフトウェア環境は非常に多岐にわたり、その移植や最適化には多くの作業が必要です。近年、<strong>PLCT</strong>研究室は世界各地の技術者や貢献者と協力し、<strong>RISC-V</strong>のオープンソースソフトウェア環境の発展のために資金や人材を集中的に投入し、多くの成果を収めてきました。現在、主要な<strong>Linux</strong>オペレーティングシステムの多くが<strong>RISC-V</strong>アーキテクチャをサポートしている、<strong>GNU Toolchain</strong>、<strong>Clang/LLVM</strong>、<strong>OpenJDK</strong>、<strong>V8</strong>、<strong>Spidermonkey</strong>などの主要なツールやランタイムがRISC-Vで安定して稼働しています。しかし、オープンソースソフトウェアが<strong>RISC-V</strong>ハードウェア上での動作速度において、<strong>x86</strong>や<strong>Arm64</strong>の最適化されたレベルにはまだ到達していないのも事実です。より多くの開発者が最適化や開発に参加することが望まれます。そこで、<strong>RISC-V</strong>のソフトウェア環境の進化を促進し、多くの開発者をその環境に引き込むため、<strong>PLCT</strong>研究室は「<strong>RISC-V</strong> ソフトウェアの移植と最適化チャンピオンシップ」を立ち上げます。このイベントは、デスクトップとサーバーソフトウェアを中心に、コンパイラ、ランタイム、<strong>AI</strong>のソフトウェアスタックなど、多岐にわたる課題を提供します。我々は全世界の開発者たちにこのチャンピオンシップへの参加を促し、そのための賞金も提供します。</p>
+<h2 id="主催承办協賛団体情報"><span class="hline"><a href="#主催承办協賛団体情報" class="hanchor"></a>主催・承办・協賛団体情報</span></h2>
+<p>主催者：<strong>PLCT</strong>研究室（中国科学院ソフトウェア研究所の知能ソフトウェア研究センターに所属）</p>
+<p>承办者：杭州全橙智能ソフトウェア有限公司、Shanghai Kubuds Technology Co., Ltd.</p>
+<p>協賛者：<strong>RISC-V</strong> 中国コミュニティ（<strong>CNRV</strong>）</p>
+<p>注：活動組織の変更が発生する可能性があります。最新情報は<strong>CNRV</strong>の<strong>WeChat</strong>アカウントでご確認ください。</p>
+<h2 id="チャンピオンシップ形式"><span class="hline"><a href="#チャンピオンシップ形式" class="hanchor"></a>チャンピオンシップ形式</span></h2>
+<p>チャンピオンシップは、「<font color=red>移植チャレンジ</font>」と「<font color=red>最適化チャレンジ</font>」の二つの形式に分かれます。</p>
+<p><strong>移植チャレンジは</strong>、<strong>RISC-V</strong>へのソフトウェア移植を目指し、最初に成功したチームまたは個人が勝者となる競技です。<strong>RISC-Vに移植されていません</strong>ソフトウェアに限ります。最初移植を完了し、指定されたリポジトリアドレスに提出したチーム（または個人）が勝者となります。主催者は、各課題の目標に対して専用のリポジトリを用意し、参加者の提出を受け付けます。最初に完全にテストを通過し、主催者のリポジトリに提出した参加者やチームが勝者となります。提出されたコードの著作権、署名権などは、参加者自身（または移植されたオープンソースプロジェクトのコミュニティ）に属します。参加者に対して、コードのアップストリームへの提供を推奨いたします。最適化チャレンジは、各課題が最適化の評価指標を設定し、指定されたベンチマークを最適化し、提出の締切時間を設定するものです。締切時間前に提出されたすべての結果の中で、最も優れた指標を持つチームが勝者となります。</p>
+<p><strong>最適化チャレンジは</strong>、各課題ごとに最適化の評価基準を設定し、指定されたベンチマークを最適化する競技です。提出締切前に提出された結果の中から、最も優れた評価基準を持つチームが優勝します。競技に参加する人数に応じて、この大会は「個人部門」と「団体部門」という2つの形式に分かれています。個人部門では、競技期間中の主要な作業を参加者自身が実行し、賞金を単独で受け取ることが求められます。2人以上の参加者からなるチームは、団体として扱われます。団体部門において、参加人数に制限はありませんが、賞金の分配比率は参加団体が自ら決定します。</p>
+<h2 id="チャンピオンシップスケジュール"><span class="hline"><a href="#チャンピオンシップスケジュール" class="hanchor"></a>チャンピオンシップスケジュール</span></h2>
+<p><strong>2023</strong>年<strong>10</strong>月<strong>31</strong>日まで：スポンサー募集期間</p>
+<p><strong>2023</strong>年<strong>11</strong>月<strong>1</strong>日 – <strong>11</strong>月<strong>30</strong>日：チャンピオンシップの開始、課題の公開</p>
+<p><strong>2023</strong>年<strong>12</strong>月<strong>1</strong>日 – <strong>2024</strong>年 <del><strong>2</strong>月<strong>16</strong>日</del><strong>2</strong>月<strong>29</strong>日：申し込みと実施期間</p>
+<p><strong>2024</strong>年 <del><strong>2</strong>月<strong>17</strong>日</del><strong>3</strong>月<strong>1</strong>日 – <strong>2024</strong>年 <del><strong>3</strong>月<strong>1</strong>日</del><strong>3</strong>月<strong>31</strong>日：主催者がチャンピオンシップの結果を再現し、勝者のリストを公開</p>
+<p><strong>2024</strong>年<strong>4</strong>月初（日程未定）：第1回<strong>RISC-V</strong> ソフトウェア移植及び最適化チャンピオンシップ授賞式および<strong>RISC-V</strong>技術セミナー</p>
+<h2 id="スポンサーを募集中"><span class="hline"><a href="#スポンサーを募集中" class="hanchor"></a><strong>スポンサーを募集中</strong></span></h2>
+<p>今回のチャンピオンシップでは、スポンサーからの寄付を受け付けています。主催者として、世界中のRISC-V製造業者からのお問い合わせをお待ちしております。</p>
+<h3 id="スポンサーの参加方法と権利"><span class="hline"><a href="#スポンサーの参加方法と権利" class="hanchor"></a>スポンサーの参加方法と権利：</span></h3>
+<p>スポンサーは、競技問題の設定や賞金の設定に関与することができ、コンテストや授賞式などのプロモーション期間中に露出することができます。
+最低のスポンサーシップ金額は<strong>20</strong>万中国人民元、最高金額は（現時点で）<strong>100</strong>万元人民元に設定されています。スポンサーは、競技問題の数や賞金の額に応じてカスタマイズすることができます。</p>
+<p>スポンサーシップの経費の内訳は以下の通りです：</p>
+<ul>
+<li>
+<p>資金の70%は、参加者/チームへの賞金として分配されます。</p>
+</li>
+<li>
+<p>30%は、大会の準備費用、人件費、組織、宣伝のコストに使用されます。</p>
+</li>
+</ul>
+<p>スポンサーとしての権利には以下が含まれます：</p>
+<ul>
+<li>
+<p><font style="background:Yellow">特定のハードウェアデバイスやプラットフォームをコンペティションの移植および最適化のターゲットとして指定；</font></p>
+</li>
+<li>
+<p>主催者と競技問題のデザインに参加し、その関連する権利を共有（詳細待ち）；</p>
+</li>
+<li>
+<p>賞金の配分比率を指定し、結果の確認プロセスに参加；</p>
+</li>
+<li>
+<p>RISC-V技術セミナーおよび授賞式に参加、20分間のプレゼンテーション権利、採用プロモーション、展示ブース、ディナーの招待などを含む；</p>
+</li>
+<li>
+<p>主催者が主催する他のコンペティション関連のプロモーション活動、オフラインプロモーション、オンラインライブ配信などに参加；</p>
+</li>
+</ul>
+<p>スポンサーシップに興味がある企業は、以下のメールアドレスで主催者にご連絡ください:</p>
+<ul>
+<li><font color=Blue><strong>メールアドレス：“Wei Wu”</strong></font> <a href="mailto:wuwei2016@iscas.ac.cn">wuwei2016@iscas.ac.cn</a></li>
+<li><font color=Blue><strong>メールの件名：”[RVPOC] Sponsor + 会社名”</strong></font></li>
+</ul>
+<h2 id="予定される競技課題サンプル"><span class="hline"><a href="#予定される競技課題サンプル" class="hanchor"></a>予定される競技課題（サンプル）</span></h2>
+<p>現在、競技の課題は収集および選定の過程にあります。RISC-Vエコシステムのコミュニティメンバーからの課題の提案を歓迎します。課題は「私が使用したいソフトウェア」や「特定のソフトウェア/サービスをもっと高速にしてほしい（どの程度まで）」といった形で提案することができます。以下のメールアドレスで主催者に提案を送ってください：</p>
+<ul>
+<li><font color=Blue><strong>“Wei Wu”</strong></font> <a href="mailto:wuwei2016@iscas.ac.cn">wuwei2016@iscas.ac.cn</a></li>
+<li><font color=Blue><strong>メールの件名：”[RVPOC] WISHLIST + RISC-Vに移植させたいソフトウェア名”</strong></font></li>
+</ul>
+<h3 id="移植チャレンジ受賞者受賞チームはオープンソースとしてupstreamに貢献することが要求されます"><span class="hline"><a href="#移植チャレンジ受賞者受賞チームはオープンソースとしてupstreamに貢献することが要求されます" class="hanchor"></a>移植チャレンジ（受賞者/受賞チームはオープンソースとしてupstreamに貢献することが要求されます）</span></h3>
+<table>
+<thead>
+<tr>
+<th>技術</th>
+<th>課題</th>
+<th>参考賞金（税抜/人民元）</th>
+<th>検証プラットフォーム</th>
+<th>スポンサー</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ランタイム</td>
+<td><strong>Mono on RISC-V</strong></td>
+<td><strong>50,000</strong></td>
+<td><strong>SG2042<br />QEMU</strong></td>
+<td><strong>TBA</strong></td>
+</tr>
+<tr>
+<td>ランタイム</td>
+<td><strong>V8</strong>における<strong>RISC-V V-extension</strong>向けの<strong>WASM SIMD REVEC</strong>の移植</td>
+<td><strong>100,000</strong></td>
+<td><strong>SG2042 QEMU</strong></td>
+<td><strong>TBA</strong></td>
+</tr>
+<tr>
+<td>ランタイム</td>
+<td>競技課題の提案をお待ちしています！</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="最適化チャレンジオープンソースとクローズドソースの2つのトラックに分かれていますオープンソーストラックのみに賞金が提供されます"><span class="hline"><a href="#最適化チャレンジオープンソースとクローズドソースの2つのトラックに分かれていますオープンソーストラックのみに賞金が提供されます" class="hanchor"></a>最適化チャレンジ（オープンソースとクローズドソースの2つのトラックに分かれています。オープンソーストラックのみに賞金が提供されます）</span></h3>
+<table>
+<thead>
+<tr>
+<th>技術</th>
+<th>課題</th>
+<th>参考賞金（税抜/人民元）</th>
+<th>検証プラットフォーム</th>
+<th>スポンサー</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>JS</strong>エンジン</td>
+<td><strong>Firefox Kraken benchmark</strong> 最適化</td>
+<td><strong>5,000</strong></td>
+<td><strong>LicheePi 4A <br /> SG2042</strong></td>
+<td><strong>TBD</strong></td>
+</tr>
+<tr>
+<td><strong>JS</strong>エンジン</td>
+<td><strong>RISCV B-ext</strong>を利用して<strong>V8</strong>エン<br />ジンのビット演算操作を最適化</td>
+<td><strong>30,000</strong></td>
+<td><strong>Unmatched <br /> SG2042 <br /> TH1520</strong></td>
+<td><strong>TBD</strong></td>
+</tr>
+<tr>
+<td>ゲーム</td>
+<td><strong>OpenRA</strong> ゲームの<strong>SG2042</strong>プラ<br />ットフォーム上での動作速度（fps単位）</td>
+<td><strong>100,000</strong></td>
+<td><strong>SG2042 <br /> SG2044</strong></td>
+<td><strong>TBD</strong></td>
+</tr>
+<tr>
+<td><strong>rvv0p7</strong></td>
+<td><strong>RVV</strong>~1.0~拡張命令を使用したプロ<br />グラムを<strong>RVV</strong>~0.7~のハードウェア<br />アーキテクチャで動作させるため<br />の変換ツールまたはシステムを提<br />供し、性能を最大にする</td>
+<td><strong>200,000</strong></td>
+<td></td>
+<td><strong>TBD</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="競技課題の結果認定委員会の組織"><span class="hline"><a href="#競技課題の結果認定委員会の組織" class="hanchor"></a>競技課題の結果認定委員会の組織</span></h2>
+<p>各競技課題に関して、主催者（<strong>PLCT</strong>研究室）は公開される技術鑑定委員会を組織します。この委員会には、業界の著名な開発者、スポンサー代表、テストボランティアなどが招待され、結果の評価と再現を行います。</p>
+<h2 id="risc-v技術セミナーと授賞式"><span class="hline"><a href="#risc-v技術セミナーと授賞式" class="hanchor"></a><strong>RISC-V</strong>技術セミナーと授賞式</span></h2>
+<p>日時：<strong>2024</strong>年<strong>4</strong>月上旬</p>
+<p>場所：杭州市（未定、会場スポンサー大歓迎）</p>
+<p>形式：オフライン、セミナー形式、終日。</p>
+<p>アジェンダ：<strong>2024</strong>年<strong>3</strong>月に発表予定。</p>
+<h2 id="参加説明随時更新中"><span class="hline"><a href="#参加説明随時更新中" class="hanchor"></a>参加説明（随時更新中）</span></h2>
+<p>1.このイベントは、個人または団体としての参加を受け付けています。団体としての参加には人数の制限はありません。</p>
+<p>2.このイベントでは、最適化カテゴリの課題は、オープンソースとクローズドソース（商業）の2つのトラックに分かれています。賞金はオープンソーストラックだけが提供しており、クローズドソース（商業）トラックは競技順位の記録のみ提供します。</p>
+<p>3.このイベントは、世界中からの参加を受け付けています。中国本土の優勝者は、中国国内の銀行口座が必要となります。中国本土以外の参加者は、パスポートや通行証の身分証明書と銀行情報を提供する必要があり、銀行の支払いはSWIFTまたはCIPSのサポートが必要です。</p>
+<p>4.その他の詳しい参加に関する注意点については、後続のお知らせをご確認ください。</p>
+<p>5.記事の内容についてご不明な点がございましたら、中国語版をご参照ください。</p>
+
+        </div><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+        
+        </div>
+      </div><aside id="toc" class="f6">
+        <div class="">
+          <p class="f5 b mb3">目次</p>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#イベント名">イベント名</a></li>
+    <li><a href="#背景および目標">背景および目標</a></li>
+    <li><a href="#主催承办協賛団体情報">主催・承办・協賛団体情報</a></li>
+    <li><a href="#チャンピオンシップ形式">チャンピオンシップ形式</a></li>
+    <li><a href="#チャンピオンシップスケジュール">チャンピオンシップスケジュール</a></li>
+    <li><a href="#スポンサーを募集中"><strong>スポンサーを募集中</strong></a>
+      <ul>
+        <li><a href="#スポンサーの参加方法と権利">スポンサーの参加方法と権利：</a></li>
+      </ul>
+    </li>
+    <li><a href="#予定される競技課題サンプル">予定される競技課題（サンプル）</a>
+      <ul>
+        <li><a href="#移植チャレンジ受賞者受賞チームはオープンソースとしてupstreamに貢献することが要求されます">移植チャレンジ（受賞者/受賞チームはオープンソースとしてupstreamに貢献することが要求されます）</a></li>
+        <li><a href="#最適化チャレンジオープンソースとクローズドソースの2つのトラックに分かれていますオープンソーストラックのみに賞金が提供されます">最適化チャレンジ（オープンソースとクローズドソースの2つのトラックに分かれています。オープンソーストラックのみに賞金が提供されます）</a></li>
+      </ul>
+    </li>
+    <li><a href="#競技課題の結果認定委員会の組織">競技課題の結果認定委員会の組織</a></li>
+    <li><a href="#risc-v技術セミナーと授賞式"><strong>RISC-V</strong>技術セミナーと授賞式</a></li>
+    <li><a href="#参加説明随時更新中">参加説明（随時更新中）</a></li>
+  </ul>
+</nav>
+        </div>
+      </aside></div>
+
+
+  </article>
+
+    </main>
+    <footer class="bg-orange bottom-0 w-100 pa3 f6" role="contentinfo">
+  <div class="justify-between">
+    <div>
+      <span id="copyright">&copy; 2023 RVSPOC</span>
+      <span id="cc-license">
+      特に記載がない限り、このサイトは以下のライセンスで提供されています
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 lライセンス</a>
+      。
+      </span>
+      <div id="email">電子メール：<a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a></div>
+    </div>
+    
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+  </div>
+</footer>
+
+    <script>
+  function getDismissedBanners() {
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      return JSON.parse(dismissedBannersRaw);
+    } else {
+      return [];
+    }
+  }
+
+  function pushDismissedBanner(dismissedBanner) {
+    let dismissedBanners;
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      dismissedBanners = JSON.parse(dismissedBannersRaw);
+    } else {
+      dismissedBanners = [];
+    }
+    for (const oldDismissedBanner of dismissedBanners) {
+      if (oldDismissedBanner == dismissedBanner) {
+        return;
+      }
+    }
+    dismissedBanners.push(dismissedBanner);
+    dismissedBannersRaw = JSON.stringify(dismissedBanners);
+    localStorage.setItem('dismissedBanners', dismissedBannersRaw);
+  }
+
+  function prepareBanners() {
+    let banners = document.querySelectorAll('body div#banners ul li');
+    let dismissedBanners = getDismissedBanners();
+    for (const banner of banners) {
+      let bannerDismissed = false;
+      for (const dismissedBanner of dismissedBanners) {
+        if (dismissedBanner == banner.id) {
+          bannerDismissed = true;
+          break;
+        }
+      }
+      if (!bannerDismissed) {
+        banner.classList.remove('dismissed');
+      }
+    }
+  }
+
+  function registerCloseEventForBanner() {
+    let closeButtons = document.querySelectorAll('body div#banners ul li a.close');
+    for (const closeButton of closeButtons) {
+      const bannerId = closeButton.getAttribute('data-banner-id');
+      closeButton.addEventListener("click", function(e){
+        pushDismissedBanner(bannerId);
+        const theBanner = document.querySelector('body div#banners ul li#' + bannerId);
+        theBanner.classList.add('dismissed');
+      });
+    }
+  }
+
+  window.addEventListener("DOMContentLoaded", function() {
+    prepareBanners();
+    registerCloseEventForBanner();
+  });
+</script>
+
+  </body>
+</html>

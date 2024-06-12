@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ko-KR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>
+  
+    색인 S2310 | ncnn의 이식 및 최적화 | RISC-V 소프트웨어포팅및최적화챔피언십
+  
+</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="ncnn은 매우 우수한 고성능 신경망 계산 프레임워크이며, RISC-V에 대한 지원도 좋습니다. 이 프로젝트에서는 upstream 기반 위에서, Duo의 계산 리소스를 최대한 활용하여 ncnn이 가진 성능 테스트 세트의 점수를 향상시키는 것이 요구됩니다.">
+    <meta name="generator" content="Hugo 0.120.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/2023/ananke/css/main.min.css" >
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://rvspoc.org/2023/ko/s2310/">
+    
+
+    <meta property="og:title" content="ncnn의 이식 및 최적화" />
+<meta property="og:description" content="ncnn은 매우 우수한 고성능 신경망 계산 프레임워크이며, RISC-V에 대한 지원도 좋습니다. 이 프로젝트에서는 upstream 기반 위에서, Duo의 계산 리소스를 최대한 활용하여 ncnn이 가진 성능 테스트 세트의 점수를 향상시키는 것이 요구됩니다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rvspoc.org/2023/ko/s2310/" /><meta property="article:section" content="challenges" />
+<meta property="article:published_time" content="2023-11-27T19:57:09+08:00" />
+<meta property="article:modified_time" content="2023-11-27T19:57:09+08:00" />
+
+<meta itemprop="name" content="ncnn의 이식 및 최적화">
+<meta itemprop="description" content="ncnn은 매우 우수한 고성능 신경망 계산 프레임워크이며, RISC-V에 대한 지원도 좋습니다. 이 프로젝트에서는 upstream 기반 위에서, Duo의 계산 리소스를 최대한 활용하여 ncnn이 가진 성능 테스트 세트의 점수를 향상시키는 것이 요구됩니다."><meta itemprop="datePublished" content="2023-11-27T19:57:09+08:00" />
+<meta itemprop="dateModified" content="2023-11-27T19:57:09+08:00" />
+<meta itemprop="wordCount" content="1020">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ncnn의 이식 및 최적화"/>
+<meta name="twitter:description" content="ncnn은 매우 우수한 고성능 신경망 계산 프레임워크이며, RISC-V에 대한 지원도 좋습니다. 이 프로젝트에서는 upstream 기반 위에서, Duo의 계산 리소스를 최대한 활용하여 ncnn이 가진 성능 테스트 세트의 점수를 향상시키는 것이 요구됩니다."/>
+
+	
+  </head>
+
+  
+  
+  <body class="ma0 section-challenges sans-serif">
+  
+
+
+    
+
+    
+   
+  
+
+  <header>
+    <div class="bg-orange">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    
+      
+    <a href="/2023/ko/" class="f3 fw3 no-underline dib">
+        RISC-V 소프트웨어포팅및최적화챔피언십
+    </a>
+      
+    
+    <div class="flex items-center nav-right">
+      
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/s2310/">简体中文</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/en/s2310/">English</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ru/s2310/">Русский</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ja/s2310/">日本語</a>
+    </li>
+    
+</ul>
+
+
+      
+      <ul class="pl0 mr3">
+        
+        <li class="list f5 f5-ns fw4 dib pr3">
+          <a class="no-underline nav-link" href="/2023/ko/faq/" title="FAQ 页">
+            FAQ
+          </a>
+        </li>
+        
+      </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+    
+  <article class='justify-between mw8 center ph3 challenge cjk'>
+    <nav class="f7"><a href='/2023/ko/'>Home</a><span>/</span><a href='/2023/ko/challenges/'>도전</a></nav>
+    
+    <header class="mt4 w-100">
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 mt3 mb1">ncnn의 이식 및 최적화</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    
+    <div id="challenges-meta" class="mid-gray lh-copy">
+      <div><span>색인:</span><span>S2310</span></div>
+      <div><span>어워드:</span><span>15000<span class="currency">중국 위안</span></span></div>
+      
+    </div>
+    
+    <div id="article-body">
+      <div class="nested-copy-line-height lh-copy  f4 nested-links mid-gray"><div>
+          <h2 id="프로젝트-설명"><span class="hline"><a href="#프로젝트-설명" class="hanchor"></a>프로젝트 설명：</span></h2>
+<p>ncnn은 매우 우수한 고성능 신경망 계산 프레임워크이며, RISC-V에 대한 지원도 좋습니다. 이 프로젝트에서는 upstream 기반 위에서, Duo의 계산 리소스를 최대한 활용하여 ncnn이 가진 성능 테스트 세트의 점수를 향상시키는 것이 요구됩니다.</p>
+<h2 id="결과물-및-평가-요건"><span class="hline"><a href="#결과물-및-평가-요건" class="hanchor"></a>결과물 및 평가 요건：</span></h2>
+<ol>
+<li>회귀 테스트에서 새로운 실패를 일으키지 않는 것.</li>
+<li>RVV0.7, TPU, 또는 Duo의 다른 사용 가능한 계산 구성 요소를 사용하여 가속화를 도모하는 것.</li>
+<li>벤치마크 디렉토리 아래의 모델을 가능한 한 많이 정확하게 실행하고 실행 시간을 기록하는 것.</li>
+</ol>
+<h2 id="제출-설명"><span class="hline"><a href="#제출-설명" class="hanchor"></a>제출 설명：</span></h2>
+<ol>
+<li>제출 리포지토리 링크는 <a href="https://github.com/plctlab/rvspoc-s2310-ncnn">https://github.com/plctlab/rvspoc-s2310-ncnn</a> 입니다.</li>
+<li>결과는 위 리포지토리에 Pull Request 형태로 제출해주세요.</li>
+<li>제출 시, 재현에 필요한 소프트웨어 환경을 자세히 설명해주세요. &lsquo;검수 설명&rsquo;에 기록된 기본 소프트웨어 환경을 참고하여 필요에 따라 변경을 추가하세요.</li>
+<li>대회 기간 동안 최적화된 내용을 제출하는 방법은 다음과 같습니다:
+<ol>
+<li>바이너리 형식</li>
+<li>암호화된 소스 코드 형식(암호화 정보는 <a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a>으로 이메일로 보내야 합니다)</li>
+<li>소스 코드 형식</li>
+</ol>
+</li>
+<li>최종 결과 공개 후, 제출 내용을 완전히 오픈소스화해야 합니다.</li>
+<li>주최측은, 대회 종료 후(즉, 2024년 <del>2월 16일</del> 2월 29일 이후), 대회 과제의 리포지토리 Pull Request 채널을 닫고 결과 검수를 시작합니다.</li>
+</ol>
+<h2 id="검수-설명"><span class="hline"><a href="#검수-설명" class="hanchor"></a>검수 설명：</span></h2>
+<ol>
+<li>검증 플랫폼은 Milk-V Duo 64MB 버전입니다.
+<ol>
+<li>검수 시 동일한 사양의 TF 카드를 통일하여 사용합니다.</li>
+<li>SWAP 사용은 권장되지 않습니다.</li>
+<li>CPU 오버클럭은 하지 않습니다.</li>
+<li>추가적인 냉각 장치는 사용하지 않습니다.</li>
+</ol>
+</li>
+<li>Duo 상의 시스템에 특별한 요구사항은 없으나, 참가자가 요구하는 경우 Pull Request를 통해 필요한 시스템을 제시할 수 있습니다.</li>
+<li>ncnn 리포지토리는 <a href="https://github.com/Tencent/ncnn">https://github.com/Tencent/ncnn</a> 입니다.</li>
+<li>검수 프로그램으로 ncnnbench를 사용하며, 구체적인 최적화 가중치는 나중에 결정됩니다.</li>
+<li>종합적인 점수는 Milk-V 공식 이미지의 55MB 메모리 하에서의 점수를 하회하지 않아야 합니다.</li>
+<li>55MB 메모리에서 SWAP 파티션 없이 일부 벤치마크 항목을 실행할 수 없는 경우가 있습니다. 이 부분의 내용은 심사위원회의 통보를 기다려야 합니다.</li>
+<li><strong>실제 최적화 진행 상황에 따라 고려되지 않은 측면은 대회 진행에 따라 조정될 수 있으며, 대회 웹사이트를 계속 주시하시기 바랍니다. 최종 해석권은 대회 과제 심사위원회에 있습니다.</strong></li>
+</ol>
+<h2 id="지적-재산권-및-오픈-소스-라이선스에-관한-설명"><span class="hline"><a href="#지적-재산권-및-오픈-소스-라이선스에-관한-설명" class="hanchor"></a>지적 재산권 및 오픈 소스 라이선스에 관한 설명：</span></h2>
+<p>모든 참가 작품은 오픈 소스로 공개되어야 하며, 주최자가 지정하는 저장소에 제출해야 합니다. 참가자(저자)는 작품의 모든 권리를 보유합니다. 주최자는 참가자가 결과물을 업스트림에 피드백하여 기여하는 것을 권장합니다.</p>
+<h2 id="resources"><span class="hline"><a href="#resources" class="hanchor"></a>Resources</span></h2>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1Ce411b7PT/">S2310 quick start live replay (중국어)</a></li>
+<li><a href="https://github.com/plctlab/rvspoc/blob/main/archives/2023/Docs/S2310/S2310.md">S2310 quick start doc (중국어)</a></li>
+</ul>
+
+        </div><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+        
+        </div>
+      </div><aside id="toc" class="f6">
+        <div class="">
+          <p class="f5 b mb3">목차</p>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#프로젝트-설명">프로젝트 설명：</a></li>
+    <li><a href="#결과물-및-평가-요건">결과물 및 평가 요건：</a></li>
+    <li><a href="#제출-설명">제출 설명：</a></li>
+    <li><a href="#검수-설명">검수 설명：</a></li>
+    <li><a href="#지적-재산권-및-오픈-소스-라이선스에-관한-설명">지적 재산권 및 오픈 소스 라이선스에 관한 설명：</a></li>
+    <li><a href="#resources">Resources</a></li>
+  </ul>
+</nav>
+        </div>
+      </aside></div>
+
+
+  </article>
+
+    </main>
+    <footer class="bg-orange bottom-0 w-100 pa3 f6" role="contentinfo">
+  <div class="justify-between">
+    <div>
+      <span id="copyright">&copy; 2023 RVSPOC</span>
+      <span id="cc-license">
+      특별한 언급이 없는 한, 이 사이트는 다음 라이선스로 제공됩니다:
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">크리에이티브 커먼즈 저작자표시-비영리-동일조건변경허락 4.0 국제 라이선스</a>
+      .
+      </span>
+      <div id="email">전자우편: <a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a></div>
+    </div>
+    
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+  </div>
+</footer>
+
+    <script>
+  function getDismissedBanners() {
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      return JSON.parse(dismissedBannersRaw);
+    } else {
+      return [];
+    }
+  }
+
+  function pushDismissedBanner(dismissedBanner) {
+    let dismissedBanners;
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      dismissedBanners = JSON.parse(dismissedBannersRaw);
+    } else {
+      dismissedBanners = [];
+    }
+    for (const oldDismissedBanner of dismissedBanners) {
+      if (oldDismissedBanner == dismissedBanner) {
+        return;
+      }
+    }
+    dismissedBanners.push(dismissedBanner);
+    dismissedBannersRaw = JSON.stringify(dismissedBanners);
+    localStorage.setItem('dismissedBanners', dismissedBannersRaw);
+  }
+
+  function prepareBanners() {
+    let banners = document.querySelectorAll('body div#banners ul li');
+    let dismissedBanners = getDismissedBanners();
+    for (const banner of banners) {
+      let bannerDismissed = false;
+      for (const dismissedBanner of dismissedBanners) {
+        if (dismissedBanner == banner.id) {
+          bannerDismissed = true;
+          break;
+        }
+      }
+      if (!bannerDismissed) {
+        banner.classList.remove('dismissed');
+      }
+    }
+  }
+
+  function registerCloseEventForBanner() {
+    let closeButtons = document.querySelectorAll('body div#banners ul li a.close');
+    for (const closeButton of closeButtons) {
+      const bannerId = closeButton.getAttribute('data-banner-id');
+      closeButton.addEventListener("click", function(e){
+        pushDismissedBanner(bannerId);
+        const theBanner = document.querySelector('body div#banners ul li#' + bannerId);
+        theBanner.classList.add('dismissed');
+      });
+    }
+  }
+
+  window.addEventListener("DOMContentLoaded", function() {
+    prepareBanners();
+    registerCloseEventForBanner();
+  });
+</script>
+
+  </body>
+</html>

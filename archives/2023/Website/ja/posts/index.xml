@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>投稿 on RISC-V ソフトウェアの移植と最適化チャンピオンシップ</title>
+    <link>https://rvspoc.org/2023/ja/posts/</link>
+    <description>Recent content in 投稿 on RISC-V ソフトウェアの移植と最適化チャンピオンシップ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sat, 28 Oct 2023 00:28:09 +0800</lastBuildDate>
+    <atom:link href="https://rvspoc.org/2023/ja/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第1回「RISC-V ソフトウェアの移植と最適化チャンピオンシップ」準備活動正式に開始いたします</title>
+      <link>https://rvspoc.org/2023/ja/00/</link>
+      <pubDate>Sat, 28 Oct 2023 00:28:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ja/00/</guid>
+      <description>&lt;strong&gt;RISC-V&lt;/strong&gt;は&lt;strong&gt;MCU&lt;/strong&gt;や&lt;strong&gt;IoT&lt;/strong&gt;の領域で数十億の出荷実績があり、現在、デスクトップ計算、&lt;strong&gt;HPC&lt;/strong&gt;、&lt;strong&gt;AI&lt;/strong&gt;、データセンターなどの大規模計算への進出を試みています。組み込みシステムや&lt;strong&gt;IoT&lt;/strong&gt;向けのソフトウェア環境と比べると、デスクトップやサーバー向けのソフトウェア環境は非常に多岐にわたり、その移植や最適化には多くの作業が必要です。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>도전 on RISC-V 소프트웨어포팅및최적화챔피언십</title>
+    <link>https://rvspoc.org/2023/ko/challenges/</link>
+    <description>Recent content in 도전 on RISC-V 소프트웨어포팅및최적화챔피언십</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Thu, 28 Dec 2023 15:09:10 +0800</lastBuildDate>
+    <atom:link href="https://rvspoc.org/2023/ko/challenges/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SG2002에서의 스트리밍 ASR 이식 최적화</title>
+      <link>https://rvspoc.org/2023/ko/s2312/</link>
+      <pubDate>Thu, 28 Dec 2023 15:09:10 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ko/s2312/</guid>
+      <description>자연어 음성 대화는 인간과 컴퓨터 간의 중요한 상호 작용 형태 중 하나입니다. 그러나 고정밀 ASR 모델의 계산량이 방대하기 때문에, 일반적으로 ASR은 클라우드에서 실행되며 이로 인해 인간과 컴퓨터 간의 상호 작용 체험이 저하됩니다. 이번 경연 대회에서는 SG2002 프로세서 상에서 고정밀 스트리밍 ASR을 이식하는 것을 목표로 하며, 중국어 또는 영어 ASR 인식 모델을 선택할 수 있습니다. 목표는 제한된 메모리(256MB)와 실시간 스트리밍 인식(RTF &amp;lt; 1) 요구 사항 하에서 가능한 한 낮은 WER을 달성하는 것입니다. 참가자들은 새로운 세대의 Kaldi, Wenet 등 오픈소스 음성 인식 프로젝트를 참조하여 이식할 수 있습니다.</description>
+    </item>
+    <item>
+      <title>Xv6의 이식 및 데모스트레이션</title>
+      <link>https://rvspoc.org/2023/ko/p2308/</link>
+      <pubDate>Fri, 01 Dec 2023 08:10:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ko/p2308/</guid>
+      <description>이 프로젝트에서는 Xv6를 Milk-V Duo에 이식하고, 시리얼 포트를 통한 상호 작용을 가능하게 하며, 기본적인 주변장치 사용을 완료하고, 시스템 및 주변장치의 테스트 예제를 컴파일하고 실행하는 것이 요구됩니다.</description>
+    </item>
+    <item>
+      <title>Zephyr의 이식 및 데모스트레이션</title>
+      <link>https://rvspoc.org/2023/ko/p2307/</link>
+      <pubDate>Fri, 01 Dec 2023 08:09:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ko/p2307/</guid>
+      <description>이 프로젝트에서는 Zephyr를 Milk-V Duo에 이식하고, 시리얼 포트를 통한 상호 작용을 가능하게 하며, 기본적인 주변장치 사용을 완료하고, 시스템 및 주변장치의 테스트 예제를 컴파일하고 실행하는 것이 요구됩니다.</description>
+    </item>
+    <item>
+      <title>OpenGauss 데이터베이스의 이식 및 최적화</title>
+      <link>https://rvspoc.org/2023/ko/s2305/</link>
+      <pubDate>Fri, 01 Dec 2023 08:08:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ko/s2305/</guid>
+      <description>SG2042/Pioneer Box에서 OpenGauss를 실행합니다(운영 체제로는 openEuler가 권장되지만, 임의의 Linux 배포판 사용 가능). 관련 벤치마크 점수를 가능한 한 높게 합니다.</description>
+    </item>
+    <item>
+      <title>바이너리 번역 및 최적화</title>
+      <link>https://rvspoc.org/2023/ko/s2302/</link>
+      <pubDate>Fri, 01 Dec 2023 08:07:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ko/s2302/</guid>
+      <description>SG2042/Pioneer Box에서 QEMU와 같은 에뮬레이터나 번역 도구를 사용하여 x86 또는 ARM64 프로그램을 실행합니다. Windows 프로그램 실행에는 Wine이나 유사 도구에 능숙해야 할 수도 있습니다. 이 과제의 목표는 번역 효율성을 가능한 한 높이는 것입니다.</description>
+    </item>
+    <item>
+      <title>SG2042에서 OpenHarmony 이식 및 데모스트레이션</title>
+      <link>https://rvspoc.org/2023/ko/p2301/</link>
+      <pubDate>Fri, 01 Dec 2023 08:06:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ko/p2301/</guid>
+      <description>이 프로젝트에서는 OpenHarmony를 SG2042/Pioneer Box에 이식하고, 그래픽 인터페이스를 시작하여 기본적인 인터넷 브라우징, 오피스 작업 등을 수행할 수 있어야 합니다.</description>
+    </item>
+    <item>
+      <title>Duo에서 Baby LLaMA 2의 속도 최적화 (어린이용 이야기 시나리오)</title>
+      <link>https://rvspoc.org/2023/ko/s2311/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ko/s2311/</guid>
+      <description>Milk-V Duo와 같은 작은 보드에서 Baby LLaMA 2를 실행하는 것은 큰 도전입니다. 이 대회의 목적은 Milk-V Duo 플랫폼에서 Baby LLaMA 2의 성능을 향상시키는 것이며, 목표는 초당 토큰 처리 속도를 높이는 것입니다. 참가자들은 경량 기술과 컴파일러 최적화 전략을 활용하여, 마이크로폰의 음성 입력이나 커맨드 라인 입력 프롬프트 등 다양한 방법을 결합하여 이야기를 들려주는 로봇의 데모를 개발해야 합니다. 이 데모는 스피커를 통해 출력되며, 샤오미 미토 이야기 로봇의 프로토타입 디자인을 참조할 수 있습니다.</description>
+    </item>
+    <item>
+      <title>Duo에서 OpenCV의 속도 최적화</title>
+      <link>https://rvspoc.org/2023/ko/s2309/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ko/s2309/</guid>
+      <description>이 대회는 Milk-V Duo 플랫폼에서 OpenCV의 성능을 향상시키는 것을 목표로 합니다. 참가자는 Milk-V Duo 플랫폼에 OpenCV 라이브러리를 이식하고, 그 성능을 가능한 한 높여야 합니다. 평가 기준은 정확성과 성능의 두 가지 측면에 초점을 맞춥니다: 정확성은 OpenCV의 각 모듈의 회귀 테스트(build/bin/opencv_test_*)로 평가하고, 성능은 OpenCV의 각 모듈의 성능 테스트(build/bin/opencv_perf_*)로 평가합니다. 최종적으로, 위원회는 참가 작품의 회귀 테스트 통과율과 성능 데이터를 기반으로 평가하고, 두 가지는 사전에 설정된 가중치 비율에 따라 최종 점수를 계산하여, 최고 점수를 얻은 참가자가 승자가 됩니다.</description>
+    </item>
+    <item>
+      <title>ncnn의 이식 및 최적화</title>
+      <link>https://rvspoc.org/2023/ko/s2310/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ko/s2310/</guid>
+      <description>ncnn은 매우 우수한 고성능 신경망 계산 프레임워크이며, RISC-V에 대한 지원도 좋습니다. 이 프로젝트에서는 upstream 기반 위에서, Duo의 계산 리소스를 최대한 활용하여 ncnn이 가진 성능 테스트 세트의 점수를 향상시키는 것이 요구됩니다.</description>
+    </item>
+    <item>
+      <title>Node.js의 성능 최적화</title>
+      <link>https://rvspoc.org/2023/ko/s2306/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ko/s2306/</guid>
+      <description>Node.js의 공식 RISC-V 버전을 기반으로, 버그를 수정하고 안정성을 향상시키면서, SG2042/Pioneer Box 하드웨어에서의 최적화를 수행하고, 관련 벤치마크 점수를 가능한 한 높입니다.</description>
+    </item>
+    <item>
+      <title>ROCm 플랫폼의 이식 및 AMD GPU와의 호환성</title>
+      <link>https://rvspoc.org/2023/ko/p2303/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ko/p2303/</guid>
+      <description>ROCm은 AMD가 CUDA에 대항하여 개발한 오픈 소스 계산 프레임워크입니다. 이 프로젝트는 SG2042/Pioneer Box와 함께 임의의 AMD GPU에서 ROCm 프레임워크를 이식하고, RISC-V 기반 이종 컴퓨팅을 실천하며, 오픈 소스 소프트웨어 및 하드웨어의 조합으로 고성능 계산 솔루션을 실현하는 것을 목표로 합니다.</description>
+    </item>
+    <item>
+      <title>중국산 GPU 플랫폼의 이식 및 데모스트레이션</title>
+      <link>https://rvspoc.org/2023/ko/p2304/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ko/p2304/</guid>
+      <description>SG2042/Pioneer Box와 더불어, (주최자가 리스트업한) 임의의 중국산 GPU를 사용하여 Linux 배포판을 실행하고 GNOME/KDE 등의 그래픽 인터페이스를 활성화하며, OpenGL 기반의 3D 벤치마크 테스트 프로그램을 정상적으로 실행하고, 비디오를 재생하며, 오픈 소스 2D/3D 게임을 작동시키는 것이 요구됩니다.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>
+  
+    Index S2306 | Node.js Performance Optimization | RISC-V Software Porting and Optimization Championship
+  
+</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Implement bugfixes and optimization on upstream Node.js for RISC-V, as well as platform-specific optimizations for SG2042/Pioneer Box, optimising benchmark results as much as possible.">
+    <meta name="generator" content="Hugo 0.120.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/2023/ananke/css/main.min.css" >
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://rvspoc.org/2023/en/s2306/">
+    
+
+    <meta property="og:title" content="Node.js Performance Optimization" />
+<meta property="og:description" content="Implement bugfixes and optimization on upstream Node.js for RISC-V, as well as platform-specific optimizations for SG2042/Pioneer Box, optimising benchmark results as much as possible." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rvspoc.org/2023/en/s2306/" /><meta property="article:section" content="challenges" />
+<meta property="article:published_time" content="2023-11-27T19:57:09+08:00" />
+<meta property="article:modified_time" content="2023-11-27T19:57:09+08:00" />
+
+<meta itemprop="name" content="Node.js Performance Optimization">
+<meta itemprop="description" content="Implement bugfixes and optimization on upstream Node.js for RISC-V, as well as platform-specific optimizations for SG2042/Pioneer Box, optimising benchmark results as much as possible."><meta itemprop="datePublished" content="2023-11-27T19:57:09+08:00" />
+<meta itemprop="dateModified" content="2023-11-27T19:57:09+08:00" />
+<meta itemprop="wordCount" content="435">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Node.js Performance Optimization"/>
+<meta name="twitter:description" content="Implement bugfixes and optimization on upstream Node.js for RISC-V, as well as platform-specific optimizations for SG2042/Pioneer Box, optimising benchmark results as much as possible."/>
+
+	
+  </head>
+
+  
+  
+  <body class="ma0 section-challenges sans-serif">
+  
+
+
+    
+
+    
+   
+  
+
+  <header>
+    <div class="bg-orange">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    
+      
+    <a href="/2023/en/" class="f3 fw3 no-underline dib">
+        RISC-V Software Porting and Optimization Championship
+    </a>
+      
+    
+    <div class="flex items-center nav-right">
+      
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/s2306/">简体中文</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ru/s2306/">Русский</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ja/s2306/">日本語</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ko/s2306/">한국어</a>
+    </li>
+    
+</ul>
+
+
+      
+      <ul class="pl0 mr3">
+        
+        <li class="list f5 f5-ns fw4 dib pr3">
+          <a class="no-underline nav-link" href="/2023/en/faq/" title="FAQ page">
+            FAQ
+          </a>
+        </li>
+        
+      </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+    
+  <article class='justify-between mw8 center ph3 challenge '>
+    <nav class="f7"><a href='/2023/en/'>Home</a><span>/</span><a href='/2023/en/challenges/'>Challenges</a></nav>
+    
+    <header class="mt4 w-100">
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 mt3 mb1">Node.js Performance Optimization</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    
+    <div id="challenges-meta" class="mid-gray lh-copy">
+      <div><span>Index:</span><span>S2306</span></div>
+      <div><span>Award:</span><span>20000<span class="currency">Chinese Yuan</span></span></div>
+      
+    </div>
+    
+    <div id="article-body">
+      <div class="nested-copy-line-height lh-copy  f4 nested-links mid-gray"><div>
+          <h2 id="challenge-description"><span class="hline"><a href="#challenge-description" class="hanchor"></a>Challenge Description</span></h2>
+<p>Implement bugfixes and optimization on upstream Node.js for RISC-V, as well as platform-specific optimizations for SG2042/Pioneer Box, optimising benchmark results as much as possible.</p>
+<h2 id="rubrics"><span class="hline"><a href="#rubrics" class="hanchor"></a>Rubrics</span></h2>
+<ol>
+<li>Use the benchmark testsuite in Node.js&rsquo;s source tree as the basis for benchmarking, profiling, and optimization.</li>
+<li>Produce benchmark run results on Node.js v20.10.0, comparing and analysing said results against at least one mainstream platform (ARM64/x86_64) running the same Node.js version.</li>
+<li>Demo optimization results using node-benchmark-compare.</li>
+<li>Final results will be assessed in the form of (1) test analysis report, (2) number of testcases successfully optimised, (3) optimization delta of each testcase, and (4) overall optimization delta.</li>
+</ol>
+<h2 id="submission"><span class="hline"><a href="#submission" class="hanchor"></a>Submission</span></h2>
+<ul>
+<li>Please submit your completed project at <a href="https://github.com/plctlab/rvspoc-s2306-node">https://github.com/plctlab/rvspoc-s2306-node</a> as a pull request.</li>
+<li>Please outline the software environment needed to run your submission in your pull request body.</li>
+<li>During the competition, all optimised artifacts may be submitted as the following:
+<ol>
+<li>Binary files.</li>
+<li>Encrypted code (please send decryption details to <a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a>).</li>
+<li>Source code.</li>
+</ol>
+</li>
+<li>After the results are announced, you will need to publish source code for all submissions.</li>
+<li>The committee will close pull request submissions after the challenge&rsquo;s run time (on <del>February 16</del>February 29, 2024) and commence assessment of submissions.</li>
+</ul>
+<h2 id="assessment"><span class="hline"><a href="#assessment" class="hanchor"></a>Assessment</span></h2>
+<ol>
+<li>The assessment platform for this challenge is <strong>SG2042</strong> (the committee will decide on a specific setup).</li>
+<li><strong>Participants may choose their own operating system and software setups, so long as the committee will be able to reproduce said setup.</strong></li>
+<li>Node.js version used for assessment is the LTS version v20.10.0. Participants may backport mainlined changes.</li>
+<li>Rubrics for weighted optimization assessment (for each benchmark items) will be announced soon.</li>
+<li>The committee will benchmark and average the results from the following software configuration, running on the hardware platform as outlined in item 1, as a baseline for assessing the optimized submissions:</li>
+</ol>
+<ul>
+<li>Fedora 38 on baremetal.</li>
+<li>GCC 13.2 provided by Fedora 38.</li>
+<li>Node.js LTS v20.10.0.</li>
+<li>All bundled dependencies in Node.js, with the exception of OpenSSL.</li>
+<li>OpenSSL version 3.0.8 provided by Fedora 38.</li>
+<li>Uses the default -O3 and LTO optimization flags, all other configurations are upstream defaults.</li>
+</ul>
+<ol start="6">
+<li>The submissions must satisfy all four requirements outlined in the assessment rubrics.</li>
+<li>The most optimized submission wins.</li>
+<li><strong>The details of the challenges may change during the competition as we optimise and clarify the rubrics and instructions. Please keep an eye out for updates. The assessment committee reserves the right to final interpretation of all rubrics and instructions.</strong></li>
+</ol>
+<h2 id="notice-on-intellectual-properties-and-open-source-licenses"><span class="hline"><a href="#notice-on-intellectual-properties-and-open-source-licenses" class="hanchor"></a>Notice on Intellectual Properties and Open Source Licenses</span></h2>
+<p>All challenge submissions must be open source and committed to a specified repository. The participant(s) (author) holds rights to their work. The host encourages contributing any changes made to the upstream.</p>
+<h2 id="resources"><span class="hline"><a href="#resources" class="hanchor"></a>Resources</span></h2>
+<ul>
+<li>Live Replay &amp; Documents (Chinese)： <a href="https://github.com/plctlab/rvspoc/tree/main/archives/2023/Docs/S2306">plctlab/rvspoc:archives/2023/Docs/S2306</a></li>
+</ul>
+
+        </div><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+        
+        </div>
+      </div><aside id="toc" class="f6">
+        <div class="">
+          <p class="f5 b mb3">Table of Contents</p>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#challenge-description">Challenge Description</a></li>
+    <li><a href="#rubrics">Rubrics</a></li>
+    <li><a href="#submission">Submission</a></li>
+    <li><a href="#assessment">Assessment</a></li>
+    <li><a href="#notice-on-intellectual-properties-and-open-source-licenses">Notice on Intellectual Properties and Open Source Licenses</a></li>
+    <li><a href="#resources">Resources</a></li>
+  </ul>
+</nav>
+        </div>
+      </aside></div>
+
+
+  </article>
+
+    </main>
+    <footer class="bg-orange bottom-0 w-100 pa3 f6" role="contentinfo">
+  <div class="justify-between">
+    <div>
+      <span id="copyright">&copy; 2023 RVSPOC</span>
+      <span id="cc-license">
+      Except where otherwise noted, all content on this site is licensed under the 
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license</a>
+      .
+      </span>
+      <div id="email">Email: <a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a></div>
+    </div>
+    
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+  </div>
+</footer>
+
+    <script>
+  function getDismissedBanners() {
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      return JSON.parse(dismissedBannersRaw);
+    } else {
+      return [];
+    }
+  }
+
+  function pushDismissedBanner(dismissedBanner) {
+    let dismissedBanners;
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      dismissedBanners = JSON.parse(dismissedBannersRaw);
+    } else {
+      dismissedBanners = [];
+    }
+    for (const oldDismissedBanner of dismissedBanners) {
+      if (oldDismissedBanner == dismissedBanner) {
+        return;
+      }
+    }
+    dismissedBanners.push(dismissedBanner);
+    dismissedBannersRaw = JSON.stringify(dismissedBanners);
+    localStorage.setItem('dismissedBanners', dismissedBannersRaw);
+  }
+
+  function prepareBanners() {
+    let banners = document.querySelectorAll('body div#banners ul li');
+    let dismissedBanners = getDismissedBanners();
+    for (const banner of banners) {
+      let bannerDismissed = false;
+      for (const dismissedBanner of dismissedBanners) {
+        if (dismissedBanner == banner.id) {
+          bannerDismissed = true;
+          break;
+        }
+      }
+      if (!bannerDismissed) {
+        banner.classList.remove('dismissed');
+      }
+    }
+  }
+
+  function registerCloseEventForBanner() {
+    let closeButtons = document.querySelectorAll('body div#banners ul li a.close');
+    for (const closeButton of closeButtons) {
+      const bannerId = closeButton.getAttribute('data-banner-id');
+      closeButton.addEventListener("click", function(e){
+        pushDismissedBanner(bannerId);
+        const theBanner = document.querySelector('body div#banners ul li#' + bannerId);
+        theBanner.classList.add('dismissed');
+      });
+    }
+  }
+
+  window.addEventListener("DOMContentLoaded", function() {
+    prepareBanners();
+    registerCloseEventForBanner();
+  });
+</script>
+
+  </body>
+</html>

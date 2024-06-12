@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>게시물 on RISC-V 소프트웨어포팅및최적화챔피언십</title>
+    <link>https://rvspoc.org/2023/ko/posts/</link>
+    <description>Recent content in 게시물 on RISC-V 소프트웨어포팅및최적화챔피언십</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Sat, 28 Oct 2023 00:28:09 +0800</lastBuildDate>
+    <atom:link href="https://rvspoc.org/2023/ko/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>제1회 &#34;RISC-V 소프트웨어 이식 및 최적화 챔피언십&#34; 준비활동 정식으로 시작합니다.</title>
+      <link>https://rvspoc.org/2023/ko/00/</link>
+      <pubDate>Sat, 28 Oct 2023 00:28:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ko/00/</guid>
+      <description>&lt;strong&gt;RISC-V&lt;/strong&gt;는 &lt;strong&gt;MCU&lt;/strong&gt; 및 &lt;strong&gt;IoT&lt;/strong&gt; 영역에서 수십억 출하 실적이 있으며 현재 데스크톱 계산, &lt;strong&gt;HPC&lt;/strong&gt;, &lt;strong&gt;AI&lt;/strong&gt;, 데이터센터 등 대규모 계산 진출을 시도하고 있습니다.임베디드 시스템이나 IoT용 소프트웨어 환경과 비교하면 데스크톱이나 서버용 소프트웨어 환경은 매우 다양하며 이식이나 최적화에는 많은 작업이 필요합니다.</description>
+    </item>
+  </channel>
+</rss>

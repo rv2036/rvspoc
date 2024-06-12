@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on RISC-V Software Porting and Optimization Championship</title>
+    <link>https://rvspoc.org/2023/en/posts/</link>
+    <description>Recent content in Posts on RISC-V Software Porting and Optimization Championship</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 28 Oct 2023 00:28:09 +0800</lastBuildDate>
+    <atom:link href="https://rvspoc.org/2023/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preparation for the Inaugural “RISC-V Software Porting and Optimization Championship” Officially Launched</title>
+      <link>https://rvspoc.org/2023/en/00/</link>
+      <pubDate>Sat, 28 Oct 2023 00:28:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/en/00/</guid>
+      <description>To date, billions of RISC-V devices has already been deployed in the MCU/IoT realms and is poised to challenge established players in the desktop computing, HPC, AI, and database markets. Compared to the embedded and IoT software ecosystem, the world of desktops and servers boast a vast software ecosystem demands considerable porting and optimization efforts.</description>
+    </item>
+  </channel>
+</rss>

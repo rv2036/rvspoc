@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RISC-V 软件移植及优化锦标赛</title>
+    <link>https://rvspoc.org/2023/</link>
+    <description>Recent content on RISC-V 软件移植及优化锦标赛</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 29 May 2024 09:30:00 +0800</lastBuildDate>
+    <atom:link href="https://rvspoc.org/2023/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一届 RISC-V 软件移植及优化锦标赛欢庆会暨第二届启动仪式圆满落幕</title>
+      <link>https://rvspoc.org/2023/08/</link>
+      <pubDate>Wed, 29 May 2024 09:30:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/08/</guid>
+      <description>5 月 26 日，第一届 RISC-V 软件移植及优化锦标赛欢庆会暨第二届启动仪式于上海外滩成功举办。现场氛围融洽热烈，线上参与者也踊跃互动，共同见证了这一精彩时刻。主办方上海苦芽科技有限公司代表，同时也是锦标赛主席和评委的李程先生在会议上致辞。他首先对第一届 RISC-V 软件移植及优化锦标赛进行了全面的总结：经过长达三个月的激烈角逐，本次锦标赛共吸引了 101 组队伍踊跃参与，收到了 20 个高质量的提交作品。最终，经过严格评审，诞生了 10 组冠军队伍。李程特别感谢算能对第一届锦标赛给予的大力支持。作为主办方之一的算能为本届锦标赛提供了实验平台，由于开发环境友好，此平台也成为选手们毕业设计的首选平台，此外冠军选手的奖金也由算能赞助。再次表示衷心的感谢，希望继续保持紧密合作。</description>
+    </item>
+    <item>
+      <title>首届 RISC-V 软件移植及优化锦标赛欢庆会暨第二届启动仪式，诚挚邀请您来参加</title>
+      <link>https://rvspoc.org/2023/07/</link>
+      <pubDate>Fri, 17 May 2024 21:30:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/07/</guid>
+      <description>我们将于 5 月 26 日下午 2 点在上海外滩中星君亭酒店，举办《第一届 RVPSOC 完结聚会暨第二届启动仪式》。届时，多位业内资深专家将莅临现场，与各位共同交流探讨 RISC-V 技术的最新动态与发展趋势。</description>
+    </item>
+    <item>
+      <title>RISC-V 软件移植及优化锦标赛公示期结束，进入颁奖准备环节！</title>
+      <link>https://rvspoc.org/2023/06/</link>
+      <pubDate>Thu, 11 Apr 2024 00:05:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/06/</guid>
+      <description>RISC-V 软件移植及优化锦标赛为期一周的公示期结束，进入颁奖准备环节。本次锦标赛共产生 10 组冠军队伍，总奖金 180000 元人民币。</description>
+    </item>
+    <item>
+      <title>RISC-V 软件移植及优化锦标赛结果出炉，进入一周公示期</title>
+      <link>https://rvspoc.org/2023/05/</link>
+      <pubDate>Wed, 03 Apr 2024 15:30:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/05/</guid>
+      <description>经过了 3 个月的比赛和 1 个月的选手结果验证，RISC-V 全球锦标赛圆满落下帷幕。本次比赛共有 12 道赛题，其中有 4 道赛题没有收到任何提交，其余 8 道赛题分别收到了一组或多组提交，去除同一选手重复提交后共计 18 个提交。评委会通过选手的各项得分综合评比，选出了 10 名冠军。比赛的最终结果将在比赛官网进行公示，公示期一周，从 2024/4/3 开始至 2024/4/10 结束。</description>
+    </item>
+    <item>
+      <title>RISC-V 软件移植及优化锦标赛验证结果公示中，参赛者已基本完成确认</title>
+      <link>https://rvspoc.org/2023/04/</link>
+      <pubDate>Fri, 29 Mar 2024 16:36:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/04/</guid>
+      <description>RISC-V 软件移植及优化锦标赛验证结果已公示 3 天，目前大部分参赛选手已完成确认。验证结果发布在锦标赛官网所属 GitHub 仓库内 &lt;a href=&#34;https://github.com/plctlab/rvspoc/tree/main/Results&#34;&gt;https://github.com/plctlab/rvspoc/tree/main/Results&lt;/a&gt; 。本次锦标赛设 12 道赛题，共收到 18 支参赛队伍提交的 20 份 PR。已联系到 17 支参赛队伍，1 支参赛队伍已发送邮件，未回应。目前有 6 支参赛队伍尚未确认 pr 验证结果。所有参赛队伍确认情况统计如下：</description>
+    </item>
+    <item>
+      <title>RISC-V 软件移植及优化锦标赛已完成结果验证，进入选手复核阶段</title>
+      <link>https://rvspoc.org/2023/03/</link>
+      <pubDate>Mon, 25 Mar 2024 19:56:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/03/</guid>
+      <description>经过评委老师们 20 多天的辛苦努力，目前参赛选手的提交结果已经验证完毕。验证结果发布在锦标赛官网所属 GitHub 仓库内 &lt;a href=&#34;https://github.com/plctlab/rvspoc/tree/main/Results&#34;&gt;https://github.com/plctlab/rvspoc/tree/main/Results&lt;/a&gt; 。接下来将进入选手确认和挑战/勘误环节，选手们可在官方网站上查阅验证结果，如有争议可在 PR 里评论处提交。确认环节为期一周时间，对于有争议的结果会根据需要延长复核时间。</description>
+    </item>
+    <item>
+      <title>注意｜RISC-V 锦标赛截止时间延长至 2 月 29 日</title>
+      <link>https://rvspoc.org/2023/02/</link>
+      <pubDate>Sun, 04 Feb 2024 17:02:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/02/</guid>
+      <description>RISC-V 全球锦标赛正在如火如荼的进行，在过去两周我们又收到了多个参赛队伍的报名，并且已经开始有参赛队伍陆续提交结果。考虑到 2 月份前两周恰逢春节假期，很多参赛的伙伴需要跟 12306 和雨雪天气斗智斗勇，为了让参赛选手们在更为熟悉的环境下释放灵感，确保每位参赛者都有充足的时间进行比赛，RISC-V 软件移植与优化锦标赛组委会一致同意决定将比赛的截止时间延长至 2 月 29 日。</description>
+    </item>
+    <item>
+      <title>流式 ASR 在 SG2002 上的移植优化</title>
+      <link>https://rvspoc.org/2023/s2312/</link>
+      <pubDate>Thu, 28 Dec 2023 15:09:10 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/s2312/</guid>
+      <description>自然语音交互是人机交互的重要形式之一，但由于高精度的 ASR 模型的运算量巨大，导致 ASR 通常在云端执行，降低了人机交互的体验感。本次竞赛旨在算能 SG2002 处理器上移植高精度的流式 ASR，可选汉语或者英语的 ASR 识别模型，目标是在受限内存 (256 MByte)、实时流式识别 (RTF &amp;lt; 1) 的要求下，实现尽可能低的 WER。参赛者可以参考新一代 Kaldi，Wenet 等开源语音识别项目进行移植</description>
+    </item>
+    <item>
+      <title>Xv6 移植和演示</title>
+      <link>https://rvspoc.org/2023/p2308/</link>
+      <pubDate>Fri, 01 Dec 2023 08:10:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/p2308/</guid>
+      <description>本项目要求将 Xv6 移植到 Milk-V Duo 上，并能通过串口进行交互，能够完成基本外设的使用，编译并运行系统和外设测试示例。</description>
+    </item>
+    <item>
+      <title>Zephyr 移植和演示</title>
+      <link>https://rvspoc.org/2023/p2307/</link>
+      <pubDate>Fri, 01 Dec 2023 08:09:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/p2307/</guid>
+      <description>本项目要求将 Zephyr 移植到 Milk-V Duo 上，并能通过串口进行交互，能够完成基本外设的使用，编译并运行系统和外设测试示例。</description>
+    </item>
+    <item>
+      <title>OpenGauss 数据库移植和优化</title>
+      <link>https://rvspoc.org/2023/s2305/</link>
+      <pubDate>Fri, 01 Dec 2023 08:08:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/s2305/</guid>
+      <description>将 OpenGauss 运行在 SG2042/Pioneer Box 上（操作系统推荐 openEuler 但是可以使用任意 Linux 发行版），尽可能高的提升相关 Benchmark 的分数。</description>
+    </item>
+    <item>
+      <title>二进制翻译及优化</title>
+      <link>https://rvspoc.org/2023/s2302/</link>
+      <pubDate>Fri, 01 Dec 2023 08:07:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/s2302/</guid>
+      <description>在 SG2042/Pioneer Box 上，使用类似 QEMU 的模拟器或翻译工具，运行 x86 或者 ARM64 程序。运行 Windows 程序则有可能需要挑战者同时熟悉 Wine 或类似的工具。本赛题的目标是尽可能提高翻译效率。</description>
+    </item>
+    <item>
+      <title>OpenHarmony 在 SG2042 上的移植和演示</title>
+      <link>https://rvspoc.org/2023/p2301/</link>
+      <pubDate>Fri, 01 Dec 2023 08:06:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/p2301/</guid>
+      <description>本项目要求将 OpenHarmony 移植到 SG2042/Pioneer Box 上并启动图形界面，能够完成基本的网络浏览、办公等操作。</description>
+    </item>
+    <item>
+      <title>Baby LLaMA 2 on Duo 速度优化（儿童讲故事场景）</title>
+      <link>https://rvspoc.org/2023/s2311/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/s2311/</guid>
+      <description>让 Baby LLaMA 2 运行在 Milk-V Duo 这样的小板子上是很有挑战的事情。本次竞赛旨在提升 Baby LLaMA 2 在 Milk-V Duo 平台上的性能，目标是实现更高的每秒 Token 处理速度。参赛者需要运用轻量级技术和编译器优化策略，结合麦克风语音输入或命令行输入提示词等多种方式，开发一个能够讲故事的机器人 Demo。该 Demo 应通过扬声器进行输出，并可借鉴小米米兔讲故事机器人的原型设计</description>
+    </item>
+    <item>
+      <title>ncnn 移植和优化</title>
+      <link>https://rvspoc.org/2023/s2310/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/s2310/</guid>
+      <description>ncnn 是非常优秀的高性能神经网络计算框架，并且已经有着良好的 RISC-V 支持。本项目要求在 upstream 的基础上，尽最大可能利用 Duo 的算力资源，提高 ncnn 自带性能测试集的分数。</description>
+    </item>
+    <item>
+      <title>Node.js 性能优化</title>
+      <link>https://rvspoc.org/2023/s2306/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/s2306/</guid>
+      <description>在 Node.js 官方 RISC-V 版本的基础上，修复 bug 提升稳定性的同时，基于 SG2042/Pioneer Box 硬件实施优化，尽可能高的提升相关 Benchmark 的分数。</description>
+    </item>
+    <item>
+      <title>OpenCV 在 Duo 上的速度优化</title>
+      <link>https://rvspoc.org/2023/s2309/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/s2309/</guid>
+      <description>本次竞赛旨在提升 OpenCV 在 Milk-V Duo 平台上的性能，参赛者需要将 OpenCV 库移植到 Milk-V Duo 平台上，并尽可能提升其性能。评审标准将聚焦于正确性和性能两个方面：正确性评价使用 OpenCV 各模块的回归测试 (build/bin/opencv_test_*) 进行评估。性能评价使用 OpenCV 各模块的性能测试 (build/bin/opencv_perf_*) 进行评估。最终，组委会将根据参赛作品的回归测试通过率和性能数据进行评分，两者将按照预设的加权比例计算出最终得分，得分最高的参赛者将获得胜利。</description>
+    </item>
+    <item>
+      <title>ROCm 平台移植并兼容 AMD GPU</title>
+      <link>https://rvspoc.org/2023/p2303/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/p2303/</guid>
+      <description>ROCm 是 AMD 对标 CUDA 的开源计算框架。本项目旨在 SG2042/Pioneer Box + 任意一款 AMD GPU 上移植 ROCm 框架，以实践基于 RISC-V 异构计算，实现开源软硬件结合的高性能计算方案。</description>
+    </item>
+    <item>
+      <title>国产 GPU 平台移植和演示</title>
+      <link>https://rvspoc.org/2023/p2304/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/p2304/</guid>
+      <description>在 SG2042/Pioneer Box + 任意一款（主办方列出的）国产 GPU 上，运行 Linux 发行版并启用 GNOME/KDE 等图形界面，能够正常运行 OpenGL 基准 3D 测试程序、播放视频、运行开源 2D/3D 游戏。</description>
+    </item>
+    <item>
+      <title>拥抱开源生态，算能携手软件所 PLCT 实验室联合举办 RISC-V 软件移植优化锦标赛</title>
+      <link>https://rvspoc.org/2023/01/</link>
+      <pubDate>Tue, 14 Nov 2023 14:49:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/01/</guid>
+      <description>为推动 RISC-V 软件生态加速发展，&lt;strong&gt;算能作为 RISC-V 生态的领先企业，与 RISC-V 中国社区、中科院软件所 PLCT 实验室联合发起“RISC-V 软件移植及优化锦标赛”活动&lt;/strong&gt;，以桌面和服务器软件生态为重点，在编译器、运行时环境、AI 软件栈等多个方面公开提出一系列比赛题目，邀请全球开发者完成挑战并赢取奖金。</description>
+    </item>
+    <item>
+      <title>首届「RISC-V 软件移植及优化锦标赛」筹备工作正式启动，诚邀赞助</title>
+      <link>https://rvspoc.org/2023/00/</link>
+      <pubDate>Thu, 19 Oct 2023 20:30:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/00/</guid>
+      <description>RISC-V 已经在 MCU/IoT 等领域有了数十亿的出货，正在朝着桌面计算、HPC、AI、数据中心等大算力领域挑战。相比于嵌入式和物联网领域的软件生态，桌面及服务器的软件生态丰富，需要移植和优化的工作量是巨大的。</description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>https://rvspoc.org/2023/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rvspoc.org/2023/faq/</guid>
+      <description>一个团队/个人报名一次后可以参与多少个题目的比赛？ 答：一旦报名即可参与所有题目的比赛，无个数上限。 本次锦标赛是否由赛事组委会提供设备？以什么形式提供？ 答： CV1800B/Milk-V Duo 设备需要自行准备； SG2042/Pioneer Box 设备会于 2023 年 12 月 31 日前以 SSH 连接的形式提供，具体请留意通知。 赛题结果提交后如何判定优胜？ 答： 针对「适配夺旗赛」（即 P 类题），除赛题特别说明外，第一个完整通过测试并提交的个人参赛者或团队即为胜出者。 针对「优化竞速赛」（即 S 类题），每个赛题均设定了优化评价指标，在比赛截止时间之前提交的</description>
+    </item>
+    <item>
+      <title>List of registered teams</title>
+      <link>https://rvspoc.org/2023/2023/teams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rvspoc.org/2023/2023/teams/</guid>
+      <description>Team ID Team Name Team/Individual Team Members Status of confirmation 1 asdf 个人参赛 TBA 信息确认中 2 大猫狸 团体参赛 TBA 信息确认中 3 向日葵 个人参赛 TBA 信息确认中 4 Rising 个人参赛 TBA 信息确认中 6 不挂机 个人参赛 TBA 信息确认中 7 dddd队 个人参赛 TBA 信息确认中 8 OStar 团体参赛 TBA 信息确认中 9 oos小队 团体参赛 TBA 信息确认中 10 yzw 个人参赛 TBA 信息确认中 11 挖掘机 个人参赛 TBA 信息确认中 12 chamchamgo 个人参赛 TBA 信息确认中 13 三月琴 个人参赛 TBA 信息确认中 15 JQKA 个人参赛 TBA 信息确认中 16 233 个人参赛 TBA 信息确认中 17 茴香豆 个人参赛 TBA 信息确认中 18 Jude小队 个人参赛 TBA 信息确认中 19 小口</description>
+    </item>
+    <item>
+      <title>第一届 RISC-V 软件移植与优化全球锦标赛（RVSPOC）评审委员会（2023 年）</title>
+      <link>https://rvspoc.org/2023/2023/committee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rvspoc.org/2023/2023/committee/</guid>
+      <description>本届锦标赛评委会人员组成如下： 吴 伟 PLCT 实验室项目总监、 LLVM 基金会董事 邱 吉 PLCT 实验室技术总监、 V8 RISC-V maintainer 邢明杰 中国科学院软件研究所高级工程师、 OpenCV RISC-V 领域主席 夏 琦 华为技术有限公司 openGauss 高级研发工程师、 openGauss 开源社区 POC 负责人 张洪滨 中国科学院大学博士生、 BuddyCompiler 编译器社区核心成员 韩柳彤 中国科学院大学博士生、 OpenCV RISC-V 贡献者 李威威 苦芽科技 CEO、 QEMU 活跃贡献者 王俊强 苦芽科技 CTO、 openEuler RISC-V SIG maintainer 李 程 RVSPOC 组委会成员 孙 敏 RVSPOC 组委会成员 钱耀津 RVSPOC 组委会成员</description>
+    </item>
+    <item>
+      <title>第一届 RISC-V 软件移植与优化全球锦标赛（RVSPOC）组织委员会（2023 年）</title>
+      <link>https://rvspoc.org/2023/2023/organizers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rvspoc.org/2023/2023/organizers/</guid>
+      <description>本届锦标赛组委会人员组成如下： 李 程 RVSPOC 组委会主席 孙 敏 RVSPOC 组委会成员 钱耀津 RVSPOC 组委会成员 王文君 RVSPOC 组委会成员 吴 伟 RVSPOC 组委会成员、 PLCT 实验室项目总监、 LLVM 基金会董事</description>
+    </item>
+    <item>
+      <title>国产 GPU 列表</title>
+      <link>https://rvspoc.org/2023/cn-domestic-gpu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rvspoc.org/2023/cn-domestic-gpu/</guid>
+      <description>以下为本次锦标赛所指定的国产 GPU 列表，主要关联赛题：P2304 国产 GPU 平台移植和演示。 厂商 型号 链接 备注 摩尔线程 (MTT) S30, S80 等 https://www.mthreads.com/product/S10https://www.mthreads.com/product/S80 不限制具体显卡型号 芯瞳 GenBu01 https://www.sietium.com/index.php?m=content&amp;amp;c=index&amp;amp;a=show&amp;amp;catid=27&amp;amp;id=1 景嘉微 JM7200, JM7201, JM9100, JM9200 JM7200: TBAJM7201: https://www.jemoic.com/products_6/382.htmlJM9100: https://www.jemoic.com/products_6/381.htmlJM9200: https://www.jemoic.com/products_6/569.html 凌久 GP101, GP102 GP101: http://www.ljmicro.cn/productInfo.html?id=26GP102: http://www.ljmicro.cn/productInfo.html?id=25 格兰菲 Arise 1020 TBA 以上列表的最终解释权归 RVSPOC 组委会。</description>
+    </item>
+    <item>
+      <title>赛事说明</title>
+      <link>https://rvspoc.org/2023/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rvspoc.org/2023/introduction/</guid>
+      <description>背景介绍 RISC-V 软件移植及优化锦标赛是由 PLCT 实验室和算能科技联合发起的。目前，RISC-V 开源软件生态已经初具规模，功能基本可用，但是没有达到像 x86 或 ARM64 的优化水平。为了推动 RISC-V 软件生态更快地发展，吸引更多的开发者加入到 RISC-V 生态中来，PLCT 实验室联合算能科技发起本次锦标赛。本届比赛将以桌面和服务器软件生态为重点，在编译器、运行时环境、AI 软件栈等多个方面公开提出一系列比赛题目，邀请全球开发者完成挑战并赢取奖金。 比赛验证环境 除赛题 S2312 需要在 SG2002 中验证外，其余赛题的所有提交结果</description>
+    </item>
+    <item>
+      <title>首届 RISC-V 软件移植及优化锦标赛冠军名单</title>
+      <link>https://rvspoc.org/2023/2023/champions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rvspoc.org/2023/2023/champions/</guid>
+      <description>本届（2023 年）锦标赛共产生 10 组冠军队伍，名单如下（排名不分先后）： 「你走线如丁似蛋」队 P2307Zephyr 移植和演示 plctlab/rvspoc-p2307-zephyr#1 「OStar」队 P2308Xv6 移植和演示 plctlab/rvspoc-p2308-xv6-riscv#4 Xhackerustc P2308Xv6 移植和演示 plctlab/rvspoc-p2308-xv6-riscv#2 xctan S2302二进制翻译及优化 plctlab/rvspoc-s2302-BT#1 nexplorer-3e S2305OpenGauss 数据库移植和优化 plctlab/rvspoc-s2305-openGauss-server#2 「飞旺凯」队 S2305OpenGauss 数据库移植和优化 plctlab/rvspoc-s2305-openGauss-server#3 liuyd-dev S2306Node.js 性能优化 plctlab/rvspoc-s2306-node#1 「好吃的卷卷」队 S2309OpenCV 在 Duo 上的速度优化 plctlab/rvspoc-s2309-opencv#1 「啊对对队」队 S2310ncnn 移植和优化 plctlab/rvspoc-s2310-ncnn#2 「操练TPU」队 S2311Baby LLaMA 2 on Duo 速度优化（儿童讲故事场景） plctlab/rvspoc-s2311-llama2#4</description>
+    </item>
+  </channel>
+</rss>
