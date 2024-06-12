@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>チャレンジ on RISC-V ソフトウェアの移植と最適化チャンピオンシップ</title>
+    <link>https://rvspoc.org/2023/ja/challenges/</link>
+    <description>Recent content in チャレンジ on RISC-V ソフトウェアの移植と最適化チャンピオンシップ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Thu, 28 Dec 2023 15:09:10 +0800</lastBuildDate>
+    <atom:link href="https://rvspoc.org/2023/ja/challenges/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SG2002上での流式ASRの移植最適化</title>
+      <link>https://rvspoc.org/2023/ja/s2312/</link>
+      <pubDate>Thu, 28 Dec 2023 15:09:10 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ja/s2312/</guid>
+      <description>自然言語の音声対話は人間とコンピュータの対話の重要な形態の一つですが、高精度なASRモデルの計算量が膨大であるため、通常はクラウドでASRが実行され、人間とコンピュータのインタラクション体験が低下します。本コンテストでは、SG2002プロセッサ上で高精度な流式ASRを移植することを目指し、中国語または英語のASR認識モデルを選択できます。目標は、限られたメモリ（256Mバイト）、リアルタイムストリーミング認識（RTF &amp;lt; 1）の要件の下で、できるだけ低いWERを実現することです。参加者は、新世代のKaldi、Wenetなどのオープンソース音声認識プロジェクトを参考にして移植することができます。</description>
+    </item>
+    <item>
+      <title>Xv6の移植とデモンストレーション</title>
+      <link>https://rvspoc.org/2023/ja/p2308/</link>
+      <pubDate>Fri, 01 Dec 2023 08:10:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ja/p2308/</guid>
+      <description>本プロジェクトでは、Xv6をMilk-V Duoに移植し、シリアルポートを通じての対話が可能にし、基本的なペリフェラルの使用を完了し、システムとペリフェラルのテスト例をコンパイルし実行することが求められます。</description>
+    </item>
+    <item>
+      <title>Zephyrの移植とデモンストレーション</title>
+      <link>https://rvspoc.org/2023/ja/p2307/</link>
+      <pubDate>Fri, 01 Dec 2023 08:09:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ja/p2307/</guid>
+      <description>本プロジェクトでは、ZephyrをMilk-V Duoに移植し、シリアルポートを通じての対話が可能にし、基本的なペリフェラルの使用を完了し、システムとペリフェラルのテスト例をコンパイルし実行することが求められます。</description>
+    </item>
+    <item>
+      <title>OpenGauss データベースの移植と最適化</title>
+      <link>https://rvspoc.org/2023/ja/s2305/</link>
+      <pubDate>Fri, 01 Dec 2023 08:08:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ja/s2305/</guid>
+      <description>SG2042/Pioneer Box上でOpenGaussを動作させます（オペレーティングシステムはopenEulerが推奨されていますが、任意のLinuxディストリビューションを使用可能）。関連するベンチマークのスコアを可能な限り高くします。</description>
+    </item>
+    <item>
+      <title>バイナリ翻訳及び最適化</title>
+      <link>https://rvspoc.org/2023/ja/s2302/</link>
+      <pubDate>Fri, 01 Dec 2023 08:07:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ja/s2302/</guid>
+      <description>SG2042/Pioneer Box上で、QEMUのようなエミュレーターや翻訳ツールを使用して、x86またはARM64のプログラムを実行します。Windowsプログラムの実行には、Wineや類似のツールに精通していることが求められる場合があります。この課題の目標は、翻訳効率を可能な限り高めることです。</description>
+    </item>
+    <item>
+      <title>SG2042でのOpenHarmonyの移植とデモンストレーション</title>
+      <link>https://rvspoc.org/2023/ja/p2301/</link>
+      <pubDate>Fri, 01 Dec 2023 08:06:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ja/p2301/</guid>
+      <description>本プロジェクトでは、OpenHarmonyをSG2042/Pioneer Boxに移植し、グラフィカルインターフェースを起動し、基本的なネットブラウジング、オフィス作業などが行えることが求められます。</description>
+    </item>
+    <item>
+      <title>DuoでOpenCVのスピード最適化</title>
+      <link>https://rvspoc.org/2023/ja/s2309/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ja/s2309/</guid>
+      <description>このコンテストは、Milk-V Duoプラットフォーム上でのOpenCVの性能を向上させることを目的としています。参加者は、Milk-V DuoプラットフォームにOpenCVライブラリを移植し、その性能をできる限り向上させる必要があります。評価基準は、正確性と性能の2つの側面に焦点を当てます：正確性はOpenCVの各モジュールの回帰テスト（build/bin/opencv_test_*）で評価し、性能はOpenCVの各モジュールのパフォーマンステスト（build/bin/opencv_perf_*）で評価します。最終的に、委員会は参加作品の回帰テストの通過率と性能データに基づいて評価し、両者は事前に設定された加重比率に基づいて最終スコアを算出し、最高得点を獲得した参加者が勝者となります。</description>
+    </item>
+    <item>
+      <title>DuoでのBaby LLaMA 2の速度最適化（子供向けお話しシナリオ）</title>
+      <link>https://rvspoc.org/2023/ja/s2311/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ja/s2311/</guid>
+      <description>Milk-V Duoのような小型のボードでBaby LLaMA 2を実行することは大きな挑戦です。このコンテストの目的は、Milk-V Duoプラットフォーム上でのBaby LLaMA 2の性能を向上させることであり、目標は毎秒トークン処理速度を高めることです。参加者は軽量技術とコンパイラ最適化戦略を活用し、マイクロフォンの音声入力やコマンドラインの入力プロンプトなど、さまざまな方法を組み合わせて、物語を語るロボットのデモを開発する必要があります。このデモはスピーカーを通じて出力され、小米米兔のお話しロボットのプロトタイプデザインを参考にすることができます。</description>
+    </item>
+    <item>
+      <title>ncnnの移植と最適化</title>
+      <link>https://rvspoc.org/2023/ja/s2310/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ja/s2310/</guid>
+      <description>ncnnは非常に優れた高性能ニューラルネットワーク計算フレームワークであり、RISC-Vに対するサポートも良好です。このプロジェクトでは、upstreamの基盤上で、Duoの計算リソースを最大限に活用し、ncnnの持つ性能テストセットのスコアを向上させることが求められます。</description>
+    </item>
+    <item>
+      <title>Node.jsのパフォーマンス最適化</title>
+      <link>https://rvspoc.org/2023/ja/s2306/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ja/s2306/</guid>
+      <description>Node.jsの公式RISC-V版を基に、バグを修正して安定性を向上させつつ、SG2042/Pioneer Boxハードウェアでの最適化を行い、関連するベンチマークのスコアを可能な限り高めます。</description>
+    </item>
+    <item>
+      <title>ROCmプラットフォームの移植およびAMD GPUとの互換性</title>
+      <link>https://rvspoc.org/2023/ja/p2303/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ja/p2303/</guid>
+      <description>ROCmは、AMDがCUDAに対抗して開発したオープンソースの計算フレームワークです。本プロジェクトは、SG2042/Pioneer Boxに加えて任意のAMD GPU上でROCmフレームワークを移植し、RISC-Vに基づくヘテロジニアスコンピューティングを実践し、オープンソースのソフトウェアとハードウェアの組み合わせによる高性能計算ソリューションを実現することを目的としています。</description>
+    </item>
+    <item>
+      <title>中国産GPUプラットフォームの移植とデモンストレーション</title>
+      <link>https://rvspoc.org/2023/ja/p2304/</link>
+      <pubDate>Mon, 27 Nov 2023 19:57:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/ja/p2304/</guid>
+      <description>SG2042/Pioneer Boxに加えて、（主催者がリストアップした）任意の中国産GPUを使用し、Linuxディストリビューションを実行してGNOME/KDEなどのグラフィカルインターフェースを有効にし、OpenGLベースの3Dベンチマークテストプログラムを正常に実行し、ビデオを再生し、オープンソースの2D/3Dゲームを動作させることが求められます。</description>
+    </item>
+  </channel>
+</rss>

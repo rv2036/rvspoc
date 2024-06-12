@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>
+  
+    Index S2311 | Baby LLaMA 2 Optimization for Duo (Kids Book Read Aloud) | RISC-V Software Porting and Optimization Championship
+  
+</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="It is a feat to get Baby LLaMA 2 running on small development boards like the Milk-V Duo. This challenge aims to improve Baby LLaMA 2 performance on Milk-V Duo, as assessed by tokens processed per second. The participant will make use of lightweight techniques and compiler optimization principles to develop a story-telling robot with support for microphone and command-line input. The demo should output robotic voice via speakers.">
+    <meta name="generator" content="Hugo 0.120.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/2023/ananke/css/main.min.css" >
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://rvspoc.org/2023/en/s2311/">
+    
+
+    <meta property="og:title" content="Baby LLaMA 2 Optimization for Duo (Kids Book Read Aloud)" />
+<meta property="og:description" content="It is a feat to get Baby LLaMA 2 running on small development boards like the Milk-V Duo. This challenge aims to improve Baby LLaMA 2 performance on Milk-V Duo, as assessed by tokens processed per second. The participant will make use of lightweight techniques and compiler optimization principles to develop a story-telling robot with support for microphone and command-line input. The demo should output robotic voice via speakers." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rvspoc.org/2023/en/s2311/" /><meta property="article:section" content="challenges" />
+<meta property="article:published_time" content="2023-11-27T19:57:09+08:00" />
+<meta property="article:modified_time" content="2023-11-27T19:57:09+08:00" />
+
+<meta itemprop="name" content="Baby LLaMA 2 Optimization for Duo (Kids Book Read Aloud)">
+<meta itemprop="description" content="It is a feat to get Baby LLaMA 2 running on small development boards like the Milk-V Duo. This challenge aims to improve Baby LLaMA 2 performance on Milk-V Duo, as assessed by tokens processed per second. The participant will make use of lightweight techniques and compiler optimization principles to develop a story-telling robot with support for microphone and command-line input. The demo should output robotic voice via speakers."><meta itemprop="datePublished" content="2023-11-27T19:57:09+08:00" />
+<meta itemprop="dateModified" content="2023-11-27T19:57:09+08:00" />
+<meta itemprop="wordCount" content="669">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Baby LLaMA 2 Optimization for Duo (Kids Book Read Aloud)"/>
+<meta name="twitter:description" content="It is a feat to get Baby LLaMA 2 running on small development boards like the Milk-V Duo. This challenge aims to improve Baby LLaMA 2 performance on Milk-V Duo, as assessed by tokens processed per second. The participant will make use of lightweight techniques and compiler optimization principles to develop a story-telling robot with support for microphone and command-line input. The demo should output robotic voice via speakers."/>
+
+	
+  </head>
+
+  
+  
+  <body class="ma0 section-challenges sans-serif">
+  
+
+
+    
+
+    
+   
+  
+
+  <header>
+    <div class="bg-orange">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    
+      
+    <a href="/2023/en/" class="f3 fw3 no-underline dib">
+        RISC-V Software Porting and Optimization Championship
+    </a>
+      
+    
+    <div class="flex items-center nav-right">
+      
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/s2311/">简体中文</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ru/s2311/">Русский</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ja/s2311/">日本語</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ko/s2311/">한국어</a>
+    </li>
+    
+</ul>
+
+
+      
+      <ul class="pl0 mr3">
+        
+        <li class="list f5 f5-ns fw4 dib pr3">
+          <a class="no-underline nav-link" href="/2023/en/faq/" title="FAQ page">
+            FAQ
+          </a>
+        </li>
+        
+      </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+    
+  <article class='justify-between mw8 center ph3 challenge '>
+    <nav class="f7"><a href='/2023/en/'>Home</a><span>/</span><a href='/2023/en/challenges/'>Challenges</a></nav>
+    
+    <header class="mt4 w-100">
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 mt3 mb1">Baby LLaMA 2 Optimization for Duo (Kids Book Read Aloud)</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    
+    <div id="challenges-meta" class="mid-gray lh-copy">
+      <div><span>Index:</span><span>S2311</span></div>
+      <div><span>Award:</span><span>20000<span class="currency">Chinese Yuan</span></span></div>
+      
+    </div>
+    
+    <div id="article-body">
+      <div class="nested-copy-line-height lh-copy  f4 nested-links mid-gray"><div>
+          <h2 id="challenge-description"><span class="hline"><a href="#challenge-description" class="hanchor"></a>Challenge Description</span></h2>
+<p>It is a feat to get Baby LLaMA 2 running on small development boards like the Milk-V Duo. This challenge aims to improve Baby LLaMA 2 performance on Milk-V Duo, as assessed by tokens processed per second. The participant will make use of lightweight techniques and compiler optimization principles to develop a story-telling robot with support for microphone and command-line input. The demo should output robotic voice via speakers.</p>
+<h2 id="rubrics"><span class="hline"><a href="#rubrics" class="hanchor"></a>Rubrics</span></h2>
+<ol>
+<li>Submissions will be evaluated based on both accuracy and performance, each submission will be given the same input and assessed based on reference testsuites for accuracy and performance.</li>
+<li>Accuracy will be assessed based on a delta difference between submitted output and reference output, evaluating the application of optimization techniques and their effect on the accuracy of model inference. Performance will be assessed based on the number of tokens processed per second.</li>
+<li>Time elapsed during Text-to-Speech (TTS) computation.</li>
+<li>The host will assess both accuracy and performance and assign scores to each submission based on a predetermined weighted scale. The highest scoring submission wins.</li>
+</ol>
+<h2 id="submission"><span class="hline"><a href="#submission" class="hanchor"></a>Submission</span></h2>
+<ul>
+<li>Please submit your completed project at <a href="https://github.com/plctlab/rvspoc-s2311-llama2">https://github.com/plctlab/rvspoc-s2311-llama2</a> as a pull request.</li>
+<li>Please outline the software environment needed to run your submission in your pull request body.</li>
+<li>During the competition, all optimised artifacts may be submitted as the following:
+<ol>
+<li>Binary files.</li>
+<li>Encrypted code (please send decryption details to <a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a>).</li>
+<li>Source code.</li>
+</ol>
+</li>
+<li>After the results are announced, you will need to publish source code for all submissions.</li>
+<li>The committee will close pull request submissions after the challenge&rsquo;s run time (on <del>February 16</del>February 29, 2024) and commence assessment of submissions.</li>
+</ul>
+<h2 id="assessment"><span class="hline"><a href="#assessment" class="hanchor"></a>Assessment</span></h2>
+<ol>
+<li>The assessment platform for this challenge is <strong>Duo (64MB model)</strong>.
+<ul>
+<li>We will use a specific microSD (TF) card for assessment.</li>
+<li>Swap usage is not recommended.</li>
+<li>No overclocking will be applied.</li>
+<li>No additional cooling will be provided.</li>
+</ul>
+</li>
+<li>We <strong>do not</strong> limit the operating systems used on the Duo.</li>
+<li>Baby Llama 2&rsquo;s repository can be found at <a href="https://github.com/karpathy/llama2.c">https://github.com/karpathy/llama2.c</a>.</li>
+<li>Participants must submit:
+<ul>
+<li>An SD card system image for the Duo board.</li>
+<li>Regression test pass rate and detailed testing results.</li>
+<li>Performance test pass rate and detailed testing results.</li>
+<li>Testing challenge and OpenCV runtime library, testing procedures and instructions, and scripts.</li>
+</ul>
+</li>
+<li>The committee will benchmark and average the results from the following software configuration, running on the hardware platform as outlined in item 1, as a baseline for assessing the optimized submissions:
+<ol>
+<li>Baby Llama 2 binary built from unedited C files using <code>-Ofast</code>.</li>
+<li>Official cross compiler toolchain provided by Milk-V (version to be announced).</li>
+<li>Default Milk-V Duo system image (version to be announced).</li>
+<li>Identical input and parameters (to be announced).</li>
+<li>Large Language Model files used are as follows:
+<ul>
+<li>We will use the 15M model in the Baby Llama 2 repository (pure FP32 model) for pure FP32 inference (run.c).</li>
+<li>SHA-256 checksum：cd590644d963867a2b6e5a1107f51fad663c41d79c149fbecbbb1f95fa81f49a</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>Correctness assessment: As we will be using a specific input (with a specific seed), the output should be consistent across different runs. The committee will therefore compare the output with the run.c binary generated, as outlined in item 4. Any discrepancies will be assessed in accordance with common human grammatical language - correct grammar will not be penalized (penalties for incorrect grammar are to be decided).</li>
+<li>Performance assessment: All submissions will be run 30 times. The results will be taken average after removing the significant highest and lowest scores.</li>
+<li>If the text-to-speech (TTS) feature is implemented, extra credits will be awarded based on completeness of implementation (the amounts of extra credits are to be decided).</li>
+<li>The final assessment will contain remarks on each assessment items.</li>
+<li><strong>The details of the challenges may change during the competition as we optimise and clarify the rubrics and instructions. Please keep an eye out for updates. The assessment committee reserves the right to final interpretation of all rubrics and instructions.</strong></li>
+</ol>
+<h2 id="notice-on-intellectual-properties-and-open-source-licenses"><span class="hline"><a href="#notice-on-intellectual-properties-and-open-source-licenses" class="hanchor"></a>Notice on Intellectual Properties and Open Source Licenses</span></h2>
+<p>All challenge submissions must be open source and committed to a specified repository. The participant(s) (author) holds rights to their work. The host encourages contributing any changes made to the upstream.</p>
+<h2 id="resources"><span class="hline"><a href="#resources" class="hanchor"></a>Resources</span></h2>
+<ul>
+<li>Live Replay &amp; Documents (Chinese)： <a href="https://github.com/plctlab/rvspoc/tree/main/archives/2023/Docs/S2311">plctlab/rvspoc:archives/2023/Docs/S2311</a></li>
+</ul>
+
+        </div><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+        
+        </div>
+      </div><aside id="toc" class="f6">
+        <div class="">
+          <p class="f5 b mb3">Table of Contents</p>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#challenge-description">Challenge Description</a></li>
+    <li><a href="#rubrics">Rubrics</a></li>
+    <li><a href="#submission">Submission</a></li>
+    <li><a href="#assessment">Assessment</a></li>
+    <li><a href="#notice-on-intellectual-properties-and-open-source-licenses">Notice on Intellectual Properties and Open Source Licenses</a></li>
+    <li><a href="#resources">Resources</a></li>
+  </ul>
+</nav>
+        </div>
+      </aside></div>
+
+
+  </article>
+
+    </main>
+    <footer class="bg-orange bottom-0 w-100 pa3 f6" role="contentinfo">
+  <div class="justify-between">
+    <div>
+      <span id="copyright">&copy; 2023 RVSPOC</span>
+      <span id="cc-license">
+      Except where otherwise noted, all content on this site is licensed under the 
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license</a>
+      .
+      </span>
+      <div id="email">Email: <a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a></div>
+    </div>
+    
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+  </div>
+</footer>
+
+    <script>
+  function getDismissedBanners() {
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      return JSON.parse(dismissedBannersRaw);
+    } else {
+      return [];
+    }
+  }
+
+  function pushDismissedBanner(dismissedBanner) {
+    let dismissedBanners;
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      dismissedBanners = JSON.parse(dismissedBannersRaw);
+    } else {
+      dismissedBanners = [];
+    }
+    for (const oldDismissedBanner of dismissedBanners) {
+      if (oldDismissedBanner == dismissedBanner) {
+        return;
+      }
+    }
+    dismissedBanners.push(dismissedBanner);
+    dismissedBannersRaw = JSON.stringify(dismissedBanners);
+    localStorage.setItem('dismissedBanners', dismissedBannersRaw);
+  }
+
+  function prepareBanners() {
+    let banners = document.querySelectorAll('body div#banners ul li');
+    let dismissedBanners = getDismissedBanners();
+    for (const banner of banners) {
+      let bannerDismissed = false;
+      for (const dismissedBanner of dismissedBanners) {
+        if (dismissedBanner == banner.id) {
+          bannerDismissed = true;
+          break;
+        }
+      }
+      if (!bannerDismissed) {
+        banner.classList.remove('dismissed');
+      }
+    }
+  }
+
+  function registerCloseEventForBanner() {
+    let closeButtons = document.querySelectorAll('body div#banners ul li a.close');
+    for (const closeButton of closeButtons) {
+      const bannerId = closeButton.getAttribute('data-banner-id');
+      closeButton.addEventListener("click", function(e){
+        pushDismissedBanner(bannerId);
+        const theBanner = document.querySelector('body div#banners ul li#' + bannerId);
+        theBanner.classList.add('dismissed');
+      });
+    }
+  }
+
+  window.addEventListener("DOMContentLoaded", function() {
+    prepareBanners();
+    registerCloseEventForBanner();
+  });
+</script>
+
+  </body>
+</html>

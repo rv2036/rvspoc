@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ko-KR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>
+  
+    색인 P2301 | SG2042에서 OpenHarmony 이식 및 데모스트레이션 | RISC-V 소프트웨어포팅및최적화챔피언십
+  
+</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="이 프로젝트에서는 OpenHarmony를 SG2042/Pioneer Box에 이식하고, 그래픽 인터페이스를 시작하여 기본적인 인터넷 브라우징, 오피스 작업 등을 수행할 수 있어야 합니다.">
+    <meta name="generator" content="Hugo 0.120.4">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/2023/ananke/css/main.min.css" >
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://rvspoc.org/2023/ko/p2301/">
+    
+
+    <meta property="og:title" content="SG2042에서 OpenHarmony 이식 및 데모스트레이션" />
+<meta property="og:description" content="이 프로젝트에서는 OpenHarmony를 SG2042/Pioneer Box에 이식하고, 그래픽 인터페이스를 시작하여 기본적인 인터넷 브라우징, 오피스 작업 등을 수행할 수 있어야 합니다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rvspoc.org/2023/ko/p2301/" /><meta property="article:section" content="challenges" />
+<meta property="article:published_time" content="2023-12-01T08:06:00+08:00" />
+<meta property="article:modified_time" content="2023-12-01T08:06:00+08:00" />
+
+<meta itemprop="name" content="SG2042에서 OpenHarmony 이식 및 데모스트레이션">
+<meta itemprop="description" content="이 프로젝트에서는 OpenHarmony를 SG2042/Pioneer Box에 이식하고, 그래픽 인터페이스를 시작하여 기본적인 인터넷 브라우징, 오피스 작업 등을 수행할 수 있어야 합니다."><meta itemprop="datePublished" content="2023-12-01T08:06:00+08:00" />
+<meta itemprop="dateModified" content="2023-12-01T08:06:00+08:00" />
+<meta itemprop="wordCount" content="811">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="SG2042에서 OpenHarmony 이식 및 데모스트레이션"/>
+<meta name="twitter:description" content="이 프로젝트에서는 OpenHarmony를 SG2042/Pioneer Box에 이식하고, 그래픽 인터페이스를 시작하여 기본적인 인터넷 브라우징, 오피스 작업 등을 수행할 수 있어야 합니다."/>
+
+	
+  </head>
+
+  
+  
+  <body class="ma0 section-challenges sans-serif">
+  
+
+
+    
+
+    
+   
+  
+
+  <header>
+    <div class="bg-orange">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    
+      
+    <a href="/2023/ko/" class="f3 fw3 no-underline dib">
+        RISC-V 소프트웨어포팅및최적화챔피언십
+    </a>
+      
+    
+    <div class="flex items-center nav-right">
+      
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/p2301/">简体中文</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/en/p2301/">English</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ru/p2301/">Русский</a>
+    </li>
+    
+    <li class="list f5 f5-ns fw4 dib pr3">
+        <a class="no-underline i18n-link" href="/2023/ja/p2301/">日本語</a>
+    </li>
+    
+</ul>
+
+
+      
+      <ul class="pl0 mr3">
+        
+        <li class="list f5 f5-ns fw4 dib pr3">
+          <a class="no-underline nav-link" href="/2023/ko/faq/" title="FAQ 页">
+            FAQ
+          </a>
+        </li>
+        
+      </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+    
+  <article class='justify-between mw8 center ph3 challenge cjk'>
+    <nav class="f7"><a href='/2023/ko/'>Home</a><span>/</span><a href='/2023/ko/challenges/'>도전</a></nav>
+    
+    <header class="mt4 w-100">
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 mt3 mb1">SG2042에서 OpenHarmony 이식 및 데모스트레이션</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    
+    <div id="challenges-meta" class="mid-gray lh-copy">
+      <div><span>색인:</span><span>P2301</span></div>
+      <div><span>어워드:</span><span>20000<span class="currency">중국 위안</span></span></div>
+      
+    </div>
+    
+    <div id="article-body">
+      <div class="nested-copy-line-height lh-copy  f4 nested-links mid-gray"><div>
+          <h2 id="프로젝트-설명"><span class="hline"><a href="#프로젝트-설명" class="hanchor"></a>프로젝트 설명</span></h2>
+<p>이 프로젝트에서는 OpenHarmony를 SG2042/Pioneer Box에 이식하고, 그래픽 인터페이스를 시작하여 기본적인 인터넷 브라우징, 오피스 작업 등을 수행할 수 있어야 합니다.</p>
+<h2 id="결과물-요구사항"><span class="hline"><a href="#결과물-요구사항" class="hanchor"></a>결과물 요구사항</span></h2>
+<ol>
+<li>Pioneer Box에서 정상적으로 그래픽 인터페이스를 시작하고, 종료할 수 있으며, 시작 후 2시간 동안 시스템이 충돌하지 않아야 합니다.</li>
+<li>Firefox 또는 Chromium 중 하나의 브라우저를 실행하여 bilibili 웹사이트를 열고, 홈페이지의 비디오를 재생할 수 있어야 합니다.</li>
+<li>LibreOffice를 실행하여 슬라이드쇼를 편집하고 재생할 수 있어야 합니다.</li>
+<li>(가점 항목) 일부 3D/2D 오픈 소스 게임을 플레이할 수 있어야 합니다.</li>
+</ol>
+<h2 id="제출-설명"><span class="hline"><a href="#제출-설명" class="hanchor"></a>제출 설명</span></h2>
+<ul>
+<li>제출 리포지토리 링크는 <a href="https://github.com/plctlab/rvspoc-p2301-openharmony">https://github.com/plctlab/rvspoc-p2301-openharmony</a> 입니다.</li>
+<li>결과는 위 리포지토리에 Pull Request 형태로 제출해주세요.</li>
+<li>PR을 생성할 때는 다음 정보를 제공해야 합니다:
+<ol>
+<li>이식 작업 완료에 필요한 정보</li>
+</ol>
+</li>
+<li>대회 기간 동안 최적화된 내용을 제출하는 방법은 다음과 같습니다:
+<ol>
+<li>바이너리 형식</li>
+<li>암호화된 소스 코드 형식(암호화 정보는 <a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a>으로 이메일로 보내야 합니다)</li>
+<li>소스 코드 형식</li>
+</ol>
+</li>
+<li>최종 결과 공개 후, 제출 내용을 완전히 오픈소스화해야 합니다.</li>
+<li>주최측은 Pull Request를 받은 후 24시간 이내에 검증을 시작합니다.</li>
+</ul>
+<h2 id="검수-설명"><span class="hline"><a href="#검수-설명" class="hanchor"></a>검수 설명</span></h2>
+<ol>
+<li>검증 플랫폼은 SG2042 입니다.</li>
+<li>주최측은 Pull Request를 받은 후 72시간 이내에 내용을 검증합니다.</li>
+<li>&ldquo;성과 및 평가 요구 사항&quot;에 기술된 내용에 따라, 조건 1의 플랫폼에서 시스템과 소프트웨어를 실행합니다.</li>
+<li>조건을 충족한 경우, 검수 성공을 선언하고, 챔피언을 발표하며, 이 경쟁 과제를 종료합니다.</li>
+<li><strong>실제 최적화 진행 상황에 따라 고려되지 않은 측면은 경쟁 진행에 따라 조정될 수 있으며, 경쟁 웹사이트를 계속 주시하시기 바랍니다. 최종 해석권은 경쟁 과제 심사위원회에 있습니다.</strong></li>
+</ol>
+<h2 id="지적-재산권-및-오픈-소스-라이선스에-관한-설명"><span class="hline"><a href="#지적-재산권-및-오픈-소스-라이선스에-관한-설명" class="hanchor"></a>지적 재산권 및 오픈 소스 라이선스에 관한 설명</span></h2>
+<p>모든 참가 작품은 오픈 소스로 공개되어야 하며, 주최자가 지정하는 저장소에 제출해야 합니다. 참가자(저자)는 작품의 모든 권리를 보유합니다. 주최자는 참가자가 결과물을 업스트림에 피드백하여 기여하는 것을 권장합니다.</p>
+
+        </div><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+        
+        </div>
+      </div><aside id="toc" class="f6">
+        <div class="">
+          <p class="f5 b mb3">목차</p>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#프로젝트-설명">프로젝트 설명</a></li>
+    <li><a href="#결과물-요구사항">결과물 요구사항</a></li>
+    <li><a href="#제출-설명">제출 설명</a></li>
+    <li><a href="#검수-설명">검수 설명</a></li>
+    <li><a href="#지적-재산권-및-오픈-소스-라이선스에-관한-설명">지적 재산권 및 오픈 소스 라이선스에 관한 설명</a></li>
+  </ul>
+</nav>
+        </div>
+      </aside></div>
+
+
+  </article>
+
+    </main>
+    <footer class="bg-orange bottom-0 w-100 pa3 f6" role="contentinfo">
+  <div class="justify-between">
+    <div>
+      <span id="copyright">&copy; 2023 RVSPOC</span>
+      <span id="cc-license">
+      특별한 언급이 없는 한, 이 사이트는 다음 라이선스로 제공됩니다:
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">크리에이티브 커먼즈 저작자표시-비영리-동일조건변경허락 4.0 국제 라이선스</a>
+      .
+      </span>
+      <div id="email">전자우편: <a href="mailto:rvspoc@cyberlimes.cn">rvspoc@cyberlimes.cn</a></div>
+    </div>
+    
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/plctlab/rvspoc" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+  </div>
+</footer>
+
+    <script>
+  function getDismissedBanners() {
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      return JSON.parse(dismissedBannersRaw);
+    } else {
+      return [];
+    }
+  }
+
+  function pushDismissedBanner(dismissedBanner) {
+    let dismissedBanners;
+    let dismissedBannersRaw = localStorage.getItem('dismissedBanners');
+    if (dismissedBannersRaw != null) {
+      dismissedBanners = JSON.parse(dismissedBannersRaw);
+    } else {
+      dismissedBanners = [];
+    }
+    for (const oldDismissedBanner of dismissedBanners) {
+      if (oldDismissedBanner == dismissedBanner) {
+        return;
+      }
+    }
+    dismissedBanners.push(dismissedBanner);
+    dismissedBannersRaw = JSON.stringify(dismissedBanners);
+    localStorage.setItem('dismissedBanners', dismissedBannersRaw);
+  }
+
+  function prepareBanners() {
+    let banners = document.querySelectorAll('body div#banners ul li');
+    let dismissedBanners = getDismissedBanners();
+    for (const banner of banners) {
+      let bannerDismissed = false;
+      for (const dismissedBanner of dismissedBanners) {
+        if (dismissedBanner == banner.id) {
+          bannerDismissed = true;
+          break;
+        }
+      }
+      if (!bannerDismissed) {
+        banner.classList.remove('dismissed');
+      }
+    }
+  }
+
+  function registerCloseEventForBanner() {
+    let closeButtons = document.querySelectorAll('body div#banners ul li a.close');
+    for (const closeButton of closeButtons) {
+      const bannerId = closeButton.getAttribute('data-banner-id');
+      closeButton.addEventListener("click", function(e){
+        pushDismissedBanner(bannerId);
+        const theBanner = document.querySelector('body div#banners ul li#' + bannerId);
+        theBanner.classList.add('dismissed');
+      });
+    }
+  }
+
+  window.addEventListener("DOMContentLoaded", function() {
+    prepareBanners();
+    registerCloseEventForBanner();
+  });
+</script>
+
+  </body>
+</html>

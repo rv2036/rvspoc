@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>稿件 on RISC-V 软件移植及优化锦标赛</title>
+    <link>https://rvspoc.org/2023/posts/</link>
+    <description>Recent content in 稿件 on RISC-V 软件移植及优化锦标赛</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 29 May 2024 09:30:00 +0800</lastBuildDate>
+    <atom:link href="https://rvspoc.org/2023/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一届 RISC-V 软件移植及优化锦标赛欢庆会暨第二届启动仪式圆满落幕</title>
+      <link>https://rvspoc.org/2023/08/</link>
+      <pubDate>Wed, 29 May 2024 09:30:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/08/</guid>
+      <description>5 月 26 日，第一届 RISC-V 软件移植及优化锦标赛欢庆会暨第二届启动仪式于上海外滩成功举办。现场氛围融洽热烈，线上参与者也踊跃互动，共同见证了这一精彩时刻。主办方上海苦芽科技有限公司代表，同时也是锦标赛主席和评委的李程先生在会议上致辞。他首先对第一届 RISC-V 软件移植及优化锦标赛进行了全面的总结：经过长达三个月的激烈角逐，本次锦标赛共吸引了 101 组队伍踊跃参与，收到了 20 个高质量的提交作品。最终，经过严格评审，诞生了 10 组冠军队伍。李程特别感谢算能对第一届锦标赛给予的大力支持。作为主办方之一的算能为本届锦标赛提供了实验平台，由于开发环境友好，此平台也成为选手们毕业设计的首选平台，此外冠军选手的奖金也由算能赞助。再次表示衷心的感谢，希望继续保持紧密合作。</description>
+    </item>
+    <item>
+      <title>首届 RISC-V 软件移植及优化锦标赛欢庆会暨第二届启动仪式，诚挚邀请您来参加</title>
+      <link>https://rvspoc.org/2023/07/</link>
+      <pubDate>Fri, 17 May 2024 21:30:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/07/</guid>
+      <description>我们将于 5 月 26 日下午 2 点在上海外滩中星君亭酒店，举办《第一届 RVPSOC 完结聚会暨第二届启动仪式》。届时，多位业内资深专家将莅临现场，与各位共同交流探讨 RISC-V 技术的最新动态与发展趋势。</description>
+    </item>
+    <item>
+      <title>RISC-V 软件移植及优化锦标赛公示期结束，进入颁奖准备环节！</title>
+      <link>https://rvspoc.org/2023/06/</link>
+      <pubDate>Thu, 11 Apr 2024 00:05:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/06/</guid>
+      <description>RISC-V 软件移植及优化锦标赛为期一周的公示期结束，进入颁奖准备环节。本次锦标赛共产生 10 组冠军队伍，总奖金 180000 元人民币。</description>
+    </item>
+    <item>
+      <title>RISC-V 软件移植及优化锦标赛结果出炉，进入一周公示期</title>
+      <link>https://rvspoc.org/2023/05/</link>
+      <pubDate>Wed, 03 Apr 2024 15:30:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/05/</guid>
+      <description>经过了 3 个月的比赛和 1 个月的选手结果验证，RISC-V 全球锦标赛圆满落下帷幕。本次比赛共有 12 道赛题，其中有 4 道赛题没有收到任何提交，其余 8 道赛题分别收到了一组或多组提交，去除同一选手重复提交后共计 18 个提交。评委会通过选手的各项得分综合评比，选出了 10 名冠军。比赛的最终结果将在比赛官网进行公示，公示期一周，从 2024/4/3 开始至 2024/4/10 结束。</description>
+    </item>
+    <item>
+      <title>RISC-V 软件移植及优化锦标赛验证结果公示中，参赛者已基本完成确认</title>
+      <link>https://rvspoc.org/2023/04/</link>
+      <pubDate>Fri, 29 Mar 2024 16:36:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/04/</guid>
+      <description>RISC-V 软件移植及优化锦标赛验证结果已公示 3 天，目前大部分参赛选手已完成确认。验证结果发布在锦标赛官网所属 GitHub 仓库内 &lt;a href=&#34;https://github.com/plctlab/rvspoc/tree/main/Results&#34;&gt;https://github.com/plctlab/rvspoc/tree/main/Results&lt;/a&gt; 。本次锦标赛设 12 道赛题，共收到 18 支参赛队伍提交的 20 份 PR。已联系到 17 支参赛队伍，1 支参赛队伍已发送邮件，未回应。目前有 6 支参赛队伍尚未确认 pr 验证结果。所有参赛队伍确认情况统计如下：</description>
+    </item>
+    <item>
+      <title>RISC-V 软件移植及优化锦标赛已完成结果验证，进入选手复核阶段</title>
+      <link>https://rvspoc.org/2023/03/</link>
+      <pubDate>Mon, 25 Mar 2024 19:56:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/03/</guid>
+      <description>经过评委老师们 20 多天的辛苦努力，目前参赛选手的提交结果已经验证完毕。验证结果发布在锦标赛官网所属 GitHub 仓库内 &lt;a href=&#34;https://github.com/plctlab/rvspoc/tree/main/Results&#34;&gt;https://github.com/plctlab/rvspoc/tree/main/Results&lt;/a&gt; 。接下来将进入选手确认和挑战/勘误环节，选手们可在官方网站上查阅验证结果，如有争议可在 PR 里评论处提交。确认环节为期一周时间，对于有争议的结果会根据需要延长复核时间。</description>
+    </item>
+    <item>
+      <title>注意｜RISC-V 锦标赛截止时间延长至 2 月 29 日</title>
+      <link>https://rvspoc.org/2023/02/</link>
+      <pubDate>Sun, 04 Feb 2024 17:02:00 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/02/</guid>
+      <description>RISC-V 全球锦标赛正在如火如荼的进行，在过去两周我们又收到了多个参赛队伍的报名，并且已经开始有参赛队伍陆续提交结果。考虑到 2 月份前两周恰逢春节假期，很多参赛的伙伴需要跟 12306 和雨雪天气斗智斗勇，为了让参赛选手们在更为熟悉的环境下释放灵感，确保每位参赛者都有充足的时间进行比赛，RISC-V 软件移植与优化锦标赛组委会一致同意决定将比赛的截止时间延长至 2 月 29 日。</description>
+    </item>
+    <item>
+      <title>拥抱开源生态，算能携手软件所 PLCT 实验室联合举办 RISC-V 软件移植优化锦标赛</title>
+      <link>https://rvspoc.org/2023/01/</link>
+      <pubDate>Tue, 14 Nov 2023 14:49:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/01/</guid>
+      <description>为推动 RISC-V 软件生态加速发展，&lt;strong&gt;算能作为 RISC-V 生态的领先企业，与 RISC-V 中国社区、中科院软件所 PLCT 实验室联合发起“RISC-V 软件移植及优化锦标赛”活动&lt;/strong&gt;，以桌面和服务器软件生态为重点，在编译器、运行时环境、AI 软件栈等多个方面公开提出一系列比赛题目，邀请全球开发者完成挑战并赢取奖金。</description>
+    </item>
+    <item>
+      <title>首届「RISC-V 软件移植及优化锦标赛」筹备工作正式启动，诚邀赞助</title>
+      <link>https://rvspoc.org/2023/00/</link>
+      <pubDate>Thu, 19 Oct 2023 20:30:09 +0800</pubDate>
+      <guid>https://rvspoc.org/2023/00/</guid>
+      <description>RISC-V 已经在 MCU/IoT 等领域有了数十亿的出货，正在朝着桌面计算、HPC、AI、数据中心等大算力领域挑战。相比于嵌入式和物联网领域的软件生态，桌面及服务器的软件生态丰富，需要移植和优化的工作量是巨大的。</description>
+    </item>
+  </channel>
+</rss>
