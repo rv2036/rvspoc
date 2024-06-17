@@ -84,7 +84,7 @@ const config: Config = {
         },
 				{
           type: 'dropdown',
-          label: '往届锦标赛', // TODO en
+          label: '往届锦标赛',
           position: 'right',
           items: [
             {
