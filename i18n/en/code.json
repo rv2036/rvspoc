@@ -1,0 +1,54 @@
+{
+  "common.title": {
+    "message": "RISC-V Software Porting and Optimization Championship",
+    "description": "site title"
+  },
+  "common.host.name": {
+    "message": "Kubuds Technology",
+    "description": "the host name"
+  },
+  "common.description.prefix": {
+    "message": "To help attract developers to the RISC-V ecosystem and to accelerate the advancement of its software ecosystem, ",
+    "description": "the primary description about this championship"
+  },
+  "common.description.suffix": {
+    "message": " launched the current championship. RISC-V Software Porting and Optimization Championship (RVSPOC) sets its focus on desktop and server software ecosystems, designing competitive categories for compilers, runtime environments, AI software stacks, etc. and is open to participation by developers around the globe.",
+    "description": "the primary description about this championship"
+  },
+  "common.registration": {
+    "message": "Registration link to be announced",
+    "description": "the message of the registration button"
+  },
+  "common.registration.url": {
+    "message": "#",
+    "description": "the link url of the registration button"
+  },
+  "common.challenges.link": {
+    "message": "Challenges to be announced",
+    "description": "the message of the link button of challenge list"
+  },
+  "common.team.link": {
+    "message": "Team List",
+    "description": "the message of the link button of team list"
+  },
+  "common.email.label": {
+    "message": "Contact Email: ",
+    "description": "the label of contact email"
+  },
+  "common.sponsor": {
+    "message": "Sponsors",
+    "description": "sponsors title"
+  },
+  "common.footer.cc.prefix": {
+    "message": "Except where otherwise noted, all content on this site is licensed under the",
+    "description": "cc prefix string"
+  },
+  "common.footer.cc.license": {
+    "message": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license",
+    "description": "cc license"
+  },
+  "common.footer.cc.suffix": {
+    "message": ".",
+    "description": "cc suffix string"
+  }
+}

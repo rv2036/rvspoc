@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+}
+
+.mainWrapper {
+  position: absolute;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Docusaurus-specific utility class */
+:global(.docusaurus-mt-lg) {
+  margin-top: 3rem;
+}
+
+:global(#__docusaurus) {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbarHideable {
+  transition: transform var(--ifm-transition-fast) ease;
+}
+
+.navbarHidden {
+  transform: translate3d(0, calc(-100% - 2px), 0);
+}

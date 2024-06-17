@@ -1,0 +1,188 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #385d8c;
+  --ifm-color-primary-dark: #274873;
+  --ifm-color-primary-darker: #2a4569;
+  --ifm-color-primary-darkest: #193252;
+  --ifm-color-primary-light: #3d69a1;
+  --ifm-color-primary-lighter: #3e74b8;
+  --ifm-color-primary-lightest: #578ccf;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-link-color: rgb(61, 174, 233);
+  --ifm-navbar-link-hover-color: rgb(61, 174, 233);
+  --ifm-link-color-border: #999;
+  --ifm-link-color-border-hover: var(--ifm-link-color-hover);
+  --ifm-background-color: #E6E6E6; /* Light mode background color */
+  --ifm-navbar-background-color: var(--ifm-background-color);
+  --ifm-footer-background-color: var(--ifm-background-color);
+  --ifm-link-button-background-color: #F1F1F1;
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #050505; /* Dark mode background color */
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #3091c2;
+  --ifm-color-primary-dark: #2581b0;
+  --ifm-color-primary-darker: #25749c;
+  --ifm-color-primary-darkest: #1d688f;
+  --ifm-color-primary-light: #36a2d9;
+  --ifm-color-primary-lighter: #42ade3;
+  --ifm-color-primary-lightest: #51b9ed;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-link-color: rgb(61, 174, 233);
+  --ifm-navbar-link-hover-color: rgb(61, 174, 233);
+  --ifm-link-color-border: #ddd;
+  --ifm-link-color-border-hover: var(--ifm-link-hover-color);
+  --ifm-navbar-background-color: var(--ifm-background-color);
+  --ifm-footer-background-color: var(--ifm-background-color);
+  --ifm-link-button-background-color: black;
+}
+
+@mixin transition-common($p) {
+    transition-property: $p;
+    transition-duration: 0.3s;
+}
+
+#year-badge {
+    display: inline-block;
+    padding: 0.2em 0.8em;
+    margin-left: 0.3em;
+    border-radius: 0.8em;
+    border: 0.1em solid var(--ifm-color-primary-light);
+    box-sizing: border-box;
+    font-size: 50%;
+    position: relative;
+}
+
+@keyframes glowing-button {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.host-link {
+    color: var(--ifm-font-color-base);
+    font-weight: bold;
+    &:hover {
+        color: var(--ifm-font-color-base);
+        text-decoration: none;
+    }
+}
+
+.link-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding: 0.8em 3em;
+    z-index: 10;
+    border-radius: 3px;
+    color: var(--ifm-font-color-base);
+    font-weight: bold;
+
+    @include transition-common(color);
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:before {
+        content: ' ';
+        position: absolute;
+        z-index: -2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 1px solid var(--ifm-link-color-border);
+        @include transition-common(border-color);
+        border-radius: 10px;
+        box-sizing: border-box;
+        
+    }
+    &:after {
+        content: ' ';
+        position: absolute;
+        z-index: -1;
+        top: 1px;
+        left: 1px;
+        width: calc(100% - 2px);
+        height: calc(100% - 2px);
+        background: var(--ifm-link-button-background-color);
+        border-radius: 9px;
+    }
+    &:hover {
+        color: var(--ifm-link-hover-color);
+        &:before {
+            border-color: var(--ifm-link-color-border-hover);
+            // TODO, weird transition problem with light mode
+        }
+    }
+
+    &.link-button-eye-catching {
+        &:before {
+            border: none;
+            background: linear-gradient(
+                45deg,
+                #ff5c74,
+                #b15cff,
+                #5ce9ff,
+                #b15cff,
+                #ff5c74
+            );
+            position: absolute;
+            background-size: 400%;
+            animation: glowing-button 20s linear infinite;
+            transition: opacity 0.3s ease-in-out;
+        }
+        &:after {
+            top: 2px;
+            left: 2px;
+            width: calc(100% - 4px);
+            height: calc(100% - 4px);
+            border-radius: 8px;
+        }
+        &:hover:before {
+            animation-play-state: paused;
+            filter: blur(1px);
+            -webkit-filter: blur(1px);
+        }
+    }
+
+}
+
+.link-disabled {
+    pointer-events: none;
+    cursor: default;
+    color: gray;
+    text-decoration: none;
+}
+
+main {
+    article header .avatar {
+        display: none;
+    }
+    padding-bottom: 5em;
+}
+
+footer {
+    .container {
+        opacity: 0.8;
+        font-size: 80%;
+    }
+}
