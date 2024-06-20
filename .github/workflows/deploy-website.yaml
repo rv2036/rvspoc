@@ -43,6 +43,8 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: creating html redirections
+        run: ./redirections/create.sh
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -68,7 +70,9 @@ jobs:
               _do cp -a "${year_folder}/Website" "./public/${BASH_REMATCH[1]}"
             fi
           done < <(find ./archives -type d -name '2???')
-          _do find ./public -type f -exec sed -Ei "s@https://rvspoc.org@${BASE_URL}@" '{}' \;
+          if [[ $BASE_URL != "https://rvspoc.org" ]]; then
+            _do find ./public -type f -exec sed -Ei "s@https://rvspoc.org@${BASE_URL}@" '{}' \;
+          fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
