@@ -43,8 +43,6 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: creating html redirections
-        run: ./redirections/create.sh
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -56,6 +54,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+      - name: creating html redirections
+        run: ./redirections/create.sh
       - name: Add static pages from previous championships to the public folder
         env:
           BASE_URL: ${{ steps.pages.outputs.base_url }}
