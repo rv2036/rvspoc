@@ -50,12 +50,20 @@ read_config() {
 create_one() {
 	local from="${1##/}" from_fp to="$2"
 	from_fp="${PUBDIR}/${from}"
+	if [[ -d "$from_fp" ]]; then
+		echo "Directory '$from_fp' exists that are not supposed to be there." >&2
+	fi
 	_do mkdir -p "$from_fp"
-	_do cp "${CURDIR}/tmpl.html" "${from_fp%%/}/index.html"
+	from_fp="${from_fp%%/}/index.html"
+	if [[ -f "$from_fp" ]]; then
+		echo "Index file '$from_fp' exists, abort the creation.." >&2
+		exit 1
+	fi
+	_do cp "${CURDIR}/tmpl.html" "$from_fp"
 	if ! [[ $to =~ ^/ ]]; then
 		to="/${from%%/}/${to}"
 	fi
-	_sed_Ei "s@\@TO-PATH\@@${to}@g" "${from_fp%%/}/index.html"
+	_sed_Ei "s@\@TO-PATH\@@${to}@g" "${from_fp}"
 }
 
 echo "creating html redirections..."
