@@ -1,0 +1,20 @@
+# Format:
+#   <from-path> -> <to-path>
+#   the from-path is relative to the root location. 
+#   for the to-path:
+#       if staring with a '/', it's relative to the root location
+#       if staring with no '/', it's relative to the from-path
+
+# challenges of 2023 archives
+p2301/ -> /2023/p2301/
+p2303/ -> /2023/p2303/
+p2304/ -> /2023/p2304/
+p2307/ -> /2023/p2307/
+p2308/ -> /2023/p2308/
+s2302/ -> /2023/s2302/
+s2305/ -> /2023/s2305/
+s2306/ -> /2023/s2306/
+s2309/ -> /2023/s2309/
+s2310/ -> /2023/s2310/
+s2311/ -> /2023/s2311/
+s2312/ -> /2023/s2312/
