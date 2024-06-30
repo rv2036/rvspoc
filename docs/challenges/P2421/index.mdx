@@ -1,0 +1,60 @@
+---
+title: 新 32 位 Type-1 Hypervisor 移植
+cid: P2421
+slug: /P2421
+award: 每个冠军人民币 5000 - 30000
+numberOfChampions: 4（详情见正文）
+description: 利用 RuyiSDK 的新 32 位工具链，和内建的新 32 位 QEMU 模拟器，完成指定 Hypervisor 的移植。指定 Hypervisor 包括： Xen, Bao, Xvisor, seL4
+---
+
+import ChallengesMetaInDoc from '../../../src/components/ChallengeMetaInDoc';
+
+<ChallengesMetaInDoc />
+
+import ChallengeDraftAnnouncement from '../../../src/components/ChallengeDraftAnnouncement';
+
+<ChallengeDraftAnnouncement />
+
+## 项目描述
+
+利用 RuyiSDK 的[新 32 位工具链](#新-32-位工具链)，和内建的新 32 位 QEMU 模拟器，完成指定 Hypervisor 的移植。
+
+指定 Hypervisor 包括：
+
+- Xen
+- Bao
+- Xvisor
+- seL4
+
+每个 Hypervisor 默认诞生一位冠军。
+
+### 新 32 位工具链
+
+- [PLCT实验室与玄铁团队联合发布：RV64ILP32产品级开源工具链和Linux内核](https://mp.weixin.qq.com/s/mNVYP6ljUDgvCXbWTInzng)
+- [玄铁RISC-V 新32位最新进展：eBPF JIT功能开发完成，性能大幅领先！](https://mp.weixin.qq.com/s/YYYsY79k1yH7SbpmbJH4ow)
+
+## 产出及评分要求
+
+- 根据完成度和 patch 质量进行评分。
+- 由于新 32 位和传统 64 位的指令集相同，要求尽量复用 64 位的代码，在保证功能的前提下，代码越少越好。
+
+## 验证平台
+
+- 嘉楠 K230 或 K230d 开发板。
+
+## 提交仓库
+
+- 7 月 1 日后由 RVSPOC 组委会公布。
+
+## 提交说明
+
+- 7 月 1 日后由 RVSPOC 组委会公布细节。
+
+## 验收说明
+
+- 7 月 1 日后由 RVSPOC 组委会公布。
+- 由于赛题的开放性和软件的复杂性，赛题发布时可能存在未解释或需要修正的部分。针对未考虑到的方面，随着比赛进程的推进可能根据选手的反馈会有调整，请保持对赛事网站的关注。最终解释权归属于比赛的赛题评审委员会。
+
+## 知识产权及开源协议要求
+
+所有参赛结果要求开源，并提交至主办方指定仓库。参赛者（作者）持有作品的所有权。主办方鼓励参赛者将结果回馈贡献至 upstream。
