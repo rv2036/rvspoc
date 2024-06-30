@@ -169,7 +169,7 @@ function HomepageHeader(): JSX.Element {
           <div id="champions"><Link link-button link-button-eye-catching></Link></div>
           <div id="team-list"><Link className="link-button"><Translate id="common.team.link">团队列表</Translate></Link></div>
           */}
-          <div id="challenges"><Link className="link-button link-disabled"><Translate id="common.challenges.link">赛题待公布</Translate></Link></div>
+          <div id="challenges"><Link to='/challenges' className="link-button"><Translate id="common.challenges.link">赛题列表</Translate></Link></div>
           <div id="contant"><Translate id="common.email.label">赛事联系邮箱：</Translate><Link to="mailto:rvspoc@kubuds.cn">rvspoc@kubuds.cn</Link></div>
           <div id="placeholder"></div>
           <div id="sponsors">

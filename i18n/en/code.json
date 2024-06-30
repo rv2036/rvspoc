@@ -23,8 +23,12 @@
     "message": "#",
     "description": "the link url of the registration button"
   },
+  "common.challenges": {
+    "message": "Challenges List",
+    "description": "the message of the challenge list"
+  },
   "common.challenges.link": {
-    "message": "Challenges to be announced",
+    "message": "Challenges List",
     "description": "the message of the link button of challenge list"
   },
   "common.team.link": {
@@ -50,5 +54,25 @@
   "common.footer.cc.suffix": {
     "message": ".",
     "description": "cc suffix string"
+  },
+  "common.button.details": {
+    "message": "Details",
+    "description": "details button"
+  },
+  "common.metadata.cid": {
+    "message": "Index",
+    "description": "the description message of the challenge index"
+  },
+  "common.metadata.award": {
+    "message": "Award",
+    "description": "the description message of the award"
+  },
+  "common.metadata.championsCount": {
+    "message": "Number of champions",
+    "description": "the description message of the number of champions"
+  },
+  "common.announcement.draft": {
+    "message": "This Challenge is still drafting and awaiting final confirmation from sponsors.",
+    "description": "draft warning message"
   }
 }

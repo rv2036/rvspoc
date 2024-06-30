@@ -1,3 +1,7 @@
+.container {
+    max-width: var(--ifm-container-width) !important;
+}
+
 nav.in-home-page {
     background: transparent;
     border: none;

@@ -1,0 +1,23 @@
+.challenge-metadata {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    >div {
+        display: block;
+        margin-right: 2em;
+        >label {
+            margin-right: 0.3em;
+            &:after {
+                content: ':'
+            }
+        }
+    }
+    &.in-doc-true {
+        margin-bottom: 2em;
+        >div {
+            >label {
+                font-family: monospace;
+            }
+        }
+    }
+}

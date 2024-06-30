@@ -38,6 +38,14 @@ const config: Config = {
         showReadingTime: false,
         blogSidebarCount: 0,
       }
+    ],
+    [
+      './src/plugin/plugin-content-docs',
+      {
+        routeBasePath: '',
+        sidebarPath: './sidebars.ts',
+        path: 'docs',
+      }
     ]
   ],
 
@@ -45,11 +53,7 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
-          sidebarPath: './sidebars.ts',
-          path: 'challenges',
-          routeBasePath: 'challenges',
-        },
+        docs: false,
         /*
         blog: {
           showReadingTime: false,
