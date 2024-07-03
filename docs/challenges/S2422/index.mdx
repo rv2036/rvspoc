@@ -1,10 +1,10 @@
 ---
-title: Llama 3 在 TH1520 上的优化实现
+title: Llama 3 在 K230 上的优化实现
 cid: S2422
 slug: /S2422
 award: 人民币 5000 - 30000
 numberOfChampions: 1
-description: 在搭载了 TH1520 的 RISC-V 开发板上，移植大语言模型 Llama 3，并正确运行；使用 RISC-V Vector （或 Xuantie Matrix）扩展指令集对 LLaMA 3 的实现进行优化，加速模型的执行速度。
+description: 在搭载了 K230 的 RISC-V 开发板上，移植大语言模型 Llama 3，并正确运行；使用 RISC-V Vector （或 Xuantie Matrix）扩展指令集对 LLaMA 3 的实现进行优化，加速模型的执行速度。
 ---
 
 import ChallengesMetaInDoc from '../../../src/components/ChallengeMetaInDoc';
@@ -17,16 +17,17 @@ import ChallengeDraftAnnouncement from '../../../src/components/ChallengeDraftAn
 
 ## 项目描述
 
-在搭载了 TH1520 的 RISC-V 开发板上，移植大语言模型 Llama 3，并正确运行；使用 RISC-V Vector （或 Xuantie Matrix）扩展指令集对 LLaMA 3 的实现进行优化，加速模型的执行速度。
+在搭载了 K230 的 RISC-V 开发板上，移植大语言模型 Llama 3，并正确运行；使用 RISC-V Vector （或 Xuantie Matrix）扩展指令集对 LLaMA 3 的实现进行优化，加速模型的执行速度。
 
 ## 产出及评分要求
 
 - 本题是优化竞速类赛题。
+- 能够正常运行模型。
 - 不限制量化方式和量化类型，不限制优化方法。但是不能明显破坏模型的执行逻辑，或通过明显牺牲输出质量的方式进行加速。
 
 ## 验证平台
 
-- LicheePi 4A
+- K230
 
 ## 提交仓库
 
