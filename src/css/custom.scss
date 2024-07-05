@@ -173,6 +173,10 @@ html[data-theme='dark'] {
     text-decoration: none;
 }
 
+article [id] {
+    scroll-margin-top: calc(10px + var(--ifm-navbar-height));
+}
+
 main {
     article header .avatar {
         display: none;
