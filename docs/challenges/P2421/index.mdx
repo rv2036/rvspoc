@@ -17,21 +17,24 @@ import ChallengeDraftAnnouncement from '../../../src/components/ChallengeDraftAn
 
 ## 项目描述
 
-利用 RuyiSDK 的[新 32 位工具链](#新-32-位工具链)，和内建的新 32 位 QEMU 模拟器，完成指定 Hypervisor 的移植。指定 Hypervisor 为 seL4。
+利用 RuyiSDK 的新 32 位工具链[[1]](#new32)，和内建的新 32 位 QEMU 模拟器，完成 seL4 Hypervisor 的 rv64ilp32 ABI 的移植。
 
-### 新 32 位工具链
+参考：
 
-- [PLCT实验室与玄铁团队联合发布：RV64ILP32产品级开源工具链和Linux内核](https://mp.weixin.qq.com/s/mNVYP6ljUDgvCXbWTInzng)
-- [玄铁RISC-V 新32位最新进展：eBPF JIT功能开发完成，性能大幅领先！](https://mp.weixin.qq.com/s/YYYsY79k1yH7SbpmbJH4ow)
+1. <span id="new32">[PLCT 实验室与玄铁团队联合发布：RV64ILP32 产品级开源工具链和 Linux 内核](https://mp.weixin.qq.com/s/mNVYP6ljUDgvCXbWTInzng)</span>
+2. [玄铁 RISC-V 新 32 位最新进展：eBPF JIT 功能开发完成，性能大幅领先！](https://mp.weixin.qq.com/s/YYYsY79k1yH7SbpmbJH4ow)
+3. [Nuttx with rv64ilp32](https://yf13.github.io/nuttx/nuttx-rv64ilp32)
+4. [sel4 riscv vmm](https://github.com/SEL4PROJ/sel4_riscv_vmm)
 
 ## 产出及评分要求
 
+- 实现在单核上，同时运行 sel4 RTOS 和 rv64ilp32 Linux。
 - 根据完成度和 patch 质量进行评分。
 - 由于新 32 位和传统 64 位的指令集相同，要求尽量复用 64 位的代码，在保证功能的前提下，代码越少越好。
 
 ## 验证平台
 
-- Ruyi SDK 自带的 QEMU。
+- 新 32 位 QEMU 模拟器。
 
 ## 提交仓库
 
