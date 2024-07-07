@@ -16,12 +16,8 @@
     "description": "the primary description about this championship"
   },
   "common.registration": {
-    "message": "Registration link to be announced",
+    "message": "Registration Link",
     "description": "the message of the registration button"
-  },
-  "common.registration.url": {
-    "message": "#",
-    "description": "the link url of the registration button"
   },
   "common.challenges": {
     "message": "Challenges List",

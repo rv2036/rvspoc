@@ -157,14 +157,7 @@ function HomepageHeader(): JSX.Element {
           <div id="rvspoc-description">
             <Translate id="common.description.prefix">为了推动 RISC-V 软件生态更快地发展，吸引更多的开发者加入到 RISC-V 生态中来，</Translate><Link className="host-link" to="https://kubuds.io"><Translate id="common.host.name">苦芽科技</Translate></Link><Translate id="common.description.suffix">发起了本届锦标赛。RISC-V 软件移植及优化锦标赛 (RVSPOC) 以桌面和服务器软件生态为重点，在编译器、运行时环境、AI 软件栈等多个方面公开提出一系列比赛题目，邀请全球开发者完成挑战并赢取奖金。</Translate>
           </div>
-          <div id="registration"><a className="link-button link-button-eye-catching link-disabled" href={
-              translate(
-                {
-                  message: '#',
-                  id: 'common.registration.url',
-                }
-              )
-            } target="_blank"><Translate id="common.registration">报名链接待公布</Translate></a></div>
+          <div id="registration"><a className="link-button link-button-eye-catching" href="https://www.wenjuan.com/s/JFVN7fW/" target="_blank"><Translate id="common.registration">比赛报名入口</Translate></a></div>
           {/*
           <div id="champions"><Link link-button link-button-eye-catching></Link></div>
           <div id="team-list"><Link className="link-button"><Translate id="common.team.link">团队列表</Translate></Link></div>
