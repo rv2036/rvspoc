@@ -1,15 +1,19 @@
 ---
-title: TiDB 在 2042 的移植与优化
-cid: S2427
-slug: /S2427
-award: 人民币 10000
+title: K3s 的移植与优化
+cid: S2428
+slug: /S2428
+award: TBA
 numberOfChampions: 1
-description: TiDB 是开源的开源分布式关系型数据库，本题要求在 SG2042/Pioneer Box 上，移植 TiDB, 并尽可能提升 TiDB benchmark 的跑分。
+description: K3s 是轻量级的 Kubernetes。K3s 易于安装，仅需要 Kubernetes 内存的一半，所有组件都在一个小于 100 MB 的二进制文件中。本赛题要求基于 Milk-V Duo S 平台完成 K3s 的移植与优化，并在电脑上形成集群管理的 demo。
 ---
 
 import ChallengesMetaInDoc from '../../../src/components/ChallengeMetaInDoc';
 
 <ChallengesMetaInDoc />
+
+import ChallengeDraftAnnouncement from '../../../src/components/ChallengeDraftAnnouncement';
+
+<ChallengeDraftAnnouncement/>
 
 import ChallengeRegistration from '../../../src/components/ChallengeRegistration';
 
@@ -17,22 +21,25 @@ import ChallengeRegistration from '../../../src/components/ChallengeRegistration
 
 ## 项目描述
 
-TiDB 是开源的开源分布式关系型数据库，本题要求在 SG2042/Pioneer Box 上，移植 TiDB, 并尽可能提升 TiDB benchmark 的跑分。
+K3s 是轻量级的 Kubernetes。K3s 易于安装，仅需要 Kubernetes
+内存的一半，所有组件都在一个小于 100 MB 的二进制文件中。本赛题要求基于 Milk-V
+Duo S 平台完成 K3s 的移植与优化，并在电脑上形成集群管理的 demo。
 
 ## 产出及评分要求
 
 - 本题是优化类赛题。
-- 需要能在 SG2042/Pioneer Box 成功移植和运行 TiDB。
-- 给出使用 TiDB 数据库的 Sysbench 测试结果。
+- 基于 Milk-V Duo S 平台完成 K3s 的优化。
+- 在电脑上形成集群管理的 demo。
+- 以 docker 运行起来所占用的内存大小和运行稳定性为考核指标。
 - 提供复现结果所需要的所有配置和过程说明。
 
 ## 验证平台
 
-- SG2042/Pioneer Box
+- Milk-V Duo S
 
 ## 提交说明
 
-- 提交仓库为 https://github.com/rv2036/rvspoc-S2427-tidb
+- 提交仓库为 https://github.com/rv2036/rvspoc-S2428-k3s
 - 请以 Pull Request 的形式，将结果提交到上述仓库中。
 - 请在创建 PR 时，提供用于满足移植任务完成及优化的必要信息。
 - **若未以源码形式提交，比赛结果公布后，需对提交内容进行完整开源才算完成本赛题。**
