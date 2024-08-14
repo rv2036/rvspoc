@@ -147,7 +147,7 @@
 
 ![](./PR1/4-result.png)
 
-[result1](./PR1/4-result.log)
+[result1.log](./PR1/4-result.log)
 
 - **此次推理未出现乱码，推理时间过长以至于无法判断故事生成质量**
 - **此次使用 llama.cpp 实现**
@@ -181,7 +181,7 @@
 
 ![](./PR1/8-result.png)
 
-[result2](./PR1/8-result.log)
+[result2.log](./PR1/8-result.log)
 
 - **此次推理未出现乱码，推理时间过长以至于无法判断故事生成质量**
 - **此次使用 llama.cpp 实现**
@@ -213,7 +213,7 @@
 
 ![](./PR1/11-result.png)
 
-[result3](./PR1/11-result.log)
+[result3.log](./PR1/11-result.log)
 
 此次推理出现乱码，推理时间过长，且确认无法生成正常故事
 
@@ -223,11 +223,11 @@
 
 ![](./PR1/11-result-patched.png)
 
-[result3-1](./PR1/11-result-patched.png)
+[result3-1.log](./PR1/11-result-patched.log)
 
 ![](./PR1/11-result-patched-1.png)
 
-[result3-2](./PR1/11-result-patched-1.png)
+[result3-2.log](./PR1/11-result-patched-1.log)
 
 - **此次推理未出现乱码，推理时间过长以至于无法判断故事生成质量**
 - **此次使用 llama.cpp 实现**
@@ -325,7 +325,7 @@ drwxr-xr-x 1 root root  506 Aug 13 19:08 little-core
      user    16m57.180s
      sys     0m42.747s
      ```
-     ![](./PR2/5-llama.cpp.result-q2.png) [result-q2](./PR2/5-llama.cpp.result-q2.log)
+     ![](./PR2/5-llama.cpp.result-q2.png) [result-q2.log](./PR2/5-llama.cpp.result-q2.log)
 2. Q4 量化模型推理过程中， CPU 和内存的使用率如下（一段连续时间内的最大值）：
    ![](./PR2/6-llama.cpp-q4-inferencing.png)
    * **此次推理未出现乱码，推理时间过长以至于无法判断故事生成质量**
@@ -344,7 +344,7 @@ drwxr-xr-x 1 root root  506 Aug 13 19:08 little-core
      user    9m25.443s
      sys     0m58.469s
      ```
-     ![](./PR2/7-llama.cpp.result-q4.png) [result-q4](./PR2/7-llama.cpp.result-q4.log)
+     ![](./PR2/7-llama.cpp.result-q4.png) [result-q4.log](./PR2/7-llama.cpp.result-q4.log)
 
 ### 5. nncase 的尝试
 
@@ -416,7 +416,7 @@ sys     0m42.747s
       ![](./PR3/llama.cpp.inferencing-q2.png)
    2. 推理结果为：
       ![](./PR3/llama.cpp.result-q2.png)
-      [result-q2](./PR3/llama.cpp.result-q2.log)
+      [result-q2.log](./PR3/llama.cpp.result-q2.log)
       - **此次推理未出现乱码，推理时间过长以至于无法判断故事生成质量**
       - **此次使用 llama.cpp 实现**
       - 最终结果为：
@@ -431,7 +431,7 @@ sys     0m42.747s
 3. 尝试模型 Meta-Llama-3-8B.Q4_0.gguf
    - 推理结果为：
      ![](./PR3/llama.cpp.result-q4.png)
-     [result-q4](./PR3/llama.cpp.result-q4.log)
+     [result-q4.log](./PR3/llama.cpp.result-q4.log)
      - **此次推理未出现乱码，推理时间过长以至于无法判断故事生成质量**
      - **此次使用 llama.cpp 实现**
      - 最终结果为：
