@@ -2,29 +2,29 @@
 
 ## 概述
 
-- PR1 使用了 llama.cpp 实现对 Q2 量化模型进行了尝试，未提交额外的代码优化。
+- PR1 使用了 llama.cpp 实现对 Q2 量化模型进行了尝试。
   * 选手选用了系统镜像 canmv_debian_sdcard_sdk_1.3.img
   * 分别采用
     1. XuanTie 工具链交叉编译
     2. OpenBLAS 加速
-    3. riscv64-glibc-ubuntu-22.04-gcc-nightly-2024.08.03-nightly 工具链
+    3. riscv64-glibc-ubuntu-22.04-gcc-nightly-2024.08.03-nightly 工具链，并对 llama.cpp 实现打了 rvv 补丁
 
-    方式，其中方式 3 出现了乱码，故排除；方式 2 较方式 1 稍优，最终结果为
+    最终方式 3 结果最优。
     ```bash
-    $ time ./run2 -m ../Meta-Llama-3-8B.Q2_K.gguf -p "Once upon a time, " -n 10
+    $ time ./run3-1 -m ../Meta-Llama-3-8B.Q2_K.gguf -p "Once upon a time, " -n 10
     ...
     ...
-    Once upon a time, 30,000 years ago, there was a man
-    llama_print_timings:        load time =  474640.74 ms
-    llama_print_timings:      sample time =      29.16 ms /    10 runs   (    2.92 ms per token,   342.97 tokens per second)
-    llama_print_timings: prompt eval time =  376846.72 ms /     6 tokens (62807.79 ms per token,     0.02 tokens per second)
-    llama_print_timings:        eval time = 1173166.78 ms /     9 runs   (130351.86 ms per token,     0.01 tokens per second)
-    llama_print_timings:       total time = 1550591.01 ms /    15 tokens
+    Once upon a time, 21 million years ago, I was a child in
+    llama_print_timings:        load time =  436411.50 ms
+    llama_print_timings:      sample time =      22.57 ms /    10 runs   (    2.26 ms per token,   443.01 tokens per second)
+    llama_print_timings: prompt eval time =  154567.85 ms /     6 tokens (25761.31 ms per token,     0.04 tokens per second)
+    llama_print_timings:        eval time = 1156768.66 ms /     9 runs   (128529.85 ms per token,     0.01 tokens per second)
+    llama_print_timings:       total time = 1311824.77 ms /    15 tokens
     Log end
 
-    real    33m54.540s
-    user    16m38.141s
-    sys     0m44.966s
+    real    29m17.170s
+    user    3m56.171s
+    sys     0m42.606s
     ```
 - PR2 尝试自行编译 k230_sdk，使用 llama.cpp 实现对 Q2/Q4 量化模型进行了尝试，未提交额外的代码优化。
   * 根据提交的信息编译 k230_sdk 启动系统失败，考虑到未提交系统优化，为了方便比较，采用和 PR1 相同的系统镜像
@@ -69,9 +69,8 @@
 
 总体来说，
 
-- 三个 PR 均未提交对代码的优化。
-- 三个 PR 的结果均无法达成实用性。
-- 这是一次在 K230 开发板上对 Llama3 的初步尝试。
+- PR1 提交了对代码的优化补丁， PR2、PR3 均未提交对代码的优化。
+- PR1 成绩较 PR2 和 PR3 更加优秀。
 
 ---
 ---
@@ -148,7 +147,7 @@
 
 ![](./PR1/4-result.png)
 
-[result1](./PR1/4-result.log)
+[result1.log](./PR1/4-result.log)
 
 - **此次推理未出现乱码，推理时间过长以至于无法判断故事生成质量**
 - **此次使用 llama.cpp 实现**
@@ -182,7 +181,7 @@
 
 ![](./PR1/8-result.png)
 
-[result2](./PR1/8-result.log)
+[result2.log](./PR1/8-result.log)
 
 - **此次推理未出现乱码，推理时间过长以至于无法判断故事生成质量**
 - **此次使用 llama.cpp 实现**
@@ -214,40 +213,58 @@
 
 ![](./PR1/11-result.png)
 
-[result3](./PR1/11-result.log)
+[result3.log](./PR1/11-result.log)
 
-- **此次推理出现乱码，推理时间过长，且确认无法生成正常故事**
+此次推理出现乱码，推理时间过长，且确认无法生成正常故事
+
+对 llama.cpp 应用选手的 [patch](https://github.com/user-attachments/files/16607707/ggml-quants.c.patch) 后，
+
+重新编译 llama.cpp 后上传至 K230 进行验证，两次验证结果如下：
+
+![](./PR1/11-result-patched.png)
+
+[result3-1.log](./PR1/11-result-patched.log)
+
+![](./PR1/11-result-patched-1.png)
+
+[result3-2.log](./PR1/11-result-patched-1.log)
+
+- **此次推理未出现乱码，推理时间过长以至于无法判断故事生成质量**
 - **此次使用 llama.cpp 实现**
 - 最终结果为：
   ```
-  Once upon a time, ovAXB929acin節ahooaskanperi_CheckedANJIANJIahooovAXBاده/Instruction/+AXB.getRaw
-  llama_print_timings:        load time =  438363.70 ms
-  llama_print_timings:      sample time =      37.39 ms /    20 runs   (    1.87 ms per token,   534.92 tokens per second)
-  llama_print_timings: prompt eval time =  147116.39 ms /     6 tokens (24519.40 ms per token,     0.04 tokens per second)
-  llama_print_timings:        eval time = 2425376.46 ms /    19 runs   (127651.39 ms per token,     0.01 tokens per second)
-  llama_print_timings:       total time = 2573103.97 ms /    25 tokens
+  Once upon a time, 21 million years ago, I was a child in
+  llama_print_timings:        load time =  436411.50 ms
+  llama_print_timings:      sample time =      22.57 ms /    10 runs   (    2.26 ms per token,   443.01 tokens per second)
+  llama_print_timings: prompt eval time =  154567.85 ms /     6 tokens (25761.31 ms per token,     0.04 tokens per second)
+  llama_print_timings:        eval time = 1156768.66 ms /     9 runs   (128529.85 ms per token,     0.01 tokens per second)
+  llama_print_timings:       total time = 1311824.77 ms /    15 tokens
+  Log end
+
+  real    29m17.170s
+  user    3m56.171s
+  sys     0m42.606s
   ```
 
 ### 9. 结果
 
 - 去除有乱码情况的 run3 二进制结果
-- 取 run1 和 run2 二进制生成结果中稍好的 run2 二进制所生成的结果为 PR1 的最终结果
-- 再次使用 run2 使用 `-n 10` 进行一次测试，以方便进行统一比较。
+- 取成绩稍好的 run3-1 二进制所生成的结果为 PR1 的最终结果
   ```
-  Once upon a time, 30,000 years ago, there was a man
-  llama_print_timings:        load time =  474640.74 ms
-  llama_print_timings:      sample time =      29.16 ms /    10 runs   (    2.92 ms per token,   342.97 tokens per second)
-  llama_print_timings: prompt eval time =  376846.72 ms /     6 tokens (62807.79 ms per token,     0.02 tokens per second)
-  llama_print_timings:        eval time = 1173166.78 ms /     9 runs   (130351.86 ms per token,     0.01 tokens per second)
-  llama_print_timings:       total time = 1550591.01 ms /    15 tokens
+  Once upon a time, 21 million years ago, I was a child in
+  llama_print_timings:        load time =  436411.50 ms
+  llama_print_timings:      sample time =      22.57 ms /    10 runs   (    2.26 ms per token,   443.01 tokens per second)
+  llama_print_timings: prompt eval time =  154567.85 ms /     6 tokens (25761.31 ms per token,     0.04 tokens per second)
+  llama_print_timings:        eval time = 1156768.66 ms /     9 runs   (128529.85 ms per token,     0.01 tokens per second)
+  llama_print_timings:       total time = 1311824.77 ms /    15 tokens
   Log end
 
-  real    33m54.540s
-  user    16m38.141s
-  sys     0m44.966s
+  real    29m17.170s
+  user    3m56.171s
+  sys     0m42.606s
 
   ```
-  ![](./PR1/8-result-10.png) [result](./PR1/8-result-10.log)
+- **本次验证与选手提供的结果基本一致。**
 
 ## PR2
 
@@ -308,7 +325,7 @@ drwxr-xr-x 1 root root  506 Aug 13 19:08 little-core
      user    16m57.180s
      sys     0m42.747s
      ```
-     ![](./PR2/5-llama.cpp.result-q2.png) [result-q2](./PR2/5-llama.cpp.result-q2.log)
+     ![](./PR2/5-llama.cpp.result-q2.png) [result-q2.log](./PR2/5-llama.cpp.result-q2.log)
 2. Q4 量化模型推理过程中， CPU 和内存的使用率如下（一段连续时间内的最大值）：
    ![](./PR2/6-llama.cpp-q4-inferencing.png)
    * **此次推理未出现乱码，推理时间过长以至于无法判断故事生成质量**
@@ -327,7 +344,7 @@ drwxr-xr-x 1 root root  506 Aug 13 19:08 little-core
      user    9m25.443s
      sys     0m58.469s
      ```
-     ![](./PR2/7-llama.cpp.result-q4.png) [result-q4](./PR2/7-llama.cpp.result-q4.log)
+     ![](./PR2/7-llama.cpp.result-q4.png) [result-q4.log](./PR2/7-llama.cpp.result-q4.log)
 
 ### 5. nncase 的尝试
 
@@ -350,6 +367,8 @@ real    34m15.751s
 user    16m57.180s
 sys     0m42.747s
 ```
+
+**本次验证与选手提供的结果基本一致。**
 
 ## PR3
 
@@ -397,7 +416,7 @@ sys     0m42.747s
       ![](./PR3/llama.cpp.inferencing-q2.png)
    2. 推理结果为：
       ![](./PR3/llama.cpp.result-q2.png)
-      [result-q2](./PR3/llama.cpp.result-q2.log)
+      [result-q2.log](./PR3/llama.cpp.result-q2.log)
       - **此次推理未出现乱码，推理时间过长以至于无法判断故事生成质量**
       - **此次使用 llama.cpp 实现**
       - 最终结果为：
@@ -412,7 +431,7 @@ sys     0m42.747s
 3. 尝试模型 Meta-Llama-3-8B.Q4_0.gguf
    - 推理结果为：
      ![](./PR3/llama.cpp.result-q4.png)
-     [result-q4](./PR3/llama.cpp.result-q4.log)
+     [result-q4.log](./PR3/llama.cpp.result-q4.log)
      - **此次推理未出现乱码，推理时间过长以至于无法判断故事生成质量**
      - **此次使用 llama.cpp 实现**
      - 最终结果为：
@@ -430,3 +449,4 @@ sys     0m42.747s
 
 - 这里选择效果更好的 llama.cpp 实现
   - Q4 和 Q2 量化模型的推理表现接近，但 Q4 模型加载时间更长，总体 Q2 量化模型的表现稍好
+- **本次验证与选手提供的结果基本一致。**
