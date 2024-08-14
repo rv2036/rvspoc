@@ -1,4 +1,6 @@
-1. 提交仓库为 <a href="{props.submissionRepoUrl}">{props.submissionRepoUrl}</a>
+import Link from '@docusaurus/Link';
+
+1. 提交仓库为 <Link href={props.submissionRepoUrl}>{props.submissionRepoUrl}</Link>
 2. 请以 Pull request 的形式，将结果提交到上述仓库中。
    - 以下条件中的「PR」均指代相对应于条件 1 仓库链接的 Pull request。
 3. 在创建 PR 时，请提供用于复现移植成果的必要内容，包括但不限于：
