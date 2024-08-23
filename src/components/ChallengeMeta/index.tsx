@@ -47,6 +47,18 @@ export default function ChallengeMeta({
         <label><Translate id='common.metadata.championsCount'>冠军个数</Translate></label>
         <span>{fm.numberOfChampions}</span>
       </div>
+      {inDoc === 'in-doc-true' && (
+        <div>
+          <label><Translate id='common.metadata.begin_time'>开始时间</Translate></label>
+          <span>{fm.begin_time}</span>
+        </div>
+      )}
+      {inDoc === 'in-doc-true' && (
+        <div>
+          <label><Translate id='common.metadata.end_time'>截止时间</Translate></label>
+          <span>{fm.end_time}</span>
+        </div>
+      )}
     </div>
   )
 }
