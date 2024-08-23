@@ -63,6 +63,14 @@
     "message": "Award",
     "description": "the description message of the award"
   },
+  "common.metadata.begin_time": {
+    "message": "Starttime",
+    "description": "the description message of the challenge starting time"
+  },
+  "common.metadata.end_time": {
+    "message": "Deadline",
+    "description": "the description message of the challenge deadline"
+  },
   "common.metadata.championsCount": {
     "message": "Number of champions",
     "description": "the description message of the number of champions"
