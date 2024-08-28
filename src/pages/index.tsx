@@ -168,6 +168,7 @@ function HomepageHeader(): JSX.Element {
           <div id="sponsors">
             <label><Translate id="common.sponsor">赞助商</Translate></label>
             <div>
+              <Sponsor icon="/img/sophgo-logo.png" url="https://www.sophgo.com" />
               <Sponsor icon="/img/sponsors-tba.png" url="#" classn="link-disabled" />
             </div>
           </div>
