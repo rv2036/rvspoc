@@ -1,0 +1,63 @@
+sysbench 1.0.20 (using system LuaJIT 2.1.1700206165)
+
+Running the test with following options:
+Number of threads: 12
+Report intermediate results every 10 second(s)
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+[ 10s ] thds: 12 tps: 170.41 qps: 2736.39 (r/w/o: 2394.46/0.00/341.92) lat (ms,95%): 94.10 err/s: 0.00 reconn/s: 0.00
+[ 20s ] thds: 12 tps: 184.11 qps: 2948.16 (r/w/o: 2579.94/0.00/368.22) lat (ms,95%): 86.00 err/s: 0.00 reconn/s: 0.00
+[ 30s ] thds: 12 tps: 172.20 qps: 2754.49 (r/w/o: 2409.99/0.00/344.50) lat (ms,95%): 116.80 err/s: 0.00 reconn/s: 0.00
+[ 40s ] thds: 12 tps: 193.60 qps: 3099.21 (r/w/o: 2712.00/0.00/387.20) lat (ms,95%): 77.19 err/s: 0.00 reconn/s: 0.00
+[ 50s ] thds: 12 tps: 198.90 qps: 3182.39 (r/w/o: 2784.59/0.00/397.80) lat (ms,95%): 77.19 err/s: 0.00 reconn/s: 0.00
+[ 60s ] thds: 12 tps: 198.10 qps: 3170.48 (r/w/o: 2774.38/0.00/396.10) lat (ms,95%): 78.60 err/s: 0.00 reconn/s: 0.00
+[ 70s ] thds: 12 tps: 199.80 qps: 3194.05 (r/w/o: 2794.44/0.00/399.61) lat (ms,95%): 77.19 err/s: 0.00 reconn/s: 0.00
+[ 80s ] thds: 12 tps: 198.61 qps: 3178.54 (r/w/o: 2781.23/0.00/397.32) lat (ms,95%): 77.19 err/s: 0.00 reconn/s: 0.00
+[ 90s ] thds: 12 tps: 199.30 qps: 3191.13 (r/w/o: 2792.52/0.00/398.60) lat (ms,95%): 75.82 err/s: 0.00 reconn/s: 0.00
+[ 100s ] thds: 12 tps: 198.20 qps: 3170.39 (r/w/o: 2773.99/0.00/396.40) lat (ms,95%): 77.19 err/s: 0.00 reconn/s: 0.00
+[ 110s ] thds: 12 tps: 200.90 qps: 3213.89 (r/w/o: 2812.19/0.00/401.70) lat (ms,95%): 77.19 err/s: 0.00 reconn/s: 0.00
+[ 120s ] thds: 12 tps: 203.40 qps: 3255.11 (r/w/o: 2848.21/0.00/406.90) lat (ms,95%): 68.05 err/s: 0.00 reconn/s: 0.00
+[ 130s ] thds: 12 tps: 186.80 qps: 2989.70 (r/w/o: 2616.10/0.00/373.60) lat (ms,95%): 81.48 err/s: 0.00 reconn/s: 0.00
+[ 140s ] thds: 12 tps: 177.50 qps: 2836.59 (r/w/o: 2481.69/0.00/354.90) lat (ms,95%): 86.00 err/s: 0.00 reconn/s: 0.00
+[ 150s ] thds: 12 tps: 192.10 qps: 3073.70 (r/w/o: 2689.40/0.00/384.30) lat (ms,95%): 84.47 err/s: 0.00 reconn/s: 0.00
+[ 160s ] thds: 12 tps: 180.40 qps: 2887.51 (r/w/o: 2526.71/0.00/360.80) lat (ms,95%): 84.47 err/s: 0.00 reconn/s: 0.00
+[ 170s ] thds: 12 tps: 190.40 qps: 3048.60 (r/w/o: 2667.80/0.00/380.80) lat (ms,95%): 86.00 err/s: 0.00 reconn/s: 0.00
+[ 180s ] thds: 12 tps: 151.40 qps: 2419.39 (r/w/o: 2116.59/0.00/302.80) lat (ms,95%): 127.81 err/s: 0.00 reconn/s: 0.00
+[ 190s ] thds: 12 tps: 197.40 qps: 3157.40 (r/w/o: 2762.70/0.00/394.70) lat (ms,95%): 81.48 err/s: 0.00 reconn/s: 0.00
+[ 200s ] thds: 12 tps: 206.10 qps: 3298.77 (r/w/o: 2886.48/0.00/412.30) lat (ms,95%): 65.65 err/s: 0.00 reconn/s: 0.00
+[ 210s ] thds: 12 tps: 187.30 qps: 2997.82 (r/w/o: 2623.22/0.00/374.60) lat (ms,95%): 106.75 err/s: 0.00 reconn/s: 0.00
+[ 220s ] thds: 12 tps: 198.80 qps: 3179.01 (r/w/o: 2781.51/0.00/397.50) lat (ms,95%): 77.19 err/s: 0.00 reconn/s: 0.00
+[ 230s ] thds: 12 tps: 191.29 qps: 3062.97 (r/w/o: 2680.28/0.00/382.68) lat (ms,95%): 86.00 err/s: 0.00 reconn/s: 0.00
+[ 240s ] thds: 12 tps: 196.10 qps: 3137.56 (r/w/o: 2745.36/0.00/392.19) lat (ms,95%): 78.60 err/s: 0.00 reconn/s: 0.00
+[ 250s ] thds: 12 tps: 202.40 qps: 3237.69 (r/w/o: 2832.89/0.00/404.80) lat (ms,95%): 68.05 err/s: 0.00 reconn/s: 0.00
+[ 260s ] thds: 12 tps: 74.40 qps: 1191.40 (r/w/o: 1042.60/0.00/148.80) lat (ms,95%): 90.78 err/s: 0.00 reconn/s: 0.00
+[ 270s ] thds: 12 tps: 0.00 qps: 0.00 (r/w/o: 0.00/0.00/0.00) lat (ms,95%): 0.00 err/s: 0.00 reconn/s: 0.00
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest5 WHERE id BETWEEN ? AND ? ORDER BY c'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT SUM(k) FROM sbtest26 WHERE id BETWEEN ? AND ?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:432: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+(last message repeated 1 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT DISTINCT c FROM sbtest16 WHERE id BETWEEN ? AND ? ORDER BY c'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest17 WHERE id BETWEEN ? AND ? ORDER BY c'
+FATAL: `thread_run' function failed: ./oltp_common.lua:432: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+(last message repeated 1 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT SUM(k) FROM sbtest26 WHERE id BETWEEN ? AND ?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:432: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest15 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT DISTINCT c FROM sbtest32 WHERE id BETWEEN ? AND ? ORDER BY c'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+FATAL: `thread_run' function failed: ./oltp_common.lua:432: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest22 WHERE id BETWEEN ? AND ? ORDER BY c'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest9 WHERE id BETWEEN ? AND ? ORDER BY c'
+FATAL: `thread_run' function failed: ./oltp_common.lua:432: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+(last message repeated 1 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT SUM(k) FROM sbtest32 WHERE id BETWEEN ? AND ?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest21 WHERE id BETWEEN ? AND ? ORDER BY c'
+FATAL: `thread_run' function failed: ./oltp_common.lua:432: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+(last message repeated 1 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest9 WHERE id=?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
