@@ -1,0 +1,177 @@
+$ time sysbench --config-file=sysbench.conf oltp_point_select --tables=32 --table-size=1000000 --db-ps-mode=auto --rand-type=uniform run
+sysbench 1.0.20 (using system LuaJIT 2.1.1700206165)
+
+Running the test with following options:
+Number of threads: 32
+Report intermediate results every 10 second(s)
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+[ 10s ] thds: 32 tps: 13321.29 qps: 13321.29 (r/w/o: 13321.29/0.00/0.00) lat (ms,95%): 6.79 err/s: 0.00 reconn/s: 0.00
+[ 20s ] thds: 32 tps: 14432.18 qps: 14432.18 (r/w/o: 14432.18/0.00/0.00) lat (ms,95%): 6.09 err/s: 0.00 reconn/s: 0.00
+[ 30s ] thds: 32 tps: 12900.29 qps: 12900.29 (r/w/o: 12900.29/0.00/0.00) lat (ms,95%): 6.67 err/s: 0.00 reconn/s: 0.00
+[ 40s ] thds: 32 tps: 12502.62 qps: 12502.62 (r/w/o: 12502.62/0.00/0.00) lat (ms,95%): 7.30 err/s: 0.00 reconn/s: 0.00
+[ 50s ] thds: 32 tps: 14838.53 qps: 14838.53 (r/w/o: 14838.53/0.00/0.00) lat (ms,95%): 5.77 err/s: 0.00 reconn/s: 0.00
+[ 60s ] thds: 32 tps: 15604.59 qps: 15604.59 (r/w/o: 15604.59/0.00/0.00) lat (ms,95%): 5.28 err/s: 0.00 reconn/s: 0.00
+[ 70s ] thds: 32 tps: 15658.02 qps: 15658.02 (r/w/o: 15658.02/0.00/0.00) lat (ms,95%): 5.47 err/s: 0.00 reconn/s: 0.00
+[ 80s ] thds: 32 tps: 13862.32 qps: 13862.32 (r/w/o: 13862.32/0.00/0.00) lat (ms,95%): 6.55 err/s: 0.00 reconn/s: 0.00
+[ 90s ] thds: 32 tps: 14592.78 qps: 14592.78 (r/w/o: 14592.78/0.00/0.00) lat (ms,95%): 5.47 err/s: 0.00 reconn/s: 0.00
+[ 100s ] thds: 32 tps: 15533.25 qps: 15533.25 (r/w/o: 15533.25/0.00/0.00) lat (ms,95%): 5.47 err/s: 0.00 reconn/s: 0.00
+[ 110s ] thds: 32 tps: 12857.89 qps: 12857.89 (r/w/o: 12857.89/0.00/0.00) lat (ms,95%): 7.04 err/s: 0.00 reconn/s: 0.00
+[ 120s ] thds: 32 tps: 13432.48 qps: 13432.48 (r/w/o: 13432.48/0.00/0.00) lat (ms,95%): 6.55 err/s: 0.00 reconn/s: 0.00
+[ 130s ] thds: 32 tps: 15162.34 qps: 15162.34 (r/w/o: 15162.34/0.00/0.00) lat (ms,95%): 5.88 err/s: 0.00 reconn/s: 0.00
+[ 140s ] thds: 32 tps: 15425.12 qps: 15425.12 (r/w/o: 15425.12/0.00/0.00) lat (ms,95%): 5.28 err/s: 0.00 reconn/s: 0.00
+[ 150s ] thds: 32 tps: 12929.03 qps: 12929.03 (r/w/o: 12929.03/0.00/0.00) lat (ms,95%): 7.04 err/s: 0.00 reconn/s: 0.00
+[ 160s ] thds: 32 tps: 14897.82 qps: 14897.82 (r/w/o: 14897.82/0.00/0.00) lat (ms,95%): 5.88 err/s: 0.00 reconn/s: 0.00
+[ 170s ] thds: 32 tps: 12796.95 qps: 12796.95 (r/w/o: 12796.95/0.00/0.00) lat (ms,95%): 6.91 err/s: 0.00 reconn/s: 0.00
+[ 180s ] thds: 32 tps: 10800.70 qps: 10800.70 (r/w/o: 10800.70/0.00/0.00) lat (ms,95%): 8.43 err/s: 0.00 reconn/s: 0.00
+[ 190s ] thds: 32 tps: 9510.78 qps: 9510.78 (r/w/o: 9510.78/0.00/0.00) lat (ms,95%): 10.46 err/s: 0.00 reconn/s: 0.00
+[ 200s ] thds: 32 tps: 4421.13 qps: 4421.13 (r/w/o: 4421.13/0.00/0.00) lat (ms,95%): 5.28 err/s: 0.00 reconn/s: 0.00
+[ 210s ] thds: 32 tps: 0.00 qps: 0.00 (r/w/o: 0.00/0.00/0.00) lat (ms,95%): 0.00 err/s: 0.00 reconn/s: 0.00
+[ 220s ] thds: 32 tps: 0.00 qps: 0.00 (r/w/o: 0.00/0.00/0.00) lat (ms,95%): 0.00 err/s: 0.00 reconn/s: 0.00
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest18 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest16 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest6 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest22 WHERE id=?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest16 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest2 WHERE id=?'
+(last message repeated 2 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest28 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest14 WHERE id=?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+(last message repeated 2 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest15 WHERE id=?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+(last message repeated 1 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest31 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest3 WHERE id=?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+(last message repeated 1 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest20 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest19 WHERE id=?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest22 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest10 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest2 WHERE id=?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+(last message repeated 3 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest7 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest25 WHERE id=?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+(last message repeated 1 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest1 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest3 WHERE id=?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+(last message repeated 1 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest21 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest5 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest28 WHERE id=?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+(last message repeated 2 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest22 WHERE id=?'
+(last message repeated 1 times)
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+(last message repeated 1 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest19 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest4 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest17 WHERE id=?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest27 WHERE id=?'
+(last message repeated 3 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest25 WHERE id=?'
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest2 WHERE id=?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+(last message repeated 1 times)
+FATAL: mysql_stmt_execute() returned error 2013 (Lost connection to server during query) for query 'SELECT c FROM sbtest8 WHERE id=?'
+FATAL: `thread_run' function failed: ./oltp_common.lua:419: SQL error, errno = 2013, state = 'HY000': Lost connection to server during query
+
+real    3m46.678s
+user    0m44.980s
+sys     1m15.840s
+
+
+
+===========================================
+===========================================
+===========================================
+===========================================
+
+runtime: traceback stuck. pc=0x4cbc040 sp=0x2411096708
+stack: frame={sp:0x2411096708, fp:0x2411096708} stack=[0x2411090000,0x2411098000)
+0x0000002411096608:  0x0000000000000000  0x0000000001baa9f8 <runtime.(*mspan).writeHeapBitsSmall+0x0000000000000068>
+0x0000002411096618:  0x00000024104d7040  0x000000241067e008
+0x0000002411096628:  0x00000024104d7040  0x000000241cbc7f80
+0x0000002411096638:  0x000000241d490be0  0x0000000000000010
+0x0000002411096648:  0x000000253885b200  0x00000024104fe190
+0x0000002411096658:  0x0000000001bd09d4 <runtime.(*_panic).nextDefer+0x00000000000001dc>  0x0000000000000001
+0x0000002411096668:  0x0000000000000018  0x0000000000000008
+0x0000002411096678:  0x0000000001ba11e0 <runtime.mallocgc+0x0000000000000508>  0x0000003381a627a8
+0x0000002411096688:  0x000000241cbc7ce0  0x0000000001bd08b4 <runtime.(*_panic).nextDefer+0x00000000000000bc>
+0x0000002411096698:  0xc1af7f36428bfadf  0x00000278a02f7575
+0x00000024110966a8:  0x0000000009ae89a0  0x0000002410bca1b1
+0x00000024110966b8:  0x000000251233e720  0x0000000002d09a08 <github.com/pingcap/tidb/pkg/util/sqlexec.RecordSet.Close-fm+0x0000000000000000>
+0x00000024110966c8:  0x0000000001ba15e8 <runtime.newobject+0x0000000000000038>  0x000000241d328230
+0x00000024110966d8:  0x00000024110966b0  0x0000002942e30e00
+0x00000024110966e8:  0x000000241d31ae40  0x0000000004d886d0 <github.com/pingcap/tidb/pkg/server.(*clientConn).executePreparedStmtAndWriteResult+0x00000
+000000008d8>
+0x00000024110966f8:  0x0018000100000610  0x0000000004d8b914 <github.com/pingcap/tidb/pkg/server.(*TiDBContext).ExecuteStmt+0x0000000000000064>
+0x0000002411096708: >0x0000000004cbc040 <github.com/pingcap/tidb/pkg/session.(*session).ExecuteStmt.deferwrap1+0x0000000000000000>  0x0000000009ae0fa0
+0x0000002411096718:  0x0000000000000000  0x0000000000000000
+0x0000002411096728:  0x0000000004d88254 <github.com/pingcap/tidb/pkg/server.(*clientConn).executePreparedStmtAndWriteResult+0x000000000000045c>  0x0000
+002410648508
+0x0000002411096738:  0x00000000065edd88  0x000000251233e720
+0x0000002411096748:  0x00000000066020d8  0x000000241d490be0
+0x0000002411096758:  0x0000000004d8820c <github.com/pingcap/tidb/pkg/server.(*clientConn).executePreparedStmtAndWriteResult+0x0000000000000414>  0x0000
+00000000000c
+0x0000002411096768:  0x00000000054ca6c0  0x0000000000010001
+0x0000002411096778:  0x0000000004d87a34 <github.com/pingcap/tidb/pkg/server.(*clientConn).executePlanCacheStmt+0x00000000000001cc>  0x000000251c6febe8
+0x0000002411096788:  0x00000000065edd88  0x000000251233e720
+0x0000002411096798:  0x00000000066020d8  0x000000241d490be0
+0x00000024110967a8:  0x0000002400026701  0x0000000000000000
+0x00000024110967b8:  0x0000000001bc7660 <runtime.mProf_Malloc+0x00000000000000c0>  0x0000000005036a60
+0x00000024110967c8:  0x0000000006603ff8  0x0000000001baa410 <runtime.(*mspan).initHeapBits+0x0000000000000050>
+0x00000024110967d8:  0x0000000000000000  0x0000000001babde0 <runtime.(*mcentral).grow+0x0000000000000078>
+0x00000024110967e8:  0x00000024110967f8  0x000000241cfd3f80
+0x00000024110967f8:  0x0000000000000010  0x0000000000000010
+fatal error: traceback stuck
+
+goroutine 0 gp=0x3f5c882000 m=8 mp=0x3f5c880008 [idle]:
+time.Now()
+        /home/debian/go1.22.7/src/time/time.go:1132 +0x20 fp=0x2411096298 sp=0x2411096290 pc=0x1c365e0
+time.Now()
+        /home/debian/go1.22.7/src/time/time.go:1132 +0x20 fp=0x24110962a0 sp=0x2411096298 pc=0x1c365e0
+github.com/pingcap/tidb/pkg/session.(*session).ExecuteStmt(0x9ae0fa0, {0x0?, 0x0?}, {0x4d88254, 0x2410648508})
+        /home/debian/rvspoc-S2427-tidb/pkg/session/session.go:2058 +0x448 fp=0x2411096708 sp=0x24110962a0 pc=0x4cbb330
+github.com/pingcap/tidb/pkg/parser/ast.(*node).Text.func1()
+        /home/debian/rvspoc-S2427-tidb/pkg/parser/ast/base.go:56 fp=0x2411096708 sp=0x2411096708 pc=0x1fd03a0
+github.com/pingcap/tidb/pkg/session.(*session).ExecuteStmt.deferwrap1()
+        /home/debian/rvspoc-S2427-tidb/pkg/session/session.go:2007 fp=0x2411096708 sp=0x2411096708 pc=0x4cbc040
+runtime: traceback stuck. pc=0x4cbc040 sp=0x2411096708
+stack: frame={sp:0x2411096708, fp:0x2411096708} stack=[0x3f5c884000,0x3f5c88c000)
+
+fatal error: traceback stuck
+panic during panic
+
+goroutine 0 gp=0x3f5c882000 m=8 mp=0x3f5c880008 [idle]:
+time.Now()
+        /home/debian/go1.22.7/src/time/time.go:1132 +0x20 fp=0x2411096298 sp=0x2411096290 pc=0x1c365e0
+time.Now()
+        /home/debian/go1.22.7/src/time/time.go:1132 +0x20 fp=0x24110962a0 sp=0x2411096298 pc=0x1c365e0
+github.com/pingcap/tidb/pkg/session.(*session).ExecuteStmt(0x9ae0fa0, {0x0?, 0x0?}, {0x4d88254, 0x2410648508})
+        /home/debian/rvspoc-S2427-tidb/pkg/session/session.go:2058 +0x448 fp=0x2411096708 sp=0x24110962a0 pc=0x4cbb330
+github.com/pingcap/tidb/pkg/parser/ast.(*node).Text.func1()
+        /home/debian/rvspoc-S2427-tidb/pkg/parser/ast/base.go:56 fp=0x2411096708 sp=0x2411096708 pc=0x1fd03a0
+github.com/pingcap/tidb/pkg/session.(*session).ExecuteStmt.deferwrap1()
+        /home/debian/rvspoc-S2427-tidb/pkg/session/session.go:2007 fp=0x2411096708 sp=0x2411096708 pc=0x4cbc040
+runtime: traceback stuck. pc=0x4cbc040 sp=0x2411096708
+stack: frame={sp:0x2411096708, fp:0x2411096708} stack=[0x3f5c884000,0x3f5c88c000)
+
+fatal error: traceback stuck
+stack trace unavailable
+
