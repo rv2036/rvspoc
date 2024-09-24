@@ -70,15 +70,19 @@ div#cover {
                     justify-content: center;
                     align-items: center;
                     a.sponsor {
-                        display: inline-block;
+                        display: flex;
                         width: 128px;
                         height: 80px;
+                        padding: 10px;
                         background-color: #FFFFFFF0;
                         &:not(:first-of-type) {
                             margin-left: 30px;
                         }
                         &.link-disabled {
                             opacity: .05;
+                        }
+                        img {
+                            object-fit: contain;
                         }
                     }
                 }
