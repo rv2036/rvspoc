@@ -27,6 +27,10 @@
     "message": "Challenges List",
     "description": "the message of the link button of challenge list"
   },
+  "common.champions": {
+    "message": "Challenge Champions",
+    "description": "the message of the challengs champions"
+  },
   "common.team.link": {
     "message": "Team List",
     "description": "the message of the link button of team list"
