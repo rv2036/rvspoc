@@ -1,0 +1,79 @@
+[08/11 21:06:52.678177] [32mSUCC: created database (test)
+[0m[08/11 21:06:54.687606] [32mSUCC: Spent 1.9830 seconds to create 10000 table(s) with 8 thread(s) speed: 5043 tables/s, already exist 0 table(s), actual 10000 table(s) pre created, 0 table(s) will be auto created
+[0m[08/11 21:06:51.382316] INFO: client version: 3.3.3.0.alpha
+[08/11 21:06:52.678119] INFO: command to create database: <CREATE DATABASE IF NOT EXISTS test PRECISION 'ms';>
+[08/11 21:06:52.683230] INFO: stable meters does not exist, will create one
+[08/11 21:06:52.683301] INFO: create stable: <CREATE TABLE IF NOT EXISTS test.meters (ts TIMESTAMP,current float,voltage int,phase float) TAGS (groupid int,location binary(24))>
+[08/11 21:06:52.693058] INFO: generate stable<meters> columns data with lenOfCols<80> * prepared_rand<10000>
+[08/11 21:06:52.704244] INFO: start creating 10000 table(s) with 8 thread(s)
+[08/11 21:06:52.705194] INFO: thread[0] start creating table from 0 to 1249
+[08/11 21:06:52.705830] INFO: thread[1] start creating table from 1250 to 2499
+[08/11 21:06:52.706618] INFO: thread[2] start creating table from 2500 to 3749
+[08/11 21:06:52.709230] INFO: thread[3] start creating table from 3750 to 4999
+[08/11 21:06:52.711471] INFO: thread[4] start creating table from 5000 to 6249
+[08/11 21:06:52.711792] INFO: thread[5] start creating table from 6250 to 7499
+[08/11 21:06:52.712195] INFO: thread[6] start creating table from 7500 to 8749
+[08/11 21:06:52.715439] INFO: thread[7] start creating table from 8750 to 9999
+[08/11 21:06:54.687646] INFO: record per request (30000) is larger than insert rows (10000) in progressive mode, which will be set to 10000
+[08/11 21:06:54.696658] INFO: Estimate memory usage: 11.43MB
+[08/11 21:06:54.696670] INFO: run insert thread. real nthread=8
+[08/11 21:06:54.696728] INFO: thread[0] start progressive inserting into table from 0 to 1250
+[08/11 21:06:54.696748] INFO: thread[1] start progressive inserting into table from 1250 to 2500
+[08/11 21:06:54.696787] INFO: thread[2] start progressive inserting into table from 2500 to 3750
+[08/11 21:06:54.696966] INFO:  pthread_join 0 ...
+[08/11 21:06:54.697988] INFO: thread[3] start progressive inserting into table from 3750 to 5000
+[08/11 21:06:54.706028] INFO: thread[5] start progressive inserting into table from 6250 to 7500
+[08/11 21:06:54.708421] INFO: thread[4] start progressive inserting into table from 5000 to 6250
+[08/11 21:06:54.708968] INFO: thread[6] start progressive inserting into table from 7500 to 8750
+[08/11 21:06:54.710984] INFO: thread[7] start progressive inserting into table from 8750 to 10000
+[08/11 21:07:24.730764] INFO: thread[6] has currently inserted rows: 2830000, peroid insert rate: 94264.206 rows/s 
+[08/11 21:07:24.778766] INFO: thread[1] has currently inserted rows: 2760000, peroid insert rate: 91749.219 rows/s 
+[08/11 21:07:24.779666] INFO: thread[0] has currently inserted rows: 2830000, peroid insert rate: 94073.065 rows/s 
+[08/11 21:07:24.782792] INFO: thread[5] has currently inserted rows: 2910000, peroid insert rate: 96754.888 rows/s 
+[08/11 21:07:24.786741] INFO: thread[2] has currently inserted rows: 2820000, peroid insert rate: 93718.843 rows/s 
+[08/11 21:07:24.791509] INFO: thread[7] has currently inserted rows: 2750000, peroid insert rate: 91419.833 rows/s 
+[08/11 21:07:24.827556] INFO: thread[3] has currently inserted rows: 2800000, peroid insert rate: 92930.634 rows/s 
+[08/11 21:07:24.832006] INFO: thread[4] has currently inserted rows: 2930000, peroid insert rate: 97264.639 rows/s 
+[08/11 21:07:54.787693] INFO: thread[6] has currently inserted rows: 5260000, peroid insert rate: 80846.392 rows/s 
+[08/11 21:07:54.815048] INFO: thread[0] has currently inserted rows: 5330000, peroid insert rate: 83233.453 rows/s 
+[08/11 21:07:54.837998] INFO: thread[4] has currently inserted rows: 5360000, peroid insert rate: 80986.502 rows/s 
+[08/11 21:07:54.874502] INFO: thread[1] has currently inserted rows: 5130000, peroid insert rate: 78748.006 rows/s 
+[08/11 21:07:54.877670] INFO: thread[3] has currently inserted rows: 5250000, peroid insert rate: 81530.782 rows/s 
+[08/11 21:07:54.886833] INFO: thread[5] has currently inserted rows: 5400000, peroid insert rate: 82713.261 rows/s 
+[08/11 21:07:54.906560] INFO: thread[7] has currently inserted rows: 5150000, peroid insert rate: 79694.504 rows/s 
+[08/11 21:07:55.315505] INF[08/11 21:09:21.650745] [32mSUCC: thread[5] progressive mode, completed total inserted rows: 12500000, 90179.04 records/second
+[0m[08/11 21:09:23.594556] [32mSUCC: thread[3] progressive mode, completed total inserted rows: 12500000, 88978.81 records/second
+[0m[08/11 21:09:23.834792] [32mSUCC: thread[0] progressive mode, completed total inserted rows: 12500000, 88910.80 records/second
+[0m[08/11 21:09:24.090808] [32mSUCC: thread[4] progressive mode, completed total inserted rows: 12500000, 88953.57 records/second
+[0m[08/11 21:09:24.544918] [32mSUCC: thread[6] progressive mode, completed total inserted rows: 12500000, 88418.89 records/second
+[0m[08/11 21:09:24.653537] [32mSUCC: thread[2] progressive mode, completed total inserted rows: 12500000, 88636.03 records/second
+[0m[08/11 21:09:24.712489] [32mSUCC: thread[7] progressive mode, completed total inserted rows: 12500000, 88420.49 records/second
+[0m[08/11 21:09:24.983955] [32mSUCC: thread[1] progressive mode, completed total inserted rows: 12500000, 88269.47 records/second
+[0m[08/11 21:09:24.985573] [32mSUCC: Spent 150.287580 (real 140.698695) seconds to insert rows: 100000000 with 8 thread(s) into test 665390.98 (real 710738.65) records/second
+[0m[08/11 21:09:24.985601] [32mSUCC: insert delay, min: 18.4610ms, avg: 112.5590ms, p90: 124.2920ms, p95: 144.4340ms, p99: 512.3280ms, max: 909.4900ms
+[0mO: thread[2] has currently inserted rows: 5240000, peroid insert rate: 79268.892 rows/s 
+[08/11 21:08:24.798892] INFO: thread[6] has currently inserted rows: 7620000, peroid insert rate: 78637.833 rows/s 
+[08/11 21:08:24.878752] INFO: thread[4] has currently inserted rows: 7730000, peroid insert rate: 78892.181 rows/s 
+[08/11 21:08:24.896895] INFO: thread[0] has currently inserted rows: 7790000, peroid insert rate: 81779.196 rows/s 
+[08/11 21:08:24.913944] INFO: thread[1] has currently inserted rows: 7530000, peroid insert rate: 79896.135 rows/s 
+[08/11 21:08:24.930796] INFO: thread[3] has currently inserted rows: 7700000, peroid insert rate: 81522.643 rows/s 
+[08/11 21:08:24.934752] INFO: thread[5] has currently inserted rows: 7850000, peroid insert rate: 81536.209 rows/s 
+[08/11 21:08:24.946636] INFO: thread[7] has currently inserted rows: 7680000, peroid insert rate: 84221.039 rows/s 
+[08/11 21:08:25.326796] INFO: thread[2] has currently inserted rows: 7630000, peroid insert rate: 79637.466 rows/s 
+[08/11 21:08:54.867274] INFO: thread[6] has currently inserted rows: 9970000, peroid insert rate: 78153.580 rows/s 
+[08/11 21:08:54.935801] INFO: thread[4] has currently inserted rows: 10180000, peroid insert rate: 81511.794 rows/s 
+[08/11 21:08:54.971559] INFO: thread[5] has currently inserted rows: 10270000, peroid insert rate: 80567.300 rows/s 
+[08/11 21:08:54.971598] INFO: thread[0] has currently inserted rows: 10190000, peroid insert rate: 79800.499 rows/s 
+[08/11 21:08:54.978784] INFO: thread[1] has currently inserted rows: 9920000, peroid insert rate: 79494.429 rows/s 
+[08/11 21:08:55.024695] INFO: thread[3] has currently inserted rows: 10180000, peroid insert rate: 82408.454 rows/s 
+[08/11 21:08:55.077544] INFO: thread[7] has currently inserted rows: 10070000, peroid insert rate: 79320.301 rows/s 
+[08/11 21:08:55.432909] INFO: thread[2] has currently inserted rows: 10100000, peroid insert rate: 82043.446 rows/s 
+[08/11 21:09:23.835076] INFO:  pthread_join 1 ...
+[08/11 21:09:24.983932] INFO: thread[1] has currently inserted rows: 12500000, peroid insert rate: 85985.669 rows/s 
+[08/11 21:09:24.984171] INFO:  pthread_join 2 ...
+[08/11 21:09:24.984177] INFO:  pthread_join 3 ...
+[08/11 21:09:24.984180] INFO:  pthread_join 4 ...
+[08/11 21:09:24.984202] INFO:  pthread_join 5 ...
+[08/11 21:09:24.984219] INFO:  pthread_join 6 ...
+[08/11 21:09:24.984236] INFO:  pthread_join 7 ...
+[08/11 21:09:24.985628] INFO: free resource and exit ...

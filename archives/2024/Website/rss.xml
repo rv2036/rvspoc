@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>RVSPOC 2024 Blog</title>
+        <link>https://rvspoc.org/2024/</link>
+        <description>RVSPOC 2024 Blog</description>
+        <lastBuildDate>Sun, 29 Sep 2024 02:48:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[第二届 RISC-V 软件移植及优化锦标赛加长赛冠军揭晓]]></title>
+            <link>https://rvspoc.org/2024/09</link>
+            <guid>https://rvspoc.org/2024/09</guid>
+            <pubDate>Sun, 29 Sep 2024 02:48:00 GMT</pubDate>
+            <description><![CDATA[经过一个月激烈的角逐、15 天严谨的结果验证和专家评审、以及 7 天的公示，终于迎来了第二届 RISC-V 软件移植及优化锦标赛加长赛的冠军揭晓时刻。]]></description>
+            <content:encoded><![CDATA[<p>经过一个月激烈的角逐、15 天严谨的结果验证和专家评审、以及 7 天的公示，终于迎来了第二届 RISC-V 软件移植及优化锦标赛加长赛的冠军揭晓时刻。</p>
+<p>经过公正的评选，最终获得加长赛冠军的队伍是：</p>
+<p><img decoding="async" loading="lazy" src="https://rvspoc.org/2024/assets/images/2024-09-29-09-01-c09307af7278db930f3d2d5f9d5a676b.webp" width="808" height="627" class="img_ev3q"></p>
+<p>我们向所有冠军队伍表示最热烈的祝贺。请冠军队伍注意查收组委会的邮件，我们将与您联系沟通奖金发放的具体事宜。这份荣誉和奖励是对你们辛勤努力的肯定，也是对你们技术实力的认可。</p>
+<p>随着冠军的诞生，本届锦标赛加长赛也画上了圆满的句号。感谢所有参赛队伍的参与，感谢评委和工作人员的辛勤付出。让我们共同期待下一届锦标赛的到来，继续在技术的道路上探索和前行。</p>
+<hr>
+<p>原文：<a href="https://mp.weixin.qq.com/s/oFHkYKs3isbhXCpYtoleyg" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/oFHkYKs3isbhXCpYtoleyg</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[第二届 RVSPOC 锦标赛加长赛已完成结果验证，进入选手复核阶段]]></title>
+            <link>https://rvspoc.org/2024/08</link>
+            <guid>https://rvspoc.org/2024/08</guid>
+            <pubDate>Sat, 21 Sep 2024 04:43:00 GMT</pubDate>
+            <description><![CDATA[经过 20 天的紧张工作，由专业评委团队进行的评审工作已经圆满结束。所有参赛选手的提交结果已经完成严格的验证。目前，这些验证结果已经正式发布在锦标赛官方网站所属的 GitHub 仓库中，供所有参赛选手查阅。]]></description>
+            <content:encoded><![CDATA[<p>经过 20 天的紧张工作，由专业评委团队进行的评审工作已经圆满结束。所有参赛选手的提交结果已经完成严格的验证。目前，这些验证结果已经正式发布在锦标赛官方网站所属的 GitHub 仓库中，供所有参赛选手查阅。</p>
+<p>GitHub 仓库链接：</p>
+<p><a href="https://github.com/rv2036/rvspoc/tree/main/Results/Verifications" target="_blank" rel="noopener noreferrer">https://github.com/rv2036/rvspoc/tree/main/Results/Verifications</a></p>
+<p>公示日期为：9 月 21 日 - 9 月 27 日</p>
+<p>在接下来的一周内，所有选手都可以登录官方网站，查阅验证结果。如果对结果有任何疑问或需要勘误，可以通过在 GitHub 仓库中的 PR 评论处提交自己的意见和证据。组委会将会认真对待每一条反馈，并在必要时组织专家进行复核。对于存在争议的验证结果，组委会将会根据具体情况延长复核时间，以确保每一位选手的努力都能得到公正的评价。</p>
+<p>复核阶段结束后，将宣布加长赛胜出者名单。感谢所有评委老师的辛勤工作，也感谢每一位参赛选手的热情参与。让我们共同期待最终的比赛结果，见证技术创新的力量。</p>
+<hr>
+<p>原文：<a href="https://mp.weixin.qq.com/s/sXNI1lJXffbI04TKdCrWEw" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/sXNI1lJXffbI04TKdCrWEw</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[第二届「RISC-V 软件移植及优化锦标赛」加长赛圆满落幕]]></title>
+            <link>https://rvspoc.org/2024/07</link>
+            <guid>https://rvspoc.org/2024/07</guid>
+            <pubDate>Mon, 02 Sep 2024 07:12:00 GMT</pubDate>
+            <description><![CDATA[第二届「RISC-V 软件移植及优化锦标赛」加长赛阶段顺利收官，让我们一起来回顾比赛过程吧。]]></description>
+            <content:encoded><![CDATA[<p>第二届「RISC-V 软件移植及优化锦标赛」加长赛阶段顺利收官，让我们一起来回顾比赛过程吧。</p>
+<p>本届加长赛共设有 5 道赛题，按照赛题类型分为移植类和优化类。其中移植类 2 道，优化类 3 道。选手们热情高涨，组委会收到了多份 PR。直至比赛最后两天，还有选手注册参加。</p>
+<p>随后进入评比阶段，我们的专家评委团队将在接下来的时间，对收到的 PR 进行逐一审核。验证结果将于 9 月 20 日在官方平台公布，敬请关注。</p>
+<blockquote>
+<p>更多信息将通过苦芽科技微信公众号（微信号：kubuds）<br>和 RISC-V 中国社区公众号（微信号：CNRV）发布。<br>
+敬请关注！</p>
+</blockquote>
+<hr>
+<p>原文：<a href="https://mp.weixin.qq.com/s/eWUbRonPT3pm56kajMmIqg" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/eWUbRonPT3pm56kajMmIqg</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[第二届 RISC-V 软件移植及优化锦标赛基础赛冠军揭晓]]></title>
+            <link>https://rvspoc.org/2024/06</link>
+            <guid>https://rvspoc.org/2024/06</guid>
+            <pubDate>Wed, 28 Aug 2024 11:20:00 GMT</pubDate>
+            <description><![CDATA[经过紧张刺激的一个月比赛、20天严谨的结果验证和专家评审，以及7天的验证结果公示后，我们终于迎来了第二届 RISC-V 软件移植及优化锦标赛基础赛的冠军揭晓时刻。]]></description>
+            <content:encoded><![CDATA[<p>经过紧张刺激的一个月比赛、20天严谨的结果验证和专家评审，以及7天的验证结果公示后，我们终于迎来了第二届 RISC-V 软件移植及优化锦标赛基础赛的冠军揭晓时刻。</p>
+<p>经过层层筛选，基础赛获得冠军的队伍为：</p>
+<p><img decoding="async" loading="lazy" src="https://rvspoc.org/2024/assets/images/2024-08-28-06-01-a8d79f194c67e5577a9a86c4e8628a41.webp" width="762" height="621" class="img_ev3q"></p>
+<p>我们向所有冠军队伍表示最热烈的祝贺，并对他们在竞赛中展现的专业精神和团队协作表示最深的敬意。</p>
+<p>请冠军队伍留意组委会的邮件，我们将与您沟通奖金发放的具体事宜。这份荣誉和奖励是你们辛勤付出的证明，也是对你们技术实力的肯定。</p>
+<p>同时，提醒所有参赛选手，加长赛也即将进入尾声。请您抓紧时间提交最终成果，把握最后的机会。</p>
+<hr>
+<p>原文：<a href="https://mp.weixin.qq.com/s/5ULWN3RwjLhSL-FOkRnLmg" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/5ULWN3RwjLhSL-FOkRnLmg</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[第二届RVSPOC锦标赛基础赛验证结果发布]]></title>
+            <link>https://rvspoc.org/2024/05</link>
+            <guid>https://rvspoc.org/2024/05</guid>
+            <pubDate>Sat, 17 Aug 2024 02:37:00 GMT</pubDate>
+            <description><![CDATA[目前，比赛基础赛段参赛选手的提交结果已经验证完毕。验证结果发布在锦标赛官网所属的 GitHub 仓库内]]></description>
+            <content:encoded><![CDATA[<p>目前，比赛基础赛段参赛选手的提交结果已经验证完毕。验证结果发布在锦标赛官网所属的 GitHub 仓库内</p>
+<p><a href="https://github.com/plctlab/rvspoc/tree/main/Results" target="_blank" rel="noopener noreferrer">https://github.com/plctlab/rvspoc/tree/main/Results</a></p>
+<p>验证结果将进行为期一周的公示，期间，所有参赛选手均可在上述链接查阅验证结果，若对公示结果存在任何疑问或争议，欢迎在 PR 的评论处提交您的反馈。针对有争议的结果，我们将根据实际需要延长复核流程，确保每一个细节都得到充分的审视与确认。最终，所有决定性的结果将以官方网站最终公布的信息为准。</p>
+<p>加长赛仍在火热继续，结果提交截止时间为 AoE 时间的 8 月 31 日 24：00。欢迎关注。</p>
+<hr>
+<p>原文：<a href="https://mp.weixin.qq.com/s/TMuPJeJ8SSvivYIUnfFmWA" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/TMuPJeJ8SSvivYIUnfFmWA</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[复活之战：RVSPOC 加长赛计时开始]]></title>
+            <link>https://rvspoc.org/2024/04</link>
+            <guid>https://rvspoc.org/2024/04</guid>
+            <pubDate>Thu, 08 Aug 2024 10:18:00 GMT</pubDate>
+            <description><![CDATA[第二届 RISC-V 软件移植及优化锦标赛于 AoE 时间的 8 月 3 日刚刚落下帷幕，加长赛火热开启！由于本届比赛时间紧凑，我们收到了许多关于未能充分展现实力的反馈。为了给所有热爱挑战的选手们一个再次证明自己的机会，我们荣幸地宣布：加长赛正式开启！]]></description>
+            <content:encoded><![CDATA[<p>第二届 RISC-V 软件移植及优化锦标赛于 AoE 时间的 8 月 3 日刚刚落下帷幕，加长赛火热开启！</p>
+<p>由于本届比赛时间紧凑，我们收到了许多关于未能充分展现实力的反馈。为了给所有热爱挑战的选手们一个再次证明自己的机会，我们荣幸地宣布：加长赛正式开启！</p>
+<p>加长赛延用基本赛的规则，如下所示：</p>
+<p>注意：已报名第二届 RVSPOC 锦标赛的选手，可直接进入复活赛，无需重复报名。未报名的选手，可点击下方链接报名：</p>
+<p><strong><a href="https://www.wenjuan.com/s/JFVN7fW/" target="_blank" rel="noopener noreferrer">https://www.wenjuan.com/s/JFVN7fW/</a></strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="赛道方向">赛道方向<a class="hash-link" aria-label="赛道方向的直接链接" title="赛道方向的直接链接" href="https://rvspoc.org/2024/04#%E8%B5%9B%E9%81%93%E6%96%B9%E5%90%91">​</a></h2>
+<ul>
+<li>适配夺旗赛：一般设定一个软件移植目标，该软件（或组件）尚未被移植到RISC-V架构上，而第一个完成开源移植工作并提交到指定仓库地址的团队（或个人）胜出。主办方针对每一个赛题目标开设专用仓库并接收参赛者提交。第一个完整通过了测试并提交给主办方仓库的参赛者或团队即为胜出者。如果存在争议项目，则由比赛评委会进行裁决。提交的参赛代码所有权、署名权等归属于参赛者本人（或移植对应的开源项目社区），主办方鼓励参赛者将代码回馈贡献给上游社区（upstream）。</li>
+<li>优化竞速赛：是指每个赛题设定一个优化评价指标，针对制定的benchmark进行优化，并设定一个提交截止时间。在比赛截止时间之前提交的所有结果中，指标最优的团队胜出。如果存在多个近似的结果，由比赛评委会进行裁决。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="比赛赛题">比赛赛题<a class="hash-link" aria-label="比赛赛题的直接链接" title="比赛赛题的直接链接" href="https://rvspoc.org/2024/04#%E6%AF%94%E8%B5%9B%E8%B5%9B%E9%A2%98">​</a></h2>
+<table><thead><tr><th style="text-align:center">赛题编号</th><th style="text-align:center">题目</th></tr></thead><tbody><tr><td style="text-align:center">P2421</td><td style="text-align:center">新 32 位 Type-1 Hypervisor 移植</td></tr><tr><td style="text-align:center">P2426</td><td style="text-align:center">KubeSphere 移植</td></tr><tr><td style="text-align:center">S2423</td><td style="text-align:center">OceanBase 移植与优化</td></tr><tr><td style="text-align:center">S2427</td><td style="text-align:center">TiDB在2042的移植与优化</td></tr><tr><td style="text-align:center">S2428</td><td style="text-align:center">K3s 的移植与优化</td></tr></tbody></table>
+<p>赛题详细说明，请查阅赛事官方网站：</p>
+<p><a href="https://rvspoc.org/2024/" target="_blank" rel="noopener noreferrer">https://rvspoc.org/2024</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="比赛赛程">比赛赛程<a class="hash-link" aria-label="比赛赛程的直接链接" title="比赛赛程的直接链接" href="https://rvspoc.org/2024/04#%E6%AF%94%E8%B5%9B%E8%B5%9B%E7%A8%8B">​</a></h2>
+<table><thead><tr><th style="text-align:center">日期</th><th style="text-align:center">事件</th></tr></thead><tbody><tr><td style="text-align:center">8月8日-8月31日</td><td style="text-align:center">加长赛赛事报名及比赛阶段（以AoE时间计算）</td></tr><tr><td style="text-align:center">9月1日-9月20日</td><td style="text-align:center">主办方复现加长赛结果并公布胜出者名单</td></tr><tr><td style="text-align:center">9月21日-9月27日</td><td style="text-align:center">公示加长赛胜出者名单</td></tr><tr><td style="text-align:center">9月28日</td><td style="text-align:center">宣布加长赛胜出者名单并颁奖</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="赛事说明">赛事说明<a class="hash-link" aria-label="赛事说明的直接链接" title="赛事说明的直接链接" href="https://rvspoc.org/2024/04#%E8%B5%9B%E4%BA%8B%E8%AF%B4%E6%98%8E">​</a></h2>
+<ol>
+<li>本比赛接受个人和团体报名，团体没有人数限制。比赛不按人数区分赛道。冠军默认只有一个。</li>
+<li>本比赛中，优化类赛题分为开源和闭源（商业）两个赛道，只有开源赛道 提供奖金，闭源（商业）赛道仅提供竞赛排名记录。</li>
+<li>本次活动接受全球报名，已报名第二届 RVSPOC 锦标赛的选手，可直接进入复活赛，无需重复报名。中国大陆参赛获胜者接受奖金需要中国境内本人银行卡；非中国大陆参赛者需要提供护照或通行证身份信息和银行信息，其中银行支付需要有SWIFT或CIPS支持。</li>
+<li>其他更多报名须知请留意后续通知推送。</li>
+</ol>
+<blockquote>
+<p>更多信息将通过苦芽科技微信公众号（微信号：kubuds）<br>和 RISC-V 中国社区公众号（微信号：CNRV）发布。<br>
+敬请关注！</p>
+</blockquote>
+<hr>
+<p>原文：<a href="https://mp.weixin.qq.com/s/TlTY2LFbMQj0OqFtS864Pg" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/TlTY2LFbMQj0OqFtS864Pg</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[第二届「RISC-V 软件移植及优化锦标赛」比赛阶段顺利收官]]></title>
+            <link>https://rvspoc.org/2024/03</link>
+            <guid>https://rvspoc.org/2024/03</guid>
+            <pubDate>Mon, 05 Aug 2024 13:15:00 GMT</pubDate>
+            <description><![CDATA[第二届「RISC-V 软件移植及优化锦标赛」基本赛阶段落下了帷幕。让我们一起来回顾比赛过程吧。本届比赛共设有 7 道赛题，按照赛题类型分为移植类和优化类。其中移植类 3 道，优化类 4 道。截至比赛最后的提交期限，我们一共收到了多份 PR。其中移植类的「RetroArch 移植与优化」和优化类的「Llama 3 在 K230上的优化实现」比较受青睐，收到了较多份 PR。]]></description>
+            <content:encoded><![CDATA[<p>第二届「RISC-V 软件移植及优化锦标赛」基本赛阶段落下了帷幕。让我们一起来回顾比赛过程吧。</p>
+<p>本届比赛共设有 7 道赛题，按照赛题类型分为移植类和优化类。其中移植类 3 道，优化类 4 道。</p>
+<p>截至比赛最后的提交期限，我们一共收到了多份 PR。其中移植类的「RetroArch 移植与优化」和优化类的「Llama 3 在 K230上的优化实现」比较受青睐，收到了较多份 PR。</p>
+<p>目前基本赛阶段告一段落，接下来进入评比阶段。我们的专家评委团队将在接下来的时间，对收到的 PR 进行逐一审核，比赛结果及获奖队伍之后将于 8 月 13 日在官方平台公布。</p>
+<p>8 月 21 日还将举办「第二届 RISC-V 软件移植及优化锦标赛颁奖典礼暨 RISC-V 技术研讨会」，敬请关注。</p>
+<blockquote>
+<p>更多信息将通过苦芽科技微信公众号（微信号：kubuds）<br>和 RISC-V 中国社区公众号（微信号：CNRV）发布。<br>
+敬请关注！</p>
+</blockquote>
+<hr>
+<p>原文：<a href="https://mp.weixin.qq.com/s/ltgNGscnvqOizyyp0DTGRQ" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/ltgNGscnvqOizyyp0DTGRQ</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[第二届 RISC-V 软件移植及优化锦标赛正式开始｜报名启动！]]></title>
+            <link>https://rvspoc.org/2024/02</link>
+            <guid>https://rvspoc.org/2024/02</guid>
+            <pubDate>Mon, 08 Jul 2024 04:00:00 GMT</pubDate>
+            <description><![CDATA[为了推动 RISC-V 软件生态更快地发展，吸引更多的开发者加入 RISC-V 生态中来，由上海苦芽科技有限公司主办，RISC-V 中国社区（CNRV）协办，联合发起「RISC-V 软件移植及优化锦标赛」活动。]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="赛事背景">赛事背景<a class="hash-link" aria-label="赛事背景的直接链接" title="赛事背景的直接链接" href="https://rvspoc.org/2024/02#%E8%B5%9B%E4%BA%8B%E8%83%8C%E6%99%AF">​</a></h2>
+<p>为了推动 RISC-V 软件生态更快地发展，吸引更多的开发者加入 RISC-V 生态中来，由上海苦芽科技有限公司主办，RISC-V 中国社区 (CNRV) 协办，联合发起「RISC-V 软件移植及优化锦标赛」活动。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="赛道方向">赛道方向<a class="hash-link" aria-label="赛道方向的直接链接" title="赛道方向的直接链接" href="https://rvspoc.org/2024/02#%E8%B5%9B%E9%81%93%E6%96%B9%E5%90%91">​</a></h2>
+<ul>
+<li>适配夺旗赛：一般设定一个软件移植目标，该软件（或组件）尚未被移植到 RISC-V 架构上，而第一个完成开源移植工作并提交到指定仓库地址的团队（或个人）胜出。主办方针对每一个赛题目标开设专用仓库并接收参赛者提交。第一个完整通过了测试并提交给主办方仓库的参赛者或团队即为胜出者。如果存在争议项目，则由比赛评委会进行裁决。提交的参赛代码所有权、署名权等归属于参赛者本人（或移植对应的开源项目社区），主办方鼓励参赛者将代码回馈贡献给上游社区 (upstream)。</li>
+<li>优化竞速赛：是指每个赛题设定一个优化评价指标，针对制定的 benchmark 进行优化，并设定一个提交截止时间。在比赛截止时间之前提交的所有结果中，指标最优的团队胜出。如果存在多个近似的结果，由比赛评委会进行裁决。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="比赛赛题">比赛赛题<a class="hash-link" aria-label="比赛赛题的直接链接" title="比赛赛题的直接链接" href="https://rvspoc.org/2024/02#%E6%AF%94%E8%B5%9B%E8%B5%9B%E9%A2%98">​</a></h2>
+<table><thead><tr><th style="text-align:center">赛题编号</th><th style="text-align:center">题目</th></tr></thead><tbody><tr><td style="text-align:center">P2421</td><td style="text-align:center">新 32 位 Type-1 Hypervisor 移植</td></tr><tr><td style="text-align:center">P2425</td><td style="text-align:center">RetroArch 移植与优化</td></tr><tr><td style="text-align:center">P2426</td><td style="text-align:center">KubeSphere 移植</td></tr><tr><td style="text-align:center">S2422</td><td style="text-align:center">Llama 3 在 K230 上的优化实现</td></tr><tr><td style="text-align:center">S2423</td><td style="text-align:center">OceanBase 移植与优化</td></tr><tr><td style="text-align:center">S2424</td><td style="text-align:center">TDengine 移植与优化</td></tr><tr><td style="text-align:center">S2427</td><td style="text-align:center">TiDB 在 2042 的移植与优化</td></tr></tbody></table>
+<p>赛题详细说明，请查阅赛事官方网站： <a href="https://rvspoc.org/2024/challenges" target="_blank" rel="noopener noreferrer">https://rvspoc.org/2024/challenges</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="比赛赛程">比赛赛程<a class="hash-link" aria-label="比赛赛程的直接链接" title="比赛赛程的直接链接" href="https://rvspoc.org/2024/02#%E6%AF%94%E8%B5%9B%E8%B5%9B%E7%A8%8B">​</a></h2>
+<table><thead><tr><th style="text-align:center">日期</th><th style="text-align:center">事件</th></tr></thead><tbody><tr><td style="text-align:center">7 月 8 日 - 8 月 3 日</td><td style="text-align:center">赛事报名及比赛阶段（以AoE时间计算）</td></tr><tr><td style="text-align:center">8 月 4 日 - 8 月 12 日</td><td style="text-align:center">主办方复现比赛结果并公布胜出者名单</td></tr><tr><td style="text-align:center">8 月 13 日 - 8 月 20 日</td><td style="text-align:center">公示胜出者名单</td></tr><tr><td style="text-align:center">8 月 21 日</td><td style="text-align:center">宣布胜出者名单并颁奖</td></tr></tbody></table>
+<p align="center"><strong>报名链接： <a href="https://www.wenjuan.com/s/JFVN7fW/" target="_blank" rel="noopener noreferrer">https://www.wenjuan.com/s/JFVN7fW/</a></strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="赛事说明">赛事说明<a class="hash-link" aria-label="赛事说明的直接链接" title="赛事说明的直接链接" href="https://rvspoc.org/2024/02#%E8%B5%9B%E4%BA%8B%E8%AF%B4%E6%98%8E">​</a></h2>
+<ol>
+<li>本比赛接受个人和团体报名，团体没有人数限制。比赛不按人数区分赛道。冠军默认只有一个。</li>
+<li>本比赛中，优化类赛题分为开源和闭源（商业）两个赛道，只有开源赛道 提供奖金，闭源（商业）赛道仅提供竞赛排名记录。</li>
+<li>本次活动接受全球报名。中国大陆参赛获胜者接受奖金需要中国境内本人银行卡；非中国大陆参赛者需要提供护照或通行证身份信息和银行信息，其中银行支付需要有 SWIFT 或 CIPS 支持。</li>
+<li>其他更多报名须知请留意后续通知推送。
+更多信息将通过苦芽科技微信公众号（微信号：kubuds）和 RISC-V 中国社区公众号（微信号：CNRV）发布。敬请关注！</li>
+</ol>
+<hr>
+<p>原文：<a href="https://mp.weixin.qq.com/s/HMhwKlo5k_kf5KgRJIUquA" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/HMhwKlo5k_kf5KgRJIUquA</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[第二届「RISC-V 软件移植及优化锦标赛」筹备工作正式启动，诚邀赞助]]></title>
+            <link>https://rvspoc.org/2024/01</link>
+            <guid>https://rvspoc.org/2024/01</guid>
+            <pubDate>Tue, 21 May 2024 11:56:00 GMT</pubDate>
+            <description><![CDATA[首届 RISC-V 软件移植及优化锦标赛成功落下帷幕。本届比赛自启动以来，便吸引了众多国内外优秀团队和个人的积极参与。日前，第二届锦标赛的筹备工作已全面启动，现面向社会各界招募赞助商。]]></description>
+            <content:encoded><![CDATA[<p>首届 RISC-V 软件移植及优化锦标赛成功落下帷幕。本届比赛自启动以来，便吸引了众多国内外优秀团队和个人的积极参与。日前，第二届锦标赛的筹备工作已全面启动，现面向社会各界招募赞助商。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="活动名称">活动名称<a class="hash-link" aria-label="活动名称的直接链接" title="活动名称的直接链接" href="https://rvspoc.org/2024/01#%E6%B4%BB%E5%8A%A8%E5%90%8D%E7%A7%B0">​</a></h2>
+<p>中文名称：RISC-V 软件移植及优化锦标赛</p>
+<p>英文名称：RISC-V Software Porting and Optimization Championship</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="主办方">主办方<a class="hash-link" aria-label="主办方的直接链接" title="主办方的直接链接" href="https://rvspoc.org/2024/01#%E4%B8%BB%E5%8A%9E%E6%96%B9">​</a></h2>
+<p>上海苦芽科技有限公司</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="锦标赛时间表暂定">锦标赛时间表（暂定）<a class="hash-link" aria-label="锦标赛时间表（暂定）的直接链接" title="锦标赛时间表（暂定）的直接链接" href="https://rvspoc.org/2024/01#%E9%94%A6%E6%A0%87%E8%B5%9B%E6%97%B6%E9%97%B4%E8%A1%A8%E6%9A%82%E5%AE%9A">​</a></h2>
+<table><thead><tr><th style="text-align:center">日期</th><th style="text-align:center">事件</th></tr></thead><tbody><tr><td style="text-align:center">05 月 26 日 - 06 月 16 日</td><td style="text-align:center">比赛启动，发布赛题</td></tr><tr><td style="text-align:center">06 月 17 日 - 07 月 31 日</td><td style="text-align:center">赛事报名及比赛阶段</td></tr><tr><td style="text-align:center">08 月 01 日 - 08 月 20 日</td><td style="text-align:center">主办方复现比赛结果并公布胜出者名单</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="赞助商参与形式及权益">赞助商参与形式及权益<a class="hash-link" aria-label="赞助商参与形式及权益的直接链接" title="赞助商参与形式及权益的直接链接" href="https://rvspoc.org/2024/01#%E8%B5%9E%E5%8A%A9%E5%95%86%E5%8F%82%E4%B8%8E%E5%BD%A2%E5%BC%8F%E5%8F%8A%E6%9D%83%E7%9B%8A">​</a></h2>
+<p>赞助商可以参与到赛题的设定、奖金的设定，并在比赛期间及颁奖比赛等宣发中露出。</p>
+<p>赞助商最低赞助额为 10 万元人民币，最高赞助额（暂时）限定为 100 万人民币。赞助商可以根据赛题设定的数量和奖金额进行协商定制。</p>
+<p>赞助商的赞助经费构成：</p>
+<ul>
+<li>赞助费的 30% 用于比赛筹备费用及人员、组织、宣传成本。</li>
+<li>赞助费的 70% 用于作为分发给参赛者/团队的奖金。</li>
+</ul>
+<p>赞助商权益包含以下内容：</p>
+<ul>
+<li><span style="background-color:yellow;color:black">指定特定硬件设备或平台作为比赛的移植及优化目标平台</span>；</li>
+<li>参与主办方赛题设计，并分享赛题衍生权益（待细化）；</li>
+<li>指定奖金分配比例，参与组委会比赛结果复现确认流程；</li>
+<li>参与主办方举办的其他比赛相关宣传活动，包括线下推广、线上直播等；</li>
+</ul>
+<p>如果您的公司有兴趣赞助，请通过以下地址邮件联系主办方：</p>
+<p align="center"><a href="mailto:rvspoc@kubuds.cn" target="_blank" rel="noopener noreferrer">rvspoc@kubuds.cn</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="比赛形式">比赛形式<a class="hash-link" aria-label="比赛形式的直接链接" title="比赛形式的直接链接" href="https://rvspoc.org/2024/01#%E6%AF%94%E8%B5%9B%E5%BD%A2%E5%BC%8F">​</a></h2>
+<p>锦标赛分为<span style="color:red">适配夺旗赛</span>和<span style="color:red">优化竞速赛</span>两种形式。</p>
+<ul>
+<li><strong>适配夺旗赛</strong>一般设定一个软件移植目标，该软件（或组件）尚未被移植到 RISC-V 架构上，而第一个完成开源移植工作并提交到指定仓库地址的团队（或个人）胜出。主办方针对每一个赛题目标开设专用仓库并接收参赛者提交。第一个完整通过了测试并提交给主办方仓库的参赛者或团队即为胜出者。提交的参赛代码所有权、署名权等归属于参赛者本人（或移植对应的开源项目社区），主办方鼓励参赛者将代码回馈贡献给上游社区(upstream)。</li>
+<li><strong>优化竞速赛</strong>是指每个赛题设定一个优化评价指标，针对制定的benchmark进行优化，并设定一个提交截止时间。在比赛截止时间之前提交的所有结果中，指标最优的团队胜出。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="参赛说明持续更新中">参赛说明（持续更新中）<a class="hash-link" aria-label="参赛说明（持续更新中）的直接链接" title="参赛说明（持续更新中）的直接链接" href="https://rvspoc.org/2024/01#%E5%8F%82%E8%B5%9B%E8%AF%B4%E6%98%8E%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD">​</a></h2>
+<ol>
+<li>本比赛接受个人和团体报名，团体没有人数限制。比赛不按人数区分赛道。冠军默认只有一个。</li>
+<li>本比赛中，优化类赛题分为开源和闭源（商业）两个赛道，只有开源赛道提供奖金，闭源（商业）赛道仅提供竞赛排名记录。</li>
+<li>本次活动接受全球报名。中国大陆参赛获胜者接受奖金需要中国境内本人银行卡；非中国大陆参赛者需要提供护照或通行证身份信息和银行信息，其中银行支付需要有 SWIFT 或 CIPS 支持。</li>
+<li>其他更多报名须知请留意后续通知推送。</li>
+</ol>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
