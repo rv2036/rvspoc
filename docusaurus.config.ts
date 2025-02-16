@@ -95,6 +95,10 @@ const config: Config = {
               label: '2023',
               href: 'https://rvspoc.org/2023/',
             },
+            {
+              label: '2024',
+              href: 'https://rvspoc.org/2024/',
+            }
           ],
         },
         {

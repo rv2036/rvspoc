@@ -1,0 +1,133 @@
+[08/11 21:19:29.873014] [32mSUCC: Spent 3.3210 seconds to create 10000 table(s) with 8 thread(s), already exist 0 table(s), actual 10000 table(s) pre created, 0 table(s) will be auto created
+[0m[08/11 21:19:23.926067] INFO: taos client version: 3.0.1.6
+read /etc/localtime error, reason:Invalid argumentThere is not /etc/timezone.
+[08/11 21:19:26.407275] INFO: create database: <CREATE DATABASE IF NOT EXISTS test PRECISION 'ms';>
+[08/11 21:19:26.481597] INFO: stable meters does not exist, will create one
+[08/11 21:19:26.488743] INFO: create stable: <CREATE TABLE test.meters (ts TIMESTAMP,current float,voltage int,phase float) TAGS (groupid int,location binary(24))>
+[08/11 21:19:26.520333] INFO: generate stable<meters> columns data with lenOfCols<80> * prepared_rand<10000>
+[08/11 21:19:26.543160] INFO: generate stable<meters> tags data with lenOfTags<62> * childTblCount<10000>
+[08/11 21:19:26.552270] INFO: start creating 10000 table(s) with 8 thread(s)
+[08/11 21:19:26.559350] INFO: thread[0] start creating table from 0 to 1249
+[08/11 21:19:26.569245] INFO: thread[1] start creating table from 1250 to 2499
+[08/11 21:19:26.589187] INFO: thread[2] start creating table from 2500 to 3749
+[08/11 21:19:26.619383] INFO: thread[3] start creating table from 3750 to 4999
+[08/11 21:19:26.620730] INFO: thread[4] start creating table from 5000 to 6249
+[08/11 21:19:26.622115] INFO: thread[5] start creating table from 6250 to 7499
+[08/11 21:19:26.623518] INFO: thread[6] start creating table from 7500 to 8749
+[08/11 21:19:26.679089] INFO: thread[7] start creating table from 8750 to 9999
+[08/11 21:19:29.873128] INFO: record per request (30000) is larger than insert rows (10000) in progressive mode, which will be set to 10000
+[08/11 21:19:29.984245] INFO: Estimate memory usage: 11.82MB
+[08/11 21:19:29.984653] INFO: thread[0] start progressive inserting into table from 0 to 1249
+[08/11 21:19:29.984972] INFO: thread[1] start progressive inserting into table from 1250 to 2499
+[08/11 21:19:29.985247] INFO: thread[2] start progressive inserting into table from 2500 to 3749
+[08/11 21:19:29.985526] INFO: thread[3] start progressive inserting into table from 3750 to 4999
+[08/11 21:19:29.985843] INFO: thread[4] start progressive inserting into table from 5000 to 6249
+[08/11 21:19:29.985990] INFO: thread[5] start progressive inserting into table from 6250 to 7499
+[08/11 21:19:29.986244] INFO: thread[6] start progressive inserting into table from 7500 to 8749
+[08/11 21:19:29.986498] INFO: thread[7] start progressive inserting into table from 8750 to 9999
+[08/11 21:19:59.989558] INFO: thread[0] has currently inserted rows: 1100000
+[08/11 21:20:00.002057] INFO: thread[1] has currently inserted rows: 1070000
+[08/11 21:20:00.016255] INFO: thread[3] has currently inserted rows: 1060000
+[08/11 21:20:00.029529] INFO: thread[5] has currently inserted rows: 1050000
+[08/11 21:20:00.042106] INFO: thread[4] has currently inserted rows: 1050000
+[08/11 21:20:00.043542] INFO: thread[2] has currently inserted rows: 1050000
+[08/11 21:20:00.057983] INFO: thread[6] has currently inserted rows: 1050000
+[08/11 21:20:00.072157] INFO: thread[7] has currently inserted rows: 1030000
+[08/11 21:20:31.199973] INFO: thread[3] has currently inserted rows: 1950000
+[08/11 21:20:31.215297] INFO: thread[4] has currently inserted rows: 1970000
+[08/11 21:20:31.229944] INFO: thread[0] has currently inserted rows: 1970000
+[08/11 21:20:31.244766] INFO: thread[1] has currently inserted rows: 2010000
+[08/11 21:20:31.258994] INFO: thread[2] has currently inserted rows: 2030000
+[08/11 21:20:31.273488] INFO: thread[6] has currently inserted rows: 1980000
+[08/11 21:20:31.288274] INFO: thread[5] has currently inserted rows: 1930000
+[08/11 21:20:31.302747] INFO: thread[7] has currently inserted rows: 1990000
+[08/11 21:21:01.217379] INFO: thread[4] has currently inserted rows: 2880000
+[08/11 21:21:01.247525] INFO: thread[1] has currently inserted rows: 2940000
+[08/11 21:21:01.272855] INFO: thread[2] has currently inserted rows: 3010000
+[08/11 21:21:01.276849] INFO: thread[3] has currently inserted rows: 2960000
+[08/11 21:21:01.291363] INFO: thread[5] has currently inserted rows: 2920000
+[08/11 21:21:01.317269] INFO: thread[0] has currently inserted rows: 3010000
+[08/11 21:21:01.331363] INFO: thread[7] has currently inserted rows: 3000000
+[08/11 21:21:01.349252] INFO: thread[6] has currently inserted rows: 2910000
+[08/11 21:21:31.900517] INFO: thread[6] has currently inserted rows: 3930000
+[08/11 21:21:31.915533] INFO: thread[5] has currently inserted rows: 3940000
+[08/11 21:21:31.929917] INFO: thread[3] has currently inserted rows: 3940000
+[08/11 21:21:31.943965] INFO: thread[7] has currently inserted rows: 4000000
+[08/11 21:21:31.958048] INFO: thread[1] has currently inserted rows: 3920000
+[08/11 21:21:31.971931] INFO: thread[4] has currently inserted rows: 3910000
+[08/11 21:21:31.986099] INFO: thread[0] has currently inserted rows: 3980000
+[08/11 21:21:32.000599] INFO: thread[2] has currently inserted rows: 4010000
+[08/11 21:22:01.993006] INFO: thread[3] has currently inserted rows: 4820000
+[08/11 21:22:02.007311] INFO: thread[7] has currently inserted rows: 4890000
+[08/11 21:22:02.022064] INFO: thread[2] has currently inserted rows: 4940000
+[08/11 21:22:02.036180] INFO: thread[0] has currently inserted rows: 4980000
+[08/11 21:22:02.050302] INFO: thread[1] has currently inserted rows: 4880000
+[08/11 21:22:02.064321] INFO: thread[4] has currently inserted rows: 4810000
+[08/11 21:22:03.666100] INFO: thread[6] has currently inserted rows: 4830000
+[08/11 21:22:03.682019] INFO: thread[5] has currently inserted rows: 4830000
+[08/11 21:22:32.816428] INFO: thread[2] has currently inserted rows: 5870000
+[08/11 21:22:32.832278] INFO: thread[4] has currently inserted rows: 5790000
+[08/11 21:22:32.857079] INFO: thread[1] has currently inserted rows: 5900000
+[08/11 21:22:32.860733] INFO: thread[7] has currently inserted rows: 5860000
+[08/11 21:22:32.871483] INFO: thread[0] has currently inserted rows: 6010000
+[08/11 21:22:32.887166] INFO: thread[3] has currently inserted rows: 5870000
+[08/11 21:22:33.751377] INFO: thread[6] has currently inserted rows: 5980000
+[08/11 21:22:33.765703] INFO: thread[5] has currently inserted rows: 5880000
+[08/11 21:23:02.836727] INFO: thread[4] has currently inserted rows: 6720000
+[08/11 21:23:02.864294] INFO: thread[1] has currently inserted rows: 6900000
+[08/11 21:23:02.878555] INFO: thread[7] has currently inserted rows: 6780000
+[08/11 21:23:02.893300] INFO: thread[2] has currently inserted rows: 6850000
+[08/11 21:23:02.906421] INFO: thread[0] has currently inserted rows: 6920000
+[08/11 21:23:02.969426] INFO: thread[3] has currently inserted rows: 6860000
+[08/11 21:23:04.975464] INFO: thread[6] has currently inserted rows: 6810000
+[08/11 21:23:05.024156] INFO: thread[5] has currently inserted rows: 6840000
+[08/11 21:23:32.901988] INFO: thread[7] has currently inserted rows: 7760000
+[08/11 21:23:32.931138] INFO: thread[1] has currently inserted rows: 7840000
+[08/11 21:23:32.960290] INFO: thread[2] has currently inserted rows: 7730000
+[08/11 21:23:32.976075] INFO: thread[4] has currently inserted rows: 7630000
+[08/11 21:23:32.990876] INFO: thread[0] has currently inserted rows: 7830000
+[08/11 21:23:33.062992] INFO: thread[3] has currently inserted rows: 7710000
+[08/11 21:23:35.403211] INFO: thread[5] has currently inserted rows: 7830000
+[08/11 21:23:35.431471] INFO: thread[6] has currently inserted rows: 7810000
+[08/11 21:24:02.926805] INFO: thread[7] has currently inserted rows: 8640000
+[08/11 21:24:02.970340] INFO: thread[1] has currently inserted rows: 8750000
+[08/11 21:24:02.998924] INFO: thread[2] has currently inserted rows: 8610000
+[08/11 21:24:03.013077] INFO: thread[0] has currently inserted rows: 8800000
+[08/11 21:24:03.027482] INFO: thread[4] has currently inserted rows: 8500000
+[08/11 21:24:03.070925] INFO: thread[3] has currently inserted rows: 8540000
+[08/11 21:24:05.479268] INFO: thread[5] has currently inserted rows: 8760000
+[08/11 21:24:07.110254] INFO: thread[6] has currently inserted rows: 8700000
+[08/11 21:24:33.024673] INFO: thread[7] has currently inserted rows: 9510000
+[08/11 21:24:33.038441] INFO: thread[2] has currently inserted rows: 9460000
+[08/11 21:24:33.067608] INFO: thread[1] has currently inserted rows: 9630000
+[08/11 21:24:33.081768] INFO: thread[4] has c[08/11 21:25:53.343407] [32mSUCC: thread[0] completed total inserted rows: 12500000, 33097.28 records/second
+[0m[08/11 21:25:53.944855] [32mSUCC: thread[5] completed total inserted rows: 12500000, 33045.24 records/second
+[0m[08/11 21:25:55.803483] [32mSUCC: thread[1] completed total inserted rows: 12500000, 32887.23 records/second
+[0m[08/11 21:25:58.456527] [32mSUCC: thread[6] completed total inserted rows: 12500000, 32651.32 records/second
+[0m[08/11 21:25:58.909366] [32mSUCC: thread[7] completed total inserted rows: 12500000, 32625.40 records/second
+[0m[08/11 21:26:01.214324] [32mSUCC: thread[2] completed total inserted rows: 12500000, 32424.13 records/second
+[0m[08/11 21:26:01.548810] [32mSUCC: thread[4] completed total inserted rows: 12500000, 32394.19 records/second
+[0m[08/11 21:26:01.667356] [32mSUCC: thread[3] completed total inserted rows: 12500000, 32388.13 records/second
+[0m[08/11 21:26:01.695607] [32mSUCC: Spent 391.682788 seconds to insert rows: 100000000 with 8 thread(s) into test 255308.64 records/second
+[0m[08/11 21:26:01.695717] [32mSUCC: insert delay, min: 80.08ms, avg: 305.93ms, p90: 1613.99ms, p95: 1675.69ms, p99: 1720.71ms, max: 2773.69ms
+[0murrently inserted rows: 9390000
+[08/11 21:24:33.125220] INFO: thread[0] has currently inserted rows: 9730000
+[08/11 21:24:33.143668] INFO: thread[3] has currently inserted rows: 9380000
+[08/11 21:24:35.526710] INFO: thread[5] has currently inserted rows: 9670000
+[08/11 21:24:38.261671] INFO: thread[6] has currently inserted rows: 9790000
+[08/11 21:25:03.083506] INFO: thread[7] has currently inserted rows: 10570000
+[08/11 21:25:03.094947] INFO: thread[4] has currently inserted rows: 10430000
+[08/11 21:25:03.124216] INFO: thread[2] has currently inserted rows: 10520000
+[08/11 21:25:03.139234] INFO: thread[0] has currently inserted rows: 10830000
+[08/11 21:25:03.152905] INFO: thread[1] has currently inserted rows: 10720000
+[08/11 21:25:03.167134] INFO: thread[3] has currently inserted rows: 10440000
+[08/11 21:25:06.859267] INFO: thread[5] has currently inserted rows: 10740000
+[08/11 21:25:09.122714] INFO: thread[6] has currently inserted rows: 10800000
+[08/11 21:25:34.370501] INFO: thread[4] has currently inserted rows: 11430000
+[08/11 21:25:34.384524] INFO: thread[7] has currently inserted rows: 11580000
+[08/11 21:25:34.399199] INFO: thread[1] has currently inserted rows: 11740000
+[08/11 21:25:34.413422] INFO: thread[3] has currently inserted rows: 11400000
+[08/11 21:25:34.429409] INFO: thread[2] has currently inserted rows: 11480000
+[08/11 21:25:34.443852] INFO: thread[0] has currently inserted rows: 11860000
+[08/11 21:25:36.917322] INFO: thread[5] has currently inserted rows: 11840000
+[08/11 21:25:39.160641] INFO: thread[6] has currently inserted rows: 11790000
