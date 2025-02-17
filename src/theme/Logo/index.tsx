@@ -71,7 +71,7 @@ export default function Logo(props: Props): JSX.Element {
           imageClassName={imageClassName}
         />
       )}
-      {navbarTitle != null && <b className={titleClassName}><Translate id="common.title">RISC-V 软件移植及优化锦标赛</Translate><sup id="year-badge">2024</sup></b>}
+      {navbarTitle != null && <b className={titleClassName}><Translate id="common.title">RISC-V 软件移植及优化挑战赛</Translate><sup id="year-badge">2025</sup></b>}
     </Link>
   );
 }

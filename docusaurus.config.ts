@@ -79,7 +79,7 @@ const config: Config = {
       defaultMode: 'dark',
     },
     navbar: {
-      title: 'RISC-V 软件移植及优化锦标赛',
+      title: 'RISC-V 软件移植及优化挑战赛',
       items: [
         {
           type: 'localeDropdown',
@@ -88,7 +88,7 @@ const config: Config = {
         },
 				{
           type: 'dropdown',
-          label: '往届锦标赛',
+          label: '往届挑战赛',
           position: 'right',
           items: [
             {
