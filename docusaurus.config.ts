@@ -39,14 +39,6 @@ const config: Config = {
         blogSidebarCount: 0,
       }
     ],
-    [
-      './src/plugin/plugin-content-docs',
-      {
-        routeBasePath: '',
-        sidebarPath: './sidebars.ts',
-        path: 'docs',
-      }
-    ]
   ],
 
   presets: [
