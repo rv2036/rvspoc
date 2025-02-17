@@ -74,7 +74,7 @@ jobs:
             _do find ./public -type f -exec sed -Ei "s@https://rvspoc.org@${BASE_URL}@" '{}' \;
           fi
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
 
