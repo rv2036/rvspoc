@@ -163,6 +163,13 @@ function HomepageHeader(): JSX.Element {
           <div id="contant"><Translate id="common.email.label">赞助咨询邮箱：</Translate><Link to="mailto:rvspoc@kubuds.cn">rvspoc@kubuds.cn</Link></div>
           <div id="contant"><Translate id="common.weixin.label">赛事官方公众号：</Translate>苦芽科技</div>
           <div id="placeholder"></div>
+          <div id="sponsors">
+          <label><Translate id="common.sponsor">赞助商</Translate></label>
+          <div>
+            <Sponsor classn="" icon="/img/sponsors-tba.png" url="https://www.sophgo.com" />
+            <Sponsor classn="" icon="/img/sponsors-tba.png" url="https://www.xrvm.com" />
+          </div>
+          </div> 
         </div>
       </header>
     </div>
