@@ -151,27 +151,18 @@ function HomepageHeader(): JSX.Element {
       <header className="cover">
         <div className="container">
           <Heading as="h1" className="cover-title">
-            <Translate id="common.title">RISC-V 软件移植及优化锦标赛</Translate>
-            <sup id="year-badge">2024</sup>
+            <Translate id="common.title">RISC-V 软件移植及优化挑战赛</Translate>
+            <sup id="year-badge">2025</sup>
           </Heading>
           <div id="rvspoc-description">
-            <Translate id="common.description.prefix">为了推动 RISC-V 软件生态更快地发展，吸引更多的开发者加入到 RISC-V 生态中来，</Translate><Link className="host-link" to="https://kubuds.io"><Translate id="common.host.name">苦芽科技</Translate></Link><Translate id="common.description.suffix">发起了本届锦标赛。RISC-V 软件移植及优化锦标赛 (RVSPOC) 以桌面和服务器软件生态为重点，在编译器、运行时环境、AI 软件栈等多个方面公开提出一系列比赛题目，邀请全球开发者完成挑战并赢取奖金。</Translate>
+            <Translate id="common.description.prefix">为了推动 RISC-V 软件生态更快地发展，吸引更多的开发者加入到 RISC-V 生态中来，</Translate><Link className="host-link" to="https://kubuds.io"><Translate id="common.host.name">苦芽科技</Translate></Link><Translate id="common.description.suffix">发起了本届挑战赛。RISC-V 软件移植及优化挑战赛 (RVSPOC) 以桌面和服务器软件生态为重点，在编译器、运行时环境、AI 软件栈等多个方面公开提出一系列比赛题目，邀请全球开发者完成挑战并赢取奖金。</Translate>
           </div>
-          <div id="champions"><Link className="link-button link-button-eye-catching" to="/2024/champions"><Translate id="common.champions">冠军名单</Translate></Link></div>
-          {/*
-          <div id="registration"><a className="link-button link-button-eye-catching" href="https://www.wenjuan.com/s/JFVN7fW/" target="_blank"><Translate id="common.registration">比赛报名入口</Translate></a></div>
-          <div id="team-list"><Link className="link-button"><Translate id="common.team.link">团队列表</Translate></Link></div>
-          */}
-          <div id="challenges"><Link to='/challenges' className="link-button"><Translate id="common.challenges.link">赛题列表</Translate></Link></div>
-          <div id="contant"><Translate id="common.email.label">赛事联系邮箱：</Translate><Link to="mailto:rvspoc@kubuds.cn">rvspoc@kubuds.cn</Link></div>
+          <Heading as="h2" className="cover-title">
+            <span style={{backgroundColor: 'yellow', color: 'black'}}><Translate>正式启动 诚邀赞助</Translate></span>
+          </Heading>  
+          <div id="contant"><Translate id="common.email.label">赞助咨询邮箱：</Translate><Link to="mailto:rvspoc@kubuds.cn">rvspoc@kubuds.cn</Link></div>
+          <div id="contant"><Translate id="common.weixin.label">赛事官方公众号：</Translate>苦芽科技</div>
           <div id="placeholder"></div>
-          <div id="sponsors">
-            <label><Translate id="common.sponsor">赞助商</Translate></label>
-            <div>
-              <Sponsor icon="/img/sophgo-logo.webp" url="https://www.sophgo.com" />
-              <Sponsor icon="/img/xuantie-logo.webp" url="https://www.xrvm.com" />
-            </div>
-          </div>
         </div>
       </header>
     </div>
@@ -216,7 +207,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="2024 RISC-V Software Porting and Optimization Championship"
+      description="2025 RISC-V Software Porting and Optimization Championship"
       wrapperClassName="in-home-page">
       <HomepageHeader />
       <main>
