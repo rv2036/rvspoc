@@ -69,12 +69,12 @@ jobs:
             if [[ $year_folder =~ /([[:digit:]]{4})$ ]]; then
               _do cp -a "${year_folder}/Website" "./public/${BASH_REMATCH[1]}"
             fi
-          done < <(find ./archives -maxdepth 1 -type d -name '2???'))
+          done < <(find ./archives -maxdepth 1 -type d -name '2???')
           if [[ $BASE_URL != "https://rvspoc.org" ]]; then
             _do find ./public -type f -exec sed -Ei "s@https://rvspoc.org@${BASE_URL}@" '{}' \;
           fi
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
@@ -88,4 +88,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
