@@ -160,8 +160,14 @@ function HomepageHeader(): JSX.Element {
           <Heading as="h2" className="cover-title">
             <span style={{backgroundColor: 'yellow', color: 'black'}}><Translate>正式启动 诚邀赞助</Translate></span>
           </Heading>  
+          <span><b>发起单位：</b>RISC-V 软件移植及优化挑战赛组委会</span>
+          <span><b>主办单位：</b>上海苦芽科技有限公司</span>
+          <span><b>协办单位：</b>广州市智能软件产业研究院</span>
           <div id="contant"><Translate id="common.email.label">赞助咨询邮箱：</Translate><Link to="mailto:rvspoc@kubuds.cn">rvspoc@kubuds.cn</Link></div>
           <div id="contant"><Translate id="common.weixin.label">赛事官方公众号：</Translate>苦芽科技</div>
+          <div>
+            <Sponsor classn="" icon="/img/kubuds-qr.jpg" url="https://kubuds.io/"/>
+          </div>
           <div id="placeholder"></div>
           <div id="sponsors">
           <label><Translate id="common.sponsor">赞助商</Translate></label>
