@@ -166,7 +166,7 @@ function HomepageHeader(): JSX.Element {
           <div id="contant"><Translate id="common.email.label">赞助咨询邮箱：</Translate><Link to="mailto:rvspoc@kubuds.cn">rvspoc@kubuds.cn</Link></div>
           <div id="contant"><Translate id="common.weixin.label">赛事官方公众号：</Translate>苦芽科技</div>
           <div>
-            <Sponsor classn="" icon="/img/kubuds-tencent.jpg" url="https://kubuds.io/"/>
+            <Sponsor classn="" icon="/img/kubuds-qr.jpg" url="https://kubuds.io/"/>
           </div>
           <div id="placeholder"></div>
           <div id="sponsors">
