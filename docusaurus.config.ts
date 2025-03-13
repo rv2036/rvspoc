@@ -78,6 +78,11 @@ const config: Config = {
           queryString: '?persistLocale=true', // TODO
           position: 'right',
         },
+        {
+          position: 'right',
+          label: 'FAQ',
+          to: "/faq",
+        },
 				{
           type: 'dropdown',
           label: '往届挑战赛',
