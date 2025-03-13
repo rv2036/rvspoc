@@ -1,0 +1,67 @@
+---
+title: 基于 V4L2 的 RISC-V 架构摄像头驱动开发
+cid: P2501
+slug: /P2501
+award: 人民币 10000
+numberOfChampions: 1
+begin_time: 2025-03-06 (AoE)
+end_time: 2025-06-06 (AoE)
+description: 本题要求参赛者实现一个 V4L2 驱动程序，以便通过 V4L2 API 访问摄像头数据。
+---
+
+import ChallengesMetaInDoc from '../../../src/components/ChallengeMetaInDoc';
+
+<ChallengesMetaInDoc />
+
+
+## 项目描述
+
+在嵌入式系统中，摄像头数据的获取是一个重要的应用场景。当前，SG200X RISC-V 架构芯片的官方 SDK 提供了一套专用 API 用于访问 CSI 接口连接的摄像头(MMF)，但缺乏基于 Linux 中通用的 V4L2（Video for Linux 2）框架的支持。为了提高系统的可扩展性和兼容性，本题要求参赛者实现一个 V4L2 驱动程序，以便通过 V4L2 API 访问摄像头数据。
+
+## 产出以及评分要求
+
+1. 实现 V4L2 驱动：
+编写一个 V4L2 驱动程序，能够通过 CSI 接口访问连接的摄像头。
+驱动程序应支持基本的 V4L2 操作，包括打开、关闭设备、读取帧数据、设置格式等。
+
+2. 功能测试：
+使用 v4l2-ctl 工具验证驱动程序的功能，确保可以通过 V4L2 API 获取视频流。
+提供示例代码或命令，展示如何使用 V4L2 API 获取摄像头数据。
+
+3. 文档撰写：
+撰写详细的驱动程序文档，包括驱动的编译、安装步骤，以及如何配置和使用 V4L2 API。
+文档中应包含常见问题及其解决方案。
+
+4. 性能优化：
+评估驱动程序的性能，提供优化建议，包括但不限于缓冲区管理、帧率控制等。
+
+注意事项
+
+请确保遵循相关的开源协议和版权规范。
+参赛者需自行准备开发环境，并确保所有必要的工具和库都已安装。
+
+通过这个题目，参赛者将能深入理解 V4L2 驱动的开发过程，提高其在嵌入式 Linux 系统中的实际应用能力。
+
+附录
+
+SG200X(CV181X)官方原始文档参考链接（CV180x/CV181x MPI媒体软件开发使用手册）：
+https://doc.sophgo.com/cvitek-develop-docs/master/docs_latest_release/CV180x_CV181x/zh/01.software/MPI/Media_Processing_Software_Development_Reference/build/html/index.html
+
+## 验证平台
+
+- SG200x (Milk-V Duo256 or DuoS) 其中 Duo256 使用 GC2083 摄像头模组， DuoS 使用 GC2083 或者 OV5647
+
+## 提交说明
+
+import Req from '../_requirements-for-porting.mdx';
+
+<Req submissionRepoUrl="https://github.com/rv2036/rvspoc-P2501-v4l2" deadline="2025 年 6 月 7 日 (AoE)" />
+
+## 验收说明
+
+- 6 月 7 日后由 RVSPOC 组委会公布。
+- 由于赛题的开放性和软件的复杂性，赛题发布时可能存在未解释或需要修正的部分。针对未考虑到的方面，随着比赛进程的推进可能根据选手的反馈会有调整，请保持对赛事网站的关注。最终解释权归属于比赛的赛题评审委员会。
+
+## 知识产权及开源协议要求
+
+所有参赛结果要求开源，并提交至主办方指定仓库。参赛者（作者）持有作品的所有权。主办方鼓励参赛者将结果回馈贡献至 upstream。
