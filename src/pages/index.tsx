@@ -160,6 +160,7 @@ function HomepageHeader(): JSX.Element {
           <div id="registration">
             <a className="link-button link-button-eye-catching" href="https://www.wenjuan.com/s/7zaAFz8/" target="_blank"><Translate id="common.registration">比赛报名入口</Translate></a>
           </div>
+	  <div id="challenges"><Link to='/challenges' className="link-button"><Translate id="common.challenges.link">赛题列表</Translate></Link></div>
           <div id="blank_line">
           </div> 
           <span><b>发起单位：</b>RISC-V 软件移植及优化挑战赛组委会</span>
