@@ -17,14 +17,13 @@ import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
 
 ## 项目描述
 
-当前 AMD Zen 系列 CPU（如 EPYC 9004 系列）中已开始使用 RISC-V 处理器作为协处理器，主要用于管理、加速特定任务，如电源管理、系统控制，时钟管理、固件安全等。
-AMD Zen 处理器的微码（Microcode）可以改变 CPU 指令执行方式，是一种修改 CPU 低级行为的软件级固件补丁，适合于优化指令执行，以及修改特定指令行为。​[Zentool](https://github.com/google/security-research/tree/master/pocs/cpus/entrysign/zentool) 是由 Google 安全研究团队开发的一个工具套件，旨在分析、修改和生成适用于 AMD Zen 系列处理器的微代码补丁。
+当前 AMD Zen 系列 CPU（如 EPYC 9004 系列）中已开始使用 RISC-V 处理器作为协处理器，能用于加速特定任务。AMD Zen 系列处理器的微码（Microcode）可以改变 CPU 指令执行方式，是一种修改 CPU 低级行为的软件级固件补丁，适合于优化指令执行，以及修改特定指令行为。​[Zentool](https://github.com/google/security-research/tree/master/pocs/cpus/entrysign/zentool) 是由 Google 安全研究团队开发的一个工具套件，旨在分析、修改和生成适用于 AMD Zen 系列处理器的微代码补丁。
 
 ## 产出以及评分要求
 
 1. 修改微码：完成 Zen 系列 CPU 的微码修改，用于运行或加速 RISC-V 二进制程序。
 
-2. 功能测试：把提交仓库中的 Dhrystone 运行在 Zen 系列 RISC-V CPU。 
+2. 功能测试：把提交仓库中的 Dhrystone 运行在 Zen 系列 CPU。 
 
 3. 文档撰写：记录针对微码的修改思路，RISC-V 二进制代码的加速思路，Dhrystone 测试流程，测试结果。
 
