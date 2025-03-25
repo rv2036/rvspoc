@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.challengesSidebar.category.challenges": {
+    "message": "challengs",
+    "description": "The label for category challenges in sidebar challengesSidebar"
+  }
+}
