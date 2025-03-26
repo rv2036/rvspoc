@@ -1,0 +1,72 @@
+---
+title: Implement a V4L2 driver to access camera data through the V4L2 API.
+cid: P2501
+slug: /P2501
+award: RMB 10000
+numberOfChampions: 1
+begin_time: 2025-03-06 (AoE)
+end_time: 2025-06-06 (AoE)
+description: this challenge requires participants to implement a V4L2 driver to access camera data through the V4L2 API.
+---
+
+import ChallengesMetaInDoc from '../../../../../../src/components/ChallengeMetaInDoc';
+
+<ChallengesMetaInDoc />
+
+import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
+
+*This content has been machine-translated. In case of any discrepancies or ambiguities, the original Chinese version shall prevail.*
+## Challenge Description
+
+In embedded systems, acquiring camera data is a critical application scenario. Currently, the official SDK for the SG200X RISC-V architecture chip provides a dedicated API for accessing cameras connected via the CSI interface (MMF), but lacks support for the widely-used V4L2 (Video for Linux 2) framework in Linux. To enhance system scalability and compatibility, this challenge requires participants to implement a V4L2 driver to access camera data through the V4L2 API.
+
+## Rubrics
+
+1. V4L2 Driver Implementation:
+Develop a V4L2 driver capable of accessing cameras connected via the CSI interface.
+The driver must support basic V4L2 operations, including device open/close, frame data reading, format configuration, and more.
+
+2. Functional Testing:
+Validate the driver’s functionality using the v4l2-ctl tool to ensure video stream acquisition via the V4L2 API.
+Provide sample code or commands demonstrating how to retrieve camera data using the V4L2 API.
+
+3. Documentation:
+Write detailed driver documentation, including compilation/installation steps and configuration/usage guidelines for the V4L2 API.
+Include troubleshooting steps for common issues.
+
+4. Performance Optimization:
+Evaluate the driver’s performance and propose optimizations, such as buffer management, frame rate control, and other efficiency improvements.
+
+Notes
+
+Ensure compliance with open-source licenses and copyright regulations.
+Participants must prepare their own development environments and install all necessary tools and libraries.
+This challenge will deepen participants’ understanding of V4L2 driver development and enhance their practical skills in embedded Linux systems.
+
+Reference
+
+SG200X (CV181X) Official Documentation Reference Link:
+https://doc.sophgo.com/cvitek-develop-docs/master/docs_latest_release/CV180x_CV181x/zh/01.software/MPI/Media_Processing_Software_Development_Reference/build/html/index.html
+
+## Platform
+
+SG200x (Milk-V Duo256 or DuoS):
+
+- The Duo256 uses the GC2083 camera module.
+- The DuoS supports either the GC2083 or OV5647 camera module.
+
+## Submission
+
+import Req from '../_requirements-for-porting.mdx';
+
+<Req submissionRepoUrl="https://github.com/rv2036/rvspoc-P2501-v4l2" deadline="2025 年 6 月 7 日 (AoE)" />
+
+## Assessment
+
+- Details will be announced by the RVSPOC Organizing Committee after June 7.
+- Due to the open-ended nature of the challenge and the complexity of the software, there may be unexplained or incomplete aspects in the initial release. Adjustments may be made based on participant feedback during the competition. Please monitor the official event website for updates. Final interpretations and decisions rest with the competition's Problem Review Committee.
+
+## Notice on Intellectual Properties and Open Source Licenses
+
+All challenge submissions must be open source and committed to a specified repository. The participant(s) (author) holds rights to their work. The host encourages contributing any changes made to the upstream.
+

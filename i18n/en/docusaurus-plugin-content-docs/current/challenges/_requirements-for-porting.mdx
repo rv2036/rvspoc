@@ -1,0 +1,21 @@
+import Link from '@docusaurus/Link';
+
+1. The submission repository is <Link href={props.submissionRepoUrl}>{props.submissionRepoUrl}</Link>
+2. Submit results via **Pull Request (PR)** to the above repository:
+   - All references to "PR" in subsequent conditions refer to Pull Requests against the repository in Condition 1.
+3. When creating a PR, provide necessary materials for reproducing the porting results, including but not limited to:
+   - **Complete source code or binaries** \*
+   - Configuration files (if applicable)
+   - Additional library files (if applicable)
+   - Extra patches (if applicable)
+   - Other materials essential for verifying the submission
+4. When creating a PR, include a documentation file specifying verification details, including but not limited to:
+   - Platform requirements (if any): OS name, version, and installation instructions
+   - Dependency requirements (if any): Library details and installation guidance
+   - Compilation & installation procedures
+   - Execution steps
+   - Expected runtime results
+   - Other verification-critical information
+5. This is a porting challenge:
+   - For the first item in Condition 3 (\*), **participants must submit all source code via PR before {props.deadline} (end of day) to complete the challenge.**
+6. The organizing committee will begin verification within 24 hours of PR submission{props.firstFinisherWins ? (<span>, <b>the first</b> successfully validated submission meeting requirements will win</span>) : (<span></span>)}.

@@ -1,0 +1,24 @@
+import Link from '@docusaurus/Link';
+
+1. The submission repository is  <Link href={props.submissionRepoUrl}>{props.submissionRepoUrl}</Link>
+2. Submit your results as a Pull Request to the repository above.
+   - All references to "PR" in the following conditions refer to a Pull Request linked to the repository specified in Condition 1.
+3. When creating the PR, include all necessary materials to reproduce your porting and optimizations, such as:
+   - **Complete source code or binary files** \*
+   - Configuration files (if applicable)
+   - Additional library files (if applicable)
+   - Patches (if applicable)
+   - Any other content required for validating the submission.
+4. Include a detailed explanation file with the following information for verifying your optimizations:
+   - Whether the validation is platform-specific. If yes, specify the OS name, version, and installation instructions.
+   - Whether specific dependency libraries are required. If yes, list their details and installation steps.
+   - Program compilation and installation steps.
+   - Program execution steps.
+   - Program execution results.
+   - Any other information necessary for validating the submission.
+5. Optimization Challenge Rules:
+   - For the first item in Condition 3 \*, If a participant submits only binary files (hereafter "binaries") for validation before the competition deadline,
+     **they must later submit complete source code via PR to finalize the submission.**
+     1. The submitted source code must 100% match the code used to generate the binaries.**
+     2. Content submitted after the competition deadline will not affect scoring but will only verify consistency with the binaries.
+6. The organizing committee will begin validating submissions after the competition ends (i.e., after {props.deadline}). PRs created after this date will not contribute to the competition score.
