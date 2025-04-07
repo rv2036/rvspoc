@@ -21,11 +21,11 @@ import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
 
 ## 产出以及评分要求
 
-1. 微码补丁：完成微码修改，使 Zen 系列 CPU 能直接运行 RISC-V 程序, 如果不能直接运行, 则需要达到一定程度的 RISC-V 程序加速。
+1. 微码补丁：完成 Zen 系列 CPU 的微码修改， 使其能直接运行 RISC-V 二进制程序, 如果不能直接运行, 则需要基于修改的微码, 达到一定程度的 RISC-V 二进制程序加速。
 
-2. 测试结果：把提交仓库中的 Dhrystone 运行在 Zen 系列 CPU。 对比在 Zen 系列上通过模拟器模拟 RISC-V 运行 Dhrstone, 应该有明显的性能提升。
+2. 性能优化测试：把 Coremark/Dhrystone 等 Benchmark 应用程序对应的 RISC-V 二进制程序运行在 Zen 系列 CPU。 对比在 Zen 系列上通过模拟器模拟 RISC-V 运行, 应该有明显的性能提升。
 
-3. 文档说明：记录针对微码的修改思路，RISC-V 二进制代码的加速思路，Dhrystone 测试流程。
+3. 文档撰写：记录针对微码的修改思路，RISC-V 二进制程序的加速思路，测试流程，测试结果。
 
 **注意事项**
 
