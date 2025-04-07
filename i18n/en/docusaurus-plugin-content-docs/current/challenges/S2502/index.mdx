@@ -23,13 +23,12 @@ Current AMD Zen-series CPUs (e.g., EPYC 9004 series) have begun integrating RISC
 
 ## Rubrics
 
-1. **Microcode Modification**: Implement microcode modifications for Zen-series CPUs to execute/accelerate RISC-V binaries.
-2. **Functional Testing**: Run Dhrystone benchmarks from the submission repository on Zen-series CPUs.
-3. **Documentation**: Document:
-   - Microcode modification methodology
-   - RISC-V binary acceleration approach
-   - Dhrystone testing procedures
-   - Test results
+1. **Microcode Patch**: Complete microcode modifications for Zen-series CPUs to enable direct execution of RISC-V binary programs. If direct execution is not feasible, optimize the modified microcode to achieve a significant level of acceleration for RISC-V binaries.
+2. **Performance Optimization Testing**: Run RISC-V binary versions of benchmark applications (e.g., Coremark, Dhrystone) on Zen-series CPUs. Compare performance against simulator-based RISC-V emulation on the same hardware, ensuring measurable and substantial performance improvements.
+3. **Documentation**:
+   - Document the rationale behind microcode modifications.
+   - Outline methodologies for accelerating RISC-V binaries.
+   - Detail testing procedures and benchmark results.
 
 **Important Notes**  
 - Ensure compliance with open-source licenses and copyright regulations.
