@@ -1,0 +1,52 @@
+---
+title: 通过改写微码，在 AMD Zen 系列 CPU 加速运行 RISC-V 二进制程序
+cid: S2502
+slug: /S2502
+award: 人民币 20000
+numberOfChampions: 1
+begin_time: 2025-03-06 (AoE)
+end_time: 2025-06-06 (AoE)
+description: 本题要求参赛者在 AMD Zen 系列 CPU 通过改写微码的方式，以接近原生的方式运行 RISC-V 二进制或者对 RISC-V 二进制程序进行加速。
+---
+
+import ChallengesMetaInDoc from '../../../src/components/ChallengeMetaInDoc';
+
+<ChallengesMetaInDoc />
+
+import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
+
+## 项目描述
+
+当前 AMD Zen 系列 CPU（如 EPYC 9004 系列）中已开始使用 RISC-V 处理器作为协处理器，能用于加速特定任务。AMD Zen 系列处理器的微码（Microcode）可以改变 CPU 指令执行方式，是一种修改 CPU 低级行为的软件级固件补丁，适合于优化指令执行，以及修改特定指令行为。​[Zentool](https://github.com/google/security-research/tree/master/pocs/cpus/entrysign/zentool) 是由 Google 安全研究团队开发的一个工具套件，旨在分析、修改和生成适用于 AMD Zen 系列处理器的微代码补丁。
+
+## 产出以及评分要求
+
+1. 微码补丁：完成 Zen 系列 CPU 的微码修改， 使其能直接运行 RISC-V 二进制程序, 如果不能直接运行, 则需要基于修改的微码, 达到一定程度的 RISC-V 二进制程序加速。
+
+2. 性能优化测试：把 Coremark/Dhrystone 等 Benchmark 应用程序对应的 RISC-V 二进制程序运行在 Zen 系列 CPU。 对比在 Zen 系列上通过模拟器模拟 RISC-V 运行, 应该有明显的性能提升。
+
+3. 文档撰写：记录针对微码的修改思路，RISC-V 二进制程序的加速思路，测试流程，测试结果。
+
+**注意事项**
+
+请确保遵循相关的开源协议和版权规范。
+参赛者需自行准备开发环境，并确保所有必要的工具和库都已安装。
+
+## 验证平台
+
+- AMD Zen 系列
+
+## 提交说明
+
+import Req from '../_requirements-for-optimizing.mdx';
+
+<Req submissionRepoUrl="https://github.com/rv2036/rvspoc-S2502-Zens" deadline="2025 年 6 月 7 日 (AoE)" />
+
+## 验收说明
+
+- 6 月 7 日后由 RVSPOC 组委会公布。
+- 由于赛题的开放性和软件的复杂性，赛题发布时可能存在未解释或需要修正的部分。针对未考虑到的方面，随着比赛进程的推进可能根据选手的反馈会有调整，请保持对赛事网站的关注。最终解释权归属于比赛的赛题评审委员会。
+
+## 知识产权及开源协议要求
+
+所有参赛结果要求开源，并提交至主办方指定仓库。参赛者（作者）持有作品的所有权。主办方鼓励参赛者将结果回馈贡献至 upstream。
