@@ -1,5 +1,5 @@
 ---
-title: 通过改写微码，在 AMD Zen 系列 CPU 运行 RISC-V 二进制
+title: 通过改写微码，在 AMD Zen 系列 CPU 加速运行 RISC-V 二进制程序
 cid: S2502
 slug: /S2502
 award: 人民币 20000
@@ -21,11 +21,11 @@ import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
 
 ## 产出以及评分要求
 
-1. 修改微码：完成 Zen 系列 CPU 的微码修改，用于运行或加速 RISC-V 二进制程序。
+1. 微码补丁：完成微码修改，使 Zen 系列 CPU 能直接运行 RISC-V 程序, 如果不能直接运行, 则需要达到一定程度的 RISC-V 程序加速。
 
-2. 功能测试：把提交仓库中的 Dhrystone 运行在 Zen 系列 CPU。 
+2. 测试结果：把提交仓库中的 Dhrystone 运行在 Zen 系列 CPU。 对比在 Zen 系列上通过模拟器模拟 RISC-V 运行 Dhrstone, 应该有明显的性能提升。
 
-3. 文档撰写：记录针对微码的修改思路，RISC-V 二进制代码的加速思路，Dhrystone 测试流程，测试结果。
+3. 文档说明：记录针对微码的修改思路，RISC-V 二进制代码的加速思路，Dhrystone 测试流程。
 
 **注意事项**
 
