@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'RVSPOC 2025',
+  title: 'RVSPOC 2026',
   tagline: '',
 
   // Set the production url of your site here
@@ -103,6 +103,10 @@ const config: Config = {
             {
               label: '2024',
               href: 'https://rvspoc.org/2024/',
+            },
+            {
+              label: '2025',
+              href: 'https://rvspoc.org/2025/',
             }
           ],
         },

@@ -152,7 +152,7 @@ function HomepageHeader(): JSX.Element {
         <div className="container">
           <Heading as="h1" className="cover-title">
             <Translate id="common.title">RISC-V 软件移植及优化挑战赛</Translate>
-            <sup id="year-badge">2025</sup>
+            <sup id="year-badge">2026</sup>
           </Heading>
           <div id="rvspoc-description">
             <Translate id="common.description.prefix">为了推动 RISC-V 软件生态更快地发展，吸引更多的开发者加入到 RISC-V 生态中来，</Translate><Link className="host-link" to="https://kubuds.io"><Translate id="common.host.name">苦芽科技</Translate></Link><Translate id="common.description.suffix">发起了本届挑战赛。RISC-V 软件移植及优化挑战赛 (RVSPOC) 以桌面和服务器软件生态为重点，在编译器、运行时环境、AI 软件栈等多个方面公开提出一系列比赛题目，邀请全球开发者完成挑战并赢取奖金。</Translate>
@@ -202,7 +202,6 @@ export default function Home(): JSX.Element {
       screenWidth = window.innerWidth;
       screenHeight = window.innerHeight;
       const navbarHeight = getComputedStyle(navbar).height;
-      cover.style.minWidth = screenWidth + 'px';
       cover.style.minHeight = screenHeight + 'px';
       cover.style.paddingTop = navbarHeight;
     };
@@ -222,7 +221,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="2025 RISC-V Software Porting and Optimization Championship"
+      description="2026 RISC-V Software Porting and Optimization Championship"
       wrapperClassName="in-home-page">
       <HomepageHeader />
       <main>
