@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://rvspoc.org/</id>
+    <id>https://rvspoc.org/2025/</id>
     <title>RVSPOC 2025 Blog</title>
     <updated>2025-07-12T07:22:13.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://rvspoc.org/"/>
+    <link rel="alternate" href="https://rvspoc.org/2025/"/>
     <subtitle>RVSPOC 2025 Blog</subtitle>
     <entry>
         <title type="html"><![CDATA[公告！第三届「RISC-V 软件移植及优化挑战赛」顺利结束]]></title>
-        <id>https://rvspoc.org/03</id>
-        <link href="https://rvspoc.org/03"/>
+        <id>https://rvspoc.org/2025/03</id>
+        <link href="https://rvspoc.org/2025/03"/>
         <updated>2025-07-12T07:22:13.000Z</updated>
         <summary type="html"><![CDATA[第三届「RISC-V 软件移植及优化挑战赛」顺利结束]]></summary>
         <content type="html"><![CDATA[<p>第三届「RISC-V 软件移植及优化挑战赛」顺利结束，本届比赛总共有 18 支队伍参赛, 组委会收到总共 1 个有效提交, 目前所有的提交结果都已验证完毕，经过评委会多轮评审，很遗憾本届挑战赛并没有产生冠军。</p>
@@ -23,15 +23,15 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[公告！第三届「RISC-V 软件移植及优化挑战赛」比赛日期延长]]></title>
-        <id>https://rvspoc.org/02</id>
-        <link href="https://rvspoc.org/02"/>
+        <id>https://rvspoc.org/2025/02</id>
+        <link href="https://rvspoc.org/2025/02"/>
         <updated>2025-05-06T07:33:00.000Z</updated>
         <summary type="html"><![CDATA[RISC-V 开源处理器生态的蓬勃发展与技术突破正在吸引全球目光。在此背景下，由上海苦芽科技有限公司主办的第三届 RISC-V 软件移植与优化挑战赛（RVSPOC）赛程已过半。]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="赛程提示">赛程提示<a class="hash-link" aria-label="赛程提示的直接链接" title="赛程提示的直接链接" href="https://rvspoc.org/02#%E8%B5%9B%E7%A8%8B%E6%8F%90%E7%A4%BA">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="赛程提示">赛程提示<a class="hash-link" aria-label="赛程提示的直接链接" title="赛程提示的直接链接" href="https://rvspoc.org/2025/02#%E8%B5%9B%E7%A8%8B%E6%8F%90%E7%A4%BA">​</a></h2>
 <p>RISC-V 开源处理器生态的蓬勃发展与技术突破正在吸引全球目光。在此背景下，由上海苦芽科技有限公司主办的第三届 RISC-V 软件移植与优化挑战赛（RVSPOC）于 2025 年 3 月 18 日正式启动，目前赛程已过半。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="报名情况">报名情况<a class="hash-link" aria-label="报名情况的直接链接" title="报名情况的直接链接" href="https://rvspoc.org/02#%E6%8A%A5%E5%90%8D%E6%83%85%E5%86%B5">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="报名情况">报名情况<a class="hash-link" aria-label="报名情况的直接链接" title="报名情况的直接链接" href="https://rvspoc.org/2025/02#%E6%8A%A5%E5%90%8D%E6%83%85%E5%86%B5">​</a></h2>
 <p>目前共收到 16 支队伍报名，新颖的题目吸引了多位选手咨询，但至今还未收到结果提交。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="比赛时间延长">比赛时间延长<a class="hash-link" aria-label="比赛时间延长的直接链接" title="比赛时间延长的直接链接" href="https://rvspoc.org/02#%E6%AF%94%E8%B5%9B%E6%97%B6%E9%97%B4%E5%BB%B6%E9%95%BF">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="比赛时间延长">比赛时间延长<a class="hash-link" aria-label="比赛时间延长的直接链接" title="比赛时间延长的直接链接" href="https://rvspoc.org/2025/02#%E6%AF%94%E8%B5%9B%E6%97%B6%E9%97%B4%E5%BB%B6%E9%95%BF">​</a></h2>
 <p>注意！比赛时间均按照 AoE 时间计算</p>
 <p>考虑到题目的创新和难度，经挑战赛组委会审慎评估，决定对赛事时间安排进行调整，赛题提交截止日期从，<code>6 月 6 日</code>延期到 <code>6 月 30 日</code>，最新赛程如下：</p>
 <p>3 月 18 日 - 6 月 30 日：赛事报名及参赛阶段</p>
@@ -46,19 +46,19 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[第三届「RISC-V 软件移植及优化挑战赛」筹备工作正式启动，诚邀赞助]]></title>
-        <id>https://rvspoc.org/01</id>
-        <link href="https://rvspoc.org/01"/>
+        <id>https://rvspoc.org/2025/01</id>
+        <link href="https://rvspoc.org/2025/01"/>
         <updated>2025-02-15T05:56:00.000Z</updated>
         <summary type="html"><![CDATA[RISC-V 软件移植及优化挑战赛已经成功举办了两届，自比赛启动以来，吸引了众多国内外优秀团队和个人的积极参与。日前，第三届挑战赛的筹备工作已全面启动，现面向社会各界招募赞助商。]]></summary>
         <content type="html"><![CDATA[<p>RISC-V 软件移植及优化挑战赛已经成功举办了两届，自比赛启动以来，吸引了众多国内外优秀团队和个人的积极参与。日前，第三届挑战赛的筹备工作已全面启动，现面向社会各界招募赞助商。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="活动名称">活动名称<a class="hash-link" aria-label="活动名称的直接链接" title="活动名称的直接链接" href="https://rvspoc.org/01#%E6%B4%BB%E5%8A%A8%E5%90%8D%E7%A7%B0">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="活动名称">活动名称<a class="hash-link" aria-label="活动名称的直接链接" title="活动名称的直接链接" href="https://rvspoc.org/2025/01#%E6%B4%BB%E5%8A%A8%E5%90%8D%E7%A7%B0">​</a></h2>
 <p>中文名称：RISC-V 软件移植及优化挑战赛</p>
 <p>英文名称：RISC-V Software Porting and Optimization Challenge</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="主办方">主办方<a class="hash-link" aria-label="主办方的直接链接" title="主办方的直接链接" href="https://rvspoc.org/01#%E4%B8%BB%E5%8A%9E%E6%96%B9">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="主办方">主办方<a class="hash-link" aria-label="主办方的直接链接" title="主办方的直接链接" href="https://rvspoc.org/2025/01#%E4%B8%BB%E5%8A%9E%E6%96%B9">​</a></h2>
 <p>上海苦芽科技有限公司</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="挑战赛时间表暂定">挑战赛时间表（暂定）<a class="hash-link" aria-label="挑战赛时间表（暂定）的直接链接" title="挑战赛时间表（暂定）的直接链接" href="https://rvspoc.org/01#%E6%8C%91%E6%88%98%E8%B5%9B%E6%97%B6%E9%97%B4%E8%A1%A8%E6%9A%82%E5%AE%9A">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="挑战赛时间表暂定">挑战赛时间表（暂定）<a class="hash-link" aria-label="挑战赛时间表（暂定）的直接链接" title="挑战赛时间表（暂定）的直接链接" href="https://rvspoc.org/2025/01#%E6%8C%91%E6%88%98%E8%B5%9B%E6%97%B6%E9%97%B4%E8%A1%A8%E6%9A%82%E5%AE%9A">​</a></h2>
 <table><thead><tr><th style="text-align:center">日期</th><th style="text-align:center">事件</th></tr></thead><tbody><tr><td style="text-align:center">02 月 17 日 - 03 月 05 日</td><td style="text-align:center">比赛启动</td></tr><tr><td style="text-align:center">03 月 06 日 - 06 月 06 日</td><td style="text-align:center">赛事报名及比赛阶段</td></tr><tr><td style="text-align:center">06 月 07 日 - 07 月 15 日</td><td style="text-align:center">主办方复现比赛结果并公布胜出者名单</td></tr></tbody></table>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="赞助商参与形式及权益">赞助商参与形式及权益<a class="hash-link" aria-label="赞助商参与形式及权益的直接链接" title="赞助商参与形式及权益的直接链接" href="https://rvspoc.org/01#%E8%B5%9E%E5%8A%A9%E5%95%86%E5%8F%82%E4%B8%8E%E5%BD%A2%E5%BC%8F%E5%8F%8A%E6%9D%83%E7%9B%8A">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="赞助商参与形式及权益">赞助商参与形式及权益<a class="hash-link" aria-label="赞助商参与形式及权益的直接链接" title="赞助商参与形式及权益的直接链接" href="https://rvspoc.org/2025/01#%E8%B5%9E%E5%8A%A9%E5%95%86%E5%8F%82%E4%B8%8E%E5%BD%A2%E5%BC%8F%E5%8F%8A%E6%9D%83%E7%9B%8A">​</a></h2>
 <p>赞助商可以参与到赛题的设定、奖金的设定，并在比赛期间及颁奖比赛等宣发中露出。</p>
 <p>赞助商最低赞助额为 5 万元人民币，上不封顶。赞助商可以根据赛题设定的数量和奖金额进行协商定制。</p>
 <p>赞助商权益包含以下内容：</p>
@@ -70,13 +70,13 @@
 </ul>
 <p>如果您的公司有兴趣赞助，请通过以下地址邮件联系主办方：</p>
 <p align="center"><a href="mailto:rvspoc@kubuds.cn" target="_blank" rel="noopener noreferrer">rvspoc@kubuds.cn</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="比赛形式">比赛形式<a class="hash-link" aria-label="比赛形式的直接链接" title="比赛形式的直接链接" href="https://rvspoc.org/01#%E6%AF%94%E8%B5%9B%E5%BD%A2%E5%BC%8F">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="比赛形式">比赛形式<a class="hash-link" aria-label="比赛形式的直接链接" title="比赛形式的直接链接" href="https://rvspoc.org/2025/01#%E6%AF%94%E8%B5%9B%E5%BD%A2%E5%BC%8F">​</a></h2>
 <p>挑战赛分为<span style="color:red">适配夺旗赛</span>和<span style="color:red">优化竞速赛</span>两种形式。</p>
 <ul>
 <li><strong>适配夺旗赛</strong>一般设定一个软件移植目标，该软件（或组件）尚未被移植到 RISC-V 架构上，而第一个完成开源移植工作并提交到指定仓库地址的团队（或个人）胜出。主办方针对每一个赛题目标开设专用仓库并接收参赛者提交。第一个完整通过了测试并提交给主办方仓库的参赛者或团队即为胜出者。提交的参赛代码所有权、署名权等归属于参赛者本人（或移植对应的开源项目社区），主办方鼓励参赛者将代码回馈贡献给上游社区(upstream)。</li>
 <li><strong>优化竞速赛</strong>是指每个赛题设定一个优化评价指标，针对制定的benchmark进行优化，并设定一个提交截止时间。在比赛截止时间之前提交的所有结果中，指标最优的团队胜出。</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="参赛说明持续更新中">参赛说明（持续更新中）<a class="hash-link" aria-label="参赛说明（持续更新中）的直接链接" title="参赛说明（持续更新中）的直接链接" href="https://rvspoc.org/01#%E5%8F%82%E8%B5%9B%E8%AF%B4%E6%98%8E%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="参赛说明持续更新中">参赛说明（持续更新中）<a class="hash-link" aria-label="参赛说明（持续更新中）的直接链接" title="参赛说明（持续更新中）的直接链接" href="https://rvspoc.org/2025/01#%E5%8F%82%E8%B5%9B%E8%AF%B4%E6%98%8E%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD">​</a></h2>
 <ol>
 <li>本比赛接受个人和团体报名，团体没有人数限制。比赛不按人数区分赛道。冠军默认只有一个。</li>
 <li>本比赛中，优化类赛题分为开源和闭源（商业）两个赛道，只有开源赛道提供奖金，闭源（商业）赛道仅提供竞赛排名记录。</li>

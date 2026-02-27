@@ -163,8 +163,8 @@ function HomepageHeader(): JSX.Element {
 	  <div id="challenges"><Link to='/challenges' className="link-button"><Translate id="common.challenges.link">赛题列表</Translate></Link></div>
           <div id="blank_line">
           </div> 
-          <span><b>主办单位：</b>上海苦芽科技有限公司</span>
-          <span><b>协办单位：</b>广州市智能软件产业研究院</span>
+          <span><b>主办单位：</b>甲辰计划</span>
+          <span><b>承办单位：</b>上海苦芽科技有限公司</span>
           <div id="contant"><Translate id="common.email.label">赞助咨询邮箱：</Translate><Link to="mailto:rvspoc@kubuds.cn">rvspoc@kubuds.cn</Link></div>
           <div id="contant"><Translate id="common.weixin.label">赛事官方公众号：</Translate>苦芽科技</div>
           <div>
