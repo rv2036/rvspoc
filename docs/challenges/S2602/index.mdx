@@ -1,11 +1,11 @@
 ---
-title: 基于 RVV 1.0 的 llama.cpp 深度优化
+title: 基于 RVV 1.0 的 llama.cpp 深度优化 (A210平台)
 cid: S2602
 slug: /S2602
-award: 人民币 20000
+award: 人民币 15000
 numberOfChampions: 1
-begin_time: 2025-04-18 (AoE)
-end_time: 2025-07-30 (AoE)
+begin_time: 2026-04-01 (AoE)
+end_time: 2026-08-31 (AoE)
 description: 本题要求参赛者对 llama.cpp 进行 SIMD 加速，发掘大语言模型在 RISC-V 本地部署场景下的极限性能。
 ---
 
@@ -41,15 +41,34 @@ import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
 
 参赛者需自行准备开发/调试环境。
 
-## 验证平台
+## 赛题验证
 
-- &copy; 知合计算 A210系列开发板
+- 验证平台：&copy; 知合计算 A210系列开发板
+
+### 功能与精度验证
+
+| 验证项 | 要求 |
+|--------|------|
+| **模型支持** | 正确运行 Llama 2 (7B) 或 Qwen 1.5 (1.8B/4B) |
+| **量化支持** | 支持 Q4_K_M / Q8_0 量化格式 |
+| **精度对齐** | 与 x86 (LLVM) 平台的输出 perplexity 误差 ≤ 1% |
+
+### 性能验证 
+
+| 指标 | 说明 | 测量条件 |
+|------|------|----------|
+| **单核 pp 速度** | Prompt Processing (token/s) | 单核，输入 512 tokens |
+| **单核 tg 速度** | Text Generation (token/s) | 单核，输出 128 tokens |
+| **多核 tg 扩展性** | 1~8 核的加速比曲线 | 输出 128 tokens |
+| **并行效率** | 加速比 / 核心数 × 100% | 8 核时计算 |
+
+
 
 ## 提交说明
 
 import Req from '../_requirements-for-optimizing.mdx';
 
-<Req submissionRepoUrl="https://github.com/rv2036/rvspoc-S2602-llama" deadline="2025 年 7 月 30 日 (AoE)" />
+<Req submissionRepoUrl="https://github.com/rv2036/rvspoc-S2602-llama" deadline="2026 年 8 月 31 日 (AoE)" />
 
 ## 验收说明
 
