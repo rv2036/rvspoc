@@ -1,0 +1,53 @@
+---
+title: LiteRT RISC-V 架构适配与优化
+cid: S2601
+slug: /S2601
+award: 人民币 20000
+numberOfChampions: 1
+begin_time: 2026-04-18 (AoE)
+end_time: 2026-07-30 (AoE)
+description: 本赛题要求参赛者对 LiteRT 在 RISC-V 架构的适配与优化，推动 RISC-V 在边缘 AI 领域的生态建设。
+---
+
+import ChallengesMetaInDoc from '../../../src/components/ChallengeMetaInDoc';
+
+<ChallengesMetaInDoc />
+
+import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
+
+## 项目描述
+
+LiteRT (之前称 TensorFlow Lite) 作为 Google Edge AI 的核心推理框架，广泛应用于移动端和嵌入式设备。目前 LiteRT 对 RISC-V 架构的支持尚不完善，未能充分发挥 **RVV (RISC-V Vector Extension) 1.0** 的向量并行能力，本赛题旨在填补这一空白，推动 RISC-V 在边缘 AI 领域的生态建设。
+
+## 产出以及评分要求
+
+1. 代码移植：为 LiteRT 添加 RISC-V 64 位支持，确保其正确编译通过并运行。
+
+2. 算子优化：利用 RVV 1.0 指令集，优化 LiteRT CPU 内核中核心算子，包括 GEMM、卷积、激活参数及常用逐元素运算。
+
+3. 文档撰写：记录针对 RISC-V 架构的适配/优化思路，测试方案，测试报告等，用于组委会验证参赛选手的优化成果。
+
+**注意事项**
+
+请确保遵循相关的开源协议和版权规范。
+
+参赛者需自行准备开发/调试环境。
+
+## 验证平台
+
+- &copy; 知合计算 A210系列开发板
+
+## 提交说明
+
+import Req from '../_requirements-for-optimizing.mdx';
+
+<Req submissionRepoUrl="https://github.com/rv2036/rvspoc-S2601-litert" deadline="2026 年 7 月 30 日 (AoE)" />
+
+## 验收说明
+
+- 2026 年 7 月 15 日后，由 RVSPOC 组委会公布。
+- 由于赛题的开放性和软件的复杂性，赛题发布时可能存在未解释或需要修正的部分。针对未考虑到的方面，随着比赛进程的推进可能根据选手的反馈会有调整，请保持对赛事网站的关注。最终解释权归属于比赛的赛题评审委员会。
+
+## 知识产权及开源协议要求
+
+所有参赛结果要求开源，并提交至主办方指定仓库。参赛者（作者）持有作品的所有权。主办方鼓励参赛者将结果回馈贡献至 upstream。
