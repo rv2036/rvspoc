@@ -6,7 +6,7 @@ award: 人民币 15000
 numberOfChampions: 1
 begin_time: 2026-04-01 (AoE)
 end_time: 2026-08-31 (AoE)
-description: 本题要求参赛者对 llama.cpp 进行 SIMD 加速，发掘大语言模型在 RISC-V 本地部署场景下的极限性能。
+description: 本题要求参赛者对 llama.cpp 进行 RVV 向量加速，发掘大语言模型在 RISC-V 本地部署场景下的极限性能。
 ---
 
 import ChallengesMetaInDoc from '../../../src/components/ChallengeMetaInDoc';
@@ -19,19 +19,22 @@ import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
 
 `llama.cpp` 是目前业界最通用的 LLM 推理框架之一，但其 RISC-V 支持仍处于初级阶段，未能充分发挥 RVV 向量指令和多核并行的潜力，本赛题旨在探索 RISC-V 架构在大模型本地部署场景下的极限性能。
 
+备注： 本赛题以主线版本 llama.cpp（[b8827](https://github.com/rv2036/rvspoc-S2602-llama/releases/tag/b8827) ）在 A210 平台的 `llma-bench` 输出作为性能基线。
+
+
 ## 产出以及评分要求
 
 1. 利用 **RVV 1.0** 指令集，优化以下核心算子：
-  - GEMM (矩阵乘法，量化版与非量化版)
-  - 激活函数 (SiLU, GELU)
-  - 逐元素运算 (Add, Mul, RoPE)
-  - Attention (QK 计算、Softmax、PV 乘)
+    - GEMM (矩阵乘法，量化版与非量化版)
+    - 激活函数 (SiLU, GELU)
+    - 逐元素运算 (Add, Mul, RoPE)
+    - Attention (QK 计算、Softmax、PV 乘)
 
 2. 多核并行优化：
-  - 利用 RISC-V 多核特性加速算子计算
-  - 多核协同计算 (任务/数据并行)
-  - 流水线并行
-  - 负载均衡策略
+    - 利用 RISC-V 多核特性加速算子计算
+    - 多核协同计算 (任务/数据并行)
+    - 流水线并行
+    - 负载均衡策略
 
 3. 文档撰写：llama.cpp优化思路，优化流程，测试方案、测试报告等，用于组委会验证参赛选手的优化成果。
 
@@ -45,19 +48,19 @@ import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
 
 - 验证平台：&copy; 知合计算 A210 系列开发板
 
-### 功能与精度验证
+### 功能与准确性验证
 
 | 验证项 | 要求 |
 |--------|------|
 | **模型支持** | 正确运行 Qwen 3 (4B/8B) |
 | **量化支持** | 支持 [Q4_K_M](https://huggingface.co/Qwen/Qwen3-8B-GGUF/tree/main) 以及 [Q8_0](https://huggingface.co/Qwen/Qwen3-4B-GGUF/tree/main) |
-| **精度对齐** | 与 X86 平台的输出 perplexity 误差 ≤ 1% |
+| **精度对齐** | 与 x86-64 平台的输出 perplexity 误差 ≤ 1% |
 
 ### 性能验证 
 
 | 指标 | 说明 | 测量条件 |
 |------|------|----------|
-| **单核 pp 速度** | Prompt Processing (token/s) | 单核，输入 128 tokens |
+| **单核 pp 速度** | Prompt Processing (token/s) | 单核，输入 512 tokens |
 | **单核 tg 速度** | Text Generation (token/s) | 单核，输出 128 tokens |
 | **多核 tg 扩展性** | 1~8 核的加速比曲线 | 输出 128 tokens |
 | **并行效率** | 加速比 / 核心数 × 100% | 8 核时计算 |
