@@ -133,7 +133,7 @@ function Sponsor(props: SponsorProps): JSX.Element {
   const cn = classn + " sponsor"
   return (
     <a className={cn} href={url}>
-      <img src={icon} />
+      <img src={icon} style={{ marginLeft: '20px', marginRight: '20px' }} />
     </a>
   )
 }
@@ -155,7 +155,7 @@ function HomepageHeader(): JSX.Element {
             <sup id="year-badge">2026</sup>
           </Heading>
           <div id="rvspoc-description">
-            <Translate id="common.description.prefix">为了推动 RISC-V 软件生态更快地发展，吸引更多的开发者加入到 RISC-V 生态中来，</Translate><Link className="host-link" to="https://kubuds.io"><Translate id="common.host.name">苦芽科技</Translate></Link><Translate id="common.description.suffix">发起了本届挑战赛。RISC-V 软件移植及优化挑战赛 (RVSPOC) 以桌面和服务器软件生态为重点，在编译器、运行时环境、AI 软件栈等多个方面公开提出一系列比赛题目，邀请全球开发者完成挑战并赢取奖金。</Translate>
+            <Translate id="common.description.prefix"> RISC-V 软件移植及优化挑战赛（RISC-V Software Porting and Optimization Challenge）是面向全球开发者与 RISC-V 爱好者的技术竞赛，旨在推动 RISC-V 开源生态的繁荣发展。前三届赛事已成功汇聚全球活跃开发者参与，加速多款开源软件在 RISC-V 架构上的移植与性能提升。本届挑战赛（RVSPOC 2026）由甲辰计划主理人吴伟先生发起，苦芽科技作为承办单位，比赛题目将围绕 AI、机器人（具身智能）、桌面和服务器软件生态、在编译器、运行时环境、AI 软件栈等多个方面，邀请全球开发者完成挑战并赢取奖金。</Translate>
           </div>
           {/* <div id="registration">
             <a className="link-button link-button-eye-catching" href="https://www.wenjuan.com/s/7zaAFz8/" target="_blank"><Translate id="common.registration">比赛报名入口</Translate></a>
@@ -166,8 +166,9 @@ function HomepageHeader(): JSX.Element {
           <span><b>主办单位：</b>甲辰计划</span>
           <span><b>承办单位：</b>上海苦芽科技有限公司</span>
           <div id="contant"><Translate id="common.email.label">赞助咨询邮箱：</Translate><Link to="mailto:rvspoc@kubuds.cn">rvspoc@kubuds.cn</Link></div>
-          <div id="contant"><Translate id="common.weixin.label">赛事官方公众号：</Translate>苦芽科技</div>
+          <div id="contant"><Translate id="common.weixin.label">赛事官方公众号：</Translate>甲辰计划、苦芽科技</div>
           <div>
+            <Sponsor classn="" icon="/img/jiachen-qr.jpg" url="https://rv2036.org"/>
             <Sponsor classn="" icon="/img/kubuds-qr.jpg" url="https://kubuds.io/"/>
           </div>
           <div id="placeholder"></div>
