@@ -1,0 +1,80 @@
+---
+title: 基于 RVV 1.0 的 llama.cpp 深度优化 (A210平台)
+cid: S2602
+slug: /S2602
+award: 人民币 15000
+numberOfChampions: 1
+begin_time: 2026-04-01 (AoE)
+end_time: 2026-08-31 (AoE)
+description: 本题要求参赛者对 llama.cpp 进行 RVV 向量加速，发掘大语言模型在 RISC-V 本地部署场景下的极限性能。
+---
+
+import ChallengesMetaInDoc from '../../../src/components/ChallengeMetaInDoc';
+
+<ChallengesMetaInDoc />
+
+import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
+
+## 项目描述
+
+`llama.cpp` 是目前业界最通用的 LLM 推理框架之一，但其 RISC-V 支持仍处于初级阶段，未能充分发挥 RVV 向量指令和多核并行的潜力，本赛题旨在探索 RISC-V 架构在大模型本地部署场景下的极限性能。
+
+备注： 本赛题以主线版本 llama.cpp（[fork 自 upstream b8827 tag，未做任何修改](https://github.com/rv2036/rvspoc-S2602-llama/releases/tag/b8827) ）在 A210 平台的 `llama-bench` 输出作为性能基线。
+
+## 产出以及评分要求
+
+1. 利用 **RVV 1.0** 指令集，优化以下核心算子：
+    - GEMM (矩阵乘法，量化版与非量化版)
+    - 激活函数 (SiLU, GELU)
+    - 逐元素运算 (Add, Mul, RoPE)
+    - Attention (QK 计算、Softmax、PV 乘)
+
+2. 多核并行优化：
+    - 利用 RISC-V 多核特性加速算子计算
+    - 多核协同计算 (任务/数据并行)
+    - 流水线并行
+    - 负载均衡策略
+
+3. 文档撰写：llama.cpp优化思路，优化流程，测试方案、测试报告等，用于组委会验证参赛选手的优化成果。
+
+**注意事项**
+
+请确保遵循相关的开源协议和版权规范。
+
+参赛者需要自行准备开发环境，组委会后续会对参赛者提供 A210 远程调试环境。
+
+## 赛题验证
+
+- 验证平台：&copy; 知合计算 A210 系列开发板
+
+### 功能与准确性验证
+
+| 验证项 | 要求 |
+|--------|------|
+| **模型支持** | 正确运行 Qwen 3 (4B/8B) |
+| **量化支持** | 支持 [Q4_K_M](https://huggingface.co/Qwen/Qwen3-8B-GGUF/tree/main) 以及 [Q8_0](https://huggingface.co/Qwen/Qwen3-4B-GGUF/tree/main) |
+| **精度对齐** | 与 x86-64 平台的输出 perplexity 误差 ≤ 1% |
+
+### 性能验证 
+
+| 指标 | 说明 | 测量条件 |
+|------|------|----------|
+| **单核 pp 速度** | Prompt Processing (token/s) | 单核，输入 512 tokens |
+| **单核 tg 速度** | Text Generation (token/s) | 单核，输出 128 tokens |
+| **多核 tg 扩展性** | 1~8 核的加速比曲线 | 输出 128 tokens |
+| **并行效率** | 加速比 / 核心数 × 100% | 8 核时计算 |
+
+## 提交说明
+
+import Req from '../_requirements-for-optimizing.mdx';
+
+<Req submissionRepoUrl="https://github.com/rv2036/rvspoc-S2602-llama" deadline="2026 年 8 月 31 日 (AoE)" />
+
+## 验收说明
+
+- 2026 年 8 月 31 日后，由 RVSPOC 组委会公布。
+- 由于赛题的开放性和软件的复杂性，赛题发布时可能存在未解释或需要修正的部分。针对未考虑到的方面，随着比赛进程的推进可能根据选手的反馈会有调整，请保持对赛事网站的关注。最终解释权归属于比赛的赛题评审委员会。
+
+## 知识产权及开源协议要求
+
+所有参赛结果要求开源，并提交至主办方指定仓库。参赛者（作者）持有作品的所有权。主办方鼓励参赛者将结果回馈贡献至 upstream。
