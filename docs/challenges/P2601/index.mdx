@@ -1,0 +1,86 @@
+---
+title: 移植 KleidiCV 到 RISC-V 架构并使用 RVV 进行加速
+cid: P2601
+slug: /P2601
+award: 人民币 14000
+numberOfChampions: 1
+begin_time: 2026-04-01 (AoE)
+end_time: 2026-08-31 (AoE)
+description: 本题要求参赛者将 KleidiCV 核心功能移植至 RISC-V 平台，并利用 RVV 1.0 向量指令进行性能加速，探索 RISC-V 在计算机视觉领域的工程潜力。
+---
+
+import ChallengesMetaInDoc from '../../../src/components/ChallengeMetaInDoc';
+
+<ChallengesMetaInDoc />
+
+import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
+
+## 项目描述
+
+KleidiCV 是 Arm 公司开源的计算机视觉加速库，专为 Arm Neon/SVE 指令集优化，广泛用于图像处理、边缘 AI 推理前处理等场景。随着 RISC-V 生态的快速发展，RISC-V Vector Extension（RVV 1.0）已成为高性能计算的重要标准。
+
+本题要求参赛者将 KleidiCV 核心功能**移植至 RISC-V 平台**，并利用 **RVV 1.0** 向量指令进行性能加速，探索 RISC-V 在计算机视觉领域的工程潜力。
+
+- 参考仓库：https://gitlab.arm.com/kleidi/kleidicv
+- 目标架构：RISC-V（RV64GCV，支持 RVV 1.0）
+- 推荐测试环境：QEMU `virt` 机器（`-cpu rv64,v=true,vlen=256`）或真实 RISC-V 开发板（如 SG2044、A210 等）
+
+---
+
+## 产出以及评分要求
+
+### 必做任务
+
+参赛者需完成 KleidiCV (版本号 26.03)所有算子的 RISC-V 移植，并实现 **RVV 向量化加速**。
+
+**要求：**
+- 所有算子需通过精度验证（与参考实现结果的误差在允许范围内）
+- 已实现 ARM Neon 优化的算子中，至少 90% 需提供 RVV 内联汇编或 RVV Intrinsics 加速版本实现
+- 支持不同 VLEN（128/256/512 bit）的自适应实现，可利用 RVV 的 `vsetvl` 灵活向量长度特性
+- 也可实现自动向量长度调优（VLEN 探测 + 运行时分发）
+- 与 OpenCV(版本号 4.13.0) RISC-V 实现进行对比基准测试，并提供完整 kleidicv-benchmark 数据
+- 适配真实 RISC-V 硬件并提供实测数据，附板卡型号及测试截图/日志
+- 使用 CMake 构建，支持 `riscv64-unknown-linux-gnu` 交叉编译工具链
+- 验证文档：描述测试方案、用于组委会验证参赛选手的适配成果。
+
+**注意事项**
+
+1. 请确保遵循相关的开源协议和版权规范。
+2. 参赛者需要自行准备开发环境，组委会后续会对参赛者提供 A210 远程调试环境。
+3. **禁止直接搬运** OpenCV RISC-V 代码作为实现，须自主实现或明确标注引用来源
+4. 允许参考 KleidiCV 原始 Arm Neon 实现逻辑，但需进行 RISC-V/RVV 适配
+5. 所有代码须以 Apache 2.0 协议开源
+6. 若使用 AI 辅助编写代码，需在提交报告说明使用方式及占比
+
+## 代码规范
+
+- 语言：C/C++（C++17 或以上）
+- RVV 实现：优先使用 **RVV Intrinsics**（`<riscv_vector.h>`），可辅以内联汇编
+- 必须包含标量（scalar）回退实现，保证无 RVV 环境下可编译运行
+- 代码风格参考 KleidiCV 原始代码规范（snake_case，文件头版权声明）
+
+## 参考资料
+
+| 资源 | 链接 |
+|------|------|
+| KleidiCV 源码 | https://gitlab.arm.com/kleidi/kleidicv |
+| RISC-V RVV 1.0 规范 | https://github.com/riscv/riscv-v-spec |
+| RVV Intrinsics 参考手册 | https://github.com/riscv-non-isa/rvv-intrinsic-doc |
+| RISC-V GNU 工具链 | https://github.com/riscv-collab/riscv-gnu-toolchain |
+| QEMU RISC-V 文档 | https://www.qemu.org/docs/master/system/target-riscv.html |
+| OpenCV RISC-V HAL 参考 | https://github.com/opencv/opencv/tree/4.x/modules/core/include/opencv2/core/hal |
+
+## 提交说明
+
+import Req from '../_requirements-for-porting.mdx';
+
+<Req submissionRepoUrl="https://github.com/rv2036/rvspoc-P2601-kleidicv" deadline="2026 年 8 月 31 日 (AoE)" />
+
+## 验收说明
+
+- 2026 年 8 月 31 日后，由 RVSPOC 组委会公布。
+- 由于赛题的开放性和软件的复杂性，赛题发布时可能存在未解释或需要修正的部分。针对未考虑到的方面，随着比赛进程的推进可能根据选手的反馈会有调整，请保持对赛事网站的关注。最终解释权归属于比赛的赛题评审委员会。
+
+## 知识产权及开源协议要求
+
+所有参赛结果要求开源，并提交至主办方指定仓库。参赛者（作者）持有作品的所有权。主办方鼓励参赛者将结果回馈贡献至 upstream。
