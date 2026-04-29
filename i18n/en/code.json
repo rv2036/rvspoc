@@ -3,17 +3,25 @@
     "message": "RISC-V Software Porting and Optimization Championship",
     "description": "site title"
   },
-  "common.host.name": {
-    "message": "Kubuds Technology",
+  "common.host": {
+    "message": "Host: ",
+    "description": "the host prefix"
+  },
+   "common.host.name": {
+    "message": "Jiachen Project",
     "description": "the host name"
   },
-  "common.description.prefix": {
-    "message": "To help attract developers to the RISC-V ecosystem and to accelerate the advancement of its software ecosystem, ",
-    "description": "the primary description about this championship"
+  "common.organizer": {
+    "message": "Organizer: ",
+    "description": "the organizer prefix"
   },
-  "common.description.suffix": {
-    "message": " launched the current championship. RISC-V Software Porting and Optimization Championship (RVSPOC) sets its focus on desktop and server software ecosystems, designing competitive categories for compilers, runtime environments, AI software stacks, etc. and is open to participation by developers around the globe.",
-    "description": "the primary description about this championship"
+   "common.organizer.name": {
+    "message": "Kubuds Technology",
+    "description": "the organizer name"
+  },
+  "common.description": {
+    "message": "The RISC-V Software Porting and Optimization Challenge (RVSPOC) is a global technical competition bringing together developers and enthusiasts to drive the RISC-V open-source ecosystem forward. Having successfully united active developers worldwide across its first three editions, the challenge has accelerated the porting and performance optimization of open-source software on RISC-V. RVSPOC 2026 was initiated by Wu Wei, steward of the Jiachen Project, and organized by Kubuds Technology. This year's challenges span AI, Embodied AI, desktop and server software ecosystems, compilers, runtime environments, and AI software stacks—inviting global developers to compete for cash prizes.",
+    "description": "the description about this championship"
   },
   "common.registration": {
     "message": "Registration Link",
