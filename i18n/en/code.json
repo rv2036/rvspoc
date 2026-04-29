@@ -7,7 +7,7 @@
     "message": "Host: ",
     "description": "the host prefix"
   },
-   "common.host.name": {
+    "common.host.name": {
     "message": "Jiachen Project",
     "description": "the host name"
   },
@@ -20,7 +20,7 @@
     "description": "the organizer name"
   },
   "common.description": {
-    "message": "The RISC-V Software Porting and Optimization Challenge (RVSPOC) is a global technical competition bringing together developers and enthusiasts to drive the RISC-V open-source ecosystem forward. Having successfully united active developers worldwide across its first three editions, the challenge has accelerated the porting and performance optimization of open-source software on RISC-V. RVSPOC 2026 was initiated by Wu Wei, steward of the Jiachen Project, and organized by Kubuds Technology. This year's challenges span AI, Embodied AI, desktop and server software ecosystems, compilers, runtime environments, and AI software stacks—inviting global developers to compete for cash prizes.",
+    "message": "The RISC-V Software Porting and Optimization Challenge (RVSPOC) is a global technical competition bringing together developers and enthusiasts to drive the RISC-V open-source ecosystem forward. The first three editions of the competition have successfully brought together active developers from around the world, accelerating the porting and optimaztion of numerous open-source software projects to the RISC-V architecture. RVSPOC 2026 was initiated by Wu Wei, founder & director of the Jiachen Project, and organized by Kubuds Technology. This year's challenges span AI, Embodied AI, desktop and server software ecosystems, compilers, runtime environments, and AI software stacks—inviting global developers to compete for cash prizes.",
     "description": "the description about this championship"
   },
   "common.registration": {
