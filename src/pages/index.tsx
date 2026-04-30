@@ -65,7 +65,7 @@ function Layout(props: Props): JSX.Element {
   );
 }
 
-function NavbarBackdrop(props: ComponentProps<'div'>) {
+function NavbarBackdrop(props: React.ComponentProps<'div'>) {
   return (
     <div
       role="presentation"
@@ -118,24 +118,48 @@ function Navbar(): JSX.Element {
   );
 }
 
+interface LogoLinkProps {
+  icon: string;
+  url: string;
+  className?: string;
+  title?: string;
+}
+
+function LogoLink({icon, url, className, title}: LogoLinkProps): JSX.Element {
+  return (
+    <a className={className} href={url} title={title} aria-label={title}>
+      <img src={icon} alt={title ?? ''} />
+    </a>
+  );
+}
+
 interface SponsorProps {
   icon: string;
   url: string;
-  classn: string;
+  className?: string;
 }
 
 function Sponsor(props: SponsorProps): JSX.Element {
   const {
     icon,
     url,
-    classn
+    className = '',
   } = props;
-  const cn = classn + " sponsor"
+  const cn = `${className} sponsor`.trim();
   return (
-    <a className={cn} href={url}>
-      <img src={icon} style={{ marginLeft: '20px', marginRight: '20px' }} />
-    </a>
-  )
+    <LogoLink icon={icon} url={url} className={cn} title="Sponsor" />
+  );
+}
+
+function Host(props: { icon: string; url: string }): JSX.Element {
+  return (
+    <LogoLink
+      icon={props.icon}
+      url={props.url}
+      className="host-logo"
+      title="Host"
+    />
+  );
 }
 
 function HomepageHeader(): JSX.Element {
@@ -155,7 +179,7 @@ function HomepageHeader(): JSX.Element {
             <sup id="year-badge">2026</sup>
           </Heading>
           <div id="rvspoc-description">
-            <Translate id="common.description.prefix"> RISC-V 软件移植及优化挑战赛（RISC-V Software Porting and Optimization Challenge）是面向全球开发者与 RISC-V 爱好者的技术竞赛，旨在推动 RISC-V 开源生态的繁荣发展。前三届赛事已成功汇聚全球活跃开发者参与，加速多款开源软件在 RISC-V 架构上的移植与性能提升。本届挑战赛（RVSPOC 2026）由甲辰计划主理人吴伟先生发起，苦芽科技作为承办单位，比赛题目将围绕 AI、机器人（具身智能）、桌面和服务器软件生态、在编译器、运行时环境、AI 软件栈等多个方面，邀请全球开发者完成挑战并赢取奖金。</Translate>
+            <Translate id="common.description">RISC-V 软件移植及优化挑战赛（RISC-V Software Porting and Optimization Challenge）是面向全球开发者与 RISC-V 爱好者的技术竞赛，旨在推动 RISC-V 开源生态的繁荣发展。前三届赛事已成功汇聚全球活跃开发者参与，加速多款开源软件在 RISC-V 架构上的移植与性能提升。本届挑战赛（RVSPOC 2026）由甲辰计划主理人吴伟先生发起，苦芽科技作为承办单位，比赛题目将围绕 AI、机器人（具身智能）、桌面和服务器软件生态、在编译器、运行时环境、AI 软件栈等多个方面，邀请全球开发者完成挑战并赢取奖金。</Translate>
           </div>
           {/* <div id="registration">
             <a className="link-button link-button-eye-catching" href="https://www.wenjuan.com/s/7zaAFz8/" target="_blank"><Translate id="common.registration">比赛报名入口</Translate></a>
@@ -163,20 +187,20 @@ function HomepageHeader(): JSX.Element {
 	  <div id="challenges"><Link to='/challenges' className="link-button"><Translate id="common.challenges.link">赛题列表</Translate></Link></div>
           <div id="blank_line">
           </div> 
-          <span><b>主办单位：</b>甲辰计划</span>
-          <span><b>承办单位：</b>上海苦芽科技有限公司</span>
+          <span><b><Translate id="common.host">主办单位：</Translate></b><Translate id="common.host.name">甲辰计划</Translate></span>
+          <span><b><Translate id="common.organizer">承办单位：</Translate></b><Translate id="common.organizer.name">上海苦芽科技有限公司</Translate></span>
           <div id="contant"><Translate id="common.email.label">赞助咨询邮箱：</Translate><Link to="mailto:rvspoc@kubuds.cn">rvspoc@kubuds.cn</Link></div>
           <div id="contant"><Translate id="common.weixin.label">赛事官方公众号：</Translate>甲辰计划、苦芽科技</div>
           <div>
-            <Sponsor classn="" icon="/img/jiachen-qr.jpg" url="https://rv2036.org"/>
-            <Sponsor classn="" icon="/img/kubuds-qr.jpg" url="https://kubuds.io/"/>
+            <Host icon="/img/jiachen-qr.jpg" url="https://rv2036.org"/>
+            <Host icon="/img/kubuds-qr.jpg" url="https://kubuds.io/"/>
           </div>
           <div id="placeholder"></div>
           <div id="sponsors">
           <label><Translate id="common.sponsor">赞助商</Translate></label>
           <div>
-            <Sponsor classn="" icon="/img/sponsors-tba.png"/>
-            <Sponsor classn="" icon="/img/sponsors-tba.png"/>
+            <Sponsor className="" icon="/img/damo.png" url="https://damo.alibaba.com/"/>
+            <Sponsor className="" icon="/img/lanxin.png" url="https://www.lanxincomputing.com/"/>
           </div>
           </div> 
         </div>
