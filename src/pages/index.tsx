@@ -65,7 +65,7 @@ function Layout(props: Props): JSX.Element {
   );
 }
 
-function NavbarBackdrop(props: ComponentProps<'div'>) {
+function NavbarBackdrop(props: React.ComponentProps<'div'>) {
   return (
     <div
       role="presentation"
@@ -118,31 +118,47 @@ function Navbar(): JSX.Element {
   );
 }
 
+interface LogoLinkProps {
+  icon: string;
+  url: string;
+  className?: string;
+  title?: string;
+}
+
+function LogoLink({icon, url, className, title}: LogoLinkProps): JSX.Element {
+  return (
+    <a className={className} href={url} title={title} aria-label={title}>
+      <img src={icon} alt={title ?? ''} />
+    </a>
+  );
+}
+
 interface SponsorProps {
   icon: string;
   url: string;
-  classn: string;
+  className?: string;
 }
 
 function Sponsor(props: SponsorProps): JSX.Element {
   const {
     icon,
     url,
-    classn
+    className = '',
   } = props;
-  const cn = classn + " sponsor"
+  const cn = `${className} sponsor`.trim();
   return (
-    <a className={cn} href={url}>
-      <img src={icon} />
-    </a>
-  )
+    <LogoLink icon={icon} url={url} className={cn} title="Sponsor" />
+  );
 }
 
 function Host(props: { icon: string; url: string }): JSX.Element {
   return (
-    <a href={props.url}>
-      <img src={props.icon} style={{ marginLeft: '10px', marginRight: '10px' }} />
-    </a>
+    <LogoLink
+      icon={props.icon}
+      url={props.url}
+      className="host-logo"
+      title="Host"
+    />
   );
 }
 
@@ -183,8 +199,8 @@ function HomepageHeader(): JSX.Element {
           <div id="sponsors">
           <label><Translate id="common.sponsor">赞助商</Translate></label>
           <div>
-            <Sponsor classn="" icon="/img/damo.png" url="https://damo.alibaba.com/"/>
-            <Sponsor classn="" icon="/img/lanxin.png" url="https://www.lanxincomputing.com/"/>
+            <Sponsor className="" icon="/img/damo.png" url="https://damo.alibaba.com/"/>
+            <Sponsor className="" icon="/img/lanxin.png" url="https://www.lanxincomputing.com/"/>
           </div>
           </div> 
         </div>
