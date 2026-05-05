@@ -181,10 +181,10 @@ function HomepageHeader(): JSX.Element {
           <div id="rvspoc-description">
             <Translate id="common.description">RISC-V 软件移植及优化挑战赛（RISC-V Software Porting and Optimization Challenge）是面向全球开发者与 RISC-V 爱好者的技术竞赛，旨在推动 RISC-V 开源生态的繁荣发展。前三届赛事已成功汇聚全球活跃开发者参与，加速多款开源软件在 RISC-V 架构上的移植与性能提升。本届挑战赛（RVSPOC 2026）由甲辰计划主理人吴伟先生发起，苦芽科技作为承办单位，比赛题目将围绕 AI、机器人（具身智能）、桌面和服务器软件生态、在编译器、运行时环境、AI 软件栈等多个方面，邀请全球开发者完成挑战并赢取奖金。</Translate>
           </div>
-          {/* <div id="registration">
-            <a className="link-button link-button-eye-catching" href="https://www.wenjuan.com/s/7zaAFz8/" target="_blank"><Translate id="common.registration">比赛报名入口</Translate></a>
-          </div> */}
-	  <div id="challenges"><Link to='/challenges' className="link-button"><Translate id="common.challenges.link">赛题列表</Translate></Link></div>
+          {<div id="registration">
+            <a className="link-button link-button-eye-catching" href="https://www.wenjuan.com/s/RB7BvyG/" target="_blank"><Translate id="common.registration">比赛报名入口</Translate></a>
+          </div>}
+	        <div id="challenges"><Link to='/challenges' className="link-button"><Translate id="common.challenges.link">赛题列表</Translate></Link></div>
           <div id="blank_line">
           </div> 
           <span><b><Translate id="common.host">主办单位：</Translate></b><Translate id="common.host.name">甲辰计划</Translate></span>
