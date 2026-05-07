@@ -199,7 +199,7 @@ function HomepageHeader(): JSX.Element {
           <div id="sponsors">
           <label><Translate id="common.sponsor">赞助商</Translate></label>
           <div>
-            <Sponsor className="" icon="/img/damo.png" url="https://damo.alibaba.com/"/>
+            <Sponsor className="" icon="/img/xuantie.png" url="https://www.xrvm.cn/"/>
             <Sponsor className="" icon="/img/lanxin.png" url="https://www.lanxincomputing.com/"/>
           </div>
           </div> 
