@@ -1,16 +1,11 @@
 ## RISC-V 软件移植及优化挑战赛（RISC-V Software Porting and Optimization Challenge ）
 
-## RVSPOC 2026 赛题讲解
+### RVSPOC 2026 赛题讲解
 
-#### 比赛官网：https://rvspoc.org/
-
-#### 题目链接：https://rvspoc.org/S2602
-
-#### 工作邮箱：rvspoc@kubuds.cn
+#### 讲解人：RVSPOC 2026 组委会-孙敏
 
 #### 讲解主题：LiteRT RISC-V 架构适配与 RVV 优化
 
-#### 讲解人：RVSPOC 2026 组委会-孙敏
 #### 日期：2026.05.22
 
 <br /><br /><br /><br /><br /><br /><br />
@@ -18,6 +13,8 @@
 --- 
 
 ## 内容大纲
+
+- 挑战赛官网
 
 - 赛题描述
 
@@ -33,7 +30,16 @@
 
 --- 
 
+## 挑战赛官网
+
+- 网址 https://rvspoc.org/
+- FAQ
+- 提交说明
+- 工作邮箱：rvspoc@kubuds.cn
+
 ##  赛题描述
+
+- 题目链接：https://rvspoc.org/S2602
   
 ![title](title.png)
 
@@ -209,7 +215,7 @@ echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governo
 bazel build //litert/tools:benchmark_model --define=tflite_with_xnnpack=false
 #aarch64 平台 默认开启了 xnnpack
 bazel build //litert/tools:benchmark_model
-./bazel-bin/litert/tools/benchmark_model --graph=../mobilenet_v1_1.0_224.tflite
+./bazel-bin/litert/tools/benchmark_model --graph=models/mobilenet_v1_1.0_224.tflite
 #指定 INT8 量化模型
 bazel run //litert/tools:benchmark_model -- --graph=$(pwd)/models/mobilenet_v1_1.0_224_quant.tflite --use_gpu=true
 ```
@@ -239,14 +245,15 @@ bazel build //tflite/kernels:conv_test
 ./bazel-bin/tflite/kernels/conv_test
 bazel test //tflite/kernels:conv_test
 
-
 ---
 
 
 
 ## 参考链接
 
-[tflite安卓应用示例] https://github.com/tensorflow/examples/tree/master/lite/examples/smart_reply/android 
+[tflite安卓应用示例](https://github.com/tensorflow/examples/tree/master/lite/examples/smart_reply/android)
 
-[Playing_with_Computer_Vision] https://github.com/alok-ahirrao/Playing_with_Computer_Vision
+[Playing_with_Computer_Vision](https://github.com/alok-ahirrao/Playing_with_Computer_Vision)
+
+[A210文档](https://developer.zhcomputing.com/zh/docs/A210/)
  
