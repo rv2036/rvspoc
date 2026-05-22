@@ -90,7 +90,7 @@ LiteRT的内核后端 有四个，Reference kernel是纯CPU实现；Optimized ke
 ## 如何训练一个 .tflite 模型
 
 **提示！**
-如果从源码编译，需要搭建一个完整的 tensorflow 开发环境
+如果从源码编译 tensorflow，需要搭建一个完整的 tensorflow 开发环境
 也可以通过 Python 虚拟环境直接安装 tensorflow 和 keras 包
 
 - 准备样本数据（包括原始数据和对应标签）
@@ -179,6 +179,13 @@ print("模型输入形状:", converter.get_input_arrays())
 ---
 
 ## 从源码编译
+
+- 获取源码
+   
+    ```
+    git clone https://github.com/google-ai-edge/LiteRT.git
+    git checkout v2.1.4
+    ```
 
 - 在 AArch64/Linux 平台树莓派 4B 编译 LiteRT
 
