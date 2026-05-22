@@ -24,9 +24,9 @@
 
 - 在 X86/Linux容器环境编译 LiteRT
 
-- 性能测试以及内核回归测试
+- 内核回归测试以及性能测试
 
-- 总结
+- 参考链接
 
 --- 
 
@@ -221,28 +221,6 @@ print("模型输入形状:", converter.get_input_arrays())
 
 ---
 
-## 运行 benchmark_model (性能测试)
-
-```
-#高性能模式，减少噪声
-echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
-#关闭 xnnpack
-bazel build //litert/tools:benchmark_model --define=tflite_with_xnnpack=false
-#aarch64 平台 默认开启了 xnnpack
-bazel build //litert/tools:benchmark_model
-./bazel-bin/litert/tools/benchmark_model --graph=models/mobilenet_v1_1.0_224.tflite
-#指定 INT8 量化模型
-bazel run //litert/tools:benchmark_model -- --graph=$(pwd)/models/mobilenet_v1_1.0_224_quant.tflite --use_gpu=true
-```
-
-![xnnpack-on-off](xnnpack-on-off.png)
-
-**提示！**
-
-本次比赛不限定后端，但是需要确保准确
-
----
-
 ## 运行内核回归测试（准确性测试）
 
 - 查看 Neon 相关的代码
@@ -250,7 +228,6 @@ bazel run //litert/tools:benchmark_model -- --graph=$(pwd)/models/mobilenet_v1_1
     cd tflite/kernels
     find . -type f \( -name "*neon*" -o -name "*arm*" -o -name "*aarch64*" \) | sort
     ```
-
 
 - 编译目标
 //tensorflow/lite/kernels
@@ -270,6 +247,41 @@ bazel run //litert/tools:benchmark_model -- --graph=$(pwd)/models/mobilenet_v1_1
     ```
 
 ---
+
+## 运行 benchmark_model (性能测试)
+
+```
+#高性能模式，减少噪声
+echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+#关闭 xnnpack
+bazel build //litert/tools:benchmark_model --define=tflite_with_xnnpack=false
+#aarch64 平台 默认开启了 xnnpack
+bazel build //litert/tools:benchmark_model
+./bazel-bin/litert/tools/benchmark_model --graph=models/mobilenet_v1_1.0_224.tflite
+#指定 INT8 量化模型
+bazel run //litert/tools:benchmark_model -- --graph=$(pwd)/models/mobilenet_v1_1.0_224_quant.tflite --use_gpu=true
+```
+
+![xnnpack-on-off](xnnpack-on-off.png)
+
+- 调用关系
+  ```
+  benchmark_model (tflite/tools/benchmark/)
+    ↓ 创建 Interpreter / InterpreterBuilder
+    ↓ 加载 .tflite 模型
+    ↓ 解析算子 (op kernels)
+    ↓ 根据目标平台选择 kernel 实现
+        ├── ARM 32-bit → 注册 NEON 内核 (kernels/internal/optimized/neon/)
+        ├── ARM 64-bit (AArch64) → 注册 NEON / ARM64 优化内核
+        └── x86 → SSE/AVX 实现
+    ↓ 执行 inference
+        ↓ 实际调用 neon_tensor_utils.cc / neon_optimized_ops.cc 等
+  ```
+  
+
+**提示！**
+
+本次比赛不限定后端，但是需要确保准确
 
 ## 参考链接
 
