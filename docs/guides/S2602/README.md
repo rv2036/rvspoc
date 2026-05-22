@@ -245,22 +245,29 @@ bazel run //litert/tools:benchmark_model -- --graph=$(pwd)/models/mobilenet_v1_1
 
 ## 运行内核回归测试（准确性测试）
 
+- 查看 Neon 相关的代码
+    ```
+    cd tflite/kernels
+    find . -type f \( -name "*neon*" -o -name "*arm*" -o -name "*aarch64*" \) | sort
+    ```
+
+
+- 编译目标
 //tensorflow/lite/kernels
 
-测试模块：
+- 测试模块：
+  - conv_test
+  - depthwise_conv_test
+  - fully_connected_test
+  - mul_test
+  - add_test
 
-- conv_test
-- depthwise_conv_test
-- fully_connected_test
-- mul_test
-- add_test
-
-```
-bazel build //tflite/kernels:conv_test
-./bazel-bin/tflite/kernels/conv_test
-./bazel-bin/tflite/kernels/conv_test | less
-bazel test //tflite/kernels:conv_test
-```
+    ```
+    bazel build //tflite/kernels:conv_test
+    ./bazel-bin/tflite/kernels/conv_test
+    ./bazel-bin/tflite/kernels/conv_test | less
+    bazel test //tflite/kernels:conv_test
+    ```
 
 ---
 
