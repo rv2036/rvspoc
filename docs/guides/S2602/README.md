@@ -48,7 +48,7 @@
 
 | 编译方式               | 验证方式              |
 | ---------------- | --------------- |
-| riscv64-linux-gnu-gcc | QEMU/RISC-V 开发板           |
+| riscv64-linux-gnu-gcc/clang | QEMU/RISC-V 开发板           |
 | native 编译 | RISC-V开发板/ X86 / ARM     |
 | 基于 qemu-system-riscv64 的 native 编译（BR2_PACKAGE_QEMU_SYSTEM） | qemu/RISC-V 开发板 |
 
