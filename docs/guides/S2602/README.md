@@ -14,7 +14,7 @@
 
 ## 内容大纲
 
-- 挑战赛官网
+- 挑战赛简介
 
 - 赛题描述
 
@@ -30,16 +30,17 @@
 
 --- 
 
-## 挑战赛官网
+## 挑战赛简介
 
-- 网址 https://rvspoc.org/
+- 官方网站 https://rvspoc.org/
 - FAQ
-- 提交说明
 - 工作邮箱：rvspoc@kubuds.cn
 
 ##  赛题描述
 
-- 题目链接：https://rvspoc.org/S2602
+- 项目描述
+- 评审要求
+- 提交说明
   
 ![title](title.png)
 
@@ -47,9 +48,9 @@
 
 | 编译方式               | 验证方式              |
 | ---------------- | --------------- |
-| X86 riscv64-linux-gnu-gcc | QEMU/RISC-V 开发板           |
-| RISC-V/X86 native 编译 | RISC-V开发板/ X86      |
-| ARM native 编译          | ARM 开发板 |
+| riscv64-linux-gnu-gcc | QEMU/RISC-V 开发板           |
+| native 编译 | RISC-V开发板/ X86 / ARM     |
+| 基于 qemu-system-riscv64 的 native 编译（BR2_PACKAGE_QEMU_SYSTEM） | qemu/RISC-V 开发板 |
 
 
 ### 注意事项
@@ -58,9 +59,14 @@
 
 ---
 
-## LiteRT 简介
+## LiteRT 适配/优化流程
+
+
+### LiteRT 介绍
 
 `LiteRT, successor to TensorFlow Lite. is Google's On-device framework for high-performance ML & GenAI deployment on edge platforms, via efficient conversion, runtime, and optimization.`
+
+`LiteRT（TensorFlow Lite 的继任者）是 Google 面向边缘平台的高性能机器学习和生成式 AI 部署框架，通过高效的模型转换、运行时执行和优化技术，实现设备端（On-device）部署`
 
 ![tflite](tflite.png)
 
@@ -69,7 +75,7 @@
 ![build-status](build-status.png)
 ![hardware](hardware.png)
 
-### 内核后端
+### 内核/后端
 
 LiteRT的内核后端 有四个，Reference kernel是纯CPU实现；Optimized kernel可以加neon/rvv；XNNPACK可以加neon/rvv；还有Ruy和Gemmlowp
 | 后端               | 作用              |
@@ -81,10 +87,10 @@ LiteRT的内核后端 有四个，Reference kernel是纯CPU实现；Optimized ke
 | Gemmlowp         | INT8 backend    |
 
 
-## 自己训练一个 .tflite 模型
+## 如何训练一个 .tflite 模型
 
 **提示！**
-如果从源码编译，需要搭建一个完整的 tensorflow开发环境
+如果从源码编译，需要搭建一个完整的 tensorflow 开发环境
 也可以通过 Python 虚拟环境直接安装 tensorflow 和 keras 包
 
 - 准备样本数据（包括原始数据和对应标签）
@@ -160,7 +166,7 @@ print("模型输入形状:", converter.get_input_arrays())
 ./bazel-bin/tensorflow/lite/tutorials/mnist_train
 ```
 
-## TensorFlow Lite 运行
+## TensorFlow Lite 运行演示
 
 - 基于手机 App
   ![android-app](android-app.png)
@@ -172,37 +178,39 @@ print("模型输入形状:", converter.get_input_arrays())
   
 ---
 
-## 在 AArch64/Linux 平台树莓派 4B 编译 LiteRT
+## 从源码编译
 
-```
-bazel build //litert/tools:benchmark_model
-```
+- 在 AArch64/Linux 平台树莓派 4B 编译 LiteRT
+
+    ```
+    Bazel build //litert/tools:benchmark_model
+    ```
 
 ---
 
-##  在 X86/Linux 容器环境编译 LiteRT
+- 在 X86/Linux 容器环境编译 LiteRT
 
-```
-smin@p70:~/disk/LiteRT/docker_build$ ./build_with_docker.sh --use_existing_image
+    ```
+    smin@p70:~/disk/LiteRT/docker_build$ ./build_with_docker.sh --use_existing_image
 
-[1 / 1] no actions running
-INFO: Found 1 target...
-Target //litert/runtime:compiled_model up-to-date:
-  bazel-bin/litert/runtime/libcompiled_model.a
-  bazel-bin/litert/runtime/libcompiled_model.pic.a
-  bazel-bin/litert/runtime/libcompiled_model.so
-INFO: Elapsed time: 19.097s, Critical Path: 0.28s
-INFO: 1 process: 1 internal.
-INFO: Build completed successfully, 1 total action
-Build completed successfully!
+    [1 / 1] no actions running
+    INFO: Found 1 target...
+    Target //litert/runtime:compiled_model up-to-date:
+    bazel-bin/litert/runtime/libcompiled_model.a
+    bazel-bin/litert/runtime/libcompiled_model.pic.a
+    bazel-bin/litert/runtime/libcompiled_model.so
+    INFO: Elapsed time: 19.097s, Critical Path: 0.28s
+    INFO: 1 process: 1 internal.
+    INFO: Build completed successfully, 1 total action
+    Build completed successfully!
 
-# 进入容器环境
-docker run --rm -it --user 1000:1000 -e HOME=/litert_build -e USER=smin -v /home/smin/disk/LiteRT:/litert_build litert_build_env bash
+    # 进入容器环境
+    docker run --rm -it --user 1000:1000 -e HOME=/litert_build -e USER=smin -v /home/smin/disk/LiteRT:/litert_build litert_build_env bash
 
-# 手动编译 benchmark_model
-ubuntu@752d044847bf:~$ bazel build //litert/tools:benchmark_model  --define=tflite_with_xnnpack=false
+    # 手动编译 benchmark_model
+    ubuntu@752d044847bf:~$ bazel build //litert/tools:benchmark_model  --define=tflite_with_xnnpack=false
 
-```
+    ```
 
 ---
 
@@ -211,7 +219,7 @@ ubuntu@752d044847bf:~$ bazel build //litert/tools:benchmark_model  --define=tfli
 ```
 #高性能模式，减少噪声
 echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
-#关闭xnnpack
+#关闭 xnnpack
 bazel build //litert/tools:benchmark_model --define=tflite_with_xnnpack=false
 #aarch64 平台 默认开启了 xnnpack
 bazel build //litert/tools:benchmark_model
@@ -232,7 +240,7 @@ bazel run //litert/tools:benchmark_model -- --graph=$(pwd)/models/mobilenet_v1_1
 
 //tensorflow/lite/kernels
 
-测试重点：
+测试模块：
 
 - conv_test
 - depthwise_conv_test
@@ -240,20 +248,23 @@ bazel run //litert/tools:benchmark_model -- --graph=$(pwd)/models/mobilenet_v1_1
 - mul_test
 - add_test
 
+```
 bazel build //tflite/kernels:conv_test
-
 ./bazel-bin/tflite/kernels/conv_test
+./bazel-bin/tflite/kernels/conv_test | less
 bazel test //tflite/kernels:conv_test
+```
 
 ---
 
-
-
 ## 参考链接
 
-[tflite安卓应用示例](https://github.com/tensorflow/examples/tree/master/lite/examples/smart_reply/android)
+- gnu toolchain 
+- qemu
+- rvv intrinsic 文档
+- 提交状态
+- [tflite安卓应用示例](https://github.com/tensorflow/examples/tree/master/lite/examples/smart_reply/android)
+- [Playing_with_Computer_Vision](https://github.com/alok-ahirrao/Playing_with_Computer_Vision)
 
-[Playing_with_Computer_Vision](https://github.com/alok-ahirrao/Playing_with_Computer_Vision)
-
-[A210文档](https://developer.zhcomputing.com/zh/docs/A210/)
+- [A210文档中心](https://developer.zhcomputing.com/zh/docs/A210/)
  
