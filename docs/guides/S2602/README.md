@@ -20,9 +20,9 @@
 
 - LiteRT 简介
 
-- 在 AArch64/Linux平台树莓派 4B 编译 LiteRT
+- 在 AArch64/Linux 平台树莓派 4B 编译 LiteRT
 
-- 在 X86/Linux容器环境编译 LiteRT
+- 在 X86/Linux 容器环境编译 LiteRT
 
 - 内核回归测试以及性能测试
 
