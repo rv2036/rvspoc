@@ -164,6 +164,9 @@ void brightness_rvv(const uint8_t* src, uint8_t* dst, int N, uint8_t val) {
 }
 ```
 
+- 图像增强效果图
+![image-add](image-add.png)
+
 ### 源码获取
 ```
 git clone https://gitlab.arm.com/kleidi/kleidicv.git
@@ -305,6 +308,5 @@ export OPENCV_TEST_DATA_PATH=/home/pi/KleidiCV/opencv_extra/testdata/
 - [opencv 4.13.0](https://github.com/opencv/opencv/archive/refs/tags/4.13.0.tar.gz)
 - [opencv_extra 4.13.0](https://github.com/opencv/opencv_extra/archive/refs/tags/4.13.0.tar.gz)
 - [RISC-V 软件移植及优化锦标赛 S2309 演示](https://github.com/rv2036/rvspoc/blob/main/archives/2023/Docs/S2309/S2309.md)
-
-## 附录
+- [RVV Intrinsic 接口在线查看](https://doc.nucleisys.com/tools/intrinsic_viewer/rvv/index.html)
 
