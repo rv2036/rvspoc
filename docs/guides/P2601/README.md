@@ -21,9 +21,9 @@
 
 - SIMD / RVV 演示
 
-- 在 AArch64/Linux 平台树莓派 4B 编译
+- 从源码编译（native+cross）
 
-- 内核回归测试以及性能测试
+- OpenCV 回归测试以及性能测试
 
 - 参考链接
 
@@ -297,6 +297,7 @@ export OPENCV_TEST_DATA_PATH=/home/pi/KleidiCV/opencv_extra/testdata/
 
 - 调用关系
 以 opencv_perf_imgproc.PerfHoughCircles 为例
+
 ![hough-circle-hal](hough-circle-hal.png)
 
 ## 参考链接
