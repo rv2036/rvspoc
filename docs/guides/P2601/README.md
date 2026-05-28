@@ -32,8 +32,13 @@
 ## 题目背景
 
 - OpenCV ARM平台现状：完整的优化
+![arm-status](arm-status.png)
+
 - OpenCV RISC-V 当前基准：原生的纯 C++ 标量实现，循环嵌套，逐像素处理，无法发挥多核和向量流水线优势。
+![rv-status](rv-status.png)
+
 - OpenCV RISC-V 优化目标：通过分析数据依赖，利用 RVV 寄存器（如 v0-v31）和长向量指令（如 vle8.v, vadd.vv），实现单指令多数据（SIMD）的并行计算（非常符合计算机视觉场景）。
+![rv-opt](rv-opt.png)
 
 ## 赛题定位
 
@@ -208,7 +213,7 @@ export OPENCV_TEST_DATA_PATH=/home/pi/KleidiCV/opencv_extra/testdata/
   ![kleidicv-default](kleidicv0p70.png)
   ![mk-kleidicv](mk-kleidicv.png)
 
-- 指定 kleidicv 的路径 KLEIDICV_SOURCE_PATH
+- 指定 OpenCV 中 kleidicv 的路径 KLEIDICV_SOURCE_PATH
   ```
   cd /home/pi/KleidiCV
   mkdir build-kleidicv263 && cd build-kleidicv263
@@ -221,6 +226,17 @@ export OPENCV_TEST_DATA_PATH=/home/pi/KleidiCV/opencv_extra/testdata/
   make install -j4
   ```
   ![kleidicv263](kleidicv263.png)
+
+- 单独编译 kleidicv
+  ```
+  cd /home/pi/KleidiCV
+  mkdir build-kleidicv-only && cd build-kleidicv-only
+  cmake -S ../kleidicv/ -B .  -DCMAKE_BUILD_TYPE=Release   -DKLEIDICV_BENCHMARK=ON
+  make -j4
+  make kleidicv-benchmark
+  ./benchmark/kleidicv-benchmark --image_width=1280 --image_height=720
+  ```
+  ![kleidicv-benchmark](kleidicv-benchmark.png)
 
 ### 交叉编译 opencv 4.13.0
 
