@@ -31,6 +31,9 @@
 
 ## 题目背景
 
+- 计算机视觉场景特点
+![cv-feature](cv-feature.png)
+
 - OpenCV ARM平台现状：完整的优化
 ![arm-status](arm-status.png)
 
@@ -221,7 +224,7 @@ export OPENCV_TEST_DATA_PATH=/home/pi/KleidiCV/opencv_extra/testdata/
     -DWITH_KLEIDICV=ON \
     -DKLEIDICV_SOURCE_PATH=/home/pi/KleidiCV/kleidicv \
     -DCMAKE_INSTALL_PREFIX=/home/pi/KleidiCV/install-kleidicv263 \
-    -DCMAKE_BUILD_TYPE=Release -DKLEIDICV_BENCHMARK=ON \
+    -DCMAKE_BUILD_TYPE=Release \
     -DBUILD_PERF_TESTS=ON
   make install -j4
   ```
@@ -256,6 +259,13 @@ export OPENCV_TEST_DATA_PATH=/home/pi/KleidiCV/opencv_extra/testdata/
 ### 运行回归测试
 
 如果是AArch架构的，可以在本地直接运行；如果目标架构是RISC-V，可以将编译好的可执行文件推送到 RISC-V 板端（或通过 QEMU）运行。
+
+**注意**
+qemu环境依赖额外的软件包以及工具链的sysroot
+```
+sudo apt-get install qemu qemu-user qemu-user-static binfmt-support
+sudo update-binfmts --enable qemu-riscv64
+```
 
 测试对象:
 **`opencv_test_core`** **`opencv_test_imgproc`** **`opencv_test_imgcodecs`**
@@ -325,4 +335,3 @@ export OPENCV_TEST_DATA_PATH=/home/pi/KleidiCV/opencv_extra/testdata/
 - [opencv_extra 4.13.0](https://github.com/opencv/opencv_extra/archive/refs/tags/4.13.0.tar.gz)
 - [RISC-V 软件移植及优化锦标赛 S2309 演示](https://github.com/rv2036/rvspoc/blob/main/archives/2023/Docs/S2309/S2309.md)
 - [RVV Intrinsic 接口在线查看](https://doc.nucleisys.com/tools/intrinsic_viewer/rvv/index.html)
-
