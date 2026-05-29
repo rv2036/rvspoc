@@ -14,7 +14,8 @@
 
 ## 内容大纲
 
-
+- 题目背景
+  
 - 赛题描述
 
 - KleidiCV/OpenCV 简介
@@ -102,6 +103,11 @@ qemu 的版本需要足够新（eg. 版本号 > 9.x.x），确保完整支持RVV
 sunmin@wsl:~$ qemu-riscv64 --version
 qemu-riscv64 version 9.0.2 (v9.0.2)
 Copyright (c) 2003-2024 Fabrice Bellard and the QEMU Project developers
+```
+qemu环境依赖额外的软件包以及工具链的sysroot
+```
+sudo apt-get install qemu qemu-user qemu-user-static binfmt-support
+sudo update-binfmts --enable qemu-riscv64
 ```
 
 ### SIMD/向量优化演示
@@ -260,12 +266,6 @@ export OPENCV_TEST_DATA_PATH=/home/pi/KleidiCV/opencv_extra/testdata/
 
 如果是AArch架构的，可以在本地直接运行；如果目标架构是RISC-V，可以将编译好的可执行文件推送到 RISC-V 板端（或通过 QEMU）运行。
 
-**注意**
-qemu环境依赖额外的软件包以及工具链的sysroot
-```
-sudo apt-get install qemu qemu-user qemu-user-static binfmt-support
-sudo update-binfmts --enable qemu-riscv64
-```
 
 测试对象:
 **`opencv_test_core`** **`opencv_test_imgproc`** **`opencv_test_imgcodecs`**
