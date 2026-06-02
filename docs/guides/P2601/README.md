@@ -18,11 +18,9 @@
   
 - 赛题描述
 
-- KleidiCV/OpenCV 简介
-
 - SIMD / RVV 演示
 
-- 从源码编译（native+cross）
+- 从源码编译 OpenCV/kleidicv（native+cross）
 
 - OpenCV 回归测试以及性能测试
 

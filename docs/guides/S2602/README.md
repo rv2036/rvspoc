@@ -8,6 +8,8 @@
 
 #### 日期：2026.05.22
 
+#### 讲解回放：https://www.bilibili.com/video/BV1tjGC6eEin/
+
 <br /><br /><br /><br /><br /><br /><br />
 
 --- 
