@@ -169,7 +169,7 @@ void brightness_rvv(const uint8_t* src, uint8_t* dst, int N, uint8_t val) {
         // 加载向量
         vuint8m8_t v_src = __riscv_vle8_v_u8m8(src, vl);
         // RVV 的饱和加法函数，直接传入纯量 val，硬件在内部做向量+纯量饱和加
-        vuint8m8_t v_dst = __riscv_vsadd_vx_u8m8(v_src, val, vl);
+        vuint8m8_t v_dst = __riscv_vsaddu_vx_u8m8(v_src, val, vl);
         // 存储向量
         __riscv_vse8_v_u8m8(dst, v_dst, vl);
     }
@@ -207,8 +207,8 @@ export OPENCV_TEST_DATA_PATH=/home/pi/KleidiCV/opencv_extra/testdata/
 - 编译 opencv 
   ```
   cd ~/KleidiCV && mkdir build-opencv && cd build-opencv
-  cmake /home/pi/KleidiCV/opencv-4.13.0/ \
   #指定配置（可选）
+  cmake /home/pi/KleidiCV/opencv-4.13.0/ \
   -DCMAKE_TOOLCHAIN_FILE=../cmake/xxx-toolchain.cmake \
   -DCMAKE_BUILD_TYPE=Release
 
@@ -279,11 +279,10 @@ export OPENCV_TEST_DATA_PATH=/home/pi/KleidiCV/opencv_extra/testdata/
     ./bin/opencv_test_core
     ```
     ![opencv-test-core)](opencv-test-core.png)
-- 将程序传送到目标开发板
+- 将测试程序传送到目标 RISC-V 开发板
     ```
-    scp ./bin/kleidicv_benchmark_riscv root@riscv-board:/root/
-    chmod +x kleidicv_benchmark_riscv
-    ./kleidicv_benchmark_riscv
+    scp ./bin/opencv_perf_imgproc root@riscv-board:/root/
+    ssh root@riscv-board "chmod +x opencv_perf_imgproc && ./opencv_perf_imgproc"
     ```
 - 在 X86 的 qemu 环境执行 opencv 回归测试
     ```
