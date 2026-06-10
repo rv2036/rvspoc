@@ -17,9 +17,9 @@ import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
 
 ## 项目描述
 
-随着 RISC-V 架构迈向服务器与高性能计算领域，RVA23标准，支持 RVV 1.0 的高性能多核 SoC 逐渐成熟，在 围绕 JAVA 生态中的分布式基础软件中，存储引擎的性能直接决定了上层中间件的吞吐量与延迟边界。RocksDB 是 Facebook 开源的高性能嵌入式键值存储引擎，广泛应用于现代云原生架构中。开源分布式消息中间件 Apache RocketMQ 核心的多通道存储、索引以及部分状态元数据，均深度依赖 RocksDB 作为底层存储引擎。然而，目前 RocksDB 的核心加速算法（如 CRC32 校验、布隆过滤器、SST 压缩、MemTable 内存分配等）主要针对 x86 (AVX/SSE) 和 ARM (NEON) 进行了深度汇编级优化，在 RISC-V 架构（特别是向量扩展 RVV）上的性能仍有巨大提升空间。
+随着 RISC-V 架构迈向服务器与高性能计算领域，符合 RVA23 标准，支持 RVV 1.0 的高性能多核 SoC 逐渐成熟，在基于 JAVA 生态分布式基础软件中，存储引擎的性能直接决定了上层中间件的吞吐量与延迟边界。RocksDB 是 Facebook 开源的高性能嵌入式键值存储引擎，广泛应用于现代云原生架构中。开源分布式消息中间件 Apache RocketMQ 核心的多通道存储、索引以及部分状态元数据，均深度依赖 RocksDB 作为底层存储引擎。然而，目前 RocksDB 的核心加速算法（如 CRC32 校验、布隆过滤器、SST 压缩、MemTable 内存分配等）主要针对 x86 (AVX/SSE) 和 ARM (NEON) 进行了深度汇编级优化，在 RISC-V 架构（特别是向量扩展 RVV）上的性能仍有巨大提升空间。
 
-本赛题要求参赛队伍将最新版本的 [RocksDB](https://github.com/facebook/rocksdb/releases/tag/v11.1.1 "RocksDB v11.1.1")  完整移植至 RISC-V 64 平台，并结合 RISC-V 矢量扩展（RVV）、异构多核架构（如主核与协处理核调度）进行性能优化。最终，通过部署真实的 RocketMQ 分布式集群，以高并发消息读写吞吐量（TPS）和 P99 延迟作为最终的评测指标。
+本赛题要求参赛队伍将 [RocksDB v11.1.1](https://github.com/facebook/rocksdb/releases/tag/v11.1.1 "RocksDB v11.1.1")  完整移植至 RISC-V 64 平台，并结合 RISC-V 矢量扩展（RVV）、异构多核架构（如主核与协处理核调度）进行性能优化，且能成功以 JNI 动态库的方式部署到 [RocketMQ 5.5.0](https://github.com/apache/rocketmq/releases/tag/rocketmq-all-5.5.0) 运行环境。
 
 - 目标架构：RISC-V（RV64GCV，支持 RVV 1.0）
 - 推荐测试环境：QEMU `virt` 机器（`-cpu rv64,v=true,vlen=256`）或真实 RISC-V 开发板
@@ -31,13 +31,13 @@ import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
 
 ### 必做任务 
 
-- 移植 RocksDB 至 riscv64 架构，确保全功能通过 RocksDB 自带的 make check 单元测试
 - 利用 RISC-V Vector (RVV 1.0) 指令集，对布隆过滤器（Bloom Filter）的位图查找、SST 文件的序列化/反序列化、CRC32C 数据校验算法进行优化
-- 优化的算子中，至少 90% 需提供 RVV 或内联汇编加速版本实现
+- 现有 ARM/Neon 优化的算子中，至少 90% 需提供 RVV 或内联汇编加速版本实现
 - 支持不同 VLEN（128/256/512 bit）的自适应实现，可利用 RVV 的 `vsetvl` 灵活向量长度特性
-- 也可实现自动向量长度调优（VLEN 探测 + 运行时分发）
-- 将优化后的 RocksDB 作为本地存储引擎，嵌入至 [RocketMQ](https://github.com/apache/rocketmq) 
-- 提供基准测试工具（如 OpenMessaging Benchmark 或 RocketMQ 自带的 Benchmark），在标准高并发消息流（混合读写、大消息体、高堆积场景）的压测数据。
+- 可实现自动向量长度调优（VLEN 探测 + 运行时分发）
+- 将优化后的 RocksDB 作为本地存储引擎，部署到 RocketMQ 运行环境 
+- 提供 RocketMQ 自带的 Benchmark 在标准高并发消息流（混合读写、大消息体、高堆积场景）的压测数据
+- 提供 RocksDB 自带的 db_bench 测试数据，包括： fillrandom（随机写）、readrandom（随机读）、seekrandom（随机查找）的每秒操作数 (OPS)
 - 验证文档：记录测试方案，用于组委会验证参赛选手的优化成果
 
 ### 加分项
@@ -48,19 +48,19 @@ import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
 
 ### 性能与正确性要求
 
-- RocksDB 核心测试集（db_test等），并在 RocketMQ 长时间高压群集测试中无 OOM、无数据损坏、不丢失消息
-- 优化代码需具备良好的工程规范，尽量采用条件编译（如 #ifdef __riscv_vector），不破坏原生代码对其他架构的兼容性
-- 使用 RocksDB 自带的 db_bench 工具，测试 fillrandom（随机写）、readrandom（随机读）、seekrandom（随机查找）的每秒操作数 (OPS)
-- 以原生未优化版本为 Baseline，性能提升幅度需不底于30%，包括消息峰值 TPS、P99 响应延迟
-
-
+- 能够在验证平台正确运行 RocksDB 自带的 make check 单元测试
+- 以高并发消息读写吞吐量（TPS）和 P99 延迟作为最终的评测指标
+- 能在验证平台正确运行 RocksDB 核心测试集（db_test）
+- 部署到 RocketMQ 之后，执行 60 分钟高压群集测试，要求无 OOM、无数据损坏、不丢失消息
+- 优化代码需具备良好的工程规范，需采用条件编译（如 #ifdef __riscv_vector），不破坏原生代码对其他架构的兼容性
+- 以原生未优化版本为 Baseline，性能提升幅度需不低于 30%，包括消息峰值 TPS、P99 响应延迟等
 
 ## 注意事项
 
 1. 请确保遵循相关的开源协议和版权规范。
 2. 参赛者需要自行准备开发环境，组委会后续会对参赛者提供 LX5000 远程调试环境。
-3. **禁止直接搬运**已有第三方 RISC-V 适配/优化代码，须自主实现或明确标注引用来源
-4. 若使用 AI 辅助编写代码，需在提交报告中说明使用方式及占比
+3. **禁止直接搬运**已有第三方 RISC-V 适配/优化代码，须自主实现或明确标注引用来源。
+4. 若使用 AI 辅助编写代码，需在提交报告中说明使用方式及占比。
 
 ---
 
@@ -70,6 +70,7 @@ import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
 |------|------|
 | RocksDB 源码 | https://github.com/facebook/rocksdb/releases/tag/v11.1.1 |
 | RocketMQ 官方文档 | https://rocketmq.apache.org/docs/ |
+| RocketMQ 5.5.0 源码 | https://github.com/apache/rocketmq/releases/tag/rocketmq-all-5.5.0 |
 | RISC-V RVV 1.0 规范 | https://github.com/riscv/riscv-v-spec |
 | RVV Intrinsics 参考手册 | https://github.com/riscv-non-isa/rvv-intrinsic-doc |
 | RISC-V GNU 工具链 | https://github.com/riscv-collab/riscv-gnu-toolchain |
