@@ -53,7 +53,7 @@ import AdmonitionTypeNote from '@theme/Admonition/Type/Note';
 - 能在验证平台正确运行 RocksDB 核心测试集（db_test）
 - 部署到 RocketMQ 之后，执行 60 分钟高压群集测试，要求无 OOM、无数据损坏、不丢失消息
 - 优化代码需具备良好的工程规范，需采用条件编译（如 #ifdef __riscv_vector），不破坏原生代码对其他架构的兼容性
-- 以原生未优化版本为 Baseline，性能提升幅度需不低于 30%，包括消息峰值 TPS、P99 响应延迟等
+- 相比于 db_bench 标量版本在验证平台的基线测试结果，性能需提升至少 30%
 
 ## 注意事项
 
