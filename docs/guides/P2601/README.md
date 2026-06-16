@@ -8,6 +8,8 @@
 
 #### 日期：2026.05.29
 
+#### 讲解回放：https://www.bilibili.com/video/BV1DkEY6tEP6/
+
 <br /><br /><br /><br /><br /><br /><br />
 
 --- 
@@ -281,8 +283,8 @@ export OPENCV_TEST_DATA_PATH=/home/pi/KleidiCV/opencv_extra/testdata/
     ![opencv-test-core)](opencv-test-core.png)
 - 将测试程序传送到目标 RISC-V 开发板
     ```
-    scp ./bin/opencv_perf_imgproc root@riscv-board:/root/
-    ssh root@riscv-board "chmod +x opencv_perf_imgproc && ./opencv_perf_imgproc"
+    scp ./bin/opencv_test_core root@riscv-board:/root/
+    ssh root@riscv-board "chmod +x opencv_test_core && ./opencv_test_core"
     ```
 - 在 X86 的 qemu 环境执行 opencv 回归测试
     ```
@@ -307,11 +309,8 @@ export OPENCV_TEST_DATA_PATH=/home/pi/KleidiCV/opencv_extra/testdata/
 - RISC-V 开发板
 
   ```
-  scp opencv_extra_4.13.0.tar.gz root@riscv-board:/root/
   scp ./bin/opencv_perf_imgproc root@riscv-board:/root/
-  ssh root@riscv-board "./opencv_perf_imgproc"
-  chmod +x opencv_perf_imgproc
-  ./opencv_perf_imgproc
+  ssh root@riscv-board "chmod +x opencv_perf_imgproc && ./opencv_perf_imgproc"
   ```
 - 更多 gtest 用法(适合集成到Python/Shell)
   ```

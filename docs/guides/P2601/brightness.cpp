@@ -1,28 +1,49 @@
+/**
+ * ============================================================================
+ * 编译方法
+ * ============================================================================
+ * 
+ * 1. Native 编译 (ARM/RISC-V 开发板直接编译)
+ * ----------------------------------------------------------------------------
+ * g++ \
+ *   -I /home/pi/KleidiCV/install-kleidicv263/include/opencv4/ \
+ *   -L /home/pi/KleidiCV/install-kleidicv263/lib \
+ *   brightness.cpp \
+ *   -lopencv_core -lopencv_imgcodecs -lopencv_highgui \
+ *   -o brightness_benchmark
+ * 
+ * 2. 交叉编译 (x86 主机编译 RISC-V 目标)
+ * ----------------------------------------------------------------------------
+ * riscv64-unknown-linux-gnu-g++ \
+ *   -O2 -march=rv64gcv \
+ *   -I /home/sunmin/workspace/opencv/install-rvv/include/opencv4/ \
+ *   -L /home/sunmin/workspace/opencv/install-rvv/lib/ \
+ *   brightness.cpp \
+ *   -lopencv_core -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc \
+ *   -o brightness_benchmark
+ * 
+ * ============================================================================
+ * 运行用法
+ * ============================================================================
+ * 
+ * 1. 基于 Shell 环境 (开发板本地运行)
+ * ----------------------------------------------------------------------------
+ * ./brightness_benchmark --image=/home/pi/KleidiCV/opencv-4.13.0/samples/data/leuvenA.jpg
+ * 
+ * 2. 基于 qemu-user 环境 (x86 主机模拟运行)
+ * ----------------------------------------------------------------------------
+ * qemu-riscv64 \
+ *   -L /home/sunmin/riscv/sysroot/ \
+ *   -E LD_LIBRARY_PATH=/home/sunmin/workspace/opencv/install-rvv/lib \
+ *   ./brightness_benchmark --image=../data/leuvenA.jpg
+ * 
+ * ============================================================================
+ */
+
 #include <iostream>
 #include <vector>
 #include <opencv2/core.hpp>
 #include <opencv2/imgcodecs.hpp>
-
-//编译方法
-//1. Native 编译
-//g++ -I /home/pi/KleidiCV/install-kleidicv263/include/opencv4/  -L /home/pi/KleidiCV/install-kleidicv263/lib brightness_benchmark.cpp -lopencv_core -lopencv_imgcodecs -lopencv_highgui -o brightness_benchmark
-//2.交叉编译
-//riscv64-unknown-linux-gnu-g++ \
--O2 -march=rv64gcv \
--I/home/sunmin/workspace/opencv/install-rvv/include/opencv4/ \
--L/home/sunmin/workspace/opencv/install-rvv/lib/ \
-brightness_benchmark.cpp \
--lopencv_core -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc \
--o brightness_benchmark
-
-//用法
-//1.基于 Shell 环境
-//./brightness_benchmark --@image=/home/pi/KleidiCV/opencv-4.13.0/samples/data/leuvenA.jpg
-//2.基于 qemu-user 环境
-//qemu-riscv64 \
--L /home/sunmin/riscv/sysroot/ \
--E LD_LIBRARY_PATH=/home/sunmin/workspace/opencv/install-rvv/lib \
-./brightness_benchmark --@image=../data/leuvenA.jpg
 
 // ==========================================
 // 硬件架构自动侦测与头文件引入
@@ -30,11 +51,9 @@ brightness_benchmark.cpp \
 #if defined(__riscv) || defined(__riscv__)
     #define LAYER_ARCH_RISCV
     #include <riscv_vector.h>
-
 #elif defined(__ARM_NEON) || defined(__ARM_NEON__) || defined(_M_ARM64)
     #define LAYER_ARCH_ARM
     #include <arm_neon.h>
-
 #else
     #define LAYER_ARCH_SCALAR
 #endif
@@ -96,9 +115,7 @@ int main(int argc, char** argv) {
     std::cout << "Compiled with: Standard Scalar Mode (No SIMD)" << std::endl;
 #endif
 
-    // 后续的 OpenCV 读取、压测逻辑完全不需要动...
-
-    // 模仿 dft.cpp 使用命令行解析器
+    // 命令行解析器
     cv::CommandLineParser parser(argc, argv,
         "{help h || print this message}"
         "{@image | ../data/lena.jpg | input image}"
