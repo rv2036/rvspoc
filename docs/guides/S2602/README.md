@@ -192,7 +192,7 @@ print("模型输入形状:", converter.get_input_arrays())
 - 在 AArch64/Linux 平台树莓派 4B 编译 LiteRT
 
     ```
-    Bazel build //litert/tools:benchmark_model
+    bazel build //litert/tools:benchmark_model
     ```
 
 ---
@@ -287,12 +287,9 @@ bazel run //litert/tools:benchmark_model -- --graph=$(pwd)/models/mobilenet_v1_1
 
 ## 参考链接
 
-- gnu toolchain 
-- qemu
-- rvv intrinsic 文档
-- 提交状态
-- [tflite安卓应用示例](https://github.com/tensorflow/examples/tree/master/lite/examples/smart_reply/android)
-- [Playing_with_Computer_Vision](https://github.com/alok-ahirrao/Playing_with_Computer_Vision)
-
-- [A210文档中心](https://developer.zhcomputing.com/zh/docs/A210/)
- 
+- gnu toolchain https://github.com/riscv-collab/riscv-gnu-toolchain/releases/download/2026.06.06/riscv64-glibc-ubuntu-22.04-gcc.tar.xz
+- rvv intrinsic 文档 https://github.com/riscvarchive/riscv-v-spec/releases/tag/v1.0
+- qemu 模拟环境搭建 https://documentation.ubuntu.com/hardware-support/boards/how-to/ubuntu_supported/qemu-riscv/
+- tflite 安卓应用示例 https://github.com/tensorflow/examples/tree/master/lite/examples/smart_reply/android
+- Playing_with_Computer_Vision https://github.com/alok-ahirrao/Playing_with_Computer_Vision
+- A210 文档中心 https://developer.zhcomputing.com/zh/docs/A210/
