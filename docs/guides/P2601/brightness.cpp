@@ -28,14 +28,15 @@
  * 
  * 1. 基于 Shell 环境 (开发板本地运行)
  * ----------------------------------------------------------------------------
- * ./brightness_benchmark --image=/home/pi/KleidiCV/opencv-4.13.0/samples/data/leuvenA.jpg
+ * export LD_LIBRARY_PATH=/home/pi/KleidiCV/install-kleidicv263/lib
+ * ./brightness_benchmark /home/pi/KleidiCV/opencv-4.13.0/samples/data/leuvenA.jpg
  * 
  * 2. 基于 qemu-user 环境 (x86 主机模拟运行)
  * ----------------------------------------------------------------------------
  * qemu-riscv64 \
  *   -L /home/sunmin/riscv/sysroot/ \
  *   -E LD_LIBRARY_PATH=/home/sunmin/workspace/opencv/install-rvv/lib \
- *   ./brightness_benchmark --image=../data/leuvenA.jpg
+ *   ./brightness_benchmark /path/to/leuvenA.jpg
  * 
  * ============================================================================
  */
@@ -118,7 +119,7 @@ int main(int argc, char** argv) {
     // 命令行解析器
     cv::CommandLineParser parser(argc, argv,
         "{help h || print this message}"
-        "{@image | ../data/lena.jpg | input image}"
+        "{@image | /path/to/leuvenA.jpg | input image}"
         "{val    | 50               | brightness increment value (0-255)}"
         "{loop   | 1000             | number of loops for performance test}"
     );
