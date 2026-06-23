@@ -56,9 +56,10 @@ https://rvspoc.org/S2603
 
 | 编译方式               | 验证方式              |
 | ---------------- | --------------- |
-| 交叉编译环境 | RISC-V 开发板  |
+| 交叉编译环境 | RISC-V 开发板/QEMU 模拟环境  |
 | 基于 RISC-V 平台的 native 编译 | RISC-V开发板     |
-| 基于 qemu-system-riscv64 的 native 编译 | qemu 模拟环境 |
+| 基于 qemu-system-riscv64 的 native 编译 | QEMU 模拟环境 |
+
 
 #### 交叉编译环境
 
@@ -106,7 +107,7 @@ https://rvspoc.org/S2603
     gcc -march=rv64gcv -o check_version check_version.c
     ./check_version
     ```
-
+  注意：如果内核 > 6.6,也可以通过系统调用 riscv_hwprobe 获取处理器的扩展特性
 #### qemu-system-riscv64 环境
 
 ![qemu-native](qemu-native.png)
@@ -187,7 +188,7 @@ https://rvspoc.org/S2603
 
 ### 从源码编译 Redis 与 memtier_benchmark
 
-交叉编译、qemu模拟环境、开发板 Native 编译方法类似！
+交叉编译、qemu 模拟环境、开发板 Native 编译方法类似！
 
 - 准备源码
   ```
@@ -229,12 +230,17 @@ https://rvspoc.org/S2603
   ```
 | 测试环境    |  成功率   | 特点    |
 | --- | --- | --- |
-|  qemu 模拟器（4核、Ubuntu 24.04）   | 149/149    |  偏慢   |
+|  QEMU 模拟器（4核、Ubuntu 24.04）   | 149/149    |  偏慢   |
 |  RISC-V 开发板(荔枝派4A Debian)   |  24/149   |  测试不完整   |
 |  ARM(树莓派4 Debian)   |  149/149   |  测试完整通过   |
 
+- QEMU 环境的回归测试结果
   ![make-test-qemu](make-test-qemu.png)
+
+- RISC-V 开发板的回归测试结果
   ![make-test-lpi4a](make-test-lpi4a.png)
+
+- ARM 平台的回归测试结果
   ![make-test-lpi4a](make-test-rpi4b.png)
 
 ### Redis 性能测试
@@ -275,5 +281,5 @@ https://rvspoc.org/S2603
 
 - gnu toolchain https://github.com/riscv-collab/riscv-gnu-toolchain/releases/download/2026.06.06/riscv64-glibc-ubuntu-22.04-gcc.tar.xz
 - rvv intrinsic 文档 https://github.com/riscvarchive/riscv-v-spec/releases/tag/v1.0
-- Qemu 模拟环境搭建 https://documentation.ubuntu.com/hardware-support/boards/how-to/ubuntu_supported/qemu-riscv/
+- QEMU 模拟环境搭建 https://documentation.ubuntu.com/hardware-support/boards/how-to/ubuntu_supported/qemu-riscv/
  
