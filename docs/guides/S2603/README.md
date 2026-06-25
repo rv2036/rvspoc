@@ -6,7 +6,9 @@
 
 #### 讲解主题：Redis K/V 存储引擎的 RVV 向量化优化
 
-#### 日期：2026.06.23
+#### 2026.06.23 20:00
+
+#### 讲解回放：https://www.bilibili.com/video/BV1MP746TEv7
 
 <br /><br /><br /><br /><br /><br /><br />
 
@@ -250,8 +252,7 @@ https://rvspoc.org/S2603
 - 开启高性能模式
     ```
     $ echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
-    $ cat /sys/devices/system/cpu/cpu*/cpufreq/s
-    caling_governor
+    $ cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
     performance
     performance
     performance
@@ -281,5 +282,5 @@ https://rvspoc.org/S2603
 
 - gnu toolchain https://github.com/riscv-collab/riscv-gnu-toolchain/releases/download/2026.06.06/riscv64-glibc-ubuntu-22.04-gcc.tar.xz
 - rvv intrinsic 文档 https://github.com/riscvarchive/riscv-v-spec/releases/tag/v1.0
-- QEMU 模拟环境搭建 https://documentation.ubuntu.com/hardware-support/boards/how-to/ubuntu_supported/qemu-riscv/
+- QEMU Ubuntu RISC-V 环境搭建文档 https://documentation.ubuntu.com/hardware-support/boards/how-to/ubuntu_supported/qemu-riscv/
  
