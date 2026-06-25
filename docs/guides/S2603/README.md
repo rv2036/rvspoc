@@ -68,9 +68,8 @@ https://rvspoc.org/S2603
 ![chross](cross.png)
 
 - 通过包管理器获取基础开发组件
-    ```
-    sudo apt install cmake make pkg-config
-    ```
+  `sudo apt install cmake make pkg-config`
+  
 - 从社区下载 riscv-gnu 工具链
   https://github.com/riscv-collab/riscv-gnu-toolchain
   ![chross-toolchain](cross-toolchain.png)
