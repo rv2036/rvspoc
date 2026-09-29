@@ -11,31 +11,31 @@
 
 | 提交 | 队伍 | 编译 | 正确性 | 性能（对组委会标量基线） | 结论 |
 |---|---|---|---|---|---|
-| #3 | rv-fast | 通过 | 通过 | 八场景 −1.5% 至 +5.6% | 未达标 |
-| #4 | 瑞福扫 | 通过 | 15 项失败（已归因） | 八场景全正，最好 pipeline=64 **+19.1%** | 未达标（性能为本题最强） |
-| #2 | RVV智能 | 默认构建失败（LTO） | 未进入 | 条件组全场景 ≤+0.1% | 未达标 |
-| #6 | 260818 | 默认构建失败（LTO） | 未进入（AOF 崩溃已确证） | 条件组最好 +16.5% | 未达标 |
+| [PR 3](https://github.com/rv2036/rvspoc-S2603-redis/pull/3) | rv-fast | 通过 | 通过 | 八场景 −1.5% 至 +5.6% | 未达标 |
+| [PR 4](https://github.com/rv2036/rvspoc-S2603-redis/pull/4) | 瑞福扫 | 通过 | 15 项失败（已归因） | 八场景全正，最好 pipeline=64 **+19.1%** | 未达标（性能为本题最强） |
+| [PR 2](https://github.com/rv2036/rvspoc-S2603-redis/pull/2) | RVV智能 | 默认构建失败（LTO） | 未进入 | 条件组全场景 ≤+0.1% | 未达标 |
+| [PR 6](https://github.com/rv2036/rvspoc-S2603-redis/pull/6) | 260818 | 默认构建失败（LTO） | 未进入（AOF 崩溃已确证） | 条件组最好 +16.5% | 未达标 |
 
 门槛出处（赛前公开）：`https://rvspoc.org/S2603`「相比于 memtier_benchmark 标量版本
 在验证平台的基线测试结果，性能需提升至少 30%」。
 
 ### 相关基础数据
 
-**#4 的 15 项测试失败已定位为两处**，均经隔离实验证实：其一，`src/monotonic.c:187`
+**PR 4 的 15 项测试失败已定位为两处**，均经隔离实验证实：其一，`src/monotonic.c:187`
 的 RISC-V 分支在无法确定时钟频率时无条件写 stderr，而 Redis 测试经 Tcl `exec`
 调用子进程、子进程写 stderr 即判错（9 项 benchmark 集成测试）；
 其二，`src/memory_prefetch.c:305/432` 的 `#if defined(__riscv) && !defined(__riscv_zicbop)`
 为编译期宏，构建 `-march` 不含 zicbop 时 Prefetch 被整体禁用，而验证平台实测 ISA
 含 `_zicbop`（4 项 Prefetch 及 2 项关联测试）。
 
-**#6 的 AOF 断言崩溃因果链已逐行核实**：其为 GET/SET 键做零拷贝优化，在查询缓冲区
+**PR 6 的 AOF 断言崩溃因果链已逐行核实**：其为 GET/SET 键做零拷贝优化，在查询缓冲区
 内就地伪造 SDS 头并以 `initStaticStringObject` 借用为静态引用计数对象
 （`networking.c:3509-3518`）；开启 AOF 后 `alsoPropagate` 对该对象 `incrRefCount`，
-遇 `OBJ_STATIC_REFCOUNT` 即 panic（`object.c:637`）。**#6 即便获准以 `-fno-lto`
+遇 `OBJ_STATIC_REFCOUNT` 即 panic（`object.c:637`）。**PR 6 即便获准以 `-fno-lto`
 继续评审，也必然在正确性关命中该崩溃。**
 
 **全员未达标的原因属题目负载特性**：非流水线场景瓶颈在网络 I/O（read/write/vDSO
-合计 20.2 个百分点）；实测佐证——#4 是唯一向量化 RESP 协议扫描的提交，其增益恰好
+合计 20.2 个百分点）；实测佐证——PR 4 是唯一向量化 RESP 协议扫描的提交，其增益恰好
 集中于流水线场景（pipeline=64 +19.1%、pipeline=16 +12.1%），六个非流水线场景仅
 +0.5% 至 +4.4%。**在向量化最能发挥作用的场景下最好成绩仍为 +19.1%**，
 距门槛 10.9 个百分点。
@@ -45,7 +45,7 @@
 1. 形式审查；按各提交说明文件复现构建
 2. Redis 回归测试（对照组：上游 8.8.0 标量构建零失败）
 3. memtier 八场景 × 3 轮取中位数（基线同轮数）
-4. #4 性能补测（09-20，原流水线脚本对其存在未披露的排除规则，已更正）
+4. PR 4 性能补测（09-20，原流水线脚本对其存在未披露的排除规则，已更正）
 5. 热点采样（perf，标量版 Top 20，原始数据见板上 `~/rvspoc-perf/hotspot/`）
 
 ## 验证环境
@@ -56,12 +56,12 @@
 | 系统 | Ubuntu 24.04.4，内核 6.18.3+ |
 | 工具链 | gcc-13 13.3.0 / gcc-14 14.2.0 |
 | 基线 | Redis 8.8.0 标量（环境快照见 S2604 目录，两题同板同期采样） |
-| 冻结版本 | #2 `5a29525a`　#3 `621fc1bd`　#4 `82647349`　#6 `6dbbc85e` |
+| 冻结版本 | PR 2 `5a29525a`　PR 3 `621fc1bd`　PR 4 `82647349`　PR 6 `6dbbc85e` |
 
 ## raw/ 目录索引
 
 | 内容 | 说明 |
 |---|---|
 | `perf_summary.tsv` | 全部性能原始记录（memtier Totals 行） |
-| `s2603-pr4-raw.tar.xz` | #4 补测八场景 × 3 轮的原始 memtier 输出 |
+| `s2603-pr4-raw.tar.xz` | PR 4 补测八场景 × 3 轮的原始 memtier 输出 |
 | （热点采样原始数据与基线环境快照） | 板上路径 `~/rvspoc-perf/hotspot/`，复核需要时由组委会另行提供 |

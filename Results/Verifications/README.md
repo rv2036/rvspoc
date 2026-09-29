@@ -15,7 +15,7 @@
 | [S2602 LiteRT](S2602/) | A210 | 已完成，冠军：260818 |
 | [S2603 Redis](S2603/) | LX5000 | 已完成，无人达标 |
 | [S2604 Memcached](S2604/) | LX5000 | 已完成，无人达标 |
-| [S2605 RocksDB](S2605/) | LX5000 | 已完成，冠军：SNL（#3） |
+| [S2605 RocksDB](S2605/) | LX5000 | 已完成，冠军：SNL（[PR 3](https://github.com/rv2036/rvspoc-S2605-rocksdb/pull/3)） |
 
 ## 材料结构
 
