@@ -1,0 +1,92 @@
+-- Downloading TensorFlow repository...
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(tensorflow) is deprecated, call
+  FetchContent_MakeAvailable(tensorflow) instead.  Policy CMP0169 can be set
+  to OLD to allow FetchContent_Populate(tensorflow) to be called directly for
+  now, but the ability to call it with declared details will be removed
+  completely in a future version.
+Call Stack (most recent call first):
+  CMakeLists.txt:62 (FetchContent_Populate)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(abseil-cpp) is deprecated, call
+  FetchContent_MakeAvailable(abseil-cpp) instead.  Policy CMP0169 can be set
+  to OLD to allow FetchContent_Populate(abseil-cpp) to be called directly for
+  now, but the ability to call it with declared details will be removed
+  completely in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/abseil-cpp.cmake:35 (OverridableFetchContent_Populate)
+  tools/cmake/modules/Findabsl.cmake:18 (include)
+  CMakeLists.txt:189 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17
+-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17 - Success
+-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20
+-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20 - Success
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(eigen) is deprecated, call
+  FetchContent_MakeAvailable(eigen) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(eigen) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/eigen.cmake:39 (OverridableFetchContent_Populate)
+  tools/cmake/modules/FindEigen3.cmake:18 (include)
+  CMakeLists.txt:190 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- 
+-- Configured Eigen 5.0.1-dev
+-- 
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(farmhash) is deprecated, call
+  FetchContent_MakeAvailable(farmhash) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(farmhash) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/farmhash.cmake:37 (OverridableFetchContent_Populate)
+  tools/cmake/modules/Findfarmhash.cmake:34 (include)
+  CMakeLists.txt:191 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[ 11%] Creating directories for 'farmhash-populate'
+[ 22%] Performing download step (git clone) for 'farmhash-populate'
+Cloning into 'farmhash'...
+fatal: unable to access 'https://github.com/google/farmhash/': Failed to connect to github.com port 443 after 134107 ms: Could not connect to server
+Cloning into 'farmhash'...
+fatal: unable to access 'https://github.com/google/farmhash/': Error in the HTTP2 framing layer
+Cloning into 'farmhash'...
+fatal: unable to access 'https://github.com/google/farmhash/': Failed to connect to github.com port 443 after 133920 ms: Could not connect to server
+Had to git clone more than once: 3 times.
+CMake Error at _deps/farmhash-subbuild/farmhash-populate-prefix/tmp/farmhash-populate-gitclone.cmake:50 (message):
+  Failed to clone repository: 'https://github.com/google/farmhash'
+
+
+gmake[2]: *** [CMakeFiles/farmhash-populate.dir/build.make:102: farmhash-populate-prefix/src/farmhash-populate-stamp/farmhash-populate-download] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/farmhash-populate.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
+
+CMake Error at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1918 (message):
+  Build step for farmhash failed: 2
+Call Stack (most recent call first):
+  /usr/share/cmake-3.31/Modules/FetchContent.cmake:1609 (__FetchContent_populateSubbuild)
+  /usr/share/cmake-3.31/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)
+  /usr/share/cmake-3.31/Modules/FetchContent.cmake:2145 (cmake_language)
+  /usr/share/cmake-3.31/Modules/FetchContent.cmake:1978:EVAL:1 (__FetchContent_Populate)
+  /usr/share/cmake-3.31/Modules/FetchContent.cmake:1978 (cmake_language)
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/farmhash.cmake:37 (OverridableFetchContent_Populate)
+  tools/cmake/modules/Findfarmhash.cmake:34 (include)
+  CMakeLists.txt:191 (find_package)
+
+
+-- Configuring incomplete, errors occurred!

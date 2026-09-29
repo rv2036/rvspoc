@@ -1,0 +1,5 @@
+model	bytes	diff_bytes	max_diff
+mobilenet_v2_1.0_224	4004	1611	255
+mobilenet_v2_1.0_224_quant	1001	0	0
+mobilenet_v1_1.0_224	4004	1058	255
+mobilenet_v1_1.0_224_quant	1001	0	0

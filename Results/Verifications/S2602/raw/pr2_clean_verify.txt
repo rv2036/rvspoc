@@ -1,0 +1,9 @@
+[2026-09-18T07:52:10Z] 主流水线结束，开始 #2 干净重建复验
+[2026-09-18T07:52:10Z] configure（全新构建树）
+[2026-09-18T08:00:57Z] 编译 tensorflow-lite（全量，约 30 分钟）
+[2026-09-18T09:23:24Z] 构建失败
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/Makefile2:1541: CMakeFiles/tensorflow-lite.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:1548: CMakeFiles/tensorflow-lite.dir/rule] Error 2
+gmake: *** [Makefile:182: tensorflow-lite] Error 2

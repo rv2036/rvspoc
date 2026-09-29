@@ -1,0 +1,872 @@
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(abseil-cpp) is deprecated, call
+  FetchContent_MakeAvailable(abseil-cpp) instead.  Policy CMP0169 can be set
+  to OLD to allow FetchContent_Populate(abseil-cpp) to be called directly for
+  now, but the ability to call it with declared details will be removed
+  completely in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/abseil-cpp.cmake:35 (OverridableFetchContent_Populate)
+  tools/cmake/modules/Findabsl.cmake:18 (include)
+  CMakeLists.txt:182 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(eigen) is deprecated, call
+  FetchContent_MakeAvailable(eigen) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(eigen) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/eigen.cmake:39 (OverridableFetchContent_Populate)
+  tools/cmake/modules/FindEigen3.cmake:18 (include)
+  CMakeLists.txt:183 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- 
+-- Configured Eigen 5.0.1-dev
+-- 
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(farmhash) is deprecated, call
+  FetchContent_MakeAvailable(farmhash) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(farmhash) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/farmhash.cmake:37 (OverridableFetchContent_Populate)
+  tools/cmake/modules/Findfarmhash.cmake:34 (include)
+  CMakeLists.txt:184 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1373 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:398 (FetchContent_Declare)
+  tools/cmake/modules/fft2d.cmake:22 (OverridableFetchContent_Declare)
+  tools/cmake/modules/Findfft2d.cmake:18 (include)
+  CMakeLists.txt:185 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(fft2d) is deprecated, call
+  FetchContent_MakeAvailable(fft2d) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(fft2d) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/fft2d.cmake:33 (OverridableFetchContent_Populate)
+  tools/cmake/modules/Findfft2d.cmake:18 (include)
+  CMakeLists.txt:185 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(flatbuffers) is deprecated, call
+  FetchContent_MakeAvailable(flatbuffers) instead.  Policy CMP0169 can be set
+  to OLD to allow FetchContent_Populate(flatbuffers) to be called directly
+  for now, but the ability to call it with declared details will be removed
+  completely in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/flatbuffers.cmake:37 (OverridableFetchContent_Populate)
+  tools/cmake/modules/FindFlatBuffers.cmake:18 (include)
+  CMakeLists.txt:186 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Proceeding with version: 25.9.23.0
+-- CMAKE_CXX_FLAGS: -march=rv64gcv -mabi=lp64d -I/work/s2602/tf-shared/third_party/xla/xla
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(gemmlowp) is deprecated, call
+  FetchContent_MakeAvailable(gemmlowp) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(gemmlowp) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/gemmlowp.cmake:38 (OverridableFetchContent_Populate)
+  tools/cmake/modules/Findgemmlowp.cmake:18 (include)
+  CMakeLists.txt:187 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at /work/s2602/build-pr2-gcc-14/gemmlowp/contrib/CMakeLists.txt:5 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- RISC-V Vector extension (RVV) support enabled
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(cpuinfo) is deprecated, call
+  FetchContent_MakeAvailable(cpuinfo) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(cpuinfo) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/cpuinfo.cmake:32 (OverridableFetchContent_Populate)
+  tools/cmake/modules/Findcpuinfo.cmake:16 (include)
+  CMakeLists.txt:200 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at /work/s2602/build-pr2-gcc-14/cpuinfo/CMakeLists.txt:1 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(ml_dtypes) is deprecated, call
+  FetchContent_MakeAvailable(ml_dtypes) instead.  Policy CMP0169 can be set
+  to OLD to allow FetchContent_Populate(ml_dtypes) to be called directly for
+  now, but the ability to call it with declared details will be removed
+  completely in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/ml_dtypes.cmake:39 (OverridableFetchContent_Populate)
+  tools/cmake/modules/Findml_dtypes.cmake:19 (include)
+  CMakeLists.txt:201 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(ruy) is deprecated, call
+  FetchContent_MakeAvailable(ruy) instead.  Policy CMP0169 can be set to OLD
+  to allow FetchContent_Populate(ruy) to be called directly for now, but the
+  ability to call it with declared details will be removed completely in a
+  future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/ruy.cmake:32 (OverridableFetchContent_Populate)
+  tools/cmake/modules/Findruy.cmake:16 (include)
+  CMakeLists.txt:202 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:23 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:40 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:61 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:86 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:97 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:114 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:148 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:175 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:194 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:207 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:260 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:291 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:304 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:343 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:362 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:385 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:422 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:442 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:457 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:471 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:483 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:511 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:540 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:555 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:568 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:599 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:623 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:643 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:670 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:701 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:725 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:748 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:773 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:797 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:820 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:845 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:869 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:892 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:909 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:939 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:965 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:977 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:1027 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:1053 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:1085 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:1102 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:1134 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:1155 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:1180 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:1196 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:1221 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/CMakeLists.txt:1284 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/profiler/CMakeLists.txt:17 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /work/s2602/build-pr2-gcc-14/ruy/cmake/ruy_cc_library.cmake:89 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /work/s2602/build-pr2-gcc-14/ruy/ruy/profiler/CMakeLists.txt:31 (ruy_cc_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Downloading pthreadpool to /work/s2602/build-pr2-gcc-14/pthreadpool-source (define SYSTEM_PTHREADPOOL or PTHREADPOOL_SOURCE_DIR to avoid it)
+CMake Deprecation Warning at CMakeLists.txt:16 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake:1276 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.31/Modules/ExternalProject.cmake:3041 (_ep_add_download_command)
+  CMakeLists.txt:21 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work/s2602/build-pr2-gcc-14/pthreadpool-download
+[ 11%] Creating directories for 'pthreadpool'
+[ 22%] Performing download step (download, verify and extract) for 'pthreadpool'
+-- Downloading...
+   dst='/work/s2602/build-pr2-gcc-14/pthreadpool-download/pthreadpool-prefix/src/9003ee6c137cea3b94161bd5c614fb43be523ee1.zip'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/google/pthreadpool/archive/9003ee6c137cea3b94161bd5c614fb43be523ee1.zip'
+-- verifying file...
+       file='/work/s2602/build-pr2-gcc-14/pthreadpool-download/pthreadpool-prefix/src/9003ee6c137cea3b94161bd5c614fb43be523ee1.zip'
+-- Downloading... done
+-- extracting...
+     src='/work/s2602/build-pr2-gcc-14/pthreadpool-download/pthreadpool-prefix/src/9003ee6c137cea3b94161bd5c614fb43be523ee1.zip'
+     dst='/work/s2602/build-pr2-gcc-14/pthreadpool-source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 33%] No update step for 'pthreadpool'
+[ 44%] No patch step for 'pthreadpool'
+[ 55%] No configure step for 'pthreadpool'
+[ 66%] No build step for 'pthreadpool'
+[ 77%] No install step for 'pthreadpool'
+[ 88%] No test step for 'pthreadpool'
+[100%] Completed 'pthreadpool'
+[100%] Built target pthreadpool
+CMake Deprecation Warning at /work/s2602/build-pr2-gcc-14/pthreadpool-source/CMakeLists.txt:10 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Downloading FXdiv to /work/s2602/build-pr2-gcc-14/FXdiv-source (define FXDIV_SOURCE_DIR to avoid it)
+CMake Deprecation Warning at CMakeLists.txt:10 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work/s2602/build-pr2-gcc-14/FXdiv-download
+[ 11%] Creating directories for 'fxdiv'
+[ 22%] Performing download step (git clone) for 'fxdiv'
+Cloning into 'FXdiv-source'...
+fatal: unable to access 'https://github.com/Maratyszcza/FXdiv.git/': Failed to connect to github.com port 443 after 133874 ms: Could not connect to server
+Cloning into 'FXdiv-source'...
+fatal: unable to access 'https://github.com/Maratyszcza/FXdiv.git/': GnuTLS recv error (-110): The TLS connection was non-properly terminated.
+Cloning into 'FXdiv-source'...
+Had to git clone more than once: 3 times.
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+[ 33%] Performing update step for 'fxdiv'
+-- Fetching latest from the remote origin
+[ 44%] No patch step for 'fxdiv'
+[ 55%] No configure step for 'fxdiv'
+[ 66%] No build step for 'fxdiv'
+[ 77%] No install step for 'fxdiv'
+[ 88%] No test step for 'fxdiv'
+[100%] Completed 'fxdiv'
+[100%] Built target fxdiv
+CMake Deprecation Warning at /work/s2602/build-pr2-gcc-14/FXdiv-source/CMakeLists.txt:1 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Downloading FP16 to /work/s2602/build-pr2-gcc-14/FP16-source (define FP16_SOURCE_DIR to avoid it)
+CMake Deprecation Warning at CMakeLists.txt:16 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work/s2602/build-pr2-gcc-14/FP16-download
+[ 11%] Creating directories for 'fp16'
+[ 22%] Performing download step (download, verify and extract) for 'fp16'
+-- Downloading...
+   dst='/work/s2602/build-pr2-gcc-14/FP16-download/fp16-prefix/src/0a92994d729ff76a58f692d3028ca1b64b145d91.zip'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/Maratyszcza/FP16/archive/0a92994d729ff76a58f692d3028ca1b64b145d91.zip'
+-- [download 11% complete]
+-- [download 17% complete]
+-- [download 35% complete]
+-- [download 36% complete]
+-- [download 41% complete]
+-- [download 53% complete]
+-- [download 71% complete]
+-- [download 84% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/work/s2602/build-pr2-gcc-14/FP16-download/fp16-prefix/src/0a92994d729ff76a58f692d3028ca1b64b145d91.zip'
+-- Downloading... done
+-- extracting...
+     src='/work/s2602/build-pr2-gcc-14/FP16-download/fp16-prefix/src/0a92994d729ff76a58f692d3028ca1b64b145d91.zip'
+     dst='/work/s2602/build-pr2-gcc-14/FP16-source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 33%] No update step for 'fp16'
+[ 44%] No patch step for 'fp16'
+[ 55%] No configure step for 'fp16'
+[ 66%] No build step for 'fp16'
+[ 77%] No install step for 'fp16'
+[ 88%] No test step for 'fp16'
+[100%] Completed 'fp16'
+[100%] Built target fp16
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(xnnpack) is deprecated, call
+  FetchContent_MakeAvailable(xnnpack) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(xnnpack) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/xnnpack.cmake:33 (OverridableFetchContent_Populate)
+  tools/cmake/modules/FindXNNPACK.cmake:16 (include)
+  CMakeLists.txt:544 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/gcc-14
+-- Building for XNNPACK_TARGET_PROCESSOR: riscv64
+-- Generating microkernels.cmake
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(googletest) is deprecated, call
+  FetchContent_MakeAvailable(googletest) instead.  Policy CMP0169 can be set
+  to OLD to allow FetchContent_Populate(googletest) to be called directly for
+  now, but the ability to call it with declared details will be removed
+  completely in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/Findgoogletest.cmake:32 (OverridableFetchContent_Populate)
+  kernels/CMakeLists.txt:16 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at /work/s2602/build-pr2-gcc-14/googletest/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at /work/s2602/build-pr2-gcc-14/googletest/googlemock/CMakeLists.txt:39 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at /work/s2602/build-pr2-gcc-14/googletest/googletest/CMakeLists.txt:49 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(google_benchmark) is deprecated, call
+  FetchContent_MakeAvailable(google_benchmark) instead.  Policy CMP0169 can
+  be set to OLD to allow FetchContent_Populate(google_benchmark) to be called
+  directly for now, but the ability to call it with declared details will be
+  removed completely in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/Findgoogle_benchmark.cmake:32 (OverridableFetchContent_Populate)
+  kernels/CMakeLists.txt:17 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at /work/s2602/build-pr2-gcc-14/google_benchmark/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- git version: v1.7.0 normalized to 1.7.0
+-- Version: 1.7.0
+-- Performing Test HAVE_STD_REGEX -- success
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK -- success
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(re2) is deprecated, call
+  FetchContent_MakeAvailable(re2) instead.  Policy CMP0169 can be set to OLD
+  to allow FetchContent_Populate(re2) to be called directly for now, but the
+  ability to call it with declared details will be removed completely in a
+  future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/Findre2.cmake:32 (OverridableFetchContent_Populate)
+  kernels/CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at /work/s2602/build-pr2-gcc-14/re2/CMakeLists.txt:6 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Warning (dev) at /usr/share/cmake-3.31/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(protobuf) is deprecated, call
+  FetchContent_MakeAvailable(protobuf) instead.  Policy CMP0169 can be set to
+  OLD to allow FetchContent_Populate(protobuf) to be called directly for now,
+  but the ability to call it with declared details will be removed completely
+  in a future version.
+Call Stack (most recent call first):
+  tools/cmake/modules/OverridableFetchContent.cmake:537 (FetchContent_Populate)
+  tools/cmake/modules/protobuf.cmake:37 (OverridableFetchContent_Populate)
+  tools/cmake/modules/FindProtobuf.cmake:16 (include)
+  profiling/proto/CMakeLists.txt:15 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at /work/s2602/build-pr2-gcc-14/protobuf/CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- 
+-- 3.21.9.0
+-- Configuring done (373.4s)
+-- Generating done (13.2s)
+-- Build files have been written to: /work/s2602/build-pr2-gcc-14

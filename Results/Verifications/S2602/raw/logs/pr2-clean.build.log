@@ -1,0 +1,616 @@
+[  0%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_strerror.dir/internal/strerror.cc.o
+[  0%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_fixed.cc.o
+[  0%] Building CXX object _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o
+[  0%] Building CXX object _deps/ruy-build/ruy/profiler/CMakeFiles/ruy_profiler_instrumentation.dir/instrumentation.cc.o
+[  0%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_log_severity.dir/log_severity.cc.o
+[  0%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_spinlock_wait.dir/internal/spinlock_wait.cc.o
+[  0%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/internal/utf8_for_code_point.cc.o
+[  0%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_civil_time.dir/internal/cctz/src/civil_time_detail.cc.o
+[  0%] Linking CXX static library libruy_profiler_instrumentation.a
+[  0%] Built target ruy_profiler_instrumentation
+[  0%] Linking CXX static library libabsl_utf8_for_code_point.a
+[  0%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.o
+[  0%] Built target absl_utf8_for_code_point
+[  0%] Linking CXX static library libabsl_leak_check.a
+[  0%] Building CXX object _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_commandlineflag_internal.dir/internal/commandlineflag.cc.o
+[  0%] Built target absl_leak_check
+[  1%] Linking CXX static library libabsl_spinlock_wait.a
+[  1%] Building CXX object _deps/farmhash-build/CMakeFiles/farmhash.dir/__/__/farmhash/src/farmhash.cc.o
+[  1%] Linking CXX static library libabsl_flags_commandlineflag_internal.a
+[  1%] Built target absl_spinlock_wait
+[  1%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_format.cc.o
+[  1%] Built target absl_flags_commandlineflag_internal
+[  1%] Building C object _deps/fft2d-build/CMakeFiles/fft2d_fftsg.dir/__/__/fft2d/fftsg.c.o
+[  1%] Linking CXX static library libabsl_strerror.a
+[  1%] Built target absl_strerror
+[  1%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_if.cc.o
+[  1%] Linking CXX static library libabsl_log_severity.a
+[  1%] Built target absl_log_severity
+[  1%] Building CXX object _deps/flatbuffers-build/CMakeFiles/flatbuffers.dir/src/idl_parser.cpp.o
+[  1%] Linking CXX static library libabsl_exponential_biased.a
+[  1%] Built target absl_exponential_biased
+[  1%] Building CXX object _deps/gemmlowp-build/CMakeFiles/eight_bit_int_gemm.dir/__/__/gemmlowp/eight_bit_int_gemm/eight_bit_int_gemm.cc.o
+[  3%] Linking CXX static library libfarmhash.a
+[  3%] Built target farmhash
+[  5%] Linking CXX static library libabsl_civil_time.a
+[  5%] Building C object _deps/cpuinfo-build/CMakeFiles/cpuinfo.dir/src/api.c.o
+[  5%] Built target absl_civil_time
+[  5%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_wait.dir/wait.cc.o
+[  5%] Building C object _deps/cpuinfo-build/CMakeFiles/cpuinfo.dir/src/cache.c.o
+[  5%] Building C object _deps/cpuinfo-build/CMakeFiles/cpuinfo.dir/src/init.c.o
+[  5%] Building C object _deps/cpuinfo-build/CMakeFiles/cpuinfo.dir/src/log.c.o
+[  5%] Building C object _deps/cpuinfo-build/CMakeFiles/cpuinfo.dir/src/riscv/uarch.c.o
+[  7%] Building C object _deps/cpuinfo-build/CMakeFiles/cpuinfo.dir/src/riscv/linux/init.c.o
+[  7%] Linking CXX static library libruy_wait.a
+[  7%] Built target ruy_wait
+[  7%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_system_aligned_alloc.dir/system_aligned_alloc.cc.o
+[  8%] Linking CXX static library libruy_system_aligned_alloc.a
+[  8%] Built target ruy_system_aligned_alloc
+[  8%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_block_map.dir/block_map.cc.o
+[  8%] Building C object _deps/cpuinfo-build/CMakeFiles/cpuinfo.dir/src/riscv/linux/riscv-hw.c.o
+[  8%] Building C object _deps/cpuinfo-build/CMakeFiles/cpuinfo.dir/src/riscv/linux/riscv-isa.c.o
+[  8%] Building C object _deps/cpuinfo-build/CMakeFiles/cpuinfo.dir/src/linux/smallfile.c.o
+[  8%] Building C object _deps/cpuinfo-build/CMakeFiles/cpuinfo.dir/src/linux/multiline.c.o
+[  8%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_impl.cc.o
+[  8%] Building C object _deps/cpuinfo-build/CMakeFiles/cpuinfo.dir/src/linux/cpulist.c.o
+[  8%] Building C object _deps/cpuinfo-build/CMakeFiles/cpuinfo.dir/src/linux/processors.c.o
+[  8%] Linking CXX static library libruy_block_map.a
+[  8%] Linking C static library libfft2d_fftsg.a
+[  8%] Built target ruy_block_map
+[  8%] Built target fft2d_fftsg
+[  8%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_blocking_counter.dir/blocking_counter.cc.o
+[ 10%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_denormal.dir/denormal.cc.o
+[ 10%] Linking C static library libcpuinfo.a
+[ 10%] Linking CXX static library libruy_denormal.a
+[ 10%] Built target cpuinfo
+[ 10%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_apply_multiplier.dir/apply_multiplier.cc.o
+[ 10%] Built target ruy_denormal
+[ 10%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_have_built_path_for_avx512.dir/have_built_path_for_avx512.cc.o
+[ 12%] Linking CXX static library libruy_have_built_path_for_avx512.a
+[ 12%] Built target ruy_have_built_path_for_avx512
+[ 12%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_have_built_path_for_avx2_fma.dir/have_built_path_for_avx2_fma.cc.o
+[ 12%] Linking CXX static library libruy_have_built_path_for_avx2_fma.a
+[ 12%] Built target ruy_have_built_path_for_avx2_fma
+[ 12%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_have_built_path_for_avx.dir/have_built_path_for_avx.cc.o
+[ 12%] Linking CXX static library libruy_have_built_path_for_avx.a
+[ 12%] Linking CXX static library libruy_apply_multiplier.a
+[ 12%] Built target ruy_have_built_path_for_avx
+[ 12%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o
+[ 12%] Built target ruy_apply_multiplier
+[ 14%] Building C object _deps/fft2d-build/CMakeFiles/fft2d_fftsg2d.dir/__/__/fft2d/fftsg2d.c.o
+[ 16%] Linking CXX static library libruy_blocking_counter.a
+[ 16%] Built target ruy_blocking_counter
+[ 16%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_prepacked_cache.dir/prepacked_cache.cc.o
+[ 16%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_cpuinfo.dir/cpuinfo.cc.o
+[ 16%] Linking C static library libfft2d_fftsg2d.a
+[ 16%] Built target fft2d_fftsg2d
+[ 16%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_allocator.dir/allocator.cc.o
+[ 16%] Linking CXX static library libruy_cpuinfo.a
+[ 16%] Built target ruy_cpuinfo
+[ 16%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_thread_pool.dir/thread_pool.cc.o
+[ 16%] Linking CXX static library libabsl_raw_logging_internal.a
+[ 16%] Built target absl_raw_logging_internal
+[ 16%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_tune.dir/tune.cc.o
+[ 16%] Linking CXX static library libruy_allocator.a
+[ 17%] Linking CXX static library libruy_prepacked_cache.a
+[ 17%] Built target ruy_allocator
+[ 17%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/casts.cc.o
+[ 17%] Built target ruy_prepacked_cache
+[ 17%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o
+[ 17%] Linking CXX static library libruy_tune.a
+[ 17%] Built target ruy_tune
+[ 17%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.o
+[ 17%] Linking CXX static library libruy_thread_pool.a
+[ 17%] Built target ruy_thread_pool
+[ 17%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.o
+[ 17%] Linking CXX static library libabsl_throw_delegate.a
+[ 17%] Built target absl_throw_delegate
+[ 17%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/internal/cordz_functions.cc.o
+[ 17%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/cycleclock.cc.o
+[ 17%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/spinlock.cc.o
+[ 17%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.o
+[ 17%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_info.cc.o
+[ 17%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_libc.cc.o
+[ 17%] Linking CXX static library libabsl_cordz_functions.a
+[ 17%] Built target absl_cordz_functions
+[ 17%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_kernel_arm.dir/kernel_arm32.cc.o
+[ 17%] Linking CXX static library libabsl_debugging_internal.a
+[ 17%] Built target absl_debugging_internal
+[ 19%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_pack_arm.dir/pack_arm.cc.o
+In file included from /work/s2602/build-pr2-clean/ruy/ruy/pack_arm.cc:16:
+/work/s2602/build-pr2-clean/ruy/ruy/pack_arm.h:492:9: warning: multi-line comment [-Wcomment]
+  492 | #endif  // (RUY_PLATFORM_NEON_64 || RUY_PLATFORM_NEON_32) && \
+      |         ^
+[ 21%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/sysinfo.cc.o
+[ 21%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_kernel_arm.dir/kernel_arm64.cc.o
+[ 21%] Linking CXX static library libruy_pack_arm.a
+[ 21%] Built target ruy_pack_arm
+[ 21%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_kernel_avx512.dir/kernel_avx512.cc.o
+[ 21%] Linking CXX static library libruy_kernel_arm.a
+[ 21%] Built target ruy_kernel_arm
+[ 21%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_pack_avx512.dir/pack_avx512.cc.o
+[ 21%] Linking CXX static library libruy_kernel_avx512.a
+[ 21%] Built target ruy_kernel_avx512
+[ 21%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_kernel_avx2_fma.dir/kernel_avx2_fma.cc.o
+[ 21%] Linking CXX static library libruy_pack_avx512.a
+[ 21%] Built target ruy_pack_avx512
+[ 21%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_pack_avx2_fma.dir/pack_avx2_fma.cc.o
+[ 21%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/thread_identity.cc.o
+[ 21%] Linking CXX static library libruy_kernel_avx2_fma.a
+[ 21%] Built target ruy_kernel_avx2_fma
+[ 21%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_kernel_avx.dir/kernel_avx.cc.o
+[ 21%] Linking CXX static library libruy_pack_avx2_fma.a
+[ 21%] Built target ruy_pack_avx2_fma
+[ 21%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_pack_avx.dir/pack_avx.cc.o
+[ 21%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/unscaledcycleclock.cc.o
+[ 21%] Linking CXX static library libruy_kernel_avx.a
+[ 23%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_lookup.cc.o
+[ 23%] Built target ruy_kernel_avx
+[ 23%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_ctx.dir/ctx.cc.o
+[ 23%] Linking CXX static library libruy_pack_avx.a
+[ 23%] Built target ruy_pack_avx
+[ 23%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_posix.cc.o
+[ 23%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/zone_info_source.cc.o
+[ 23%] Linking CXX static library libabsl_base.a
+[ 23%] Linking CXX static library libruy_ctx.a
+[ 23%] Built target absl_base
+[ 23%] Built target ruy_ctx
+[ 23%] Building CXX object _deps/flatbuffers-build/CMakeFiles/flatbuffers.dir/src/idl_gen_text.cpp.o
+[ 23%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o
+[ 23%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_tracing_internal.dir/internal/tracing.cc.o
+[ 23%] Linking CXX static library libabsl_tracing_internal.a
+[ 23%] Built target absl_tracing_internal
+[ 23%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/ostringstream.cc.o
+[ 23%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/utf8.cc.o
+[ 23%] Building CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_city.dir/internal/city.cc.o
+[ 23%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/escaping.cc.o
+[ 23%] Building CXX object _deps/flatbuffers-build/CMakeFiles/flatbuffers.dir/src/reflection.cpp.o
+[ 23%] Linking CXX static library libabsl_malloc_internal.a
+[ 23%] Built target absl_malloc_internal
+[ 23%] Building CXX object _deps/abseil-cpp-build/absl/numeric/CMakeFiles/absl_int128.dir/int128.cc.o
+[ 23%] Linking CXX static library libabsl_time_zone.a
+[ 23%] Built target absl_time_zone
+[ 23%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/internal/decode_rust_punycode.cc.o
+[ 23%] Linking CXX static library libabsl_city.a
+[ 23%] Built target absl_city
+[ 23%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o
+[ 23%] Linking CXX static library libabsl_strings_internal.a
+[ 23%] Built target absl_strings_internal
+[ 25%] Building CXX object _deps/flatbuffers-build/CMakeFiles/flatbuffers.dir/src/util.cpp.o
+[ 25%] Linking CXX static library libabsl_decode_rust_punycode.a
+[ 25%] Built target absl_decode_rust_punycode
+[ 25%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o
+[ 25%] Linking CXX static library libabsl_int128.a
+[ 25%] Built target absl_int128
+[ 25%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_context.dir/context.cc.o
+[ 25%] Linking CXX static library libabsl_crc_cpu_detect.a
+[ 25%] Built target absl_crc_cpu_detect
+[ 25%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_trmul.dir/trmul.cc.o
+[ 25%] Linking CXX static library libabsl_graphcycles_internal.a
+[ 25%] Built target absl_graphcycles_internal
+[ 25%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_prepare_packed_matrices.dir/prepare_packed_matrices.cc.o
+[ 25%] Linking CXX static library libruy_context.a
+[ 25%] Built target ruy_context
+[ 25%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/ascii.cc.o
+In file included from /usr/include/c++/14/algorithm:60,
+                 from /work/s2602/build-pr2-clean/flatbuffers/include/flatbuffers/flatbuffers.h:20,
+                 from /work/s2602/build-pr2-clean/flatbuffers/include/flatbuffers/reflection_generated.h:7,
+                 from /work/s2602/build-pr2-clean/flatbuffers/include/flatbuffers/reflection.h:25,
+                 from /work/s2602/build-pr2-clean/flatbuffers/src/reflection.cpp:17:
+In static member function ‘static constexpr _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(_Tp*, _Tp*, _Up*) [with _Tp = const unsigned char; _Up = unsigned char; bool _IsMove = false]’,
+    inlined from ‘constexpr _OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = const unsigned char*; _OI = unsigned char*]’ at /usr/include/c++/14/bits/stl_algobase.h:521:30,
+    inlined from ‘constexpr _OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = const unsigned char*; _OI = unsigned char*]’ at /usr/include/c++/14/bits/stl_algobase.h:548:42,
+    inlined from ‘constexpr _OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = const unsigned char*; _OI = unsigned char*]’ at /usr/include/c++/14/bits/stl_algobase.h:555:31,
+    inlined from ‘constexpr _OI std::copy(_II, _II, _OI) [with _II = const unsigned char*; _OI = unsigned char*]’ at /usr/include/c++/14/bits/stl_algobase.h:651:7,
+    inlined from ‘static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const unsigned char*; _ForwardIterator = unsigned char*]’ at /usr/include/c++/14/bits/stl_uninitialized.h:147:27,
+    inlined from ‘_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = const unsigned char*; _ForwardIterator = unsigned char*]’ at /usr/include/c++/14/bits/stl_uninitialized.h:185:15,
+    inlined from ‘constexpr _ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, allocator<_Tp>&) [with _InputIterator = const unsigned char*; _ForwardIterator = unsigned char*; _Tp = unsigned char]’ at /usr/include/c++/14/bits/stl_uninitialized.h:373:37,
+    inlined from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_insert(iterator, _ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = const unsigned char*; _Tp = unsigned char; _Alloc = std::allocator<unsigned char>]’ at /usr/include/c++/14/bits/vector.tcc:1022:38,
+    inlined from ‘constexpr std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(const_iterator, _InputIterator, _InputIterator) [with _InputIterator = const unsigned char*; <template-parameter-2-2> = void; _Tp = unsigned char; _Alloc = std::allocator<unsigned char>]’ at /usr/include/c++/14/bits/stl_vector.h:1488:19,
+    inlined from ‘const uint8_t* flatbuffers::AddFlatBuffer(std::vector<unsigned char>&, const uint8_t*, size_t)’ at /work/s2602/build-pr2-clean/flatbuffers/src/reflection.cpp:649:17:
+/usr/include/c++/14/bits/stl_algobase.h:452:30: warning: ‘void* __builtin_memcpy(void*, const void*, long unsigned int)’ writing between 2 and 9223372036854775807 bytes into a region of size 0 overflows the destination [-Wstringop-overflow=]
+  452 |             __builtin_memmove(__result, __first, sizeof(_Tp) * _Num);
+      |             ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/riscv64-linux-gnu/c++/14/bits/c++allocator.h:33,
+                 from /usr/include/c++/14/bits/allocator.h:46,
+                 from /usr/include/c++/14/memory:65,
+                 from /work/s2602/build-pr2-clean/flatbuffers/include/flatbuffers/array.h:21,
+                 from /work/s2602/build-pr2-clean/flatbuffers/include/flatbuffers/flatbuffers.h:24:
+In member function ‘_Tp* std::__new_allocator<_Tp>::allocate(size_type, const void*) [with _Tp = unsigned char]’,
+    inlined from ‘constexpr _Tp* std::allocator< <template-parameter-1-1> >::allocate(std::size_t) [with _Tp = unsigned char]’ at /usr/include/c++/14/bits/allocator.h:196:40,
+    inlined from ‘static constexpr _Tp* std::allocator_traits<std::allocator<_Up> >::allocate(allocator_type&, size_type) [with _Tp = unsigned char]’ at /usr/include/c++/14/bits/alloc_traits.h:515:28,
+    inlined from ‘constexpr std::_Vector_base<_Tp, _Alloc>::pointer std::_Vector_base<_Tp, _Alloc>::_M_allocate(std::size_t) [with _Tp = unsigned char; _Alloc = std::allocator<unsigned char>]’ at /usr/include/c++/14/bits/stl_vector.h:380:33,
+    inlined from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_insert(iterator, _ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = const unsigned char*; _Tp = unsigned char; _Alloc = std::allocator<unsigned char>]’ at /usr/include/c++/14/bits/vector.tcc:1013:40,
+    inlined from ‘constexpr std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(const_iterator, _InputIterator, _InputIterator) [with _InputIterator = const unsigned char*; <template-parameter-2-2> = void; _Tp = unsigned char; _Alloc = std::allocator<unsigned char>]’ at /usr/include/c++/14/bits/stl_vector.h:1488:19,
+    inlined from ‘const uint8_t* flatbuffers::AddFlatBuffer(std::vector<unsigned char>&, const uint8_t*, size_t)’ at /work/s2602/build-pr2-clean/flatbuffers/src/reflection.cpp:649:17:
+/usr/include/c++/14/bits/new_allocator.h:151:55: note: at offset [-9223372036854775808, -4] into destination object of size [4, 9223372036854775807] allocated by ‘operator new’
+  151 |         return static_cast<_Tp*>(_GLIBCXX_OPERATOR_NEW(__n * sizeof(_Tp)));
+      |                                                       ^
+[ 25%] Linking CXX static library libruy_trmul.a
+[ 25%] Built target ruy_trmul
+[ 25%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_rust.dir/internal/demangle_rust.cc.o
+[ 25%] Linking CXX static library libruy_prepare_packed_matrices.a
+[ 25%] Built target ruy_prepare_packed_matrices
+[ 26%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/internal/crc.cc.o
+[ 26%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/internal/crc_x86_arm_combined.cc.o
+[ 28%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/charconv.cc.o
+[ 28%] Linking CXX static library libabsl_demangle_rust.a
+[ 28%] Built target absl_demangle_rust
+[ 28%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/escaping.cc.o
+[ 28%] Linking CXX static library libabsl_crc_internal.a
+[ 28%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_context_get_ctx.dir/context_get_ctx.cc.o
+[ 28%] Built target absl_crc_internal
+[ 28%] Building CXX object _deps/ruy-build/ruy/CMakeFiles/ruy_frontend.dir/frontend.cc.o
+[ 28%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_bigint.cc.o
+[ 28%] Linking CXX static library libruy_context_get_ctx.a
+[ 28%] Built target ruy_context_get_ctx
+[ 28%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o
+[ 28%] Linking CXX static library libruy_frontend.a
+[ 28%] Built target ruy_frontend
+[ 28%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_parse.cc.o
+[ 28%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/damerau_levenshtein_distance.cc.o
+[ 28%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/memutil.cc.o
+[ 28%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/stringify_sink.cc.o
+[ 28%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/match.cc.o
+[ 28%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/numbers.cc.o
+[ 30%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_cat.cc.o
+[ 30%] Linking CXX static library libeight_bit_int_gemm.a
+[ 30%] Built target eight_bit_int_gemm
+[ 30%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_replace.cc.o
+[ 30%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_split.cc.o
+[ 30%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/substitute.cc.o
+[ 32%] Linking CXX static library libabsl_demangle_internal.a
+[ 32%] Built target absl_demangle_internal
+[ 32%] Linking CXX static library libabsl_strings.a
+[ 32%] Built target absl_strings
+[ 33%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/duration.cc.o
+[ 35%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/arg.cc.o
+[ 32%] Building CXX object _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_commandlineflag.dir/commandlineflag.cc.o
+[ 35%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o
+[ 35%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/clock.cc.o
+[ 35%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.o
+[ 37%] Building CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/internal/hash.cc.o
+[ 37%] Linking CXX static library libabsl_flags_commandlineflag.a
+[ 37%] Built target absl_flags_commandlineflag
+[ 37%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/bind.cc.o
+[ 39%] Linking CXX static library libabsl_symbolize.a
+[ 39%] Built target absl_symbolize
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/extension.cc.o
+[ 39%] Linking CXX static library libabsl_hash.a
+[ 39%] Built target absl_hash
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/float_conversion.cc.o
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/format.cc.o
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/output.cc.o
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/parser.cc.o
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/time.cc.o
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_private_handle_accessor.dir/internal/private_handle_accessor.cc.o
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_borrowed_fixup_buffer.dir/internal/borrowed_fixup_buffer.cc.o
+[ 39%] Linking CXX static library libabsl_flags_private_handle_accessor.a
+[ 39%] Built target absl_flags_private_handle_accessor
+[ 39%] Linking CXX static library libabsl_borrowed_fixup_buffer.a
+[ 39%] Built target absl_borrowed_fixup_buffer
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o
+[ 39%] Linking CXX static library libabsl_str_format_internal.a
+[ 39%] Built target absl_str_format_internal
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o
+[ 41%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.o
+[ 41%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o
+[ 41%] Building CXX object _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_marshalling.dir/marshalling.cc.o
+[ 41%] Linking CXX static library libflatbuffers.a
+[ 41%] Built target flatbuffers
+[ 41%] Linking CXX static library libabsl_time.a
+[ 41%] Built target absl_time
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.o
+[ 42%] Linking CXX static library libabsl_stacktrace.a
+[ 42%] Built target absl_stacktrace
+[ 42%] Linking CXX static library libabsl_crc32c.a
+[ 42%] Built target absl_crc32c
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cord_state.dir/internal/crc_cord_state.cc.o
+[ 42%] Linking CXX static library libabsl_flags_marshalling.a
+[ 42%] Built target absl_flags_marshalling
+[ 42%] Linking CXX static library libabsl_kernel_timeout_internal.a
+[ 42%] Built target absl_kernel_timeout_internal
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/pthread_waiter.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/futex_waiter.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/sem_waiter.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.o
+[ 42%] Linking CXX static library libabsl_crc_cord_state.a
+[ 42%] Built target absl_crc_cord_state
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/stdcpp_waiter.cc.o
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter_base.cc.o
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/win32_waiter.cc.o
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.o
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.o
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_internal.cc.o
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree.cc.o
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_navigator.cc.o
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_reader.cc.o
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_crc.cc.o
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_consume.cc.o
+[ 44%] Linking CXX static library libabsl_synchronization.a
+[ 44%] Built target absl_synchronization
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_program_name.dir/internal/program_name.cc.o
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_handle.dir/internal/cordz_handle.cc.o
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.o
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.o
+[ 46%] Linking CXX static library libabsl_cord_internal.a
+[ 46%] Built target absl_cord_internal
+[ 46%] Linking CXX static library libabsl_flags_program_name.a
+[ 46%] Built target absl_flags_program_name
+[ 46%] Building CXX object _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.o
+[ 46%] Linking CXX static library libabsl_cordz_handle.a
+[ 46%] Built target absl_cordz_handle
+[ 46%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o
+[ 46%] Linking CXX static library libabsl_hashtablez_sampler.a
+[ 46%] Built target absl_hashtablez_sampler
+[ 46%] Linking CXX static library libabsl_flags_config.a
+[ 46%] Built target absl_flags_config
+[ 46%] Building CXX object _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_internal.dir/internal/flag.cc.o
+[ 46%] Linking CXX static library libabsl_cordz_info.a
+[ 46%] Built target absl_cordz_info
+[ 46%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/cord.cc.o
+[ 46%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/cord_analysis.cc.o
+[ 48%] Linking CXX static library libabsl_flags_internal.a
+[ 48%] Built target absl_flags_internal
+[ 48%] Linking CXX static library libabsl_cord.a
+[ 48%] Built target absl_cord
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/internal/status_internal.cc.o
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.o
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.o
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/status.cc.o
+[ 48%] Linking CXX static library libabsl_status.a
+[ 48%] Built target absl_status
+[ 48%] Linking CXX static library libabsl_raw_hash_set.a
+[ 48%] Built target absl_raw_hash_set
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_reflection.dir/reflection.cc.o
+[ 50%] Linking CXX static library libabsl_flags_reflection.a
+[ 50%] Built target absl_flags_reflection
+[ 50%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/api/flatbuffer_conversions.cc.o
+[ 50%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/api/tensor_utils.cc.o
+[ 50%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/async/c/async_kernel.cc.o
+[ 50%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/async/c/async_signature_runner.cc.o
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/acceleration/configuration/delegate_registry.cc.o
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/acceleration/configuration/stable_delegate_registry.cc.o
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/acceleration/configuration/nnapi_plugin.cc.o
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/api/op_resolver.cc.o
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/async/c/task.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/async/interop/c/attribute_map.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/async/interop/c/constants.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/async/interop/c/types.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/async/interop/attribute_map_internal.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/async/interop/reconcile_fns.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/async/interop/variant.cc.o
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/core/async/interop/variant.cc: In member function ‘bool tflite::interop::Variant::operator==(const tflite::interop::Variant&) const’:
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/core/async/interop/variant.cc:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+   42 | }
+      | ^
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/async/async_signature_runner.cc.o
+In file included from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/core/acceleration/configuration/nnapi_plugin.cc:18:
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/core/acceleration/configuration/nnapi_plugin.h: In constructor ‘tflite::delegates::NnapiPlugin::NnapiPlugin(const tflite::TFLiteSettings&)’:
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/core/acceleration/configuration/nnapi_plugin.h:76:51: warning: ‘SizeT flatbuffers::Vector<T, SizeT>::Length() const [with T = char; SizeT = unsigned int]’ is deprecated: use size() instead [-Wdeprecated-declarations]
+   76 |         nnapi_settings->accelerator_name()->Length() != 0) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /work/s2602/build-pr2-clean/flatbuffers/include/flatbuffers/array.h:25,
+                 from /work/s2602/build-pr2-clean/flatbuffers/include/flatbuffers/flatbuffers.h:24,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/acceleration/configuration/configuration_generated.h:21,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/core/acceleration/configuration/nnapi_plugin.h:33:
+/work/s2602/build-pr2-clean/flatbuffers/include/flatbuffers/vector.h:186:9: note: declared here
+  186 |   SizeT Length() const { return size(); }
+      |         ^~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/core/acceleration/configuration/nnapi_plugin.h: In member function ‘void tflite::delegates::NnapiPlugin::SetCompilationCacheDir(const tflite::TFLiteSettings&)’:
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/core/acceleration/configuration/nnapi_plugin.h:105:76: warning: ‘SizeT flatbuffers::Vector<T, SizeT>::Length() const [with T = char; SizeT = unsigned int]’ is deprecated: use size() instead [-Wdeprecated-declarations]
+  105 |         tflite_settings.compilation_caching_settings()->cache_dir()->Length() !=
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr2-clean/flatbuffers/include/flatbuffers/vector.h:186:9: note: declared here
+  186 |   SizeT Length() const { return size(); }
+      |         ^~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/core/acceleration/configuration/nnapi_plugin.h:112:75: warning: ‘SizeT flatbuffers::Vector<T, SizeT>::Length() const [with T = char; SizeT = unsigned int]’ is deprecated: use size() instead [-Wdeprecated-declarations]
+  112 |                tflite_settings.nnapi_settings()->cache_directory()->Length() !=
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr2-clean/flatbuffers/include/flatbuffers/vector.h:186:9: note: declared here
+  186 |   SizeT Length() const { return size(); }
+      |         ^~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/core/acceleration/configuration/nnapi_plugin.h: In member function ‘void tflite::delegates::NnapiPlugin::SetModelToken(const tflite::TFLiteSettings&)’:
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/core/acceleration/configuration/nnapi_plugin.h:124:25: warning: ‘SizeT flatbuffers::Vector<T, SizeT>::Length() const [with T = char; SizeT = unsigned int]’ is deprecated: use size() instead [-Wdeprecated-declarations]
+  122 |         tflite_settings.compilation_caching_settings()
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  123 |                 ->model_token()
+      |                 ~~~~~~~~~~~~~~~
+  124 |                 ->Length() != 0) {
+      |                 ~~~~~~~~^~
+/work/s2602/build-pr2-clean/flatbuffers/include/flatbuffers/vector.h:186:9: note: declared here
+  186 |   SizeT Length() const { return size(); }
+      |         ^~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/core/acceleration/configuration/nnapi_plugin.h:129:71: warning: ‘SizeT flatbuffers::Vector<T, SizeT>::Length() const [with T = char; SizeT = unsigned int]’ is deprecated: use size() instead [-Wdeprecated-declarations]
+  129 |                tflite_settings.nnapi_settings()->model_token()->Length() != 0) {
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr2-clean/flatbuffers/include/flatbuffers/vector.h:186:9: note: declared here
+  186 |   SizeT Length() const { return size(); }
+      |         ^~~~~~
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/async/async_subgraph.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/async/task_internal.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/c/c_api.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/c/c_api_experimental.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/c/c_api_opaque.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/c/common.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/c/operator.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/kernels/register.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/create_op_resolver_with_builtin_ops.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/interpreter.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/interpreter_builder.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/interpreter_experimental.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/model_building.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/signature_runner.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/subgraph.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/tools/verifier.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/core/tools/verifier_internal.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/c/c_api_for_testing.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/c/c_api_opaque_internal.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/c/common_internal.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/delegates/external/external_delegate.cc.o
+[ 58%] Building CXX object CMakeFiles/tensorflow-lite.dir/delegates/nnapi/nnapi_delegate_disabled.cc.o
+[ 58%] Building CXX object CMakeFiles/tensorflow-lite.dir/delegates/interpreter_utils.cc.o
+[ 58%] Building CXX object CMakeFiles/tensorflow-lite.dir/delegates/serialization.cc.o
+[ 58%] Building CXX object CMakeFiles/tensorflow-lite.dir/delegates/telemetry.cc.o
+[ 58%] Building CXX object CMakeFiles/tensorflow-lite.dir/delegates/utils.cc.o
+[ 58%] Building CXX object CMakeFiles/tensorflow-lite.dir/experimental/resource/cache_buffer.cc.o
+[ 58%] Building CXX object CMakeFiles/tensorflow-lite.dir/experimental/resource/initialization_status.cc.o
+[ 58%] Building CXX object CMakeFiles/tensorflow-lite.dir/experimental/resource/resource_variable.cc.o
+[ 58%] Building CXX object CMakeFiles/tensorflow-lite.dir/experimental/resource/static_hashtable.cc.o
+[ 58%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/optimized/4bit/fully_connected_reference.cc.o
+[ 60%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/optimized/cpu_check.cc.o
+[ 60%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/optimized/neon_tensor_utils.cc.o
+[ 60%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/optimized/rvv_tensor_utils.cc.o
+[ 60%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/optimized/sse_tensor_utils.cc.o
+[ 60%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/reference/comparisons.cc.o
+[ 60%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/reference/portable_tensor_utils.cc.o
+[ 60%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/common.cc.o
+[ 60%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/kernel_utils.cc.o
+[ 60%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/mfcc.cc.o
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/mfcc_dct.cc.o
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/mfcc_mel_filterbank.cc.o
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/opaque_tensor_ctypes.cc.o
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/portable_tensor_utils.cc.o
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/quantization_util.cc.o
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/runtime_shape.cc.o
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/spectrogram.cc.o
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/tensor_ctypes.cc.o
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/tensor_utils.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/transpose_utils.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/activations.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/add.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/add_n.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/arg_min_max.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/assign_variable.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/atan2.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/atan2_custom.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/audio_spectrogram.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/basic_rnn.cc.o
+[ 66%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/batch_matmul.cc.o
+[ 66%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/batch_to_space_nd.cc.o
+[ 66%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/bidirectional_sequence_lstm.cc.o
+In file included from /work/s2602/build-pr2-clean/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:45,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/integer_ops/add.h:28,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/kernels/add.cc:15:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3661:62:   required from here
+ 3661 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr2-clean/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:45,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/kernels/arg_min_max.cc:24:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3661:62:   required from here
+ 3661 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr2-clean/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:45,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/integer_ops/lut.h:24,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/kernels/activations.cc:30:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3661:62:   required from here
+ 3661 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+g++-14: fatal error: Killed signal terminated program cc1plus
+compilation terminated.
+gmake[3]: *** [CMakeFiles/tensorflow-lite.dir/build.make:1017: CMakeFiles/tensorflow-lite.dir/kernels/add.cc.o] Error 1
+gmake[3]: *** Waiting for unfinished jobs....
+In file included from /work/s2602/build-pr2-clean/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:45,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/kernels/add_n.cc:21:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3661:62:   required from here
+ 3661 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr2-clean/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:45,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/kernels/audio_spectrogram.cc:24:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3661:62:   required from here
+ 3661 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr2-clean/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:45,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/kernels/batch_matmul.cc:29:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3661:62:   required from here
+ 3661 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr2-clean/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:45,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr2/tflite/kernels/batch_to_space_nd.cc:19:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3661:62:   required from here
+ 3661 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr2-clean/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/Makefile2:1541: CMakeFiles/tensorflow-lite.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:1548: CMakeFiles/tensorflow-lite.dir/rule] Error 2
+gmake: *** [Makefile:182: tensorflow-lite] Error 2

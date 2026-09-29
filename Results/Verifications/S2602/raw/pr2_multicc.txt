@@ -1,0 +1,14 @@
+[2026-09-20T12:20:29Z] 开始 #2 多编译器验证
+[2026-09-20T12:20:29Z] === 用 gcc-13 构建 ===
+[2026-09-20T12:34:13Z] gcc-13 构建失败
+gmake[2]: *** [CMakeFiles/Makefile2:1538: CMakeFiles/tensorflow-lite.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:1545: CMakeFiles/tensorflow-lite.dir/rule] Error 2
+gmake: *** [Makefile:182: tensorflow-lite] Error 2
+[2026-09-20T12:34:15Z] === 用 gcc-14 构建 ===
+[2026-09-20T12:40:24Z]   gcc-14  mobilenet_v2_1.0_224_quant  500 张 top1=0.000000
+[2026-09-20T12:45:10Z]   gcc-14  mobilenet_v1_1.0_224_quant  500 张 top1=0.014000
+[2026-09-20T12:48:34Z]   gcc-14  efficientnet-lite0-int8  500 张 top1=0.736000
+[2026-09-20T12:48:34Z] 对照：#6 的库跑同一批 500 张
+[2026-09-20T12:49:53Z]   #6库  mobilenet_v2_1.0_224_quant  500 张 top1=0.684000
+[2026-09-20T12:51:43Z]   #6库  mobilenet_v1_1.0_224_quant  500 张 top1=0.698000
+[2026-09-20T12:51:43Z] PR2 MULTICC DONE

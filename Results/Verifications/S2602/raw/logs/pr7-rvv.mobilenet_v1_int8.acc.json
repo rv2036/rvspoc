@@ -1,0 +1,1 @@
+{"model":"/work/s2602/models/mobilenet_v1_1.0_224_quant.tflite","images":10000,"correct":5722,"top1":0.572200,"input_dtype":"uint8","n_classes":1001,"threads":1,"elapsed_s":1092.7}

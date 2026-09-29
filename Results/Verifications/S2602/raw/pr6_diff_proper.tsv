@@ -1,0 +1,5 @@
+model	dtype	elems	diff_elems	max_diff	verdict
+mobilenet_v2_1.0_224	fp32	1001	1001	2.384e-07	通过
+mobilenet_v2_1.0_224_quant	uint8	1001	0	0	通过
+mobilenet_v1_1.0_224	fp32	1001	848	1.160e-11	通过
+mobilenet_v1_1.0_224_quant	uint8	1001	0	0	通过

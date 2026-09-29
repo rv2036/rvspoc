@@ -1,0 +1,18 @@
+pr	variant	result	seconds	artifacts	note
+6	rvv	BUILD_FAIL	295	-	见 pr6-rvv.build.log
+6	rvv	BUILD_FAIL	2068	-	见 pr6-rvv.build.log
+6	rvv	OK	25	libtensorflow-lite.a	-
+2	rvv	OK	25	libtensorflow-lite.a	-
+1	rvv	OK	1853	libtensorflow-lite.a	-
+7	rvv	BUILD_FAIL	1097	-	见 pr7-rvv.build.log
+7	rvv	BUILD_FAIL	180	-	见 pr7-rvv.build.log
+3	rvv	BUILD_FAIL	4648	-	见 pr3-rvv.build.log
+4	rvv	CONFIGURE_FAIL	1009	-	见 pr4-rvv.cmake.log
+7	rvv	OK	6136	libtensorflow-lite.a	-
+3	rvv	OK	833	libtensorflow-lite.a	-
+4	rvv	BUILD_FAIL	1694	-	见 pr4-rvv.build.log
+4	rvv	CONFIGURE_FAIL	90	-	见 pr4-rvv.cmake.log
+4	rvv	CONFIGURE_FAIL	216	-	见 pr4-rvv.cmake.log
+4	rvv	CONFIGURE_FAIL	510	-	见 pr4-rvv.cmake.log
+4	rvv	CONFIGURE_FAIL	411	-	见 pr4-rvv.cmake.log
+4	rvv	OK	1323	libtensorflow-lite.a	用 gcc-13 重建成功（依赖预置）
