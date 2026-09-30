@@ -1,0 +1,128 @@
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::EnsureSynchEvent(std::atomic<long>*, char const*, long, long)':
+mutex.cc:(.text+0xfa): undefined reference to `absl::lts_20250814::base_internal::LowLevelAlloc::Alloc(unsigned long)'
+/usr/bin/ld: mutex.cc:(.text+0x1cc): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: mutex.cc:(.text+0x1ec): undefined reference to `absl::lts_20250814::base_internal::LowLevelAlloc::Free(void*)'
+/usr/bin/ld: mutex.cc:(.text+0x21c): undefined reference to `absl::lts_20250814::base_internal::SpinLock::SlowUnlock(unsigned int)'
+/usr/bin/ld: mutex.cc:(.text+0x22e): undefined reference to `absl::lts_20250814::base_internal::SpinLock::SlowLock()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::UnrefSynchEvent(absl::lts_20250814::SynchEvent*) [clone .part.0]':
+mutex.cc:(.text+0x2ee): undefined reference to `absl::lts_20250814::base_internal::LowLevelAlloc::Free(void*)'
+/usr/bin/ld: mutex.cc:(.text+0x2fe): undefined reference to `absl::lts_20250814::base_internal::SpinLock::SlowUnlock(unsigned int)'
+/usr/bin/ld: mutex.cc:(.text+0x310): undefined reference to `absl::lts_20250814::base_internal::SpinLock::SlowLock()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::GetSynchEvent(void const*)':
+mutex.cc:(.text+0x3e2): undefined reference to `absl::lts_20250814::base_internal::SpinLock::SlowLock()'
+/usr/bin/ld: mutex.cc:(.text+0x3f4): undefined reference to `absl::lts_20250814::base_internal::SpinLock::SlowUnlock(unsigned int)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `void absl::lts_20250814::base_internal::CallOnceImpl<absl::lts_20250814::(anonymous namespace)::GetMutexGlobals()::{lambda()#1}>(std::atomic<unsigned int>*, absl::lts_20250814::base_internal::SchedulingMode, absl::lts_20250814::(anonymous namespace)::GetMutexGlobals()::{lambda()#1}&&) [clone .constprop.0] [clone .isra.0]':
+mutex.cc:(.text+0x432): undefined reference to `absl::lts_20250814::base_internal::NumCPUs()'
+/usr/bin/ld: mutex.cc:(.text+0x486): undefined reference to `absl::lts_20250814::Now()'
+/usr/bin/ld: mutex.cc:(.text+0x4a2): undefined reference to `absl::lts_20250814::Now()'
+/usr/bin/ld: mutex.cc:(.text+0x4ca): undefined reference to `absl::lts_20250814::Duration::operator-=(absl::lts_20250814::Duration)'
+/usr/bin/ld: mutex.cc:(.text+0x4e4): undefined reference to `absl::lts_20250814::Duration::operator*=(long)'
+/usr/bin/ld: mutex.cc:(.text+0x576): undefined reference to `AbslInternalSpinLockWake_lts_20250814'
+/usr/bin/ld: mutex.cc:(.text+0x5b2): undefined reference to `absl::lts_20250814::base_internal::SpinLockWait(std::atomic<unsigned int>*, int, absl::lts_20250814::base_internal::SpinLockWaitTransition const*, absl::lts_20250814::base_internal::SchedulingMode)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::synchronization_internal::MutexDelay(int, int)':
+mutex.cc:(.text+0x672): undefined reference to `AbslInternalSleepFor_lts_20250814'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::Mutex::IncrementSynchSem(absl::lts_20250814::Mutex*, absl::lts_20250814::base_internal::PerThreadSynch*)':
+mutex.cc:(.text+0x6c2): undefined reference to `absl::lts_20250814::base_internal::CurrentThreadIdentityIfPresent()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::Mutex::AssertHeld() const':
+mutex.cc:(.text+0x7d0): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::Mutex::AssertReaderHeld() const':
+mutex.cc:(.text+0x814): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::CondVar::EnableDebugLog(char const*)':
+mutex.cc:(.text+0x89e): undefined reference to `absl::lts_20250814::base_internal::LowLevelAlloc::Free(void*)'
+/usr/bin/ld: mutex.cc:(.text+0x8ae): undefined reference to `absl::lts_20250814::base_internal::SpinLock::SlowUnlock(unsigned int)'
+/usr/bin/ld: mutex.cc:(.text+0x8c0): undefined reference to `absl::lts_20250814::base_internal::SpinLock::SlowLock()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::PostSynchEvent(void*, int)':
+mutex.cc:(.text+0xa42): undefined reference to `absl::lts_20250814::GetStackTrace(void**, int, int)'
+/usr/bin/ld: mutex.cc:(.text+0xae6): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: mutex.cc:(.text+0xb5c): undefined reference to `absl::lts_20250814::GetStackTrace(void**, int, int)'
+/usr/bin/ld: mutex.cc:(.text+0xbae): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::Mutex::Block(absl::lts_20250814::base_internal::PerThreadSynch*)':
+mutex.cc:(.text+0x10a4): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::Enqueue(absl::lts_20250814::base_internal::PerThreadSynch*, absl::lts_20250814::SynchWaitParams*, long, int)':
+mutex.cc:(.text+0x1134): undefined reference to `absl::lts_20250814::base_internal::CycleClock::Now()'
+/usr/bin/ld: mutex.cc:(.text+0x1274): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: mutex.cc:(.text+0x12f4): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: mutex.cc:(.text+0x1338): undefined reference to `absl::lts_20250814::base_internal::CycleClock::Frequency()'
+/usr/bin/ld: mutex.cc:(.text+0x13e4): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: mutex.cc:(.text+0x141a): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::Mutex::Fer(absl::lts_20250814::base_internal::PerThreadSynch*)':
+mutex.cc:(.text+0x1560): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: mutex.cc:(.text+0x1590): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: mutex.cc:(.text+0x15c0): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o):mutex.cc:(.text+0x17a4): more undefined references to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)' follow
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::Mutex::LockSlowLoop(absl::lts_20250814::SynchWaitParams*, int)':
+mutex.cc:(.text+0x1bda): undefined reference to `absl::lts_20250814::base_internal::CurrentThreadIdentityIfPresent()'
+/usr/bin/ld: mutex.cc:(.text+0x1bf2): undefined reference to `absl::lts_20250814::base_internal::CycleClock::Now()'
+/usr/bin/ld: mutex.cc:(.text+0x1c68): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::Mutex::AwaitCommon(absl::lts_20250814::Condition const&, absl::lts_20250814::synchronization_internal::KernelTimeout)':
+mutex.cc:(.text+0x1c94): undefined reference to `absl::lts_20250814::base_internal::CurrentThreadIdentityIfPresent()'
+/usr/bin/ld: mutex.cc:(.text+0x1caa): undefined reference to `absl::lts_20250814::base_internal::CycleClock::Now()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::Mutex::LockWhenCommon(absl::lts_20250814::Condition const&, absl::lts_20250814::synchronization_internal::KernelTimeout, bool)':
+mutex.cc:(.text+0x1e6c): undefined reference to `absl::lts_20250814::base_internal::CurrentThreadIdentityIfPresent()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::Mutex::lock()':
+mutex.cc:(.text+0x1e82): undefined reference to `absl::lts_20250814::base_internal::CycleClock::Now()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::CondVar::WaitCommon(absl::lts_20250814::Mutex*, absl::lts_20250814::synchronization_internal::KernelTimeout)':
+mutex.cc:(.text+0x1f1c): undefined reference to `absl::lts_20250814::base_internal::CurrentThreadIdentityIfPresent()'
+/usr/bin/ld: mutex.cc:(.text+0x1f5e): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::Mutex::UnlockSlow(absl::lts_20250814::SynchWaitParams*)':
+mutex.cc:(.text.unlikely+0x64): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: mutex.cc:(.text.unlikely+0x94): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: mutex.cc:(.text.unlikely+0xf6): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: mutex.cc:(.text.unlikely+0x1da): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o):mutex.cc:(.text.unlikely+0x2b4): more undefined references to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)' follow
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::Mutex::UnlockSlow(absl::lts_20250814::SynchWaitParams*)':
+mutex.cc:(.text.unlikely+0x64e): undefined reference to `absl::lts_20250814::base_internal::CycleClock::Now()'
+/usr/bin/ld: mutex.cc:(.text.unlikely+0x6f8): undefined reference to `absl::lts_20250814::base_internal::NumCPUs()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(mutex.cc.o): in function `absl::lts_20250814::Mutex::LockSlow(absl::lts_20250814::MuHowS const*, absl::lts_20250814::Condition const*, int)':
+mutex.cc:(.text.unlikely+0x750): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(create_thread_identity.cc.o): in function `absl::lts_20250814::synchronization_internal::ReclaimThreadIdentity(void*)':
+create_thread_identity.cc:(.text+0xe): undefined reference to `absl::lts_20250814::base_internal::LowLevelAlloc::Free(void*)'
+/usr/bin/ld: create_thread_identity.cc:(.text+0x16): undefined reference to `absl::lts_20250814::base_internal::ClearCurrentThreadIdentity()'
+/usr/bin/ld: create_thread_identity.cc:(.text+0x72): undefined reference to `absl::lts_20250814::base_internal::SpinLock::SlowLock()'
+/usr/bin/ld: create_thread_identity.cc:(.text+0x84): undefined reference to `absl::lts_20250814::base_internal::SpinLock::SlowUnlock(unsigned int)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(create_thread_identity.cc.o): in function `absl::lts_20250814::synchronization_internal::CreateThreadIdentity()':
+create_thread_identity.cc:(.text+0x15c): undefined reference to `absl::lts_20250814::base_internal::SetCurrentThreadIdentity(absl::lts_20250814::base_internal::ThreadIdentity*, void (*)(void*))'
+/usr/bin/ld: create_thread_identity.cc:(.text+0x188): undefined reference to `absl::lts_20250814::base_internal::LowLevelAlloc::Alloc(unsigned long)'
+/usr/bin/ld: create_thread_identity.cc:(.text+0x1a8): undefined reference to `absl::lts_20250814::base_internal::SpinLock::SlowUnlock(unsigned int)'
+/usr/bin/ld: create_thread_identity.cc:(.text+0x1ba): undefined reference to `absl::lts_20250814::base_internal::SpinLock::SlowLock()'
+/usr/bin/ld: create_thread_identity.cc:(.text+0x1cc): undefined reference to `absl::lts_20250814::base_internal::SpinLock::SlowUnlock(unsigned int)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(per_thread_sem.cc.o): in function `absl::lts_20250814::synchronization_internal::PerThreadSem::SetThreadBlockedCounter(std::atomic<int>*)':
+per_thread_sem.cc:(.text+0x8): undefined reference to `absl::lts_20250814::base_internal::CurrentThreadIdentityIfPresent()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(per_thread_sem.cc.o): in function `absl::lts_20250814::synchronization_internal::PerThreadSem::GetThreadBlockedCounter()':
+per_thread_sem.cc:(.text+0x32): undefined reference to `absl::lts_20250814::base_internal::CurrentThreadIdentityIfPresent()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(per_thread_sem.cc.o): in function `absl::lts_20250814::synchronization_internal::PerThreadSem::Tick(absl::lts_20250814::base_internal::ThreadIdentity*)':
+per_thread_sem.cc:(.text+0xac): undefined reference to `absl::lts_20250814::base_internal::CurrentThreadIdentityIfPresent()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(futex_waiter.cc.o): in function `absl::lts_20250814::synchronization_internal::FutexWaiter::WaitUntil(std::atomic<int>*, int, absl::lts_20250814::synchronization_internal::KernelTimeout)':
+futex_waiter.cc:(.text+0x1c): undefined reference to `absl::lts_20250814::synchronization_internal::KernelTimeout::MakeAbsTimespec() const'
+/usr/bin/ld: futex_waiter.cc:(.text+0x5c): undefined reference to `absl::lts_20250814::synchronization_internal::KernelTimeout::MakeRelativeTimespec() const'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(futex_waiter.cc.o): in function `absl::lts_20250814::synchronization_internal::FutexWaiter::Wait(absl::lts_20250814::synchronization_internal::KernelTimeout)':
+futex_waiter.cc:(.text+0x14c): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(futex_waiter.cc.o): in function `absl::lts_20250814::synchronization_internal::FutexWaiter::Poke()':
+futex_waiter.cc:(.text+0x1b0): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/synchronization/libabsl_synchronization.a(waiter_base.cc.o): in function `absl::lts_20250814::synchronization_internal::WaiterBase::MaybeBecomeIdle()':
+waiter_base.cc:(.text+0x4): undefined reference to `absl::lts_20250814::base_internal::CurrentThreadIdentityIfPresent()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/abseil-cpp-build/absl/strings/libabsl_strings.a(numbers.cc.o): in function `absl::lts_20250814::SimpleAtob(std::basic_string_view<char, std::char_traits<char> >, bool*)':
+numbers.cc:(.text+0x856): undefined reference to `absl::lts_20250814::raw_log_internal::RawLog(absl::lts_20250814::LogSeverity, char const*, int, char const*, ...)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/ruy-build/ruy/libruy_frontend.a(frontend.cc.o): in function `ruy::MulFrontEndFromTrMulParams(ruy::Ctx*, ruy::TrMulParams*)':
+frontend.cc:(.text+0xc): undefined reference to `ruy::PreparePackedMatrices(ruy::Ctx*, ruy::TrMulParams*)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/ruy-build/ruy/libruy_ctx.a(ctx.cc.o): in function `ruy::Ctx::EnsureThreadSpecificResources(int)':
+ctx.cc:(.text+0x370): undefined reference to `ruy::TuningResolver::TuningResolver()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/ruy-build/ruy/libruy_ctx.a(ctx.cc.o): in function `ruy::Ctx::GetPrepackedCache()':
+ctx.cc:(.text+0x5b8): undefined reference to `ruy::PrepackedCache::~PrepackedCache()'
+/usr/bin/ld: ctx.cc:(.text+0x60e): undefined reference to `ruy::TuningResolver::Resolve(ruy::CpuInfo*)'
+/usr/bin/ld: ctx.cc:(.text+0x62a): undefined reference to `ruy::PrepackedCache::~PrepackedCache()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/ruy-build/ruy/libruy_context.a(context.cc.o): in function `ruy::Context::~Context()':
+context.cc:(.text+0xf4): undefined reference to `ruy::CpuInfo::~CpuInfo()'
+/usr/bin/ld: context.cc:(.text+0x104): undefined reference to `ruy::PrepackedCache::~PrepackedCache()'
+/usr/bin/ld: context.cc:(.text+0x138): undefined reference to `ruy::ThreadPool::~ThreadPool()'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/ruy-build/ruy/libruy_trmul.a(trmul.cc.o): in function `ruy::(anonymous namespace)::TrMulTask::Run()':
+trmul.cc:(.text+0x36): undefined reference to `ruy::TuningResolver::Resolve(ruy::CpuInfo*)'
+/usr/bin/ld: trmul.cc:(.text+0xa0): undefined reference to `ruy::GetBlockByIndex(ruy::BlockMap const&, int, ruy::SidePair<int>*)'
+/usr/bin/ld: trmul.cc:(.text+0xb6): undefined reference to `ruy::GetBlockMatrixCoords(ruy::BlockMap const&, ruy::SidePair<int> const&, ruy::SidePair<int>*, ruy::SidePair<int>*)'
+/usr/bin/ld: trmul.cc:(.text+0x216): undefined reference to `ruy::GetBlockMatrixCoords(ruy::Side, ruy::BlockMap const&, int, int*, int*)'
+/usr/bin/ld: /work/s2602/build-op6-gc/_deps/ruy-build/ruy/libruy_trmul.a(trmul.cc.o): in function `ruy::TrMul(ruy::Ctx*, ruy::TrMulParams*)':
+trmul.cc:(.text+0x476): undefined reference to `ruy::CpuInfo::CacheParams()'
+/usr/bin/ld: trmul.cc:(.text+0x4bc): undefined reference to `ruy::MakeBlockMap(int, int, int, int, int, int, int, int, ruy::CpuCacheParams const&, ruy::BlockMap*)'
+/usr/bin/ld: trmul.cc:(.text+0x5b8): undefined reference to `ruy::ThreadPool::ExecuteImpl(int, int, ruy::Task*)'
+/usr/bin/ld: trmul.cc:(.text+0x63a): undefined reference to `ruy::IsObviouslyLinearTraversal(int, int, int, int, int, ruy::CpuCacheParams const&)'
+collect2: error: ld returned 1 exit status

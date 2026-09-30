@@ -1,0 +1,37 @@
+[2026-09-13T08:33:20Z] 主流水线已结束，开始收尾实验
+[2026-09-13T08:33:20Z] PROGRESS: 隔离实验 — 上游源码 + pr2 工具链/选项
+[2026-09-13T08:37:19Z] 隔离实验结果: 上游源码 + pr2 选项 → options_settable_test exit=1
+[       OK ] OptionsSettableTest.BlockBasedTableOptionsAllFieldsSettable (1 ms)
+[       OK ] OptionsSettableTest.TablePropertiesAllFieldsSettable (0 ms)
+[       OK ] OptionsSettableTest.DBOptionsAllFieldsSettable (0 ms)
+    Which is: 95
+    Which is: 119
+[  FAILED  ] OptionsSettableTest.ColumnFamilyOptionsAllFieldsSettable (1 ms)
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] OptionsSettableTest.ColumnFamilyOptionsAllFieldsSettable
+ 1 FAILED TEST
+[2026-09-13T08:37:19Z] 判定: **编译器/选项导致**，pr2 的该项失败不归因于选手
+[2026-09-13T08:37:19Z] PROGRESS: pr2 options_settable_test 连跑 5 次
+[2026-09-13T08:37:19Z]   run1 exit=1  Which is: 102 Which is: 126 
+[2026-09-13T08:37:19Z]   run2 exit=1  Which is: 102 Which is: 126 
+[2026-09-13T08:37:19Z]   run3 exit=1  Which is: 102 Which is: 126 
+[2026-09-13T08:37:19Z]   run4 exit=1  Which is: 102 Which is: 126 
+[2026-09-13T08:37:20Z]   run5 exit=1  Which is: 102 Which is: 126 
+[2026-09-13T08:37:20Z] PROGRESS: pr3 check-format 重跑（clang-format 已就位）
+[2026-09-13T08:37:25Z] pr3 check-format exit=2（结果归入 §4.E 代码规范，不作正确性判定）
+build_tools/format-diff.sh -c
+Checking format of changes not yet in origin/main...
+Checking for copyright headers in new files...
+Added copyright header to rvv-ci/bloom_diff.cc
+Added copyright header to rvv-ci/crc32c_diff.cc
+Added copyright header to rvv-ci/memcmp_diff.cc
+Added copyright header to rvv-ci/varint_diff.cc
+Added copyright header to rvv-ci/xxh3_diff.cc
+Added copyright header to rvv-ci/xxh3_ref.cc
+Added copyright header to rvv-ci/xxph3_diff.cc
+Added copyright header to rvv-ci/xxph3_ref.cc
+Added copyright header to tools/b2_analyze.py
+Copyright headers were added to new files.
+Your change has unformatted code. Please run make format!
+make: *** [Makefile:1332: check-format] Error 1
+[2026-09-13T08:37:25Z] FOLLOWUP DONE

@@ -1,0 +1,1 @@
+ldd (Ubuntu GLIBC 2.39-0ubuntu8.8) 2.39

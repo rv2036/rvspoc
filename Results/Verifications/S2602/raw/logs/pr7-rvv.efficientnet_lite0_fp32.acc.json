@@ -1,0 +1,1 @@
+{"model":"/work/s2602/models/efficientnet-lite0/efficientnet-lite0-fp32.tflite","images":10000,"correct":11,"top1":0.001100,"input_dtype":"float32","n_classes":1000,"threads":1,"elapsed_s":1317.5}

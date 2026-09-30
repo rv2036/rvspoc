@@ -1,0 +1,1145 @@
+[  0%] Built target ruy_profiler_instrumentation
+[  1%] Built target absl_strerror
+[  3%] Built target absl_civil_time
+[  3%] Built target absl_log_severity
+[  5%] Built target absl_utf8_for_code_point
+[  5%] Built target absl_spinlock_wait
+[  7%] Built target absl_exponential_biased
+[  9%] Built target absl_time_zone
+[  9%] Built target absl_flags_commandlineflag_internal
+[  9%] Built target absl_leak_check
+[  9%] Built target fft2d_fftsg
+[  9%] Built target farmhash
+[  9%] Built target eight_bit_int_gemm
+[  9%] Built target flatbuffers
+[ 12%] Built target cpuinfo
+[ 12%] Built target ruy_wait
+[ 12%] Built target ruy_system_aligned_alloc
+[ 12%] Built target ruy_denormal
+[ 12%] Built target ruy_block_map
+[ 12%] Built target ruy_apply_multiplier
+[ 12%] Built target ruy_have_built_path_for_avx512
+[ 12%] Built target ruy_have_built_path_for_avx
+[ 12%] Built target ruy_have_built_path_for_avx2_fma
+[ 12%] Built target absl_raw_logging_internal
+[ 12%] Built target ruy_prepacked_cache
+[ 12%] Built target ruy_cpuinfo
+[ 12%] Built target fft2d_fftsg2d
+[ 14%] Built target ruy_allocator
+[ 14%] Built target ruy_blocking_counter
+[ 14%] Built target absl_debugging_internal
+[ 14%] Built target absl_throw_delegate
+[ 14%] Built target absl_cordz_functions
+[ 16%] Built target absl_base
+[ 16%] Built target ruy_tune
+[ 18%] Built target ruy_thread_pool
+[ 18%] Built target absl_crc_cpu_detect
+[ 20%] Built target absl_malloc_internal
+[ 22%] Built target absl_int128
+[ 22%] Built target absl_tracing_internal
+[ 22%] Built target absl_decode_rust_punycode
+[ 24%] Built target absl_strings_internal
+[ 24%] Built target absl_city
+[ 25%] Built target ruy_kernel_arm
+[ 25%] Built target ruy_pack_arm
+[ 25%] Built target ruy_pack_avx2_fma
+[ 25%] Built target ruy_kernel_avx2_fma
+[ 27%] Built target ruy_pack_avx
+[ 27%] Built target ruy_pack_avx512
+[ 27%] Built target ruy_kernel_avx
+[ 27%] Built target ruy_kernel_avx512
+[ 27%] Built target ruy_ctx
+[ 27%] Built target absl_demangle_rust
+[ 29%] Built target absl_graphcycles_internal
+[ 31%] Built target absl_crc_internal
+[ 33%] Built target ruy_trmul
+[ 33%] Built target ruy_prepare_packed_matrices
+[ 35%] Built target ruy_context
+[ 37%] Built target absl_strings
+[ 38%] Built target absl_demangle_internal
+[ 40%] Built target ruy_frontend
+[ 40%] Built target absl_flags_commandlineflag
+[ 40%] Built target absl_hash
+[ 40%] Built target ruy_context_get_ctx
+[ 42%] Built target absl_time
+[ 42%] Built target absl_symbolize
+[ 42%] Built target absl_str_format_internal
+[ 42%] Built target absl_flags_private_handle_accessor
+[ 42%] Built target absl_borrowed_fixup_buffer
+[ 42%] Built target absl_kernel_timeout_internal
+[ 42%] Built target absl_flags_marshalling
+[ 42%] Built target absl_crc32c
+[ 42%] Built target absl_stacktrace
+[ 42%] Built target absl_crc_cord_state
+[ 44%] Built target absl_synchronization
+[ 46%] Built target absl_cord_internal
+[ 46%] Built target absl_hashtablez_sampler
+[ 46%] Built target absl_flags_program_name
+[ 46%] Built target absl_cordz_handle
+[ 46%] Built target absl_cordz_info
+[ 46%] Built target absl_flags_config
+[ 46%] Built target absl_cord
+[ 48%] Built target absl_flags_internal
+[ 48%] Built target absl_raw_hash_set
+[ 48%] Built target absl_status
+[ 50%] Built target absl_flags_reflection
+[ 50%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/cast.cc.o
+[ 50%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/conv.cc.o
+[ 50%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/cpu_backend_gemm_eigen.cc.o
+[ 50%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/ceil.cc.o
+[ 50%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/concatenation.cc.o
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/cumsum.cc.o
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/cpu_backend_context.cc.o
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/densify.cc.o
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/deprecated_backends.cc.o
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/depth_to_space.cc.o
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/depthwise_conv.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/Core:25,
+                 from /work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/Tensor:14,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/eigen_spatial_convolutions.h:42,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/multithreaded_conv.h:32,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/conv.cc:39:
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: warning: use of ‘std::hardware_destructive_interference_size’ [-Winterference-size]
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/EventCount.h:193:5: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  193 |     EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<uint64_t> next{kStackMask};
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: note: its value can vary between compiler versions or with different ‘-mtune’ or ‘-mcpu’ flags
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/EventCount.h:193:5: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  193 |     EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<uint64_t> next{kStackMask};
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: note: if this use is part of a public ABI, change it to instead use a constant variable you define
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/EventCount.h:193:5: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  193 |     EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<uint64_t> next{kStackMask};
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: note: the default value for the current CPU tuning is 0 bytes
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/EventCount.h:193:5: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  193 |     EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<uint64_t> next{kStackMask};
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: note: you can stabilize this value with ‘--param hardware_destructive_interference_size=0’, or disable this warning with ‘-Wno-interference-size’
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/EventCount.h:193:5: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  193 |     EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<uint64_t> next{kStackMask};
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: warning: use of ‘std::hardware_destructive_interference_size’ [-Winterference-size]
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/RunQueue.h:176:3: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  176 |   EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<unsigned> front_;
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: warning: use of ‘std::hardware_destructive_interference_size’ [-Winterference-size]
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/RunQueue.h:177:3: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  177 |   EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<unsigned> back_;
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: warning: use of ‘std::hardware_destructive_interference_size’ [-Winterference-size]
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/RunQueue.h:180:3: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  180 |   EIGEN_ALIGN_TO_AVOID_FALSE_SHARING Elem array_[kSize];
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/dequantize.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/cumsum.cc:18:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/ceil.cc:17:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/detection_postprocess.cc.o
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/dilate.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/concatenation.cc:23:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/depth_to_space.cc:19:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/Core:314:
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘EigenForTFLite::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘EigenForTFLite::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> EigenForTFLite::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = EigenForTFLite::ArrayWrapper<EigenForTFLite::Map<EigenForTFLite::Matrix<float, -1, -1>, 0, EigenForTFLite::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = EigenForTFLite::CwiseUnaryOp<EigenForTFLite::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const EigenForTFLite::ArrayWrapper<EigenForTFLite::Map<EigenForTFLite::Matrix<float, -1, -1>, 0, EigenForTFLite::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> EigenForTFLite::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/eigen_spatial_convolutions.h:43:
+/work/s2602/build-pr3-rvv/tensorflow-src/third_party/xla/xla/tsl/framework/convolution/eigen_spatial_convolutions-inl.h: In instantiation of ‘std::conditional_t<((bool)(EigenForTFLite::internal::traits<T>::Layout == EigenForTFLite::ColMajor)), EigenForTFLite::TensorReshapingOp<const EigenForTFLite::DSizes<typename EigenForTFLite::internal::traits<T>::Index, EigenForTFLite::internal::traits<T>::NumDimensions>, const EigenForTFLite::TensorContractionOp<const std::array<EigenForTFLite::IndexPair<typename EigenForTFLite::internal::traits<T>::Index>, 1>, const EigenForTFLite::TensorReshapingOp<const EigenForTFLite::DSizes<typename EigenForTFLite::internal::traits<T>::Index, 2>, const Kernel>, const EigenForTFLite::TensorReshapingOp<const EigenForTFLite::DSizes<typename EigenForTFLite::internal::traits<T>::Index, 2>, const EigenForTFLite::TensorImagePatchOp<-1, -1, const Derived> >, const OutputKernel> >, EigenForTFLite::TensorReshapingOp<const EigenForTFLite::DSizes<typename EigenForTFLite::internal::traits<T>::Index, EigenForTFLite::internal::traits<T>::NumDimensions>, const EigenForTFLite::TensorContractionOp<const std::array<EigenForTFLite::IndexPair<typename EigenForTFLite::internal::traits<T>::Index>, 1>, const EigenForTFLite::TensorReshapingOp<const EigenForTFLite::DSizes<typename EigenForTFLite::internal::traits<T>::Index, 2>, const EigenForTFLite::TensorImagePatchOp<-1, -1, const Derived> >, const EigenForTFLite::TensorReshapingOp<const EigenForTFLite::DSizes<typename EigenForTFLite::internal::traits<T>::Index, 2>, const Kernel>, const OutputKernel> > > EigenForTFLite::SpatialConvolution(const Input&, const Kernel&, Index, Index, PaddingType, Index, Index, const OutputKernel&, Index, Index, Index, Index) [with Input = TensorMap<const Tensor<float, 4, 1, long int>, 16>; Kernel = TensorMap<const Tensor<float, 4, 1, long int>, 16>; OutputKernel = const NoOpOutputKernel; std::conditional_t<((bool)(internal::traits<T>::Layout == EigenForTFLite::ColMajor)), TensorReshapingOp<const DSizes<typename internal::traits<T>::Index, internal::traits<T>::NumDimensions>, const TensorContractionOp<const std::array<IndexPair<typename internal::traits<T>::Index>, 1>, const TensorReshapingOp<const DSizes<typename internal::traits<T>::Index, 2>, const Kernel>, const TensorReshapingOp<const DSizes<typename internal::traits<T>::Index, 2>, const TensorImagePatchOp<-1, -1, const Derived> >, const OutputKernel> >, TensorReshapingOp<const DSizes<typename internal::traits<T>::Index, internal::traits<T>::NumDimensions>, const TensorContractionOp<const std::array<IndexPair<typename internal::traits<T>::Index>, 1>, const TensorReshapingOp<const DSizes<typename internal::traits<T>::Index, 2>, const TensorImagePatchOp<-1, -1, const Derived> >, const TensorReshapingOp<const DSizes<typename internal::traits<T>::Index, 2>, const Kernel>, const OutputKernel> > > = TensorReshapingOp<const DSizes<long int, 4>, const TensorContractionOp<const std::array<IndexPair<long int>, 1>, const TensorReshapingOp<const DSizes<long int, 2>, const TensorImagePatchOp<-1, -1, const TensorMap<const Tensor<float, 4, 1, long int>, 16> > >, const TensorReshapingOp<const DSizes<long int, 2>, const TensorMap<const Tensor<float, 4, 1, long int>, 16> >, const NoOpOutputKernel> >; typename internal::traits<T>::Index = long int; typename internal::traits<T>::Index = long int; Index = long int]’:
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/multithreaded_conv.h:130:36:   required from ‘void tflite::multithreaded_ops::EigenTensorConvFunctor<T>::operator()(const EigenForTFLite::ThreadPoolDevice&, const T*, int, int, int, int, const T*, int, int, int, int, int, int, int, tflite::PaddingType, T*, int, int) [with T = float]’
+  130 |           Eigen::SpatialConvolution(input, filter, stride_cols, stride_rows,
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/multithreaded_conv.h:171:15:   required from here
+  171 |   conv_functor(device, input_data, batches, input_height, input_width,
+      |   ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  172 |                input_depth, filter_data, filter_height, filter_width,
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  173 |                output_depth, stride_height, stride_width, pad_height, pad_width,
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  174 |                padding, output_data, output_height, output_width);
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/tensorflow-src/third_party/xla/xla/tsl/framework/convolution/eigen_spatial_convolutions-inl.h:1655:25: warning: ‘constexpr T EigenForTFLite::divup(T, T) [with T = long int]’ is deprecated [-Wdeprecated-declarations]
+ 1655 |       out_height = divup(InputRowsEff - kernelRowsEff + 1, row_stride);
+      |                    ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/Tensor:63:
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h:41:68: note: declared here
+   41 | EIGEN_DEPRECATED EIGEN_DEVICE_FUNC EIGEN_ALWAYS_INLINE constexpr T divup(const T x, const T y) {
+      |                                                                    ^~~~~
+/work/s2602/build-pr3-rvv/tensorflow-src/third_party/xla/xla/tsl/framework/convolution/eigen_spatial_convolutions-inl.h:1656:24: warning: ‘constexpr T EigenForTFLite::divup(T, T) [with T = long int]’ is deprecated [-Wdeprecated-declarations]
+ 1656 |       out_width = divup(InputColsEff - kernelColsEff + 1, col_stride);
+      |                   ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h:41:68: note: declared here
+   41 | EIGEN_DEPRECATED EIGEN_DEVICE_FUNC EIGEN_ALWAYS_INLINE constexpr T divup(const T x, const T y) {
+      |                                                                    ^~~~~
+/work/s2602/build-pr3-rvv/tensorflow-src/third_party/xla/xla/tsl/framework/convolution/eigen_spatial_convolutions-inl.h:1661:25: warning: ‘constexpr T EigenForTFLite::divup(T, T) [with T = long int]’ is deprecated [-Wdeprecated-declarations]
+ 1661 |       out_height = divup(InputRows, row_stride);
+      |                    ~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h:41:68: note: declared here
+   41 | EIGEN_DEPRECATED EIGEN_DEVICE_FUNC EIGEN_ALWAYS_INLINE constexpr T divup(const T x, const T y) {
+      |                                                                    ^~~~~
+/work/s2602/build-pr3-rvv/tensorflow-src/third_party/xla/xla/tsl/framework/convolution/eigen_spatial_convolutions-inl.h:1662:24: warning: ‘constexpr T EigenForTFLite::divup(T, T) [with T = long int]’ is deprecated [-Wdeprecated-declarations]
+ 1662 |       out_width = divup(InputCols, col_stride);
+      |                   ~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h:41:68: note: declared here
+   41 | EIGEN_DEPRECATED EIGEN_DEVICE_FUNC EIGEN_ALWAYS_INLINE constexpr T divup(const T x, const T y) {
+      |                                                                    ^~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/integer_ops/depthwise_conv.h:33,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/depthwise_conv.cc:16:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 51%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/div.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/dynamic_update_slice.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/dequantize.h:22,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/dequantize.cc:15:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/eigen_support.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/elementwise.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/embedding_lookup.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/detection_postprocess.cc:27:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/embedding_lookup_sparse.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/Core:25,
+                 from /work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/Tensor:14,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/eigen_spatial_convolutions.h:42,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/eigen_support.cc:22:
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: warning: use of ‘std::hardware_destructive_interference_size’ [-Winterference-size]
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/EventCount.h:193:5: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  193 |     EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<uint64_t> next{kStackMask};
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: note: its value can vary between compiler versions or with different ‘-mtune’ or ‘-mcpu’ flags
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/EventCount.h:193:5: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  193 |     EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<uint64_t> next{kStackMask};
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: note: if this use is part of a public ABI, change it to instead use a constant variable you define
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/EventCount.h:193:5: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  193 |     EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<uint64_t> next{kStackMask};
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: note: the default value for the current CPU tuning is 0 bytes
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/EventCount.h:193:5: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  193 |     EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<uint64_t> next{kStackMask};
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: note: you can stabilize this value with ‘--param hardware_destructive_interference_size=0’, or disable this warning with ‘-Wno-interference-size’
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/EventCount.h:193:5: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  193 |     EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<uint64_t> next{kStackMask};
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: warning: use of ‘std::hardware_destructive_interference_size’ [-Winterference-size]
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/RunQueue.h:176:3: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  176 |   EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<unsigned> front_;
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: warning: use of ‘std::hardware_destructive_interference_size’ [-Winterference-size]
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/RunQueue.h:177:3: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  177 |   EIGEN_ALIGN_TO_AVOID_FALSE_SHARING std::atomic<unsigned> back_;
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:60:73: warning: use of ‘std::hardware_destructive_interference_size’ [-Winterference-size]
+   60 | #define EIGEN_ALIGN_TO_AVOID_FALSE_SHARING EIGEN_ALIGN_TO_BOUNDARY(std::hardware_destructive_interference_size)
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/ConfigureVectorization.h:49:44: note: in definition of macro ‘EIGEN_ALIGN_TO_BOUNDARY’
+   49 | #define EIGEN_ALIGN_TO_BOUNDARY(n) alignas(n)
+      |                                            ^
+/work/s2602/build-pr3-rvv/eigen/unsupported/Eigen/CXX11/../../../Eigen/src/ThreadPool/RunQueue.h:180:3: note: in expansion of macro ‘EIGEN_ALIGN_TO_AVOID_FALSE_SHARING’
+  180 |   EIGEN_ALIGN_TO_AVOID_FALSE_SHARING Elem array_[kSize];
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/dynamic_update_slice.cc:23:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/exp.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/expand_dims.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/fake_quant.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/div.cc:25:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/fill.cc.o
+[ 53%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/floor.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/floor_div.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/floor_mod.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/fully_connected.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/gather.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/gather_nd.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/gru_cell.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/hadamard_rotation.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/hashtable.cc.o
+[ 55%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/hashtable_find.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/gather.cc:19:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/floor.cc:19:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/hashtable_import.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/gather_nd.cc:19:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/gru_cell.cc:20:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/hashtable_lookup.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/hashtable_size.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/fully_connected.cc:31:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/if.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/irfft2d.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/kernel_util.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/l2norm.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/local_response_norm.cc.o
+[ 57%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/logical.cc.o
+[ 59%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/lsh_projection.cc.o
+[ 59%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/lstm.cc.o
+[ 59%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/lstm_eval.cc.o
+[ 59%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/matrix_diag.cc.o
+[ 59%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/matrix_set_diag.cc.o
+[ 59%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/maximum_minimum.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/local_response_norm.cc:17:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/l2norm.cc:18:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 59%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/mfcc.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/lstm_eval.cc:34:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 59%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/mirror_pad.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/lstm.cc:28:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/matrix_diag.cc:18:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 59%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/mul.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/matrix_set_diag.cc:18:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 61%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/multinomial.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/maximum_minimum.cc:19:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 61%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/neg.cc.o
+[ 61%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/non_max_suppression.cc.o
+[ 61%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/numeric_verify.cc.o
+[ 61%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/one_hot.cc.o
+[ 61%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/pack.cc.o
+[ 61%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/pad.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/mfcc.cc:27:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/mirror_pad.cc:28:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 61%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/pooling.cc.o
+[ 61%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/pooling3d.cc.o
+[ 61%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/pow.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/integer_ops/mul.h:26,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/mul.cc:15:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/quantize.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/neg.cc:21:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/random_ops.cc.o
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/random_standard_normal_custom.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/dequantize.h:22,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/numeric_verify.cc:26:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/random_uniform_custom.cc.o
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/range.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/pad.cc:24:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/reference/reference_ops.h:29,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/integer_ops/pooling.h:29,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/pooling.cc:15:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/rank.cc.o
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/read_variable.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/pow.cc:19:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/reduce.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/quantize.cc:22:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 62%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/register_ref.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/reshape.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/resize_bilinear.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/resize_nearest_neighbor.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/reverse.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/reverse_sequence.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/rfft2d.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/right_shift.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/rng_bit_generator.cc.o
+[ 64%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/rng_util.cc.o
+[ 66%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/roll.cc.o
+[ 66%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/round.cc.o
+[ 66%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/scatter_nd.cc.o
+[ 66%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/segment_sum.cc.o
+[ 66%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/select.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/integer_ops/mean.h:23,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/reduce.cc:28:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/resize_bilinear.cc:21:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 66%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/shape.cc.o
+[ 66%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/sign.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/resize_nearest_neighbor.cc:23:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 66%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/sign_custom.cc.o
+[ 66%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/skip_gram.cc.o
+[ 68%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/slice.cc.o
+[ 68%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/space_to_batch_nd.cc.o
+[ 68%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/space_to_depth.cc.o
+[ 68%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/sparse_to_dense.cc.o
+[ 68%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/split.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/scatter_nd.cc:19:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/round.cc:18:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 68%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/split_v.cc.o
+[ 68%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/squared_difference.cc.o
+[ 68%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/squeeze.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/slice.cc:24:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/space_to_batch_nd.cc:19:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/space_to_depth.cc:19:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 68%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/stablehlo_add.cc.o
+[ 68%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/stablehlo_and.cc.o
+[ 70%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/stablehlo_case.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/split.cc:19:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 70%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/stablehlo_composite.cc.o
+[ 70%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/stablehlo_elementwise.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/split_v.cc:21:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 70%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/stablehlo_gather.cc.o
+[ 70%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/stablehlo_min_max.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/squared_difference.cc:22:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 70%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/stablehlo_multiply.cc.o
+[ 70%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/stablehlo_pad.cc.o
+[ 70%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/stablehlo_reduce_window.cc.o
+[ 70%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/stablehlo_scatter.cc.o
+[ 72%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/stablehlo_shift_left.cc.o
+[ 72%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/strided_slice.cc.o
+[ 72%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/sub.cc.o
+[ 72%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/svdf.cc.o
+[ 72%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/table.cc.o
+[ 72%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/tensor_slice_util.cc.o
+[ 72%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/tile.cc.o
+[ 72%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/topk_v2.cc.o
+[ 72%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/transpose.cc.o
+[ 74%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/transpose_conv.cc.o
+[ 74%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/unidirectional_sequence_gru.cc.o
+[ 74%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/unidirectional_sequence_lstm.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/sub.cc:29:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 74%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/unidirectional_sequence_rnn.cc.o
+[ 74%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/unique.cc.o
+[ 74%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/unpack.cc.o
+In file included from /work/s2602/build-pr3-rvv/eigen/Eigen/Core:314,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:46,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/integer_ops/transpose_conv.h:20,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr3/tflite/kernels/transpose_conv.cc:26:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h: In instantiation of ‘Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::scalar_unary_pow_op(const ExponentScalar&) [with Scalar = float; ExponentScalar = double]’:
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.inc:543:66:   required from ‘Eigen::ArrayBase<Derived>::UnaryPowReturnType<ScalarExponent> Eigen::ArrayBase<Derived>::pow(const ScalarExponent&) const [with ScalarExponent = double; Derived = Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > >; UnaryPowReturnType<ScalarExponent> = Eigen::CwiseUnaryOp<Eigen::internal::scalar_unary_pow_op<float, double, false, false, false, false>, const Eigen::ArrayWrapper<Eigen::Map<Eigen::Matrix<float, -1, -1>, 0, Eigen::Stride<0, 0> > > >]’
+  543 |   return UnaryPowReturnType<ScalarExponent>(derived(), internal::scalar_unary_pow_op<Scalar, ScalarExponent>(exponent));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/s2602/src/rvspoc-S2602-litert-pr3/tflite/../tflite/kernels/internal/optimized/optimized_ops.h:3796:62:   required from here
+ 3796 |     data_out.array() = data_in.array() * data_out.array().pow(-op_params.beta);
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1354:27: warning: ‘std::enable_if_t<(! IsExactlyRepresentable), void> Eigen::internal::scalar_unary_pow_op<Scalar, ExponentScalar, false, false, false, false>::check_is_representable() const [with bool IsExactlyRepresentable = false; Scalar = float; ExponentScalar = double; std::enable_if_t<(! IsExactlyRepresentable), void> = void]’ is deprecated [-Wdeprecated-declarations]
+ 1354 |     check_is_representable();
+      |     ~~~~~~~~~~~~~~~~~~~~~~^~
+/work/s2602/build-pr3-rvv/eigen/Eigen/src/Core/functors/UnaryFunctors.h:1350:68: note: declared here
+ 1350 |   EIGEN_DEPRECATED std::enable_if_t<!IsExactlyRepresentable, void> check_is_representable() const {}
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~
+[ 74%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/unsorted_segment.cc.o
+[ 74%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/var_handle.cc.o
+[ 74%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/where.cc.o
+[ 75%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/while.cc.o
+[ 75%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/zeros_like.cc.o
+[ 75%] Building CXX object CMakeFiles/tensorflow-lite.dir/nnapi/nnapi_implementation_disabled.cc.o
+[ 75%] Building CXX object CMakeFiles/tensorflow-lite.dir/profiling/platform_profiler.cc.o
+[ 75%] Building CXX object CMakeFiles/tensorflow-lite.dir/profiling/root_profiler.cc.o
+[ 75%] Building CXX object CMakeFiles/tensorflow-lite.dir/profiling/telemetry/profiler.cc.o
+[ 75%] Building CXX object CMakeFiles/tensorflow-lite.dir/profiling/telemetry/telemetry.cc.o
+[ 75%] Building CXX object CMakeFiles/tensorflow-lite.dir/profiling/telemetry/c/telemetry_setting_internal.cc.o
+[ 75%] Building CXX object CMakeFiles/tensorflow-lite.dir/kernels/internal/utils/sparsity_format_converter.cc.o
+[ 75%] Building CXX object CMakeFiles/tensorflow-lite.dir/arena_planner.cc.o
+[ 77%] Building CXX object CMakeFiles/tensorflow-lite.dir/array.cc.o
+[ 77%] Building CXX object CMakeFiles/tensorflow-lite.dir/external_cpu_backend_context.cc.o
+[ 77%] Building CXX object CMakeFiles/tensorflow-lite.dir/graph_info.cc.o
+[ 77%] Building CXX object CMakeFiles/tensorflow-lite.dir/logger.cc.o
+[ 77%] Building CXX object CMakeFiles/tensorflow-lite.dir/minimal_logging.cc.o
+[ 77%] Building CXX object CMakeFiles/tensorflow-lite.dir/mutable_op_resolver.cc.o
+[ 77%] Building CXX object CMakeFiles/tensorflow-lite.dir/mutable_op_resolver_utils.cc.o
+[ 77%] Building CXX object CMakeFiles/tensorflow-lite.dir/optional_debug_tools.cc.o
+[ 77%] Building CXX object CMakeFiles/tensorflow-lite.dir/simple_memory_arena.cc.o
+[ 79%] Building CXX object CMakeFiles/tensorflow-lite.dir/simple_memory_arena_debug_dump.cc.o
+[ 79%] Building CXX object CMakeFiles/tensorflow-lite.dir/simple_planner.cc.o
+[ 79%] Building CXX object CMakeFiles/tensorflow-lite.dir/stderr_reporter.cc.o
+[ 79%] Building CXX object CMakeFiles/tensorflow-lite.dir/string_util.cc.o
+[ 79%] Building CXX object CMakeFiles/tensorflow-lite.dir/tensorflow_profiler_logger_shim.cc.o
+[ 79%] Building CXX object CMakeFiles/tensorflow-lite.dir/tflite_with_xnnpack_optional.cc.o
+[ 79%] Building CXX object CMakeFiles/tensorflow-lite.dir/util.cc.o
+[ 79%] Building CXX object CMakeFiles/tensorflow-lite.dir/minimal_logging_default.cc.o
+[ 79%] Building CXX object CMakeFiles/tensorflow-lite.dir/tensorflow-src/tensorflow/compiler/mlir/lite/allocation.cc.o
+[ 81%] Building CXX object CMakeFiles/tensorflow-lite.dir/tensorflow-src/tensorflow/compiler/mlir/lite/core/api/error_reporter.cc.o
+[ 81%] Building CXX object CMakeFiles/tensorflow-lite.dir/tensorflow-src/tensorflow/compiler/mlir/lite/core/api/flatbuffer_conversions.cc.o
+[ 81%] Building CXX object CMakeFiles/tensorflow-lite.dir/tensorflow-src/tensorflow/compiler/mlir/lite/core/model_builder_base.cc.o
+/work/s2602/build-pr3-rvv/tensorflow-src/tensorflow/compiler/mlir/lite/allocation.cc: In constructor ‘tflite::FileCopyAllocation::FileCopyAllocation(const char*, tflite::ErrorReporter*)’:
+/work/s2602/build-pr3-rvv/tensorflow-src/tensorflow/compiler/mlir/lite/allocation.cc:37:42: warning: ignoring attributes on template argument ‘int (*)(FILE*)’ [-Wignored-attributes]
+   37 |   std::unique_ptr<FILE, decltype(&fclose)> file(fopen(filename, "rb"), fclose);
+      |                                          ^
+[ 81%] Building CXX object CMakeFiles/tensorflow-lite.dir/tensorflow-src/tensorflow/compiler/mlir/lite/experimental/remat/metadata_util.cc.o
+[ 81%] Building CXX object CMakeFiles/tensorflow-lite.dir/tensorflow-src/tensorflow/compiler/mlir/lite/mmap_allocation.cc.o
+[ 81%] Building CXX object CMakeFiles/tensorflow-lite.dir/tensorflow-src/tensorflow/compiler/mlir/lite/schema/schema_utils.cc.o
+[ 81%] Building CXX object CMakeFiles/tensorflow-lite.dir/tensorflow-src/tensorflow/compiler/mlir/lite/utils/string_utils.cc.o
+[ 81%] Linking CXX static library libtensorflow-lite.a
+[100%] Built target tensorflow-lite

@@ -1,0 +1,12 @@
+In file included from /work/s2602/src/rvspoc-S2602-litert-pr6/tflite/schema/schema_generated.h:18,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr6/tflite/core/api/op_resolver.h:29,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr6/tflite/core/subgraph.h:36,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr6/tflite/core/async/async_subgraph.h:27,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr6/tflite/core/async/async_signature_runner.h:24,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr6/tflite/core/interpreter.h:48,
+                 from /work/s2602/src/rvspoc-S2602-litert-pr6/tflite/interpreter.h:21,
+                 from /work/s2602/accuracy_harness.cc:22:
+/work/s2602/src/rvspoc-S2602-litert-pr6/tflite/converter/schema/schema_generated.h:21:10: fatal error: flatbuffers/flatbuffers.h: No such file or directory
+   21 | #include "flatbuffers/flatbuffers.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.

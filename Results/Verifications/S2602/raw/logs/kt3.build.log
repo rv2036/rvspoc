@@ -1,0 +1,258 @@
+[  0%] Built target ruy_profiler_instrumentation
+[  0%] Built target absl_utf8_for_code_point
+[  0%] Built target absl_log_severity
+[  0%] Built target absl_strerror
+[  0%] Built target absl_exponential_biased
+[  2%] Built target re2
+[  2%] Built target absl_spinlock_wait
+[  2%] Built target absl_time_zone
+[  2%] Built target fft2d_fftsg
+[  2%] Built target absl_flags_commandlineflag_internal
+[  2%] Built target eight_bit_int_gemm
+[  2%] Built target absl_leak_check
+[  2%] Built target absl_civil_time
+[  4%] Built target cpuinfo
+[  4%] Built target farmhash
+[  6%] Built target flatbuffers
+[  6%] Built target ruy_have_built_path_for_avx512
+[  8%] Built target ruy_apply_multiplier
+[  8%] Built target ruy_wait
+[  8%] Built target ruy_system_aligned_alloc
+[ 11%] Built target ruy_denormal
+[ 11%] Built target ruy_block_map
+[ 11%] Built target ruy_have_built_path_for_avx2_fma
+[ 11%] Built target ruy_have_built_path_for_avx
+[ 11%] Performing configure step for 'flatbuffers-flatc'
+[ 11%] Built target absl_log_internal_nullguard
+[ 11%] Built target absl_raw_logging_internal
+[ 13%] Built target fft2d_fftsg2d
+[ 13%] Built target gtest
+[ 13%] Built target ruy_cpuinfo
+[ 13%] Built target ruy_prepacked_cache
+[ 15%] Built target benchmark
+-- Proceeding with version: 25.9.23.0
+[ 15%] Built target ruy_allocator
+[ 15%] Built target absl_throw_delegate
+[ 15%] Built target ruy_blocking_counter
+[ 15%] Built target absl_base
+[ 15%] Built target absl_cordz_functions
+[ 15%] Built target absl_debugging_internal
+[ 17%] Built target ruy_tune
+[ 17%] Built target gmock
+[ 20%] Built target absl_tracing_internal
+[ 20%] Built target absl_malloc_internal
+[ 20%] Built target ruy_thread_pool
+[ 20%] Built target absl_strings_internal
+[ 20%] Built target absl_int128
+[ 20%] Built target absl_city
+[ 20%] Built target absl_crc_cpu_detect
+[ 20%] Built target ruy_kernel_arm
+[ 20%] Built target ruy_pack_arm
+[ 22%] Built target absl_decode_rust_punycode
+-- The CXX compiler identification is GNU 14.2.0
+[ 24%] Built target ruy_kernel_avx2_fma
+[ 24%] Built target ruy_kernel_avx512
+[ 24%] Built target ruy_pack_avx512
+[ 24%] Built target ruy_pack_avx2_fma
+-- Detecting CXX compiler ABI info
+[ 24%] Built target ruy_ctx
+[ 24%] Built target ruy_kernel_avx
+[ 24%] Built target ruy_pack_avx
+[ 24%] Built target absl_demangle_rust
+[ 24%] Built target absl_log_internal_conditions
+[ 24%] Built target absl_graphcycles_internal
+[ 24%] Built target absl_crc_internal
+[ 24%] Built target ruy_context
+[ 26%] Built target absl_strings
+[ 26%] Built target ruy_trmul
+[ 26%] Built target absl_demangle_internal
+[ 28%] Built target ruy_prepare_packed_matrices
+[ 28%] Built target ruy_context_get_ctx
+[ 28%] Built target absl_hash
+[ 31%] Built target absl_time
+[ 33%] Built target absl_flags_commandlineflag
+[ 35%] Built target absl_str_format_internal
+[ 35%] Building CXX object _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o
+[ 35%] Built target absl_log_internal_proto
+[ 35%] Built target ruy_frontend
+[ 35%] Built target absl_symbolize
+[ 37%] Built target absl_borrowed_fixup_buffer
+[ 37%] Built target absl_kernel_timeout_internal
+[ 37%] Built target absl_flags_private_handle_accessor
+[ 37%] Building CXX object _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_globals.dir/internal/globals.cc.o
+[ 37%] Building CXX object _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_entry.dir/log_entry.cc.o
+[ 37%] Building CXX object _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_structured_proto.dir/internal/structured_proto.cc.o
+[ 40%] Built target absl_stacktrace
+[ 42%] Built target absl_crc32c
+[ 42%] Built target absl_flags_marshalling
+-- Detecting CXX compiler ABI info - done
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+[ 42%] Built target absl_crc_cord_state
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for strtof_l
+[ 44%] Built target absl_synchronization
+[ 46%] Built target absl_cord_internal
+[ 46%] Built target absl_hashtablez_sampler
+[ 46%] Built target absl_cordz_handle
+[ 48%] Built target absl_flags_program_name
+[ 48%] Built target absl_cordz_info
+[ 48%] Built target absl_flags_config
+[ 48%] Built target absl_cord
+[ 48%] Built target absl_flags_internal
+[ 48%] Built target absl_raw_hash_set
+-- Looking for strtof_l - found
+-- Looking for strtoull_l
+[ 48%] Built target absl_status
+[ 48%] Built target absl_flags_reflection
+[ 48%] Linking CXX static library libabsl_log_internal_fnmatch.a
+-- Looking for strtoull_l - found
+-- Looking for realpath
+[ 48%] Built target absl_log_internal_fnmatch
+[ 48%] Building CXX object _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_vlog_config_internal.dir/internal/vlog_config.cc.o
+-- Looking for realpath - found
+-- CMAKE_CXX_FLAGS: "-DNOMINMAX=1"
+-- Configuring done (3.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/src/flatbuffers-flatc-build
+[ 48%] Performing build step for 'flatbuffers-flatc'
+[  2%] Building CXX object CMakeFiles/flatc.dir/src/idl_parser.cpp.o
+[  5%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_text.cpp.o
+[ 91%] Built target tensorflow-lite
+[  7%] Building CXX object CMakeFiles/flatc.dir/src/reflection.cpp.o
+[ 91%] Linking CXX static library libabsl_examine_stack.a
+[ 91%] Built target absl_examine_stack
+[ 10%] Building CXX object CMakeFiles/flatc.dir/src/util.cpp.o
+[ 91%] Linking CXX static library libabsl_log_internal_structured_proto.a
+[ 91%] Built target absl_log_internal_structured_proto
+[ 12%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_binary.cpp.o
+[ 15%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_cpp.cpp.o
+[ 93%] Linking CXX static library libabsl_log_internal_globals.a
+[ 93%] Built target absl_log_internal_globals
+[ 17%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_csharp.cpp.o
+[ 93%] Linking CXX static library libabsl_log_entry.a
+[ 93%] Built target absl_log_entry
+[ 93%] Building CXX object _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/internal/log_format.cc.o
+[ 93%] Building CXX object _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_sink.dir/log_sink.cc.o
+[ 20%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_dart.cpp.o
+[ 22%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_kotlin.cpp.o
+[ 93%] Linking CXX static library libabsl_vlog_config_internal.a
+[ 93%] Built target absl_vlog_config_internal
+[ 25%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_kotlin_kmp.cpp.o
+[ 95%] Linking CXX static library libabsl_log_sink.a
+[ 95%] Built target absl_log_sink
+[ 27%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_go.cpp.o
+[ 95%] Building CXX object _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_globals.dir/globals.cc.o
+[ 95%] Linking CXX static library libabsl_log_internal_format.a
+[ 95%] Built target absl_log_internal_format
+[ 30%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_java.cpp.o
+[ 32%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_ts.cpp.o
+[ 35%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_php.cpp.o
+[ 37%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_python.cpp.o
+[ 95%] Linking CXX static library libabsl_log_globals.a
+[ 95%] Built target absl_log_globals
+[ 40%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_lobster.cpp.o
+[ 42%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_rust.cpp.o
+[ 45%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_fbs.cpp.o
+[ 47%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_grpc.cpp.o
+[ 50%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_json_schema.cpp.o
+[ 52%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_swift.cpp.o
+[ 55%] Building CXX object CMakeFiles/flatc.dir/src/file_name_saving_file_manager.cpp.o
+[ 57%] Building CXX object CMakeFiles/flatc.dir/src/file_binary_writer.cpp.o
+[ 60%] Building CXX object CMakeFiles/flatc.dir/src/file_writer.cpp.o
+[ 95%] Building CXX object _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/internal/log_sink_set.cc.o
+[ 62%] Building CXX object CMakeFiles/flatc.dir/src/flatc.cpp.o
+[ 65%] Building CXX object CMakeFiles/flatc.dir/src/flatc_main.cpp.o
+[ 67%] Building CXX object CMakeFiles/flatc.dir/include/codegen/python.cc.o
+[ 70%] Building CXX object CMakeFiles/flatc.dir/src/binary_annotator.cpp.o
+[ 72%] Building CXX object CMakeFiles/flatc.dir/src/annotated_binary_text_gen.cpp.o
+[ 75%] Building CXX object CMakeFiles/flatc.dir/src/bfbs_gen_lua.cpp.o
+[ 77%] Building CXX object CMakeFiles/flatc.dir/src/bfbs_gen_nim.cpp.o
+[ 80%] Building CXX object CMakeFiles/flatc.dir/src/code_generators.cpp.o
+[ 82%] Building CXX object CMakeFiles/flatc.dir/grpc/src/compiler/cpp_generator.cc.o
+[ 85%] Building CXX object CMakeFiles/flatc.dir/grpc/src/compiler/go_generator.cc.o
+[ 95%] Linking CXX static library libabsl_log_internal_log_sink_set.a
+[ 95%] Built target absl_log_internal_log_sink_set
+[ 87%] Building CXX object CMakeFiles/flatc.dir/grpc/src/compiler/java_generator.cc.o
+[ 90%] Building CXX object CMakeFiles/flatc.dir/grpc/src/compiler/python_generator.cc.o
+[ 92%] Building CXX object CMakeFiles/flatc.dir/grpc/src/compiler/swift_generator.cc.o
+[ 95%] Building CXX object CMakeFiles/flatc.dir/grpc/src/compiler/ts_generator.cc.o
+[ 95%] Building CXX object _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_message.dir/internal/log_message.cc.o
+[ 97%] Linking CXX executable flatc
+[ 95%] Linking CXX static library libabsl_log_internal_message.a
+[ 95%] Built target absl_log_internal_message
+[100%] Built target flatc
+[ 95%] Performing install step for 'flatbuffers-flatc'
+[100%] Built target flatc
+Linking CXX executable CMakeFiles/CMakeRelink.dir/flatc
+Install the project...
+-- Install configuration: ""
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/array.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/stl_emulation.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/struct.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/grpc.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/base.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/verifier.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/reflection_generated.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/flex_flat_util.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/file_manager.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/flatbuffers.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/idl.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/flexbuffers.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/buffer_ref.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/code_generators.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/string.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/default_allocator.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/table.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/hash.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/flatc.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/flatbuffer_builder.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/vector_downward.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/allocator.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/buffer.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/pch
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/pch/pch.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/pch/flatc_pch.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/reflection.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/vector.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/code_generator.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/minireflect.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/util.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/detached_buffer.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/include/flatbuffers/registry.h
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/lib/cmake/flatbuffers/flatbuffers-config.cmake
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/lib/cmake/flatbuffers/BuildFlatBuffers.cmake
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/lib/cmake/flatbuffers/flatbuffers-config-version.cmake
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/bin/flatc
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/lib/cmake/flatbuffers/FlatcTargets.cmake
+-- Installing: /work/s2602/build-pr2-gcc-14/flatbuffers-flatc/lib/cmake/flatbuffers/FlatcTargets-noconfig.cmake
+[ 95%] Completed 'flatbuffers-flatc'
+[ 95%] Built target flatbuffers-flatc
+[ 95%] Generating /work/s2602/tf-shared/tensorflow/compiler/mlir/lite/schema/mutable/schema_generated.h
+[ 95%] Built target mutable_schema_file
+[ 95%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/delegates/nnapi/acceleration_test_list.cc.o
+[ 95%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/delegates/nnapi/acceleration_test_util.cc.o
+[ 95%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/nnapi/sl/SupportLibrary.cc.o
+[ 95%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/tools/delegates/delegate_provider.cc.o
+[ 95%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/profiling/memory_info.cc.o
+[ 95%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/work/s2602/src/rvspoc-S2602-litert-pr2/compiler/mlir/lite/schema/schema_conversion_utils.cc.o
+[ 95%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/tools/command_line_flags.cc.o
+[ 95%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/tools/evaluation/utils.cc.o
+[ 95%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/tools/delegates/default_execution_provider.cc.o
+[ 95%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/tools/delegates/gpu_delegate_provider.cc.o
+[ 95%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/tools/delegates/nnapi_delegate_provider.cc.o
+[ 97%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/tools/delegates/xnnpack_delegate_provider.cc.o
+[ 97%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/tools/delegates/external_delegate_provider.cc.o
+[ 97%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/tools/optimize/model_utils.cc.o
+[ 97%] Building CXX object kernels/CMakeFiles/tensorflow-lite-test-base.dir/work/s2602/tf-shared/tensorflow/compiler/mlir/lite/tools/optimize/operator_property.cc.o
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/tools/delegates/xnnpack_delegate_provider.cc: In member function ‘virtual tflite::tools::TfLiteDelegatePtr tflite::tools::XnnpackDelegateProvider::CreateTfLiteDelegate(const tflite::tools::ToolParams&) const’:
+/work/s2602/src/rvspoc-S2602-litert-pr2/tflite/tools/delegates/xnnpack_delegate_provider.cc:87:29: error: ‘XNNPackDelegateOptionsDefault’ is not a member of ‘tflite::evaluation’
+   87 |     auto opts = evaluation::XNNPackDelegateOptionsDefault();
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gmake[3]: *** [kernels/CMakeFiles/tensorflow-lite-test-base.dir/build.make:233: kernels/CMakeFiles/tensorflow-lite-test-base.dir/__/tools/delegates/xnnpack_delegate_provider.cc.o] Error 1
+gmake[3]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/Makefile2:9695: kernels/CMakeFiles/tensorflow-lite-test-base.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:10797: kernels/CMakeFiles/internal-depthwiseconv_quantized_test.dir/rule] Error 2
+gmake: *** [Makefile:2493: internal-depthwiseconv_quantized_test] Error 2

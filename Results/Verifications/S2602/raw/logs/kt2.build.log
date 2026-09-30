@@ -1,0 +1,178 @@
+[  0%] Built target absl_utf8_for_code_point
+[  0%] Built target absl_strerror
+[  0%] Built target absl_spinlock_wait
+[  0%] Built target absl_time_zone
+[  0%] Built target ruy_profiler_instrumentation
+[  0%] Built target absl_exponential_biased
+[  0%] Built target absl_log_severity
+[  0%] Built target absl_leak_check
+[  0%] Built target absl_civil_time
+[  2%] Built target re2
+[  2%] Built target fft2d_fftsg
+[  2%] Built target eight_bit_int_gemm
+[  4%] Built target flatbuffers
+[  4%] Built target farmhash
+[  4%] Built target absl_flags_commandlineflag_internal
+[  4%] Built target ruy_block_map
+[  6%] Built target ruy_apply_multiplier
+[  8%] Built target cpuinfo
+[  8%] Built target ruy_system_aligned_alloc
+[ 11%] Built target ruy_denormal
+[ 11%] Built target ruy_wait
+[ 11%] Built target ruy_have_built_path_for_avx2_fma
+[ 11%] Built target ruy_have_built_path_for_avx512
+[ 11%] Built target ruy_have_built_path_for_avx
+[ 11%] Built target absl_log_internal_nullguard
+[ 11%] Built target ruy_cpuinfo
+[ 11%] Performing configure step for 'flatbuffers-flatc'
+[ 11%] Built target gtest
+[ 13%] Built target fft2d_fftsg2d
+[ 13%] Built target absl_raw_logging_internal
+[ 13%] Built target ruy_prepacked_cache
+-- Proceeding with version: 25.9.23.0
+[ 13%] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 15%] Built target benchmark
+[ 15%] Built target ruy_allocator
+[ 15%] Built target ruy_blocking_counter
+[ 15%] Built target absl_base
+[ 17%] Built target ruy_tune
+[ 17%] Built target absl_throw_delegate
+[ 20%] Built target absl_tracing_internal
+[ 20%] Built target ruy_thread_pool
+[ 20%] Built target absl_cordz_functions
+[ 20%] Built target absl_debugging_internal
+[ 20%] Built target absl_malloc_internal
+[ 20%] Built target absl_city
+[ 20%] Built target absl_int128
+[ 22%] Built target absl_decode_rust_punycode
+[ 22%] Built target ruy_pack_arm
+[ 22%] Built target ruy_kernel_arm
+[ 22%] Built target absl_crc_cpu_detect
+[ 22%] Built target ruy_kernel_avx512
+[ 22%] Built target ruy_pack_avx512
+[ 22%] Built target ruy_pack_avx2_fma
+[ 24%] Built target ruy_kernel_avx2_fma
+[ 24%] Built target ruy_kernel_avx
+[ 24%] Built target ruy_pack_avx
+[ 24%] Built target ruy_ctx
+[ 24%] Built target absl_demangle_rust
+[ 24%] Building CXX object _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/internal/conditions.cc.o
+[ 24%] Built target absl_strings_internal
+[ 24%] Built target absl_graphcycles_internal
+-- The CXX compiler identification is unknown
+CMake Error at CMakeLists.txt:7 (project):
+  No CMAKE_CXX_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+[ 24%] Built target absl_crc_internal
+-- Configuring incomplete, errors occurred!
+[ 24%] Built target ruy_context
+[ 24%] Built target ruy_trmul
+gmake[3]: *** [CMakeFiles/flatbuffers-flatc.dir/build.make:92: flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-configure] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:2126: CMakeFiles/flatbuffers-flatc.dir/all] Error 2
+gmake[2]: *** Waiting for unfinished jobs....
+[ 26%] Built target ruy_prepare_packed_matrices
+[ 26%] Built target ruy_context_get_ctx
+[ 26%] Built target absl_demangle_internal
+[ 28%] Built target absl_strings
+[ 28%] Linking CXX static library libabsl_log_internal_conditions.a
+[ 28%] Built target absl_log_internal_conditions
+[ 28%] Linking CXX static library ../../../lib/libgmock.a
+[ 28%] Built target gmock
+gmake[1]: *** [CMakeFiles/Makefile2:10797: kernels/CMakeFiles/internal-depthwiseconv_quantized_test.dir/rule] Error 2
+gmake: *** [Makefile:2493: internal-depthwiseconv_quantized_test] Error 2
+[  0%] Built target ruy_profiler_instrumentation
+[  0%] Built target absl_log_severity
+[  0%] Built target absl_utf8_for_code_point
+[  0%] Built target absl_exponential_biased
+[  0%] Built target absl_strerror
+[  0%] Built target absl_spinlock_wait
+[  2%] Built target re2
+[  2%] Built target absl_time_zone
+[  2%] Built target absl_civil_time
+[  2%] Built target absl_leak_check
+[  2%] Built target absl_flags_commandlineflag_internal
+[  2%] Built target farmhash
+[  2%] Built target fft2d_fftsg
+[  4%] Built target cpuinfo
+[  6%] Built target flatbuffers
+[  6%] Built target eight_bit_int_gemm
+[  6%] Built target ruy_block_map
+[  6%] Built target ruy_wait
+[  6%] Built target ruy_system_aligned_alloc
+[  8%] Built target ruy_denormal
+[ 10%] Built target ruy_apply_multiplier
+[ 10%] Built target ruy_have_built_path_for_avx512
+[ 10%] Built target ruy_have_built_path_for_avx
+[ 10%] Built target ruy_have_built_path_for_avx2_fma
+[ 10%] Built target absl_log_internal_nullguard
+[ 10%] Performing configure step for 'flatbuffers-flatc'
+[ 10%] Built target gtest
+[ 10%] Built target absl_raw_logging_internal
+[ 13%] Built target fft2d_fftsg2d
+[ 15%] Built target ruy_allocator
+[ 15%] Built target benchmark
+-- Proceeding with version: 25.9.23.0
+[ 15%] Built target ruy_cpuinfo
+[ 15%] Built target ruy_prepacked_cache
+[ 15%] Built target gmock
+[ 15%] Built target ruy_blocking_counter
+[ 15%] Built target absl_base
+[ 15%] Built target absl_throw_delegate
+[ 15%] Built target absl_debugging_internal
+[ 15%] Built target absl_cordz_functions
+[ 17%] Built target ruy_tune
+[ 19%] Built target absl_tracing_internal
+[ 19%] Built target ruy_thread_pool
+[ 19%] Built target absl_malloc_internal
+[ 19%] Built target absl_int128
+[ 19%] Built target absl_crc_cpu_detect
+[ 19%] Built target absl_city
+[ 21%] Built target absl_decode_rust_punycode
+[ 23%] Built target ruy_kernel_arm
+[ 23%] Built target ruy_kernel_avx2_fma
+[ 23%] Built target ruy_kernel_avx512
+[ 23%] Built target ruy_pack_avx512
+[ 23%] Built target ruy_pack_arm
+[ 23%] Built target ruy_pack_avx2_fma
+[ 23%] Built target ruy_kernel_avx
+[ 23%] Built target absl_strings_internal
+[ 23%] Built target absl_log_internal_conditions
+[ 23%] Built target ruy_pack_avx
+[ 23%] Built target ruy_ctx
+[ 23%] Built target absl_demangle_rust
+[ 23%] Built target absl_graphcycles_internal
+[ 23%] Built target absl_crc_internal
+[ 23%] Built target ruy_context
+[ 23%] Built target ruy_trmul
+-- The CXX compiler identification is unknown
+[ 26%] Built target ruy_prepare_packed_matrices
+CMake Error at CMakeLists.txt:7 (project):
+  No CMAKE_CXX_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+[ 28%] Built target absl_strings
+-- Configuring incomplete, errors occurred!
+[ 28%] Built target absl_demangle_internal
+gmake[3]: *** [CMakeFiles/flatbuffers-flatc.dir/build.make:92: flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-configure] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:2126: CMakeFiles/flatbuffers-flatc.dir/all] Error 2
+gmake[2]: *** Waiting for unfinished jobs....
+[ 28%] Built target ruy_context_get_ctx
+[ 28%] Built target ruy_frontend
+[ 28%] Built target absl_hash
+[ 30%] Built target absl_time
+[ 32%] Built target absl_flags_commandlineflag
+[ 32%] Building CXX object _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_proto.dir/internal/proto.cc.o
+[ 34%] Built target absl_str_format_internal
+[ 34%] Linking CXX static library libabsl_log_internal_proto.a
+[ 34%] Built target absl_log_internal_proto
+gmake[1]: *** [CMakeFiles/Makefile2:10386: kernels/CMakeFiles/internal-depthwiseconv_float_test.dir/rule] Error 2
+gmake: *** [Makefile:2454: internal-depthwiseconv_float_test] Error 2

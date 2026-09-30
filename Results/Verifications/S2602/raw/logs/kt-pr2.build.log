@@ -1,0 +1,111 @@
+gmake: *** No rule to make target 'depthwiseconv_quantized_test'.  Stop.
+gmake: *** No rule to make target 'depthwiseconv_float_test'.  Stop.
+gmake: *** No rule to make target 'depthwiseconv_per_channel_quantized_test'.  Stop.
+gmake: *** No rule to make target 'softmax_quantized_test'.  Stop.
+[  0%] Built target absl_utf8_for_code_point
+[  0%] Built target ruy_profiler_instrumentation
+[  0%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/bitstate.cc.o
+[  0%] Built target absl_spinlock_wait
+[  0%] Built target absl_exponential_biased
+[  0%] Built target absl_strerror
+[  0%] Built target absl_log_severity
+[  0%] Built target absl_time_zone
+[  0%] Built target absl_civil_time
+[  0%] Built target absl_flags_commandlineflag_internal
+[  0%] Built target absl_leak_check
+[  0%] Built target eight_bit_int_gemm
+[  0%] Built target farmhash
+[  0%] Built target fft2d_fftsg
+[  2%] Built target flatbuffers
+[  2%] Built target ruy_wait
+[  2%] Built target ruy_system_aligned_alloc
+[  2%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/compile.cc.o
+[  4%] Built target cpuinfo
+[  4%] Built target ruy_block_map
+[  6%] Built target ruy_denormal
+[  6%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/dfa.cc.o
+[  6%] Built target ruy_have_built_path_for_avx2_fma
+[  8%] Built target ruy_apply_multiplier
+[  8%] Built target ruy_have_built_path_for_avx512
+[  8%] Built target ruy_have_built_path_for_avx
+[  8%] Building CXX object _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_nullguard.dir/internal/nullguard.cc.o
+[  8%] Creating directories for 'flatbuffers-flatc'
+[  8%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[  8%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/benchmark.cc.o
+[  8%] Built target absl_raw_logging_internal
+[  8%] No download step for 'flatbuffers-flatc'
+[  8%] No update step for 'flatbuffers-flatc'
+[ 11%] Built target fft2d_fftsg2d
+[ 11%] Built target ruy_cpuinfo
+[ 11%] No patch step for 'flatbuffers-flatc'
+[ 11%] Built target ruy_prepacked_cache
+[ 11%] Performing configure step for 'flatbuffers-flatc'
+-- Proceeding with version: 25.9.23.0
+[ 11%] Built target ruy_allocator
+[ 11%] Built target ruy_blocking_counter
+[ 11%] Built target absl_base
+[ 11%] Linking CXX static library libabsl_log_internal_nullguard.a
+[ 11%] Built target absl_throw_delegate
+[ 11%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/filtered_re2.cc.o
+[ 11%] Built target absl_log_internal_nullguard
+-- The CXX compiler identification is unknown
+CMake Error at CMakeLists.txt:7 (project):
+  No CMAKE_CXX_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+[ 13%] Built target absl_tracing_internal
+-- Configuring incomplete, errors occurred!
+gmake[3]: *** [CMakeFiles/flatbuffers-flatc.dir/build.make:92: flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-configure] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:2126: CMakeFiles/flatbuffers-flatc.dir/all] Error 2
+gmake[2]: *** Waiting for unfinished jobs....
+[ 13%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/mimics_pcre.cc.o
+[ 13%] Built target absl_strings_internal
+[ 13%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/nfa.cc.o
+[ 13%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/onepass.cc.o
+[ 13%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/parse.cc.o
+[ 13%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/perl_groups.cc.o
+[ 15%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/prefilter.cc.o
+[ 15%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o
+[ 15%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o
+[ 15%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
+[ 15%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o
+[ 15%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/check.cc.o
+[ 15%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/colorprint.cc.o
+[ 15%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o
+[ 15%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/prefilter_tree.cc.o
+[ 15%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/complexity.cc.o
+[ 15%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/console_reporter.cc.o
+[ 15%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/counter.cc.o
+[ 15%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o
+[ 15%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/prog.cc.o
+[ 15%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/json_reporter.cc.o
+[ 15%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/re2.cc.o
+[ 15%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/regexp.cc.o
+[ 15%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/set.cc.o
+[ 15%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/simplify.cc.o
+[ 15%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/stringpiece.cc.o
+[ 15%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/tostring.cc.o
+[ 17%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/perf_counters.cc.o
+[ 17%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/reporter.cc.o
+[ 17%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/sleep.cc.o
+[ 17%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/statistics.cc.o
+[ 17%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/unicode_casefold.cc.o
+[ 17%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/re2/unicode_groups.cc.o
+[ 17%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/util/rune.cc.o
+[ 17%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/string_util.cc.o
+[ 17%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/sysinfo.cc.o
+[ 17%] Building CXX object _deps/google_benchmark-build/src/CMakeFiles/benchmark.dir/timers.cc.o
+[ 17%] Building CXX object _deps/re2-build/CMakeFiles/re2.dir/util/strutil.cc.o
+[ 17%] Linking CXX static library libre2.a
+[ 17%] Built target re2
+[ 17%] Linking CXX static library libbenchmark.a
+[ 17%] Built target benchmark
+[ 17%] Linking CXX static library ../../../lib/libgtest.a
+[ 17%] Built target gtest
+gmake[1]: *** [CMakeFiles/Makefile2:22853: kernels/CMakeFiles/resize_bilinear_test.dir/rule] Error 2
+gmake: *** [Makefile:3637: resize_bilinear_test] Error 2
+gmake: *** No rule to make target 'tensor_utils_test'.  Stop.

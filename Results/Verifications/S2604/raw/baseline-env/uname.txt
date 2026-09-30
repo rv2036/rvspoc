@@ -1,0 +1,1 @@
+Linux ubuntu 6.18.3+ #13 SMP PREEMPT_DYNAMIC Wed Jul 22 11:59:41 UTC 2026 riscv64 riscv64 riscv64 GNU/Linux
