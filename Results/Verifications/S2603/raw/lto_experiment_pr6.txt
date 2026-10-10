@@ -1,0 +1,3 @@
+# phase5 原实验漏传 BUILD_RVV=yes（rvv_optim.o 未参与编译），结论无效；本次补正。
+# 命令 = 选手文档构建 + CC=gcc-14 + -fno-lto
+PR6-LTO-RETEST: PASS (BUILD_RVV=yes + -fno-lto 编译通过，RVV 对象已包含)

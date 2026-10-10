@@ -1,0 +1,26 @@
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from OptionsSettableTest
+[ RUN      ] OptionsSettableTest.BlockBasedTableOptionsAllFieldsSettable
+[       OK ] OptionsSettableTest.BlockBasedTableOptionsAllFieldsSettable (1 ms)
+[ RUN      ] OptionsSettableTest.TablePropertiesAllFieldsSettable
+[       OK ] OptionsSettableTest.TablePropertiesAllFieldsSettable (0 ms)
+[ RUN      ] OptionsSettableTest.DBOptionsAllFieldsSettable
+[       OK ] OptionsSettableTest.DBOptionsAllFieldsSettable (0 ms)
+[ RUN      ] OptionsSettableTest.ColumnFamilyOptionsAllFieldsSettable
+options/options_settable_test.cc:704: Failure
+Expected equality of these values:
+  unset_bytes_base
+    Which is: 95
+  NumUnsetBytes(new_options_ptr, sizeof(ColumnFamilyOptions), kColumnFamilyOptionsExcluded)
+    Which is: 119
+[  FAILED  ] OptionsSettableTest.ColumnFamilyOptionsAllFieldsSettable (1 ms)
+[----------] 4 tests from OptionsSettableTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (2 ms total)
+[  PASSED  ] 3 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] OptionsSettableTest.ColumnFamilyOptionsAllFieldsSettable
+
+ 1 FAILED TEST

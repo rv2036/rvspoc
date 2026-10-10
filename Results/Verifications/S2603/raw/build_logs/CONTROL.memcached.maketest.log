@@ -1,0 +1,379 @@
+./sizes
+Slab Stats	64
+Thread stats	2352
+Global stats	232
+Settings	352
+Item (no cas)	48
+Item (cas)	56
+extstore header	12
+Libevent thread	544
+Connection	440
+Response object	1192
+Response bundle	32
+Response objects per bundle	13
+----------------------------------------
+libevent thread cumulative	6992
+Thread stats cumulative		6448
+./testapp
+1..56
+ok 1 - cache_create
+ok 2 - cache_reuse
+ok 3 - cache_redzone
+ok 4 - cache_limit_revised_downward
+ok 5 - stats_prefix_find
+ok 6 - stats_prefix_record_get
+ok 7 - stats_prefix_record_delete
+ok 8 - stats_prefix_record_set
+ok 9 - stats_prefix_dump
+ok 10 - issue_161
+ok 11 - strtol
+ok 12 - strtoll
+ok 13 - strtoul
+ok 14 - strtoull
+ok 15 - issue_44
+ok 16 - vperror
+ok 17 - issue_101
+ok 18 - crc32c
+ok 19 - start_server
+ok 20 - issue_92
+ok 21 - issue_102
+ok 22 - binary_noop
+ok 23 - binary_quit
+ok 24 - binary_quitq
+ok 25 - binary_set
+ok 26 - binary_setq
+ok 27 - binary_add
+ok 28 - binary_addq
+ok 29 - binary_replace
+ok 30 - binary_replaceq
+ok 31 - binary_delete
+ok 32 - binary_deleteq
+ok 33 - binary_get
+ok 34 - binary_getq
+ok 35 - binary_getk
+ok 36 - binary_getkq
+ok 37 - binary_gat
+ok 38 - binary_gatq
+ok 39 - binary_gatk
+ok 40 - binary_gatkq
+ok 41 - binary_incr
+ok 42 - binary_incrq
+ok 43 - binary_decr
+ok 44 - binary_decrq
+ok 45 - binary_version
+ok 46 - binary_flush
+ok 47 - binary_flushq
+ok 48 - binary_append
+ok 49 - binary_appendq
+ok 50 - binary_prepend
+ok 51 - binary_prependq
+ok 52 - binary_stat
+ok 53 - binary_illegal
+ok 54 - binary_pipeline_hickup
+ok 55 - shutdown
+ok 56 - stop_server
+getaddrinfo(): Temporary failure in name resolution
+failed to listen on one of interface(s) fooble: Resource temporarily unavailable
+slab class   1: chunk size        96 perslab   10922
+slab class   2: chunk size       120 perslab    8738
+slab class   3: chunk size       152 perslab    6898
+slab class   4: chunk size       192 perslab    5461
+slab class   5: chunk size       240 perslab    4369
+slab class   6: chunk size       304 perslab    3449
+slab class   7: chunk size       384 perslab    2730
+slab class   8: chunk size       480 perslab    2184
+slab class   9: chunk size       600 perslab    1747
+slab class  10: chunk size       752 perslab    1394
+slab class  11: chunk size       944 perslab    1110
+slab class  12: chunk size      1184 perslab     885
+slab class  13: chunk size      1480 perslab     708
+slab class  14: chunk size      1856 perslab     564
+slab class  15: chunk size      2320 perslab     451
+slab class  16: chunk size      2904 perslab     361
+slab class  17: chunk size      3632 perslab     288
+slab class  18: chunk size      4544 perslab     230
+slab class  19: chunk size      5680 perslab     184
+slab class  20: chunk size      7104 perslab     147
+slab class  21: chunk size      8880 perslab     118
+slab class  22: chunk size     11104 perslab      94
+slab class  23: chunk size     13880 perslab      75
+slab class  24: chunk size     17352 perslab      60
+slab class  25: chunk size     21696 perslab      48
+slab class  26: chunk size     27120 perslab      38
+slab class  27: chunk size     33904 perslab      30
+slab class  28: chunk size     42384 perslab      24
+slab class  29: chunk size     52984 perslab      19
+slab class  30: chunk size     66232 perslab      15
+slab class  31: chunk size     82792 perslab      12
+slab class  32: chunk size    103496 perslab      10
+slab class  33: chunk size    129376 perslab       8
+slab class  34: chunk size    161720 perslab       6
+slab class  35: chunk size    202152 perslab       5
+slab class  36: chunk size    252696 perslab       4
+slab class  37: chunk size    315872 perslab       3
+slab class  38: chunk size    394840 perslab       2
+slab class  39: chunk size    524288 perslab       2
+<26 server listening (auto-negotiate)
+<27 new auto-negotiating client connection
+<27 connection closed.
+slab class   1: chunk size        96 perslab   10922
+slab class   2: chunk size       120 perslab    8738
+slab class   3: chunk size       152 perslab    6898
+slab class   4: chunk size       192 perslab    5461
+slab class   5: chunk size       240 perslab    4369
+slab class   6: chunk size       304 perslab    3449
+slab class   7: chunk size       384 perslab    2730
+slab class   8: chunk size       480 perslab    2184
+slab class   9: chunk size       600 perslab    1747
+slab class  10: chunk size       752 perslab    1394
+slab class  11: chunk size       944 perslab    1110
+slab class  12: chunk size      1184 perslab     885
+slab class  13: chunk size      1480 perslab     708
+slab class  14: chunk size      1856 perslab     564
+slab class  15: chunk size      2320 perslab     451
+slab class  16: chunk size      2904 perslab     361
+slab class  17: chunk size      3632 perslab     288
+slab class  18: chunk size      4544 perslab     230
+slab class  19: chunk size      5680 perslab     184
+slab class  20: chunk size      7104 perslab     147
+slab class  21: chunk size      8880 perslab     118
+slab class  22: chunk size     11104 perslab      94
+slab class  23: chunk size     13880 perslab      75
+slab class  24: chunk size     17352 perslab      60
+slab class  25: chunk size     21696 perslab      48
+slab class  26: chunk size     27120 perslab      38
+slab class  27: chunk size     33904 perslab      30
+slab class  28: chunk size     42384 perslab      24
+slab class  29: chunk size     52984 perslab      19
+slab class  30: chunk size     66232 perslab      15
+slab class  31: chunk size     82792 perslab      12
+slab class  32: chunk size    103496 perslab      10
+slab class  33: chunk size    129376 perslab       8
+slab class  34: chunk size    161720 perslab       6
+slab class  35: chunk size    202152 perslab       5
+slab class  36: chunk size    252696 perslab       4
+slab class  37: chunk size    315872 perslab       3
+slab class  38: chunk size    394840 perslab       2
+slab class  39: chunk size    524288 perslab       2
+<26 server listening (ascii)
+<27 new ascii client connection.
+<27 connection closed.
+slab class   1: chunk size        96 perslab   10922
+slab class   2: chunk size       120 perslab    8738
+slab class   3: chunk size       152 perslab    6898
+slab class   4: chunk size       192 perslab    5461
+slab class   5: chunk size       240 perslab    4369
+slab class   6: chunk size       304 perslab    3449
+slab class   7: chunk size       384 perslab    2730
+slab class   8: chunk size       480 perslab    2184
+slab class   9: chunk size       600 perslab    1747
+slab class  10: chunk size       752 perslab    1394
+slab class  11: chunk size       944 perslab    1110
+slab class  12: chunk size      1184 perslab     885
+slab class  13: chunk size      1480 perslab     708
+slab class  14: chunk size      1856 perslab     564
+slab class  15: chunk size      2320 perslab     451
+slab class  16: chunk size      2904 perslab     361
+slab class  17: chunk size      3632 perslab     288
+slab class  18: chunk size      4544 perslab     230
+slab class  19: chunk size      5680 perslab     184
+slab class  20: chunk size      7104 perslab     147
+slab class  21: chunk size      8880 perslab     118
+slab class  22: chunk size     11104 perslab      94
+slab class  23: chunk size     13880 perslab      75
+slab class  24: chunk size     17352 perslab      60
+slab class  25: chunk size     21696 perslab      48
+slab class  26: chunk size     27120 perslab      38
+slab class  27: chunk size     33904 perslab      30
+slab class  28: chunk size     42384 perslab      24
+slab class  29: chunk size     52984 perslab      19
+slab class  30: chunk size     66232 perslab      15
+slab class  31: chunk size     82792 perslab      12
+slab class  32: chunk size    103496 perslab      10
+slab class  33: chunk size    129376 perslab       8
+slab class  34: chunk size    161720 perslab       6
+slab class  35: chunk size    202152 perslab       5
+slab class  36: chunk size    252696 perslab       4
+slab class  37: chunk size    315872 perslab       3
+slab class  38: chunk size    394840 perslab       2
+slab class  39: chunk size    524288 perslab       2
+<26 server listening (binary)
+<27 new binary client connection.
+<27 connection closed.
+Invalid value for binding protocol: http
+ -- should be one of auto, binary, or ascii
+Exiting normally
+Maximum connections must be greater than 0
+Exiting normally
+Exiting normally
+Maximum connections must be greater than 0
+Number of threads must be greater than 0
+t/00-startup.t .............. ok
+t/64bit.t ................... ok
+t/ascii-auth.t .............. ok
+t/ascii-auth2.t ............. ok
+t/binary-extstore.t ......... ok
+t/binary-get.t .............. ok
+This server is not built with SASL support.
+t/binary-sasl.t ............. ok
+# Some chunked item tests
+t/binary.t .................. ok
+t/bogus-commands.t .......... ok
+t/cas.t ..................... ok
+t/chunked-extstore.t ........ ok
+t/chunked-items.t ........... ok
+t/conn-limits.t ............. ok
+t/daemonize.t ............... ok
+t/dash-M.t .................. ok
+t/dyn-maxbytes.t ............ ok
+t/error-extstore.t .......... ok
+t/evictions.t ............... ok
+t/expirations.t ............. ok
+t/extstore-buckets.t ........ ok
+t/extstore-cas.t ............ ok
+t/extstore-jbod.t ........... ok
+t/extstore-overdel.t ........ ok
+supplied ext_path has zero size, cannot use
+must supply size to ext_path, ie: ext_path=/f/e:64m (m|g|t|p supported)
+failed to parse ext_path argument
+Failed to initialize external storage: failed to open file
+extstore open: Resource temporarily unavailable
+t/extstore-start.t .......... ok
+t/extstore-tiered.t ......... ok
+t/extstore-tiered2.t ........ ok
+t/extstore.t ................ ok
+t/flags.t ................... ok
+t/flush-all.t ............... ok
+t/getandtouch.t ............. ok
+t/getset.t .................. ok
+t/idle-timeout.t ............ ok
+t/incrdecr.t ................ ok
+t/issue_104.t ............... ok
+t/issue_108.t ............... ok
+t/issue_14.t ................ ok
+t/issue_140.t ............... skipped: Fix for Issue 140 was only an illusion
+t/issue_152.t ............... ok
+t/issue_163.t ............... ok
+t/issue_183.t ............... ok
+t/issue_192.t ............... ok
+t/issue_22.t ................ ok
+t/issue_260.t ............... skipped: Only possible to test #260 under artificial conditions
+t/issue_29.t ................ ok
+t/issue_3.t ................. ok
+t/issue_41.t ................ ok
+t/issue_42.t ................ ok
+t/issue_50.t ................ ok
+t/issue_61.t ................ ok
+t/issue_67.t ................ ok
+t/issue_68.t ................ ok
+t/issue_70.t ................ ok
+Item max size cannot be less than 1024 bytes.
+Cannot set item size limit higher than 1/2 of memory max.
+t/item_size_max.t ........... ok
+t/line-lengths.t ............ ok
+t/lru-crawler.t ............. ok
+t/lru-maintainer.t .......... ok
+t/lru.t ..................... ok
+t/malicious-commands.t ...... ok
+t/maxconns.t ................ ok
+t/metaget.t ................. ok
+t/misbehave.t ............... skipped: Privilege drop not supported
+t/multiversioning.t ......... ok
+t/noreply.t ................. ok
+t/proxyantiflap.t ........... skipped: proxy not enabled
+t/proxybestats.t ............ skipped: proxy not enabled
+t/proxyconfig.t ............. skipped: proxy not enabled
+t/proxyconfigmulti.t ........ skipped: proxy not enabled
+t/proxycron.t ............... skipped: proxy not enabled
+t/proxydepthlim.t ........... skipped: proxy not enabled
+t/proxyfuncgen.t ............ skipped: proxy not enabled
+t/proxyins.t ................ skipped: proxy not enabled
+t/proxyinternal.t ........... skipped: proxy not enabled
+t/proxyinternal2.t .......... skipped: proxy not enabled
+t/proxyintext.t ............. skipped: proxy not enabled
+t/proxyintstats.t ........... skipped: proxy not enabled
+t/proxylimits.t ............. skipped: proxy not enabled
+t/proxymatch.t .............. skipped: proxy not enabled
+t/proxyms.t ................. skipped: proxy not enabled
+t/proxymut.t ................ skipped: proxy not enabled
+t/proxyratelim.t ............ skipped: proxy not enabled
+t/proxyrctxtimeout.t ........ skipped: proxy not enabled
+t/proxyrequest.t ............ skipped: proxy not enabled
+t/proxyroutelib.t ........... skipped: proxy not enabled
+t/proxyrouter.t ............. skipped: proxy not enabled
+t/proxyslotcache.t .......... skipped: proxy not enabled
+Use of uninitialized value $modefile in unlink at t/proxytags.t line 76.
+t/proxytags.t ............... skipped: proxy not enabled
+t/proxyunits.t .............. skipped: proxy not enabled
+t/proxyustats.t ............. skipped: proxy not enabled
+t/quit.t .................... ok
+t/refhang.t ................. skipped: Test is flaky. Needs special hooks.
+[restart] Failed to read a tag from metadata file
+[restart] no metadata save file, starting with a clean cache
+# restart basic stats
+# Set some values, various sizes.
+# load enough items to change hash power level
+# Load a couple chunked items
+# Data that should expire while stopped.
+# killed, waiting
+Gracefully stopping
+# reconnected
+# low TTL item should be gone
+t/restart.t ................. ok
+Gracefully stopping
+t/shutdown.t ................ ok
+t/slabhang.t ................ skipped: Test is flaky. Needs special hooks.
+t/slabs-cas.t ............... ok
+t/slabs-mover.t ............. ok
+t/slabs-reassign-chunked.t .. ok
+t/slabs-reassign2.t ......... ok
+t/slabs_reassign.t .......... ok
+t/ssl_cert_refresh.t ........ skipped: SSL testing is not enabled
+t/ssl_ports.t ............... skipped: SSL testing is not enabled
+t/ssl_proto_version.t ....... skipped: SSL testing is not enabled
+t/ssl_session_resumption.t .. skipped: SSL testing is not enabled
+t/ssl_settings.t ............ skipped: SSL testing is not enabled
+t/ssl_verify_modes.t ........ skipped: SSL testing is not enabled
+PORT: 31118
+t/stats-conns.t ............. ok
+t/stats-detail.t ............ ok
+t/stats.t ................... ok
+t/strtol-testing.t .......... ok
+t/touch.t ................... ok
+t/udp.t ..................... ok
+t/unixsocket.t .............. ok
+t/watcher.t ................. ok
+t/watcher_connid.t .......... ok
+t/whitespace.t .............. skipped: Skipping test because this does not appear to be a memcached git working directory
+All tests successful.
+Files=114, Tests=180086, 390 wallclock secs (15.15 usr  2.37 sys + 48.66 cusr 20.96 csys = 87.14 CPU)
+Result: PASS
+File 'assoc.c' Lines executed:90.48% of 168 Creating 'assoc.c.gcov' File '/usr/include/stdlib.h' Lines executed:0.00% of 1 Creating 'stdlib.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:0.00% of 1 Creating 'stdio2.h.gcov' Lines executed:89.41% of 170
+File 'authfile.c' Lines executed:88.89% of 54 Creating 'authfile.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:50.00% of 6 Creating 'stdio2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 1 Creating 'string_fortified.h.gcov' Lines executed:85.25% of 61
+File 'base64.c' Lines executed:80.00% of 60 Creating 'base64.c.gcov' Lines executed:80.00% of 60
+File 'bipbuffer.c' Lines executed:66.15% of 65 Creating 'bipbuffer.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 1 Creating 'string_fortified.h.gcov' Lines executed:66.67% of 66
+File 'cache.c' Lines executed:73.33% of 75 Creating 'cache.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 1 Creating 'string_fortified.h.gcov' Lines executed:73.68% of 76
+File 'crawler.c' Lines executed:73.66% of 505 Creating 'crawler.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 2 Creating 'string_fortified.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:0.00% of 1 Creating 'stdio2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/poll2.h' Lines executed:100.00% of 1 Creating 'poll2.h.gcov' Lines executed:73.67% of 509
+File 'crc32c.c' Lines executed:52.58% of 97 Creating 'crc32c.c.gcov' Lines executed:52.58% of 97
+File 'daemon.c' Lines executed:33.33% of 27 Creating 'daemon.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/fcntl2.h' Lines executed:100.00% of 4 Creating 'fcntl2.h.gcov' Lines executed:41.94% of 31
+File 'extstore.c' Lines executed:89.45% of 531 Creating 'extstore.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/unistd.h' Lines executed:100.00% of 1 Creating 'unistd.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 2 Creating 'string_fortified.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/fcntl2.h' Lines executed:100.00% of 4 Creating 'fcntl2.h.gcov' Lines executed:89.59% of 538
+File 'hash.c' Lines executed:62.50% of 16 Creating 'hash.c.gcov' File 'xxhash.h' Lines executed:0.00% of 168 Creating 'xxhash.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:0.00% of 1 Creating 'string_fortified.h.gcov' Lines executed:5.41% of 185
+File 'items.c' Lines executed:91.80% of 1049 Creating 'items.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:50.00% of 2 Creating 'stdio2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 3 Creating 'string_fortified.h.gcov' Lines executed:91.75% of 1054
+File 'itoa_ljust.c' Lines executed:85.19% of 54 Creating 'itoa_ljust.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 1 Creating 'string_fortified.h.gcov' Lines executed:85.45% of 55
+File 'jenkins_hash.c' Lines executed:37.63% of 93 Creating 'jenkins_hash.c.gcov' Lines executed:37.63% of 93
+File 'logger.c' Lines executed:87.25% of 502 Creating 'logger.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:66.67% of 3 Creating 'stdio2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 3 Creating 'string_fortified.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/poll2.h' Lines executed:100.00% of 1 Creating 'poll2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/byteswap.h' Lines executed:0.00% of 1 Creating 'byteswap.h.gcov' Lines executed:87.06% of 510
+File 'vendor/mcmc/mcmc.c' Lines executed:22.89% of 450 Creating 'mcmc.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:0.00% of 1 Creating 'string_fortified.h.gcov' Lines executed:22.84% of 451
+File 'memcached.c' Lines executed:72.55% of 3093 Creating 'memcached.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:57.14% of 7 Creating 'stdio2.h.gcov' File '/usr/include/stdlib.h' Lines executed:100.00% of 1 Creating 'stdlib.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdlib-float.h' Lines executed:0.00% of 1 Creating 'stdlib-float.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/fcntl2.h' Lines executed:0.00% of 4 Creating 'fcntl2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/unistd.h' Lines executed:100.00% of 1 Creating 'unistd.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:80.00% of 5 Creating 'string_fortified.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/byteswap.h' Lines executed:100.00% of 2 Creating 'byteswap.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/socket2.h' Lines executed:50.00% of 6 Creating 'socket2.h.gcov' Lines executed:72.40% of 3120
+File 'murmur3_hash.c' Lines executed:100.00% of 34 Creating 'murmur3_hash.c.gcov' Lines executed:100.00% of 34
+File 'proto_bin.c' Lines executed:68.67% of 766 Creating 'proto_bin.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:50.00% of 2 Creating 'stdio2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/byteswap.h' Lines executed:100.00% of 2 Creating 'byteswap.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 1 Creating 'string_fortified.h.gcov' Lines executed:68.74% of 771
+File 'proto_parser.c' Lines executed:75.20% of 1105 Creating 'proto_parser.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 1 Creating 'string_fortified.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:0.00% of 1 Creating 'stdio2.h.gcov' Lines executed:75.16% of 1107
+File 'proto_text.c' Lines executed:71.57% of 999 Creating 'proto_text.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:50.00% of 2 Creating 'stdio2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 2 Creating 'string_fortified.h.gcov' Lines executed:71.59% of 1003
+File 'restart.c' Lines executed:79.26% of 217 Creating 'restart.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:100.00% of 2 Creating 'stdio2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/fcntl2.h' Lines executed:100.00% of 4 Creating 'fcntl2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 1 Creating 'string_fortified.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio.h' Lines executed:100.00% of 1 Creating 'stdio.h.gcov' Lines executed:80.00% of 225
+File 'slab_automove_extstore.c' Lines executed:88.24% of 119 Creating 'slab_automove_extstore.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 2 Creating 'string_fortified.h.gcov' Lines executed:88.43% of 121
+File 'slab_automove.c' Lines executed:97.65% of 85 Creating 'slab_automove.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 2 Creating 'string_fortified.h.gcov' Lines executed:97.70% of 87
+File 'slabs.c' Lines executed:86.04% of 437 Creating 'slabs.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 1 Creating 'string_fortified.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:40.00% of 5 Creating 'stdio2.h.gcov' Lines executed:85.55% of 443
+File 'slabs_mover.c' Lines executed:86.73% of 339 Creating 'slabs_mover.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:0.00% of 1 Creating 'stdio2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 2 Creating 'string_fortified.h.gcov' Lines executed:86.55% of 342
+File 'stats_prefix.c' Lines executed:91.75% of 97 Creating 'stats_prefix.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:100.00% of 1 Creating 'stdio2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 3 Creating 'string_fortified.h.gcov' Lines executed:92.08% of 101
+File 'storage.c' Lines executed:87.24% of 901 Creating 'storage.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:100.00% of 2 Creating 'stdio2.h.gcov' File '/usr/include/stdlib.h' Lines executed:100.00% of 1 Creating 'stdlib.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 2 Creating 'string_fortified.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/byteswap.h' Lines executed:100.00% of 1 Creating 'byteswap.h.gcov' Lines executed:87.32% of 907
+File 'thread.c' Lines executed:78.68% of 516 Creating 'thread.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:0.00% of 1 Creating 'stdio2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 1 Creating 'string_fortified.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/unistd.h' Lines executed:100.00% of 1 Creating 'unistd.h.gcov' Lines executed:78.61% of 519
+File 'util.c' Lines executed:95.83% of 144 Creating 'util.c.gcov' File '/usr/include/riscv64-linux-gnu/bits/stdio2.h' Lines executed:100.00% of 2 Creating 'stdio2.h.gcov' File '/usr/include/riscv64-linux-gnu/bits/string_fortified.h' Lines executed:100.00% of 1 Creating 'string_fortified.h.gcov' Lines executed:95.92% of 147

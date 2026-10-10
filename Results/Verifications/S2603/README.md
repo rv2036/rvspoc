@@ -64,4 +64,8 @@
 |---|---|
 | `perf_summary.tsv` | 全部性能原始记录（memtier Totals 行） |
 | `s2603-pr4-raw.tar.xz` | PR 4 补测八场景 × 3 轮的原始 memtier 输出 |
-| （热点采样原始数据与基线环境快照） | 板上路径 `~/rvspoc-perf/hotspot/`，复核需要时由组委会另行提供 |
+| `s2603-pr3/`、`s2603-pr6-CONDITIONAL/` | 其余提交的逐轮 memtier 原始输出 |
+| `hotspot/` | 热点采样原始数据（perf .data 与 top 输出，覆盖率分母依据） |
+| `build_logs/` | 各提交构建与测试日志（含 LTO 对照、nolto 变体、对照组） |
+| `correctness.tsv`、`build_status.tsv` 等 | 阶段结果汇总表（含 `lto_experiment*.txt`——LTO 归因实验原始记录） |
+| `build_all.sh`、`correctness.sh`、`phase2–8.sh` 等 | 验证流水线脚本 |

@@ -1,0 +1,4 @@
+S2604 #3 完整构建后 testapp: exit=0 (按选手文档全部目标)
+S2605 #1 标量构建(PORTABLE=rv64gc) MockEnvTest: exit=0
+  标量版正常 → 崩溃发生在 RVV 路径
+PHASE6 DONE

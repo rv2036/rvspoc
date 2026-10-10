@@ -1,0 +1,40 @@
+     9.67%  redis-server  libc.so.6      [.] __GI___libc_write
+                                     0x5d630067001bc317
+     6.71%  redis-server  redis-server   [.] processInputBuffer
+                       0x5d630067001bc317
+     6.38%  redis-server  libc.so.6      [.] read
+                                     0x5d630067001bc317
+     6.20%  redis-server  redis-server   [.] writeToClient
+                       0x5d630067001bc317
+     5.59%  redis-server  redis-server   [.] readQueryFromClient
+                       0x5d630067001bc317
+     4.18%  redis-server  redis-server   [.] updateClientMemUsageAndBucket
+     4.13%  redis-server  [vdso]         [.] __vdso_clock_gettime
+                          0x5d630067001bc317
+     3.10%  redis-server  redis-server   [.] call
+                       0x5d630067001bc317
+     2.86%  redis-server  redis-server   [.] dictFindLinkInternal.lto_priv.0
+     2.68%  redis-server  redis-server   [.] handleClientsWithPendingWrites
+                       0x5d630067001bc317
+     2.07%  redis-server  redis-server   [.] connSocketEventHandler
+                       0x5d630067001bc317
+     1.97%  redis-server  redis-server   [.] processCommand
+                       0x5d630067001bc317
+     1.78%  redis-server  redis-server   [.] resetClientInternal.lto_priv.0
+                       0x5d630067001bc317
+     1.74%  redis-server  redis-server   [.] addReply
+                                  0x5d630067001bc317
+     1.64%  redis-server  redis-server   [.] aeMain
+               0x5d630067001bc317
+     1.31%  redis-server  libc.so.6      [.] __strcasecmp
+                                     0x5d630067001bc317
+     1.31%  redis-server  redis-server   [.] zmalloc_usable
+                       0x5d630067001bc317
+     1.27%  redis-server  redis-server   [.] resetReusableQueryBuf.lto_priv.0
+                                             0x5d630067001bc317
+     1.27%  redis-server  redis-server   [.] siphash
+                          0x5d630067001bc317
+     1.22%  redis-server  redis-server   [.] decrRefCount.part.0
+                       0x5d630067001bc317
+     1.22%  redis-server  redis-server   [.] lookupKey.constprop.0
+     1.17%  redis-server  libc.so.6      [.] memchr

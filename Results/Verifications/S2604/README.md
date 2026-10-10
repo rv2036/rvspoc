@@ -56,5 +56,7 @@
 | 内容 | 说明 |
 |---|---|
 | `perf_summary.tsv` | 五场景 × 3 轮原始记录 |
+| `perf_raw/` | 各提交逐轮 memtier 原始输出（`s2604-pr1/2/3`） |
 | `hotspot.tar` | 热点采样原始数据（两道门槛不可达论证的依据） |
 | `baseline-env/` | 基线环境快照 |
+| `hotspot.sh`、`perf_all.sh` 等 | 性能采样与执行脚本 |

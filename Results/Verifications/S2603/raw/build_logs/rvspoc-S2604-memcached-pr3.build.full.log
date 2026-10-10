@@ -1,0 +1,10 @@
+gcc -DHAVE_CONFIG_H -I.     -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT timedrun.o -MD -MP -MF .deps/timedrun.Tpo -c -o timedrun.o timedrun.c
+make: 'rvv-test' is up to date.
+gcc -DHAVE_CONFIG_H -I.     -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT rvv_bench.o -MD -MP -MF .deps/rvv_bench.Tpo -c -o rvv_bench.o rvv_bench.c
+make: 'memcached-debug' is up to date.
+make: 'testapp' is up to date.
+make: 'sizes' is up to date.
+mv -f .deps/timedrun.Tpo .deps/timedrun.Po
+gcc  -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls   -o timedrun timedrun.o  -levent 
+mv -f .deps/rvv_bench.Tpo .deps/rvv_bench.Po
+gcc  -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls   -o rvv-bench rvv_bench.o rvv_optim.o murmur3_hash.o  -levent 

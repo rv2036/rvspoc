@@ -1,0 +1,19 @@
+1..56
+ok 1 - cache_create
+ok 2 - cache_reuse
+ok 3 - cache_redzone
+ok 4 - cache_limit_revised_downward
+ok 5 - stats_prefix_find
+ok 6 - stats_prefix_record_get
+ok 7 - stats_prefix_record_delete
+ok 8 - stats_prefix_record_set
+ok 9 - stats_prefix_dump
+ok 10 - issue_161
+ok 11 - strtol
+ok 12 - strtoll
+ok 13 - strtoul
+ok 14 - strtoull
+testapp: testapp.c:570: start_server: Assertion `execv(argv[0], argv) != -1' failed.
+Failed to start the memcached server.
+testapp: testapp.c:583: start_server: Assertion `false' failed.
+timeout: the monitored command dumped core

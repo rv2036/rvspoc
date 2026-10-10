@@ -1,0 +1,4 @@
+=== 标量 memcached make test 对照 ===
+exit=0
+not-ok 行数: 0
+PHASE4 DONE
