@@ -1,0 +1,105 @@
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-memcached.o -MD -MP -MF .deps/memcached_debug-memcached.Tpo -c -o memcached_debug-memcached.o `test -f 'memcached.c' || echo './'`memcached.c
+mv -f .deps/memcached_debug-memcached.Tpo .deps/memcached_debug-memcached.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-hash.o -MD -MP -MF .deps/memcached_debug-hash.Tpo -c -o memcached_debug-hash.o `test -f 'hash.c' || echo './'`hash.c
+mv -f .deps/memcached_debug-hash.Tpo .deps/memcached_debug-hash.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-jenkins_hash.o -MD -MP -MF .deps/memcached_debug-jenkins_hash.Tpo -c -o memcached_debug-jenkins_hash.o `test -f 'jenkins_hash.c' || echo './'`jenkins_hash.c
+mv -f .deps/memcached_debug-jenkins_hash.Tpo .deps/memcached_debug-jenkins_hash.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-murmur3_hash.o -MD -MP -MF .deps/memcached_debug-murmur3_hash.Tpo -c -o memcached_debug-murmur3_hash.o `test -f 'murmur3_hash.c' || echo './'`murmur3_hash.c
+mv -f .deps/memcached_debug-murmur3_hash.Tpo .deps/memcached_debug-murmur3_hash.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-rvv_optim.o -MD -MP -MF .deps/memcached_debug-rvv_optim.Tpo -c -o memcached_debug-rvv_optim.o `test -f 'rvv_optim.c' || echo './'`rvv_optim.c
+mv -f .deps/memcached_debug-rvv_optim.Tpo .deps/memcached_debug-rvv_optim.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-slabs.o -MD -MP -MF .deps/memcached_debug-slabs.Tpo -c -o memcached_debug-slabs.o `test -f 'slabs.c' || echo './'`slabs.c
+mv -f .deps/memcached_debug-slabs.Tpo .deps/memcached_debug-slabs.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-items.o -MD -MP -MF .deps/memcached_debug-items.Tpo -c -o memcached_debug-items.o `test -f 'items.c' || echo './'`items.c
+mv -f .deps/memcached_debug-items.Tpo .deps/memcached_debug-items.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-assoc.o -MD -MP -MF .deps/memcached_debug-assoc.Tpo -c -o memcached_debug-assoc.o `test -f 'assoc.c' || echo './'`assoc.c
+mv -f .deps/memcached_debug-assoc.Tpo .deps/memcached_debug-assoc.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-thread.o -MD -MP -MF .deps/memcached_debug-thread.Tpo -c -o memcached_debug-thread.o `test -f 'thread.c' || echo './'`thread.c
+mv -f .deps/memcached_debug-thread.Tpo .deps/memcached_debug-thread.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-daemon.o -MD -MP -MF .deps/memcached_debug-daemon.Tpo -c -o memcached_debug-daemon.o `test -f 'daemon.c' || echo './'`daemon.c
+mv -f .deps/memcached_debug-daemon.Tpo .deps/memcached_debug-daemon.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-stats_prefix.o -MD -MP -MF .deps/memcached_debug-stats_prefix.Tpo -c -o memcached_debug-stats_prefix.o `test -f 'stats_prefix.c' || echo './'`stats_prefix.c
+mv -f .deps/memcached_debug-stats_prefix.Tpo .deps/memcached_debug-stats_prefix.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-util.o -MD -MP -MF .deps/memcached_debug-util.Tpo -c -o memcached_debug-util.o `test -f 'util.c' || echo './'`util.c
+mv -f .deps/memcached_debug-util.Tpo .deps/memcached_debug-util.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-cache.o -MD -MP -MF .deps/memcached_debug-cache.Tpo -c -o memcached_debug-cache.o `test -f 'cache.c' || echo './'`cache.c
+mv -f .deps/memcached_debug-cache.Tpo .deps/memcached_debug-cache.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-bipbuffer.o -MD -MP -MF .deps/memcached_debug-bipbuffer.Tpo -c -o memcached_debug-bipbuffer.o `test -f 'bipbuffer.c' || echo './'`bipbuffer.c
+mv -f .deps/memcached_debug-bipbuffer.Tpo .deps/memcached_debug-bipbuffer.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-base64.o -MD -MP -MF .deps/memcached_debug-base64.Tpo -c -o memcached_debug-base64.o `test -f 'base64.c' || echo './'`base64.c
+mv -f .deps/memcached_debug-base64.Tpo .deps/memcached_debug-base64.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-logger.o -MD -MP -MF .deps/memcached_debug-logger.Tpo -c -o memcached_debug-logger.o `test -f 'logger.c' || echo './'`logger.c
+mv -f .deps/memcached_debug-logger.Tpo .deps/memcached_debug-logger.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-crawler.o -MD -MP -MF .deps/memcached_debug-crawler.Tpo -c -o memcached_debug-crawler.o `test -f 'crawler.c' || echo './'`crawler.c
+mv -f .deps/memcached_debug-crawler.Tpo .deps/memcached_debug-crawler.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-itoa_ljust.o -MD -MP -MF .deps/memcached_debug-itoa_ljust.Tpo -c -o memcached_debug-itoa_ljust.o `test -f 'itoa_ljust.c' || echo './'`itoa_ljust.c
+mv -f .deps/memcached_debug-itoa_ljust.Tpo .deps/memcached_debug-itoa_ljust.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-slab_automove.o -MD -MP -MF .deps/memcached_debug-slab_automove.Tpo -c -o memcached_debug-slab_automove.o `test -f 'slab_automove.c' || echo './'`slab_automove.c
+mv -f .deps/memcached_debug-slab_automove.Tpo .deps/memcached_debug-slab_automove.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-slabs_mover.o -MD -MP -MF .deps/memcached_debug-slabs_mover.Tpo -c -o memcached_debug-slabs_mover.o `test -f 'slabs_mover.c' || echo './'`slabs_mover.c
+mv -f .deps/memcached_debug-slabs_mover.Tpo .deps/memcached_debug-slabs_mover.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-authfile.o -MD -MP -MF .deps/memcached_debug-authfile.Tpo -c -o memcached_debug-authfile.o `test -f 'authfile.c' || echo './'`authfile.c
+mv -f .deps/memcached_debug-authfile.Tpo .deps/memcached_debug-authfile.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-restart.o -MD -MP -MF .deps/memcached_debug-restart.Tpo -c -o memcached_debug-restart.o `test -f 'restart.c' || echo './'`restart.c
+mv -f .deps/memcached_debug-restart.Tpo .deps/memcached_debug-restart.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-proto_text.o -MD -MP -MF .deps/memcached_debug-proto_text.Tpo -c -o memcached_debug-proto_text.o `test -f 'proto_text.c' || echo './'`proto_text.c
+mv -f .deps/memcached_debug-proto_text.Tpo .deps/memcached_debug-proto_text.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-proto_bin.o -MD -MP -MF .deps/memcached_debug-proto_bin.Tpo -c -o memcached_debug-proto_bin.o `test -f 'proto_bin.c' || echo './'`proto_bin.c
+mv -f .deps/memcached_debug-proto_bin.Tpo .deps/memcached_debug-proto_bin.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-proto_parser.o -MD -MP -MF .deps/memcached_debug-proto_parser.Tpo -c -o memcached_debug-proto_parser.o `test -f 'proto_parser.c' || echo './'`proto_parser.c
+mv -f .deps/memcached_debug-proto_parser.Tpo .deps/memcached_debug-proto_parser.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-mcmc.o -MD -MP -MF .deps/memcached_debug-mcmc.Tpo -c -o memcached_debug-mcmc.o `test -f 'vendor/mcmc/mcmc.c' || echo './'`vendor/mcmc/mcmc.c
+mv -f .deps/memcached_debug-mcmc.Tpo .deps/memcached_debug-mcmc.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-extstore.o -MD -MP -MF .deps/memcached_debug-extstore.Tpo -c -o memcached_debug-extstore.o `test -f 'extstore.c' || echo './'`extstore.c
+mv -f .deps/memcached_debug-extstore.Tpo .deps/memcached_debug-extstore.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-crc32c.o -MD -MP -MF .deps/memcached_debug-crc32c.Tpo -c -o memcached_debug-crc32c.o `test -f 'crc32c.c' || echo './'`crc32c.c
+mv -f .deps/memcached_debug-crc32c.Tpo .deps/memcached_debug-crc32c.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-storage.o -MD -MP -MF .deps/memcached_debug-storage.Tpo -c -o memcached_debug-storage.o `test -f 'storage.c' || echo './'`storage.c
+mv -f .deps/memcached_debug-storage.Tpo .deps/memcached_debug-storage.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-slab_automove_extstore.o -MD -MP -MF .deps/memcached_debug-slab_automove_extstore.Tpo -c -o memcached_debug-slab_automove_extstore.o `test -f 'slab_automove_extstore.c' || echo './'`slab_automove_extstore.c
+mv -f .deps/memcached_debug-slab_automove_extstore.Tpo .deps/memcached_debug-slab_automove_extstore.Po
+gcc -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls   -o memcached-debug memcached_debug-memcached.o memcached_debug-hash.o memcached_debug-jenkins_hash.o memcached_debug-murmur3_hash.o memcached_debug-rvv_optim.o memcached_debug-slabs.o memcached_debug-items.o memcached_debug-assoc.o memcached_debug-thread.o memcached_debug-daemon.o memcached_debug-stats_prefix.o memcached_debug-util.o memcached_debug-cache.o memcached_debug-bipbuffer.o memcached_debug-base64.o memcached_debug-logger.o memcached_debug-crawler.o memcached_debug-itoa_ljust.o memcached_debug-slab_automove.o memcached_debug-slabs_mover.o memcached_debug-authfile.o memcached_debug-restart.o memcached_debug-proto_text.o memcached_debug-proto_bin.o memcached_debug-proto_parser.o memcached_debug-mcmc.o        memcached_debug-extstore.o memcached_debug-crc32c.o memcached_debug-storage.o memcached_debug-slab_automove_extstore.o  -lgcov     -levent 
+gcc -DHAVE_CONFIG_H -I.     -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT sizes.o -MD -MP -MF .deps/sizes.Tpo -c -o sizes.o sizes.c
+mv -f .deps/sizes.Tpo .deps/sizes.Po
+gcc  -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls   -o sizes sizes.o  -levent 
+gcc -DHAVE_CONFIG_H -I.     -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT rvv_test.o -MD -MP -MF .deps/rvv_test.Tpo -c -o rvv_test.o rvv_test.c
+mv -f .deps/rvv_test.Tpo .deps/rvv_test.Po
+gcc  -g -O2 -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls   -o rvv-test rvv_test.o rvv_optim.o murmur3_hash.o  -levent 
+./sizes
+Slab Stats	64
+Thread stats	2352
+Global stats	232
+Settings	352
+Item (no cas)	48
+Item (cas)	56
+extstore header	12
+Libevent thread	544
+Connection	440
+Response object	1192
+Response bundle	32
+Response objects per bundle	13
+----------------------------------------
+libevent thread cumulative	6992
+Thread stats cumulative		6448
+./testapp
+1..56
+ok 1 - cache_create
+ok 2 - cache_reuse
+ok 3 - cache_redzone
+ok 4 - cache_limit_revised_downward
+ok 5 - stats_prefix_find
+ok 6 - stats_prefix_record_get
+ok 7 - stats_prefix_record_delete
+ok 8 - stats_prefix_record_set
+ok 9 - stats_prefix_dump
+ok 10 - issue_161
+ok 11 - strtol
+ok 12 - strtoll
+ok 13 - strtoul
+ok 14 - strtoull
+ok 15 - issue_44
+ok 16 - vperror
+testapp: testapp.c:570: start_server: Assertion `execv(argv[0], argv) != -1' failed.
+Failed to start the memcached server.
+testapp: testapp.c:583: start_server: Assertion `false' failed.
+make: *** [Makefile:3280: test] Aborted (core dumped)

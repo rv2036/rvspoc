@@ -1,0 +1,16 @@
+1783364:C 10 Sep 2026 16:59:10.764 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1783364:C 10 Sep 2026 16:59:10.764 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1783364:C 10 Sep 2026 16:59:10.764 * Redis version=8.8.0, bits=64, commit=621fc1bd, modified=0, pid=1783364, just started
+1783364:C 10 Sep 2026 16:59:10.764 * Configuration loaded
+1783364:M 10 Sep 2026 16:59:10.765 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+1783364:M 10 Sep 2026 16:59:10.765 * monotonic clock: POSIX clock_gettime
+1783364:M 10 Sep 2026 16:59:10.766 * Running mode=standalone, port=6380.
+1783364:M 10 Sep 2026 16:59:10.767 * Server initialized
+1783364:M 10 Sep 2026 16:59:10.767 * BGSAVE done, 0 keys saved, 0 keys skipped, 88 bytes written.
+1783364:M 10 Sep 2026 16:59:10.769 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1783364:M 10 Sep 2026 16:59:10.770 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1783364:M 10 Sep 2026 16:59:10.770 * Ready to accept connections tcp
+1783364:M 10 Sep 2026 16:59:10.770 # WARNING: Redis does not require authentication and is not protected by network restrictions. Redis will accept connections from any IP address on any network interface.
+1783364:M 10 Sep 2026 17:04:44.342 * User requested shutdown...
+1783364:M 10 Sep 2026 17:04:44.342 * Calling fsync() on the AOF file.
+1783364:M 10 Sep 2026 17:04:44.344 # Redis is now ready to exit, bye bye...

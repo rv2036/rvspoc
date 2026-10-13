@@ -1,0 +1,17 @@
+repo	pr	sha	result	seconds	cmd_source	cmd
+rvspoc-S2603-redis	2	5a29525ade3bedf37956cc1d1f389fe562c0464e	BUILD_FAIL	56	default	make -C src -j32
+rvspoc-S2603-redis	3	621fc1bd7b59b53040831e4847c2be4eb219d004	OK	82	doc	make -j32 CC=gcc-14 REDIS_CFLAGS=-fno-omit-frame-pointer
+rvspoc-S2603-redis	4	82647349bae3838890184483e0b9865468ecca24	OK	74	doc	make -C src -j32 redis-server redis-cli redis-benchmark
+rvspoc-S2603-redis	6	6dbbc85eeda393863bd3fb4cc4fe1e85ec300769	BUILD_FAIL	23	doc	make -C src -j32 BUILD_RVV=yes MALLOC=libc BUILD_TLS=no
+rvspoc-S2604-memcached	1	e52d97f5292e6c3d02575c050a206fc48ce0df05	BUILD_FAIL	13	doc	./autogen.sh && ./configure && make -j32
+rvspoc-S2604-memcached	2	7ee8609d9cf70ca3234e79059c6e6c840b8bbdc4	OK	15	doc	./autogen.sh && ./configure --enable-riscv-rvv CC=gcc-14 && make -j32
+rvspoc-S2604-memcached	3	883e87647e6a7b0c0985a36f7314f6330c2d7ed9	OK	11	doc	./autogen.sh && ./configure && make -j32 memcached testapp
+rvspoc-S2605-rocksdb	1	7847ab1e4bf62d54dcfbf04d7ab66c81eba75f7b	OK	216	doc	make -j32 db_bench DEBUG_LEVEL=0 DISABLE_WARNING_AS_ERROR=1
+rvspoc-S2605-rocksdb	2	1e390720396ea52e76903854f5cc08de588b48c2	OK	216	doc	make -j32 db_bench DEBUG_LEVEL=0 DISABLE_WARNING_AS_ERROR=1
+rvspoc-S2605-rocksdb	3	fa3fd926f91dd69528387bd54ff4c1740e3156bc	OK	211	default	make -j32 db_bench DEBUG_LEVEL=0 DISABLE_WARNING_AS_ERROR=1
+rvspoc-S2605-rocksdb	4	9ec8dc8e446ef95d1311ae93e2242e72f274c5c6	BUILD_FAIL	2	doc-adapted	cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DWITH_GFLAGS=1 -DWITH_BENCHMARK_TOOLS=1 && cmake --build build -j32 --target db_bench
+rvspoc-S2603-redis	2	5a29525ade3bedf37956cc1d1f389fe562c0464e	BUILD_FAIL	55	default	make -C src -j32
+rvspoc-S2603-redis	4	82647349bae3838890184483e0b9865468ecca24	OK	74	doc	make -C src -j32 redis-server redis-cli redis-benchmark
+rvspoc-S2603-redis	6	6dbbc85eeda393863bd3fb4cc4fe1e85ec300769	BUILD_FAIL	24	doc	make -C src -j32 BUILD_RVV=yes MALLOC=libc BUILD_TLS=no
+rvspoc-S2604-memcached	1	e52d97f5292e6c3d02575c050a206fc48ce0df05	BUILD_FAIL	12	doc	./autogen.sh && ./configure && make -j32
+rvspoc-S2605-rocksdb	4	9ec8dc8e446ef95d1311ae93e2242e72f274c5c6	BUILD_FAIL	2	doc-adapted	cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DWITH_GFLAGS=1 -DWITH_BENCHMARK_TOOLS=1 && cmake --build build -j32 --target db_bench

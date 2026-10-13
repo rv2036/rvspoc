@@ -1,0 +1,9 @@
+repo	pr	result	seconds	compiler	cmd
+rvspoc-S2603-redis	2	STILL_FAIL	64	gcc-14	make -C src -j32 CC=gcc-14
+rvspoc-S2603-redis	6	STILL_FAIL	24	gcc-14	make -C src -j32 BUILD_RVV=yes MALLOC=libc BUILD_TLS=no CC=gcc-14
+rvspoc-S2604-memcached	1	OK_WITH_GCC14	15	gcc-14	./autogen.sh && ./configure CC=gcc-14 && make -j32
+rvspoc-S2605-rocksdb	4	OK_WITH_GCC14	218	gcc-14	cmake -S . -B build -DPORTABLE=rv64gcv -DCMAKE_C_COMPILER=gcc-14 -DCMAKE_CXX_COMPILER=g++-14 -DCMAKE_BUILD_TYPE=Release -DWITH_GFLAGS=1 -DWITH_BENCHMARK_TOOLS=1 && cmake --build build -j32 --target db_bench
+rvspoc-S2603-redis	2	STILL_FAIL	65	gcc-14	make -C src -j32 CC=gcc-14
+rvspoc-S2603-redis	6	STILL_FAIL	24	gcc-14	make -C src -j32 BUILD_RVV=yes MALLOC=libc BUILD_TLS=no CC=gcc-14
+rvspoc-S2604-memcached	1	OK_WITH_GCC14	15	gcc-14	./autogen.sh && ./configure CC=gcc-14 && make -j32
+rvspoc-S2605-rocksdb	4	OK_WITH_GCC14	220	gcc-14	cmake -S . -B build -DPORTABLE=rv64gcv -DCMAKE_C_COMPILER=gcc-14 -DCMAKE_CXX_COMPILER=g++-14 -DCMAKE_BUILD_TYPE=Release -DWITH_GFLAGS=1 -DWITH_BENCHMARK_TOOLS=1 && cmake --build build -j32 --target db_bench

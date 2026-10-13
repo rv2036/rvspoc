@@ -1,0 +1,130 @@
+Writing results to stdout
+[RUN #1] Preparing benchmark client...
+[RUN #1] Launching threads now...
+Connection error: Connection refused
+Connection error: Connection refused
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 0 finished due to connection failures, requesting restart.
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 1 finished due to connection failures, requesting restart.
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 2 finished due to connection failures, requesting restart.
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 3 finished due to connection failures, requesting restart.
+Restarting thread 0 (restart #1)...
+Thread 0 restarted successfully.
+Restarting thread 1 (restart #1)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 0 finished due to connection failures, requesting restart.
+Thread 1 restarted successfully.
+Restarting thread 2 (restart #1)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 1 finished due to connection failures, requesting restart.
+Thread 2 restarted successfully.
+Restarting thread 3 (restart #1)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 2 finished due to connection failures, requesting restart.
+Thread 3 restarted successfully.
+[RUN #1 0%,   0 secs]  4 threads 50 conns:           0 ops,       0 (avg:       0) ops/sec, 0.00KB/sec (avg: 0.00KB/sec),  0.00 (avg:  0.00) msec latencyConnection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 3 finished due to connection failures, requesting restart.
+Restarting thread 0 (restart #2)...
+Thread 0 restarted successfully.
+Restarting thread 1 (restart #2)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 0 finished due to connection failures, requesting restart.
+Thread 1 restarted successfully.
+Restarting thread 2 (restart #2)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 1 finished due to connection failures, requesting restart.
+Thread 2 restarted successfully.
+Restarting thread 3 (restart #2)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 2 finished due to connection failures, requesting restart.
+Thread 3 restarted successfully.
+[RUN #1 0%,   0 secs]  4 threads 50 conns:           0 ops,       0 (avg:       0) ops/sec, 0.00KB/sec (avg: 0.00KB/sec),  0.00 (avg:  0.00) msec latencyConnection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 3 finished due to connection failures, requesting restart.
+Restarting thread 0 (restart #3)...
+Thread 0 restarted successfully.
+Restarting thread 1 (restart #3)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 0 finished due to connection failures, requesting restart.
+Thread 1 restarted successfully.
+Restarting thread 2 (restart #3)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 1 finished due to connection failures, requesting restart.
+Thread 2 restarted successfully.
+Restarting thread 3 (restart #3)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 2 finished due to connection failures, requesting restart.
+Thread 3 restarted successfully.
+[RUN #1 0%,   0 secs]  4 threads 50 conns:           0 ops,       0 (avg:       0) ops/sec, 0.00KB/sec (avg: 0.00KB/sec),  0.00 (avg:  0.00) msec latencyConnection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 3 finished due to connection failures, requesting restart.
+Restarting thread 0 (restart #4)...
+Thread 0 restarted successfully.
+Restarting thread 1 (restart #4)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 0 finished due to connection failures, requesting restart.
+Thread 1 restarted successfully.
+Restarting thread 2 (restart #4)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 1 finished due to connection failures, requesting restart.
+Thread 2 restarted successfully.
+Restarting thread 3 (restart #4)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 2 finished due to connection failures, requesting restart.
+Thread 3 restarted successfully.
+[RUN #1 0%,   0 secs]  4 threads 50 conns:           0 ops,       0 (avg:       0) ops/sec, 0.00KB/sec (avg: 0.00KB/sec),  0.00 (avg:  0.00) msec latencyConnection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 3 finished due to connection failures, requesting restart.
+Restarting thread 0 (restart #5)...
+Thread 0 restarted successfully.
+Restarting thread 1 (restart #5)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 0 finished due to connection failures, requesting restart.
+Thread 1 restarted successfully.
+Restarting thread 2 (restart #5)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 1 finished due to connection failures, requesting restart.
+Thread 2 restarted successfully.
+Restarting thread 3 (restart #5)...
+Connection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 2 finished due to connection failures, requesting restart.
+Thread 3 restarted successfully.
+[RUN #1 0%,   0 secs]  4 threads 50 conns:           0 ops,       0 (avg:       0) ops/sec, 0.00KB/sec (avg: 0.00KB/sec),  0.00 (avg:  0.00) msec latencyConnection error: Connection refused
+Maximum reconnection attempts (0) exceeded for Connection error, triggering thread restart.
+Thread 3 finished due to connection failures, requesting restart.
+[RUN #1 0%,   0 secs]  0 threads 50 conns 4 conn errors:           0 ops,       0 (avg:       0) ops/sec, 0.00KB/sec (avg: 0.00KB/sec),  0.00 (avg:  0.00) msec latency
+
+4         Threads
+50        Connections per thread
+60        Seconds
+
+
+ALL STATS
+============================================================================================================================
+Type         Ops/sec     Hits/sec   Misses/sec    Avg. Latency     p50 Latency     p99 Latency   p99.9 Latency       KB/sec 
+----------------------------------------------------------------------------------------------------------------------------
+Sets            0.00          ---          ---             ---             ---             ---             ---         0.00 
+Gets            0.00         0.00         0.00             ---             ---             ---             ---         0.00 
+Waits           0.00          ---          ---             ---             ---             ---             ---          --- 
+Totals          0.00         0.00         0.00             nan         0.00700         0.00700         0.00700         0.00 

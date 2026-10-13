@@ -1,0 +1,600 @@
+1786020:C 10 Sep 2026 21:22:40.171 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1786020:C 10 Sep 2026 21:22:40.171 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1786020:C 10 Sep 2026 21:22:40.171 * Redis version=8.8.0, bits=64, commit=6dbbc85e, modified=0, pid=1786020, just started
+1786020:C 10 Sep 2026 21:22:40.171 * Configuration loaded
+1786020:M 10 Sep 2026 21:22:40.172 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+1786020:M 10 Sep 2026 21:22:40.172 * monotonic clock: POSIX clock_gettime
+1786020:M 10 Sep 2026 21:22:40.173 * Running mode=standalone, port=6380.
+1786020:M 10 Sep 2026 21:22:40.174 * Server initialized
+1786020:M 10 Sep 2026 21:22:40.174 * BGSAVE done, 0 keys saved, 0 keys skipped, 88 bytes written.
+1786020:M 10 Sep 2026 21:22:40.175 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1786020:M 10 Sep 2026 21:22:40.176 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1786020:M 10 Sep 2026 21:22:40.176 * Ready to accept connections tcp
+1786020:M 10 Sep 2026 21:22:40.176 # WARNING: Redis does not require authentication and is not protected by network restrictions. Redis will accept connections from any IP address on any network interface.
+
+
+=== REDIS BUG REPORT START: Cut & paste starting from here ===
+1786020:M 10 Sep 2026 21:22:40.442 # ------------------------------------------------
+1786020:M 10 Sep 2026 21:22:40.442 # !!! Software Failure. Press left mouse button to continue
+1786020:M 10 Sep 2026 21:22:40.442 # Guru Meditation: You tried to retain an object allocated in the stack #object.c:637
+
+------ STACK TRACE ------
+
+1786027 bio_aof
+/lib/riscv64-linux-gnu/libc.so.6(+0x6e264)[0x7fff9549a264]
+/lib/riscv64-linux-gnu/libc.so.6(pthread_cond_wait+0x162)[0x7fff9549c32a]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(bioProcessBackgroundJobs+0x178)[0x5555756148e0]
+/lib/riscv64-linux-gnu/libc.so.6(+0x70d2e)[0x7fff9549cd2e]
+/lib/riscv64-linux-gnu/libc.so.6(+0xc358c)[0x7fff954ef58c]
+
+1786028 bio_lazy_free
+/lib/riscv64-linux-gnu/libc.so.6(+0x6e264)[0x7fff9549a264]
+/lib/riscv64-linux-gnu/libc.so.6(pthread_cond_wait+0x162)[0x7fff9549c32a]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(bioProcessBackgroundJobs+0x178)[0x5555756148e0]
+/lib/riscv64-linux-gnu/libc.so.6(+0x70d2e)[0x7fff9549cd2e]
+/lib/riscv64-linux-gnu/libc.so.6(+0xc358c)[0x7fff954ef58c]
+
+1786026 bio_close_file
+/lib/riscv64-linux-gnu/libc.so.6(+0x6e264)[0x7fff9549a264]
+/lib/riscv64-linux-gnu/libc.so.6(pthread_cond_wait+0x162)[0x7fff9549c32a]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(bioProcessBackgroundJobs+0x178)[0x5555756148e0]
+/lib/riscv64-linux-gnu/libc.so.6(+0x70d2e)[0x7fff9549cd2e]
+/lib/riscv64-linux-gnu/libc.so.6(+0xc358c)[0x7fff954ef58c]
+
+1786020 redis-server *
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(decrRefCount+0x0)[0x5555755789e6]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(alsoPropagate+0xb2)[0x55557554363c]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(call+0x280)[0x555575543b3e]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(processCommand+0xa2c)[0x5555755451ba]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(processInputBuffer+0x292)[0x555575567aa4]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(readQueryFromClient+0x3fc)[0x55557556dda4]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(+0x1e76e8)[0x5555756866e8]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(aeMain+0x90)[0x55557552db2e]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(main+0x35c)[0x555575526a1c]
+/lib/riscv64-linux-gnu/libc.so.6(+0x277cc)[0x7fff954537cc]
+/lib/riscv64-linux-gnu/libc.so.6(__libc_start_main+0x78)[0x7fff95453878]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(_start+0x20)[0x555575527084]
+
+4/4 expected stacktraces.
+
+------ STACK TRACE DONE ------
+
+------ INFO OUTPUT ------
+# Server
+redis_version:8.8.0
+redis_git_sha1:6dbbc85e
+redis_git_dirty:0
+redis_build_id:b589090898b0cbd
+redis_mode:standalone
+os:Linux 6.18.3+ riscv64
+arch_bits:64
+monotonic_clock:POSIX clock_gettime
+multiplexing_api:epoll
+atomicvar_api:c11-builtin
+gcc_version:14.2.0
+process_id:1786020
+process_supervised:no
+run_id:dd48cfd7fede406d925a5789133b760c1c652018
+tcp_port:6380
+server_time_usec:1789046560442017
+uptime_in_seconds:0
+uptime_in_days:0
+hz:10
+configured_hz:10
+lru_clock:10661664
+executable:/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server
+config_file:
+io_threads_active:0
+listener0:name=tcp,bind=*,bind=-::*,port=6380
+
+# Clients
+connected_clients:200
+cluster_connections:0
+maxclients:10000
+client_recent_max_input_buffer:0
+client_recent_max_output_buffer:0
+blocked_clients:0
+tracking_clients:0
+pubsub_clients:0
+watching_clients:0
+clients_in_timeout_table:0
+active_clients:3
+total_watched_keys:0
+total_blocking_keys:0
+total_blocking_keys_on_nokey:0
+
+# Memory
+used_memory:4463480
+used_memory_human:4.26M
+used_memory_rss:5558272
+used_memory_rss_human:5.30M
+used_memory_peak:4463784
+used_memory_peak_human:4.26M
+used_memory_peak_time:1789046560
+used_memory_peak_perc:100.60%
+used_memory_overhead:844088
+used_memory_startup:775560
+used_memory_dataset:3619392
+used_memory_dataset_perc:98.14%
+allocator_allocated:775944
+allocator_active:5558272
+allocator_resident:5558272
+allocator_muzzy:0
+total_system_memory:270163578880
+total_system_memory_human:251.61G
+used_memory_lua:32768
+used_memory_vm_eval:32768
+used_memory_lua_human:32.00K
+used_memory_scripts_eval:0
+number_of_cached_scripts:0
+number_of_functions:0
+number_of_libraries:0
+used_memory_vm_functions:34816
+used_memory_vm_total:67584
+used_memory_vm_total_human:66.00K
+used_memory_functions:232
+used_memory_scripts:232
+used_memory_scripts_human:232B
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+allocator_frag_ratio:1.00
+allocator_frag_bytes:0
+allocator_rss_ratio:1.00
+allocator_rss_bytes:0
+rss_overhead_ratio:1.00
+rss_overhead_bytes:0
+mem_fragmentation_ratio:7.16
+mem_fragmentation_bytes:4782328
+mem_not_counted_for_evict:88
+mem_replication_backlog:0
+mem_total_replication_buffers:0
+mem_replica_full_sync_buffer:0
+mem_clients_slaves:0
+mem_clients_normal:0
+mem_clients_normal_shared:0
+mem_clients_normal_unshared:0
+mem_cluster_slot_migration_output_buffer:0
+mem_cluster_slot_migration_input_buffer:0
+mem_cluster_slot_migration_input_buffer_peak:0
+mem_cluster_links:0
+mem_aof_buffer:88
+mem_allocator:libc
+mem_overhead_db_hashtable_rehashing:0
+active_defrag_running:0
+lazyfree_pending_objects:0
+lazyfreed_objects:0
+
+# Persistence
+loading:0
+async_loading:0
+current_cow_peak:0
+current_cow_size:0
+current_cow_size_age:0
+current_fork_perc:0.00
+current_save_keys_processed:0
+current_save_keys_total:0
+rdb_changes_since_last_save:1
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1789046560
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:-1
+rdb_current_bgsave_time_sec:-1
+rdb_saves:0
+rdb_saves_consecutive_failures:0
+rdb_last_cow_size:0
+rdb_last_load_keys_expired:0
+rdb_last_load_keys_loaded:0
+aof_enabled:1
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_rewrites:0
+aof_rewrites_consecutive_failures:0
+aof_last_write_status:ok
+aof_last_cow_size:0
+module_fork_in_progress:0
+module_fork_last_cow_size:0
+aof_current_size:41
+aof_base_size:0
+aof_pending_rewrite:0
+aof_buffer_length:0
+aof_pending_bio_fsync:0
+aof_delayed_fsync:0
+
+# Threads
+io_thread_0:clients=200,reads=5,writes=2
+
+# Stats
+total_connections_received:202
+total_commands_processed:2
+instantaneous_ops_per_sec:0
+total_net_input_bytes:105
+total_net_output_bytes:12
+total_net_repl_input_bytes:0
+total_net_repl_output_bytes:0
+instantaneous_input_kbps:0.00
+instantaneous_output_kbps:0.00
+instantaneous_input_repl_kbps:0.00
+instantaneous_output_repl_kbps:0.00
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_subkeys:0
+expired_subkeys_active:0
+expired_keys:0
+expired_keys_active:0
+expired_stale_perc:0.00
+expired_time_cap_reached_count:0
+expire_cycle_cpu_milliseconds:0
+evicted_keys:0
+evicted_clients:0
+evicted_scripts:0
+total_eviction_exceeded_time:0
+current_eviction_exceeded_time:0
+keyspace_hits:0
+keyspace_misses:0
+pubsub_channels:0
+pubsub_patterns:0
+pubsubshard_channels:0
+latest_fork_usec:0
+total_forks:0
+migrate_cached_sockets:0
+slave_expires_tracked_keys:0
+active_defrag_hits:0
+active_defrag_misses:0
+active_defrag_key_hits:0
+active_defrag_key_misses:0
+total_active_defrag_time:0
+current_active_defrag_time:0
+tracking_total_keys:0
+tracking_total_items:0
+tracking_total_prefixes:0
+unexpected_error_replies:0
+total_error_replies:0
+dump_payload_sanitizations:0
+total_reads_processed:5
+total_writes_processed:2
+io_threaded_reads_processed:0
+io_threaded_writes_processed:0
+io_threaded_total_prefetch_batches:0
+io_threaded_total_prefetch_entries:0
+client_query_buffer_limit_disconnections:0
+client_output_buffer_limit_disconnections:0
+reply_buffer_shrinks:0
+reply_buffer_expands:0
+eventloop_cycles:203
+eventloop_duration_sum:11476
+eventloop_duration_cmd_sum:185
+instantaneous_eventloop_cycles_per_sec:1
+instantaneous_eventloop_duration_usec:4
+eventloop_cycles_with_clients_processing:2
+total_client_processing_events:3
+avg_pipeline_length_sum:3
+avg_pipeline_length_cnt:3
+avg_pipeline_length:1.00
+slowlog_commands_count:0
+slowlog_commands_time_ms_max:0.00
+slowlog_commands_time_ms_sum:0.00
+acl_access_denied_auth:0
+acl_access_denied_cmd:0
+acl_access_denied_key:0
+acl_access_denied_channel:0
+acl_access_denied_tls_cert:0
+
+# Replication
+role:master
+connected_slaves:0
+master_failover_state:no-failover
+master_replid:7cbb325d7ff2cd1b1bc56872293339e82d1e8544
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:1
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:0.021603
+used_cpu_user:0.008349
+used_cpu_sys_children:0.000000
+used_cpu_user_children:0.000000
+used_cpu_sys_main_thread:0.020510
+used_cpu_user_main_thread:0.007924
+
+# Hotkeys
+
+# Modules
+module:name=vectorset,ver=1,api=1,filters=0,usedby=[],using=[],options=[handle-io-errors|handle-repl-async-load]
+
+# Commandstats
+cmdstat_set:calls=1,usec=59,usec_per_call=59.00,rejected_calls=0,failed_calls=0
+cmdstat_ping:calls=1,usec=2,usec_per_call=2.00,rejected_calls=0,failed_calls=0
+cmdstat_flushall:calls=1,usec=226,usec_per_call=226.00,rejected_calls=0,failed_calls=0
+
+# Errorstats
+
+# Latencystats
+latency_percentiles_usec_set:p50=59.135,p99=59.135,p99.9=59.135
+latency_percentiles_usec_ping:p50=2.007,p99=2.007,p99.9=2.007
+latency_percentiles_usec_flushall:p50=226.303,p99=226.303,p99.9=226.303
+
+# Cluster
+cluster_enabled:0
+
+# Keyspace
+db0:keys=1,expires=0,avg_ttl=0,subexpiry=0
+
+# Keysizes
+db0_distrib_strings_sizes:32=1
+
+------ CLIENT LIST OUTPUT ------
+id=6 addr=127.0.0.1:59988 laddr=127.0.0.1:6380 fd=13 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=73 qbuf-free=16313 argv-mem=49 multi-mem=0 rbs=16392 rbp=16392 obl=5 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=33969 events=r cmd=set user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=73 tot-net-out=0 tot-cmds=0 read-events=1 avg-pipeline-len-sum=1 avg-pipeline-len-cnt=1
+id=7 addr=127.0.0.1:60002 laddr=127.0.0.1:6380 fd=14 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=8 addr=127.0.0.1:60014 laddr=127.0.0.1:6380 fd=15 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=9 addr=127.0.0.1:60016 laddr=127.0.0.1:6380 fd=16 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=10 addr=127.0.0.1:60030 laddr=127.0.0.1:6380 fd=17 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=11 addr=127.0.0.1:60044 laddr=127.0.0.1:6380 fd=18 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=12 addr=127.0.0.1:60058 laddr=127.0.0.1:6380 fd=19 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=13 addr=127.0.0.1:60060 laddr=127.0.0.1:6380 fd=20 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=14 addr=127.0.0.1:60064 laddr=127.0.0.1:6380 fd=21 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=15 addr=127.0.0.1:60074 laddr=127.0.0.1:6380 fd=22 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=16 addr=127.0.0.1:60086 laddr=127.0.0.1:6380 fd=23 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=17 addr=127.0.0.1:60100 laddr=127.0.0.1:6380 fd=24 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=18 addr=127.0.0.1:60110 laddr=127.0.0.1:6380 fd=25 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=19 addr=127.0.0.1:60114 laddr=127.0.0.1:6380 fd=26 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=20 addr=127.0.0.1:60120 laddr=127.0.0.1:6380 fd=27 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=21 addr=127.0.0.1:60134 laddr=127.0.0.1:6380 fd=28 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=22 addr=127.0.0.1:60148 laddr=127.0.0.1:6380 fd=29 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=23 addr=127.0.0.1:60154 laddr=127.0.0.1:6380 fd=30 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=24 addr=127.0.0.1:60162 laddr=127.0.0.1:6380 fd=31 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=25 addr=127.0.0.1:60178 laddr=127.0.0.1:6380 fd=32 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=26 addr=127.0.0.1:60180 laddr=127.0.0.1:6380 fd=33 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=27 addr=127.0.0.1:60190 laddr=127.0.0.1:6380 fd=34 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=28 addr=127.0.0.1:60206 laddr=127.0.0.1:6380 fd=35 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=29 addr=127.0.0.1:60218 laddr=127.0.0.1:6380 fd=36 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=30 addr=127.0.0.1:60228 laddr=127.0.0.1:6380 fd=37 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=31 addr=127.0.0.1:60240 laddr=127.0.0.1:6380 fd=38 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=32 addr=127.0.0.1:60256 laddr=127.0.0.1:6380 fd=39 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=33 addr=127.0.0.1:60258 laddr=127.0.0.1:6380 fd=40 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=34 addr=127.0.0.1:60262 laddr=127.0.0.1:6380 fd=41 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=35 addr=127.0.0.1:60274 laddr=127.0.0.1:6380 fd=42 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=36 addr=127.0.0.1:60282 laddr=127.0.0.1:6380 fd=43 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=37 addr=127.0.0.1:60286 laddr=127.0.0.1:6380 fd=44 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=38 addr=127.0.0.1:60290 laddr=127.0.0.1:6380 fd=45 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=39 addr=127.0.0.1:60296 laddr=127.0.0.1:6380 fd=46 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=40 addr=127.0.0.1:60312 laddr=127.0.0.1:6380 fd=47 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=41 addr=127.0.0.1:60318 laddr=127.0.0.1:6380 fd=48 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=42 addr=127.0.0.1:60324 laddr=127.0.0.1:6380 fd=49 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=43 addr=127.0.0.1:60330 laddr=127.0.0.1:6380 fd=50 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=44 addr=127.0.0.1:60344 laddr=127.0.0.1:6380 fd=51 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=45 addr=127.0.0.1:60348 laddr=127.0.0.1:6380 fd=52 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=46 addr=127.0.0.1:60362 laddr=127.0.0.1:6380 fd=53 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=47 addr=127.0.0.1:60366 laddr=127.0.0.1:6380 fd=54 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=48 addr=127.0.0.1:60376 laddr=127.0.0.1:6380 fd=55 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=49 addr=127.0.0.1:60388 laddr=127.0.0.1:6380 fd=56 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=50 addr=127.0.0.1:60398 laddr=127.0.0.1:6380 fd=57 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=51 addr=127.0.0.1:60410 laddr=127.0.0.1:6380 fd=58 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=52 addr=127.0.0.1:60412 laddr=127.0.0.1:6380 fd=59 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=53 addr=127.0.0.1:60426 laddr=127.0.0.1:6380 fd=60 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=54 addr=127.0.0.1:60438 laddr=127.0.0.1:6380 fd=61 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=55 addr=127.0.0.1:60442 laddr=127.0.0.1:6380 fd=62 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=56 addr=127.0.0.1:60450 laddr=127.0.0.1:6380 fd=63 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=57 addr=127.0.0.1:60458 laddr=127.0.0.1:6380 fd=64 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=58 addr=127.0.0.1:60460 laddr=127.0.0.1:6380 fd=65 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=59 addr=127.0.0.1:60474 laddr=127.0.0.1:6380 fd=66 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=60 addr=127.0.0.1:60476 laddr=127.0.0.1:6380 fd=67 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=61 addr=127.0.0.1:60488 laddr=127.0.0.1:6380 fd=68 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=62 addr=127.0.0.1:60502 laddr=127.0.0.1:6380 fd=69 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=63 addr=127.0.0.1:60518 laddr=127.0.0.1:6380 fd=70 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=64 addr=127.0.0.1:60528 laddr=127.0.0.1:6380 fd=71 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=65 addr=127.0.0.1:60534 laddr=127.0.0.1:6380 fd=72 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=66 addr=127.0.0.1:60548 laddr=127.0.0.1:6380 fd=73 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=67 addr=127.0.0.1:60562 laddr=127.0.0.1:6380 fd=74 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=68 addr=127.0.0.1:60576 laddr=127.0.0.1:6380 fd=75 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=69 addr=127.0.0.1:60582 laddr=127.0.0.1:6380 fd=76 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=70 addr=127.0.0.1:60598 laddr=127.0.0.1:6380 fd=77 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=71 addr=127.0.0.1:60612 laddr=127.0.0.1:6380 fd=78 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=72 addr=127.0.0.1:60622 laddr=127.0.0.1:6380 fd=79 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=73 addr=127.0.0.1:60634 laddr=127.0.0.1:6380 fd=80 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=74 addr=127.0.0.1:60646 laddr=127.0.0.1:6380 fd=81 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=75 addr=127.0.0.1:60650 laddr=127.0.0.1:6380 fd=82 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=76 addr=127.0.0.1:60654 laddr=127.0.0.1:6380 fd=83 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=77 addr=127.0.0.1:60666 laddr=127.0.0.1:6380 fd=84 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=78 addr=127.0.0.1:60668 laddr=127.0.0.1:6380 fd=85 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=79 addr=127.0.0.1:60680 laddr=127.0.0.1:6380 fd=86 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=80 addr=127.0.0.1:60684 laddr=127.0.0.1:6380 fd=87 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=81 addr=127.0.0.1:60692 laddr=127.0.0.1:6380 fd=88 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=82 addr=127.0.0.1:60694 laddr=127.0.0.1:6380 fd=89 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=83 addr=127.0.0.1:60704 laddr=127.0.0.1:6380 fd=90 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=84 addr=127.0.0.1:60710 laddr=127.0.0.1:6380 fd=91 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=85 addr=127.0.0.1:60720 laddr=127.0.0.1:6380 fd=92 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=86 addr=127.0.0.1:60732 laddr=127.0.0.1:6380 fd=93 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=87 addr=127.0.0.1:60734 laddr=127.0.0.1:6380 fd=94 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=88 addr=127.0.0.1:60742 laddr=127.0.0.1:6380 fd=95 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=89 addr=127.0.0.1:60756 laddr=127.0.0.1:6380 fd=96 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=90 addr=127.0.0.1:60772 laddr=127.0.0.1:6380 fd=97 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=91 addr=127.0.0.1:60788 laddr=127.0.0.1:6380 fd=98 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=92 addr=127.0.0.1:60800 laddr=127.0.0.1:6380 fd=99 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=93 addr=127.0.0.1:60804 laddr=127.0.0.1:6380 fd=100 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=94 addr=127.0.0.1:60816 laddr=127.0.0.1:6380 fd=101 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=95 addr=127.0.0.1:60828 laddr=127.0.0.1:6380 fd=102 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=96 addr=127.0.0.1:60844 laddr=127.0.0.1:6380 fd=103 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=97 addr=127.0.0.1:60852 laddr=127.0.0.1:6380 fd=104 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=98 addr=127.0.0.1:60868 laddr=127.0.0.1:6380 fd=105 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=99 addr=127.0.0.1:60878 laddr=127.0.0.1:6380 fd=106 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=100 addr=127.0.0.1:60884 laddr=127.0.0.1:6380 fd=107 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=101 addr=127.0.0.1:60890 laddr=127.0.0.1:6380 fd=108 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=102 addr=127.0.0.1:60896 laddr=127.0.0.1:6380 fd=109 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=103 addr=127.0.0.1:60904 laddr=127.0.0.1:6380 fd=110 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=104 addr=127.0.0.1:60918 laddr=127.0.0.1:6380 fd=111 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=105 addr=127.0.0.1:60932 laddr=127.0.0.1:6380 fd=112 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=106 addr=127.0.0.1:60948 laddr=127.0.0.1:6380 fd=113 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=107 addr=127.0.0.1:60950 laddr=127.0.0.1:6380 fd=114 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=108 addr=127.0.0.1:60960 laddr=127.0.0.1:6380 fd=115 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=109 addr=127.0.0.1:60974 laddr=127.0.0.1:6380 fd=116 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=110 addr=127.0.0.1:60984 laddr=127.0.0.1:6380 fd=117 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=111 addr=127.0.0.1:60994 laddr=127.0.0.1:6380 fd=118 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=112 addr=127.0.0.1:32770 laddr=127.0.0.1:6380 fd=119 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=113 addr=127.0.0.1:32778 laddr=127.0.0.1:6380 fd=120 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=114 addr=127.0.0.1:32780 laddr=127.0.0.1:6380 fd=121 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=115 addr=127.0.0.1:32796 laddr=127.0.0.1:6380 fd=122 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=116 addr=127.0.0.1:32812 laddr=127.0.0.1:6380 fd=123 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=117 addr=127.0.0.1:32828 laddr=127.0.0.1:6380 fd=124 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=118 addr=127.0.0.1:32830 laddr=127.0.0.1:6380 fd=125 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=119 addr=127.0.0.1:32840 laddr=127.0.0.1:6380 fd=126 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=120 addr=127.0.0.1:32854 laddr=127.0.0.1:6380 fd=127 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=121 addr=127.0.0.1:32858 laddr=127.0.0.1:6380 fd=128 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=122 addr=127.0.0.1:32874 laddr=127.0.0.1:6380 fd=129 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=123 addr=127.0.0.1:32886 laddr=127.0.0.1:6380 fd=130 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=124 addr=127.0.0.1:32894 laddr=127.0.0.1:6380 fd=131 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=125 addr=127.0.0.1:32900 laddr=127.0.0.1:6380 fd=132 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=126 addr=127.0.0.1:32910 laddr=127.0.0.1:6380 fd=133 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=127 addr=127.0.0.1:32914 laddr=127.0.0.1:6380 fd=134 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=128 addr=127.0.0.1:32920 laddr=127.0.0.1:6380 fd=135 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=129 addr=127.0.0.1:32932 laddr=127.0.0.1:6380 fd=136 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=130 addr=127.0.0.1:32946 laddr=127.0.0.1:6380 fd=137 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=131 addr=127.0.0.1:32960 laddr=127.0.0.1:6380 fd=138 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17520 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=132 addr=127.0.0.1:32966 laddr=127.0.0.1:6380 fd=139 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=133 addr=127.0.0.1:32974 laddr=127.0.0.1:6380 fd=140 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=134 addr=127.0.0.1:32982 laddr=127.0.0.1:6380 fd=141 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=135 addr=127.0.0.1:32988 laddr=127.0.0.1:6380 fd=142 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=136 addr=127.0.0.1:32994 laddr=127.0.0.1:6380 fd=143 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=137 addr=127.0.0.1:33006 laddr=127.0.0.1:6380 fd=144 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=138 addr=127.0.0.1:33014 laddr=127.0.0.1:6380 fd=145 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=139 addr=127.0.0.1:33018 laddr=127.0.0.1:6380 fd=146 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=140 addr=127.0.0.1:33030 laddr=127.0.0.1:6380 fd=147 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17520 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=141 addr=127.0.0.1:33034 laddr=127.0.0.1:6380 fd=148 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=142 addr=127.0.0.1:33042 laddr=127.0.0.1:6380 fd=149 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=143 addr=127.0.0.1:33048 laddr=127.0.0.1:6380 fd=150 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=144 addr=127.0.0.1:33050 laddr=127.0.0.1:6380 fd=151 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=145 addr=127.0.0.1:33066 laddr=127.0.0.1:6380 fd=152 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=146 addr=127.0.0.1:33080 laddr=127.0.0.1:6380 fd=153 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=147 addr=127.0.0.1:33090 laddr=127.0.0.1:6380 fd=154 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=148 addr=127.0.0.1:33098 laddr=127.0.0.1:6380 fd=155 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=149 addr=127.0.0.1:33114 laddr=127.0.0.1:6380 fd=156 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=150 addr=127.0.0.1:33126 laddr=127.0.0.1:6380 fd=157 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=151 addr=127.0.0.1:33132 laddr=127.0.0.1:6380 fd=158 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=152 addr=127.0.0.1:33148 laddr=127.0.0.1:6380 fd=159 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=153 addr=127.0.0.1:33154 laddr=127.0.0.1:6380 fd=160 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=154 addr=127.0.0.1:33160 laddr=127.0.0.1:6380 fd=161 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=155 addr=127.0.0.1:33172 laddr=127.0.0.1:6380 fd=162 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=156 addr=127.0.0.1:33184 laddr=127.0.0.1:6380 fd=163 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=157 addr=127.0.0.1:33190 laddr=127.0.0.1:6380 fd=164 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=158 addr=127.0.0.1:33204 laddr=127.0.0.1:6380 fd=165 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=159 addr=127.0.0.1:33210 laddr=127.0.0.1:6380 fd=166 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=160 addr=127.0.0.1:33212 laddr=127.0.0.1:6380 fd=167 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=161 addr=127.0.0.1:33224 laddr=127.0.0.1:6380 fd=168 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=162 addr=127.0.0.1:33226 laddr=127.0.0.1:6380 fd=169 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=163 addr=127.0.0.1:33242 laddr=127.0.0.1:6380 fd=170 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=164 addr=127.0.0.1:33244 laddr=127.0.0.1:6380 fd=171 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=165 addr=127.0.0.1:33252 laddr=127.0.0.1:6380 fd=172 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=166 addr=127.0.0.1:33264 laddr=127.0.0.1:6380 fd=173 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=167 addr=127.0.0.1:33272 laddr=127.0.0.1:6380 fd=174 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=168 addr=127.0.0.1:33282 laddr=127.0.0.1:6380 fd=175 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=169 addr=127.0.0.1:33286 laddr=127.0.0.1:6380 fd=176 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=170 addr=127.0.0.1:33292 laddr=127.0.0.1:6380 fd=177 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=171 addr=127.0.0.1:33300 laddr=127.0.0.1:6380 fd=178 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=172 addr=127.0.0.1:33314 laddr=127.0.0.1:6380 fd=179 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=173 addr=127.0.0.1:33322 laddr=127.0.0.1:6380 fd=180 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=174 addr=127.0.0.1:33334 laddr=127.0.0.1:6380 fd=181 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=175 addr=127.0.0.1:33338 laddr=127.0.0.1:6380 fd=182 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=176 addr=127.0.0.1:33342 laddr=127.0.0.1:6380 fd=183 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=177 addr=127.0.0.1:33348 laddr=127.0.0.1:6380 fd=184 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=178 addr=127.0.0.1:33350 laddr=127.0.0.1:6380 fd=185 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=179 addr=127.0.0.1:33360 laddr=127.0.0.1:6380 fd=186 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=180 addr=127.0.0.1:33364 laddr=127.0.0.1:6380 fd=187 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=181 addr=127.0.0.1:33372 laddr=127.0.0.1:6380 fd=188 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=182 addr=127.0.0.1:33388 laddr=127.0.0.1:6380 fd=189 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=183 addr=127.0.0.1:33400 laddr=127.0.0.1:6380 fd=190 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=184 addr=127.0.0.1:33402 laddr=127.0.0.1:6380 fd=191 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=185 addr=127.0.0.1:33404 laddr=127.0.0.1:6380 fd=192 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=186 addr=127.0.0.1:33410 laddr=127.0.0.1:6380 fd=193 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=187 addr=127.0.0.1:33424 laddr=127.0.0.1:6380 fd=194 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=188 addr=127.0.0.1:33440 laddr=127.0.0.1:6380 fd=195 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=189 addr=127.0.0.1:33454 laddr=127.0.0.1:6380 fd=196 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=190 addr=127.0.0.1:33456 laddr=127.0.0.1:6380 fd=197 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=191 addr=127.0.0.1:33464 laddr=127.0.0.1:6380 fd=198 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=192 addr=127.0.0.1:33470 laddr=127.0.0.1:6380 fd=199 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=193 addr=127.0.0.1:33472 laddr=127.0.0.1:6380 fd=200 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=194 addr=127.0.0.1:33474 laddr=127.0.0.1:6380 fd=201 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=195 addr=127.0.0.1:33482 laddr=127.0.0.1:6380 fd=202 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=196 addr=127.0.0.1:33494 laddr=127.0.0.1:6380 fd=203 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=197 addr=127.0.0.1:33508 laddr=127.0.0.1:6380 fd=204 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=198 addr=127.0.0.1:33512 laddr=127.0.0.1:6380 fd=205 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=199 addr=127.0.0.1:33514 laddr=127.0.0.1:6380 fd=206 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=200 addr=127.0.0.1:33518 laddr=127.0.0.1:6380 fd=207 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=201 addr=127.0.0.1:33520 laddr=127.0.0.1:6380 fd=208 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=202 addr=127.0.0.1:33534 laddr=127.0.0.1:6380 fd=209 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=203 addr=127.0.0.1:33548 laddr=127.0.0.1:6380 fd=210 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=204 addr=127.0.0.1:33558 laddr=127.0.0.1:6380 fd=211 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+id=205 addr=127.0.0.1:33574 laddr=127.0.0.1:6380 fd=212 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=0 qbuf-free=0 argv-mem=0 multi-mem=0 rbs=16392 rbp=16392 obl=0 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=17504 events=r cmd=NULL user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=0 tot-net-out=0 tot-cmds=0 read-events=0 avg-pipeline-len-sum=0 avg-pipeline-len-cnt=0
+
+------ CURRENT CLIENT INFO ------
+id=6 addr=127.0.0.1:59988 laddr=127.0.0.1:6380 fd=13 name= age=0 idle=0 flags=N db=0 sub=0 psub=0 ssub=0 multi=-1 watch=0 qbuf=73 qbuf-free=16313 argv-mem=49 multi-mem=0 rbs=16392 rbp=16392 obl=5 oll=0 omem=0 omem-shared=0 omem-unshared=0 tot-mem=33969 events=r cmd=set user=default redir=-1 resp=2 lib-name= lib-ver= io-thread=0 tot-net-in=73 tot-net-out=0 tot-cmds=0 read-events=1 avg-pipeline-len-sum=1 avg-pipeline-len-cnt=1
+argc: '3'
+argv[0]: '"SET"'
+1786020:M 10 Sep 2026 21:22:40.450 # ------------------------------------------------
+1786020:M 10 Sep 2026 21:22:40.450 # !!! Software Failure. Press left mouse button to continue
+1786020:M 10 Sep 2026 21:22:40.450 # Guru Meditation: You tried to retain an object allocated in the stack #object.c:637
+
+------ STACK TRACE ------
+
+1786028 bio_lazy_free
+/lib/riscv64-linux-gnu/libc.so.6(+0x6e264)[0x7fff9549a264]
+/lib/riscv64-linux-gnu/libc.so.6(pthread_cond_wait+0x162)[0x7fff9549c32a]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(bioProcessBackgroundJobs+0x178)[0x5555756148e0]
+/lib/riscv64-linux-gnu/libc.so.6(+0x70d2e)[0x7fff9549cd2e]
+/lib/riscv64-linux-gnu/libc.so.6(+0xc358c)[0x7fff954ef58c]
+
+1786027 bio_aof
+/lib/riscv64-linux-gnu/libc.so.6(+0x6e264)[0x7fff9549a264]
+/lib/riscv64-linux-gnu/libc.so.6(pthread_cond_wait+0x162)[0x7fff9549c32a]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(bioProcessBackgroundJobs+0x178)[0x5555756148e0]
+/lib/riscv64-linux-gnu/libc.so.6(+0x70d2e)[0x7fff9549cd2e]
+/lib/riscv64-linux-gnu/libc.so.6(+0xc358c)[0x7fff954ef58c]
+
+1786026 bio_close_file
+/lib/riscv64-linux-gnu/libc.so.6(+0x6e264)[0x7fff9549a264]
+/lib/riscv64-linux-gnu/libc.so.6(pthread_cond_wait+0x162)[0x7fff9549c32a]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(bioProcessBackgroundJobs+0x178)[0x5555756148e0]
+/lib/riscv64-linux-gnu/libc.so.6(+0x70d2e)[0x7fff9549cd2e]
+/lib/riscv64-linux-gnu/libc.so.6(+0xc358c)[0x7fff954ef58c]
+
+1786020 redis-server *
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(getDecodedObject+0x11a)[0x555575579e48]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(logCurrentClient+0x16c)[0x5555755e605c]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(printCrashReport+0x30)[0x5555755e6ad6]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(_serverPanic+0x164)[0x5555755e6cfa]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(decrRefCount+0x0)[0x5555755789e6]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(alsoPropagate+0xb2)[0x55557554363c]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(call+0x280)[0x555575543b3e]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(processCommand+0xa2c)[0x5555755451ba]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(processInputBuffer+0x292)[0x555575567aa4]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(readQueryFromClient+0x3fc)[0x55557556dda4]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(+0x1e76e8)[0x5555756866e8]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(aeMain+0x90)[0x55557552db2e]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(main+0x35c)[0x555575526a1c]
+/lib/riscv64-linux-gnu/libc.so.6(+0x277cc)[0x7fff954537cc]
+/lib/riscv64-linux-gnu/libc.so.6(__libc_start_main+0x78)[0x7fff95453878]
+/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/redis-server *:6380(_start+0x20)[0x555575527084]
+
+4/4 expected stacktraces.
+
+------ STACK TRACE DONE ------
+
+=== REDIS BUG REPORT END. Make sure to include from START to END. ===
+
+       Please report the crash by opening an issue on github:
+
+           http://github.com/redis/redis/issues
+
+  If a Redis module was involved, please open in the module's repo instead.
+
+  Suspect RAM error? Use redis-server --test-memory to verify it.
+
+  Some other issues could be detected by redis-server --check-system

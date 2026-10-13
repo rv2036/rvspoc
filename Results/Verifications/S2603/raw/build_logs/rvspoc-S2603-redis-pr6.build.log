@@ -1,0 +1,295 @@
+make: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src'
+    [34mCC[0m [33mMakefile.dep[0m
+rm -rf redis-server redis-sentinel redis-cli redis-benchmark redis-check-rdb redis-check-aof *.o *.gcda *.gcno *.gcov redis.info lcov-html Makefile.dep *.so
+rm -f threads_mngr.d memory_prefetch.d adlist.d quicklist.d ae.d anet.d dict.d ebuckets.d eventnotifier.d iothread.d mstr.d entry.d kvstore.d fwtree.d estore.d server.d sds.d zmalloc.d lzf_c.d lzf_d.d pqsort.d zipmap.d sha1.d ziplist.d release.d networking.d util.d object.d db.d replication.d rdb.d t_string.d t_list.d t_set.d t_zset.d t_hash.d t_array.d sparsearray.d config.d aof.d pubsub.d multi.d debug.d sort.d intset.d syncio.d cluster.d cluster_asm.d cluster_legacy.d cluster_slot_stats.d crc16.d endianconv.d slowlog.d eval.d bio.d rio.d rand.d memtest.d syscheck.d crcspeed.d crccombine.d crc64.d bitops.d sentinel.d notify.d setproctitle.d blocked.d hyperloglog.d latency.d sparkline.d redis-check-rdb.d redis-check-aof.d geo.d lazyfree.d module.d evict.d expire.d geohash.d geohash_helper.d childinfo.d defrag.d siphash.d rax.d t_stream.d listpack.d localtime.d lolwut.d lolwut5.d lolwut6.d lolwut8.d acl.d tracking.d socket.d tls.d sha256.d timeout.d setcpuaffinity.d monotonic.d mt19937-64.d resp_parser.d call_reply.d script_lua.d script.d functions.d function_lua.d commands.d strl.d connection.d unix.d logreqres.d keymeta.d chk.d hotkeys.d gcra.d vector.d fast_float_strtod.d rvv_optim.d hnsw.d vset.d vset_config.d anet.d adlist.d dict.d redis-cli.d zmalloc.d release.d ae.d redisassert.d crcspeed.d crccombine.d crc64.d siphash.d crc16.d monotonic.d cli_common.d mt19937-64.d strl.d cli_commands.d ae.d anet.d redis-benchmark.d adlist.d dict.d zmalloc.d redisassert.d release.d crcspeed.d crccombine.d crc64.d siphash.d crc16.d monotonic.d cli_common.d mt19937-64.d strl.d
+(cd ../tests/modules && make clean)
+make[1]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/tests/modules'
+rm -f commandfilter.so basics.so testrdb.so fork.so infotest.so propagate.so misc.so hooks.so blockonkeys.so blockonbackground.so scan.so datatype.so datatype2.so auth.so keyspace_events.so blockedclient.so getkeys.so getchannels.so test_lazyfree.so timer.so defragtest.so keyspecs.so hash.so zset.so stream.so mallocsize.so aclcheck.so list.so subcommands.so reply.so cmdintrospection.so eventloop.so moduleconfigs.so moduleconfigstwo.so publish.so usercall.so postnotifications.so moduleauthtwo.so rdbloadsave.so crash.so internalsecret.so configaccess.so test_keymeta.so keymeta_notify.so atomicslotmigration.so commandfilter.xo basics.xo testrdb.xo fork.xo infotest.xo propagate.xo misc.xo hooks.xo blockonkeys.xo blockonbackground.xo scan.xo datatype.xo datatype2.xo auth.xo keyspace_events.xo blockedclient.xo getkeys.xo getchannels.xo test_lazyfree.xo timer.xo defragtest.xo keyspecs.xo hash.xo zset.xo stream.xo mallocsize.xo aclcheck.xo list.xo subcommands.xo reply.xo cmdintrospection.xo eventloop.xo moduleconfigs.xo moduleconfigstwo.xo publish.xo usercall.xo postnotifications.xo moduleauthtwo.xo rdbloadsave.xo crash.xo internalsecret.xo configaccess.xo test_keymeta.xo keymeta_notify.xo atomicslotmigration.xo
+make[1]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/tests/modules'
+(cd ../deps && make distclean)
+make[1]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps'
+(cd hiredis && make clean) > /dev/null || true
+(cd linenoise && make clean) > /dev/null || true
+(cd lua && make clean) > /dev/null || true
+(cd jemalloc && [ -f Makefile ] && make distclean) > /dev/null || true
+(cd hdr_histogram && make clean) > /dev/null || true
+(cd fpconv && make clean) > /dev/null || true
+(cd tre && make clean) > /dev/null || true
+(cd xxhash && make clean) > /dev/null || true
+make[3]: *** tests: No such file or directory.  Stop.
+make[2]: *** [Makefile:189: clean] Error 2
+(rm -f .make-*)
+make[1]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps'
+(cd modules && make clean)
+make[1]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/modules'
+rm -rf *.xo *.so
+make[1]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src/modules'
+(cd ../tests/modules && make clean)
+make[1]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/tests/modules'
+rm -f commandfilter.so basics.so testrdb.so fork.so infotest.so propagate.so misc.so hooks.so blockonkeys.so blockonbackground.so scan.so datatype.so datatype2.so auth.so keyspace_events.so blockedclient.so getkeys.so getchannels.so test_lazyfree.so timer.so defragtest.so keyspecs.so hash.so zset.so stream.so mallocsize.so aclcheck.so list.so subcommands.so reply.so cmdintrospection.so eventloop.so moduleconfigs.so moduleconfigstwo.so publish.so usercall.so postnotifications.so moduleauthtwo.so rdbloadsave.so crash.so internalsecret.so configaccess.so test_keymeta.so keymeta_notify.so atomicslotmigration.so commandfilter.xo basics.xo testrdb.xo fork.xo infotest.xo propagate.xo misc.xo hooks.xo blockonkeys.xo blockonbackground.xo scan.xo datatype.xo datatype2.xo auth.xo keyspace_events.xo blockedclient.xo getkeys.xo getchannels.xo test_lazyfree.xo timer.xo defragtest.xo keyspecs.xo hash.xo zset.xo stream.xo mallocsize.xo aclcheck.xo list.xo subcommands.xo reply.xo cmdintrospection.xo eventloop.xo moduleconfigs.xo moduleconfigstwo.xo publish.xo usercall.xo postnotifications.xo moduleauthtwo.xo rdbloadsave.xo crash.xo internalsecret.xo configaccess.xo test_keymeta.xo keymeta_notify.xo atomicslotmigration.xo
+make[1]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/tests/modules'
+(rm -f .make-*)
+echo STD=-pedantic -DREDIS_STATIC='' -std=gnu11 >> .make-settings
+echo WARN=-Wall -W -Wno-missing-field-initializers -Werror=deprecated-declarations -Wstrict-prototypes >> .make-settings
+echo OPT=-O3 -flto=auto -ffat-lto-objects -fno-omit-frame-pointer >> .make-settings
+echo MALLOC=libc >> .make-settings
+echo BUILD_TLS=no >> .make-settings
+echo USE_SYSTEMD= >> .make-settings
+echo CFLAGS= >> .make-settings
+echo LDFLAGS= >> .make-settings
+echo REDIS_CFLAGS= >> .make-settings
+echo REDIS_LDFLAGS= >> .make-settings
+echo PREV_FINAL_CFLAGS=-pedantic -DREDIS_STATIC='' -std=gnu11 -Wall -W -Wno-missing-field-initializers -Werror=deprecated-declarations -Wstrict-prototypes -O3 -flto=auto -ffat-lto-objects -fno-omit-frame-pointer -g -ggdb   -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -I../deps/hdr_histogram -I../deps/fpconv -I../deps/xxhash -DINCLUDE_VEC_SETS=1 -DREDIS_RVV >> .make-settings
+echo PREV_FINAL_LDFLAGS= -O3 -flto=auto -ffat-lto-objects -fno-omit-frame-pointer  -g -ggdb -rdynamic >> .make-settings
+(cd ../deps && make hiredis linenoise lua hdr_histogram fpconv xxhash tre ENABLE_LTO="-flto=auto -ffat-lto-objects")
+make[1]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps'
+(cd hiredis && make clean) > /dev/null || true
+(cd linenoise && make clean) > /dev/null || true
+(cd lua && make clean) > /dev/null || true
+(cd jemalloc && [ -f Makefile ] && make distclean) > /dev/null || true
+(cd hdr_histogram && make clean) > /dev/null || true
+(cd fpconv && make clean) > /dev/null || true
+(cd tre && make clean) > /dev/null || true
+(cd xxhash && make clean) > /dev/null || true
+make[3]: *** tests: No such file or directory.  Stop.
+make[2]: *** [Makefile:189: clean] Error 2
+(rm -f .make-*)
+(echo "" > .make-cflags)
+(echo "" > .make-ldflags)
+[32;1mMAKE[0m [37;1mhiredis[0m
+cd hiredis && make static  HIREDIS_CFLAGS="" HIREDIS_LDFLAGS=""
+[32;1mMAKE[0m [37;1mlinenoise[0m
+[32;1mMAKE[0m [37;1mlua[0m
+cd linenoise && make CFLAGS="" LDFLAGS=""
+cd lua/src && make all CFLAGS="-Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2 " MYLDFLAGS="" AR="ar rc"
+[32;1mMAKE[0m [37;1mhdr_histogram[0m
+cd hdr_histogram && make CFLAGS="" LDFLAGS=""
+[32;1mMAKE[0m [37;1mfpconv[0m
+make[2]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/hiredis'
+cd fpconv && make CFLAGS="" LDFLAGS=""
+[32;1mMAKE[0m [37;1mxxhash[0m
+cd xxhash && make lib CFLAGS="-fPIC " LDFLAGS=""
+make[2]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/linenoise'
+cc  -Wall -Os -g  -c linenoise.c
+[32;1mMAKE[0m [37;1mtre[0m
+cd tre && make CFLAGS="" LDFLAGS=""
+make[2]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/lua/src'
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lapi.o lapi.c
+make[2]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/hdr_histogram'
+cc -std=c99 -Wall -Os -g  -DHDR_MALLOC_INCLUDE=\"hdr_redis_malloc.h\" -c  hdr_histogram.c 
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lcode.o lcode.c
+make[2]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/fpconv'
+cc  -Wall -Os -g  -c  fpconv_dtoa.c 
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o ldebug.o ldebug.c
+make[2]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/xxhash'
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o ldo.o ldo.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o ldump.o ldump.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lfunc.o lfunc.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lgc.o lgc.c
+make[2]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/tre'
+cc -std=c99 -Wall -Os -g  -DTRE_REGEX_T_FIELD=value -Ilocal_includes -Ilib -c -o lib/regcomp.o lib/regcomp.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o llex.o llex.c
+cc -std=c99 -Wall -Os -g  -DTRE_REGEX_T_FIELD=value -Ilocal_includes -Ilib -c -o lib/regerror.o lib/regerror.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lmem.o lmem.c
+cc -std=c99 -c -O3 -fPIC   -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wno-missing-field-initializers -g -ggdb   -pedantic alloc.c
+cc -std=c99 -Wall -Os -g  -DTRE_REGEX_T_FIELD=value -Ilocal_includes -Ilib -c -o lib/regexec.o lib/regexec.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lobject.o lobject.c
+cc -std=c99 -Wall -Os -g  -DTRE_REGEX_T_FIELD=value -Ilocal_includes -Ilib -c -o lib/tre-ast.o lib/tre-ast.c
+cc -std=c99 -c -O3 -fPIC   -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wno-missing-field-initializers -g -ggdb   -pedantic net.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lopcodes.o lopcodes.c
+cc -std=c99 -c -O3 -fPIC   -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wno-missing-field-initializers -g -ggdb   -pedantic hiredis.c
+cc -std=c99 -Wall -Os -g  -DTRE_REGEX_T_FIELD=value -Ilocal_includes -Ilib -c -o lib/tre-compile.o lib/tre-compile.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lparser.o lparser.c
+cc -std=c99 -c -O3 -fPIC   -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wno-missing-field-initializers -g -ggdb   -pedantic sds.c
+cc -std=c99 -Wall -Os -g  -DTRE_REGEX_T_FIELD=value -Ilocal_includes -Ilib -c -o lib/tre-filter.o lib/tre-filter.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lstate.o lstate.c
+cc -std=c99 -c -O3 -fPIC   -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wno-missing-field-initializers -g -ggdb   -pedantic async.c
+cc -std=c99 -Wall -Os -g  -DTRE_REGEX_T_FIELD=value -Ilocal_includes -Ilib -c -o lib/tre-match-backtrack.o lib/tre-match-backtrack.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lstring.o lstring.c
+cc -std=c99 -c -O3 -fPIC   -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wno-missing-field-initializers -g -ggdb   -pedantic read.c
+cc -std=c99 -Wall -Os -g  -DTRE_REGEX_T_FIELD=value -Ilocal_includes -Ilib -c -o lib/tre-match-parallel.o lib/tre-match-parallel.c
+cc -std=c99 -Wall -Os -g  -DTRE_REGEX_T_FIELD=value -Ilocal_includes -Ilib -c -o lib/tre-mem.o lib/tre-mem.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o ltable.o ltable.c
+cc -std=c99 -c -O3 -fPIC   -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wno-missing-field-initializers -g -ggdb   -pedantic sockcompat.c
+cc -std=c99 -Wall -Os -g  -DTRE_REGEX_T_FIELD=value -Ilocal_includes -Ilib -c -o lib/tre-parse.o lib/tre-parse.c
+cc -std=c99 -Wall -Os -g  -DTRE_REGEX_T_FIELD=value -Ilocal_includes -Ilib -c -o lib/tre-stack.o lib/tre-stack.c
+cc -std=c99 -Wall -Os -g  -DTRE_REGEX_T_FIELD=value -Ilocal_includes -Ilib -c -o lib/xmalloc.o lib/xmalloc.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o ltm.o ltm.c
+CC cachedObjs/8b127686fdf2437aa485539695352f98/xxhash.o
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lundump.o lundump.c
+CC cachedObjs/7ec56b87b019ae6787084253027bf7f8/xxhash.o
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lvm.o lvm.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lzio.o lzio.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o strbuf.o strbuf.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o fpconv.o fpconv.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lauxlib.o lauxlib.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lbaselib.o lbaselib.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o ldblib.o ldblib.c
+ar rcs libfpconv.a fpconv_dtoa.o
+make[2]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/fpconv'
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o liolib.o liolib.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lmathlib.o lmathlib.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o loslib.o loslib.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o ltablib.o ltablib.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lstrlib.o lstrlib.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o loadlib.o loadlib.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o linit.o linit.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lua_cjson.o lua_cjson.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lua_struct.o lua_struct.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lua_cmsgpack.o lua_cmsgpack.c
+AR cachedObjs/8b127686fdf2437aa485539695352f98/libxxhash.a
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lua_bit.o lua_bit.c
+LD cachedObjs/7ec56b87b019ae6787084253027bf7f8/libxxhash.so.0.8.3
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o lua.o lua.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o luac.o luac.c
+cc -Wall -DLUA_ANSI -DENABLE_CJSON_GLOBAL -DREDIS_STATIC='' -DLUA_USE_MKSTEMP  -O2    -c -o print.o print.c
+make[2]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/xxhash'
+ar rcs libhdrhistogram.a hdr_histogram.o
+make[2]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/hdr_histogram'
+make[2]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/linenoise'
+ar rc liblua.a lapi.o lcode.o ldebug.o ldo.o ldump.o lfunc.o lgc.o llex.o lmem.o lobject.o lopcodes.o lparser.o lstate.o lstring.o ltable.o ltm.o lundump.o lvm.o lzio.o strbuf.o fpconv.o lauxlib.o lbaselib.o ldblib.o liolib.o lmathlib.o loslib.o ltablib.o lstrlib.o loadlib.o linit.o lua_cjson.o lua_struct.o lua_cmsgpack.o lua_bit.o	# DLL needs all object files
+ranlib liblua.a
+cc -o lua  lua.o liblua.a -lm 
+cc -o luac  luac.o print.o liblua.a -lm 
+make[2]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/lua/src'
+ar rcs libhiredis.a alloc.o net.o hiredis.o sds.o async.o read.o sockcompat.o
+make[2]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/hiredis'
+ar rcs libtre.a lib/regcomp.o lib/regerror.o lib/regexec.o lib/tre-ast.o lib/tre-compile.o lib/tre-filter.o lib/tre-match-backtrack.o lib/tre-match-parallel.o lib/tre-mem.o lib/tre-parse.o lib/tre-stack.o lib/xmalloc.o
+make[2]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps/tre'
+make[1]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/deps'
+    [34mCC[0m [33mthreads_mngr.o[0m
+    [34mCC[0m [33mmemory_prefetch.o[0m
+    [34mCC[0m [33madlist.o[0m
+    [34mCC[0m [33mquicklist.o[0m
+    [34mCC[0m [33mae.o[0m
+    [34mCC[0m [33manet.o[0m
+    [34mCC[0m [33mdict.o[0m
+    [34mCC[0m [33mebuckets.o[0m
+    [34mCC[0m [33meventnotifier.o[0m
+    [34mCC[0m [33miothread.o[0m
+    [34mCC[0m [33mmstr.o[0m
+    [34mCC[0m [33mentry.o[0m
+    [34mCC[0m [33mkvstore.o[0m
+    [34mCC[0m [33mfwtree.o[0m
+    [34mCC[0m [33mestore.o[0m
+    [34mCC[0m [33mserver.o[0m
+    [34mCC[0m [33msds.o[0m
+    [34mCC[0m [33mzmalloc.o[0m
+    [34mCC[0m [33mlzf_c.o[0m
+    [34mCC[0m [33mlzf_d.o[0m
+    [34mCC[0m [33mpqsort.o[0m
+    [34mCC[0m [33mzipmap.o[0m
+    [34mCC[0m [33msha1.o[0m
+    [34mCC[0m [33mziplist.o[0m
+    [34mCC[0m [33mrelease.o[0m
+    [34mCC[0m [33mnetworking.o[0m
+    [34mCC[0m [33mutil.o[0m
+    [34mCC[0m [33mobject.o[0m
+    [34mCC[0m [33mdb.o[0m
+    [34mCC[0m [33mreplication.o[0m
+    [34mCC[0m [33mrdb.o[0m
+    [34mCC[0m [33mt_string.o[0m
+    [34mCC[0m [33mt_list.o[0m
+    [34mCC[0m [33mt_set.o[0m
+    [34mCC[0m [33mt_zset.o[0m
+    [34mCC[0m [33mt_hash.o[0m
+    [34mCC[0m [33mt_array.o[0m
+    [34mCC[0m [33msparsearray.o[0m
+    [34mCC[0m [33mconfig.o[0m
+    [34mCC[0m [33maof.o[0m
+    [34mCC[0m [33mpubsub.o[0m
+    [34mCC[0m [33mmulti.o[0m
+    [34mCC[0m [33mdebug.o[0m
+    [34mCC[0m [33msort.o[0m
+    [34mCC[0m [33mintset.o[0m
+    [34mCC[0m [33msyncio.o[0m
+    [34mCC[0m [33mcluster.o[0m
+    [34mCC[0m [33mcluster_asm.o[0m
+    [34mCC[0m [33mcluster_legacy.o[0m
+    [34mCC[0m [33mcluster_slot_stats.o[0m
+    [34mCC[0m [33mcrc16.o[0m
+    [34mCC[0m [33mendianconv.o[0m
+    [34mCC[0m [33mslowlog.o[0m
+    [34mCC[0m [33meval.o[0m
+    [34mCC[0m [33mbio.o[0m
+    [34mCC[0m [33mrio.o[0m
+    [34mCC[0m [33mrand.o[0m
+    [34mCC[0m [33mmemtest.o[0m
+    [34mCC[0m [33msyscheck.o[0m
+    [34mCC[0m [33mcrcspeed.o[0m
+    [34mCC[0m [33mcrccombine.o[0m
+    [34mCC[0m [33mcrc64.o[0m
+    [34mCC[0m [33mbitops.o[0m
+    [34mCC[0m [33msentinel.o[0m
+    [34mCC[0m [33mnotify.o[0m
+    [34mCC[0m [33msetproctitle.o[0m
+    [34mCC[0m [33mblocked.o[0m
+    [34mCC[0m [33mhyperloglog.o[0m
+    [34mCC[0m [33mlatency.o[0m
+    [34mCC[0m [33msparkline.o[0m
+    [34mCC[0m [33mredis-check-rdb.o[0m
+    [34mCC[0m [33mredis-check-aof.o[0m
+    [34mCC[0m [33mgeo.o[0m
+    [34mCC[0m [33mlazyfree.o[0m
+    [34mCC[0m [33mmodule.o[0m
+    [34mCC[0m [33mevict.o[0m
+    [34mCC[0m [33mexpire.o[0m
+    [34mCC[0m [33mgeohash.o[0m
+    [34mCC[0m [33mgeohash_helper.o[0m
+    [34mCC[0m [33mchildinfo.o[0m
+    [34mCC[0m [33mdefrag.o[0m
+    [34mCC[0m [33msiphash.o[0m
+    [34mCC[0m [33mrax.o[0m
+    [34mCC[0m [33mt_stream.o[0m
+    [34mCC[0m [33mlistpack.o[0m
+    [34mCC[0m [33mlocaltime.o[0m
+    [34mCC[0m [33mlolwut.o[0m
+    [34mCC[0m [33mlolwut5.o[0m
+    [34mCC[0m [33mlolwut6.o[0m
+    [34mCC[0m [33mlolwut8.o[0m
+    [34mCC[0m [33macl.o[0m
+    [34mCC[0m [33mtracking.o[0m
+    [34mCC[0m [33msocket.o[0m
+    [34mCC[0m [33mtls.o[0m
+    [34mCC[0m [33msha256.o[0m
+    [34mCC[0m [33mtimeout.o[0m
+    [34mCC[0m [33msetcpuaffinity.o[0m
+    [34mCC[0m [33mmonotonic.o[0m
+    [34mCC[0m [33mmt19937-64.o[0m
+    [34mCC[0m [33mresp_parser.o[0m
+    [34mCC[0m [33mcall_reply.o[0m
+    [34mCC[0m [33mscript_lua.o[0m
+    [34mCC[0m [33mscript.o[0m
+    [34mCC[0m [33mfunctions.o[0m
+    [34mCC[0m [33mfunction_lua.o[0m
+    [34mCC[0m [33mcommands.o[0m
+    [34mCC[0m [33mstrl.o[0m
+    [34mCC[0m [33mconnection.o[0m
+    [34mCC[0m [33munix.o[0m
+    [34mCC[0m [33mlogreqres.o[0m
+    [34mCC[0m [33mkeymeta.o[0m
+    [34mCC[0m [33mchk.o[0m
+    [34mCC[0m [33mhotkeys.o[0m
+    [34mCC[0m [33mgcra.o[0m
+    [34mCC[0m [33mvector.o[0m
+    [34mCC[0m [33mfast_float_strtod.o[0m
+cc -pedantic -DREDIS_STATIC='' -std=gnu11 -Wall -W -Wno-missing-field-initializers -Werror=deprecated-declarations -Wstrict-prototypes -O3 -flto=auto -ffat-lto-objects -fno-omit-frame-pointer -g -ggdb   -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -I../deps/hdr_histogram -I../deps/fpconv -I../deps/xxhash -DINCLUDE_VEC_SETS=1 -DREDIS_RVV -march=rv64gcv -mabi=lp64d -MMD -o rvv_optim.o -c rvv_optim.c
+    [34mCC[0m [33mhnsw.o[0m
+    [34mCC[0m [33mvset.o[0m
+    [34mCC[0m [33mvset_config.o[0m
+    [34mCC[0m [33mredis-cli.o[0m
+    [34mCC[0m [33mredisassert.o[0m
+    [34mCC[0m [33mcli_common.o[0m
+    [34mCC[0m [33mcli_commands.o[0m
+    [34mCC[0m [33mredis-benchmark.o[0m
+    [34;1mLINK[0m [37;1mredis-benchmark[0m
+    [34;1mLINK[0m [37;1mredis-server[0m
+lto1: fatal error: target specific builtin not available
+compilation terminated.
+lto-wrapper: fatal error: cc returned 1 exit status
+compilation terminated.
+/usr/bin/ld: error: lto-wrapper failed
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:453: redis-server] Error 1
+make: *** Waiting for unfinished jobs....
+make: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2603-redis-pr6/src'

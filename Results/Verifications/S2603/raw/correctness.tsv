@@ -1,0 +1,21 @@
+repo	pr	suite	result	seconds	passed	failed	log
+CONTROL	redis-8.8.0	unit	PASS	2415	5554	47	/home/rvspoc/rvspoc-verify/logs/CONTROL.redis-8.8.0.log
+CONTROL	memcached-1.6.42	testapp	PASS	5	56	0
+0	/home/rvspoc/rvspoc-verify/logs/CONTROL.memcached-1.6.42.log
+rvspoc-S2603-redis	3	unit	PASS	2420	5554	47	/home/rvspoc/rvspoc-verify/logs/rvspoc-S2603-redis-pr3.unit.log
+rvspoc-S2603-redis	4	unit	FAIL	300	3553	39	/home/rvspoc/rvspoc-verify/logs/rvspoc-S2603-redis-pr4.unit.log
+rvspoc-S2604-memcached	1	testapp	PASS	6	56	0
+0	/home/rvspoc/rvspoc-verify/logs/rvspoc-S2604-memcached-pr1.testapp.log
+rvspoc-S2604-memcached	1	maketest	PASS	399	135	4	/home/rvspoc/rvspoc-verify/logs/rvspoc-S2604-memcached-pr1.maketest.log
+rvspoc-S2604-memcached	2	testapp	PASS	6	56	0
+0	/home/rvspoc/rvspoc-verify/logs/rvspoc-S2604-memcached-pr2.testapp.log
+rvspoc-S2604-memcached	2	maketest	FAIL	400	133	10	/home/rvspoc/rvspoc-verify/logs/rvspoc-S2604-memcached-pr2.maketest.log
+rvspoc-S2604-memcached	3	testapp	FAIL	12	14	3	/home/rvspoc/rvspoc-verify/logs/rvspoc-S2604-memcached-pr3.testapp.log
+rvspoc-S2604-memcached	3	maketest	FAIL	32	16	3	/home/rvspoc/rvspoc-verify/logs/rvspoc-S2604-memcached-pr3.maketest.log
+0	0
+0	0
+CONTROL	rocksdb	db_test	FAIL	1385	302	4	/home/rvspoc/rvspoc-verify/logs/CONTROL.rocksdb.log
+rvspoc-S2605-rocksdb	1	db_test	FAIL	298	0	1	/home/rvspoc/rvspoc-verify/logs/rvspoc-S2605-rocksdb-pr1.db_test.log
+rvspoc-S2605-rocksdb	2	db_test	PASS	1360	311	0	/home/rvspoc/rvspoc-verify/logs/rvspoc-S2605-rocksdb-pr2.db_test.log
+rvspoc-S2605-rocksdb	3	db_test	FAIL	1345	302	4	/home/rvspoc/rvspoc-verify/logs/rvspoc-S2605-rocksdb-pr3.db_test.log
+rvspoc-S2605-rocksdb	4	db_test	FAIL	1332	302	4	/home/rvspoc/rvspoc-verify/logs/rvspoc-S2605-rocksdb-pr4.db_test.log

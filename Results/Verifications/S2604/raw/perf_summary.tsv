@@ -1,0 +1,204 @@
+s2603-pr2-CONDITIONAL	base-run1	Totals      40729.47        13.33     37011.96         4.90718         4.83100         9.66300        12.67100      1688.41 
+s2603-pr2-CONDITIONAL	base-run2	Totals      40953.66        13.33     37215.75         4.88019         4.79900         9.59900        12.22300      1697.70 
+s2603-pr2-CONDITIONAL	base-run3	Totals      41424.26        13.33     37643.64         4.82480         4.73500         9.47100        12.41500      1717.19 
+s2603-pr2-CONDITIONAL	highconc-run1	Totals      29223.55         0.00     26554.45        54.72693        53.75900       104.95900       117.24700      1211.73 
+s2603-pr2-CONDITIONAL	highconc-run2	Totals      29553.27         0.00     26854.73        54.12281        53.24700       103.42300       116.73500      1225.36 
+s2603-pr2-CONDITIONAL	highconc-run3	Totals      29590.87         0.00     26888.89        54.05817        53.24700       104.95900       118.27100      1226.91 
+s2603-pr2-CONDITIONAL	highval16k-run1	Totals      35733.43        16.66     32465.46         5.59346         1.52700        49.15100        51.45500     53676.51 
+s2603-pr2-CONDITIONAL	highval16k-run2	Totals      36054.33        16.66     32757.24         5.54206         1.49500        49.15100        51.19900     54154.90 
+s2603-pr2-CONDITIONAL	highval16k-run3	Totals      36189.88        16.66     32880.55         5.52282         1.47100        49.15100        51.45500     54355.97 
+s2603-pr2-CONDITIONAL	highval4k-run1	Totals      40791.49        24.13     37057.52         4.89988         4.79900         9.59900        12.22300     16517.82 
+s2603-pr2-CONDITIONAL	highval4k-run2	Totals      41257.90        24.33     37481.35         4.84420         4.73500         9.47100        12.09500     16706.26 
+s2603-pr2-CONDITIONAL	highval4k-run3	Totals      41651.32        24.84     37838.51         4.79828         4.70300         9.40700        12.28700     16866.55 
+s2603-pr2-CONDITIONAL	persist-run1	Totals      40680.35        13.33     36967.33         4.91323         4.79900         9.66300        12.73500      1686.38 
+s2603-pr2-CONDITIONAL	persist-run2	Totals      40790.78        13.33     37067.77         4.89991         4.79900         9.59900        12.54300      1690.95 
+s2603-pr2-CONDITIONAL	persist-run3	Totals      40504.24        13.33     36807.08         4.93458         4.83100         9.59900        12.60700      1679.09 
+s2603-pr2-CONDITIONAL	pipe16-run1	Totals     398984.43      2016.07    360695.51         8.00843         7.58300        15.35900        18.68700     16600.70 
+s2603-pr2-CONDITIONAL	pipe16-run2	Totals     399581.10      2020.60    361233.47         7.99684         7.58300        15.29500        18.55900     16625.57 
+s2603-pr2-CONDITIONAL	pipe16-run3	Totals     397172.76      1999.58    359065.18         8.04500         7.61500        15.42300        18.81500     16525.09 
+s2603-pr2-CONDITIONAL	pipe64-run1	Totals     683758.47      5934.16    615662.88        18.67767        19.83900        24.95900        29.69500     28531.83 
+s2603-pr2-CONDITIONAL	pipe64-run2	Totals     687496.87      6001.51    618994.17        18.57554        19.71100        24.83100        29.69500     28688.98 
+s2603-pr2-CONDITIONAL	pipe64-run3	Totals     687509.58      5997.93    619009.28        18.57589        19.83900        24.83100        29.56700     28689.38 
+s2603-pr2-CONDITIONAL	writeheavy-run1	Totals      41134.20        67.22     20499.00         4.85891         4.73500         9.53500        12.54300      2347.76 
+s2603-pr2-CONDITIONAL	writeheavy-run2	Totals      40654.12        65.65     20260.64         4.91650         4.83100         9.66300        12.54300      2320.33 
+s2603-pr2-CONDITIONAL	writeheavy-run3	Totals      40086.34        61.95     19980.44         4.98612         4.89500         9.79100        12.67100      2287.84 
+s2603-pr3	base-run1	Totals      44323.09        16.33     40275.90         4.50916         4.41500         8.83100        12.03100      1837.41 
+s2603-pr3	base-run2	Totals      44159.75        16.18     40127.51         4.52596         4.44700         8.89500        12.15900      1830.64 
+s2603-pr3	base-run3	Totals      43475.01        14.45     39506.84         4.59725         4.51100         9.02300        12.03100      1802.21 
+s2603-pr3	highconc-run1	Totals      29739.16         0.00     27023.25        53.78839        52.99100       104.44700       118.78300      1233.04 
+s2603-pr3	highconc-run2	Totals      29783.28         0.00     27063.34        53.69592        52.99100       103.42300       115.19900      1234.86 
+s2603-pr3	highconc-run3	Totals      29629.42         0.00     26923.25        53.98500        53.24700       104.44700       122.36700      1228.52 
+s2603-pr3	highval16k-run1	Totals      36359.79        16.66     33035.20         5.49610         1.44700        49.15100        51.45500     54606.82 
+s2603-pr3	highval16k-run2	Totals      36445.86        16.66     33113.29         5.48342         1.43900        48.89500        51.19900     54737.90 
+s2603-pr3	highval16k-run3	Totals      36236.75        16.66     32923.57         5.51521         1.45500        49.15100        51.19900     54419.47 
+s2603-pr3	highval4k-run1	Totals      41882.98        24.78     38049.10         4.77198         4.67100         9.40700        12.28700     16959.79 
+s2603-pr3	highval4k-run2	Totals      42527.62        25.04     38634.98         4.69972         4.60700         9.21500        12.03100     17219.88 
+s2603-pr3	highval4k-run3	Totals      42383.90        25.08     38504.26         4.71560         4.60700         9.27900        12.15900     17162.29 
+s2603-pr3	persist-run1	Totals      41964.58        13.33     38134.69         4.76288         4.67100         9.34300        12.15900      1739.59 
+s2603-pr3	persist-run2	Totals      41855.69        13.33     38035.96         4.77514         4.67100         9.34300        12.28700      1735.06 
+s2603-pr3	persist-run3	Totals      42175.88        13.33     38326.81         4.73893         4.63900         9.27900        12.35100      1748.34 
+s2603-pr3	pipe16-run1	Totals     420923.85      2231.65    380424.87         7.59040         7.16700        14.52700        18.04700     17517.05 
+s2603-pr3	pipe16-run2	Totals     421853.85      2245.05    381256.85         7.57370         7.16700        14.46300        17.91900     17556.05 
+s2603-pr3	pipe16-run3	Totals     414456.65      2187.25    374589.85         7.70934         7.32700        14.78300        18.30300     17247.53 
+s2603-pr3	pipe64-run1	Totals     766381.74      7453.03    689256.18        16.66062        17.66300        22.78300        27.64700     32005.97 
+s2603-pr3	pipe64-run2	Totals     775671.29      7694.16    697459.92        16.46040        17.27900        22.27100        27.13500     32398.89 
+s2603-pr3	pipe64-run3	Totals     776031.89      7725.78    697756.32        16.45320        17.27900        22.27100        26.87900     32414.87 
+s2603-pr3	writeheavy-run1	Totals      40481.17        64.78     20174.92         4.93728         4.83100         9.66300        12.54300      2310.45 
+s2603-pr3	writeheavy-run2	Totals      40543.78        65.13     20205.95         4.92961         4.83100         9.66300        12.41500      2314.02 
+s2603-pr3	writeheavy-run3	Totals      40554.61        64.35     20212.19         4.95139         4.86300         9.72700        12.60700      2314.62 
+s2603-pr4	base-run1	Totals      43664.28        14.96     39678.33         4.57734         4.47900         8.95900        12.15900      1810.08 
+s2603-pr4	base-run2	Totals      43794.43        15.36     39796.16         4.56377         4.47900         8.95900        11.96700      1815.48 
+s2603-pr4	base-run3	Totals      42693.48        13.33     38797.34         4.68131         4.60700         9.21500        12.09500      1769.79 
+s2603-pr4	highconc-run1	Totals      29976.72         0.00     27239.46        53.35147        52.47900       102.39900       112.63900      1242.82 
+s2603-pr4	highconc-run2	Totals      30132.13         0.00     27381.06        53.07790        52.47900       102.91100       115.71100      1249.23 
+s2603-pr4	highconc-run3	Totals      30259.05         0.00     27495.97        52.86333        52.22300       102.91100       113.15100      1254.50 
+s2603-pr4	highval16k-run1	Totals      36559.26        16.66     33216.45         5.46727         1.43900        48.89500        51.19900     54906.10 
+s2603-pr4	highval16k-run2	Totals      36735.95        16.66     33377.18         5.44042         1.40700        48.89500        51.19900     55168.29 
+s2603-pr4	highval16k-run3	Totals      36869.08        16.66     33498.39         5.42143         1.39100        48.89500        51.19900     55364.15 
+s2603-pr4	highval4k-run1	Totals      43315.11        25.29     39350.66         4.61421         4.51100         9.08700        12.15900     17537.64 
+s2603-pr4	highval4k-run2	Totals      43585.95        24.74     39597.32         4.58544         4.47900         9.02300        11.96700     17644.90 
+s2603-pr4	highval4k-run3	Totals      43965.93        24.93     39942.55         4.54592         4.44700         8.89500        12.09500     17798.59 
+s2603-pr4	persist-run1	Totals      40274.90        13.33     36598.65         4.96251         4.86300         9.72700        12.47900      1669.58 
+s2603-pr4	persist-run2	Totals      41746.38        13.33     37936.43         4.78762         4.70300         9.40700        12.35100      1730.54 
+s2603-pr4	persist-run3	Totals      42524.96        13.33     38644.23         4.70006         4.60700         9.21500        12.15900      1762.81 
+s2603-pr4	pipe16-run1	Totals     462862.17      2712.49    418069.82         6.90201         6.55900        13.24700        16.63900     19271.03 
+s2603-pr4	pipe16-run2	Totals     457388.22      2660.47    413145.45         6.98480         6.62300        13.43900        17.02300     19042.40 
+s2603-pr4	pipe16-run3	Totals     464723.38      2738.14    419736.21         6.87466         6.52700        13.18300        16.89500     19349.02 
+s2603-pr4	pipe64-run1	Totals     889826.97      9998.78    798933.25        14.34454        14.84700        19.96700        25.72700     37205.77 
+s2603-pr4	pipe64-run2	Totals     887823.15      9976.63    797133.67        14.37594        14.84700        19.96700        25.85500     37122.01 
+s2603-pr4	pipe64-run3	Totals     889340.50     10028.00    798461.91        14.35215        14.84700        19.96700        25.72700     37186.58 
+s2603-pr4	writeheavy-run1	Totals      41936.66        72.28     20895.20         4.76577         4.67100         9.34300        12.60700      2393.70 
+s2603-pr4	writeheavy-run2	Totals      41759.99        70.35     20808.85         4.78614         4.70300         9.40700        12.54300      2383.55 
+s2603-pr4	writeheavy-run3	Totals      42312.16        74.87     21080.43         4.72340         4.63900         9.27900        12.41500      2415.20 
+s2603-pr6-CONDITIONAL	base-run1	Totals      42905.36        13.33     38990.11         4.65823         4.57500         9.15100        12.15900      1778.57 
+s2603-pr6-CONDITIONAL	base-run2	Totals      43135.86        13.53     39199.32         4.63324         4.54300         9.15100        12.15900      1788.13 
+s2603-pr6-CONDITIONAL	base-run3	Totals      42443.63        13.33     38570.18         4.70902         4.60700         9.21500        12.15900      1759.44 
+s2603-pr6-CONDITIONAL	highconc-run1	Totals      29885.35         0.00     27156.50        53.51737        52.73500       103.93500       117.24700      1239.05 
+s2603-pr6-CONDITIONAL	highconc-run2	Totals      29716.28         0.00     27002.44        53.82453        52.99100       104.44700       116.22300      1232.09 
+s2603-pr6-CONDITIONAL	highconc-run3	Totals      29852.15         0.00     27126.25        53.58768        52.99100       103.42300       114.17500      1237.69 
+s2603-pr6-CONDITIONAL	highval16k-run1	Totals      36442.18        16.66     33110.08         5.48514         1.43900        49.15100        51.19900     54730.01 
+s2603-pr6-CONDITIONAL	highval16k-run2	Totals      36558.28        16.66     33215.18         5.46722         1.41500        48.89500        51.45500     54910.55 
+s2603-pr6-CONDITIONAL	highval16k-run3	Totals      36610.29        16.66     33262.64         5.45911         1.41500        48.89500        51.19900     54985.53 
+s2603-pr6-CONDITIONAL	highval4k-run1	Totals      43295.36        24.64     39333.11         4.61626         4.51100         9.08700        12.22300     17528.07 
+s2603-pr6-CONDITIONAL	highval4k-run2	Totals      43199.75        24.79     39246.17         4.62650         4.54300         9.08700        12.15900     17489.73 
+s2603-pr6-CONDITIONAL	highval4k-run3	Totals      43475.57        24.51     39497.25         4.59717         4.51100         9.02300        12.03100     17599.34 
+s2603-pr6-CONDITIONAL	persist-run1	Totals          0.00         0.00         0.00             nan         0.00700         0.00700         0.00700         0.00 
+s2603-pr6-CONDITIONAL	persist-run2	Totals          0.00         0.00         0.00             nan         0.00700         0.00700         0.00700         0.00 
+s2603-pr6-CONDITIONAL	persist-run3	Totals          0.00         0.00         0.00             nan         0.00700         0.00700         0.00700         0.00 
+s2603-pr6-CONDITIONAL	pipe16-run1	Totals     451345.97      2601.90    407711.08         7.07850         6.75100        13.63100        16.89500     18790.01 
+s2603-pr6-CONDITIONAL	pipe16-run2	Totals     452554.73      2605.45    408806.33         7.05955         6.71900        13.56700        16.89500     18840.23 
+s2603-pr6-CONDITIONAL	pipe16-run3	Totals     451381.69      2597.01    407748.46         7.07791         6.75100        13.63100        17.15100     18791.33 
+s2603-pr6-CONDITIONAL	pipe64-run1	Totals     870272.97      9658.00    781497.68        14.66785        15.16700        20.35100        26.36700     36384.26 
+s2603-pr6-CONDITIONAL	pipe64-run2	Totals     867453.27      9556.66    779035.70        14.71452        15.23100        20.47900        25.72700     36264.04 
+s2603-pr6-CONDITIONAL	pipe64-run3	Totals     877191.90      9779.18    787666.58        14.55030        15.03900        20.22300        25.85500     36674.96 
+s2603-pr6-CONDITIONAL	writeheavy-run1	Totals      41481.23        68.07     20671.67         4.81831         4.73500         9.47100        12.47900      2367.58 
+s2603-pr6-CONDITIONAL	writeheavy-run2	Totals      41255.06        67.38     20559.32         4.84473         4.73500         9.47100        12.54300      2354.65 
+s2603-pr6-CONDITIONAL	writeheavy-run3	Totals      41981.12        72.62     20917.15         4.76077         4.67100         9.34300        12.28700      2396.24 
+s2604-pr1	base-run1	Totals     113514.07       134.74    103058.43         1.75984         1.71100         2.60700         9.34300      3210.85 
+s2604-pr1	base-run2	Totals     115293.41       278.37    104532.36         1.73277         1.68700         2.57500         9.27900      3269.59 
+s2604-pr1	base-run3	Totals     107900.43       273.52     97816.39         1.85127         1.81500         2.75100         9.72700      3060.74 
+s2604-pr1	highconc-run1	Totals     149091.37       346.31    135178.84        10.72559        10.17500        38.14300        59.39100      4227.93 
+s2604-pr1	highconc-run2	Totals     149327.87       346.31    135394.02        10.70835        10.11100        38.65500        59.64700      4234.58 
+s2604-pr1	highconc-run3	Totals     151436.04       350.10    137306.93        10.67502        10.11100        38.39900        59.39100      4294.26 
+s2604-pr1	highval4k-run1	Totals     103106.93     37860.18     55871.88         1.93664         1.89500         2.87900        10.11100     74413.36 
+s2604-pr1	highval4k-run2	Totals     106056.34     39216.73     57196.31         1.88290         1.82300         2.79900        10.17500     77317.74 
+s2604-pr1	highval4k-run3	Totals     104184.98     38321.21     56390.97         1.91684         1.86300         2.84700        10.04700     75728.82 
+s2604-pr1	pipe16-run1	Totals     698028.57     67827.17    566743.08         4.57586         4.12700         9.79100        18.55900    113448.95 
+s2604-pr1	pipe16-run2	Totals     680302.93     72257.17    546198.65         4.69527         4.22300        10.04700        18.68700    111250.95 
+s2604-pr1	pipe16-run3	Totals     695563.30     72706.32    559622.63         4.59208         4.15900         9.85500        18.30300    112042.55 
+s2604-pr1	setheavy-run1	Totals     107307.73      4066.71     49586.23         1.86151         1.81500         2.76700        10.23900     57656.69 
+s2604-pr1	setheavy-run2	Totals     107377.33      4434.24     49253.51         1.86034         1.82300         2.78300        10.17500     58123.26 
+s2604-pr1	setheavy-run3	Totals     105576.29      4424.41     48362.88         1.89197         1.84700         2.81500        10.30300     57158.51 
+s2604-pr2	base-run1	Totals     113252.62       132.97    102822.41         1.76392         1.71900         2.62300         9.40700      3203.38 
+s2604-pr2	base-run2	Totals     111542.14       261.09    101139.54         1.79096         1.74300         2.65500         9.47100      3162.75 
+s2604-pr2	base-run3	Totals     113468.28       266.01    102885.41         1.76064         1.71900         2.60700         9.40700      3217.38 
+s2604-pr2	highconc-run1	Totals     146231.64       293.00    132632.72        10.93535        10.36700        39.16700        59.64700      4144.18 
+s2604-pr2	highconc-run2	Totals     146218.94       293.03    132621.17        10.93633        10.36700        38.91100        59.64700      4143.83 
+s2604-pr2	highconc-run3	Totals     146040.51       292.97    132458.89        10.94979        10.36700        39.16700        59.64700      4138.79 
+s2604-pr2	highval4k-run1	Totals     104061.41     38105.74     56494.07         1.91896         1.87900         2.86300        10.11100     74989.31 
+s2604-pr2	highval4k-run2	Totals     103582.35     38029.45     56135.03         1.92786         1.87100         2.84700        10.04700     75195.75 
+s2604-pr2	highval4k-run3	Totals     103610.12     38026.58     56162.71         1.92746         1.87100         2.86300        10.23900     75201.57 
+s2604-pr2	pipe16-run1	Totals     686845.20     66764.71    557638.24         4.65028         4.15900         9.98300        18.81500    111866.43 
+s2604-pr2	pipe16-run2	Totals     695944.75     72197.03    560478.59         4.62029         4.15900         9.98300        18.55900    111602.77 
+s2604-pr2	pipe16-run3	Totals     703482.85     72196.60    567331.68         4.54008         4.09500         9.72700        18.04700    111471.18 
+s2604-pr2	setheavy-run1	Totals     107163.33      3949.70     49631.14         1.86404         1.82300         2.76700        10.30300     57569.26 
+s2604-pr2	setheavy-run2	Totals     106194.90      4313.43     48783.22         1.88116         1.83100         2.79900        10.36700     57475.77 
+s2604-pr2	setheavy-run3	Totals     106888.18      4318.36     49124.94         1.86884         1.82300         2.79900        10.36700     57848.90 
+s2604-pr3	base-run1	Totals     110425.93       129.52    100255.95         1.80912         1.76700         2.70300         9.59900      3123.44 
+s2604-pr3	base-run2	Totals     110178.71       252.04     99908.83         1.81307         1.77500         2.68700         9.66300      3123.75 
+s2604-pr3	base-run3	Totals     112948.22       258.79    102419.87         1.76871         1.71900         2.62300         9.47100      3202.27 
+s2604-pr3	highconc-run1	Totals     149655.25       319.68    135718.65        10.68528        10.11100        38.39900        59.39100      4242.21 
+s2604-pr3	highconc-run2	Totals     149749.48       319.67    135804.30        10.67848        10.11100        38.39900        59.39100      4244.87 
+s2604-pr3	highconc-run3	Totals     149290.30       319.67    135386.56        10.71114        10.17500        38.39900        59.39100      4231.94 
+s2604-pr3	highval4k-run1	Totals     105216.54     38683.54     56966.33         1.89798         1.85500         2.83100        10.04700     75995.22 
+s2604-pr3	highval4k-run2	Totals     105988.53     39180.98     57170.51         1.88408         1.83100         2.79900         9.85500     77263.41 
+s2604-pr3	highval4k-run3	Totals     103943.94     38216.96     56275.77         1.92122         1.86300         2.86300        10.04700     75549.99 
+s2604-pr3	pipe16-run1	Totals     676238.47     67979.39    546781.32         4.72354         4.25500        10.04700        18.81500    113150.63 
+s2604-pr3	pipe16-run2	Totals     683847.62     72889.21    548789.14         4.67085         4.22300         9.98300        18.81500    112303.44 
+s2604-pr3	pipe16-run3	Totals     674664.01     72745.92    540583.37         4.73408         4.25500        10.04700        18.94300    111816.70 
+s2604-pr3	setheavy-run1	Totals     111242.82      4015.74     51604.87         1.79579         1.75900         2.67100        10.04700     59771.97 
+s2604-pr3	setheavy-run2	Totals     108163.52      4369.62     49711.34         1.84689         1.79900         2.73500        10.36700     58555.31 
+s2604-pr3	setheavy-run3	Totals     103503.62      4331.68     47419.31         1.92998         1.88700         2.86300        10.43100     56045.29 
+s2605-pr2	fillrandom-run1	fillrandom   :      30.459 micros/op 262189 ops/sec 152.561 seconds 40000000 operations;   29.0 MB/s
+s2605-pr2	fillrandom-run2	fillrandom   :      29.573 micros/op 269964 ops/sec 148.167 seconds 40000000 operations;   29.9 MB/s
+s2605-pr2	fillrandom-run3	fillrandom   :      30.422 micros/op 262344 ops/sec 152.471 seconds 40000000 operations;   29.0 MB/s
+s2605-pr2	fillseq-run1	fillseq      :      28.105 micros/op 284330 ops/sec 140.681 seconds 40000000 operations;   31.5 MB/s
+s2605-pr2	fillseq-run2	fillseq      :      27.939 micros/op 286073 ops/sec 139.824 seconds 40000000 operations;   31.6 MB/s
+s2605-pr2	fillseq-run3	fillseq      :      27.795 micros/op 287585 ops/sec 139.089 seconds 40000000 operations;   31.8 MB/s
+s2605-pr2	overwrite-run1	overwrite    :      31.014 micros/op 257581 ops/sec 155.290 seconds 40000000 operations;   28.5 MB/s
+s2605-pr2	overwrite-run2	overwrite    :      30.982 micros/op 257611 ops/sec 155.273 seconds 40000000 operations;   28.5 MB/s
+s2605-pr2	overwrite-run3	overwrite    :      31.380 micros/op 254346 ops/sec 157.266 seconds 40000000 operations;   28.1 MB/s
+s2605-pr2	readrandom-run1	readrandom   :      26.581 micros/op 294620 ops/sec 135.768 seconds 40000000 operations;   32.6 MB/s (4998262 of 5000000 found)
+s2605-pr2	readrandom-run2	readrandom   :      27.393 micros/op 287483 ops/sec 139.138 seconds 40000000 operations;   31.8 MB/s (4998295 of 5000000 found)
+s2605-pr2	readrandom-run3	readrandom   :      28.204 micros/op 278976 ops/sec 143.381 seconds 40000000 operations;   30.9 MB/s (4998305 of 5000000 found)
+s2605-pr2	readseq-run1	readseq      :       0.859 micros/op 9316270 ops/sec 4.292 seconds 39986384 operations; 1030.6 MB/s
+s2605-pr2	readseq-run2	readseq      :       0.869 micros/op 9203964 ops/sec 4.344 seconds 39986072 operations; 1018.2 MB/s
+s2605-pr2	readseq-run3	readseq      :       0.907 micros/op 8821962 ops/sec 4.533 seconds 39986576 operations;  975.9 MB/s
+s2605-pr2	seekrandom-run1	seekrandom   :      58.182 micros/op 136458 ops/sec 293.129 seconds 40000000 operations;  151.0 MB/s (4998355 of 5000000 found)
+s2605-pr2	seekrandom-run2	seekrandom   :      58.516 micros/op 134665 ops/sec 297.032 seconds 40000000 operations;  149.0 MB/s (4998240 of 5000000 found)
+s2605-pr2	seekrandom-run3	seekrandom   :      58.906 micros/op 134675 ops/sec 297.010 seconds 40000000 operations;  149.0 MB/s (4998325 of 5000000 found)
+s2605-pr3	fillrandom-run1	fillrandom   :      31.137 micros/op 256195 ops/sec 156.131 seconds 40000000 operations;   28.3 MB/s
+s2605-pr3	fillrandom-run2	fillrandom   :      31.233 micros/op 255535 ops/sec 156.534 seconds 40000000 operations;   28.3 MB/s
+s2605-pr3	fillrandom-run3	fillrandom   :      30.932 micros/op 257768 ops/sec 155.178 seconds 40000000 operations;   28.5 MB/s
+s2605-pr3	fillseq-run1	fillseq      :      24.743 micros/op 323038 ops/sec 123.824 seconds 40000000 operations;   35.7 MB/s
+s2605-pr3	fillseq-run2	fillseq      :      24.783 micros/op 322668 ops/sec 123.966 seconds 40000000 operations;   35.7 MB/s
+s2605-pr3	fillseq-run3	fillseq      :      24.882 micros/op 321351 ops/sec 124.474 seconds 40000000 operations;   35.5 MB/s
+s2605-pr3	overwrite-run1	overwrite    :      31.208 micros/op 255923 ops/sec 156.297 seconds 40000000 operations;   28.3 MB/s
+s2605-pr3	overwrite-run2	overwrite    :      30.607 micros/op 260901 ops/sec 153.315 seconds 40000000 operations;   28.9 MB/s
+s2605-pr3	overwrite-run3	overwrite    :      30.474 micros/op 261701 ops/sec 152.846 seconds 40000000 operations;   29.0 MB/s
+s2605-pr3	readrandom-run1	readrandom   :      20.600 micros/op 377690 ops/sec 105.907 seconds 40000000 operations;   41.8 MB/s (4998341 of 5000000 found)
+s2605-pr3	readrandom-run2	readrandom   :      20.523 micros/op 382048 ops/sec 104.699 seconds 40000000 operations;   42.2 MB/s (4998275 of 5000000 found)
+s2605-pr3	readrandom-run3	readrandom   :      21.661 micros/op 362181 ops/sec 110.442 seconds 40000000 operations;   40.1 MB/s (4998323 of 5000000 found)
+s2605-pr3	readseq-run1	readseq      :       0.688 micros/op 11631901 ops/sec 3.438 seconds 39986592 operations; 1286.8 MB/s
+s2605-pr3	readseq-run2	readseq      :       0.660 micros/op 12123855 ops/sec 3.298 seconds 39986136 operations; 1341.2 MB/s
+s2605-pr3	readseq-run3	readseq      :       0.666 micros/op 12007378 ops/sec 3.330 seconds 39986648 operations; 1328.3 MB/s
+s2605-pr3	seekrandom-run1	seekrandom   :      42.241 micros/op 186910 ops/sec 214.006 seconds 40000000 operations;  206.8 MB/s (4998320 of 5000000 found)
+s2605-pr3	seekrandom-run2	seekrandom   :      40.390 micros/op 195549 ops/sec 204.552 seconds 40000000 operations;  216.3 MB/s (4998285 of 5000000 found)
+s2605-pr3	seekrandom-run3	seekrandom   :      43.880 micros/op 179743 ops/sec 222.539 seconds 40000000 operations;  198.8 MB/s (4998399 of 5000000 found)
+s2605-pr3-recheck	fillrandom-run1	fillrandom   :      31.966 micros/op 249829 ops/sec 160.109 seconds 40000000 operations;   27.6 MB/s
+s2605-pr3-recheck	fillrandom-run2	fillrandom   :      30.608 micros/op 260626 ops/sec 153.476 seconds 40000000 operations;   28.8 MB/s
+s2605-pr3-recheck	fillrandom-run3	fillrandom   :      31.207 micros/op 255846 ops/sec 156.344 seconds 40000000 operations;   28.3 MB/s
+s2605-pr3-recheck	readrandom-run1	readrandom   :      19.539 micros/op 403451 ops/sec 99.145 seconds 40000000 operations;   44.6 MB/s (4998300 of 5000000 found)
+s2605-pr3-recheck	readrandom-run2	readrandom   :      21.281 micros/op 369180 ops/sec 108.348 seconds 40000000 operations;   40.8 MB/s (4998236 of 5000000 found)
+s2605-pr3-recheck	readrandom-run3	readrandom   :      20.322 micros/op 387537 ops/sec 103.216 seconds 40000000 operations;   42.9 MB/s (4998355 of 5000000 found)
+s2605-pr3-recheck	seekrandom-run1	seekrandom   :      41.017 micros/op 192216 ops/sec 208.099 seconds 40000000 operations;  212.6 MB/s (4998314 of 5000000 found)
+s2605-pr3-recheck	seekrandom-run2	seekrandom   :      43.791 micros/op 179505 ops/sec 222.834 seconds 40000000 operations;  198.6 MB/s (4998332 of 5000000 found)
+s2605-pr3-recheck	seekrandom-run3	seekrandom   :      42.343 micros/op 185610 ops/sec 215.505 seconds 40000000 operations;  205.3 MB/s (4998351 of 5000000 found)
+s2605-pr4	fillrandom-run1	fillrandom   :      35.722 micros/op 223577 ops/sec 178.909 seconds 40000000 operations;   24.7 MB/s
+s2605-pr4	fillrandom-run2	fillrandom   :      34.938 micros/op 228829 ops/sec 174.803 seconds 40000000 operations;   25.3 MB/s
+s2605-pr4	fillrandom-run3	fillrandom   :      34.987 micros/op 228350 ops/sec 175.169 seconds 40000000 operations;   25.3 MB/s
+s2605-pr4	fillseq-run1	fillseq      :      33.277 micros/op 240298 ops/sec 166.459 seconds 40000000 operations;   26.6 MB/s
+s2605-pr4	fillseq-run2	fillseq      :      33.042 micros/op 242061 ops/sec 165.247 seconds 40000000 operations;   26.8 MB/s
+s2605-pr4	fillseq-run3	fillseq      :      33.704 micros/op 237320 ops/sec 168.549 seconds 40000000 operations;   26.3 MB/s
+s2605-pr4	overwrite-run1	overwrite    :      35.439 micros/op 225586 ops/sec 177.316 seconds 40000000 operations;   25.0 MB/s
+s2605-pr4	overwrite-run2	overwrite    :      35.859 micros/op 222806 ops/sec 179.528 seconds 40000000 operations;   24.6 MB/s
+s2605-pr4	overwrite-run3	overwrite    :      35.418 micros/op 225615 ops/sec 177.293 seconds 40000000 operations;   25.0 MB/s
+s2605-pr4	readrandom-run1	readrandom   :      31.476 micros/op 251370 ops/sec 159.128 seconds 40000000 operations;   27.8 MB/s (4998338 of 5000000 found)
+s2605-pr4	readrandom-run2	readrandom   :      31.632 micros/op 249779 ops/sec 160.141 seconds 40000000 operations;   27.6 MB/s (4998334 of 5000000 found)
+s2605-pr4	readrandom-run3	readrandom   :      30.739 micros/op 257023 ops/sec 155.628 seconds 40000000 operations;   28.4 MB/s (4998309 of 5000000 found)
+s2605-pr4	readseq-run1	readseq      :       1.062 micros/op 7532216 ops/sec 5.309 seconds 39986512 operations;  833.3 MB/s
+s2605-pr4	readseq-run2	readseq      :       1.028 micros/op 7784144 ops/sec 5.137 seconds 39986584 operations;  861.1 MB/s
+s2605-pr4	readseq-run3	readseq      :       1.057 micros/op 7566544 ops/sec 5.285 seconds 39987024 operations;  837.1 MB/s
+s2605-pr4	seekrandom-run1	seekrandom   :      68.036 micros/op 115603 ops/sec 346.010 seconds 40000000 operations;  127.9 MB/s (4998299 of 5000000 found)
+s2605-pr4	seekrandom-run2	seekrandom   :      65.178 micros/op 121230 ops/sec 329.951 seconds 40000000 operations;  134.1 MB/s (4998343 of 5000000 found)
+s2605-pr4	seekrandom-run3	seekrandom   :      68.791 micros/op 114490 ops/sec 349.374 seconds 40000000 operations;  126.7 MB/s (4998356 of 5000000 found)
