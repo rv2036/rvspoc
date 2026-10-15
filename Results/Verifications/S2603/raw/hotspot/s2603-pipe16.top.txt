@@ -1,0 +1,40 @@
+     8.16%  redis-server  redis-server   [.] processInputBuffer
+     6.12%  redis-server  redis-server   [.] dictPrefetcherRun.lto_priv.0
+     5.47%  redis-server  redis-server   [.] siphash
+                                     0x5d630067001bc317
+     5.26%  redis-server  redis-server   [.] call
+     4.85%  redis-server  [vdso]         [.] __vdso_clock_gettime
+                          0x5d630067001bc317
+     3.87%  redis-server  redis-server   [.] dictFindLinkInternal.lto_priv.0
+     3.50%  redis-server  redis-server   [.] zmalloc_usable
+     2.84%  redis-server  redis-server   [.] resetClientInternal.lto_priv.0
+                       0x5d630067001bc317
+     2.67%  redis-server  redis-server   [.] decrRefCount.part.0
+     2.53%  redis-server  redis-server   [.] processCommand
+     2.08%  redis-server  libc.so.6      [.] __GI___libc_write
+                          0x5d630067001bc317
+     1.91%  redis-server  libc.so.6      [.] __strcasecmp
+     1.89%  redis-server  libc.so.6      [.] memchr
+                       0x5d630067001bc317
+     1.81%  redis-server  redis-server   [.] readQueryFromClient
+                                  0x5d630067001bc317
+     1.69%  redis-server  redis-server   [.] getKeysUsingKeySpecs
+                                     0x5d630067001bc317
+     1.61%  redis-server  redis-server   [.] lookupKey.constprop.0
+                       0x5d630067001bc317
+     1.57%  redis-server  redis-server   [.] sdsnewplacement
+                                  0x5d630067001bc317
+     1.54%  redis-server  libc.so.6      [.] memcpy
+                                     0x5d630067001bc317
+     1.50%  redis-server  redis-server   [.] ACLCheckAllUserCommandPerm
+                                  0x5d630067001bc317
+     1.47%  redis-server  libc.so.6      [.] read
+                                     0x5d630067001bc317
+     1.27%  redis-server  redis-server   [.] dictPrefetcherReset.part.0.lto_priv.0
+                                             0x5d630067001bc317
+     1.22%  redis-server  redis-server   [.] writeToClient
+                                  0x5d630067001bc317
+     1.20%  redis-server  redis-server   [.] updateClientMemUsageAndBucket
+     1.18%  redis-server  redis-server   [.] dictSdsCompareKV
+                                             0x5d630067001bc317
+     1.13%  redis-server  redis-server   [.] preprocessCommand

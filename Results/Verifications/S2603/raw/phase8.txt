@@ -1,0 +1,22 @@
+已恢复上游 networking.c / server.c;monotonic.c 保留选手版本
+=== 隔离实验:恢复上游 networking.c+server.c 后 ===
+runtest exit=1  err=15  ok=5548
+--- 剩余 [err] 项 ---
+[err]: benchmark: arbitrary command
+[err]: benchmark: connecting using URI set,get
+[err]: benchmark: connecting using URI with authentication set,get
+[err]: benchmark: full test suite
+[err]: benchmark: keyspace length
+[err]: benchmark: multi-thread set,get
+[err]: benchmark: pipelined full set,get
+[err]: benchmark: read last argument from stdin
+[err]: benchmark: set,get
+[err]: Check MEMORY USAGE for embedded key strings with jemalloc
+[err]: Prefetch can resume working when the configuration option is set to a non-zero value
+[err]: prefetch works as expected when killing a client from the middle of prefetch commands batch
+[err]: Prefetch works with batch size greater than 16 (buffer overflow regression test)
+[err]: Prefetch works with maximum batch size of 128 and client number larger than batch size
+[err]: verify reply buffer limits
+--- 跑完与否 ---
+完整跑完
+PHASE8 DONE

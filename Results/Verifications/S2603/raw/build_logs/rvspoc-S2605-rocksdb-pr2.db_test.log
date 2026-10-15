@@ -1,0 +1,2616 @@
+$DEBUG_LEVEL is 1, $LIB_MODE is static
+Makefile:184: Warning: Compiling in debug mode. Don't use the resulting binary in production
+$DEBUG_LEVEL is 1, $LIB_MODE is static
+Makefile:184: Warning: Compiling in debug mode. Don't use the resulting binary in production
+  CC       db/db_test.o
+  CC       db/db_test_util.o
+  CC       db/db_with_timestamp_test_util.o
+  CC       test_util/mock_time_env.o
+  CC       test_util/secondary_cache_test_util.o
+  CC       test_util/testharness.o
+  CC       test_util/testutil.o
+  CC       utilities/agg_merge/test_agg_merge.o
+  CC       utilities/cassandra/test_utils.o
+  CC       table/mock_table.o
+  CC       third-party/gtest-1.8.1/fused-src/gtest/gtest-all.o
+  CC       cache/cache.o
+  CC       cache/cache_entry_roles.o
+  CC       cache/cache_key.o
+  CC       cache/cache_helpers.o
+  CC       cache/cache_reservation_manager.o
+  CC       cache/charged_cache.o
+  CC       cache/clock_cache.o
+  CC       cache/lru_cache.o
+  CC       cache/compressed_secondary_cache.o
+  CC       cache/secondary_cache.o
+  CC       cache/secondary_cache_adapter.o
+  CC       cache/sharded_cache.o
+  CC       cache/tiered_secondary_cache.o
+  CC       db/arena_wrapped_db_iter.o
+  CC       db/attribute_group_iterator_impl.o
+  CC       db/blob/blob_contents.o
+  CC       db/blob/blob_fetcher.o
+  CC       db/blob/blob_file_addition.o
+  CC       db/blob/blob_file_builder.o
+  CC       db/blob/blob_file_cache.o
+  CC       db/blob/blob_file_partition_manager.o
+  CC       db/blob/blob_file_garbage.o
+  CC       db/blob/blob_file_meta.o
+  CC       db/blob/blob_file_reader.o
+  CC       db/blob/blob_garbage_meter.o
+  CC       db/blob/blob_log_format.o
+  CC       db/blob/blob_log_sequential_reader.o
+  CC       db/blob/blob_log_writer.o
+  CC       db/blob/blob_source.o
+  CC       db/blob/blob_write_batch_transformer.o
+  CC       db/blob/prefetch_buffer_collection.o
+  CC       db/builder.o
+  CC       db/c.o
+  CC       db/coalescing_iterator.o
+  CC       db/column_family.o
+  CC       db/compaction/compaction.o
+  CC       db/compaction/compaction_iterator.o
+  CC       db/compaction/compaction_job.o
+  CC       db/compaction/compaction_picker.o
+  CC       db/compaction/compaction_picker_fifo.o
+  CC       db/compaction/compaction_picker_level.o
+  CC       db/compaction/compaction_picker_universal.o
+  CC       db/compaction/compaction_service_job.o
+  CC       db/compaction/compaction_state.o
+  CC       db/compaction/compaction_outputs.o
+  CC       db/compaction/sst_partitioner.o
+  CC       db/compaction/subcompaction_state.o
+  CC       db/convenience.o
+  CC       db/db_filesnapshot.o
+  CC       db/db_impl/compacted_db_impl.o
+  CC       db/db_impl/db_impl.o
+  CC       db/db_impl/db_impl_compaction_flush.o
+  CC       db/db_impl/db_impl_debug.o
+  CC       db/db_impl/db_impl_experimental.o
+  CC       db/db_impl/db_impl_files.o
+  CC       db/db_impl/db_impl_follower.o
+  CC       db/db_impl/db_impl_open.o
+  CC       db/db_impl/db_impl_readonly.o
+  CC       db/db_impl/db_impl_secondary.o
+  CC       db/db_impl/db_impl_write.o
+  CC       db/db_info_dumper.o
+  CC       db/db_iter.o
+  CC       db/dbformat.o
+  CC       db/error_handler.o
+  CC       db/event_helpers.o
+  CC       db/experimental.o
+  CC       db/external_sst_file_ingestion_job.o
+  CC       db/file_indexer.o
+  CC       db/flush_job.o
+  CC       db/flush_scheduler.o
+  CC       db/forward_iterator.o
+  CC       db/import_column_family_job.o
+  CC       db/internal_stats.o
+  CC       db/logs_with_prep_tracker.o
+  CC       db/log_reader.o
+  CC       db/log_writer.o
+  CC       db/malloc_stats.o
+  CC       db/manifest_ops.o
+  CC       db/memtable.o
+  CC       db/memtable_list.o
+  CC       db/merge_helper.o
+  CC       db/merge_operator.o
+  CC       db/multi_scan.o
+  CC       db/output_validator.o
+  CC       db/periodic_task_scheduler.o
+  CC       db/range_del_aggregator.o
+  CC       db/range_tombstone_fragmenter.o
+  CC       db/repair.o
+  CC       db/seqno_to_time_mapping.o
+  CC       db/snapshot_impl.o
+  CC       db/table_cache.o
+  CC       db/table_properties_collector.o
+  CC       db/transaction_log_impl.o
+  CC       db/trim_history_scheduler.o
+  CC       db/version_builder.o
+  CC       db/version_edit.o
+  CC       db/version_edit_handler.o
+  CC       db/version_set.o
+  CC       db/version_util.o
+  CC       db/wal_edit.o
+  CC       db/wal_manager.o
+  CC       db/wide/read_path_blob_resolver.o
+  CC       db/wide/wide_column_serialization.o
+  CC       db/wide/wide_columns.o
+  CC       db/wide/wide_columns_helper.o
+  CC       db/write_batch.o
+  CC       db/write_batch_base.o
+  CC       db/write_controller.o
+  CC       db/write_stall_stats.o
+  CC       db/write_thread.o
+  CC       env/composite_env.o
+  CC       env/env.o
+  CC       env/env_chroot.o
+  CC       env/env_encryption.o
+  CC       env/env_posix.o
+  CC       env/file_system.o
+  CC       env/fs_on_demand.o
+  CC       env/fs_posix.o
+  CC       env/fs_remap.o
+  CC       env/file_system_tracer.o
+  CC       env/io_posix.o
+  CC       env/mock_env.o
+  CC       env/unique_id_gen.o
+  CC       file/delete_scheduler.o
+  CC       file/file_prefetch_buffer.o
+  CC       file/file_util.o
+  CC       file/filename.o
+  CC       file/line_file_reader.o
+  CC       file/random_access_file_reader.o
+  CC       file/read_write_util.o
+  CC       file/readahead_raf.o
+  CC       file/sequence_file_reader.o
+  CC       file/sst_file_manager_impl.o
+  CC       file/writable_file_writer.o
+  CC       logging/auto_roll_logger.o
+  CC       logging/event_logger.o
+  CC       logging/log_buffer.o
+  CC       memory/arena.o
+  CC       memory/concurrent_arena.o
+  CC       memory/jemalloc_nodump_allocator.o
+  CC       memory/memkind_kmem_allocator.o
+  CC       memory/memory_allocator.o
+  CC       memtable/alloc_tracker.o
+  CC       memtable/hash_linklist_rep.o
+  CC       memtable/hash_skiplist_rep.o
+  CC       memtable/skiplistrep.o
+  CC       memtable/vectorrep.o
+  CC       memtable/wbwi_memtable.o
+  CC       memtable/write_buffer_manager.o
+  CC       monitoring/histogram.o
+  CC       monitoring/histogram_windowing.o
+  CC       monitoring/in_memory_stats_history.o
+  CC       monitoring/instrumented_mutex.o
+  CC       monitoring/iostats_context.o
+  CC       monitoring/perf_context.o
+  CC       monitoring/perf_level.o
+  CC       monitoring/persistent_stats_history.o
+  CC       monitoring/statistics.o
+  CC       monitoring/thread_status_impl.o
+  CC       monitoring/thread_status_updater.o
+  CC       monitoring/thread_status_updater_debug.o
+  CC       monitoring/thread_status_util.o
+  CC       monitoring/thread_status_util_debug.o
+  CC       options/cf_options.o
+  CC       options/configurable.o
+  CC       options/db_options.o
+  CC       options/customizable.o
+  CC       options/offpeak_time_info.o
+  CC       options/options.o
+  CC       options/options_helper.o
+  CC       options/options_parser.o
+  CC       port/mmap.o
+  CC       port/port_posix.o
+  CC       port/win/env_default.o
+  CC       port/win/env_win.o
+  CC       port/win/io_win.o
+  CC       port/win/port_win.o
+  CC       port/win/win_logger.o
+  CC       port/win/win_thread.o
+  CC       port/stack_trace.o
+  CC       table/adaptive/adaptive_table_factory.o
+  CC       table/block_based/binary_search_index_reader.o
+  CC       table/block_based/block.o
+  CC       table/block_based/block_based_table_builder.o
+  CC       table/block_based/block_based_table_factory.o
+  CC       table/block_based/block_based_table_iterator.o
+  CC       table/block_based/multi_scan_index_iterator.o
+  CC       table/block_based/block_based_table_reader.o
+  CC       table/block_based/block_builder.o
+  CC       table/block_based/block_cache.o
+  CC       table/block_based/block_prefetcher.o
+  CC       table/block_based/block_prefix_index.o
+  CC       table/block_based/data_block_hash_index.o
+  CC       table/block_based/data_block_footer.o
+  CC       table/block_based/filter_block_reader_common.o
+  CC       table/block_based/filter_policy.o
+  CC       table/block_based/full_filter_block.o
+  CC       table/block_based/flush_block_policy.o
+  CC       table/block_based/hash_index_reader.o
+  CC       table/block_based/index_builder.o
+  CC       table/block_based/index_reader_common.o
+  CC       table/block_based/parsed_full_filter_block.o
+  CC       table/block_based/partitioned_filter_block.o
+  CC       table/block_based/partitioned_index_iterator.o
+  CC       table/block_based/partitioned_index_reader.o
+  CC       table/block_based/reader_common.o
+  CC       table/block_based/uncompression_dict_reader.o
+  CC       table/block_fetcher.o
+  CC       table/cuckoo/cuckoo_table_builder.o
+  CC       table/cuckoo/cuckoo_table_factory.o
+  CC       table/cuckoo/cuckoo_table_reader.o
+  CC       table/external_table.o
+  CC       table/format.o
+  CC       table/get_context.o
+  CC       table/iterator.o
+  CC       table/merging_iterator.o
+  CC       table/compaction_merging_iterator.o
+  CC       table/meta_blocks.o
+  CC       table/persistent_cache_helper.o
+  CC       table/plain/plain_table_bloom.o
+  CC       table/plain/plain_table_builder.o
+  CC       table/plain/plain_table_factory.o
+  CC       table/plain/plain_table_index.o
+  CC       table/plain/plain_table_key_coding.o
+  CC       table/plain/plain_table_reader.o
+  CC       table/sst_file_dumper.o
+  CC       table/sst_file_reader.o
+  CC       table/sst_file_writer.o
+  CC       table/table_factory.o
+  CC       table/table_properties.o
+  CC       table/two_level_iterator.o
+  CC       table/unique_id.o
+  CC       test_util/sync_point.o
+  CC       test_util/sync_point_impl.o
+  CC       test_util/transaction_test_util.o
+  CC       tools/dump/db_dump_tool.o
+  CC       trace_replay/trace_record_handler.o
+  CC       trace_replay/trace_record_result.o
+  CC       trace_replay/trace_record.o
+  CC       trace_replay/trace_replay.o
+  CC       trace_replay/block_cache_tracer.o
+  CC       trace_replay/io_tracer.o
+  CC       util/async_file_reader.o
+  CC       util/auto_tune_compressor.o
+  CC       util/cleanable.o
+  CC       util/coding.o
+  CC       util/compaction_job_stats_impl.o
+  CC       util/comparator.o
+  CC       util/compression.o
+  CC       util/compression_context_cache.o
+  CC       util/concurrent_task_limiter_impl.o
+  CC       util/crc32c.o
+  CC       util/crc32c_arm64.o
+  CC       util/crc32c_riscv.o
+  CC       util/data_structure.o
+  CC       util/dynamic_bloom.o
+  CC       util/hash.o
+  CC       util/murmurhash.o
+  CC       util/random.o
+  CC       util/rate_limiter.o
+  CC       util/ribbon_config.o
+  CC       util/slice.o
+  CC       util/file_checksum_helper.o
+  CC       util/simple_mixed_compressor.o
+  CC       util/status.o
+  CC       util/stderr_logger.o
+  CC       util/string_util.o
+  CC       util/thread_local.o
+  CC       util/threadpool_imp.o
+  CC       util/io_dispatcher_imp.o
+  CC       util/udt_util.o
+  CC       util/write_batch_util.o
+  CC       util/xxhash.o
+  CC       utilities/agg_merge/agg_merge.o
+  CC       utilities/backup/backup_engine.o
+  CC       utilities/blob_db/blob_compaction_filter.o
+  CC       utilities/blob_db/blob_db.o
+  CC       utilities/blob_db/blob_db_impl.o
+  CC       utilities/blob_db/blob_db_impl_filesnapshot.o
+  CC       utilities/blob_db/blob_file.o
+  CC       utilities/cache_dump_load.o
+  CC       utilities/cache_dump_load_impl.o
+  CC       utilities/cassandra/cassandra_compaction_filter.o
+  CC       utilities/cassandra/format.o
+  CC       utilities/cassandra/merge_operator.o
+  CC       utilities/checkpoint/checkpoint_impl.o
+  CC       utilities/compaction_filters.o
+  CC       utilities/sorted_run_builder/sorted_run_builder.o
+  CC       utilities/compaction_filters/remove_emptyvalue_compactionfilter.o
+  CC       utilities/convenience/info_log_finder.o
+  CC       utilities/counted_fs.o
+  CC       utilities/debug.o
+  CC       utilities/env_mirror.o
+  CC       utilities/env_timed.o
+  CC       utilities/fault_injection_env.o
+  CC       utilities/fault_injection_fs.o
+  CC       utilities/fault_injection_secondary_cache.o
+  CC       utilities/leveldb_options/leveldb_options.o
+  CC       utilities/memory/memory_util.o
+  CC       utilities/merge_operators.o
+  CC       utilities/merge_operators/max.o
+  CC       utilities/merge_operators/put.o
+  CC       utilities/merge_operators/sortlist.o
+  CC       utilities/merge_operators/string_append/stringappend.o
+  CC       utilities/merge_operators/string_append/stringappend2.o
+  CC       utilities/merge_operators/uint64add.o
+  CC       utilities/merge_operators/bytesxor.o
+  CC       utilities/object_registry.o
+  CC       utilities/option_change_migration/option_change_migration.o
+  CC       utilities/options/options_util.o
+  CC       utilities/persistent_cache/block_cache_tier.o
+  CC       utilities/persistent_cache/block_cache_tier_file.o
+  CC       utilities/persistent_cache/block_cache_tier_metadata.o
+  CC       utilities/persistent_cache/persistent_cache_tier.o
+  CC       utilities/persistent_cache/volatile_tier_impl.o
+  CC       utilities/secondary_index/secondary_index_iterator.o
+  CC       utilities/secondary_index/simple_secondary_index.o
+  CC       utilities/simulator_cache/cache_simulator.o
+  CC       utilities/simulator_cache/sim_cache.o
+  CC       utilities/table_properties_collectors/compact_for_tiering_collector.o
+  CC       utilities/table_properties_collectors/compact_on_deletion_collector.o
+  CC       utilities/trace/file_trace_reader_writer.o
+  CC       utilities/trace/replayer_impl.o
+  CC       utilities/transactions/lock/lock_manager.o
+  CC       utilities/transactions/lock/point/point_lock_tracker.o
+  CC       utilities/transactions/lock/point/point_lock_manager.o
+  CC       utilities/transactions/optimistic_transaction.o
+  CC       utilities/transactions/optimistic_transaction_db_impl.o
+  CC       utilities/transactions/pessimistic_transaction.o
+  CC       utilities/transactions/pessimistic_transaction_db.o
+  CC       utilities/transactions/snapshot_checker.o
+  CC       utilities/transactions/transaction_base.o
+  CC       utilities/transactions/transaction_db_mutex_impl.o
+  CC       utilities/transactions/transaction_util.o
+  CC       utilities/transactions/write_prepared_txn.o
+  CC       utilities/transactions/write_prepared_txn_db.o
+  CC       utilities/transactions/write_unprepared_txn.o
+  CC       utilities/transactions/write_unprepared_txn_db.o
+  CC       utilities/ttl/db_ttl_impl.o
+  CC       utilities/trie_index/bitvector.o
+  CC       utilities/trie_index/louds_trie.o
+  CC       utilities/trie_index/trie_index_factory.o
+  CC       utilities/types_util.o
+  CC       utilities/wal_filter.o
+  CC       utilities/write_batch_with_index/write_batch_with_index.o
+  CC       utilities/write_batch_with_index/write_batch_with_index_internal.o
+  CC       utilities/transactions/lock/range/range_tree/lib/locktree/concurrent_tree.o
+  CC       utilities/transactions/lock/range/range_tree/lib/locktree/keyrange.o
+  CC       utilities/transactions/lock/range/range_tree/lib/locktree/lock_request.o
+  CC       utilities/transactions/lock/range/range_tree/lib/locktree/locktree.o
+  CC       utilities/transactions/lock/range/range_tree/lib/locktree/manager.o
+  CC       utilities/transactions/lock/range/range_tree/lib/locktree/range_buffer.o
+  CC       utilities/transactions/lock/range/range_tree/lib/locktree/treenode.o
+  CC       utilities/transactions/lock/range/range_tree/lib/locktree/txnid_set.o
+  CC       utilities/transactions/lock/range/range_tree/lib/locktree/wfg.o
+  CC       utilities/transactions/lock/range/range_tree/lib/standalone_port.o
+  CC       utilities/transactions/lock/range/range_tree/lib/util/dbt.o
+  CC       utilities/transactions/lock/range/range_tree/lib/util/memarena.o
+  CC       utilities/transactions/lock/range/range_tree/range_tree_lock_manager.o
+  CC       utilities/transactions/lock/range/range_tree/range_tree_lock_tracker.o
+  AR       librocksdb_test_debug.a
+/usr/bin/ar: creating librocksdb_test_debug.a
+  GEN      util/build_version.cc
+  CC       util/build_version.o
+  AR       librocksdb_debug.a
+/usr/bin/ar: creating librocksdb_debug.a
+  CCLD     db_test
+[==========] Running 295 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 112 tests from DBTest
+[ RUN      ] DBTest.MockEnvTest
+[       OK ] DBTest.MockEnvTest (27 ms)
+[ RUN      ] DBTest.RequestIdPlumbingTest
+[       OK ] DBTest.RequestIdPlumbingTest (18 ms)
+[ RUN      ] DBTest.MemEnvTest
+[       OK ] DBTest.MemEnvTest (22 ms)
+[ RUN      ] DBTest.WriteEmptyBatch
+[       OK ] DBTest.WriteEmptyBatch (38 ms)
+[ RUN      ] DBTest.SkipDelay
+[       OK ] DBTest.SkipDelay (32 ms)
+[ RUN      ] DBTest.MixedSlowdownOptions
+[       OK ] DBTest.MixedSlowdownOptions (20029 ms)
+[ RUN      ] DBTest.MixedSlowdownOptionsInQueue
+[       OK ] DBTest.MixedSlowdownOptionsInQueue (20033 ms)
+[ RUN      ] DBTest.MixedSlowdownOptionsStop
+[       OK ] DBTest.MixedSlowdownOptionsStop (3029 ms)
+[ RUN      ] DBTest.LevelLimitReopen
+[       OK ] DBTest.LevelLimitReopen (13221 ms)
+[ RUN      ] DBTest.LevelReopenWithFIFO
+[       OK ] DBTest.LevelReopenWithFIFO (8385 ms)
+[ RUN      ] DBTest.PutSingleDeleteGet
+[       OK ] DBTest.PutSingleDeleteGet (845 ms)
+[ RUN      ] DBTest.ReadFromPersistedTier
+[       OK ] DBTest.ReadFromPersistedTier (2218 ms)
+[ RUN      ] DBTest.SingleDeleteFlush
+[       OK ] DBTest.SingleDeleteFlush (1158 ms)
+[ RUN      ] DBTest.SingleDeletePutFlush
+[       OK ] DBTest.SingleDeletePutFlush (922 ms)
+[ RUN      ] DBTest.GetFromImmutableLayer
+[       OK ] DBTest.GetFromImmutableLayer (1019 ms)
+[ RUN      ] DBTest.GetLevel0Ordering
+[       OK ] DBTest.GetLevel0Ordering (1109 ms)
+[ RUN      ] DBTest.WrongLevel0Config
+[       OK ] DBTest.WrongLevel0Config (20 ms)
+[ RUN      ] DBTest.GetOrderedByLevels
+[       OK ] DBTest.GetOrderedByLevels (1145 ms)
+[ RUN      ] DBTest.GetPicksCorrectFile
+[       OK ] DBTest.GetPicksCorrectFile (1264 ms)
+[ RUN      ] DBTest.GetEncountersEmptyLevel
+[       OK ] DBTest.GetEncountersEmptyLevel (1298 ms)
+[ RUN      ] DBTest.FlushMultipleMemtable
+[       OK ] DBTest.FlushMultipleMemtable (142 ms)
+[ RUN      ] DBTest.FlushSchedule
+[       OK ] DBTest.FlushSchedule (296 ms)
+[ RUN      ] DBTest.FailMoreDbPaths
+[       OK ] DBTest.FailMoreDbPaths (12 ms)
+[ RUN      ] DBTest.MetaDataTest
+[       OK ] DBTest.MetaDataTest (575 ms)
+[ RUN      ] DBTest.GetColumnFamilyMetaDataWithKeyRangeAndLevel
+[       OK ] DBTest.GetColumnFamilyMetaDataWithKeyRangeAndLevel (572 ms)
+[ RUN      ] DBTest.GetColumnFamilyMetaDataBottommostLevel
+[       OK ] DBTest.GetColumnFamilyMetaDataBottommostLevel (681 ms)
+[ RUN      ] DBTest.GetColumnFamilyMetaDataMultipleLevels
+[       OK ] DBTest.GetColumnFamilyMetaDataMultipleLevels (513 ms)
+[ RUN      ] DBTest.GetColumnFamilyMetaDataEmptyDB
+[       OK ] DBTest.GetColumnFamilyMetaDataEmptyDB (22 ms)
+[ RUN      ] DBTest.AllMetaDataTest
+[       OK ] DBTest.AllMetaDataTest (37 ms)
+[ RUN      ] DBTest.MinLevelToCompress1
+Test with compression options : window_bits = -14, level =  -1, strategy = 0}
+using snappy
+[       OK ] DBTest.MinLevelToCompress1 (58 ms)
+[ RUN      ] DBTest.MinLevelToCompress2
+Test with compression options : window_bits = 15, level =  -1, strategy = 0}
+using snappy
+[       OK ] DBTest.MinLevelToCompress2 (58 ms)
+[ RUN      ] DBTest.ApproximateSizesMemTable
+[       OK ] DBTest.ApproximateSizesMemTable (63 ms)
+[ RUN      ] DBTest.ApproximateSizesFilesWithErrorMargin
+[       OK ] DBTest.ApproximateSizesFilesWithErrorMargin (1270 ms)
+[ RUN      ] DBTest.GetApproximateMemTableStats
+[       OK ] DBTest.GetApproximateMemTableStats (33 ms)
+[ RUN      ] DBTest.ApproximateSizes
+[       OK ] DBTest.ApproximateSizes (9068 ms)
+[ RUN      ] DBTest.ApproximateSizes_MixOfSmallAndLarge
+[       OK ] DBTest.ApproximateSizes_MixOfSmallAndLarge (2729 ms)
+[ RUN      ] DBTest.Snapshot
+[       OK ] DBTest.Snapshot (995 ms)
+[ RUN      ] DBTest.HiddenValuesAreRemoved
+[       OK ] DBTest.HiddenValuesAreRemoved (1653 ms)
+[ RUN      ] DBTest.UnremovableSingleDelete
+[       OK ] DBTest.UnremovableSingleDelete (1099 ms)
+[ RUN      ] DBTest.DeletionMarkers1
+[       OK ] DBTest.DeletionMarkers1 (38 ms)
+[ RUN      ] DBTest.DeletionMarkers2
+[       OK ] DBTest.DeletionMarkers2 (38 ms)
+[ RUN      ] DBTest.OverlapInLevel0
+[       OK ] DBTest.OverlapInLevel0 (1299 ms)
+[ RUN      ] DBTest.ComparatorCheck
+[       OK ] DBTest.ComparatorCheck (144 ms)
+[ RUN      ] DBTest.CustomComparator
+[       OK ] DBTest.CustomComparator (475 ms)
+[ RUN      ] DBTest.DBOpen_Options
+[       OK ] DBTest.DBOpen_Options (32 ms)
+[ RUN      ] DBTest.DBOpen_Change_NumLevels
+[       OK ] DBTest.DBOpen_Change_NumLevels (43 ms)
+[ RUN      ] DBTest.DestroyDBMetaDatabase
+[       OK ] DBTest.DestroyDBMetaDatabase (47 ms)
+[ RUN      ] DBTest.SnapshotFiles
+[       OK ] DBTest.SnapshotFiles (1176 ms)
+[ RUN      ] DBTest.ReadonlyDBGetLiveManifestSize
+[       OK ] DBTest.ReadonlyDBGetLiveManifestSize (139 ms)
+[ RUN      ] DBTest.GetLiveBlobFiles
+[       OK ] DBTest.GetLiveBlobFiles (21 ms)
+[ RUN      ] DBTest.PurgeInfoLogs
+[       OK ] DBTest.PurgeInfoLogs (149 ms)
+[ RUN      ] DBTest.GroupCommitTest
+[       OK ] DBTest.GroupCommitTest (2384 ms)
+[ RUN      ] DBTest.BlockBasedTablePrefixIndexTest
+[       OK ] DBTest.BlockBasedTablePrefixIndexTest (55 ms)
+[ RUN      ] DBTest.SetOptionsEffectiveInSuperVersions
+[       OK ] DBTest.SetOptionsEffectiveInSuperVersions (42 ms)
+[ RUN      ] DBTest.BlockBasedTablePrefixHashIndexTest
+[       OK ] DBTest.BlockBasedTablePrefixHashIndexTest (22 ms)
+[ RUN      ] DBTest.BlockBasedTablePrefixIndexTotalOrderSeek
+[       OK ] DBTest.BlockBasedTablePrefixIndexTotalOrderSeek (22 ms)
+[ RUN      ] DBTest.ChecksumTest
+[       OK ] DBTest.ChecksumTest (50 ms)
+[ RUN      ] DBTest.FIFOCompactionTestWithCompaction
+[       OK ] DBTest.FIFOCompactionTestWithCompaction (360 ms)
+[ RUN      ] DBTest.FIFOCompactionStyleWithCompactionAndDelete
+[       OK ] DBTest.FIFOCompactionStyleWithCompactionAndDelete (36 ms)
+[ RUN      ] DBTest.FIFOCompactionWithTTLAndMaxOpenFilesTest
+[       OK ] DBTest.FIFOCompactionWithTTLAndMaxOpenFilesTest (20 ms)
+[ RUN      ] DBTest.FIFOCompactionWithTTLAndVariousTableFormatsTest
+[       OK ] DBTest.FIFOCompactionWithTTLAndVariousTableFormatsTest (22 ms)
+[ RUN      ] DBTest.FIFOCompactionWithTTLTest
+[       OK ] DBTest.FIFOCompactionWithTTLTest (527 ms)
+[ RUN      ] DBTest.CustomedRateLimiterWithNoOptionalAPIImplTest
+[       OK ] DBTest.CustomedRateLimiterWithNoOptionalAPIImplTest (24 ms)
+[ RUN      ] DBTest.TableOptionsSanitizeTest
+[       OK ] DBTest.TableOptionsSanitizeTest (40 ms)
+[ RUN      ] DBTest.ConcurrentMemtableNotSupported
+[       OK ] DBTest.ConcurrentMemtableNotSupported (21 ms)
+[ RUN      ] DBTest.SanitizeNumThreads
+[       OK ] DBTest.SanitizeNumThreads (38 ms)
+[ RUN      ] DBTest.WriteSingleThreadEntry
+[       OK ] DBTest.WriteSingleThreadEntry (35 ms)
+[ RUN      ] DBTest.ConcurrentFlushWAL
+[       OK ] DBTest.ConcurrentFlushWAL (181 ms)
+[ RUN      ] DBTest.ManualFlushWalAndWriteRace
+[       OK ] DBTest.ManualFlushWalAndWriteRace (34 ms)
+[ RUN      ] DBTest.DynamicMemtableOptions
+[       OK ] DBTest.DynamicMemtableOptions (117 ms)
+[ RUN      ] DBTest.GetThreadStatus
+[       OK ] DBTest.GetThreadStatus (58 ms)
+[ RUN      ] DBTest.DisableThreadStatus
+[       OK ] DBTest.DisableThreadStatus (42 ms)
+[ RUN      ] DBTest.ThreadStatusFlush
+[       OK ] DBTest.ThreadStatusFlush (30 ms)
+[ RUN      ] DBTest.PreShutdownFlush
+[       OK ] DBTest.PreShutdownFlush (27 ms)
+[ RUN      ] DBTest.FlushOnDestroy
+[       OK ] DBTest.FlushOnDestroy (12 ms)
+[ RUN      ] DBTest.DynamicCompactionOptions
+[       OK ] DBTest.DynamicCompactionOptions (2729 ms)
+[ RUN      ] DBTest.DynamicFIFOCompactionOptions
+[       OK ] DBTest.DynamicFIFOCompactionOptions (40 ms)
+[ RUN      ] DBTest.DynamicUniversalCompactionOptions
+[       OK ] DBTest.DynamicUniversalCompactionOptions (27 ms)
+[ RUN      ] DBTest.FileCreationRandomFailure
+[       OK ] DBTest.FileCreationRandomFailure (3519 ms)
+[ RUN      ] DBTest.DynamicMiscOptions
+[       OK ] DBTest.DynamicMiscOptions (68 ms)
+[ RUN      ] DBTest.L0L1L2AndUpHitCounter
+[       OK ] DBTest.L0L1L2AndUpHitCounter (738 ms)
+[ RUN      ] DBTest.CloseSpeedup
+[       OK ] DBTest.CloseSpeedup (44 ms)
+[ RUN      ] DBTest.MergeTestTime
+[       OK ] DBTest.MergeTestTime (29 ms)
+[ RUN      ] DBTest.TestLogCleanup
+[       OK ] DBTest.TestLogCleanup (2111 ms)
+[ RUN      ] DBTest.EmptyCompactedDB
+[       OK ] DBTest.EmptyCompactedDB (17 ms)
+[ RUN      ] DBTest.SuggestCompactRangeTest
+[       OK ] DBTest.SuggestCompactRangeTest (126 ms)
+[ RUN      ] DBTest.SuggestCompactRangeUniversal
+[       OK ] DBTest.SuggestCompactRangeUniversal (147 ms)
+[ RUN      ] DBTest.PromoteL0
+[       OK ] DBTest.PromoteL0 (110 ms)
+[ RUN      ] DBTest.PromoteL0Failure
+[       OK ] DBTest.PromoteL0Failure (30 ms)
+[ RUN      ] DBTest.CompactRangeWithEmptyBottomLevel
+[       OK ] DBTest.CompactRangeWithEmptyBottomLevel (27 ms)
+[ RUN      ] DBTest.AutomaticConflictsWithManualCompaction
+[       OK ] DBTest.AutomaticConflictsWithManualCompaction (125 ms)
+[ RUN      ] DBTest.CompactFilesShouldTriggerAutoCompaction
+[       OK ] DBTest.CompactFilesShouldTriggerAutoCompaction (67 ms)
+[ RUN      ] DBTest.LargeBatchWithColumnFamilies
+prepare: 5 MB, pass:1
+write: 5 MB
+done
+prepare: 5 MB, pass:2
+write: 5 MB
+done
+prepare: 5 MB, pass:3
+write: 5 MB
+done
+prepare: 6 MB, pass:1
+write: 6 MB
+done
+prepare: 6 MB, pass:2
+write: 6 MB
+done
+prepare: 6 MB, pass:3
+write: 6 MB
+done
+prepare: 7 MB, pass:1
+write: 7 MB
+done
+prepare: 7 MB, pass:2
+write: 7 MB
+done
+prepare: 7 MB, pass:3
+write: 7 MB
+done
+prepare: 8 MB, pass:1
+write: 8 MB
+done
+prepare: 8 MB, pass:2
+write: 8 MB
+done
+prepare: 8 MB, pass:3
+write: 8 MB
+done
+prepare: 9 MB, pass:1
+write: 9 MB
+done
+prepare: 9 MB, pass:2
+write: 9 MB
+done
+prepare: 9 MB, pass:3
+write: 9 MB
+done
+[       OK ] DBTest.LargeBatchWithColumnFamilies (1147 ms)
+[ RUN      ] DBTest.FlushesInParallelWithCompactRange
+[       OK ] DBTest.FlushesInParallelWithCompactRange (412 ms)
+[ RUN      ] DBTest.DelayedWriteRate
+[       OK ] DBTest.DelayedWriteRate (102 ms)
+[ RUN      ] DBTest.HardLimit
+[       OK ] DBTest.HardLimit (90 ms)
+[ RUN      ] DBTest.SoftLimit
+[       OK ] DBTest.SoftLimit (1474 ms)
+[ RUN      ] DBTest.LastWriteBufferDelay
+[       OK ] DBTest.LastWriteBufferDelay (27 ms)
+[ RUN      ] DBTest.CreateColumnFamilyShouldFailOnIncompatibleOptions
+[       OK ] DBTest.CreateColumnFamilyShouldFailOnIncompatibleOptions (24 ms)
+[ RUN      ] DBTest.RowCache
+[       OK ] DBTest.RowCache (36 ms)
+[ RUN      ] DBTest.PinnableSliceAndRowCache
+[       OK ] DBTest.PinnableSliceAndRowCache (25 ms)
+[ RUN      ] DBTest.ReusePinnableSlice
+[       OK ] DBTest.ReusePinnableSlice (25 ms)
+[ RUN      ] DBTest.DeletingOldWalAfterDrop
+[       OK ] DBTest.DeletingOldWalAfterDrop (36 ms)
+[ RUN      ] DBTest.UnsupportedManualSync
+[       OK ] DBTest.UnsupportedManualSync (22 ms)
+[ RUN      ] DBTest.PauseBackgroundWorkTest
+[       OK ] DBTest.PauseBackgroundWorkTest (327 ms)
+[ RUN      ] DBTest.ThreadLocalPtrDeadlock
+Flushed 1 times
+Flushed 2 times
+Flushed 3 times
+Flushed 4 times
+Flushed 5 times
+Flushed 6 times
+Flushed 7 times
+Flushed 8 times
+Flushed 9 times
+Flushed 10 times
+Flushed 11 times
+Done. Flushed 11 times, destroyed 1135 threads
+[       OK ] DBTest.ThreadLocalPtrDeadlock (37 ms)
+[ RUN      ] DBTest.LargeBlockSizeTest
+[       OK ] DBTest.LargeBlockSizeTest (27 ms)
+[ RUN      ] DBTest.CreationTimeOfOldestFile
+[       OK ] DBTest.CreationTimeOfOldestFile (52 ms)
+[ RUN      ] DBTest.MemoryUsageWithMaxWriteBufferSizeToMaintain
+[       OK ] DBTest.MemoryUsageWithMaxWriteBufferSizeToMaintain (71 ms)
+[ RUN      ] DBTest.ShuttingDownNotBlockStalledWrites
+[       OK ] DBTest.ShuttingDownNotBlockStalledWrites (2062 ms)
+[ RUN      ] DBTest.FileReadSampledStats
+[       OK ] DBTest.FileReadSampledStats (28 ms)
+[ RUN      ] DBTest.FileCollapsibleEntryReadSampledStats
+[       OK ] DBTest.FileCollapsibleEntryReadSampledStats (36 ms)
+[----------] 112 tests from DBTest (119527 ms total)
+
+[----------] 80 tests from MultiThreaded/MultiThreadedDBTest
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/0
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 21830 ops
+... stopping thread 3 after 21890 ops
+... stopping thread 5 after 21861 ops
+... stopping thread 4 after 21688 ops
+... stopping thread 2 after 21773 ops
+... stopping thread 6 after 21758 ops
+... stopping thread 8 after 21748 ops
+... stopping thread 7 after 21960 ops
+... stopping thread 9 after 21677 ops
+... stopping thread 0 after 21754 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/0 (10161 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/1
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 21981 ops
+... stopping thread 1 after 22071 ops
+... stopping thread 5 after 22112 ops
+... stopping thread 4 after 21950 ops
+... stopping thread 8 after 22033 ops
+... stopping thread 2 after 21936 ops
+... stopping thread 6 after 21991 ops
+... stopping thread 7 after 22187 ops
+... stopping thread 3 after 22108 ops
+... stopping thread 9 after 21949 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/1 (10197 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/2
+... starting thread 0
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 1
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 5
+... starting thread 9
+... stopping thread 1 after 21618 ops
+... stopping thread 2 after 21599 ops
+... stopping thread 0 after 21516 ops
+... stopping thread 3 after 21762 ops
+... stopping thread 5 after 21721 ops
+... stopping thread 8 after 21559 ops
+... stopping thread 9 after 21544 ops
+... stopping thread 6 after 21620 ops
+... stopping thread 4 after 21539 ops
+... stopping thread 7 after 21753 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/2 (10175 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/3
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22270 ops
+... stopping thread 5 after 22508 ops
+... stopping thread 7 after 22510 ops
+... stopping thread 8 after 22375 ops
+... stopping thread 6 after 22392 ops
+... stopping thread 4 after 22300 ops
+... stopping thread 3 after 22437 ops
+... stopping thread 1 after 22357 ops
+... stopping thread 0 after 22351 ops
+... stopping thread 9 after 22314 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/3 (10173 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/4
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22369 ops
+... stopping thread 2 after 22249 ops
+... stopping thread 5 after 22486 ops
+... stopping thread 0 after 22304 ops
+... stopping thread 7 after 22466 ops
+... stopping thread 9 after 22256 ops
+... stopping thread 6 after 22370 ops
+... stopping thread 8 after 22350 ops
+... stopping thread 4 after 22281 ops
+... stopping thread 3 after 22451 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/4 (10178 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/5
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22420 ops
+... stopping thread 5 after 22644 ops
+... stopping thread 6 after 22591 ops
+... stopping thread 0 after 22446 ops
+... stopping thread 3 after 22586 ops
+... stopping thread 1 after 22466 ops
+... stopping thread 4 after 22465 ops
+... stopping thread 8 after 22485 ops
+... stopping thread 7 after 22683 ops
+... stopping thread 9 after 22442 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/5 (10182 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/6
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 21223 ops
+... stopping thread 2 after 21241 ops
+... stopping thread 3 after 21410 ops
+... stopping thread 5 after 21359 ops
+... stopping thread 4 after 21210 ops
+... stopping thread 7 after 21456 ops
+... stopping thread 6 after 21269 ops
+... stopping thread 8 after 21223 ops
+... stopping thread 1 after 21306 ops
+... stopping thread 9 after 21211 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/6 (10142 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/7
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22669 ops
+... stopping thread 2 after 22625 ops
+... stopping thread 3 after 22806 ops
+... stopping thread 4 after 22626 ops
+... stopping thread 5 after 22754 ops
+... stopping thread 8 after 22654 ops
+... stopping thread 6 after 22678 ops
+... stopping thread 0 after 22644 ops
+... stopping thread 7 after 22815 ops
+... stopping thread 9 after 22615 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/7 (10174 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/8
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 22518 ops
+... stopping thread 5 after 22685 ops
+... stopping thread 3 after 22709 ops
+... stopping thread 1 after 22531 ops
+... stopping thread 2 after 22508 ops
+... stopping thread 8 after 22576 ops
+... stopping thread 7 after 22705 ops
+... stopping thread 4 after 22513 ops
+... stopping thread 6 after 22596 ops
+... stopping thread 9 after 22477 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/8 (10162 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/9
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 21981 ops
+... stopping thread 5 after 22134 ops
+... stopping thread 1 after 22114 ops
+... stopping thread 6 after 22143 ops
+... stopping thread 7 after 22207 ops
+... stopping thread 9 after 22063 ops
+... stopping thread 0 after 22053 ops
+... stopping thread 8 after 22107 ops
+... stopping thread 3 after 22182 ops
+... stopping thread 4 after 22056 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/9 (10174 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/10
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 21793 ops
+... stopping thread 0 after 21853 ops
+... stopping thread 5 after 22008 ops
+... stopping thread 4 after 21856 ops
+... stopping thread 3 after 21953 ops
+... stopping thread 1 after 21921 ops
+... stopping thread 6 after 21908 ops
+... stopping thread 7 after 22069 ops
+... stopping thread 8 after 21872 ops
+... stopping thread 9 after 21787 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/10 (10155 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/11
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22002 ops
+... stopping thread 5 after 22078 ops
+... stopping thread 6 after 22058 ops
+... stopping thread 4 after 21952 ops
+... stopping thread 9 after 21957 ops
+... stopping thread 0 after 21948 ops
+... stopping thread 3 after 22042 ops
+... stopping thread 8 after 21918 ops
+... stopping thread 2 after 21956 ops
+... stopping thread 7 after 22167 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/11 (10172 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/12
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 3 after 22436 ops
+... stopping thread 4 after 22236 ops
+... stopping thread 0 after 22268 ops
+... stopping thread 5 after 22437 ops
+... stopping thread 2 after 22234 ops
+... stopping thread 1 after 22337 ops
+... stopping thread 7 after 22456 ops
+... stopping thread 6 after 22386 ops
+... stopping thread 8 after 22359 ops
+... stopping thread 9 after 22229 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/12 (10175 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/13
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22301 ops
+... stopping thread 1 after 22368 ops
+... stopping thread 0 after 22330 ops
+... stopping thread 4 after 22305 ops
+... stopping thread 9 after 22259 ops
+... stopping thread 3 after 22465 ops
+... stopping thread 5 after 22499 ops
+... stopping thread 7 after 22507 ops
+... stopping thread 8 after 22364 ops
+... stopping thread 6 after 22410 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/13 (10166 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/14
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 9 after 1092 ops
+... stopping thread 6 after 1047 ops
+... stopping thread 7 after 1086 ops
+... stopping thread 4 after 1100 ops
+... stopping thread 1 after 1084 ops
+... stopping thread 3 after 1072 ops
+... stopping thread 2 after 1017 ops
+... stopping thread 5 after 1049 ops
+... stopping thread 8 after 1112 ops
+... stopping thread 0 after 1075 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/14 (10185 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/15
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 8 after 1106 ops
+... stopping thread 7 after 1083 ops
+... stopping thread 0 after 1058 ops
+... stopping thread 2 after 1030 ops
+... stopping thread 6 after 1037 ops
+... stopping thread 5 after 1050 ops
+... stopping thread 4 after 1088 ops
+... stopping thread 9 after 1083 ops
+... stopping thread 1 after 1084 ops
+... stopping thread 3 after 1069 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/15 (10191 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/16
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 3 after 11252 ops
+... stopping thread 4 after 11320 ops
+... stopping thread 1 after 11477 ops
+... stopping thread 0 after 11274 ops
+... stopping thread 8 after 11220 ops
+... stopping thread 2 after 11210 ops
+... stopping thread 6 after 11401 ops
+... stopping thread 7 after 11436 ops
+... stopping thread 5 after 11348 ops
+... stopping thread 9 after 11221 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/16 (10171 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/17
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 11850 ops
+... stopping thread 6 after 11759 ops
+... stopping thread 8 after 11612 ops
+... stopping thread 9 after 11597 ops
+... stopping thread 5 after 11738 ops
+... stopping thread 3 after 11624 ops
+... stopping thread 2 after 11597 ops
+... stopping thread 7 after 11794 ops
+... stopping thread 0 after 11672 ops
+... stopping thread 4 after 11679 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/17 (10175 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/18
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 3 after 22310 ops
+... stopping thread 4 after 22109 ops
+... stopping thread 5 after 22282 ops
+... stopping thread 6 after 22210 ops
+... stopping thread 8 after 22142 ops
+... stopping thread 1 after 22171 ops
+... stopping thread 2 after 22044 ops
+... stopping thread 0 after 22153 ops
+... stopping thread 9 after 22089 ops
+... stopping thread 7 after 22246 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/18 (10182 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/19
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22436 ops
+... stopping thread 2 after 22393 ops
+... stopping thread 4 after 22428 ops
+... stopping thread 8 after 22478 ops
+... stopping thread 3 after 22602 ops
+... stopping thread 0 after 22439 ops
+... stopping thread 7 after 22643 ops
+... stopping thread 9 after 22378 ops
+... stopping thread 6 after 22415 ops
+... stopping thread 5 after 22628 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/19 (10179 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/20
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22483 ops
+... stopping thread 1 after 22554 ops
+... stopping thread 0 after 22473 ops
+... stopping thread 3 after 22662 ops
+... stopping thread 6 after 22564 ops
+... stopping thread 8 after 22508 ops
+... stopping thread 5 after 22628 ops
+... stopping thread 9 after 22441 ops
+... stopping thread 4 after 22514 ops
+... stopping thread 7 after 22668 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/20 (10182 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/21
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22428 ops
+... stopping thread 0 after 22296 ops
+... stopping thread 2 after 22278 ops
+... stopping thread 4 after 22340 ops
+... stopping thread 6 after 22405 ops
+... stopping thread 3 after 22449 ops
+... stopping thread 8 after 22425 ops
+... stopping thread 7 after 22471 ops
+... stopping thread 5 after 22472 ops
+... stopping thread 9 after 22329 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/21 (10182 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/22
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22417 ops
+... stopping thread 3 after 22530 ops
+... stopping thread 5 after 22523 ops
+... stopping thread 9 after 22335 ops
+... stopping thread 8 after 22423 ops
+... stopping thread 0 after 22362 ops
+... stopping thread 6 after 22434 ops
+... stopping thread 2 after 22369 ops
+... stopping thread 7 after 22539 ops
+... stopping thread 4 after 22348 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/22 (10190 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/23
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 22566 ops
+... stopping thread 2 after 22566 ops
+... stopping thread 7 after 22738 ops
+... stopping thread 8 after 22504 ops
+... stopping thread 3 after 22682 ops
+... stopping thread 5 after 22670 ops
+... stopping thread 1 after 22568 ops
+... stopping thread 6 after 22621 ops
+... stopping thread 4 after 22512 ops
+... stopping thread 9 after 22534 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/23 (10194 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/24
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 22317 ops
+... stopping thread 4 after 22309 ops
+... stopping thread 6 after 22345 ops
+... stopping thread 1 after 22356 ops
+... stopping thread 5 after 22464 ops
+... stopping thread 3 after 22425 ops
+... stopping thread 2 after 22288 ops
+... stopping thread 9 after 22237 ops
+... stopping thread 7 after 22465 ops
+... stopping thread 8 after 22338 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/24 (10204 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/25
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 6 after 22475 ops
+... stopping thread 3 after 22573 ops
+... stopping thread 7 after 22599 ops
+... stopping thread 0 after 22384 ops
+... stopping thread 1 after 22453 ops
+... stopping thread 2 after 22408 ops
+... stopping thread 4 after 22377 ops
+... stopping thread 8 after 22467 ops
+... stopping thread 5 after 22566 ops
+... stopping thread 9 after 22331 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/25 (10182 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/26
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 21932 ops
+... stopping thread 1 after 21998 ops
+... stopping thread 0 after 21931 ops
+... stopping thread 6 after 21997 ops
+... stopping thread 3 after 22128 ops
+... stopping thread 7 after 22158 ops
+... stopping thread 4 after 21921 ops
+... stopping thread 5 after 22119 ops
+... stopping thread 8 after 21920 ops
+... stopping thread 9 after 21929 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/26 (10170 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/27
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22385 ops
+... stopping thread 3 after 22580 ops
+... stopping thread 8 after 22512 ops
+... stopping thread 0 after 22385 ops
+... stopping thread 1 after 22537 ops
+... stopping thread 4 after 22465 ops
+... stopping thread 9 after 22358 ops
+... stopping thread 6 after 22385 ops
+... stopping thread 5 after 22561 ops
+... stopping thread 7 after 22639 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/27 (10177 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/28
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 22333 ops
+... stopping thread 3 after 22525 ops
+... stopping thread 1 after 22465 ops
+... stopping thread 4 after 22358 ops
+... stopping thread 6 after 22399 ops
+... stopping thread 8 after 22433 ops
+... stopping thread 5 after 22523 ops
+... stopping thread 7 after 22557 ops
+... stopping thread 2 after 22360 ops
+... stopping thread 9 after 22336 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/28 (10180 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/29
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22471 ops
+... stopping thread 1 after 22493 ops
+... stopping thread 0 after 22412 ops
+... stopping thread 3 after 22619 ops
+... stopping thread 9 after 22407 ops
+... stopping thread 6 after 22522 ops
+... stopping thread 5 after 22641 ops
+... stopping thread 4 after 22419 ops
+... stopping thread 7 after 22559 ops
+... stopping thread 8 after 22479 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/29 (10177 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/30
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22361 ops
+... stopping thread 1 after 22531 ops
+... stopping thread 0 after 22455 ops
+... stopping thread 5 after 22625 ops
+... stopping thread 7 after 22642 ops
+... stopping thread 9 after 22409 ops
+... stopping thread 8 after 22439 ops
+... stopping thread 6 after 22572 ops
+... stopping thread 3 after 22629 ops
+... stopping thread 4 after 22481 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/30 (10181 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/31
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 22316 ops
+... stopping thread 3 after 22453 ops
+... stopping thread 5 after 22405 ops
+... stopping thread 7 after 22418 ops
+... stopping thread 8 after 22340 ops
+... stopping thread 4 after 22278 ops
+... stopping thread 2 after 22196 ops
+... stopping thread 1 after 22343 ops
+... stopping thread 9 after 22246 ops
+... stopping thread 6 after 22360 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/31 (10206 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/32
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 3 after 21636 ops
+... stopping thread 1 after 21465 ops
+... stopping thread 0 after 21409 ops
+... stopping thread 9 after 21387 ops
+... stopping thread 7 after 21622 ops
+... stopping thread 4 after 21464 ops
+... stopping thread 8 after 21390 ops
+... stopping thread 5 after 21556 ops
+... stopping thread 6 after 21439 ops
+... stopping thread 2 after 21469 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/32 (10172 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/33
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 3 after 22518 ops
+... stopping thread 1 after 22440 ops
+... stopping thread 8 after 22447 ops
+... stopping thread 4 after 22390 ops
+... stopping thread 7 after 22617 ops
+... stopping thread 5 after 22526 ops
+... stopping thread 6 after 22468 ops
+... stopping thread 2 after 22372 ops
+... stopping thread 9 after 22379 ops
+... stopping thread 0 after 22414 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/33 (10193 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/34
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 22567 ops
+... stopping thread 1 after 22562 ops
+... stopping thread 6 after 22609 ops
+... stopping thread 3 after 22706 ops
+... stopping thread 7 after 22690 ops
+... stopping thread 2 after 22494 ops
+... stopping thread 9 after 22487 ops
+... stopping thread 5 after 22728 ops
+... stopping thread 8 after 22566 ops
+... stopping thread 4 after 22527 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/34 (10186 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/35
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22201 ops
+... stopping thread 3 after 22382 ops
+... stopping thread 4 after 22190 ops
+... stopping thread 0 after 22224 ops
+... stopping thread 1 after 22254 ops
+... stopping thread 5 after 22334 ops
+... stopping thread 7 after 22344 ops
+... stopping thread 8 after 22279 ops
+... stopping thread 9 after 22160 ops
+... stopping thread 6 after 22254 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/35 (10174 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/36
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 7 after 5859 ops
+... stopping thread 0 after 5830 ops
+... stopping thread 3 after 5859 ops
+... stopping thread 9 after 5746 ops
+... stopping thread 4 after 5826 ops
+... stopping thread 2 after 5705 ops
+... stopping thread 6 after 5951 ops
+... stopping thread 5 after 5835 ops
+... stopping thread 8 after 5697 ops
+... stopping thread 1 after 5978 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/36 (10176 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/37
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 5930 ops
+... stopping thread 4 after 5932 ops
+... stopping thread 2 after 5802 ops
+... stopping thread 5 after 5933 ops
+... stopping thread 7 after 5964 ops
+... stopping thread 8 after 5799 ops
+... stopping thread 6 after 6044 ops
+... stopping thread 3 after 5951 ops
+... stopping thread 1 after 6087 ops
+... stopping thread 9 after 5859 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/37 (10176 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/38
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 22753 ops
+... stopping thread 1 after 22809 ops
+... stopping thread 8 after 22842 ops
+... stopping thread 3 after 22896 ops
+... stopping thread 5 after 22928 ops
+... stopping thread 9 after 22740 ops
+... stopping thread 6 after 22866 ops
+... stopping thread 2 after 22772 ops
+... stopping thread 7 after 22974 ops
+... stopping thread 4 after 22761 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/38 (10175 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/39
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 3 after 22178 ops
+... stopping thread 4 after 21988 ops
+... stopping thread 0 after 21938 ops
+... stopping thread 8 after 21989 ops
+... stopping thread 1 after 22096 ops
+... stopping thread 6 after 22006 ops
+... stopping thread 7 after 22182 ops
+... stopping thread 9 after 21947 ops
+... stopping thread 2 after 21980 ops
+... stopping thread 5 after 22121 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/39 (10150 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/40
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 3 after 22392 ops
+... stopping thread 2 after 22282 ops
+... stopping thread 5 after 22480 ops
+... stopping thread 4 after 22215 ops
+... stopping thread 6 after 22353 ops
+... stopping thread 0 after 22266 ops
+... stopping thread 9 after 22201 ops
+... stopping thread 7 after 22455 ops
+... stopping thread 1 after 22288 ops
+... stopping thread 8 after 22334 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/40 (10190 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/41
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 3 after 22517 ops
+... stopping thread 5 after 22599 ops
+... stopping thread 1 after 22474 ops
+... stopping thread 9 after 22382 ops
+... stopping thread 6 after 22517 ops
+... stopping thread 4 after 22431 ops
+... stopping thread 0 after 22424 ops
+... stopping thread 2 after 22316 ops
+... stopping thread 8 after 22495 ops
+... stopping thread 7 after 22616 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/41 (10175 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/42
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 22611 ops
+... stopping thread 1 after 22693 ops
+... stopping thread 4 after 22612 ops
+... stopping thread 7 after 22775 ops
+... stopping thread 6 after 22735 ops
+... stopping thread 3 after 22748 ops
+... stopping thread 9 after 22615 ops
+... stopping thread 5 after 22754 ops
+... stopping thread 2 after 22618 ops
+... stopping thread 8 after 22664 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/42 (10182 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/43
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22499 ops
+... stopping thread 4 after 22473 ops
+... stopping thread 0 after 22430 ops
+... stopping thread 3 after 22586 ops
+... stopping thread 8 after 22460 ops
+... stopping thread 6 after 22531 ops
+... stopping thread 9 after 22407 ops
+... stopping thread 5 after 22595 ops
+... stopping thread 7 after 22645 ops
+... stopping thread 2 after 22359 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/43 (10183 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/44
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 22382 ops
+... stopping thread 7 after 22631 ops
+... stopping thread 1 after 22365 ops
+... stopping thread 2 after 22369 ops
+... stopping thread 4 after 22382 ops
+... stopping thread 9 after 22363 ops
+... stopping thread 6 after 22445 ops
+... stopping thread 3 after 22558 ops
+... stopping thread 5 after 22497 ops
+... stopping thread 8 after 22369 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/44 (10189 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/45
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22426 ops
+... stopping thread 8 after 22473 ops
+... stopping thread 3 after 22578 ops
+... stopping thread 5 after 22610 ops
+... stopping thread 1 after 22472 ops
+... stopping thread 6 after 22534 ops
+... stopping thread 9 after 22400 ops
+... stopping thread 7 after 22608 ops
+... stopping thread 0 after 22451 ops
+... stopping thread 4 after 22444 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/45 (10175 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/46
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22079 ops
+... stopping thread 1 after 22212 ops
+... stopping thread 8 after 22223 ops
+... stopping thread 5 after 22243 ops
+... stopping thread 3 after 22277 ops
+... stopping thread 0 after 22118 ops
+... stopping thread 9 after 22097 ops
+... stopping thread 7 after 22329 ops
+... stopping thread 6 after 22198 ops
+... stopping thread 4 after 22096 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/46 (10189 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/47
+... starting thread 0
+... starting thread 2
+... starting thread 1
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 22587 ops
+... stopping thread 4 after 22565 ops
+... stopping thread 5 after 22773 ops
+... stopping thread 2 after 22562 ops
+... stopping thread 9 after 22496 ops
+... stopping thread 6 after 22660 ops
+... stopping thread 7 after 22745 ops
+... stopping thread 1 after 22605 ops
+... stopping thread 3 after 22709 ops
+... stopping thread 8 after 22640 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/47 (10181 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/48
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 21632 ops
+... stopping thread 6 after 21628 ops
+... stopping thread 4 after 21609 ops
+... stopping thread 7 after 21847 ops
+... stopping thread 5 after 21786 ops
+... stopping thread 3 after 21851 ops
+... stopping thread 2 after 21616 ops
+... stopping thread 8 after 21672 ops
+... stopping thread 9 after 21551 ops
+... stopping thread 0 after 21668 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/48 (10169 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/49
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 3 after 22623 ops
+... stopping thread 5 after 22611 ops
+... stopping thread 6 after 22535 ops
+... stopping thread 4 after 22461 ops
+... stopping thread 9 after 22409 ops
+... stopping thread 2 after 22395 ops
+... stopping thread 1 after 22543 ops
+... stopping thread 7 after 22645 ops
+... stopping thread 0 after 22413 ops
+... stopping thread 8 after 22496 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/49 (10190 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/50
+... starting thread 0
+... starting thread 2
+... starting thread 3
+... starting thread 1
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 3 after 22387 ops
+... stopping thread 0 after 22236 ops
+... stopping thread 6 after 22312 ops
+... stopping thread 7 after 22385 ops
+... stopping thread 1 after 22266 ops
+... stopping thread 5 after 22351 ops
+... stopping thread 4 after 22172 ops
+... stopping thread 2 after 22192 ops
+... stopping thread 8 after 22291 ops
+... stopping thread 9 after 22189 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/50 (10181 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/51
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22312 ops
+... stopping thread 0 after 22263 ops
+... stopping thread 1 after 22403 ops
+... stopping thread 7 after 22484 ops
+... stopping thread 5 after 22498 ops
+... stopping thread 8 after 22374 ops
+... stopping thread 4 after 22313 ops
+... stopping thread 3 after 22495 ops
+... stopping thread 6 after 22392 ops
+... stopping thread 9 after 22250 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/51 (10194 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/52
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22234 ops
+... stopping thread 0 after 22287 ops
+... stopping thread 1 after 22333 ops
+... stopping thread 5 after 22467 ops
+... stopping thread 4 after 22315 ops
+... stopping thread 3 after 22449 ops
+... stopping thread 8 after 22353 ops
+... stopping thread 6 after 22398 ops
+... stopping thread 7 after 22459 ops
+... stopping thread 9 after 22284 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/52 (10173 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/53
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22496 ops
+... stopping thread 2 after 22435 ops
+... stopping thread 9 after 22471 ops
+... stopping thread 3 after 22573 ops
+... stopping thread 7 after 22639 ops
+... stopping thread 5 after 22643 ops
+... stopping thread 0 after 22492 ops
+... stopping thread 6 after 22529 ops
+... stopping thread 4 after 22466 ops
+... stopping thread 8 after 22506 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/53 (10180 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/54
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 22322 ops
+... stopping thread 1 after 22337 ops
+... stopping thread 2 after 22257 ops
+... stopping thread 9 after 22263 ops
+... stopping thread 7 after 22467 ops
+... stopping thread 8 after 22383 ops
+... stopping thread 4 after 22282 ops
+... stopping thread 3 after 22449 ops
+... stopping thread 6 after 22392 ops
+... stopping thread 5 after 22444 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/54 (10193 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/55
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 21921 ops
+... stopping thread 1 after 22025 ops
+... stopping thread 5 after 22086 ops
+... stopping thread 8 after 21951 ops
+... stopping thread 6 after 22033 ops
+... stopping thread 2 after 21912 ops
+... stopping thread 4 after 21924 ops
+... stopping thread 3 after 22069 ops
+... stopping thread 9 after 21955 ops
+... stopping thread 7 after 22105 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/55 (10177 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/56
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/56 (12 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/57
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/57 (12 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/58
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 3 after 25547 ops
+... stopping thread 5 after 25546 ops
+... stopping thread 0 after 25365 ops
+... stopping thread 2 after 25580 ops
+... stopping thread 4 after 25477 ops
+... stopping thread 1 after 25499 ops
+... stopping thread 6 after 25546 ops
+... stopping thread 7 after 25599 ops
+... stopping thread 8 after 25480 ops
+... stopping thread 9 after 25392 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/58 (10147 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/59
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 25291 ops
+... stopping thread 1 after 25364 ops
+... stopping thread 2 after 25347 ops
+... stopping thread 3 after 25397 ops
+... stopping thread 4 after 25289 ops
+... stopping thread 6 after 25404 ops
+... stopping thread 8 after 25313 ops
+... stopping thread 5 after 25409 ops
+... stopping thread 7 after 25488 ops
+... stopping thread 9 after 25288 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/59 (10156 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/60
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 22067 ops
+... stopping thread 3 after 22212 ops
+... stopping thread 5 after 22214 ops
+... stopping thread 9 after 22010 ops
+... stopping thread 4 after 21971 ops
+... stopping thread 6 after 22146 ops
+... stopping thread 8 after 22086 ops
+... stopping thread 1 after 22092 ops
+... stopping thread 7 after 22296 ops
+... stopping thread 2 after 22017 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/60 (10187 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/61
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 21977 ops
+... stopping thread 1 after 22093 ops
+... stopping thread 7 after 22151 ops
+... stopping thread 2 after 22011 ops
+... stopping thread 8 after 21964 ops
+... stopping thread 5 after 22214 ops
+... stopping thread 6 after 22097 ops
+... stopping thread 9 after 21962 ops
+... stopping thread 3 after 22159 ops
+... stopping thread 4 after 21972 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/61 (10172 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/62
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 5 after 22757 ops
+... stopping thread 1 after 22716 ops
+... stopping thread 4 after 22601 ops
+... stopping thread 2 after 22604 ops
+... stopping thread 9 after 22584 ops
+... stopping thread 7 after 22797 ops
+... stopping thread 8 after 22703 ops
+... stopping thread 3 after 22778 ops
+... stopping thread 6 after 22710 ops
+... stopping thread 0 after 22637 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/62 (10168 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/63
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22253 ops
+... stopping thread 8 after 22240 ops
+... stopping thread 5 after 22404 ops
+... stopping thread 2 after 22130 ops
+... stopping thread 0 after 22193 ops
+... stopping thread 3 after 22375 ops
+... stopping thread 4 after 22152 ops
+... stopping thread 6 after 22243 ops
+... stopping thread 7 after 22342 ops
+... stopping thread 9 after 22148 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/63 (10185 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/64
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 3 after 22495 ops
+... stopping thread 2 after 22317 ops
+... stopping thread 1 after 22371 ops
+... stopping thread 0 after 22325 ops
+... stopping thread 6 after 22459 ops
+... stopping thread 9 after 22336 ops
+... stopping thread 4 after 22354 ops
+... stopping thread 8 after 22383 ops
+... stopping thread 7 after 22539 ops
+... stopping thread 5 after 22509 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/64 (10192 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/65
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22377 ops
+... stopping thread 0 after 22376 ops
+... stopping thread 3 after 22544 ops
+... stopping thread 1 after 22385 ops
+... stopping thread 5 after 22526 ops
+... stopping thread 8 after 22407 ops
+... stopping thread 6 after 22405 ops
+... stopping thread 4 after 22389 ops
+... stopping thread 9 after 22326 ops
+... stopping thread 7 after 22514 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/65 (10184 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/66
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22449 ops
+... stopping thread 3 after 22544 ops
+... stopping thread 2 after 22351 ops
+... stopping thread 0 after 22329 ops
+... stopping thread 8 after 22449 ops
+... stopping thread 6 after 22432 ops
+... stopping thread 5 after 22523 ops
+... stopping thread 7 after 22570 ops
+... stopping thread 4 after 22431 ops
+... stopping thread 9 after 22296 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/66 (10200 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/67
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22300 ops
+... stopping thread 7 after 22378 ops
+... stopping thread 4 after 22229 ops
+... stopping thread 3 after 22376 ops
+... stopping thread 8 after 22226 ops
+... stopping thread 9 after 22185 ops
+... stopping thread 5 after 22413 ops
+... stopping thread 2 after 22240 ops
+... stopping thread 6 after 22354 ops
+... stopping thread 0 after 22251 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/67 (10182 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/68
+... starting thread 0
+... starting thread 2
+... starting thread 1
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 21706 ops
+... stopping thread 1 after 21791 ops
+... stopping thread 7 after 21818 ops
+... stopping thread 2 after 21693 ops
+... stopping thread 6 after 21751 ops
+... stopping thread 5 after 21805 ops
+... stopping thread 8 after 21663 ops
+... stopping thread 3 after 21855 ops
+... stopping thread 9 after 21672 ops
+... stopping thread 4 after 21662 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/68 (10183 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/69
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22456 ops
+... stopping thread 4 after 22312 ops
+... stopping thread 7 after 22546 ops
+... stopping thread 2 after 22340 ops
+... stopping thread 5 after 22514 ops
+... stopping thread 3 after 22451 ops
+... stopping thread 0 after 22337 ops
+... stopping thread 8 after 22348 ops
+... stopping thread 9 after 22313 ops
+... stopping thread 6 after 22388 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/69 (10184 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/70
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22356 ops
+... stopping thread 4 after 22298 ops
+... stopping thread 5 after 22490 ops
+... stopping thread 7 after 22493 ops
+... stopping thread 8 after 22357 ops
+... stopping thread 3 after 22459 ops
+... stopping thread 0 after 22300 ops
+... stopping thread 2 after 22301 ops
+... stopping thread 9 after 22231 ops
+... stopping thread 6 after 22395 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/70 (10165 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/71
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22039 ops
+... stopping thread 5 after 22190 ops
+... stopping thread 0 after 22092 ops
+... stopping thread 1 after 22125 ops
+... stopping thread 6 after 22153 ops
+... stopping thread 9 after 22063 ops
+... stopping thread 7 after 22199 ops
+... stopping thread 8 after 22045 ops
+... stopping thread 4 after 22028 ops
+... stopping thread 3 after 22257 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/71 (10160 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/72
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 21205 ops
+... stopping thread 5 after 21390 ops
+... stopping thread 6 after 21283 ops
+... stopping thread 9 after 21244 ops
+... stopping thread 1 after 21266 ops
+... stopping thread 4 after 21212 ops
+... stopping thread 2 after 21269 ops
+... stopping thread 7 after 21435 ops
+... stopping thread 8 after 21160 ops
+... stopping thread 3 after 21393 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/72 (10158 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/73
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22291 ops
+... stopping thread 7 after 22491 ops
+... stopping thread 9 after 22201 ops
+... stopping thread 0 after 22252 ops
+... stopping thread 4 after 22213 ops
+... stopping thread 5 after 22400 ops
+... stopping thread 8 after 22307 ops
+... stopping thread 2 after 22279 ops
+... stopping thread 3 after 22460 ops
+... stopping thread 6 after 22355 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/73 (10190 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/74
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 0 after 22397 ops
+... stopping thread 1 after 22423 ops
+... stopping thread 2 after 22397 ops
+... stopping thread 5 after 22585 ops
+... stopping thread 6 after 22445 ops
+... stopping thread 9 after 22352 ops
+... stopping thread 3 after 22543 ops
+... stopping thread 7 after 22537 ops
+... stopping thread 8 after 22458 ops
+... stopping thread 4 after 22393 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/74 (10170 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/75
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 1 after 22251 ops
+... stopping thread 2 after 22183 ops
+... stopping thread 0 after 22179 ops
+... stopping thread 3 after 22322 ops
+... stopping thread 7 after 22445 ops
+... stopping thread 5 after 22372 ops
+... stopping thread 8 after 22245 ops
+... stopping thread 6 after 22279 ops
+... stopping thread 4 after 22181 ops
+... stopping thread 9 after 22184 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/75 (10173 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/76
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 8 after 13925 ops
+... stopping thread 7 after 14206 ops
+... stopping thread 5 after 14082 ops
+... stopping thread 2 after 13954 ops
+... stopping thread 4 after 13978 ops
+... stopping thread 1 after 14185 ops
+... stopping thread 3 after 13982 ops
+... stopping thread 0 after 14002 ops
+... stopping thread 6 after 14067 ops
+... stopping thread 9 after 13955 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/76 (10159 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/77
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 3 after 13837 ops
+... stopping thread 8 after 13793 ops
+... stopping thread 2 after 13819 ops
+... stopping thread 0 after 13845 ops
+... stopping thread 9 after 13807 ops
+... stopping thread 5 after 13955 ops
+... stopping thread 7 after 14084 ops
+... stopping thread 6 after 13947 ops
+... stopping thread 4 after 13836 ops
+... stopping thread 1 after 14032 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/77 (10156 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/78
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 2 after 22565 ops
+... stopping thread 1 after 22630 ops
+... stopping thread 4 after 22577 ops
+... stopping thread 0 after 22601 ops
+... stopping thread 8 after 22652 ops
+... stopping thread 7 after 22781 ops
+... stopping thread 5 after 22736 ops
+... stopping thread 3 after 22748 ops
+... stopping thread 9 after 22570 ops
+... stopping thread 6 after 22711 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/78 (10167 ms)
+[ RUN      ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/79
+... starting thread 0
+... starting thread 1
+... starting thread 2
+... starting thread 3
+... starting thread 4
+... starting thread 5
+... starting thread 6
+... starting thread 7
+... starting thread 8
+... starting thread 9
+... stopping thread 7 after 22603 ops
+... stopping thread 3 after 22588 ops
+... stopping thread 0 after 22382 ops
+... stopping thread 1 after 22389 ops
+... stopping thread 6 after 22452 ops
+... stopping thread 9 after 22348 ops
+... stopping thread 5 after 22566 ops
+... stopping thread 2 after 22360 ops
+... stopping thread 8 after 22421 ops
+... stopping thread 4 after 22382 ops
+[       OK ] MultiThreaded/MultiThreadedDBTest.MultiThreaded/79 (10179 ms)
+[----------] 80 tests from MultiThreaded/MultiThreadedDBTest (793863 ms total)
+
+[----------] 39 tests from DBTestRandomized/DBTestRandomized
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/0
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/0 (3453 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/1
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/1 (2143 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/2
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/2 (2146 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/3
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/3 (3230 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/4
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/4 (3112 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/5
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/5 (3558 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/6
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/6 (3105 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/7
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/7 (3459 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/8
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/8 (3555 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/9
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/9 (3561 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/10
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/10 (3545 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/11
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/11 (3461 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/12
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/12 (3482 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/13
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/13 (3481 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/14
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/14 (3501 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/15
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/15 (3485 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/16
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/16 (3512 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/17
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/17 (3492 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/18
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/18 (3694 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/19
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/19 (3530 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/20
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/20 (3540 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/21
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/21 (5233 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/22
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/22 (3526 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/23
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/23 (3436 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/24
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/24 (3534 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/25
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/25 (3522 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/26
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/26 (3621 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/27
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/27 (3385 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/28
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/28 (3968 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/29
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/29 (3430 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/30
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/30 (3477 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/31
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/31 (3507 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/32
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/32 (3506 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/33
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/33 (3434 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/34
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/34 (3602 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/35
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/35 (3737 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/36
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/36 (3516 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/37
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/37 (3471 ms)
+[ RUN      ] DBTestRandomized/DBTestRandomized.Randomized/38
+[       OK ] DBTestRandomized/DBTestRandomized.Randomized/38 (3477 ms)
+[----------] 39 tests from DBTestRandomized/DBTestRandomized (135427 ms total)
+
+[----------] 32 tests from DBTestWithParam/DBTestWithParam
+[ RUN      ] DBTestWithParam/DBTestWithParam.FIFOCompactionTest/0
+[       OK ] DBTestWithParam/DBTestWithParam.FIFOCompactionTest/0 (96 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.FIFOCompactionTest/1
+[       OK ] DBTestWithParam/DBTestWithParam.FIFOCompactionTest/1 (95 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.FIFOCompactionTest/2
+[       OK ] DBTestWithParam/DBTestWithParam.FIFOCompactionTest/2 (95 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.FIFOCompactionTest/3
+[       OK ] DBTestWithParam/DBTestWithParam.FIFOCompactionTest/3 (95 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.ThreadStatusSingleCompaction/0
+[       OK ] DBTestWithParam/DBTestWithParam.ThreadStatusSingleCompaction/0 (81 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.ThreadStatusSingleCompaction/1
+[       OK ] DBTestWithParam/DBTestWithParam.ThreadStatusSingleCompaction/1 (80 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.ThreadStatusSingleCompaction/2
+[       OK ] DBTestWithParam/DBTestWithParam.ThreadStatusSingleCompaction/2 (81 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.ThreadStatusSingleCompaction/3
+[       OK ] DBTestWithParam/DBTestWithParam.ThreadStatusSingleCompaction/3 (80 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.PreShutdownManualCompaction/0
+[       OK ] DBTestWithParam/DBTestWithParam.PreShutdownManualCompaction/0 (93 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.PreShutdownManualCompaction/1
+[       OK ] DBTestWithParam/DBTestWithParam.PreShutdownManualCompaction/1 (92 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.PreShutdownManualCompaction/2
+[       OK ] DBTestWithParam/DBTestWithParam.PreShutdownManualCompaction/2 (94 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.PreShutdownManualCompaction/3
+[       OK ] DBTestWithParam/DBTestWithParam.PreShutdownManualCompaction/3 (95 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.PreShutdownMultipleCompaction/0
+[       OK ] DBTestWithParam/DBTestWithParam.PreShutdownMultipleCompaction/0 (41 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.PreShutdownMultipleCompaction/1
+[       OK ] DBTestWithParam/DBTestWithParam.PreShutdownMultipleCompaction/1 (41 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.PreShutdownMultipleCompaction/2
+[       OK ] DBTestWithParam/DBTestWithParam.PreShutdownMultipleCompaction/2 (42 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.PreShutdownMultipleCompaction/3
+[       OK ] DBTestWithParam/DBTestWithParam.PreShutdownMultipleCompaction/3 (42 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.PreShutdownCompactionMiddle/0
+[       OK ] DBTestWithParam/DBTestWithParam.PreShutdownCompactionMiddle/0 (40 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.PreShutdownCompactionMiddle/1
+[       OK ] DBTestWithParam/DBTestWithParam.PreShutdownCompactionMiddle/1 (41 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.PreShutdownCompactionMiddle/2
+[       OK ] DBTestWithParam/DBTestWithParam.PreShutdownCompactionMiddle/2 (44 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.PreShutdownCompactionMiddle/3
+[       OK ] DBTestWithParam/DBTestWithParam.PreShutdownCompactionMiddle/3 (44 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.MergeCompactionTimeTest/0
+[       OK ] DBTestWithParam/DBTestWithParam.MergeCompactionTimeTest/0 (2574 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.MergeCompactionTimeTest/1
+[       OK ] DBTestWithParam/DBTestWithParam.MergeCompactionTimeTest/1 (2539 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.MergeCompactionTimeTest/2
+[       OK ] DBTestWithParam/DBTestWithParam.MergeCompactionTimeTest/2 (2641 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.MergeCompactionTimeTest/3
+[       OK ] DBTestWithParam/DBTestWithParam.MergeCompactionTimeTest/3 (2557 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.FilterCompactionTimeTest/0
+[       OK ] DBTestWithParam/DBTestWithParam.FilterCompactionTimeTest/0 (45 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.FilterCompactionTimeTest/1
+[       OK ] DBTestWithParam/DBTestWithParam.FilterCompactionTimeTest/1 (42 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.FilterCompactionTimeTest/2
+[       OK ] DBTestWithParam/DBTestWithParam.FilterCompactionTimeTest/2 (54 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.FilterCompactionTimeTest/3
+[       OK ] DBTestWithParam/DBTestWithParam.FilterCompactionTimeTest/3 (41 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.CompactionTotalTimeTest/0
+[       OK ] DBTestWithParam/DBTestWithParam.CompactionTotalTimeTest/0 (125 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.CompactionTotalTimeTest/1
+[       OK ] DBTestWithParam/DBTestWithParam.CompactionTotalTimeTest/1 (125 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.CompactionTotalTimeTest/2
+[       OK ] DBTestWithParam/DBTestWithParam.CompactionTotalTimeTest/2 (125 ms)
+[ RUN      ] DBTestWithParam/DBTestWithParam.CompactionTotalTimeTest/3
+[       OK ] DBTestWithParam/DBTestWithParam.CompactionTotalTimeTest/3 (126 ms)
+[----------] 32 tests from DBTestWithParam/DBTestWithParam (12408 ms total)
+
+[----------] 32 tests from OpenFilesAsync/OpenFilesAsyncTest
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.ConcurrentFileAccess/0
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.ConcurrentFileAccess/0 (58 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.ConcurrentFileAccess/1
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.ConcurrentFileAccess/1 (46 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.ConcurrentFileAccess/2
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.ConcurrentFileAccess/2 (57 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.ConcurrentFileAccess/3
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.ConcurrentFileAccess/3 (45 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.AfterRead/0
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.AfterRead/0 (59 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.AfterRead/1
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.AfterRead/1 (45 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.AfterRead/2
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.AfterRead/2 (60 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.AfterRead/3
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.AfterRead/3 (46 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.BeforeRead/0
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.BeforeRead/0 (60 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.BeforeRead/1
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.BeforeRead/1 (46 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.BeforeRead/2
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.BeforeRead/2 (59 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.BeforeRead/3
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.BeforeRead/3 (46 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileSkipsWaitForModernDB/0
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileSkipsWaitForModernDB/0 (42 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileSkipsWaitForModernDB/1
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileSkipsWaitForModernDB/1 (36 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileSkipsWaitForModernDB/2
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileSkipsWaitForModernDB/2 (12 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileSkipsWaitForModernDB/3
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileSkipsWaitForModernDB/3 (11 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileBlocksOnAsyncOpenForLegacyDB/0
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileBlocksOnAsyncOpenForLegacyDB/0 (41 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileBlocksOnAsyncOpenForLegacyDB/1
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileBlocksOnAsyncOpenForLegacyDB/1 (37 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileBlocksOnAsyncOpenForLegacyDB/2
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileBlocksOnAsyncOpenForLegacyDB/2 (11 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileBlocksOnAsyncOpenForLegacyDB/3
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.GetCreationTimeOfOldestFileBlocksOnAsyncOpenForLegacyDB/3 (11 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.Shutdown/0
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.Shutdown/0 (40 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.Shutdown/1
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.Shutdown/1 (36 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.Shutdown/2
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.Shutdown/2 (41 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.Shutdown/3
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.Shutdown/3 (36 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.Error/0
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.Error/0 (67 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.Error/1
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.Error/1 (55 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.Error/2
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.Error/2 (69 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.Error/3
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.Error/3 (55 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.DropColumnFamily/0
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.DropColumnFamily/0 (144 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.DropColumnFamily/1
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.DropColumnFamily/1 (12 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.DropColumnFamily/2
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.DropColumnFamily/2 (144 ms)
+[ RUN      ] OpenFilesAsync/OpenFilesAsyncTest.DropColumnFamily/3
+[       OK ] OpenFilesAsync/OpenFilesAsyncTest.DropColumnFamily/3 (11 ms)
+[----------] 32 tests from OpenFilesAsync/OpenFilesAsyncTest (1539 ms total)
+
+[----------] Global test environment tear-down
+[==========] 295 tests from 5 test cases ran. (1062764 ms total)
+[  PASSED  ] 295 tests.
+
+  YOU HAVE 4 DISABLED TESTS
+

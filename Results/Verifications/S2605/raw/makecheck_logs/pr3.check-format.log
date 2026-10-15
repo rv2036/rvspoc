@@ -1,0 +1,17 @@
+$DEBUG_LEVEL is 1, $LIB_MODE is shared
+Makefile:184: Warning: Compiling in debug mode. Don't use the resulting binary in production
+build_tools/format-diff.sh -c
+Checking format of changes not yet in origin/main...
+Checking for copyright headers in new files...
+Added copyright header to rvv-ci/bloom_diff.cc
+Added copyright header to rvv-ci/crc32c_diff.cc
+Added copyright header to rvv-ci/memcmp_diff.cc
+Added copyright header to rvv-ci/varint_diff.cc
+Added copyright header to rvv-ci/xxh3_diff.cc
+Added copyright header to rvv-ci/xxh3_ref.cc
+Added copyright header to rvv-ci/xxph3_diff.cc
+Added copyright header to rvv-ci/xxph3_ref.cc
+Added copyright header to tools/b2_analyze.py
+Copyright headers were added to new files.
+Your change has unformatted code. Please run make format!
+make: *** [Makefile:1332: check-format] Error 1

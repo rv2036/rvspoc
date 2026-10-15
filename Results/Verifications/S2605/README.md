@@ -81,6 +81,8 @@ P99 因官方工具不输出而如实声明不可得（PR 3 亦已在文档公�
 | 内容 | 说明 |
 |---|---|
 | `perf_summary.tsv` | db_bench 全部原始记录 |
+| `perf_raw/` | 各提交逐轮 db_bench 原始输出（`s2605-pr2/3/4`，含 PR 3 复核轮） |
 | `makecheck/` | make check 结果表 |
+| `makecheck_logs/` | make check 过程日志与阶段状态 |
 | `rocketmq-stress-logs.tar` | 60 分钟压测全套日志（producer/consumer/broker/130 点采样） |
 | `baseline-env/` | 基线环境快照 |

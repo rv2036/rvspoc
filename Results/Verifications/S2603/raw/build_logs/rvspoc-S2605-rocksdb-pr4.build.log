@@ -1,0 +1,146 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- The C compiler identification is GNU 13.3.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- CMAKE_BUILD_TYPE is set to Release
+-- Performing Test HAVE_OMIT_LEAF_FRAME_POINTER
+-- Performing Test HAVE_OMIT_LEAF_FRAME_POINTER - Failed
+-- Performing Test BUILTIN_ATOMIC
+-- Performing Test BUILTIN_ATOMIC - Failed
+-- Could NOT find uring (missing: uring_LIBRARIES uring_INCLUDE_DIR) 
+-- Enabling RTTI in Debug builds only (default)
+-- Performing Test HAVE_FALLOCATE
+-- Performing Test HAVE_FALLOCATE - Failed
+-- Performing Test HAVE_SYNC_FILE_RANGE_WRITE
+-- Performing Test HAVE_SYNC_FILE_RANGE_WRITE - Failed
+-- Performing Test HAVE_PTHREAD_MUTEX_ADAPTIVE_NP
+-- Performing Test HAVE_PTHREAD_MUTEX_ADAPTIVE_NP - Failed
+-- Looking for malloc_usable_size
+-- Looking for malloc_usable_size - not found
+-- Looking for sched_getcpu
+-- Looking for sched_getcpu - not found
+-- Looking for getauxval
+-- Looking for getauxval - not found
+-- Looking for F_FULLFSYNC
+-- Looking for F_FULLFSYNC - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- ROCKSDB_PLUGINS: 
+-- ROCKSDB PLUGINS TO BUILD 
+-- Found Git: /usr/bin/git (found version "2.43.0") 
+fatal: no tag exactly matches '9ec8dc8e446ef95d1311ae93e2242e72f274c5c6'
+-- JNI library is disabled
+-- Configuring done (1.5s)
+-- Generating done (0.3s)
+-- Build files have been written to: /home/rvspoc/rvspoc-verify/src/rvspoc-S2605-rocksdb-pr4/build
+[  0%] Building CXX object CMakeFiles/rocksdb-shared.dir/cache/cache_key.cc.o
+[  0%] Building CXX object CMakeFiles/rocksdb-shared.dir/cache/cache.cc.o
+[  0%] Building CXX object CMakeFiles/rocksdb-shared.dir/cache/cache_helpers.cc.o
+[  0%] Building CXX object CMakeFiles/rocksdb-shared.dir/cache/cache_entry_roles.cc.o
+[  0%] Building CXX object CMakeFiles/rocksdb-shared.dir/cache/cache_reservation_manager.cc.o
+[  2%] Building CXX object CMakeFiles/rocksdb-shared.dir/cache/charged_cache.cc.o
+[  2%] Building CXX object CMakeFiles/rocksdb-shared.dir/cache/compressed_secondary_cache.cc.o
+[  2%] Building CXX object CMakeFiles/rocksdb-shared.dir/cache/clock_cache.cc.o
+[  2%] Building CXX object CMakeFiles/rocksdb-shared.dir/cache/secondary_cache_adapter.cc.o
+[  2%] Building CXX object CMakeFiles/rocksdb-shared.dir/cache/secondary_cache.cc.o
+[  2%] Building CXX object CMakeFiles/rocksdb-shared.dir/cache/lru_cache.cc.o
+[  2%] Building CXX object CMakeFiles/rocksdb-shared.dir/cache/sharded_cache.cc.o
+[  2%] Building CXX object CMakeFiles/rocksdb-shared.dir/cache/tiered_secondary_cache.cc.o
+[  2%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/arena_wrapped_db_iter.cc.o
+[  2%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/attribute_group_iterator_impl.cc.o
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+[  4%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/blob_fetcher.cc.o
+[  4%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/blob_contents.cc.o
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+[  4%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/blob_file_builder.cc.o
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+[  4%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/blob_file_addition.cc.o
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+[  4%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/blob_file_cache.cc.o
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+[  4%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/blob_file_meta.cc.o
+[  4%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/blob_file_garbage.cc.o
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+[  4%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/blob_log_sequential_reader.cc.o
+[  4%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/blob_log_format.cc.o
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+[  4%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/blob_garbage_meter.cc.o
+[  6%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/blob_file_reader.cc.o
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+[  6%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/blob_log_writer.cc.o
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+[  6%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/blob_source.cc.o
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+[  6%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/builder.cc.o
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+[  6%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/blob/prefetch_buffer_collection.cc.o
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+[  8%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/c.cc.o
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+[  8%] Building CXX object CMakeFiles/rocksdb-shared.dir/db/coalescing_iterator.cc.o
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:76: CMakeFiles/rocksdb-shared.dir/cache/cache.cc.o] Error 1
+gmake[3]: *** Waiting for unfinished jobs....
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:90: CMakeFiles/rocksdb-shared.dir/cache/cache_entry_roles.cc.o] Error 1
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:104: CMakeFiles/rocksdb-shared.dir/cache/cache_key.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:118: CMakeFiles/rocksdb-shared.dir/cache/cache_helpers.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:132: CMakeFiles/rocksdb-shared.dir/cache/cache_reservation_manager.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:146: CMakeFiles/rocksdb-shared.dir/cache/charged_cache.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:160: CMakeFiles/rocksdb-shared.dir/cache/clock_cache.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:174: CMakeFiles/rocksdb-shared.dir/cache/compressed_secondary_cache.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:188: CMakeFiles/rocksdb-shared.dir/cache/lru_cache.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:202: CMakeFiles/rocksdb-shared.dir/cache/secondary_cache.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:216: CMakeFiles/rocksdb-shared.dir/cache/secondary_cache_adapter.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:230: CMakeFiles/rocksdb-shared.dir/cache/sharded_cache.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:244: CMakeFiles/rocksdb-shared.dir/cache/tiered_secondary_cache.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:258: CMakeFiles/rocksdb-shared.dir/db/arena_wrapped_db_iter.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:272: CMakeFiles/rocksdb-shared.dir/db/attribute_group_iterator_impl.cc.o] Error 1
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:286: CMakeFiles/rocksdb-shared.dir/db/blob/blob_contents.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:300: CMakeFiles/rocksdb-shared.dir/db/blob/blob_fetcher.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:314: CMakeFiles/rocksdb-shared.dir/db/blob/blob_file_addition.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:328: CMakeFiles/rocksdb-shared.dir/db/blob/blob_file_builder.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:342: CMakeFiles/rocksdb-shared.dir/db/blob/blob_file_cache.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:356: CMakeFiles/rocksdb-shared.dir/db/blob/blob_file_garbage.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:370: CMakeFiles/rocksdb-shared.dir/db/blob/blob_file_meta.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:412: CMakeFiles/rocksdb-shared.dir/db/blob/blob_log_format.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:384: CMakeFiles/rocksdb-shared.dir/db/blob/blob_file_reader.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:398: CMakeFiles/rocksdb-shared.dir/db/blob/blob_garbage_meter.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:426: CMakeFiles/rocksdb-shared.dir/db/blob/blob_log_sequential_reader.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:440: CMakeFiles/rocksdb-shared.dir/db/blob/blob_log_writer.cc.o] Error 1
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:454: CMakeFiles/rocksdb-shared.dir/db/blob/blob_source.cc.o] Error 1
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:468: CMakeFiles/rocksdb-shared.dir/db/blob/prefetch_buffer_collection.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:482: CMakeFiles/rocksdb-shared.dir/db/builder.cc.o] Error 1
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:496: CMakeFiles/rocksdb-shared.dir/db/c.cc.o] Error 1
+c++: error: ‘-march=native’: ISA string must begin with rv32 or rv64
+gmake[3]: *** [CMakeFiles/rocksdb-shared.dir/build.make:510: CMakeFiles/rocksdb-shared.dir/db/coalescing_iterator.cc.o] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:201: CMakeFiles/rocksdb-shared.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:260: CMakeFiles/db_bench.dir/rule] Error 2
+gmake: *** [Makefile:208: db_bench] Error 2

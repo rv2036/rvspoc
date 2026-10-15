@@ -1,0 +1,21 @@
+Note: Google Test filter = OptionsSettableTest.ColumnFamilyOptionsAllFieldsSettable
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionsSettableTest
+[ RUN      ] OptionsSettableTest.ColumnFamilyOptionsAllFieldsSettable
+options/options_settable_test.cc:730: Failure
+Expected equality of these values:
+  unset_bytes_base
+    Which is: 102
+  NumUnsetBytes(new_options_ptr, sizeof(ColumnFamilyOptions), kColumnFamilyOptionsExcluded)
+    Which is: 126
+[  FAILED  ] OptionsSettableTest.ColumnFamilyOptionsAllFieldsSettable (1 ms)
+[----------] 1 test from OptionsSettableTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] OptionsSettableTest.ColumnFamilyOptionsAllFieldsSettable
+
+ 1 FAILED TEST

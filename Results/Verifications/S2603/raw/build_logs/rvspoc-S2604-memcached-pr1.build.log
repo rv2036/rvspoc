@@ -1,0 +1,311 @@
+aclocal...
+autoheader...
+automake...
+configure.ac:10: installing './compile'
+configure.ac:5: installing './config.guess'
+configure.ac:5: installing './config.sub'
+configure.ac:7: installing './install-sh'
+configure.ac:7: installing './missing'
+Makefile.am:11: warning: source file 'vendor/mcmc/mcmc.c' is in a subdirectory,
+Makefile.am:11: but option 'subdir-objects' is disabled
+automake: warning: possible forward-incompatibility.
+automake: At least one source file is in a subdirectory, but the 'subdir-objects'
+automake: automake option hasn't been enabled.  For now, the corresponding output
+automake: object file(s) will be placed in the top-level directory.  However, this
+automake: behavior may change in a future Automake major version, with object
+automake: files being placed in the same subdirectory as the corresponding sources.
+automake: You are advised to start using 'subdir-objects' option throughout your
+automake: project, to avoid future incompatibilities.
+Makefile.am: installing './depcomp'
+autoconf...
+configure.ac:8: warning: 'AM_CONFIG_HEADER': this macro is obsolete.
+configure.ac:8: You should use the 'AC_CONFIG_HEADERS' macro instead.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:1089: AM_CONFIG_HEADER is expanded from...
+configure.ac:8: the top level
+configure.ac:210: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.ac:167: AC_C_DETECT_SASL_CB_GETCONF is expanded from...
+configure.ac:210: the top level
+configure.ac:211: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:211: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.ac:190: AC_C_DETECT_SASL_CB_GETCONFPATH is expanded from...
+configure.ac:211: the top level
+configure.ac:397: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:397: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.ac:397: the top level
+configure.ac:500: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:500: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+aclocal.m4:161: PKG_CHECK_MODULES is expanded from...
+configure.ac:500: the top level
+configure.ac:626: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:626: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.ac:605: AC_HAVE_SASL_CALLBACK_FT is expanded from...
+configure.ac:626: the top level
+configure.ac:652: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:652: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.ac:633: AC_C_DETECT_UINT64_SUPPORT is expanded from...
+configure.ac:652: the top level
+configure.ac:683: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:683: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.ac:664: AC_C_SOCKLEN_T is expanded from...
+configure.ac:683: the top level
+configure.ac:713: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:713: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+configure.ac:691: AC_C_HTONLL is expanded from...
+configure.ac:713: the top level
+configure.ac:787: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:787: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+configure.ac:787: the top level
+configure.ac:800: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:800: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+configure.ac:800: the top level
+checking build system type... riscv64-unknown-linux-gnu
+checking host system type... riscv64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of gcc... gcc3
+configure: RISC-V host detected: enabling RVV 1.0 + Zvbb (-march=rv64gcv_zvbb)
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for icc in use... no
+checking for clang in use... no
+checking for gcc options needed to detect all undeclared functions... none needed
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking whether __SUNPRO_C is declared... no
+checking for gcc option to accept ISO C99... none needed
+checking for sasl/sasl.h... no
+checking for gcov... /usr/bin/gcov
+checking for main in -lgcov... yes
+checking size of void *... 8
+checking for library containing clock_gettime... none required
+checking for library containing socket... none required
+checking for library containing gethostbyname... none required
+checking for libevent directory... (system)
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for library containing gethugepagesizes... no
+checking for _Bool... yes
+checking for stdbool.h that conforms to C99... yes
+checking for inttypes.h... (cached) yes
+checking for sys/auxv.h... yes
+checking for sasl_callback_ft... no
+checking for print macros for integers (C99 section 7.8.1)... yes
+checking for an ANSI C-conforming const... yes
+checking for socklen_t... yes
+checking whether byte ordering is bigendian... no
+checking for htonll... no
+checking for library containing pthread_create... none required
+checking for mlockall... yes
+checking for getpagesizes... no
+checking for sysconf... yes
+checking for memcntl... no
+checking for clock_gettime... yes
+checking for preadv... yes
+checking for pread... yes
+checking for eventfd... yes
+checking for pthread_setname_np... yes
+checking for accept4... yes
+checking for getopt_long... yes
+checking for alignment... none
+checking for GCC atomics... yes
+checking for GCC 64bit atomics... yes
+checking for setppriv... no
+checking for pledge... no
+checking for cap_enter... no
+checking for sandbox_init... no
+checking for xml2rfc... no
+checking for xsltproc... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+make  all-recursive
+make[1]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2604-memcached-pr1'
+Making all in doc
+make[2]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2604-memcached-pr1/doc'
+make  all-am
+make[3]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2604-memcached-pr1/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2604-memcached-pr1/doc'
+make[2]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2604-memcached-pr1/doc'
+make[2]: Entering directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2604-memcached-pr1'
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-memcached.o -MD -MP -MF .deps/memcached-memcached.Tpo -c -o memcached-memcached.o `test -f 'memcached.c' || echo './'`memcached.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-rvv.o -MD -MP -MF .deps/memcached-rvv.Tpo -c -o memcached-rvv.o `test -f 'rvv.c' || echo './'`rvv.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-hash.o -MD -MP -MF .deps/memcached-hash.Tpo -c -o memcached-hash.o `test -f 'hash.c' || echo './'`hash.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-jenkins_hash.o -MD -MP -MF .deps/memcached-jenkins_hash.Tpo -c -o memcached-jenkins_hash.o `test -f 'jenkins_hash.c' || echo './'`jenkins_hash.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-murmur3_hash.o -MD -MP -MF .deps/memcached-murmur3_hash.Tpo -c -o memcached-murmur3_hash.o `test -f 'murmur3_hash.c' || echo './'`murmur3_hash.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-slabs.o -MD -MP -MF .deps/memcached-slabs.Tpo -c -o memcached-slabs.o `test -f 'slabs.c' || echo './'`slabs.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-items.o -MD -MP -MF .deps/memcached-items.Tpo -c -o memcached-items.o `test -f 'items.c' || echo './'`items.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-assoc.o -MD -MP -MF .deps/memcached-assoc.Tpo -c -o memcached-assoc.o `test -f 'assoc.c' || echo './'`assoc.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-thread.o -MD -MP -MF .deps/memcached-thread.Tpo -c -o memcached-thread.o `test -f 'thread.c' || echo './'`thread.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-daemon.o -MD -MP -MF .deps/memcached-daemon.Tpo -c -o memcached-daemon.o `test -f 'daemon.c' || echo './'`daemon.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-stats_prefix.o -MD -MP -MF .deps/memcached-stats_prefix.Tpo -c -o memcached-stats_prefix.o `test -f 'stats_prefix.c' || echo './'`stats_prefix.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-util.o -MD -MP -MF .deps/memcached-util.Tpo -c -o memcached-util.o `test -f 'util.c' || echo './'`util.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-cache.o -MD -MP -MF .deps/memcached-cache.Tpo -c -o memcached-cache.o `test -f 'cache.c' || echo './'`cache.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-bipbuffer.o -MD -MP -MF .deps/memcached-bipbuffer.Tpo -c -o memcached-bipbuffer.o `test -f 'bipbuffer.c' || echo './'`bipbuffer.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-base64.o -MD -MP -MF .deps/memcached-base64.Tpo -c -o memcached-base64.o `test -f 'base64.c' || echo './'`base64.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-logger.o -MD -MP -MF .deps/memcached-logger.Tpo -c -o memcached-logger.o `test -f 'logger.c' || echo './'`logger.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-crawler.o -MD -MP -MF .deps/memcached-crawler.Tpo -c -o memcached-crawler.o `test -f 'crawler.c' || echo './'`crawler.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-itoa_ljust.o -MD -MP -MF .deps/memcached-itoa_ljust.Tpo -c -o memcached-itoa_ljust.o `test -f 'itoa_ljust.c' || echo './'`itoa_ljust.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-slab_automove.o -MD -MP -MF .deps/memcached-slab_automove.Tpo -c -o memcached-slab_automove.o `test -f 'slab_automove.c' || echo './'`slab_automove.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-slabs_mover.o -MD -MP -MF .deps/memcached-slabs_mover.Tpo -c -o memcached-slabs_mover.o `test -f 'slabs_mover.c' || echo './'`slabs_mover.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-authfile.o -MD -MP -MF .deps/memcached-authfile.Tpo -c -o memcached-authfile.o `test -f 'authfile.c' || echo './'`authfile.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-restart.o -MD -MP -MF .deps/memcached-restart.Tpo -c -o memcached-restart.o `test -f 'restart.c' || echo './'`restart.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-proto_text.o -MD -MP -MF .deps/memcached-proto_text.Tpo -c -o memcached-proto_text.o `test -f 'proto_text.c' || echo './'`proto_text.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-proto_bin.o -MD -MP -MF .deps/memcached-proto_bin.Tpo -c -o memcached-proto_bin.o `test -f 'proto_bin.c' || echo './'`proto_bin.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-proto_parser.o -MD -MP -MF .deps/memcached-proto_parser.Tpo -c -o memcached-proto_parser.o `test -f 'proto_parser.c' || echo './'`proto_parser.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-mcmc.o -MD -MP -MF .deps/memcached-mcmc.Tpo -c -o memcached-mcmc.o `test -f 'vendor/mcmc/mcmc.c' || echo './'`vendor/mcmc/mcmc.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-extstore.o -MD -MP -MF .deps/memcached-extstore.Tpo -c -o memcached-extstore.o `test -f 'extstore.c' || echo './'`extstore.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-crc32c.o -MD -MP -MF .deps/memcached-crc32c.Tpo -c -o memcached-crc32c.o `test -f 'crc32c.c' || echo './'`crc32c.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-storage.o -MD -MP -MF .deps/memcached-storage.Tpo -c -o memcached-storage.o `test -f 'storage.c' || echo './'`storage.c
+gcc -DHAVE_CONFIG_H -I.  -DNDEBUG   -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached-slab_automove_extstore.o -MD -MP -MF .deps/memcached-slab_automove_extstore.Tpo -c -o memcached-slab_automove_extstore.o `test -f 'slab_automove_extstore.c' || echo './'`slab_automove_extstore.c
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-memcached.o -MD -MP -MF .deps/memcached_debug-memcached.Tpo -c -o memcached_debug-memcached.o `test -f 'memcached.c' || echo './'`memcached.c
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-rvv.o -MD -MP -MF .deps/memcached_debug-rvv.Tpo -c -o memcached_debug-rvv.o `test -f 'rvv.c' || echo './'`rvv.c
+mv -f .deps/memcached-murmur3_hash.Tpo .deps/memcached-murmur3_hash.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-hash.o -MD -MP -MF .deps/memcached_debug-hash.Tpo -c -o memcached_debug-hash.o `test -f 'hash.c' || echo './'`hash.c
+mv -f .deps/memcached-base64.Tpo .deps/memcached-base64.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-jenkins_hash.o -MD -MP -MF .deps/memcached_debug-jenkins_hash.Tpo -c -o memcached_debug-jenkins_hash.o `test -f 'jenkins_hash.c' || echo './'`jenkins_hash.c
+mv -f .deps/memcached-itoa_ljust.Tpo .deps/memcached-itoa_ljust.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-murmur3_hash.o -MD -MP -MF .deps/memcached_debug-murmur3_hash.Tpo -c -o memcached_debug-murmur3_hash.o `test -f 'murmur3_hash.c' || echo './'`murmur3_hash.c
+mv -f .deps/memcached-cache.Tpo .deps/memcached-cache.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-slabs.o -MD -MP -MF .deps/memcached_debug-slabs.Tpo -c -o memcached_debug-slabs.o `test -f 'slabs.c' || echo './'`slabs.c
+mv -f .deps/memcached-bipbuffer.Tpo .deps/memcached-bipbuffer.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-items.o -MD -MP -MF .deps/memcached_debug-items.Tpo -c -o memcached_debug-items.o `test -f 'items.c' || echo './'`items.c
+mv -f .deps/memcached-authfile.Tpo .deps/memcached-authfile.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-assoc.o -MD -MP -MF .deps/memcached_debug-assoc.Tpo -c -o memcached_debug-assoc.o `test -f 'assoc.c' || echo './'`assoc.c
+mv -f .deps/memcached-daemon.Tpo .deps/memcached-daemon.Po
+mv -f .deps/memcached_debug-murmur3_hash.Tpo .deps/memcached_debug-murmur3_hash.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-thread.o -MD -MP -MF .deps/memcached_debug-thread.Tpo -c -o memcached_debug-thread.o `test -f 'thread.c' || echo './'`thread.c
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-daemon.o -MD -MP -MF .deps/memcached_debug-daemon.Tpo -c -o memcached_debug-daemon.o `test -f 'daemon.c' || echo './'`daemon.c
+mv -f .deps/memcached-crc32c.Tpo .deps/memcached-crc32c.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-stats_prefix.o -MD -MP -MF .deps/memcached_debug-stats_prefix.Tpo -c -o memcached_debug-stats_prefix.o `test -f 'stats_prefix.c' || echo './'`stats_prefix.c
+rvv.c: In function ‘rvv_murmur3_impl’:
+rvv.c:203:13: warning: statement with no effect [-Wunused-value]
+  203 |             __riscv_vsetvl_e32m8(vl);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+rvv.c: In function ‘rvv_murmur3_impl’:
+rvv.c:203:13: warning: statement with no effect [-Wunused-value]
+  203 |             __riscv_vsetvl_e32m8(vl);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+mv -f .deps/memcached-stats_prefix.Tpo .deps/memcached-stats_prefix.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-util.o -MD -MP -MF .deps/memcached_debug-util.Tpo -c -o memcached_debug-util.o `test -f 'util.c' || echo './'`util.c
+mv -f .deps/memcached-util.Tpo .deps/memcached-util.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-cache.o -MD -MP -MF .deps/memcached_debug-cache.Tpo -c -o memcached_debug-cache.o `test -f 'cache.c' || echo './'`cache.c
+rvv.c:208:21: warning: implicit declaration of function ‘__riscv_vrol_vx_u32m8’; did you mean ‘__riscv_vmul_vx_u32m8’? [-Wimplicit-function-declaration]
+  208 |                 k = __riscv_vrol_vx_u32m8(k, 15, vl);
+      |                     ^~~~~~~~~~~~~~~~~~~~~
+      |                     __riscv_vmul_vx_u32m8
+rvv.c:208:21: error: incompatible types when assigning to type ‘vuint32m8_t’ from type ‘int’
+mv -f .deps/memcached-slab_automove.Tpo .deps/memcached-slab_automove.Po
+mv -f .deps/memcached-jenkins_hash.Tpo .deps/memcached-jenkins_hash.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-bipbuffer.o -MD -MP -MF .deps/memcached_debug-bipbuffer.Tpo -c -o memcached_debug-bipbuffer.o `test -f 'bipbuffer.c' || echo './'`bipbuffer.c
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-base64.o -MD -MP -MF .deps/memcached_debug-base64.Tpo -c -o memcached_debug-base64.o `test -f 'base64.c' || echo './'`base64.c
+mv -f .deps/memcached-slab_automove_extstore.Tpo .deps/memcached-slab_automove_extstore.Po
+gcc -DHAVE_CONFIG_H -I.    -fprofile-arcs -ftest-coverage -DMEMCACHED_DEBUG -g -O2 -march=rv64gcv_zvbb -pthread -pthread -Wall -pedantic -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -MT memcached_debug-logger.o -MD -MP -MF .deps/memcached_debug-logger.Tpo -c -o memcached_debug-logger.o `test -f 'logger.c' || echo './'`logger.c
+rvv.c:208:21: warning: implicit declaration of function ‘__riscv_vrol_vx_u32m8’; did you mean ‘__riscv_vmul_vx_u32m8’? [-Wimplicit-function-declaration]
+  208 |                 k = __riscv_vrol_vx_u32m8(k, 15, vl);
+      |                     ^~~~~~~~~~~~~~~~~~~~~
+      |                     __riscv_vmul_vx_u32m8
+rvv.c:208:21: error: incompatible types when assigning to type ‘vuint32m8_t’ from type ‘int’
+make[2]: *** [Makefile:1015: memcached-rvv.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [Makefile:1771: memcached_debug-rvv.o] Error 1
+mv -f .deps/memcached_debug-daemon.Tpo .deps/memcached_debug-daemon.Po
+mv -f .deps/memcached_debug-jenkins_hash.Tpo .deps/memcached_debug-jenkins_hash.Po
+mv -f .deps/memcached-restart.Tpo .deps/memcached-restart.Po
+mv -f .deps/memcached_debug-base64.Tpo .deps/memcached_debug-base64.Po
+mv -f .deps/memcached-assoc.Tpo .deps/memcached-assoc.Po
+mv -f .deps/memcached_debug-cache.Tpo .deps/memcached_debug-cache.Po
+mv -f .deps/memcached_debug-stats_prefix.Tpo .deps/memcached_debug-stats_prefix.Po
+mv -f .deps/memcached_debug-bipbuffer.Tpo .deps/memcached_debug-bipbuffer.Po
+mv -f .deps/memcached-slabs_mover.Tpo .deps/memcached-slabs_mover.Po
+mv -f .deps/memcached-hash.Tpo .deps/memcached-hash.Po
+mv -f .deps/memcached-extstore.Tpo .deps/memcached-extstore.Po
+mv -f .deps/memcached_debug-assoc.Tpo .deps/memcached_debug-assoc.Po
+mv -f .deps/memcached_debug-util.Tpo .deps/memcached_debug-util.Po
+mv -f .deps/memcached-mcmc.Tpo .deps/memcached-mcmc.Po
+mv -f .deps/memcached-logger.Tpo .deps/memcached-logger.Po
+mv -f .deps/memcached_debug-hash.Tpo .deps/memcached_debug-hash.Po
+mv -f .deps/memcached-slabs.Tpo .deps/memcached-slabs.Po
+mv -f .deps/memcached-crawler.Tpo .deps/memcached-crawler.Po
+mv -f .deps/memcached-thread.Tpo .deps/memcached-thread.Po
+mv -f .deps/memcached_debug-slabs.Tpo .deps/memcached_debug-slabs.Po
+mv -f .deps/memcached-proto_bin.Tpo .deps/memcached-proto_bin.Po
+mv -f .deps/memcached-proto_text.Tpo .deps/memcached-proto_text.Po
+mv -f .deps/memcached_debug-logger.Tpo .deps/memcached_debug-logger.Po
+mv -f .deps/memcached_debug-thread.Tpo .deps/memcached_debug-thread.Po
+mv -f .deps/memcached-storage.Tpo .deps/memcached-storage.Po
+mv -f .deps/memcached-proto_parser.Tpo .deps/memcached-proto_parser.Po
+mv -f .deps/memcached-items.Tpo .deps/memcached-items.Po
+mv -f .deps/memcached_debug-items.Tpo .deps/memcached_debug-items.Po
+mv -f .deps/memcached-memcached.Tpo .deps/memcached-memcached.Po
+mv -f .deps/memcached_debug-memcached.Tpo .deps/memcached_debug-memcached.Po
+make[2]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2604-memcached-pr1'
+make[1]: *** [Makefile:2540: all-recursive] Error 1
+make[1]: Leaving directory '/home/rvspoc/rvspoc-verify/src/rvspoc-S2604-memcached-pr1'
+make: *** [Makefile:738: all] Error 2

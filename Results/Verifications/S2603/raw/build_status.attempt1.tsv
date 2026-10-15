@@ -1,0 +1,3 @@
+repo	pr	sha	result	seconds	cmd_source	cmd
+rvspoc-S2603-redis	2	5a29525ade3bedf37956cc1d1f389fe562c0464e	BUILD_FAIL	56	default	make -C src -j32
+rvspoc-S2603-redis	3	621fc1bd7b59b53040831e4847c2be4eb219d004	CLONE_FAIL	0	doc	make -j32 CC=gcc-14 REDIS_CFLAGS=-fno-omit-frame-pointer
